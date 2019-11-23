@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/7443146518776888699:TLA.structure.Assumption" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/3180132125891168194:TLA.structure.ConstantDeclaration" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/5078094291900483918:TLA.structure.FunctionDefinition" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/7724032538759451531:TLA.structure.Instance" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/5078094291900978574:TLA.structure.LocalFunctionDefinition" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/7724032538759564569:TLA.structure.LocalInstance" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/5078094291900978596:TLA.structure.LocalOperatorDefinition" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/7405347886383768667:TLA.structure.Module" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/5169970363583785120:TLA.structure.ModuleDefinition" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/5078094291900483647:TLA.structure.OperatorDefinition" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/5078094291900484001:TLA.structure.Separator" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/7443146518776888677:TLA.structure.Theorem" />
+  <concept fqn="c:7a6b8f83-d202-4e59-94ec-f562edfca98d/3180132125891168137:TLA.structure.VariableDeclaration" />
+  <root nodeRef="r:8245b745-7aa8-4ce5-8433-14951098525b(TLA.sandbox)/5932612864439945202">
+    <file name="Hanoi.tla">
+      <node id="5932612864439945809" at="2,26,3,12" concept="12" />
+      <node id="5932612864441770082" at="3,12,4,20" concept="10" />
+      <node id="5932612864439945956" at="4,20,5,84" concept="9" />
+      <node id="5932612864440131992" at="5,84,6,102" concept="9" />
+      <node id="5932612864441770386" at="6,102,7,20" concept="10" />
+      <node id="5932612864440132526" at="7,20,8,26" concept="9" />
+      <node id="5932612864440132593" at="8,26,9,68" concept="9" />
+      <node id="5932612864440132666" at="9,68,10,102" concept="9" />
+      <node id="5932612864439945202" at="1,0,11,20" concept="7" />
+    </file>
+  </root>
+  <root nodeRef="r:8245b745-7aa8-4ce5-8433-14951098525b(TLA.sandbox)/673825205592365030">
+    <file name="test.tla">
+      <node id="673825205592365030" at="1,0,3,20" concept="7" />
+    </file>
+  </root>
+  <root nodeRef="r:8245b745-7aa8-4ce5-8433-14951098525b(TLA.sandbox)/7405347886383838881">
+    <file name="TestModule.tla">
+      <node id="4780320680502359611" at="11,11,11,23" concept="3" />
+      <node id="5078094291901123108" at="13,6,13,25" concept="9" />
+      <node id="5078094291901123733" at="14,6,14,68" concept="2" />
+      <node id="5169970363584158617" at="2,17,3,14" concept="12" />
+      <node id="5078094291901101262" at="3,14,4,18" concept="1" />
+      <node id="5078094291900663439" at="4,18,5,20" concept="10" />
+      <node id="5078094291901439452" at="5,20,6,21" concept="0" />
+      <node id="5078094291900869886" at="6,21,7,47" concept="3" />
+      <node id="5078094291900978422" at="7,47,8,45" concept="5" />
+      <node id="5078094291901123619" at="8,45,9,20" concept="10" />
+      <node id="5078094291901101131" at="9,20,10,20" concept="11" />
+      <node id="4780320680502359607" at="10,20,11,23" concept="8" />
+      <node id="5078094291901122824" at="11,23,12,44" concept="2" />
+      <node id="5078094291901123106" at="12,44,13,25" concept="6" />
+      <node id="5078094291901123731" at="13,25,14,68" concept="4" />
+      <node id="5078094291901123913" at="14,68,15,23" concept="9" />
+      <node id="5932612864439575921" at="15,23,16,44" concept="11" />
+      <node id="8866070886802045453" at="16,44,17,18" concept="12" />
+      <node id="7405347886383838881" at="1,0,18,20" concept="7" />
+    </file>
+  </root>
+</debug-info>
+

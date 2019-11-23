@@ -1,0 +1,2478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="216,0,219,0" name="TLA.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="220,0,223,0" name="TLA.textGen.TextGenAspectDescriptor$PROPS" />
+      <unit at="18,0,224,0" name="TLA.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/336495154189205434">
+    <file name="ModuleNameList_TextGen.java">
+      <node id="336495154189205434" at="16,54,17,55" concept="7" />
+      <node id="336495154189206480" at="18,5,19,104" concept="7" />
+      <node id="336495154189206480" at="19,104,20,70" concept="7" />
+      <node id="336495154189206480" at="21,37,22,29" concept="3" />
+      <node id="336495154189206480" at="23,31,24,26" concept="3" />
+      <node id="336495154189205434" at="31,0,32,0" concept="9" trace="ListM$Vevw" />
+      <node id="336495154189206480" at="22,29,25,9" concept="5" />
+      <node id="336495154189206480" at="20,70,26,7" concept="4" />
+      <node id="336495154189206480" at="17,55,27,5" concept="0" />
+      <node id="336495154189205434" at="15,0,29,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="336495154189206480" at="23,31,24,26" />
+      <scope id="336495154189206480" at="21,37,25,9" />
+      <scope id="336495154189206480" at="20,70,26,7">
+        <var name="item" id="336495154189206480" />
+      </scope>
+      <scope id="336495154189206480" at="18,5,26,7">
+        <var name="collection" id="336495154189206480" />
+        <var name="lastItem" id="336495154189206480" />
+      </scope>
+      <scope id="336495154189205434" at="16,54,27,5">
+        <var name="tgs" id="336495154189205434" />
+      </scope>
+      <scope id="336495154189205434" at="15,0,29,0">
+        <var name="ctx" id="336495154189205434" />
+      </scope>
+      <unit id="336495154189205434" at="30,0,33,0" name="TLA.textGen.ModuleNameList_TextGen$LINKS" />
+      <unit id="336495154189205434" at="14,0,34,0" name="TLA.textGen.ModuleNameList_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="336495154189205434" at="112,48,113,44" concept="8" />
+      <scope id="336495154189205434" at="112,48,113,44" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/336495154189206925">
+    <file name="ExtendedModuleName_TextGen.java">
+      <node id="336495154189206925" at="14,54,15,55" concept="7" />
+      <node id="336495154189206968" at="15,55,16,92" concept="3" />
+      <node id="336495154189206925" at="20,0,21,0" concept="9" trace="ModuleName$Lfj0" />
+      <node id="336495154189206925" at="13,0,18,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="336495154189206925" at="14,54,16,92">
+        <var name="tgs" id="336495154189206925" />
+      </scope>
+      <scope id="336495154189206925" at="13,0,18,0">
+        <var name="ctx" id="336495154189206925" />
+      </scope>
+      <unit id="336495154189206925" at="19,0,22,0" name="TLA.textGen.ExtendedModuleName_TextGen$PROPS" />
+      <unit id="336495154189206925" at="12,0,23,0" name="TLA.textGen.ExtendedModuleName_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="336495154189206925" at="62,52,63,48" concept="8" />
+      <scope id="336495154189206925" at="62,52,63,48" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/673825205591482408">
+    <file name="Module_TextGen.java">
+      <node id="673825205591482408" at="21,54,22,55" concept="7" />
+      <node id="673825205591482408" at="22,55,23,29" concept="3" />
+      <node id="673825205591551006" at="23,29,24,31" concept="3" />
+      <node id="673825205591552475" at="24,31,25,92" concept="3" />
+      <node id="673825205591554660" at="25,92,26,24" concept="3" />
+      <node id="673825205591560390" at="26,24,27,18" concept="3" />
+      <node id="673825205591778690" at="28,170,29,29" concept="3" />
+      <node id="673825205592169578" at="29,29,30,99" concept="3" />
+      <node id="673825205591562585" at="32,98,33,27" concept="3" />
+      <node id="673825205592365753" at="34,5,35,18" concept="3" />
+      <node id="673825205591579917" at="35,18,36,39" concept="3" />
+      <node id="673825205591482408" at="37,30,38,182" concept="3" />
+      <node id="673825205591482408" at="43,0,44,0" concept="9" trace="ModuleName$iAUB" />
+      <node id="673825205591482408" at="47,0,48,0" concept="9" trace="SetOfModuleNames$Bn0" />
+      <node id="673825205591482408" at="48,0,49,0" concept="9" trace="ListM$Vevw" />
+      <node id="673825205591482408" at="49,0,50,0" concept="9" trace="SetOfUnits$fqCa" />
+      <node id="673825205591482408" at="53,0,54,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="673825205591562585" at="31,5,34,5" concept="4" />
+      <node id="673825205591482408" at="36,39,39,5" concept="5" />
+      <node id="673825205591774564" at="27,18,31,5" concept="5" />
+      <node id="673825205591482408" at="20,0,41,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="673825205591562585" at="32,98,33,27" />
+      <scope id="673825205591482408" at="37,30,38,182" />
+      <scope id="673825205591774566" at="28,170,30,99" />
+      <scope id="673825205591562585" at="31,5,34,5">
+        <var name="item" id="673825205591562585" />
+      </scope>
+      <scope id="673825205591482408" at="21,54,39,5">
+        <var name="tgs" id="673825205591482408" />
+      </scope>
+      <scope id="673825205591482408" at="20,0,41,0">
+        <var name="ctx" id="673825205591482408" />
+      </scope>
+      <unit id="673825205591482408" at="42,0,45,0" name="TLA.textGen.Module_TextGen$PROPS" />
+      <unit id="673825205591482408" at="52,0,55,0" name="TLA.textGen.Module_TextGen$CONCEPTS" />
+      <unit id="673825205591482408" at="46,0,51,0" name="TLA.textGen.Module_TextGen$LINKS" />
+      <unit id="673825205591482408" at="19,0,56,0" name="TLA.textGen.Module_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="673825205591482408" at="108,40,109,36" concept="8" />
+      <node id="673825205591482408" at="201,57,202,48" concept="7" />
+      <node id="673825205591482408" at="202,48,203,51" concept="7" />
+      <node id="673825205591482408" at="203,51,204,84" concept="3" />
+      <node id="673825205591482408" at="204,84,205,17" concept="2" />
+      <node id="1301780793258259889" at="209,56,210,81" concept="8" />
+      <node id="336495154188864034" at="212,61,213,17" concept="8" />
+      <node id="673825205591482408" at="209,0,212,0" concept="10" trace="getFileName_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="673825205591482408" at="212,0,215,0" concept="10" trace="getFileExtension_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="673825205591482408" at="200,58,206,7" concept="5" />
+      <scope id="673825205591482408" at="108,40,109,36" />
+      <scope id="673825205591482408" at="209,56,210,81" />
+      <scope id="673825205591482408" at="212,61,213,17" />
+      <scope id="673825205591482408" at="209,0,212,0">
+        <var name="node" id="673825205591482408" />
+      </scope>
+      <scope id="673825205591482408" at="212,0,215,0">
+        <var name="node" id="673825205591482408" />
+      </scope>
+      <scope id="673825205591482408" at="201,57,205,17">
+        <var name="ext" id="673825205591482408" />
+        <var name="fname" id="673825205591482408" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506447521">
+    <file name="Substitution_TextGen.java">
+      <node id="8385117376506447521" at="14,54,15,55" concept="7" />
+      <node id="8385117376506460002" at="15,55,16,92" concept="3" />
+      <node id="8385117376506462714" at="16,92,17,23" concept="3" />
+      <node id="8385117376506462870" at="17,23,18,85" concept="3" />
+      <node id="8385117376506447521" at="22,0,23,0" concept="9" trace="substitLHS$KYGu" />
+      <node id="8385117376506447521" at="23,0,24,0" concept="9" trace="Arg$KZn6" />
+      <node id="8385117376506447521" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506447521" at="14,54,18,85">
+        <var name="tgs" id="8385117376506447521" />
+      </scope>
+      <scope id="8385117376506447521" at="13,0,20,0">
+        <var name="ctx" id="8385117376506447521" />
+      </scope>
+      <unit id="8385117376506447521" at="21,0,25,0" name="TLA.textGen.Substitution_TextGen$LINKS" />
+      <unit id="8385117376506447521" at="12,0,26,0" name="TLA.textGen.Substitution_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506447521" at="178,46,179,42" concept="8" />
+      <scope id="8385117376506447521" at="178,46,179,42" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506492100">
+    <file name="IdentifierNode_TextGen.java">
+      <node id="8385117376506492100" at="14,54,15,55" concept="7" />
+      <node id="8385117376506492143" at="15,55,16,84" concept="3" />
+      <node id="8385117376506492100" at="20,0,21,0" concept="9" trace="ID$ll3w" />
+      <node id="8385117376506492100" at="13,0,18,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506492100" at="14,54,16,84">
+        <var name="tgs" id="8385117376506492100" />
+      </scope>
+      <scope id="8385117376506492100" at="13,0,18,0">
+        <var name="ctx" id="8385117376506492100" />
+      </scope>
+      <unit id="8385117376506492100" at="19,0,22,0" name="TLA.textGen.IdentifierNode_TextGen$PROPS" />
+      <unit id="8385117376506492100" at="12,0,23,0" name="TLA.textGen.IdentifierNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506492100" at="86,48,87,44" concept="8" />
+      <scope id="8385117376506492100" at="86,48,87,44" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506494036">
+    <file name="IdentifierList_TextGen.java">
+      <node id="8385117376506494036" at="16,54,17,55" concept="7" />
+      <node id="8385117376506494079" at="18,5,19,101" concept="7" />
+      <node id="8385117376506494079" at="19,101,20,70" concept="7" />
+      <node id="8385117376506494079" at="21,37,22,29" concept="3" />
+      <node id="8385117376506494079" at="23,31,24,26" concept="3" />
+      <node id="8385117376506494036" at="31,0,32,0" concept="9" trace="ID$llx0" />
+      <node id="8385117376506494079" at="22,29,25,9" concept="5" />
+      <node id="8385117376506494079" at="20,70,26,7" concept="4" />
+      <node id="8385117376506494079" at="17,55,27,5" concept="0" />
+      <node id="8385117376506494036" at="15,0,29,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506494079" at="23,31,24,26" />
+      <scope id="8385117376506494079" at="21,37,25,9" />
+      <scope id="8385117376506494079" at="20,70,26,7">
+        <var name="item" id="8385117376506494079" />
+      </scope>
+      <scope id="8385117376506494079" at="18,5,26,7">
+        <var name="collection" id="8385117376506494079" />
+        <var name="lastItem" id="8385117376506494079" />
+      </scope>
+      <scope id="8385117376506494036" at="16,54,27,5">
+        <var name="tgs" id="8385117376506494036" />
+      </scope>
+      <scope id="8385117376506494036" at="15,0,29,0">
+        <var name="ctx" id="8385117376506494036" />
+      </scope>
+      <unit id="8385117376506494036" at="30,0,33,0" name="TLA.textGen.IdentifierList_TextGen$LINKS" />
+      <unit id="8385117376506494036" at="14,0,34,0" name="TLA.textGen.IdentifierList_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506494036" at="84,48,85,44" concept="8" />
+      <scope id="8385117376506494036" at="84,48,85,44" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506495349">
+    <file name="PrefixOpNode_TextGen.java">
+      <node id="8385117376506495349" at="14,54,15,55" concept="7" />
+      <node id="4780320680500804506" at="17,18,18,26" concept="3" />
+      <node id="4780320680500821323" at="18,26,19,14" concept="1" />
+      <node id="4780320680500811350" at="20,17,21,30" concept="3" />
+      <node id="4780320680500821362" at="21,30,22,14" concept="1" />
+      <node id="4780320680500812029" at="23,20,24,27" concept="3" />
+      <node id="4780320680500821401" at="24,27,25,14" concept="1" />
+      <node id="4780320680500818754" at="26,21,27,27" concept="3" />
+      <node id="4780320680500821440" at="27,27,28,14" concept="1" />
+      <node id="4780320680503342912" at="29,14,30,24" concept="3" />
+      <node id="4780320680500829251" at="30,24,31,103" concept="3" />
+      <node id="4780320680503343069" at="31,103,32,24" concept="3" />
+      <node id="8385117376506495349" at="37,0,38,0" concept="9" trace="PrefixOp$QUQw" />
+      <node id="4780320680500794271" at="15,55,33,5" concept="11" />
+      <node id="8385117376506495349" at="13,0,35,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4780320680500799978" at="17,18,19,14" />
+      <scope id="4780320680500804544" at="20,17,22,14" />
+      <scope id="4780320680500811418" at="23,20,25,14" />
+      <scope id="4780320680500812082" at="26,21,28,14" />
+      <scope id="4780320680500824771" at="29,14,32,24" />
+      <scope id="8385117376506495349" at="14,54,33,5">
+        <var name="tgs" id="8385117376506495349" />
+      </scope>
+      <scope id="8385117376506495349" at="13,0,35,0">
+        <var name="ctx" id="8385117376506495349" />
+      </scope>
+      <unit id="8385117376506495349" at="36,0,39,0" name="TLA.textGen.PrefixOpNode_TextGen$PROPS" />
+      <unit id="8385117376506495349" at="12,0,40,0" name="TLA.textGen.PrefixOpNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506495349" at="138,46,139,42" concept="8" />
+      <scope id="8385117376506495349" at="138,46,139,42" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506498139">
+    <file name="InfixOpNode_TextGen.java">
+      <node id="8385117376506498139" at="14,54,15,55" concept="7" />
+      <node id="4780320680501347654" at="15,55,16,20" concept="3" />
+      <node id="8385117376506498182" at="16,20,17,105" concept="3" />
+      <node id="4780320680501347803" at="17,105,18,20" concept="3" />
+      <node id="8385117376506498139" at="22,0,23,0" concept="9" trace="InfixOp$R0p0" />
+      <node id="8385117376506498139" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506498139" at="14,54,18,20">
+        <var name="tgs" id="8385117376506498139" />
+      </scope>
+      <scope id="8385117376506498139" at="13,0,20,0">
+        <var name="ctx" id="8385117376506498139" />
+      </scope>
+      <unit id="8385117376506498139" at="21,0,24,0" name="TLA.textGen.InfixOpNode_TextGen$PROPS" />
+      <unit id="8385117376506498139" at="12,0,25,0" name="TLA.textGen.InfixOpNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506498139" at="92,45,93,41" concept="8" />
+      <scope id="8385117376506498139" at="92,45,93,41" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506500834">
+    <file name="PostfixOpNode_TextGen.java">
+      <node id="8385117376506500834" at="14,54,15,55" concept="7" />
+      <node id="4780320680503345782" at="15,55,16,20" concept="3" />
+      <node id="8385117376506500877" at="16,20,17,107" concept="3" />
+      <node id="4780320680503345924" at="17,107,18,20" concept="3" />
+      <node id="8385117376506500834" at="22,0,23,0" concept="9" trace="PostfixOp$R0Q0" />
+      <node id="8385117376506500834" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506500834" at="14,54,18,20">
+        <var name="tgs" id="8385117376506500834" />
+      </scope>
+      <scope id="8385117376506500834" at="13,0,20,0">
+        <var name="ctx" id="8385117376506500834" />
+      </scope>
+      <unit id="8385117376506500834" at="21,0,24,0" name="TLA.textGen.PostfixOpNode_TextGen$PROPS" />
+      <unit id="8385117376506500834" at="12,0,25,0" name="TLA.textGen.PostfixOpNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506500834" at="132,47,133,43" concept="8" />
+      <scope id="8385117376506500834" at="132,47,133,43" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506504310">
+    <file name="IdentifierNodeForChoose_TextGen.java">
+      <node id="8385117376506504310" at="16,54,17,55" concept="7" />
+      <node id="8385117376506504353" at="17,55,18,84" concept="3" />
+      <node id="8385117376506509056" at="19,92,20,27" concept="3" />
+      <node id="8385117376506509161" at="20,27,21,94" concept="3" />
+      <node id="8385117376506504310" at="26,0,27,0" concept="9" trace="ID$2Job" />
+      <node id="8385117376506504310" at="30,0,31,0" concept="9" trace="ExprOption$dC4N" />
+      <node id="8385117376506506116" at="18,84,22,5" concept="5" />
+      <node id="8385117376506504310" at="15,0,24,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506506118" at="19,92,21,94" />
+      <scope id="8385117376506504310" at="16,54,22,5">
+        <var name="tgs" id="8385117376506504310" />
+      </scope>
+      <scope id="8385117376506504310" at="15,0,24,0">
+        <var name="ctx" id="8385117376506504310" />
+      </scope>
+      <unit id="8385117376506504310" at="25,0,28,0" name="TLA.textGen.IdentifierNodeForChoose_TextGen$PROPS" />
+      <unit id="8385117376506504310" at="29,0,32,0" name="TLA.textGen.IdentifierNodeForChoose_TextGen$LINKS" />
+      <unit id="8385117376506504310" at="14,0,33,0" name="TLA.textGen.IdentifierNodeForChoose_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506504310" at="88,57,89,53" concept="8" />
+      <scope id="8385117376506504310" at="88,57,89,53" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506510742">
+    <file name="StringNode_TextGen.java">
+      <node id="8385117376506510742" at="14,54,15,55" concept="7" />
+      <node id="8385117376506510785" at="15,55,16,21" concept="3" />
+      <node id="8385117376506510857" at="16,21,17,85" concept="3" />
+      <node id="8385117376506512364" at="17,85,18,21" concept="3" />
+      <node id="8385117376506510742" at="22,0,23,0" concept="9" trace="Str$FNEw" />
+      <node id="8385117376506510742" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506510742" at="14,54,18,21">
+        <var name="tgs" id="8385117376506510742" />
+      </scope>
+      <scope id="8385117376506510742" at="13,0,20,0">
+        <var name="ctx" id="8385117376506510742" />
+      </scope>
+      <unit id="8385117376506510742" at="21,0,24,0" name="TLA.textGen.StringNode_TextGen$PROPS" />
+      <unit id="8385117376506510742" at="12,0,25,0" name="TLA.textGen.StringNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506510742" at="176,44,177,40" concept="8" />
+      <scope id="8385117376506510742" at="176,44,177,40" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506512413">
+    <file name="NumberNode_TextGen.java">
+      <node id="8385117376506512413" at="14,54,15,55" concept="7" />
+      <node id="8385117376506512456" at="15,55,16,88" concept="3" />
+      <node id="8385117376506512413" at="20,0,21,0" concept="9" trace="Number$FNWw" />
+      <node id="8385117376506512413" at="13,0,18,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506512413" at="14,54,16,88">
+        <var name="tgs" id="8385117376506512413" />
+      </scope>
+      <scope id="8385117376506512413" at="13,0,18,0">
+        <var name="ctx" id="8385117376506512413" />
+      </scope>
+      <unit id="8385117376506512413" at="19,0,22,0" name="TLA.textGen.NumberNode_TextGen$PROPS" />
+      <unit id="8385117376506512413" at="12,0,23,0" name="TLA.textGen.NumberNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506512413" at="120,44,121,40" concept="8" />
+      <scope id="8385117376506512413" at="120,44,121,40" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506513779">
+    <file name="CharacterAt_TextGen.java">
+      <node id="8385117376506513779" at="11,54,12,55" concept="7" />
+      <node id="8385117376506513822" at="12,55,13,20" concept="3" />
+      <node id="8385117376506513779" at="10,0,15,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506513779" at="11,54,13,20">
+        <var name="tgs" id="8385117376506513779" />
+      </scope>
+      <scope id="8385117376506513779" at="10,0,15,0">
+        <var name="ctx" id="8385117376506513779" />
+      </scope>
+      <unit id="8385117376506513779" at="9,0,16,0" name="TLA.textGen.CharacterAt_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506513779" at="40,45,41,41" concept="8" />
+      <scope id="8385117376506513779" at="40,45,41,41" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506513858">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506513858" at="182,39,183,35" concept="8" />
+      <scope id="8385117376506513858" at="182,39,183,35" />
+    </file>
+    <file name="Tuple_TextGen.java">
+      <node id="8385117376506513858" at="14,54,15,55" concept="7" />
+      <node id="8385117376506513901" at="15,55,16,21" concept="3" />
+      <node id="8385117376506513958" at="16,21,17,88" concept="3" />
+      <node id="8385117376506515619" at="17,88,18,21" concept="3" />
+      <node id="8385117376506513858" at="22,0,23,0" concept="9" trace="IDList$9ej0" />
+      <node id="8385117376506513858" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506513858" at="14,54,18,21">
+        <var name="tgs" id="8385117376506513858" />
+      </scope>
+      <scope id="8385117376506513858" at="13,0,20,0">
+        <var name="ctx" id="8385117376506513858" />
+      </scope>
+      <unit id="8385117376506513858" at="21,0,24,0" name="TLA.textGen.Tuple_TextGen$LINKS" />
+      <unit id="8385117376506513858" at="12,0,25,0" name="TLA.textGen.Tuple_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506516324">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506516324" at="184,48,185,44" concept="8" />
+      <scope id="8385117376506516324" at="184,48,185,44" />
+    </file>
+    <file name="TupleForChoose_TextGen.java">
+      <node id="8385117376506516324" at="14,54,15,55" concept="7" />
+      <node id="8385117376506516367" at="15,55,16,21" concept="3" />
+      <node id="8385117376506516484" at="16,21,17,88" concept="3" />
+      <node id="8385117376506518144" at="17,88,18,21" concept="3" />
+      <node id="8385117376506520444" at="19,92,20,27" concept="3" />
+      <node id="8385117376506521030" at="20,27,21,94" concept="3" />
+      <node id="8385117376506516324" at="26,0,27,0" concept="9" trace="IDList$2JW0" />
+      <node id="8385117376506516324" at="27,0,28,0" concept="9" trace="ExprOption$dC7d" />
+      <node id="8385117376506518256" at="18,21,22,5" concept="5" />
+      <node id="8385117376506516324" at="13,0,24,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506518258" at="19,92,21,94" />
+      <scope id="8385117376506516324" at="14,54,22,5">
+        <var name="tgs" id="8385117376506516324" />
+      </scope>
+      <scope id="8385117376506516324" at="13,0,24,0">
+        <var name="ctx" id="8385117376506516324" />
+      </scope>
+      <unit id="8385117376506516324" at="25,0,29,0" name="TLA.textGen.TupleForChoose_TextGen$LINKS" />
+      <unit id="8385117376506516324" at="12,0,30,0" name="TLA.textGen.TupleForChoose_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506522884">
+    <file name="Assumption_TextGen.java">
+      <node id="8385117376506522884" at="17,54,18,55" concept="7" />
+      <node id="8385117376506522884" at="18,55,19,29" concept="3" />
+      <node id="1301780793258270267" at="19,29,20,18" concept="3" />
+      <node id="8385117376506522927" at="20,18,21,87" concept="3" />
+      <node id="4780320680502362883" at="21,87,22,20" concept="3" />
+      <node id="8385117376506524795" at="22,20,23,86" concept="3" />
+      <node id="8385117376506522884" at="24,30,25,182" concept="3" />
+      <node id="8385117376506522884" at="30,0,31,0" concept="9" trace="Axiom$R8rY" />
+      <node id="8385117376506522884" at="31,0,32,0" concept="9" trace="Expr$R8sW" />
+      <node id="8385117376506522884" at="35,0,36,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506522884" at="23,86,26,5" concept="5" />
+      <node id="8385117376506522884" at="16,0,28,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506522884" at="24,30,25,182" />
+      <scope id="8385117376506522884" at="17,54,26,5">
+        <var name="tgs" id="8385117376506522884" />
+      </scope>
+      <scope id="8385117376506522884" at="16,0,28,0">
+        <var name="ctx" id="8385117376506522884" />
+      </scope>
+      <unit id="8385117376506522884" at="34,0,37,0" name="TLA.textGen.Assumption_TextGen$CONCEPTS" />
+      <unit id="8385117376506522884" at="29,0,33,0" name="TLA.textGen.Assumption_TextGen$LINKS" />
+      <unit id="8385117376506522884" at="15,0,38,0" name="TLA.textGen.Assumption_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506522884" at="32,44,33,40" concept="8" />
+      <scope id="8385117376506522884" at="32,44,33,40" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506525348">
+    <file name="AxiomNode_TextGen.java">
+      <node id="8385117376506525348" at="14,54,15,55" concept="7" />
+      <node id="8385117376506525391" at="15,55,16,96" concept="3" />
+      <node id="4780320680500721929" at="16,96,17,20" concept="3" />
+      <node id="8385117376506525348" at="21,0,22,0" concept="9" trace="Axiom$R86b" />
+      <node id="8385117376506525348" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506525348" at="14,54,17,20">
+        <var name="tgs" id="8385117376506525348" />
+      </scope>
+      <scope id="8385117376506525348" at="13,0,19,0">
+        <var name="ctx" id="8385117376506525348" />
+      </scope>
+      <unit id="8385117376506525348" at="20,0,23,0" name="TLA.textGen.AxiomNode_TextGen$PROPS" />
+      <unit id="8385117376506525348" at="12,0,24,0" name="TLA.textGen.AxiomNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506525348" at="34,43,35,39" concept="8" />
+      <scope id="8385117376506525348" at="34,43,35,39" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506527842">
+    <file name="LocalModuleDefinition_TextGen.java">
+      <node id="8385117376506527842" at="17,54,18,55" concept="7" />
+      <node id="8385117376506527842" at="18,55,19,29" concept="3" />
+      <node id="1301780793258267099" at="19,29,20,18" concept="3" />
+      <node id="8385117376506527885" at="20,18,21,24" concept="3" />
+      <node id="4780320680501634434" at="21,24,22,20" concept="3" />
+      <node id="8385117376506527957" at="22,20,23,91" concept="3" />
+      <node id="8385117376506529994" at="23,91,24,23" concept="3" />
+      <node id="8385117376506530107" at="24,23,25,90" concept="3" />
+      <node id="8385117376506527842" at="26,30,27,182" concept="3" />
+      <node id="8385117376506527842" at="32,0,33,0" concept="9" trace="NonFixLHS$J3Ud" />
+      <node id="8385117376506527842" at="33,0,34,0" concept="9" trace="Instance$MO8h" />
+      <node id="8385117376506527842" at="37,0,38,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506527842" at="25,90,28,5" concept="5" />
+      <node id="8385117376506527842" at="16,0,30,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506527842" at="26,30,27,182" />
+      <scope id="8385117376506527842" at="17,54,28,5">
+        <var name="tgs" id="8385117376506527842" />
+      </scope>
+      <scope id="8385117376506527842" at="16,0,30,0">
+        <var name="ctx" id="8385117376506527842" />
+      </scope>
+      <unit id="8385117376506527842" at="36,0,39,0" name="TLA.textGen.LocalModuleDefinition_TextGen$CONCEPTS" />
+      <unit id="8385117376506527842" at="31,0,35,0" name="TLA.textGen.LocalModuleDefinition_TextGen$LINKS" />
+      <unit id="8385117376506527842" at="15,0,40,0" name="TLA.textGen.LocalModuleDefinition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506527842" at="104,55,105,51" concept="8" />
+      <scope id="8385117376506527842" at="104,55,105,51" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506534217">
+    <file name="LocalInstance_TextGen.java">
+      <node id="8385117376506534217" at="22,54,23,55" concept="7" />
+      <node id="8385117376506534217" at="23,55,24,29" concept="3" />
+      <node id="1301780793258266375" at="24,29,25,18" concept="3" />
+      <node id="8385117376506534260" at="25,18,26,33" concept="3" />
+      <node id="4780320680501633732" at="26,33,27,20" concept="3" />
+      <node id="8385117376506534347" at="27,20,28,86" concept="3" />
+      <node id="8385117376506548774" at="29,122,30,27" concept="3" />
+      <node id="8385117376506553024" at="31,7,32,113" concept="7" />
+      <node id="8385117376506553024" at="32,113,33,72" concept="7" />
+      <node id="8385117376506553024" at="34,39,35,31" concept="3" />
+      <node id="8385117376506553024" at="36,33,37,28" concept="3" />
+      <node id="8385117376506534217" at="42,30,43,182" concept="3" />
+      <node id="8385117376506534217" at="48,0,49,0" concept="9" trace="Name$klzb" />
+      <node id="8385117376506534217" at="52,0,53,0" concept="9" trace="Substitution$klzE" />
+      <node id="8385117376506534217" at="56,0,57,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506553024" at="35,31,38,11" concept="5" />
+      <node id="8385117376506534217" at="41,5,44,5" concept="5" />
+      <node id="8385117376506553024" at="33,72,39,9" concept="4" />
+      <node id="8385117376506553024" at="30,27,40,7" concept="0" />
+      <node id="8385117376506535951" at="28,86,41,5" concept="5" />
+      <node id="8385117376506534217" at="21,0,46,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506553024" at="36,33,37,28" />
+      <scope id="8385117376506534217" at="42,30,43,182" />
+      <scope id="8385117376506553024" at="34,39,38,11" />
+      <scope id="8385117376506553024" at="33,72,39,9">
+        <var name="item" id="8385117376506553024" />
+      </scope>
+      <scope id="8385117376506553024" at="31,7,39,9">
+        <var name="collection" id="8385117376506553024" />
+        <var name="lastItem" id="8385117376506553024" />
+      </scope>
+      <scope id="8385117376506535953" at="29,122,40,7" />
+      <scope id="8385117376506534217" at="22,54,44,5">
+        <var name="tgs" id="8385117376506534217" />
+      </scope>
+      <scope id="8385117376506534217" at="21,0,46,0">
+        <var name="ctx" id="8385117376506534217" />
+      </scope>
+      <unit id="8385117376506534217" at="47,0,50,0" name="TLA.textGen.LocalInstance_TextGen$PROPS" />
+      <unit id="8385117376506534217" at="51,0,54,0" name="TLA.textGen.LocalInstance_TextGen$LINKS" />
+      <unit id="8385117376506534217" at="55,0,58,0" name="TLA.textGen.LocalInstance_TextGen$CONCEPTS" />
+      <unit id="8385117376506534217" at="20,0,59,0" name="TLA.textGen.LocalInstance_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506534217" at="102,47,103,43" concept="8" />
+      <scope id="8385117376506534217" at="102,47,103,43" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506553778">
+    <file name="LocalFunctionDefinition_TextGen.java">
+      <node id="8385117376506553778" at="17,54,18,55" concept="7" />
+      <node id="8385117376506553778" at="18,55,19,29" concept="3" />
+      <node id="4780320680503100971" at="19,29,20,18" concept="3" />
+      <node id="8385117376506553821" at="20,18,21,24" concept="3" />
+      <node id="4780320680503101114" at="21,24,22,20" concept="3" />
+      <node id="8385117376506553896" at="22,20,23,86" concept="3" />
+      <node id="8385117376506553778" at="24,30,25,182" concept="3" />
+      <node id="8385117376506553778" at="30,0,31,0" concept="9" trace="FDef$Giaw" />
+      <node id="8385117376506553778" at="34,0,35,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506553778" at="23,86,26,5" concept="5" />
+      <node id="8385117376506553778" at="16,0,28,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506553778" at="24,30,25,182" />
+      <scope id="8385117376506553778" at="17,54,26,5">
+        <var name="tgs" id="8385117376506553778" />
+      </scope>
+      <scope id="8385117376506553778" at="16,0,28,0">
+        <var name="ctx" id="8385117376506553778" />
+      </scope>
+      <unit id="8385117376506553778" at="29,0,32,0" name="TLA.textGen.LocalFunctionDefinition_TextGen$LINKS" />
+      <unit id="8385117376506553778" at="33,0,36,0" name="TLA.textGen.LocalFunctionDefinition_TextGen$CONCEPTS" />
+      <unit id="8385117376506553778" at="15,0,37,0" name="TLA.textGen.LocalFunctionDefinition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506553778" at="100,57,101,53" concept="8" />
+      <scope id="8385117376506553778" at="100,57,101,53" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506555934">
+    <file name="LocalOperatorDefinition_TextGen.java">
+      <node id="8385117376506555934" at="17,54,18,55" concept="7" />
+      <node id="8385117376506555934" at="18,55,19,29" concept="3" />
+      <node id="4780320680503100371" at="19,29,20,18" concept="3" />
+      <node id="8385117376506555977" at="20,18,21,24" concept="3" />
+      <node id="4780320680503100472" at="21,24,22,20" concept="3" />
+      <node id="8385117376506556049" at="22,20,23,87" concept="3" />
+      <node id="8385117376506555934" at="24,30,25,182" concept="3" />
+      <node id="8385117376506555934" at="30,0,31,0" concept="9" trace="OpDef$GiEw" />
+      <node id="8385117376506555934" at="34,0,35,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506555934" at="23,87,26,5" concept="5" />
+      <node id="8385117376506555934" at="16,0,28,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506555934" at="24,30,25,182" />
+      <scope id="8385117376506555934" at="17,54,26,5">
+        <var name="tgs" id="8385117376506555934" />
+      </scope>
+      <scope id="8385117376506555934" at="16,0,28,0">
+        <var name="ctx" id="8385117376506555934" />
+      </scope>
+      <unit id="8385117376506555934" at="29,0,32,0" name="TLA.textGen.LocalOperatorDefinition_TextGen$LINKS" />
+      <unit id="8385117376506555934" at="33,0,36,0" name="TLA.textGen.LocalOperatorDefinition_TextGen$CONCEPTS" />
+      <unit id="8385117376506555934" at="15,0,37,0" name="TLA.textGen.LocalOperatorDefinition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506555934" at="106,57,107,53" concept="8" />
+      <scope id="8385117376506555934" at="106,57,107,53" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506560184">
+    <file name="ModuleDefinition_TextGen.java">
+      <node id="8385117376506560184" at="17,54,18,55" concept="7" />
+      <node id="8385117376506560184" at="18,55,19,29" concept="3" />
+      <node id="1301780793258258838" at="19,29,20,18" concept="3" />
+      <node id="8385117376506560302" at="20,18,21,91" concept="3" />
+      <node id="4780320680501638474" at="21,91,22,20" concept="3" />
+      <node id="8385117376506562613" at="22,20,23,21" concept="3" />
+      <node id="4780320680501638628" at="23,21,24,20" concept="3" />
+      <node id="8385117376506562741" at="24,20,25,90" concept="3" />
+      <node id="8385117376506560184" at="26,30,27,182" concept="3" />
+      <node id="8385117376506560184" at="32,0,33,0" concept="9" trace="NonFixLHS$uPR7" />
+      <node id="8385117376506560184" at="33,0,34,0" concept="9" trace="Instance$yUit" />
+      <node id="8385117376506560184" at="37,0,38,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506560184" at="25,90,28,5" concept="5" />
+      <node id="8385117376506560184" at="16,0,30,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506560184" at="26,30,27,182" />
+      <scope id="8385117376506560184" at="17,54,28,5">
+        <var name="tgs" id="8385117376506560184" />
+      </scope>
+      <scope id="8385117376506560184" at="16,0,30,0">
+        <var name="ctx" id="8385117376506560184" />
+      </scope>
+      <unit id="8385117376506560184" at="36,0,39,0" name="TLA.textGen.ModuleDefinition_TextGen$CONCEPTS" />
+      <unit id="8385117376506560184" at="31,0,35,0" name="TLA.textGen.ModuleDefinition_TextGen$LINKS" />
+      <unit id="8385117376506560184" at="15,0,40,0" name="TLA.textGen.ModuleDefinition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506560184" at="110,50,111,46" concept="8" />
+      <scope id="8385117376506560184" at="110,50,111,46" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506564893">
+    <file name="Instance_TextGen.java">
+      <node id="8385117376506564893" at="23,54,24,55" concept="7" />
+      <node id="8385117376506564893" at="24,55,25,29" concept="3" />
+      <node id="4780320680502608609" at="26,122,27,20" concept="3" />
+      <node id="8385117376506564936" at="28,5,29,27" concept="3" />
+      <node id="4780320680501631268" at="29,27,30,20" concept="3" />
+      <node id="8385117376506565008" at="30,20,31,86" concept="3" />
+      <node id="8385117376506578460" at="32,122,33,27" concept="3" />
+      <node id="8385117376506578520" at="34,7,35,113" concept="7" />
+      <node id="8385117376506578520" at="35,113,36,72" concept="7" />
+      <node id="8385117376506578520" at="37,39,38,31" concept="3" />
+      <node id="8385117376506578520" at="39,33,40,28" concept="3" />
+      <node id="8385117376506564893" at="45,30,46,182" concept="3" />
+      <node id="8385117376506564893" at="51,0,52,0" concept="9" trace="ModuleDefinition$nN" />
+      <node id="8385117376506564893" at="52,0,53,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506564893" at="56,0,57,0" concept="9" trace="Name$PEBZ" />
+      <node id="8385117376506564893" at="60,0,61,0" concept="9" trace="Substitution$PF$y" />
+      <node id="4780320680502605620" at="25,29,28,5" concept="5" />
+      <node id="8385117376506578520" at="38,31,41,11" concept="5" />
+      <node id="8385117376506564893" at="44,5,47,5" concept="5" />
+      <node id="8385117376506578520" at="36,72,42,9" concept="4" />
+      <node id="8385117376506578520" at="33,27,43,7" concept="0" />
+      <node id="8385117376506566922" at="31,86,44,5" concept="5" />
+      <node id="8385117376506564893" at="22,0,49,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4780320680502605622" at="26,122,27,20" />
+      <scope id="8385117376506578520" at="39,33,40,28" />
+      <scope id="8385117376506564893" at="45,30,46,182" />
+      <scope id="8385117376506578520" at="37,39,41,11" />
+      <scope id="8385117376506578520" at="36,72,42,9">
+        <var name="item" id="8385117376506578520" />
+      </scope>
+      <scope id="8385117376506578520" at="34,7,42,9">
+        <var name="collection" id="8385117376506578520" />
+        <var name="lastItem" id="8385117376506578520" />
+      </scope>
+      <scope id="8385117376506566924" at="32,122,43,7" />
+      <scope id="8385117376506564893" at="23,54,47,5">
+        <var name="tgs" id="8385117376506564893" />
+      </scope>
+      <scope id="8385117376506564893" at="22,0,49,0">
+        <var name="ctx" id="8385117376506564893" />
+      </scope>
+      <unit id="8385117376506564893" at="55,0,58,0" name="TLA.textGen.Instance_TextGen$PROPS" />
+      <unit id="8385117376506564893" at="59,0,62,0" name="TLA.textGen.Instance_TextGen$LINKS" />
+      <unit id="8385117376506564893" at="50,0,54,0" name="TLA.textGen.Instance_TextGen$CONCEPTS" />
+      <unit id="8385117376506564893" at="21,0,63,0" name="TLA.textGen.Instance_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506564893" at="94,42,95,38" concept="8" />
+      <scope id="8385117376506564893" at="94,42,95,38" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506580223">
+    <file name="OperatorDefinition_TextGen.java">
+      <node id="8385117376506580223" at="18,54,19,55" concept="7" />
+      <node id="8385117376506580223" at="19,55,20,29" concept="3" />
+      <node id="4780320680502854726" at="21,129,22,20" concept="3" />
+      <node id="8385117376506580266" at="23,5,24,85" concept="3" />
+      <node id="4780320680501630222" at="24,85,25,20" concept="3" />
+      <node id="8385117376506582567" at="25,20,26,21" concept="3" />
+      <node id="4780320680501630409" at="26,21,27,20" concept="3" />
+      <node id="8385117376506582666" at="27,20,28,86" concept="3" />
+      <node id="8385117376506580223" at="29,30,30,182" concept="3" />
+      <node id="8385117376506580223" at="35,0,36,0" concept="9" trace="LocalOperatorDefinition$5b" />
+      <node id="8385117376506580223" at="36,0,37,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506580223" at="40,0,41,0" concept="9" trace="LHS$963w" />
+      <node id="8385117376506580223" at="41,0,42,0" concept="9" trace="Expr$96eD" />
+      <node id="4780320680502851219" at="20,29,23,5" concept="5" />
+      <node id="8385117376506580223" at="28,86,31,5" concept="5" />
+      <node id="8385117376506580223" at="17,0,33,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4780320680502851221" at="21,129,22,20" />
+      <scope id="8385117376506580223" at="29,30,30,182" />
+      <scope id="8385117376506580223" at="18,54,31,5">
+        <var name="tgs" id="8385117376506580223" />
+      </scope>
+      <scope id="8385117376506580223" at="17,0,33,0">
+        <var name="ctx" id="8385117376506580223" />
+      </scope>
+      <unit id="8385117376506580223" at="34,0,38,0" name="TLA.textGen.OperatorDefinition_TextGen$CONCEPTS" />
+      <unit id="8385117376506580223" at="39,0,43,0" name="TLA.textGen.OperatorDefinition_TextGen$LINKS" />
+      <unit id="8385117376506580223" at="16,0,44,0" name="TLA.textGen.OperatorDefinition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506580223" at="126,52,127,48" concept="8" />
+      <scope id="8385117376506580223" at="126,52,127,48" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506583086">
+    <file name="FunctionDefinition_TextGen.java">
+      <node id="8385117376506583086" at="21,54,22,55" concept="7" />
+      <node id="8385117376506583086" at="22,55,23,29" concept="3" />
+      <node id="4780320680502859385" at="24,129,25,20" concept="3" />
+      <node id="8385117376506583129" at="26,5,27,84" concept="3" />
+      <node id="8385117376506585316" at="27,84,28,20" concept="3" />
+      <node id="8385117376506585770" at="29,103,30,27" concept="3" />
+      <node id="8385117376506587592" at="31,5,32,24" concept="3" />
+      <node id="8385117376506587966" at="32,24,33,86" concept="3" />
+      <node id="8385117376506583086" at="34,30,35,182" concept="3" />
+      <node id="8385117376506583086" at="40,0,41,0" concept="9" trace="LocalFunctionDefinition$Ab" />
+      <node id="8385117376506583086" at="41,0,42,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506583086" at="45,0,46,0" concept="9" trace="ID$9rR0" />
+      <node id="8385117376506583086" at="49,0,50,0" concept="9" trace="QuantifierBound$9s29" />
+      <node id="8385117376506583086" at="50,0,51,0" concept="9" trace="Expr$9s37" />
+      <node id="4780320680502855588" at="23,29,26,5" concept="5" />
+      <node id="8385117376506585770" at="28,20,31,5" concept="4" />
+      <node id="8385117376506583086" at="33,86,36,5" concept="5" />
+      <node id="8385117376506583086" at="20,0,38,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4780320680502855590" at="24,129,25,20" />
+      <scope id="8385117376506585770" at="29,103,30,27" />
+      <scope id="8385117376506583086" at="34,30,35,182" />
+      <scope id="8385117376506585770" at="28,20,31,5">
+        <var name="item" id="8385117376506585770" />
+      </scope>
+      <scope id="8385117376506583086" at="21,54,36,5">
+        <var name="tgs" id="8385117376506583086" />
+      </scope>
+      <scope id="8385117376506583086" at="20,0,38,0">
+        <var name="ctx" id="8385117376506583086" />
+      </scope>
+      <unit id="8385117376506583086" at="44,0,47,0" name="TLA.textGen.FunctionDefinition_TextGen$PROPS" />
+      <unit id="8385117376506583086" at="39,0,43,0" name="TLA.textGen.FunctionDefinition_TextGen$CONCEPTS" />
+      <unit id="8385117376506583086" at="48,0,52,0" name="TLA.textGen.FunctionDefinition_TextGen$LINKS" />
+      <unit id="8385117376506583086" at="19,0,53,0" name="TLA.textGen.FunctionDefinition_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506583086" at="66,52,67,48" concept="8" />
+      <scope id="8385117376506583086" at="66,52,67,48" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506591947">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506591947" at="188,53,189,49" concept="8" />
+      <scope id="8385117376506591947" at="188,53,189,49" />
+    </file>
+    <file name="VariableDeclaration_TextGen.java">
+      <node id="8385117376506591947" at="17,54,18,55" concept="7" />
+      <node id="8385117376506591947" at="18,55,19,29" concept="3" />
+      <node id="1301780793258256395" at="19,29,20,18" concept="3" />
+      <node id="8385117376506591990" at="20,18,21,27" concept="3" />
+      <node id="4780320680501629276" at="21,27,22,20" concept="3" />
+      <node id="8385117376506592050" at="22,20,23,88" concept="3" />
+      <node id="8385117376506591947" at="24,30,25,182" concept="3" />
+      <node id="8385117376506591947" at="30,0,31,0" concept="9" trace="IDList$Xpjd" />
+      <node id="8385117376506591947" at="34,0,35,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506591947" at="23,88,26,5" concept="5" />
+      <node id="8385117376506591947" at="16,0,28,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506591947" at="24,30,25,182" />
+      <scope id="8385117376506591947" at="17,54,26,5">
+        <var name="tgs" id="8385117376506591947" />
+      </scope>
+      <scope id="8385117376506591947" at="16,0,28,0">
+        <var name="ctx" id="8385117376506591947" />
+      </scope>
+      <unit id="8385117376506591947" at="29,0,32,0" name="TLA.textGen.VariableDeclaration_TextGen$LINKS" />
+      <unit id="8385117376506591947" at="33,0,36,0" name="TLA.textGen.VariableDeclaration_TextGen$CONCEPTS" />
+      <unit id="8385117376506591947" at="15,0,37,0" name="TLA.textGen.VariableDeclaration_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506594038">
+    <file name="ConstantDeclaration_TextGen.java">
+      <node id="8385117376506594038" at="17,54,18,55" concept="7" />
+      <node id="8385117376506594038" at="18,55,19,29" concept="3" />
+      <node id="1301780793258255902" at="19,29,20,18" concept="3" />
+      <node id="8385117376506595370" at="20,18,21,27" concept="3" />
+      <node id="4780320680501387643" at="21,27,22,20" concept="3" />
+      <node id="8385117376506595442" at="22,20,23,89" concept="3" />
+      <node id="8385117376506594038" at="24,30,25,182" concept="3" />
+      <node id="8385117376506594038" at="30,0,31,0" concept="9" trace="OpDeclL$PA7w" />
+      <node id="8385117376506594038" at="34,0,35,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506594038" at="23,89,26,5" concept="5" />
+      <node id="8385117376506594038" at="16,0,28,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506594038" at="24,30,25,182" />
+      <scope id="8385117376506594038" at="17,54,26,5">
+        <var name="tgs" id="8385117376506594038" />
+      </scope>
+      <scope id="8385117376506594038" at="16,0,28,0">
+        <var name="ctx" id="8385117376506594038" />
+      </scope>
+      <unit id="8385117376506594038" at="29,0,32,0" name="TLA.textGen.ConstantDeclaration_TextGen$LINKS" />
+      <unit id="8385117376506594038" at="33,0,36,0" name="TLA.textGen.ConstantDeclaration_TextGen$CONCEPTS" />
+      <unit id="8385117376506594038" at="15,0,37,0" name="TLA.textGen.ConstantDeclaration_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506594038" at="44,53,45,49" concept="8" />
+      <scope id="8385117376506594038" at="44,53,45,49" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506597423">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506597423" at="180,41,181,37" concept="8" />
+      <scope id="8385117376506597423" at="180,41,181,37" />
+    </file>
+    <file name="Theorem_TextGen.java">
+      <node id="8385117376506597423" at="17,54,18,55" concept="7" />
+      <node id="8385117376506597423" at="18,55,19,29" concept="3" />
+      <node id="1301780793258255434" at="19,29,20,18" concept="3" />
+      <node id="8385117376506597466" at="20,18,21,26" concept="3" />
+      <node id="4780320680501628469" at="21,26,22,20" concept="3" />
+      <node id="8385117376506597538" at="22,20,23,86" concept="3" />
+      <node id="8385117376506597423" at="24,30,25,182" concept="3" />
+      <node id="8385117376506597423" at="30,0,31,0" concept="9" trace="Expr$R270" />
+      <node id="8385117376506597423" at="34,0,35,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506597423" at="23,86,26,5" concept="5" />
+      <node id="8385117376506597423" at="16,0,28,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506597423" at="24,30,25,182" />
+      <scope id="8385117376506597423" at="17,54,26,5">
+        <var name="tgs" id="8385117376506597423" />
+      </scope>
+      <scope id="8385117376506597423" at="16,0,28,0">
+        <var name="ctx" id="8385117376506597423" />
+      </scope>
+      <unit id="8385117376506597423" at="29,0,32,0" name="TLA.textGen.Theorem_TextGen$LINKS" />
+      <unit id="8385117376506597423" at="33,0,36,0" name="TLA.textGen.Theorem_TextGen$CONCEPTS" />
+      <unit id="8385117376506597423" at="15,0,37,0" name="TLA.textGen.Theorem_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506599527">
+    <file name="Separator_TextGen.java">
+      <node id="8385117376506599527" at="15,54,16,55" concept="7" />
+      <node id="8385117376506599527" at="16,55,17,29" concept="3" />
+      <node id="1301780793258254984" at="17,29,18,18" concept="3" />
+      <node id="1301780793259624174" at="18,18,19,20" concept="3" />
+      <node id="8385117376506599570" at="19,20,20,38" concept="3" />
+      <node id="8385117376506599527" at="21,30,22,182" concept="3" />
+      <node id="8385117376506599527" at="27,0,28,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="8385117376506599527" at="20,38,23,5" concept="5" />
+      <node id="8385117376506599527" at="14,0,25,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8385117376506599527" at="21,30,22,182" />
+      <scope id="8385117376506599527" at="15,54,23,5">
+        <var name="tgs" id="8385117376506599527" />
+      </scope>
+      <scope id="8385117376506599527" at="14,0,25,0">
+        <var name="ctx" id="8385117376506599527" />
+      </scope>
+      <unit id="8385117376506599527" at="26,0,29,0" name="TLA.textGen.Separator_TextGen$CONCEPTS" />
+      <unit id="8385117376506599527" at="13,0,30,0" name="TLA.textGen.Separator_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8385117376506599527" at="160,43,161,39" concept="8" />
+      <scope id="8385117376506599527" at="160,43,161,39" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736503373">
+    <file name="GeneralIdentifier_TextGen.java">
+      <node id="8968830352736503373" at="16,54,17,55" concept="7" />
+      <node id="8968830352736506106" at="18,96,19,98" concept="3" />
+      <node id="8968830352736508036" at="20,5,21,84" concept="3" />
+      <node id="8968830352736503373" at="25,0,26,0" concept="9" trace="InstancePrefix$gqQG" />
+      <node id="8968830352736503373" at="29,0,30,0" concept="9" trace="ID$gqRE" />
+      <node id="8968830352736503446" at="17,55,20,5" concept="5" />
+      <node id="8968830352736503373" at="15,0,23,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736503448" at="18,96,19,98" />
+      <scope id="8968830352736503373" at="16,54,21,84">
+        <var name="tgs" id="8968830352736503373" />
+      </scope>
+      <scope id="8968830352736503373" at="15,0,23,0">
+        <var name="ctx" id="8968830352736503373" />
+      </scope>
+      <unit id="8968830352736503373" at="24,0,27,0" name="TLA.textGen.GeneralIdentifier_TextGen$LINKS" />
+      <unit id="8968830352736503373" at="28,0,31,0" name="TLA.textGen.GeneralIdentifier_TextGen$PROPS" />
+      <unit id="8968830352736503373" at="14,0,32,0" name="TLA.textGen.GeneralIdentifier_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736503373" at="68,51,69,47" concept="8" />
+      <scope id="8968830352736503373" at="68,51,69,47" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736511031">
+    <file name="GeneralIdentifierAndArg_TextGen.java">
+      <node id="8968830352736511031" at="16,54,17,55" concept="7" />
+      <node id="8968830352736511092" at="17,55,18,91" concept="3" />
+      <node id="8968830352736512592" at="18,91,19,20" concept="3" />
+      <node id="8968830352736512703" at="20,5,21,103" concept="7" />
+      <node id="8968830352736512703" at="21,103,22,70" concept="7" />
+      <node id="8968830352736512703" at="23,37,24,29" concept="3" />
+      <node id="8968830352736512703" at="25,31,26,26" concept="3" />
+      <node id="8968830352736512932" at="29,5,30,20" concept="3" />
+      <node id="8968830352736511031" at="34,0,35,0" concept="9" trace="GeneralID$nVRw" />
+      <node id="8968830352736511031" at="35,0,36,0" concept="9" trace="Args$nVSu" />
+      <node id="8968830352736512703" at="24,29,27,9" concept="5" />
+      <node id="8968830352736512703" at="22,70,28,7" concept="4" />
+      <node id="8968830352736512703" at="19,20,29,5" concept="0" />
+      <node id="8968830352736511031" at="15,0,32,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736512703" at="25,31,26,26" />
+      <scope id="8968830352736512703" at="23,37,27,9" />
+      <scope id="8968830352736512703" at="22,70,28,7">
+        <var name="item" id="8968830352736512703" />
+      </scope>
+      <scope id="8968830352736512703" at="20,5,28,7">
+        <var name="collection" id="8968830352736512703" />
+        <var name="lastItem" id="8968830352736512703" />
+      </scope>
+      <scope id="8968830352736511031" at="16,54,30,20">
+        <var name="tgs" id="8968830352736511031" />
+      </scope>
+      <scope id="8968830352736511031" at="15,0,32,0">
+        <var name="ctx" id="8968830352736511031" />
+      </scope>
+      <unit id="8968830352736511031" at="33,0,37,0" name="TLA.textGen.GeneralIdentifierAndArg_TextGen$LINKS" />
+      <unit id="8968830352736511031" at="14,0,38,0" name="TLA.textGen.GeneralIdentifierAndArg_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736511031" at="70,57,71,53" concept="8" />
+      <scope id="8968830352736511031" at="70,57,71,53" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736513007">
+    <file name="GeneralPrefixOpAndExpression_TextGen.java">
+      <node id="8968830352736513007" at="14,54,15,55" concept="7" />
+      <node id="8968830352736513050" at="15,55,16,91" concept="3" />
+      <node id="8968830352736514677" at="16,91,17,86" concept="3" />
+      <node id="8968830352736513007" at="21,0,22,0" concept="9" trace="GPrefixOp$o2a0" />
+      <node id="8968830352736513007" at="22,0,23,0" concept="9" trace="Expr$o2aY" />
+      <node id="8968830352736513007" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736513007" at="14,54,17,86">
+        <var name="tgs" id="8968830352736513007" />
+      </scope>
+      <scope id="8968830352736513007" at="13,0,19,0">
+        <var name="ctx" id="8968830352736513007" />
+      </scope>
+      <unit id="8968830352736513007" at="20,0,24,0" name="TLA.textGen.GeneralPrefixOpAndExpression_TextGen$LINKS" />
+      <unit id="8968830352736513007" at="12,0,25,0" name="TLA.textGen.GeneralPrefixOpAndExpression_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736513007" at="78,62,79,58" concept="8" />
+      <scope id="8968830352736513007" at="78,62,79,58" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736516284">
+    <file name="ExprAndGeneralInfixOpAndExpr_TextGen.java">
+      <node id="8968830352736516284" at="14,54,15,55" concept="7" />
+      <node id="8968830352736516327" at="15,55,16,87" concept="3" />
+      <node id="8968830352736517973" at="16,87,17,90" concept="3" />
+      <node id="8968830352736518435" at="17,90,18,87" concept="3" />
+      <node id="8968830352736516284" at="22,0,23,0" concept="9" trace="Expr1$So6u" />
+      <node id="8968830352736516284" at="23,0,24,0" concept="9" trace="GInfixOp$Soj4" />
+      <node id="8968830352736516284" at="24,0,25,0" concept="9" trace="Expr2$SohB" />
+      <node id="8968830352736516284" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736516284" at="14,54,18,87">
+        <var name="tgs" id="8968830352736516284" />
+      </scope>
+      <scope id="8968830352736516284" at="13,0,20,0">
+        <var name="ctx" id="8968830352736516284" />
+      </scope>
+      <unit id="8968830352736516284" at="21,0,26,0" name="TLA.textGen.ExprAndGeneralInfixOpAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736516284" at="12,0,27,0" name="TLA.textGen.ExprAndGeneralInfixOpAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736516284" at="50,62,51,58" concept="8" />
+      <scope id="8968830352736516284" at="50,62,51,58" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736519595">
+    <file name="ExprAndGeneralPostfixOp_TextGen.java">
+      <node id="8968830352736519595" at="14,54,15,55" concept="7" />
+      <node id="8968830352736519638" at="15,55,16,86" concept="3" />
+      <node id="8968830352736521127" at="16,86,17,92" concept="3" />
+      <node id="8968830352736519595" at="21,0,22,0" concept="9" trace="Expr$Sp3w" />
+      <node id="8968830352736519595" at="22,0,23,0" concept="9" trace="GPostfixOp$Sp4u" />
+      <node id="8968830352736519595" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736519595" at="14,54,17,92">
+        <var name="tgs" id="8968830352736519595" />
+      </scope>
+      <scope id="8968830352736519595" at="13,0,19,0">
+        <var name="ctx" id="8968830352736519595" />
+      </scope>
+      <unit id="8968830352736519595" at="20,0,24,0" name="TLA.textGen.ExprAndGeneralPostfixOp_TextGen$LINKS" />
+      <unit id="8968830352736519595" at="12,0,25,0" name="TLA.textGen.ExprAndGeneralPostfixOp_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736519595" at="52,57,53,53" concept="8" />
+      <scope id="8968830352736519595" at="52,57,53,53" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736522791">
+    <file name="ExpressionBetweenParentheses_TextGen.java">
+      <node id="8968830352736522791" at="14,54,15,55" concept="7" />
+      <node id="8968830352736522834" at="15,55,16,20" concept="3" />
+      <node id="8968830352736522906" at="16,20,17,86" concept="3" />
+      <node id="8968830352736524535" at="17,86,18,20" concept="3" />
+      <node id="8968830352736522791" at="22,0,23,0" concept="9" trace="Expr$SpJw" />
+      <node id="8968830352736522791" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736522791" at="14,54,18,20">
+        <var name="tgs" id="8968830352736522791" />
+      </scope>
+      <scope id="8968830352736522791" at="13,0,20,0">
+        <var name="ctx" id="8968830352736522791" />
+      </scope>
+      <unit id="8968830352736522791" at="21,0,24,0" name="TLA.textGen.ExpressionBetweenParentheses_TextGen$LINKS" />
+      <unit id="8968830352736522791" at="12,0,25,0" name="TLA.textGen.ExpressionBetweenParentheses_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736522791" at="58,62,59,58" concept="8" />
+      <scope id="8968830352736522791" at="58,62,59,58" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736524599">
+    <file name="QuantifierBoundAndExpr_TextGen.java">
+      <node id="8968830352736524599" at="18,54,19,55" concept="7" />
+      <node id="4780320680500719381" at="19,55,20,22" concept="3" />
+      <node id="8968830352736524642" at="20,22,21,94" concept="3" />
+      <node id="4780320680503592494" at="21,94,22,20" concept="3" />
+      <node id="8968830352736526868" at="23,5,24,105" concept="7" />
+      <node id="8968830352736526868" at="24,105,25,70" concept="7" />
+      <node id="8968830352736526868" at="26,37,27,29" concept="3" />
+      <node id="8968830352736526868" at="28,31,29,26" concept="3" />
+      <node id="8968830352736527095" at="32,5,33,22" concept="3" />
+      <node id="8968830352736527228" at="33,22,34,86" concept="3" />
+      <node id="8968830352736524599" at="38,0,39,0" concept="9" trace="EorA$Sw1$" />
+      <node id="8968830352736524599" at="42,0,43,0" concept="9" trace="QBList$Sw2y" />
+      <node id="8968830352736524599" at="43,0,44,0" concept="9" trace="Expr$Sw3w" />
+      <node id="8968830352736526868" at="27,29,30,9" concept="5" />
+      <node id="8968830352736526868" at="25,70,31,7" concept="4" />
+      <node id="8968830352736526868" at="22,20,32,5" concept="0" />
+      <node id="8968830352736524599" at="17,0,36,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736526868" at="28,31,29,26" />
+      <scope id="8968830352736526868" at="26,37,30,9" />
+      <scope id="8968830352736526868" at="25,70,31,7">
+        <var name="item" id="8968830352736526868" />
+      </scope>
+      <scope id="8968830352736526868" at="23,5,31,7">
+        <var name="collection" id="8968830352736526868" />
+        <var name="lastItem" id="8968830352736526868" />
+      </scope>
+      <scope id="8968830352736524599" at="18,54,34,86">
+        <var name="tgs" id="8968830352736524599" />
+      </scope>
+      <scope id="8968830352736524599" at="17,0,36,0">
+        <var name="ctx" id="8968830352736524599" />
+      </scope>
+      <unit id="8968830352736524599" at="37,0,40,0" name="TLA.textGen.QuantifierBoundAndExpr_TextGen$PROPS" />
+      <unit id="8968830352736524599" at="41,0,45,0" name="TLA.textGen.QuantifierBoundAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736524599" at="16,0,46,0" name="TLA.textGen.QuantifierBoundAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736524599" at="146,56,147,52" concept="8" />
+      <scope id="8968830352736524599" at="146,56,147,52" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736529888">
+    <file name="QuantifierAndIDListAndExpr_TextGen.java">
+      <node id="8968830352736529888" at="16,54,17,55" concept="7" />
+      <node id="4780320680500720473" at="17,55,18,22" concept="3" />
+      <node id="8968830352736529931" at="18,22,19,94" concept="3" />
+      <node id="4780320680503589273" at="19,94,20,20" concept="3" />
+      <node id="8968830352736531594" at="20,20,21,88" concept="3" />
+      <node id="8968830352736533328" at="21,88,22,22" concept="3" />
+      <node id="8968830352736533493" at="22,22,23,86" concept="3" />
+      <node id="8968830352736529888" at="27,0,28,0" concept="9" trace="EorA$SB40" />
+      <node id="8968830352736529888" at="31,0,32,0" concept="9" trace="IDList$SB4Y" />
+      <node id="8968830352736529888" at="32,0,33,0" concept="9" trace="Expr$SB5W" />
+      <node id="8968830352736529888" at="15,0,25,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736529888" at="16,54,23,86">
+        <var name="tgs" id="8968830352736529888" />
+      </scope>
+      <scope id="8968830352736529888" at="15,0,25,0">
+        <var name="ctx" id="8968830352736529888" />
+      </scope>
+      <unit id="8968830352736529888" at="26,0,29,0" name="TLA.textGen.QuantifierAndIDListAndExpr_TextGen$PROPS" />
+      <unit id="8968830352736529888" at="30,0,34,0" name="TLA.textGen.QuantifierAndIDListAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736529888" at="14,0,35,0" name="TLA.textGen.QuantifierAndIDListAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736529888" at="142,60,143,56" concept="8" />
+      <scope id="8968830352736529888" at="142,60,143,56" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736535451">
+    <file name="ChooseAndExpressions_TextGen.java">
+      <node id="8968830352736535451" at="14,54,15,55" concept="7" />
+      <node id="8968830352736535494" at="15,55,16,26" concept="3" />
+      <node id="8968830352736535581" at="16,26,17,91" concept="3" />
+      <node id="8968830352736537204" at="17,91,18,22" concept="3" />
+      <node id="8968830352736537320" at="18,22,19,95" concept="3" />
+      <node id="8968830352736535451" at="23,0,24,0" concept="9" trace="IDorTuple$6SHw" />
+      <node id="8968830352736535451" at="24,0,25,0" concept="9" trace="ExprMandatory$6SU6" />
+      <node id="8968830352736535451" at="13,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736535451" at="14,54,19,95">
+        <var name="tgs" id="8968830352736535451" />
+      </scope>
+      <scope id="8968830352736535451" at="13,0,21,0">
+        <var name="ctx" id="8968830352736535451" />
+      </scope>
+      <unit id="8968830352736535451" at="22,0,26,0" name="TLA.textGen.ChooseAndExpressions_TextGen$LINKS" />
+      <unit id="8968830352736535451" at="12,0,27,0" name="TLA.textGen.ChooseAndExpressions_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736535451" at="42,54,43,50" concept="8" />
+      <scope id="8968830352736535451" at="42,54,43,50" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736537832">
+    <file name="SetExpr_TextGen.java">
+      <node id="8968830352736537832" at="16,54,17,55" concept="7" />
+      <node id="8968830352736537875" at="17,55,18,20" concept="3" />
+      <node id="8968830352736537932" at="19,5,20,110" concept="7" />
+      <node id="8968830352736537932" at="20,110,21,70" concept="7" />
+      <node id="8968830352736537932" at="22,37,23,29" concept="3" />
+      <node id="8968830352736537932" at="24,31,25,26" concept="3" />
+      <node id="8968830352736539214" at="28,5,29,20" concept="3" />
+      <node id="8968830352736537832" at="33,0,34,0" concept="9" trace="Expressions$YfWw" />
+      <node id="8968830352736537932" at="23,29,26,9" concept="5" />
+      <node id="8968830352736537932" at="21,70,27,7" concept="4" />
+      <node id="8968830352736537932" at="18,20,28,5" concept="0" />
+      <node id="8968830352736537832" at="15,0,31,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736537932" at="24,31,25,26" />
+      <scope id="8968830352736537932" at="22,37,26,9" />
+      <scope id="8968830352736537932" at="21,70,27,7">
+        <var name="item" id="8968830352736537932" />
+      </scope>
+      <scope id="8968830352736537932" at="19,5,27,7">
+        <var name="collection" id="8968830352736537932" />
+        <var name="lastItem" id="8968830352736537932" />
+      </scope>
+      <scope id="8968830352736537832" at="16,54,29,20">
+        <var name="tgs" id="8968830352736537832" />
+      </scope>
+      <scope id="8968830352736537832" at="15,0,31,0">
+        <var name="ctx" id="8968830352736537832" />
+      </scope>
+      <unit id="8968830352736537832" at="32,0,35,0" name="TLA.textGen.SetExpr_TextGen$LINKS" />
+      <unit id="8968830352736537832" at="14,0,36,0" name="TLA.textGen.SetExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736537832" at="162,41,163,37" concept="8" />
+      <scope id="8968830352736537832" at="162,41,163,37" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736540250">
+    <file name="SetIDorTupleAndExpr_TextGen.java">
+      <node id="8968830352736540250" at="14,54,15,55" concept="7" />
+      <node id="8968830352736540293" at="15,55,16,20" concept="3" />
+      <node id="8968830352736540350" at="16,20,17,91" concept="3" />
+      <node id="8968830352736542609" at="17,91,18,25" concept="3" />
+      <node id="8968830352736542710" at="18,25,19,87" concept="3" />
+      <node id="8968830352736543705" at="19,87,20,22" concept="3" />
+      <node id="8968830352736544252" at="20,22,21,87" concept="3" />
+      <node id="8968830352736545720" at="21,87,22,20" concept="3" />
+      <node id="8968830352736540250" at="26,0,27,0" concept="9" trace="IDorTuple$Hdow" />
+      <node id="8968830352736540250" at="27,0,28,0" concept="9" trace="Expr1$Hdpu" />
+      <node id="8968830352736540250" at="28,0,29,0" concept="9" trace="Expr2$Hd_6" />
+      <node id="8968830352736540250" at="13,0,24,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736540250" at="14,54,22,20">
+        <var name="tgs" id="8968830352736540250" />
+      </scope>
+      <scope id="8968830352736540250" at="13,0,24,0">
+        <var name="ctx" id="8968830352736540250" />
+      </scope>
+      <unit id="8968830352736540250" at="25,0,30,0" name="TLA.textGen.SetIDorTupleAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736540250" at="12,0,31,0" name="TLA.textGen.SetIDorTupleAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736540250" at="166,53,167,49" concept="8" />
+      <scope id="8968830352736540250" at="166,53,167,49" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736545855">
+    <file name="SetExprAndQuantifierBound_TextGen.java">
+      <node id="8968830352736545855" at="16,54,17,55" concept="7" />
+      <node id="8968830352736545898" at="17,55,18,20" concept="3" />
+      <node id="8968830352736545955" at="18,20,19,86" concept="3" />
+      <node id="8968830352736547449" at="19,86,20,22" concept="3" />
+      <node id="8968830352736547740" at="21,5,22,114" concept="7" />
+      <node id="8968830352736547740" at="22,114,23,70" concept="7" />
+      <node id="8968830352736547740" at="24,37,25,29" concept="3" />
+      <node id="8968830352736547740" at="26,31,27,26" concept="3" />
+      <node id="8968830352736549213" at="30,5,31,20" concept="3" />
+      <node id="8968830352736545855" at="35,0,36,0" concept="9" trace="Expr$Kwxw" />
+      <node id="8968830352736545855" at="36,0,37,0" concept="9" trace="QuantifierBound$Kwyu" />
+      <node id="8968830352736547740" at="25,29,28,9" concept="5" />
+      <node id="8968830352736547740" at="23,70,29,7" concept="4" />
+      <node id="8968830352736547740" at="20,22,30,5" concept="0" />
+      <node id="8968830352736545855" at="15,0,33,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736547740" at="26,31,27,26" />
+      <scope id="8968830352736547740" at="24,37,28,9" />
+      <scope id="8968830352736547740" at="23,70,29,7">
+        <var name="item" id="8968830352736547740" />
+      </scope>
+      <scope id="8968830352736547740" at="21,5,29,7">
+        <var name="collection" id="8968830352736547740" />
+        <var name="lastItem" id="8968830352736547740" />
+      </scope>
+      <scope id="8968830352736545855" at="16,54,31,20">
+        <var name="tgs" id="8968830352736545855" />
+      </scope>
+      <scope id="8968830352736545855" at="15,0,33,0">
+        <var name="ctx" id="8968830352736545855" />
+      </scope>
+      <unit id="8968830352736545855" at="34,0,38,0" name="TLA.textGen.SetExprAndQuantifierBound_TextGen$LINKS" />
+      <unit id="8968830352736545855" at="14,0,39,0" name="TLA.textGen.SetExprAndQuantifierBound_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736545855" at="164,59,165,55" concept="8" />
+      <scope id="8968830352736545855" at="164,59,165,55" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736549304">
+    <file name="FunctionAndRange_TextGen.java">
+      <node id="8968830352736549304" at="16,54,17,55" concept="7" />
+      <node id="8968830352736549347" at="17,55,18,86" concept="3" />
+      <node id="8968830352736550974" at="18,86,19,20" concept="3" />
+      <node id="8968830352736551085" at="20,5,21,107" concept="7" />
+      <node id="8968830352736551085" at="21,107,22,70" concept="7" />
+      <node id="8968830352736551085" at="23,37,24,29" concept="3" />
+      <node id="8968830352736551085" at="25,31,26,26" concept="3" />
+      <node id="8968830352736551314" at="29,5,30,20" concept="3" />
+      <node id="8968830352736549304" at="34,0,35,0" concept="9" trace="Expr$KB70" />
+      <node id="8968830352736549304" at="35,0,36,0" concept="9" trace="ExprList$KB7Y" />
+      <node id="8968830352736551085" at="24,29,27,9" concept="5" />
+      <node id="8968830352736551085" at="22,70,28,7" concept="4" />
+      <node id="8968830352736551085" at="19,20,29,5" concept="0" />
+      <node id="8968830352736549304" at="15,0,32,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736551085" at="25,31,26,26" />
+      <scope id="8968830352736551085" at="23,37,27,9" />
+      <scope id="8968830352736551085" at="22,70,28,7">
+        <var name="item" id="8968830352736551085" />
+      </scope>
+      <scope id="8968830352736551085" at="20,5,28,7">
+        <var name="collection" id="8968830352736551085" />
+        <var name="lastItem" id="8968830352736551085" />
+      </scope>
+      <scope id="8968830352736549304" at="16,54,30,20">
+        <var name="tgs" id="8968830352736549304" />
+      </scope>
+      <scope id="8968830352736549304" at="15,0,32,0">
+        <var name="ctx" id="8968830352736549304" />
+      </scope>
+      <unit id="8968830352736549304" at="33,0,37,0" name="TLA.textGen.FunctionAndRange_TextGen$LINKS" />
+      <unit id="8968830352736549304" at="14,0,38,0" name="TLA.textGen.FunctionAndRange_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736549304" at="64,50,65,46" concept="8" />
+      <scope id="8968830352736549304" at="64,50,65,46" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736551629">
+    <file name="RangeQuantifierBoundAndExpr_TextGen.java">
+      <node id="8968830352736551629" at="16,54,17,55" concept="7" />
+      <node id="8968830352736553875" at="17,55,18,20" concept="3" />
+      <node id="8968830352736551672" at="19,5,20,118" concept="7" />
+      <node id="8968830352736551672" at="20,118,21,70" concept="7" />
+      <node id="8968830352736551672" at="22,37,23,29" concept="3" />
+      <node id="8968830352736551672" at="24,31,25,26" concept="3" />
+      <node id="8968830352736553137" at="28,5,29,24" concept="3" />
+      <node id="8968830352736553261" at="29,24,30,86" concept="3" />
+      <node id="8968830352736554389" at="30,86,31,20" concept="3" />
+      <node id="8968830352736551629" at="35,0,36,0" concept="9" trace="QuantifierBoundList$KCl0" />
+      <node id="8968830352736551629" at="36,0,37,0" concept="9" trace="Expr$KHru" />
+      <node id="8968830352736551672" at="23,29,26,9" concept="5" />
+      <node id="8968830352736551672" at="21,70,27,7" concept="4" />
+      <node id="8968830352736551672" at="18,20,28,5" concept="0" />
+      <node id="8968830352736551629" at="15,0,33,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736551672" at="24,31,25,26" />
+      <scope id="8968830352736551672" at="22,37,26,9" />
+      <scope id="8968830352736551672" at="21,70,27,7">
+        <var name="item" id="8968830352736551672" />
+      </scope>
+      <scope id="8968830352736551672" at="19,5,27,7">
+        <var name="collection" id="8968830352736551672" />
+        <var name="lastItem" id="8968830352736551672" />
+      </scope>
+      <scope id="8968830352736551629" at="16,54,31,20">
+        <var name="tgs" id="8968830352736551629" />
+      </scope>
+      <scope id="8968830352736551629" at="15,0,33,0">
+        <var name="ctx" id="8968830352736551629" />
+      </scope>
+      <unit id="8968830352736551629" at="34,0,38,0" name="TLA.textGen.RangeQuantifierBoundAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736551629" at="14,0,39,0" name="TLA.textGen.RangeQuantifierBoundAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736551629" at="158,61,159,57" concept="8" />
+      <scope id="8968830352736551629" at="158,61,159,57" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736554480">
+    <file name="RangeExprImpliesExpr_TextGen.java">
+      <node id="8968830352736554480" at="14,54,15,55" concept="7" />
+      <node id="8968830352736554523" at="15,55,16,20" concept="3" />
+      <node id="8968830352736554580" at="16,20,17,87" concept="3" />
+      <node id="8968830352736556193" at="17,87,18,23" concept="3" />
+      <node id="8968830352736556321" at="18,23,19,87" concept="3" />
+      <node id="8968830352736556798" at="19,87,20,20" concept="3" />
+      <node id="8968830352736554480" at="24,0,25,0" concept="9" trace="Expr1$KIP0" />
+      <node id="8968830352736554480" at="25,0,26,0" concept="9" trace="Expr2$KIPY" />
+      <node id="8968830352736554480" at="13,0,22,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736554480" at="14,54,20,20">
+        <var name="tgs" id="8968830352736554480" />
+      </scope>
+      <scope id="8968830352736554480" at="13,0,22,0">
+        <var name="ctx" id="8968830352736554480" />
+      </scope>
+      <unit id="8968830352736554480" at="23,0,27,0" name="TLA.textGen.RangeExprImpliesExpr_TextGen$LINKS" />
+      <unit id="8968830352736554480" at="12,0,28,0" name="TLA.textGen.RangeExprImpliesExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736554480" at="150,54,151,50" concept="8" />
+      <scope id="8968830352736554480" at="150,54,151,50" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736556905">
+    <file name="NameArrowExpr_TextGen.java">
+      <node id="8968830352736556905" at="16,54,17,55" concept="7" />
+      <node id="8968830352736556948" at="17,55,18,94" concept="3" />
+      <node id="8968830352736558181" at="18,94,19,24" concept="3" />
+      <node id="8968830352736558307" at="19,24,20,86" concept="3" />
+      <node id="8968830352736556905" at="24,0,25,0" concept="9" trace="NameProperty$FGtw" />
+      <node id="8968830352736556905" at="28,0,29,0" concept="9" trace="Expr$FGCD" />
+      <node id="8968830352736556905" at="15,0,22,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736556905" at="16,54,20,86">
+        <var name="tgs" id="8968830352736556905" />
+      </scope>
+      <scope id="8968830352736556905" at="15,0,22,0">
+        <var name="ctx" id="8968830352736556905" />
+      </scope>
+      <unit id="8968830352736556905" at="23,0,26,0" name="TLA.textGen.NameArrowExpr_TextGen$PROPS" />
+      <unit id="8968830352736556905" at="27,0,30,0" name="TLA.textGen.NameArrowExpr_TextGen$LINKS" />
+      <unit id="8968830352736556905" at="14,0,31,0" name="TLA.textGen.NameArrowExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736556905" at="114,47,115,43" concept="8" />
+      <scope id="8968830352736556905" at="114,47,115,43" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736559529">
+    <file name="RangeNameArrowExpr_TextGen.java">
+      <node id="8968830352736559529" at="16,54,17,55" concept="7" />
+      <node id="8968830352736559609" at="17,55,18,20" concept="3" />
+      <node id="8968830352736559666" at="19,5,20,116" concept="7" />
+      <node id="8968830352736559666" at="20,116,21,70" concept="7" />
+      <node id="8968830352736559666" at="22,37,23,29" concept="3" />
+      <node id="8968830352736559666" at="24,31,25,26" concept="3" />
+      <node id="8968830352736560980" at="28,5,29,20" concept="3" />
+      <node id="8968830352736559529" at="33,0,34,0" concept="9" trace="NameArrowExprList$FHnw" />
+      <node id="8968830352736559666" at="23,29,26,9" concept="5" />
+      <node id="8968830352736559666" at="21,70,27,7" concept="4" />
+      <node id="8968830352736559666" at="18,20,28,5" concept="0" />
+      <node id="8968830352736559529" at="15,0,31,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736559666" at="24,31,25,26" />
+      <scope id="8968830352736559666" at="22,37,26,9" />
+      <scope id="8968830352736559666" at="21,70,27,7">
+        <var name="item" id="8968830352736559666" />
+      </scope>
+      <scope id="8968830352736559666" at="19,5,27,7">
+        <var name="collection" id="8968830352736559666" />
+        <var name="lastItem" id="8968830352736559666" />
+      </scope>
+      <scope id="8968830352736559529" at="16,54,29,20">
+        <var name="tgs" id="8968830352736559529" />
+      </scope>
+      <scope id="8968830352736559529" at="15,0,31,0">
+        <var name="ctx" id="8968830352736559529" />
+      </scope>
+      <unit id="8968830352736559529" at="32,0,35,0" name="TLA.textGen.RangeNameArrowExpr_TextGen$LINKS" />
+      <unit id="8968830352736559529" at="14,0,36,0" name="TLA.textGen.RangeNameArrowExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736559529" at="154,52,155,48" concept="8" />
+      <scope id="8968830352736559529" at="154,52,155,48" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736561247">
+    <file name="RangeNameExpr_TextGen.java">
+      <node id="8968830352736561247" at="16,54,17,55" concept="7" />
+      <node id="8968830352736561311" at="17,55,18,20" concept="3" />
+      <node id="8968830352736561383" at="19,5,20,107" concept="7" />
+      <node id="8968830352736561383" at="20,107,21,70" concept="7" />
+      <node id="8968830352736561383" at="22,37,23,29" concept="3" />
+      <node id="8968830352736561383" at="24,31,25,26" concept="3" />
+      <node id="8968830352736567173" at="28,5,29,20" concept="3" />
+      <node id="8968830352736561247" at="33,0,34,0" concept="9" trace="ExprList$YczP" />
+      <node id="8968830352736561383" at="23,29,26,9" concept="5" />
+      <node id="8968830352736561383" at="21,70,27,7" concept="4" />
+      <node id="8968830352736561383" at="18,20,28,5" concept="0" />
+      <node id="8968830352736561247" at="15,0,31,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736561383" at="24,31,25,26" />
+      <scope id="8968830352736561383" at="22,37,26,9" />
+      <scope id="8968830352736561383" at="21,70,27,7">
+        <var name="item" id="8968830352736561383" />
+      </scope>
+      <scope id="8968830352736561383" at="19,5,27,7">
+        <var name="collection" id="8968830352736561383" />
+        <var name="lastItem" id="8968830352736561383" />
+      </scope>
+      <scope id="8968830352736561247" at="16,54,29,20">
+        <var name="tgs" id="8968830352736561247" />
+      </scope>
+      <scope id="8968830352736561247" at="15,0,31,0">
+        <var name="ctx" id="8968830352736561247" />
+      </scope>
+      <unit id="8968830352736561247" at="32,0,35,0" name="TLA.textGen.RangeNameExpr_TextGen$LINKS" />
+      <unit id="8968830352736561247" at="14,0,36,0" name="TLA.textGen.RangeNameExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736561247" at="156,47,157,43" concept="8" />
+      <scope id="8968830352736561247" at="156,47,157,43" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736567465">
+    <file name="NameColonExpr_TextGen.java">
+      <node id="8968830352736567465" at="16,54,17,55" concept="7" />
+      <node id="8968830352736567508" at="17,55,18,94" concept="3" />
+      <node id="8968830352736568741" at="18,94,19,22" concept="3" />
+      <node id="8968830352736568852" at="19,22,20,86" concept="3" />
+      <node id="8968830352736567465" at="24,0,25,0" concept="9" trace="NameProperty$Y6Uw" />
+      <node id="8968830352736567465" at="28,0,29,0" concept="9" trace="Expr$Y6Vu" />
+      <node id="8968830352736567465" at="15,0,22,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736567465" at="16,54,20,86">
+        <var name="tgs" id="8968830352736567465" />
+      </scope>
+      <scope id="8968830352736567465" at="15,0,22,0">
+        <var name="ctx" id="8968830352736567465" />
+      </scope>
+      <unit id="8968830352736567465" at="23,0,26,0" name="TLA.textGen.NameColonExpr_TextGen$PROPS" />
+      <unit id="8968830352736567465" at="27,0,30,0" name="TLA.textGen.NameColonExpr_TextGen$LINKS" />
+      <unit id="8968830352736567465" at="14,0,31,0" name="TLA.textGen.NameColonExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736567465" at="116,47,117,43" concept="8" />
+      <scope id="8968830352736567465" at="116,47,117,43" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736569650">
+    <file name="PointAndName_TextGen.java">
+      <node id="8968830352736569650" at="14,54,15,55" concept="7" />
+      <node id="8968830352736569980" at="15,55,16,20" concept="3" />
+      <node id="8968830352736570036" at="16,20,17,94" concept="3" />
+      <node id="8968830352736569650" at="21,0,22,0" concept="9" trace="NameProperty$YdG0" />
+      <node id="8968830352736569650" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736569650" at="14,54,17,94">
+        <var name="tgs" id="8968830352736569650" />
+      </scope>
+      <scope id="8968830352736569650" at="13,0,19,0">
+        <var name="ctx" id="8968830352736569650" />
+      </scope>
+      <unit id="8968830352736569650" at="20,0,23,0" name="TLA.textGen.PointAndName_TextGen$PROPS" />
+      <unit id="8968830352736569650" at="12,0,24,0" name="TLA.textGen.PointAndName_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736569650" at="130,46,131,42" concept="8" />
+      <scope id="8968830352736569650" at="130,46,131,42" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736571497">
+    <file name="RangeExprList_TextGen.java">
+      <node id="8968830352736571497" at="16,54,17,55" concept="7" />
+      <node id="8968830352736571540" at="17,55,18,20" concept="3" />
+      <node id="8968830352736571612" at="19,5,20,107" concept="7" />
+      <node id="8968830352736571612" at="20,107,21,70" concept="7" />
+      <node id="8968830352736571612" at="22,37,23,29" concept="3" />
+      <node id="8968830352736571612" at="24,31,25,26" concept="3" />
+      <node id="8968830352736572908" at="28,5,29,20" concept="3" />
+      <node id="8968830352736571497" at="33,0,34,0" concept="9" trace="ExprList$Yec0" />
+      <node id="8968830352736571612" at="23,29,26,9" concept="5" />
+      <node id="8968830352736571612" at="21,70,27,7" concept="4" />
+      <node id="8968830352736571612" at="18,20,28,5" concept="0" />
+      <node id="8968830352736571497" at="15,0,31,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736571612" at="24,31,25,26" />
+      <scope id="8968830352736571612" at="22,37,26,9" />
+      <scope id="8968830352736571612" at="21,70,27,7">
+        <var name="item" id="8968830352736571612" />
+      </scope>
+      <scope id="8968830352736571612" at="19,5,27,7">
+        <var name="collection" id="8968830352736571612" />
+        <var name="lastItem" id="8968830352736571612" />
+      </scope>
+      <scope id="8968830352736571497" at="16,54,29,20">
+        <var name="tgs" id="8968830352736571497" />
+      </scope>
+      <scope id="8968830352736571497" at="15,0,31,0">
+        <var name="ctx" id="8968830352736571497" />
+      </scope>
+      <unit id="8968830352736571497" at="32,0,35,0" name="TLA.textGen.RangeExprList_TextGen$LINKS" />
+      <unit id="8968830352736571497" at="14,0,36,0" name="TLA.textGen.RangeExprList_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736571497" at="152,47,153,43" concept="8" />
+      <scope id="8968830352736571497" at="152,47,153,43" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736572956">
+    <file name="ExceptList_TextGen.java">
+      <node id="8968830352736572956" at="16,54,17,55" concept="7" />
+      <node id="8968830352736572999" at="17,55,18,20" concept="3" />
+      <node id="8968830352736573056" at="19,5,20,107" concept="7" />
+      <node id="8968830352736573056" at="20,107,21,70" concept="7" />
+      <node id="8968830352736573056" at="22,37,23,29" concept="3" />
+      <node id="8968830352736573056" at="24,31,25,26" concept="3" />
+      <node id="8968830352736574095" at="28,5,29,22" concept="3" />
+      <node id="8968830352736574176" at="29,22,30,85" concept="3" />
+      <node id="8968830352736572956" at="34,0,35,0" concept="9" trace="OneOrMore$LW0" />
+      <node id="8968830352736572956" at="35,0,36,0" concept="9" trace="Expr$M79" />
+      <node id="8968830352736573056" at="23,29,26,9" concept="5" />
+      <node id="8968830352736573056" at="21,70,27,7" concept="4" />
+      <node id="8968830352736573056" at="18,20,28,5" concept="0" />
+      <node id="8968830352736572956" at="15,0,32,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736573056" at="24,31,25,26" />
+      <scope id="8968830352736573056" at="22,37,26,9" />
+      <scope id="8968830352736573056" at="21,70,27,7">
+        <var name="item" id="8968830352736573056" />
+      </scope>
+      <scope id="8968830352736573056" at="19,5,27,7">
+        <var name="collection" id="8968830352736573056" />
+        <var name="lastItem" id="8968830352736573056" />
+      </scope>
+      <scope id="8968830352736572956" at="16,54,30,85">
+        <var name="tgs" id="8968830352736572956" />
+      </scope>
+      <scope id="8968830352736572956" at="15,0,32,0">
+        <var name="ctx" id="8968830352736572956" />
+      </scope>
+      <unit id="8968830352736572956" at="33,0,37,0" name="TLA.textGen.ExceptList_TextGen$LINKS" />
+      <unit id="8968830352736572956" at="14,0,38,0" name="TLA.textGen.ExceptList_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736572956" at="48,44,49,40" concept="8" />
+      <scope id="8968830352736572956" at="48,44,49,40" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736575491">
+    <file name="Except_TextGen.java">
+      <node id="8968830352736575491" at="16,54,17,55" concept="7" />
+      <node id="8968830352736575534" at="17,55,18,20" concept="3" />
+      <node id="8968830352736575615" at="18,20,19,85" concept="3" />
+      <node id="8968830352736577244" at="19,85,20,27" concept="3" />
+      <node id="8968830352736577360" at="21,5,22,108" concept="7" />
+      <node id="8968830352736577360" at="22,108,23,70" concept="7" />
+      <node id="8968830352736577360" at="24,37,25,29" concept="3" />
+      <node id="8968830352736577360" at="26,31,27,26" concept="3" />
+      <node id="8968830352736578833" at="30,5,31,20" concept="3" />
+      <node id="8968830352736575491" at="35,0,36,0" concept="9" trace="Expr$Nmu" />
+      <node id="8968830352736575491" at="36,0,37,0" concept="9" trace="ExceptList$Nlw" />
+      <node id="8968830352736577360" at="25,29,28,9" concept="5" />
+      <node id="8968830352736577360" at="23,70,29,7" concept="4" />
+      <node id="8968830352736577360" at="20,27,30,5" concept="0" />
+      <node id="8968830352736575491" at="15,0,33,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736577360" at="26,31,27,26" />
+      <scope id="8968830352736577360" at="24,37,28,9" />
+      <scope id="8968830352736577360" at="23,70,29,7">
+        <var name="item" id="8968830352736577360" />
+      </scope>
+      <scope id="8968830352736577360" at="21,5,29,7">
+        <var name="collection" id="8968830352736577360" />
+        <var name="lastItem" id="8968830352736577360" />
+      </scope>
+      <scope id="8968830352736575491" at="16,54,31,20">
+        <var name="tgs" id="8968830352736575491" />
+      </scope>
+      <scope id="8968830352736575491" at="15,0,33,0">
+        <var name="ctx" id="8968830352736575491" />
+      </scope>
+      <unit id="8968830352736575491" at="34,0,38,0" name="TLA.textGen.Except_TextGen$LINKS" />
+      <unit id="8968830352736575491" at="14,0,39,0" name="TLA.textGen.Except_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736575491" at="46,40,47,36" concept="8" />
+      <scope id="8968830352736575491" at="46,40,47,36" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736578909">
+    <file name="ExpressionTuple_TextGen.java">
+      <node id="8968830352736578909" at="16,54,17,55" concept="7" />
+      <node id="8968830352736578952" at="17,55,18,21" concept="3" />
+      <node id="8968830352736579009" at="19,5,20,102" concept="7" />
+      <node id="8968830352736579009" at="20,102,21,70" concept="7" />
+      <node id="8968830352736579009" at="22,37,23,29" concept="3" />
+      <node id="8968830352736579009" at="24,31,25,26" concept="3" />
+      <node id="8968830352736580353" at="28,5,29,21" concept="3" />
+      <node id="8968830352736578909" at="33,0,34,0" concept="9" trace="Expr$TU0" />
+      <node id="8968830352736579009" at="23,29,26,9" concept="5" />
+      <node id="8968830352736579009" at="21,70,27,7" concept="4" />
+      <node id="8968830352736579009" at="18,21,28,5" concept="0" />
+      <node id="8968830352736578909" at="15,0,31,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736579009" at="24,31,25,26" />
+      <scope id="8968830352736579009" at="22,37,26,9" />
+      <scope id="8968830352736579009" at="21,70,27,7">
+        <var name="item" id="8968830352736579009" />
+      </scope>
+      <scope id="8968830352736579009" at="19,5,27,7">
+        <var name="collection" id="8968830352736579009" />
+        <var name="lastItem" id="8968830352736579009" />
+      </scope>
+      <scope id="8968830352736578909" at="16,54,29,21">
+        <var name="tgs" id="8968830352736578909" />
+      </scope>
+      <scope id="8968830352736578909" at="15,0,31,0">
+        <var name="ctx" id="8968830352736578909" />
+      </scope>
+      <unit id="8968830352736578909" at="32,0,35,0" name="TLA.textGen.ExpressionTuple_TextGen$LINKS" />
+      <unit id="8968830352736578909" at="14,0,36,0" name="TLA.textGen.ExpressionTuple_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736578909" at="60,49,61,45" concept="8" />
+      <scope id="8968830352736578909" at="60,49,61,45" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736580528">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736580528" at="192,42,193,38" concept="8" />
+      <scope id="8968830352736580528" at="192,42,193,38" />
+    </file>
+    <file name="XandExpr_TextGen.java">
+      <node id="8968830352736580528" at="14,54,15,55" concept="7" />
+      <node id="8968830352736580571" at="15,55,16,24" concept="3" />
+      <node id="8968830352736580658" at="16,24,17,85" concept="3" />
+      <node id="8968830352736580528" at="21,0,22,0" concept="9" trace="Expr$UPb" />
+      <node id="8968830352736580528" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736580528" at="14,54,17,85">
+        <var name="tgs" id="8968830352736580528" />
+      </scope>
+      <scope id="8968830352736580528" at="13,0,19,0">
+        <var name="ctx" id="8968830352736580528" />
+      </scope>
+      <unit id="8968830352736580528" at="20,0,23,0" name="TLA.textGen.XandExpr_TextGen$LINKS" />
+      <unit id="8968830352736580528" at="12,0,24,0" name="TLA.textGen.XandExpr_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736581967">
+    <file name="ExprAndXAndExpr_TextGen.java">
+      <node id="8968830352736581967" at="15,54,16,55" concept="7" />
+      <node id="8968830352736582010" at="16,55,17,85" concept="3" />
+      <node id="8968830352736583502" at="18,95,19,27" concept="3" />
+      <node id="8968830352736581967" at="24,0,25,0" concept="9" trace="Expr$V_Y" />
+      <node id="8968830352736581967" at="25,0,26,0" concept="9" trace="XandExpr$V_0" />
+      <node id="8968830352736583502" at="17,85,20,5" concept="4" />
+      <node id="8968830352736581967" at="14,0,22,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736583502" at="18,95,19,27" />
+      <scope id="8968830352736583502" at="17,85,20,5">
+        <var name="item" id="8968830352736583502" />
+      </scope>
+      <scope id="8968830352736581967" at="15,54,20,5">
+        <var name="tgs" id="8968830352736581967" />
+      </scope>
+      <scope id="8968830352736581967" at="14,0,22,0">
+        <var name="ctx" id="8968830352736581967" />
+      </scope>
+      <unit id="8968830352736581967" at="23,0,27,0" name="TLA.textGen.ExprAndXAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736581967" at="13,0,28,0" name="TLA.textGen.ExprAndXAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736581967" at="54,49,55,45" concept="8" />
+      <scope id="8968830352736581967" at="54,49,55,45" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736584633">
+    <file name="If_TextGen.java">
+      <node id="8968830352736584633" at="14,54,15,55" concept="7" />
+      <node id="8968830352736584676" at="15,55,16,23" concept="3" />
+      <node id="8968830352736584733" at="16,23,17,87" concept="3" />
+      <node id="8968830352736586362" at="17,87,18,25" concept="3" />
+      <node id="8968830352736586520" at="18,25,19,87" concept="3" />
+      <node id="8968830352736587731" at="19,87,20,25" concept="3" />
+      <node id="8968830352736587975" at="20,25,21,87" concept="3" />
+      <node id="8968830352736584633" at="25,0,26,0" concept="9" trace="Expr1$11ow" />
+      <node id="8968830352736584633" at="26,0,27,0" concept="9" trace="Expr2$11pu" />
+      <node id="8968830352736584633" at="27,0,28,0" concept="9" trace="Expr3$11qV" />
+      <node id="8968830352736584633" at="13,0,23,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736584633" at="14,54,21,87">
+        <var name="tgs" id="8968830352736584633" />
+      </scope>
+      <scope id="8968830352736584633" at="13,0,23,0">
+        <var name="ctx" id="8968830352736584633" />
+      </scope>
+      <unit id="8968830352736584633" at="24,0,29,0" name="TLA.textGen.If_TextGen$LINKS" />
+      <unit id="8968830352736584633" at="12,0,30,0" name="TLA.textGen.If_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736584633" at="90,36,91,32" concept="8" />
+      <scope id="8968830352736584633" at="90,36,91,32" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736588654">
+    <file name="CaseArm_TextGen.java">
+      <node id="8968830352736588654" at="14,54,15,55" concept="7" />
+      <node id="8968830352736588697" at="15,55,16,87" concept="3" />
+      <node id="8968830352736589934" at="16,87,17,23" concept="3" />
+      <node id="8968830352736590060" at="17,23,18,87" concept="3" />
+      <node id="8968830352736588654" at="22,0,23,0" concept="9" trace="Expr1$138w" />
+      <node id="8968830352736588654" at="23,0,24,0" concept="9" trace="Expr2$18eY" />
+      <node id="8968830352736588654" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736588654" at="14,54,18,87">
+        <var name="tgs" id="8968830352736588654" />
+      </scope>
+      <scope id="8968830352736588654" at="13,0,20,0">
+        <var name="ctx" id="8968830352736588654" />
+      </scope>
+      <unit id="8968830352736588654" at="21,0,25,0" name="TLA.textGen.CaseArm_TextGen$LINKS" />
+      <unit id="8968830352736588654" at="12,0,26,0" name="TLA.textGen.CaseArm_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736588654" at="38,41,39,37" concept="8" />
+      <scope id="8968830352736588654" at="38,41,39,37" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736591641">
+    <file name="SquareAndCaseArm_TextGen.java">
+      <node id="8968830352736591641" at="14,54,15,55" concept="7" />
+      <node id="8968830352736591684" at="15,55,16,23" concept="3" />
+      <node id="8968830352736591816" at="16,23,17,89" concept="3" />
+      <node id="8968830352736591641" at="21,0,22,0" concept="9" trace="CaseArm$198w" />
+      <node id="8968830352736591641" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736591641" at="14,54,17,89">
+        <var name="tgs" id="8968830352736591641" />
+      </scope>
+      <scope id="8968830352736591641" at="13,0,19,0">
+        <var name="ctx" id="8968830352736591641" />
+      </scope>
+      <unit id="8968830352736591641" at="20,0,23,0" name="TLA.textGen.SquareAndCaseArm_TextGen$LINKS" />
+      <unit id="8968830352736591641" at="12,0,24,0" name="TLA.textGen.SquareAndCaseArm_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736591641" at="174,50,175,46" concept="8" />
+      <scope id="8968830352736591641" at="174,50,175,46" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736593117">
+    <file name="Case_TextGen.java">
+      <node id="8968830352736593117" at="16,54,17,55" concept="7" />
+      <node id="8968830352736593160" at="17,55,18,25" concept="3" />
+      <node id="8968830352736593232" at="18,25,19,89" concept="3" />
+      <node id="8968830352736594718" at="19,89,20,18" concept="3" />
+      <node id="8968830352736595109" at="20,18,21,17" concept="3" />
+      <node id="8968830352736595151" at="22,5,23,115" concept="7" />
+      <node id="8968830352736595151" at="23,115,24,70" concept="7" />
+      <node id="8968830352736595151" at="25,37,26,29" concept="3" />
+      <node id="8968830352736595151" at="27,31,28,27" concept="3" />
+      <node id="8968830352736603468" at="32,95,33,19" concept="3" />
+      <node id="8968830352736599470" at="33,19,34,97" concept="3" />
+      <node id="8968830352736601081" at="34,97,35,20" concept="3" />
+      <node id="8968830352736593117" at="40,0,41,0" concept="9" trace="CaseArm$19Cw" />
+      <node id="8968830352736593117" at="41,0,42,0" concept="9" trace="SquareAndCaseArm$19Du" />
+      <node id="8968830352736593117" at="42,0,43,0" concept="9" trace="OptionalOther$1nhP" />
+      <node id="8968830352736595151" at="26,29,29,9" concept="5" />
+      <node id="8968830352736596889" at="31,5,36,5" concept="5" />
+      <node id="8968830352736595151" at="24,70,30,7" concept="4" />
+      <node id="8968830352736595151" at="21,17,31,5" concept="0" />
+      <node id="8968830352736593117" at="15,0,38,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736595151" at="27,31,28,27" />
+      <scope id="8968830352736596891" at="32,95,35,20" />
+      <scope id="8968830352736595151" at="25,37,29,9" />
+      <scope id="8968830352736595151" at="24,70,30,7">
+        <var name="item" id="8968830352736595151" />
+      </scope>
+      <scope id="8968830352736595151" at="22,5,30,7">
+        <var name="collection" id="8968830352736595151" />
+        <var name="lastItem" id="8968830352736595151" />
+      </scope>
+      <scope id="8968830352736593117" at="16,54,36,5">
+        <var name="tgs" id="8968830352736593117" />
+      </scope>
+      <scope id="8968830352736593117" at="15,0,38,0">
+        <var name="ctx" id="8968830352736593117" />
+      </scope>
+      <unit id="8968830352736593117" at="39,0,44,0" name="TLA.textGen.Case_TextGen$LINKS" />
+      <unit id="8968830352736593117" at="14,0,45,0" name="TLA.textGen.Case_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736593117" at="36,38,37,34" concept="8" />
+      <scope id="8968830352736593117" at="36,38,37,34" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736601129">
+    <file name="Other_TextGen.java">
+      <node id="8968830352736601129" at="14,54,15,55" concept="7" />
+      <node id="8968830352736601172" at="15,55,16,32" concept="3" />
+      <node id="8968830352736601417" at="16,32,17,86" concept="3" />
+      <node id="8968830352736601129" at="21,0,22,0" concept="9" trace="Expr$19R0" />
+      <node id="8968830352736601129" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736601129" at="14,54,17,86">
+        <var name="tgs" id="8968830352736601129" />
+      </scope>
+      <scope id="8968830352736601129" at="13,0,19,0">
+        <var name="ctx" id="8968830352736601129" />
+      </scope>
+      <unit id="8968830352736601129" at="20,0,23,0" name="TLA.textGen.Other_TextGen$LINKS" />
+      <unit id="8968830352736601129" at="12,0,24,0" name="TLA.textGen.Other_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736601129" at="128,39,129,35" concept="8" />
+      <scope id="8968830352736601129" at="128,39,129,35" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736603517">
+    <file name="Let_TextGen.java">
+      <node id="8968830352736603517" at="16,54,17,55" concept="7" />
+      <node id="8968830352736603560" at="17,55,18,24" concept="3" />
+      <node id="8968830352736605039" at="19,5,20,102" concept="7" />
+      <node id="8968830352736605039" at="20,102,21,70" concept="7" />
+      <node id="8968830352736605039" at="22,37,23,29" concept="3" />
+      <node id="8968830352736605039" at="24,31,25,27" concept="3" />
+      <node id="8968830352736606450" at="28,5,29,23" concept="3" />
+      <node id="8968830352736606522" at="29,23,30,86" concept="3" />
+      <node id="8968830352736603517" at="34,0,35,0" concept="9" trace="Def$9Xh5" />
+      <node id="8968830352736603517" at="35,0,36,0" concept="9" trace="Expr$9Xse" />
+      <node id="8968830352736605039" at="23,29,26,9" concept="5" />
+      <node id="8968830352736605039" at="21,70,27,7" concept="4" />
+      <node id="8968830352736605039" at="18,24,28,5" concept="0" />
+      <node id="8968830352736603517" at="15,0,32,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736605039" at="24,31,25,27" />
+      <scope id="8968830352736605039" at="22,37,26,9" />
+      <scope id="8968830352736605039" at="21,70,27,7">
+        <var name="item" id="8968830352736605039" />
+      </scope>
+      <scope id="8968830352736605039" at="19,5,27,7">
+        <var name="collection" id="8968830352736605039" />
+        <var name="lastItem" id="8968830352736605039" />
+      </scope>
+      <scope id="8968830352736603517" at="16,54,30,86">
+        <var name="tgs" id="8968830352736603517" />
+      </scope>
+      <scope id="8968830352736603517" at="15,0,32,0">
+        <var name="ctx" id="8968830352736603517" />
+      </scope>
+      <unit id="8968830352736603517" at="33,0,37,0" name="TLA.textGen.Let_TextGen$LINKS" />
+      <unit id="8968830352736603517" at="14,0,38,0" name="TLA.textGen.Let_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736603517" at="98,37,99,33" concept="8" />
+      <scope id="8968830352736603517" at="98,37,99,33" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736607973">
+    <file name="SlashAntiSlahExpr_TextGen.java">
+      <node id="8968830352736607973" at="14,54,15,55" concept="7" />
+      <node id="8968830352736608016" at="15,55,16,24" concept="3" />
+      <node id="8968830352736608103" at="16,24,17,86" concept="3" />
+      <node id="8968830352736607973" at="21,0,22,0" concept="9" trace="Expr$h$5w" />
+      <node id="8968830352736607973" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736607973" at="14,54,17,86">
+        <var name="tgs" id="8968830352736607973" />
+      </scope>
+      <scope id="8968830352736607973" at="13,0,19,0">
+        <var name="ctx" id="8968830352736607973" />
+      </scope>
+      <unit id="8968830352736607973" at="20,0,23,0" name="TLA.textGen.SlashAntiSlahExpr_TextGen$LINKS" />
+      <unit id="8968830352736607973" at="12,0,24,0" name="TLA.textGen.SlashAntiSlahExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736607973" at="170,51,171,47" concept="8" />
+      <scope id="8968830352736607973" at="170,51,171,47" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736609412">
+    <file name="SlashAntiSlashExprList_TextGen.java">
+      <node id="8968830352736609412" at="16,54,17,55" concept="7" />
+      <node id="8968830352736609455" at="18,5,19,103" concept="7" />
+      <node id="8968830352736609455" at="19,103,20,70" concept="7" />
+      <node id="8968830352736609455" at="21,37,22,29" concept="3" />
+      <node id="8968830352736609455" at="23,31,24,32" concept="3" />
+      <node id="8968830352736609412" at="31,0,32,0" concept="9" trace="Expr$h$_w" />
+      <node id="8968830352736609455" at="22,29,25,9" concept="5" />
+      <node id="8968830352736609455" at="20,70,26,7" concept="4" />
+      <node id="8968830352736609455" at="17,55,27,5" concept="0" />
+      <node id="8968830352736609412" at="15,0,29,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736609455" at="23,31,24,32" />
+      <scope id="8968830352736609455" at="21,37,25,9" />
+      <scope id="8968830352736609455" at="20,70,26,7">
+        <var name="item" id="8968830352736609455" />
+      </scope>
+      <scope id="8968830352736609455" at="18,5,26,7">
+        <var name="collection" id="8968830352736609455" />
+        <var name="lastItem" id="8968830352736609455" />
+      </scope>
+      <scope id="8968830352736609412" at="16,54,27,5">
+        <var name="tgs" id="8968830352736609412" />
+      </scope>
+      <scope id="8968830352736609412" at="15,0,29,0">
+        <var name="ctx" id="8968830352736609412" />
+      </scope>
+      <unit id="8968830352736609412" at="30,0,33,0" name="TLA.textGen.SlashAntiSlashExprList_TextGen$LINKS" />
+      <unit id="8968830352736609412" at="14,0,34,0" name="TLA.textGen.SlashAntiSlashExprList_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736609412" at="172,56,173,52" concept="8" />
+      <scope id="8968830352736609412" at="172,56,173,52" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736615243">
+    <file name="AntiSlashSlashExpr_TextGen.java">
+      <node id="8968830352736615243" at="14,54,15,55" concept="7" />
+      <node id="8968830352736615286" at="15,55,16,24" concept="3" />
+      <node id="8968830352736615346" at="16,24,17,86" concept="3" />
+      <node id="8968830352736615243" at="21,0,22,0" concept="9" trace="Expr$h_40" />
+      <node id="8968830352736615243" at="13,0,19,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736615243" at="14,54,17,86">
+        <var name="tgs" id="8968830352736615243" />
+      </scope>
+      <scope id="8968830352736615243" at="13,0,19,0">
+        <var name="ctx" id="8968830352736615243" />
+      </scope>
+      <unit id="8968830352736615243" at="20,0,23,0" name="TLA.textGen.AntiSlashSlashExpr_TextGen$LINKS" />
+      <unit id="8968830352736615243" at="12,0,24,0" name="TLA.textGen.AntiSlashSlashExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736615243" at="28,52,29,48" concept="8" />
+      <scope id="8968830352736615243" at="28,52,29,48" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736616661">
+    <file name="AntiSlashSlashExprList_TextGen.java">
+      <node id="8968830352736616661" at="16,54,17,55" concept="7" />
+      <node id="8968830352736616704" at="18,5,19,103" concept="7" />
+      <node id="8968830352736616704" at="19,103,20,70" concept="7" />
+      <node id="8968830352736616704" at="21,37,22,29" concept="3" />
+      <node id="8968830352736616704" at="23,31,24,32" concept="3" />
+      <node id="8968830352736616661" at="31,0,32,0" concept="9" trace="Expr$h_$0" />
+      <node id="8968830352736616704" at="22,29,25,9" concept="5" />
+      <node id="8968830352736616704" at="20,70,26,7" concept="4" />
+      <node id="8968830352736616704" at="17,55,27,5" concept="0" />
+      <node id="8968830352736616661" at="15,0,29,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736616704" at="23,31,24,32" />
+      <scope id="8968830352736616704" at="21,37,25,9" />
+      <scope id="8968830352736616704" at="20,70,26,7">
+        <var name="item" id="8968830352736616704" />
+      </scope>
+      <scope id="8968830352736616704" at="18,5,26,7">
+        <var name="collection" id="8968830352736616704" />
+        <var name="lastItem" id="8968830352736616704" />
+      </scope>
+      <scope id="8968830352736616661" at="16,54,27,5">
+        <var name="tgs" id="8968830352736616661" />
+      </scope>
+      <scope id="8968830352736616661" at="15,0,29,0">
+        <var name="ctx" id="8968830352736616661" />
+      </scope>
+      <unit id="8968830352736616661" at="30,0,33,0" name="TLA.textGen.AntiSlashSlashExprList_TextGen$LINKS" />
+      <unit id="8968830352736616661" at="14,0,34,0" name="TLA.textGen.AntiSlashSlashExprList_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736616661" at="30,56,31,52" concept="8" />
+      <scope id="8968830352736616661" at="30,56,31,52" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736618704">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736618704" at="190,40,191,36" concept="8" />
+      <scope id="8968830352736618704" at="190,40,191,36" />
+    </file>
+    <file name="WForSF_TextGen.java">
+      <node id="8968830352736618704" at="16,54,17,55" concept="7" />
+      <node id="8968830352736618747" at="17,55,18,94" concept="3" />
+      <node id="8968830352736621554" at="18,94,19,87" concept="3" />
+      <node id="8968830352736623132" at="19,87,20,20" concept="3" />
+      <node id="8968830352736623344" at="20,20,21,87" concept="3" />
+      <node id="8968830352736623735" at="21,87,22,20" concept="3" />
+      <node id="8968830352736618704" at="26,0,27,0" concept="9" trace="WFSF$X2w6" />
+      <node id="8968830352736618704" at="30,0,31,0" concept="9" trace="Expr1$Lf_0" />
+      <node id="8968830352736618704" at="31,0,32,0" concept="9" trace="Expr2$LfK9" />
+      <node id="8968830352736618704" at="15,0,24,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736618704" at="16,54,22,20">
+        <var name="tgs" id="8968830352736618704" />
+      </scope>
+      <scope id="8968830352736618704" at="15,0,24,0">
+        <var name="ctx" id="8968830352736618704" />
+      </scope>
+      <unit id="8968830352736618704" at="25,0,28,0" name="TLA.textGen.WForSF_TextGen$PROPS" />
+      <unit id="8968830352736618704" at="29,0,33,0" name="TLA.textGen.WForSF_TextGen$LINKS" />
+      <unit id="8968830352736618704" at="14,0,34,0" name="TLA.textGen.WForSF_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736623869">
+    <file name="ExprTupleAndExpr_TextGen.java">
+      <node id="8968830352736623869" at="14,54,15,55" concept="7" />
+      <node id="8968830352736623912" at="15,55,16,21" concept="3" />
+      <node id="8968830352736623969" at="16,21,17,87" concept="3" />
+      <node id="8968830352736625734" at="17,87,18,22" concept="3" />
+      <node id="8968830352736625862" at="18,22,19,87" concept="3" />
+      <node id="8968830352736623869" at="23,0,24,0" concept="9" trace="Expr1$tkCw" />
+      <node id="8968830352736623869" at="24,0,25,0" concept="9" trace="Expr2$tkND" />
+      <node id="8968830352736623869" at="13,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736623869" at="14,54,19,87">
+        <var name="tgs" id="8968830352736623869" />
+      </scope>
+      <scope id="8968830352736623869" at="13,0,21,0">
+        <var name="ctx" id="8968830352736623869" />
+      </scope>
+      <unit id="8968830352736623869" at="22,0,26,0" name="TLA.textGen.ExprTupleAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736623869" at="12,0,27,0" name="TLA.textGen.ExprTupleAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736623869" at="56,50,57,46" concept="8" />
+      <scope id="8968830352736623869" at="56,50,57,46" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736626250">
+    <file name="RangeExprAndExpr_TextGen.java">
+      <node id="8968830352736626250" at="14,54,15,55" concept="7" />
+      <node id="8968830352736626293" at="15,55,16,20" concept="3" />
+      <node id="8968830352736626350" at="16,20,17,87" concept="3" />
+      <node id="8968830352736627979" at="17,87,18,21" concept="3" />
+      <node id="8968830352736628122" at="18,21,19,87" concept="3" />
+      <node id="8968830352736626250" at="23,0,24,0" concept="9" trace="Expr1$lP2w" />
+      <node id="8968830352736626250" at="24,0,25,0" concept="9" trace="Expr2$lP3u" />
+      <node id="8968830352736626250" at="13,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736626250" at="14,54,19,87">
+        <var name="tgs" id="8968830352736626250" />
+      </scope>
+      <scope id="8968830352736626250" at="13,0,21,0">
+        <var name="ctx" id="8968830352736626250" />
+      </scope>
+      <unit id="8968830352736626250" at="22,0,26,0" name="TLA.textGen.RangeExprAndExpr_TextGen$LINKS" />
+      <unit id="8968830352736626250" at="12,0,27,0" name="TLA.textGen.RangeExprAndExpr_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736626250" at="148,50,149,46" concept="8" />
+      <scope id="8968830352736626250" at="148,50,149,46" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736630315">
+    <file name="GeneralPrefixOp_TextGen.java">
+      <node id="8968830352736630315" at="14,54,15,55" concept="7" />
+      <node id="8968830352736632602" at="16,96,17,98" concept="3" />
+      <node id="8968830352736634485" at="18,5,19,90" concept="3" />
+      <node id="8968830352736630315" at="23,0,24,0" concept="9" trace="InstancePrefix$grn6" />
+      <node id="8968830352736630315" at="24,0,25,0" concept="9" trace="PrefixOp$2zjg" />
+      <node id="8968830352736630388" at="15,55,18,5" concept="5" />
+      <node id="8968830352736630315" at="13,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736630390" at="16,96,17,98" />
+      <scope id="8968830352736630315" at="14,54,19,90">
+        <var name="tgs" id="8968830352736630315" />
+      </scope>
+      <scope id="8968830352736630315" at="13,0,21,0">
+        <var name="ctx" id="8968830352736630315" />
+      </scope>
+      <unit id="8968830352736630315" at="22,0,26,0" name="TLA.textGen.GeneralPrefixOp_TextGen$LINKS" />
+      <unit id="8968830352736630315" at="12,0,27,0" name="TLA.textGen.GeneralPrefixOp_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736630315" at="76,49,77,45" concept="8" />
+      <scope id="8968830352736630315" at="76,49,77,45" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736637127">
+    <file name="GeneralInfixOp_TextGen.java">
+      <node id="8968830352736637127" at="16,54,17,55" concept="7" />
+      <node id="8968830352736640459" at="18,96,19,98" concept="3" />
+      <node id="4780320680501350203" at="19,98,20,22" concept="3" />
+      <node id="4780320680501880011" at="21,5,22,20" concept="3" />
+      <node id="8968830352736642215" at="22,20,23,105" concept="3" />
+      <node id="4780320680501351189" at="23,105,24,20" concept="3" />
+      <node id="8968830352736637127" at="28,0,29,0" concept="9" trace="InstancePrefix$gwX4" />
+      <node id="8968830352736637127" at="32,0,33,0" concept="9" trace="InfixOp$gwW6" />
+      <node id="8968830352736638261" at="17,55,21,5" concept="5" />
+      <node id="8968830352736637127" at="15,0,26,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736638263" at="18,96,20,22" />
+      <scope id="8968830352736637127" at="16,54,24,20">
+        <var name="tgs" id="8968830352736637127" />
+      </scope>
+      <scope id="8968830352736637127" at="15,0,26,0">
+        <var name="ctx" id="8968830352736637127" />
+      </scope>
+      <unit id="8968830352736637127" at="27,0,30,0" name="TLA.textGen.GeneralInfixOp_TextGen$LINKS" />
+      <unit id="8968830352736637127" at="31,0,34,0" name="TLA.textGen.GeneralInfixOp_TextGen$PROPS" />
+      <unit id="8968830352736637127" at="14,0,35,0" name="TLA.textGen.GeneralInfixOp_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736637127" at="72,48,73,44" concept="8" />
+      <scope id="8968830352736637127" at="72,48,73,44" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736646720">
+    <file name="GeneralPostfixOp_TextGen.java">
+      <node id="8968830352736646720" at="16,54,17,55" concept="7" />
+      <node id="8968830352736649284" at="18,96,19,98" concept="3" />
+      <node id="4780320680503344073" at="20,5,21,20" concept="3" />
+      <node id="8968830352736650109" at="21,20,22,107" concept="3" />
+      <node id="4780320680503344207" at="22,107,23,20" concept="3" />
+      <node id="8968830352736646720" at="27,0,28,0" concept="9" trace="InstancePrefix$gxs$" />
+      <node id="8968830352736646720" at="31,0,32,0" concept="9" trace="PostfixOp$gxrA" />
+      <node id="8968830352736646741" at="17,55,20,5" concept="5" />
+      <node id="8968830352736646720" at="15,0,25,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736646743" at="18,96,19,98" />
+      <scope id="8968830352736646720" at="16,54,23,20">
+        <var name="tgs" id="8968830352736646720" />
+      </scope>
+      <scope id="8968830352736646720" at="15,0,25,0">
+        <var name="ctx" id="8968830352736646720" />
+      </scope>
+      <unit id="8968830352736646720" at="26,0,29,0" name="TLA.textGen.GeneralPostfixOp_TextGen$LINKS" />
+      <unit id="8968830352736646720" at="30,0,33,0" name="TLA.textGen.GeneralPostfixOp_TextGen$PROPS" />
+      <unit id="8968830352736646720" at="14,0,34,0" name="TLA.textGen.GeneralPostfixOp_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736646720" at="74,50,75,46" concept="8" />
+      <scope id="8968830352736646720" at="74,50,75,46" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736652610">
+    <file name="InstancePrefix_TextGen.java">
+      <node id="8968830352736652610" at="15,54,16,55" concept="7" />
+      <node id="8968830352736652653" at="17,106,18,27" concept="3" />
+      <node id="8968830352736652610" at="23,0,24,0" concept="9" trace="InstancePrefixList$ReYU" />
+      <node id="8968830352736652653" at="16,55,19,5" concept="4" />
+      <node id="8968830352736652610" at="14,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736652653" at="17,106,18,27" />
+      <scope id="8968830352736652653" at="16,55,19,5">
+        <var name="item" id="8968830352736652653" />
+      </scope>
+      <scope id="8968830352736652610" at="15,54,19,5">
+        <var name="tgs" id="8968830352736652610" />
+      </scope>
+      <scope id="8968830352736652610" at="14,0,21,0">
+        <var name="ctx" id="8968830352736652610" />
+      </scope>
+      <unit id="8968830352736652610" at="22,0,25,0" name="TLA.textGen.InstancePrefix_TextGen$LINKS" />
+      <unit id="8968830352736652610" at="13,0,26,0" name="TLA.textGen.InstancePrefix_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736652610" at="96,48,97,44" concept="8" />
+      <scope id="8968830352736652610" at="96,48,97,44" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736658941">
+    <file name="SingleInstancePrefix_TextGen.java">
+      <node id="8968830352736658941" at="19,54,20,55" concept="7" />
+      <node id="8968830352736658984" at="20,55,21,84" concept="3" />
+      <node id="8968830352736674191" at="22,115,23,22" concept="3" />
+      <node id="8968830352736674552" at="24,7,25,106" concept="7" />
+      <node id="8968830352736674552" at="25,106,26,72" concept="7" />
+      <node id="8968830352736674552" at="27,39,28,31" concept="3" />
+      <node id="8968830352736674552" at="29,33,30,28" concept="3" />
+      <node id="8968830352736675406" at="33,7,34,22" concept="3" />
+      <node id="8968830352736675715" at="35,5,36,20" concept="3" />
+      <node id="8968830352736658941" at="40,0,41,0" concept="9" trace="ID$Rfqu" />
+      <node id="8968830352736658941" at="44,0,45,0" concept="9" trace="Exprs$RfPA" />
+      <node id="8968830352736674552" at="28,31,31,11" concept="5" />
+      <node id="8968830352736674552" at="26,72,32,9" concept="4" />
+      <node id="8968830352736674552" at="23,22,33,7" concept="0" />
+      <node id="8968830352736660305" at="21,84,35,5" concept="5" />
+      <node id="8968830352736658941" at="18,0,38,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736674552" at="29,33,30,28" />
+      <scope id="8968830352736674552" at="27,39,31,11" />
+      <scope id="8968830352736674552" at="26,72,32,9">
+        <var name="item" id="8968830352736674552" />
+      </scope>
+      <scope id="8968830352736674552" at="24,7,32,9">
+        <var name="collection" id="8968830352736674552" />
+        <var name="lastItem" id="8968830352736674552" />
+      </scope>
+      <scope id="8968830352736660307" at="22,115,34,22" />
+      <scope id="8968830352736658941" at="19,54,36,20">
+        <var name="tgs" id="8968830352736658941" />
+      </scope>
+      <scope id="8968830352736658941" at="18,0,38,0">
+        <var name="ctx" id="8968830352736658941" />
+      </scope>
+      <unit id="8968830352736658941" at="39,0,42,0" name="TLA.textGen.SingleInstancePrefix_TextGen$PROPS" />
+      <unit id="8968830352736658941" at="43,0,46,0" name="TLA.textGen.SingleInstancePrefix_TextGen$LINKS" />
+      <unit id="8968830352736658941" at="17,0,47,0" name="TLA.textGen.SingleInstancePrefix_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736658941" at="168,54,169,50" concept="8" />
+      <scope id="8968830352736658941" at="168,54,169,50" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736675751">
+    <file name="OpDeclList_TextGen.java">
+      <node id="8968830352736675751" at="16,54,17,55" concept="7" />
+      <node id="8968830352736675794" at="18,5,19,113" concept="7" />
+      <node id="8968830352736675794" at="19,113,20,70" concept="7" />
+      <node id="8968830352736675794" at="21,37,22,29" concept="3" />
+      <node id="8968830352736675794" at="23,31,24,26" concept="3" />
+      <node id="8968830352736675751" at="31,0,32,0" concept="9" trace="OpDeclarations$75Cw" />
+      <node id="8968830352736675794" at="22,29,25,9" concept="5" />
+      <node id="8968830352736675794" at="20,70,26,7" concept="4" />
+      <node id="8968830352736675794" at="17,55,27,5" concept="0" />
+      <node id="8968830352736675751" at="15,0,29,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736675794" at="23,31,24,26" />
+      <scope id="8968830352736675794" at="21,37,25,9" />
+      <scope id="8968830352736675794" at="20,70,26,7">
+        <var name="item" id="8968830352736675794" />
+      </scope>
+      <scope id="8968830352736675794" at="18,5,26,7">
+        <var name="collection" id="8968830352736675794" />
+        <var name="lastItem" id="8968830352736675794" />
+      </scope>
+      <scope id="8968830352736675751" at="16,54,27,5">
+        <var name="tgs" id="8968830352736675751" />
+      </scope>
+      <scope id="8968830352736675751" at="15,0,29,0">
+        <var name="ctx" id="8968830352736675751" />
+      </scope>
+      <unit id="8968830352736675751" at="30,0,33,0" name="TLA.textGen.OpDeclList_TextGen$LINKS" />
+      <unit id="8968830352736675751" at="14,0,34,0" name="TLA.textGen.OpDeclList_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736675751" at="122,44,123,40" concept="8" />
+      <scope id="8968830352736675751" at="122,44,123,40" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736676850">
+    <file name="OpIdentifierNode_TextGen.java">
+      <node id="8968830352736676850" at="14,54,15,55" concept="7" />
+      <node id="8968830352736676893" at="15,55,16,86" concept="3" />
+      <node id="8968830352736676850" at="20,0,21,0" concept="9" trace="OpId$vrV0" />
+      <node id="8968830352736676850" at="13,0,18,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736676850" at="14,54,16,86">
+        <var name="tgs" id="8968830352736676850" />
+      </scope>
+      <scope id="8968830352736676850" at="13,0,18,0">
+        <var name="ctx" id="8968830352736676850" />
+      </scope>
+      <unit id="8968830352736676850" at="19,0,22,0" name="TLA.textGen.OpIdentifierNode_TextGen$PROPS" />
+      <unit id="8968830352736676850" at="12,0,23,0" name="TLA.textGen.OpIdentifierNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736676850" at="124,50,125,46" concept="8" />
+      <scope id="8968830352736676850" at="124,50,125,46" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736678215">
+    <file name="PrefixOpUnderscoreNode_TextGen.java">
+      <node id="8968830352736678215" at="14,54,15,55" concept="7" />
+      <node id="8968830352736678258" at="15,55,16,90" concept="3" />
+      <node id="4780320680500850813" at="16,90,17,20" concept="3" />
+      <node id="4780320680503604012" at="17,20,18,20" concept="3" />
+      <node id="8968830352736678215" at="22,0,23,0" concept="9" trace="PrefixOp$_Bcn" />
+      <node id="8968830352736678215" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736678215" at="14,54,18,20">
+        <var name="tgs" id="8968830352736678215" />
+      </scope>
+      <scope id="8968830352736678215" at="13,0,20,0">
+        <var name="ctx" id="8968830352736678215" />
+      </scope>
+      <unit id="8968830352736678215" at="21,0,24,0" name="TLA.textGen.PrefixOpUnderscoreNode_TextGen$LINKS" />
+      <unit id="8968830352736678215" at="12,0,25,0" name="TLA.textGen.PrefixOpUnderscoreNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736678215" at="140,56,141,52" concept="8" />
+      <scope id="8968830352736678215" at="140,56,141,52" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736680739">
+    <file name="PostfixOpUnderscoreNode_TextGen.java">
+      <node id="8968830352736680739" at="14,54,15,55" concept="7" />
+      <node id="4780320680503346543" at="15,55,16,20" concept="3" />
+      <node id="4780320680500851560" at="16,20,17,20" concept="3" />
+      <node id="8968830352736680782" at="17,20,18,107" concept="3" />
+      <node id="4780320680503604186" at="18,107,19,20" concept="3" />
+      <node id="8968830352736680739" at="23,0,24,0" concept="9" trace="PostfixOp$eDmw" />
+      <node id="8968830352736680739" at="13,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736680739" at="14,54,19,20">
+        <var name="tgs" id="8968830352736680739" />
+      </scope>
+      <scope id="8968830352736680739" at="13,0,21,0">
+        <var name="ctx" id="8968830352736680739" />
+      </scope>
+      <unit id="8968830352736680739" at="22,0,25,0" name="TLA.textGen.PostfixOpUnderscoreNode_TextGen$PROPS" />
+      <unit id="8968830352736680739" at="12,0,26,0" name="TLA.textGen.PostfixOpUnderscoreNode_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736680739" at="134,57,135,53" concept="8" />
+      <scope id="8968830352736680739" at="134,57,135,53" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736683382">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736683382" at="186,65,187,61" concept="8" />
+      <scope id="8968830352736683382" at="186,65,187,61" />
+    </file>
+    <file name="UnderscoreInfixOpUnderscoreNode_TextGen.java">
+      <node id="8968830352736683382" at="14,54,15,55" concept="7" />
+      <node id="4780320680503347031" at="15,55,16,20" concept="3" />
+      <node id="4780320680500852256" at="16,20,17,20" concept="3" />
+      <node id="8968830352736683425" at="17,20,18,105" concept="3" />
+      <node id="4780320680500852405" at="18,105,19,20" concept="3" />
+      <node id="4780320680503347576" at="19,20,20,20" concept="3" />
+      <node id="8968830352736683382" at="24,0,25,0" concept="9" trace="InfixOp$eE2F" />
+      <node id="8968830352736683382" at="13,0,22,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736683382" at="14,54,20,20">
+        <var name="tgs" id="8968830352736683382" />
+      </scope>
+      <scope id="8968830352736683382" at="13,0,22,0">
+        <var name="ctx" id="8968830352736683382" />
+      </scope>
+      <unit id="8968830352736683382" at="23,0,26,0" name="TLA.textGen.UnderscoreInfixOpUnderscoreNode_TextGen$PROPS" />
+      <unit id="8968830352736683382" at="12,0,27,0" name="TLA.textGen.UnderscoreInfixOpUnderscoreNode_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736686197">
+    <file name="NonFixLHS_TextGen.java">
+      <node id="8968830352736686197" at="19,54,20,55" concept="7" />
+      <node id="8968830352736688707" at="20,55,21,84" concept="3" />
+      <node id="8968830352736701144" at="22,121,23,22" concept="3" />
+      <node id="8968830352736701186" at="24,7,25,112" concept="7" />
+      <node id="8968830352736701186" at="25,112,26,72" concept="7" />
+      <node id="8968830352736701186" at="27,39,28,31" concept="3" />
+      <node id="8968830352736701186" at="29,33,30,28" concept="3" />
+      <node id="8968830352736702506" at="33,7,34,22" concept="3" />
+      <node id="8968830352736686197" at="39,0,40,0" concept="9" trace="ID$h$Dw" />
+      <node id="8968830352736686197" at="43,0,44,0" concept="9" trace="SetOfOpDecl$E0N2" />
+      <node id="8968830352736701186" at="28,31,31,11" concept="5" />
+      <node id="8968830352736701186" at="26,72,32,9" concept="4" />
+      <node id="8968830352736701186" at="23,22,33,7" concept="0" />
+      <node id="8968830352736690067" at="21,84,35,5" concept="5" />
+      <node id="8968830352736686197" at="18,0,37,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736701186" at="29,33,30,28" />
+      <scope id="8968830352736701186" at="27,39,31,11" />
+      <scope id="8968830352736701186" at="26,72,32,9">
+        <var name="item" id="8968830352736701186" />
+      </scope>
+      <scope id="8968830352736701186" at="24,7,32,9">
+        <var name="collection" id="8968830352736701186" />
+        <var name="lastItem" id="8968830352736701186" />
+      </scope>
+      <scope id="8968830352736690069" at="22,121,34,22" />
+      <scope id="8968830352736686197" at="19,54,35,5">
+        <var name="tgs" id="8968830352736686197" />
+      </scope>
+      <scope id="8968830352736686197" at="18,0,37,0">
+        <var name="ctx" id="8968830352736686197" />
+      </scope>
+      <unit id="8968830352736686197" at="38,0,41,0" name="TLA.textGen.NonFixLHS_TextGen$PROPS" />
+      <unit id="8968830352736686197" at="42,0,45,0" name="TLA.textGen.NonFixLHS_TextGen$LINKS" />
+      <unit id="8968830352736686197" at="17,0,46,0" name="TLA.textGen.NonFixLHS_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736686197" at="118,43,119,39" concept="8" />
+      <scope id="8968830352736686197" at="118,43,119,39" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736702554">
+    <file name="PrefixOpAndID_TextGen.java">
+      <node id="8968830352736702554" at="16,54,17,55" concept="7" />
+      <node id="8968830352736702597" at="17,55,18,90" concept="3" />
+      <node id="8968830352736704140" at="18,90,19,84" concept="3" />
+      <node id="8968830352736702554" at="23,0,24,0" concept="9" trace="PrefixOp$o_PB" />
+      <node id="8968830352736702554" at="27,0,28,0" concept="9" trace="ID$96Yw" />
+      <node id="8968830352736702554" at="15,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736702554" at="16,54,19,84">
+        <var name="tgs" id="8968830352736702554" />
+      </scope>
+      <scope id="8968830352736702554" at="15,0,21,0">
+        <var name="ctx" id="8968830352736702554" />
+      </scope>
+      <unit id="8968830352736702554" at="22,0,25,0" name="TLA.textGen.PrefixOpAndID_TextGen$LINKS" />
+      <unit id="8968830352736702554" at="26,0,29,0" name="TLA.textGen.PrefixOpAndID_TextGen$PROPS" />
+      <unit id="8968830352736702554" at="14,0,30,0" name="TLA.textGen.PrefixOpAndID_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736702554" at="136,47,137,43" concept="8" />
+      <scope id="8968830352736702554" at="136,47,137,43" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736706366">
+    <file name="IDAndInfixOpAndID_TextGen.java">
+      <node id="8968830352736706366" at="14,54,15,55" concept="7" />
+      <node id="8968830352736706409" at="15,55,16,85" concept="3" />
+      <node id="4780320680501348257" at="16,85,17,20" concept="3" />
+      <node id="8968830352736707778" at="17,20,18,105" concept="3" />
+      <node id="4780320680501348514" at="18,105,19,20" concept="3" />
+      <node id="8968830352736708411" at="19,20,20,85" concept="3" />
+      <node id="8968830352736706366" at="24,0,25,0" concept="9" trace="ID1$9c_w" />
+      <node id="8968830352736706366" at="25,0,26,0" concept="9" trace="InfixOp$9cO2" />
+      <node id="8968830352736706366" at="26,0,27,0" concept="9" trace="ID2$9cAu" />
+      <node id="8968830352736706366" at="13,0,22,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736706366" at="14,54,20,85">
+        <var name="tgs" id="8968830352736706366" />
+      </scope>
+      <scope id="8968830352736706366" at="13,0,22,0">
+        <var name="ctx" id="8968830352736706366" />
+      </scope>
+      <unit id="8968830352736706366" at="23,0,28,0" name="TLA.textGen.IDAndInfixOpAndID_TextGen$PROPS" />
+      <unit id="8968830352736706366" at="12,0,29,0" name="TLA.textGen.IDAndInfixOpAndID_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736706366" at="80,51,81,47" concept="8" />
+      <scope id="8968830352736706366" at="80,51,81,47" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736710645">
+    <file name="IDAndPostfixOp_TextGen.java">
+      <node id="8968830352736710645" at="14,54,15,55" concept="7" />
+      <node id="8968830352736710688" at="15,55,16,84" concept="3" />
+      <node id="4780320680503345200" at="16,84,17,20" concept="3" />
+      <node id="8968830352736712057" at="17,20,18,107" concept="3" />
+      <node id="4780320680503345396" at="18,107,19,20" concept="3" />
+      <node id="8968830352736710645" at="23,0,24,0" concept="9" trace="ID$9dL0" />
+      <node id="8968830352736710645" at="24,0,25,0" concept="9" trace="PostfixOp$9dLY" />
+      <node id="8968830352736710645" at="13,0,21,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736710645" at="14,54,19,20">
+        <var name="tgs" id="8968830352736710645" />
+      </scope>
+      <scope id="8968830352736710645" at="13,0,21,0">
+        <var name="ctx" id="8968830352736710645" />
+      </scope>
+      <unit id="8968830352736710645" at="22,0,26,0" name="TLA.textGen.IDAndPostfixOp_TextGen$PROPS" />
+      <unit id="8968830352736710645" at="12,0,27,0" name="TLA.textGen.IDAndPostfixOp_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736710645" at="82,48,83,44" concept="8" />
+      <scope id="8968830352736710645" at="82,48,83,44" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736714114">
+    <file name="QuantifierBound_TextGen.java">
+      <node id="8968830352736714114" at="14,54,15,55" concept="7" />
+      <node id="8968830352736714157" at="15,55,16,85" concept="3" />
+      <node id="8968830352736715393" at="16,85,17,25" concept="3" />
+      <node id="8968830352736715519" at="17,25,18,86" concept="3" />
+      <node id="8968830352736714114" at="22,0,23,0" concept="9" trace="IDs$9k$y" />
+      <node id="8968830352736714114" at="23,0,24,0" concept="9" trace="Expr$9k_w" />
+      <node id="8968830352736714114" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="8968830352736714114" at="14,54,18,86">
+        <var name="tgs" id="8968830352736714114" />
+      </scope>
+      <scope id="8968830352736714114" at="13,0,20,0">
+        <var name="ctx" id="8968830352736714114" />
+      </scope>
+      <unit id="8968830352736714114" at="21,0,25,0" name="TLA.textGen.QuantifierBound_TextGen$LINKS" />
+      <unit id="8968830352736714114" at="12,0,26,0" name="TLA.textGen.QuantifierBound_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="8968830352736714114" at="144,49,145,45" concept="8" />
+      <scope id="8968830352736714114" at="144,49,145,45" />
+    </file>
+  </root>
+</debug-info>
+
