@@ -95,6 +95,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_StringNode;
   private ConceptPresentation props_Substitution;
   private ConceptPresentation props_Substitution_LHS;
+  private ConceptPresentation props_TestC;
   private ConceptPresentation props_Theorem;
   private ConceptPresentation props_Tuple;
   private ConceptPresentation props_TupleForChoose;
@@ -701,6 +702,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Substitution_LHS = cpb.create();
         }
         return props_Substitution_LHS;
+      case LanguageConceptSwitch.TestC:
+        if (props_TestC == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TestC");
+          props_TestC = cpb.create();
+        }
+        return props_TestC;
       case LanguageConceptSwitch.Theorem:
         if (props_Theorem == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

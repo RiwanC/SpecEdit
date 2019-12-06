@@ -104,6 +104,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptStringNode = createDescriptorForStringNode();
   /*package*/ final ConceptDescriptor myConceptSubstitution = createDescriptorForSubstitution();
   /*package*/ final ConceptDescriptor myConceptSubstitution_LHS = createDescriptorForSubstitution_LHS();
+  /*package*/ final ConceptDescriptor myConceptTestC = createDescriptorForTestC();
   /*package*/ final ConceptDescriptor myConceptTheorem = createDescriptorForTheorem();
   /*package*/ final ConceptDescriptor myConceptTuple = createDescriptorForTuple();
   /*package*/ final ConceptDescriptor myConceptTupleForChoose = createDescriptorForTupleForChoose();
@@ -140,7 +141,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptABS_LHS, myConceptAntiSlashSlashExpr, myConceptAntiSlashSlashExprList, myConceptArgument, myConceptAssumption, myConceptAxiomNode, myConceptCase, myConceptCaseArm, myConceptCharacterAt, myConceptChooseAndExpressions, myConceptConstantDeclaration, myConceptDefinition, myConceptExcept, myConceptExceptInterface, myConceptExceptList, myConceptExprAndGeneralInfixOpAndExpr, myConceptExprAndGeneralPostfixOp, myConceptExprAndXAndExpr, myConceptExprTupleAndExpr, myConceptExpression, myConceptExpressionBetweenParentheses, myConceptExpressionTuple, myConceptExtendedModuleName, myConceptFunctionAndRange, myConceptFunctionDefinition, myConceptGeneralIdentifier, myConceptGeneralIdentifierAndArg, myConceptGeneralInfixOp, myConceptGeneralPostfixOp, myConceptGeneralPrefixOp, myConceptGeneralPrefixOpAndExpression, myConceptIDAndInfixOpAndID, myConceptIDAndPostfixOp, myConceptIDOrTupleOrIDList, myConceptIdentifierList, myConceptIdentifierNode, myConceptIdentifierNodeForChoose, myConceptIdentifierOrTuple, myConceptIdentifierOrTupleForChoose, myConceptIf, myConceptInfixOpNode, myConceptInstance, myConceptInstancePrefix, myConceptLet, myConceptLocalFunctionDefinition, myConceptLocalInstance, myConceptLocalModuleDefinition, myConceptLocalOperatorDefinition, myConceptModule, myConceptModuleDefinition, myConceptModuleNameList, myConceptNameArrowExpr, myConceptNameColonExpr, myConceptNonFixLHS, myConceptNumberNode, myConceptOpDecl, myConceptOpDeclList, myConceptOpIdentifierNode, myConceptOperatorDefinition, myConceptOther, myConceptPointAndName, myConceptPostfixOpNode, myConceptPostfixOpUnderscoreNode, myConceptPrefixOpAndID, myConceptPrefixOpNode, myConceptPrefixOpUnderscoreNode, myConceptQuantifierAndIDListAndExpr, myConceptQuantifierBound, myConceptQuantifierBoundAndExpr, myConceptRangeExprAndExpr, myConceptRangeExprImpliesExpr, myConceptRangeExprList, myConceptRangeNameArrowExpr, myConceptRangeNameExpr, myConceptRangeQuantifierBoundAndExpr, myConceptSeparator, myConceptSetExpr, myConceptSetExprAndQuantifierBound, myConceptSetIDorTupleAndExpr, myConceptSingleInstancePrefix, myConceptSlashAntiSlahExpr, myConceptSlashAntiSlashExprList, myConceptSquareAndCaseArm, myConceptStringNode, myConceptSubstitution, myConceptSubstitution_LHS, myConceptTheorem, myConceptTuple, myConceptTupleForChoose, myConceptUnderscoreInfixOpUnderscoreNode, myConceptUnit, myConceptVariableDeclaration, myConceptWForSF, myConceptXandExpr);
+    return Arrays.asList(myConceptABS_LHS, myConceptAntiSlashSlashExpr, myConceptAntiSlashSlashExprList, myConceptArgument, myConceptAssumption, myConceptAxiomNode, myConceptCase, myConceptCaseArm, myConceptCharacterAt, myConceptChooseAndExpressions, myConceptConstantDeclaration, myConceptDefinition, myConceptExcept, myConceptExceptInterface, myConceptExceptList, myConceptExprAndGeneralInfixOpAndExpr, myConceptExprAndGeneralPostfixOp, myConceptExprAndXAndExpr, myConceptExprTupleAndExpr, myConceptExpression, myConceptExpressionBetweenParentheses, myConceptExpressionTuple, myConceptExtendedModuleName, myConceptFunctionAndRange, myConceptFunctionDefinition, myConceptGeneralIdentifier, myConceptGeneralIdentifierAndArg, myConceptGeneralInfixOp, myConceptGeneralPostfixOp, myConceptGeneralPrefixOp, myConceptGeneralPrefixOpAndExpression, myConceptIDAndInfixOpAndID, myConceptIDAndPostfixOp, myConceptIDOrTupleOrIDList, myConceptIdentifierList, myConceptIdentifierNode, myConceptIdentifierNodeForChoose, myConceptIdentifierOrTuple, myConceptIdentifierOrTupleForChoose, myConceptIf, myConceptInfixOpNode, myConceptInstance, myConceptInstancePrefix, myConceptLet, myConceptLocalFunctionDefinition, myConceptLocalInstance, myConceptLocalModuleDefinition, myConceptLocalOperatorDefinition, myConceptModule, myConceptModuleDefinition, myConceptModuleNameList, myConceptNameArrowExpr, myConceptNameColonExpr, myConceptNonFixLHS, myConceptNumberNode, myConceptOpDecl, myConceptOpDeclList, myConceptOpIdentifierNode, myConceptOperatorDefinition, myConceptOther, myConceptPointAndName, myConceptPostfixOpNode, myConceptPostfixOpUnderscoreNode, myConceptPrefixOpAndID, myConceptPrefixOpNode, myConceptPrefixOpUnderscoreNode, myConceptQuantifierAndIDListAndExpr, myConceptQuantifierBound, myConceptQuantifierBoundAndExpr, myConceptRangeExprAndExpr, myConceptRangeExprImpliesExpr, myConceptRangeExprList, myConceptRangeNameArrowExpr, myConceptRangeNameExpr, myConceptRangeQuantifierBoundAndExpr, myConceptSeparator, myConceptSetExpr, myConceptSetExprAndQuantifierBound, myConceptSetIDorTupleAndExpr, myConceptSingleInstancePrefix, myConceptSlashAntiSlahExpr, myConceptSlashAntiSlashExprList, myConceptSquareAndCaseArm, myConceptStringNode, myConceptSubstitution, myConceptSubstitution_LHS, myConceptTestC, myConceptTheorem, myConceptTuple, myConceptTupleForChoose, myConceptUnderscoreInfixOpUnderscoreNode, myConceptUnit, myConceptVariableDeclaration, myConceptWForSF, myConceptXandExpr);
   }
 
   @Override
@@ -319,6 +320,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptSubstitution;
       case LanguageConceptSwitch.Substitution_LHS:
         return myConceptSubstitution_LHS;
+      case LanguageConceptSwitch.TestC:
+        return myConceptTestC;
       case LanguageConceptSwitch.Theorem:
         return myConceptTheorem;
       case LanguageConceptSwitch.Tuple:
@@ -1148,6 +1151,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.interface_();
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7443146518776888583");
+    b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTestC() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("TLA", "TestC", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x45dbc5b788e7cb19L);
+    b.class_(false, false, false);
+    b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/5033834400583240473");
     b.version(2);
     return b.create();
   }
