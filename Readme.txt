@@ -2,7 +2,7 @@ How to build a standalone 'SpecEdit' editor for TLA+ ?
 
 1) Download the full git repository SpecEdit-master.
 2) Open the downloaded project with MPS.
-3) Right-click on the root of the project on the left panel in MPS.
+3) Unless you want to keep the current build configuration, remove the build solution and then right-click on the root of the project on the left panel in MPS.
 4) Select new -> Build solution. Keep default settings except for the selection of the distribution kind where you should select 'Standalone IDE'. A new directory should appear in the left panel with a build directory inside. 
 5) Go to the folder where MPS is installed (usually C:\Program Files\JetBrains\MPS 2019.2\bin for windows users) and create a new folder named linux, mac or win according to yout OS where you paste a copy of everything that is inside the bin folder where you created the new folder linux, mac or win.
 6) Go back to MPS and edit SpecEditDistribution to remove the lines about the generation of an archive for the OSs you don't use (for instance remove the section about macOS and the section about linux if you use windows). Make or rebuild the build directory (via the menu you get access to this option by right-clicking on the build directory on the side pannel).
