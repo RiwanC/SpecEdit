@@ -95,15 +95,14 @@ public final class LanguageConceptSwitch {
   public static final int StringNode = 83;
   public static final int Substitution = 84;
   public static final int Substitution_LHS = 85;
-  public static final int TestC = 86;
-  public static final int Theorem = 87;
-  public static final int Tuple = 88;
-  public static final int TupleForChoose = 89;
-  public static final int UnderscoreInfixOpUnderscoreNode = 90;
-  public static final int Unit = 91;
-  public static final int VariableDeclaration = 92;
-  public static final int WForSF = 93;
-  public static final int XandExpr = 94;
+  public static final int Theorem = 86;
+  public static final int Tuple = 87;
+  public static final int TupleForChoose = 88;
+  public static final int UnderscoreInfixOpUnderscoreNode = 89;
+  public static final int Unit = 90;
+  public static final int VariableDeclaration = 91;
+  public static final int WForSF = 92;
+  public static final int XandExpr = 93;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL);
@@ -193,7 +192,6 @@ public final class LanguageConceptSwitch {
     builder.put(0x2efc45b4e6202bc6L, StringNode);
     builder.put(0x6b3146ab9a50d87aL, Substitution);
     builder.put(0x674b5e52c6e1bd07L, Substitution_LHS);
-    builder.put(0x45dbc5b788e7cb19L, TestC);
     builder.put(0x674b5e52c6e1bd65L, Theorem);
     builder.put(0x467903da84aac8c2L, Tuple);
     builder.put(0x7551f37ec111f722L, TupleForChoose);

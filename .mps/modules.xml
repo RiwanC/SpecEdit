@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/TLA/TLA.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/TLA/sandbox/TLA.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SpecEdit.build/SpecEdit.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
