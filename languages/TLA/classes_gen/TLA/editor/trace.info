@@ -6623,48 +6623,75 @@
       <unit id="5078094291900484020" at="10,0,15,0" name="TLA.editor.Separator_Editor" />
     </file>
     <file name="Separator_EditorBuilder_a.java">
-      <node id="5078094291900484020" at="22,89,23,19" concept="9" />
-      <node id="5078094291900484020" at="23,19,24,18" concept="1" />
-      <node id="5078094291900484020" at="29,26,30,18" concept="7" />
-      <node id="5078094291900484020" at="33,39,34,32" concept="7" />
-      <node id="5078094291900484020" at="37,43,38,118" concept="6" />
-      <node id="5078094291900484020" at="38,118,39,48" concept="1" />
-      <node id="5078094291900484020" at="39,48,40,28" concept="1" />
-      <node id="5078094291900484020" at="40,28,41,31" concept="1" />
-      <node id="5078094291900484029" at="41,31,42,49" concept="1" />
-      <node id="5078094291900484020" at="42,49,43,22" concept="7" />
-      <node id="5078094291900484029" at="45,41,46,113" concept="6" />
-      <node id="5078094291900484029" at="46,113,47,47" concept="1" />
-      <node id="5078094291900484029" at="47,47,48,34" concept="6" />
-      <node id="5078094291901698639" at="48,34,49,57" concept="1" />
-      <node id="5078094291900484029" at="49,57,50,40" concept="1" />
-      <node id="5078094291900484029" at="50,40,51,34" concept="1" />
-      <node id="5078094291900484029" at="51,34,52,22" concept="7" />
-      <node id="5078094291900484020" at="19,0,21,0" concept="2" trace="myNode" />
-      <node id="5078094291900484020" at="33,0,36,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5078094291900484020" at="22,0,26,0" concept="0" trace="Separator_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="5078094291900484020" at="27,0,32,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="5078094291900484020" at="37,0,45,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5078094291900484029" at="45,0,54,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5078094291900484020" at="29,26,30,18" />
-      <scope id="5078094291900484020" at="33,39,34,32" />
-      <scope id="5078094291900484020" at="22,89,24,18" />
-      <scope id="5078094291900484020" at="33,0,36,0" />
-      <scope id="5078094291900484020" at="22,0,26,0">
+      <node id="5078094291900484020" at="33,89,34,19" concept="9" />
+      <node id="5078094291900484020" at="34,19,35,18" concept="1" />
+      <node id="5078094291900484020" at="40,26,41,18" concept="7" />
+      <node id="5078094291900484020" at="44,39,45,32" concept="7" />
+      <node id="5078094291900484020" at="48,43,49,118" concept="6" />
+      <node id="5078094291900484020" at="49,118,50,48" concept="1" />
+      <node id="5078094291900484020" at="50,48,51,28" concept="1" />
+      <node id="5078094291900484020" at="51,28,52,31" concept="1" />
+      <node id="6215035955602979531" at="52,31,53,49" concept="1" />
+      <node id="5078094291900484020" at="53,49,54,22" concept="7" />
+      <node id="6215035955602979531" at="56,41,57,39" concept="1" />
+      <node id="6215035955602979531" at="58,9,59,48" concept="6" />
+      <node id="6215035955602979531" at="59,48,60,76" concept="1" />
+      <node id="6215035955602979531" at="60,76,61,149" concept="6" />
+      <node id="6215035955602979531" at="61,149,62,44" concept="1" />
+      <node id="6215035955602979531" at="62,44,63,43" concept="1" />
+      <node id="6215035955602979531" at="63,43,64,86" concept="1" />
+      <node id="6215035955602979531" at="64,86,65,33" concept="1" />
+      <node id="6215035955602979531" at="65,33,66,188" concept="6" />
+      <node id="6215035955602979531" at="68,41,69,118" concept="7" />
+      <node id="6215035955602979531" at="72,74,73,89" concept="6" />
+      <node id="6215035955602979531" at="73,89,74,145" concept="7" />
+      <node id="6215035955602979531" at="75,12,76,24" concept="7" />
+      <node id="6215035955602979531" at="77,15,78,40" concept="1" />
+      <node id="5078094291900484020" at="83,0,84,0" concept="8" trace="sep$Oove" />
+      <node id="5078094291900484020" at="87,0,88,0" concept="8" trace="PropertyAttribute$jT" />
+      <node id="5078094291900484020" at="30,0,32,0" concept="2" trace="myNode" />
+      <node id="5078094291900484020" at="44,0,47,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6215035955602979531" at="68,0,71,0" concept="5" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="5078094291900484020" at="33,0,37,0" concept="0" trace="Separator_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5078094291900484020" at="38,0,43,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6215035955602979531" at="66,188,71,9" concept="6" />
+      <node id="6215035955602979531" at="71,9,76,24" concept="4" />
+      <node id="5078094291900484020" at="48,0,56,0" concept="5" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="6215035955602979531" at="57,39,79,5" concept="11" />
+      <node id="6215035955602979531" at="56,0,81,0" concept="5" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="5078094291900484020" at="40,26,41,18" />
+      <scope id="5078094291900484020" at="44,39,45,32" />
+      <scope id="6215035955602979531" at="68,41,69,118" />
+      <scope id="6215035955602979531" at="77,15,78,40" />
+      <scope id="5078094291900484020" at="33,89,35,18" />
+      <scope id="6215035955602979531" at="72,74,74,145">
+        <var name="manager" id="6215035955602979531" />
+      </scope>
+      <scope id="5078094291900484020" at="44,0,47,0" />
+      <scope id="6215035955602979531" at="68,0,71,0">
+        <var name="it" id="6215035955602979531" />
+      </scope>
+      <scope id="5078094291900484020" at="33,0,37,0">
         <var name="context" id="5078094291900484020" />
         <var name="node" id="5078094291900484020" />
       </scope>
-      <scope id="5078094291900484020" at="27,0,32,0" />
-      <scope id="5078094291900484020" at="37,43,43,22">
+      <scope id="5078094291900484020" at="38,0,43,0" />
+      <scope id="5078094291900484020" at="48,43,54,22">
         <var name="editorCell" id="5078094291900484020" />
       </scope>
-      <scope id="5078094291900484029" at="45,41,52,22">
-        <var name="editorCell" id="5078094291900484029" />
-        <var name="style" id="5078094291900484029" />
+      <scope id="5078094291900484020" at="48,0,56,0" />
+      <scope id="6215035955602979531" at="58,9,76,24">
+        <var name="currentPropertyAttributes" id="6215035955602979531" />
+        <var name="editorCell" id="6215035955602979531" />
+        <var name="property" id="6215035955602979531" />
+        <var name="propertyAttributes" id="6215035955602979531" />
       </scope>
-      <scope id="5078094291900484020" at="37,0,45,0" />
-      <scope id="5078094291900484029" at="45,0,54,0" />
-      <unit id="5078094291900484020" at="18,0,55,0" name="TLA.editor.Separator_EditorBuilder_a" />
+      <scope id="6215035955602979531" at="56,41,79,5" />
+      <scope id="6215035955602979531" at="56,0,81,0" />
+      <unit id="5078094291900484020" at="82,0,85,0" name="TLA.editor.Separator_EditorBuilder_a$PROPS" />
+      <unit id="5078094291900484020" at="86,0,89,0" name="TLA.editor.Separator_EditorBuilder_a$CONCEPTS" />
+      <unit id="6215035955602979531" at="67,102,71,7" name="TLA.editor.Separator_EditorBuilder_a$1" />
+      <unit id="5078094291900484020" at="29,0,90,0" name="TLA.editor.Separator_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:ac9edd4d-dcc1-4e18-b1bb-1318827a041e(TLA.editor)/5078094291900978577">

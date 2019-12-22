@@ -118,7 +118,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.AntiSlashSlashExpr:
         if (props_AntiSlashSlashExpr == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("AntiSlashSlashExpr");
+          cpb.rawPresentation("\\/");
           props_AntiSlashSlashExpr = cpb.create();
         }
         return props_AntiSlashSlashExpr;
@@ -152,7 +152,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Case:
         if (props_Case == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Case");
+          cpb.rawPresentation("CASE");
           props_Case = cpb.create();
         }
         return props_Case;
@@ -173,7 +173,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ChooseAndExpressions:
         if (props_ChooseAndExpressions == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("ChooseAndExpressions");
+          cpb.rawPresentation("CHOOSE");
           props_ChooseAndExpressions = cpb.create();
         }
         return props_ChooseAndExpressions;
@@ -206,7 +206,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ExceptList:
         if (props_ExceptList == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("ExceptList");
+          cpb.rawPresentation("!");
           props_ExceptList = cpb.create();
         }
         return props_ExceptList;
@@ -234,7 +234,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ExprTupleAndExpr:
         if (props_ExprTupleAndExpr == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("ExprTupleAndExpr");
+          cpb.rawPresentation("<<>>_");
           props_ExprTupleAndExpr = cpb.create();
         }
         return props_ExprTupleAndExpr;
@@ -247,14 +247,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ExpressionBetweenParentheses:
         if (props_ExpressionBetweenParentheses == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("ExpressionBetweenParentheses");
+          cpb.rawPresentation("(");
           props_ExpressionBetweenParentheses = cpb.create();
         }
         return props_ExpressionBetweenParentheses;
       case LanguageConceptSwitch.ExpressionTuple:
         if (props_ExpressionTuple == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("ExpressionTuple");
+          cpb.rawPresentation("<<>>");
           props_ExpressionTuple = cpb.create();
         }
         return props_ExpressionTuple;
@@ -377,7 +377,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.If:
         if (props_If == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("If");
+          cpb.rawPresentation("IF");
           props_If = cpb.create();
         }
         return props_If;
@@ -405,7 +405,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Let:
         if (props_Let == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Let");
+          cpb.rawPresentation("LET");
           props_Let = cpb.create();
         }
         return props_Let;
@@ -468,7 +468,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.NameColonExpr:
         if (props_NameColonExpr == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("NameColonExpr");
+          cpb.rawPresentation(":");
           props_NameColonExpr = cpb.create();
         }
         return props_NameColonExpr;
@@ -516,7 +516,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Other:
         if (props_Other == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Other");
+          cpb.rawPresentation("OTHER");
           props_Other = cpb.create();
         }
         return props_Other;
@@ -628,7 +628,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Separator:
         if (props_Separator == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("--");
+          cpb.rawPresentation("----");
           props_Separator = cpb.create();
         }
         return props_Separator;
@@ -663,7 +663,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.SlashAntiSlahExpr:
         if (props_SlashAntiSlahExpr == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("SlashAntiSlahExpr");
+          cpb.rawPresentation("/\\");
           props_SlashAntiSlahExpr = cpb.create();
         }
         return props_SlashAntiSlahExpr;
@@ -677,7 +677,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.SquareAndCaseArm:
         if (props_SquareAndCaseArm == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("SquareAndCaseArm");
+          cpb.rawPresentation("[]");
           props_SquareAndCaseArm = cpb.create();
         }
         return props_SquareAndCaseArm;
@@ -691,7 +691,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Substitution:
         if (props_Substitution == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Substitution");
+          cpb.rawPresentation("<-");
           props_Substitution = cpb.create();
         }
         return props_Substitution;
@@ -753,7 +753,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.XandExpr:
         if (props_XandExpr == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("XandExpr");
+          cpb.rawPresentation("x");
           props_XandExpr = cpb.create();
         }
         return props_XandExpr;

@@ -956,6 +956,7 @@
     <property role="EcuMT" value="7724032538759452794" />
     <property role="TrG5h" value="Substitution" />
     <property role="3GE5qa" value="Substitution" />
+    <property role="34LRSv" value="&lt;-" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6tbn_b6SrOW" role="1TKVEi">
       <property role="IQ2ns" value="7443146518776888636" />
@@ -1323,6 +1324,7 @@
     <property role="EcuMT" value="5078094291900483778" />
     <property role="TrG5h" value="Tuple" />
     <property role="3GE5qa" value="Types" />
+    <property role="34LRSv" value="&lt;&lt;&gt;&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4pT0XE4EGz3" role="1TKVEi">
       <property role="IQ2ns" value="5078094291900483779" />
@@ -1383,8 +1385,13 @@
     <property role="EcuMT" value="5078094291900484001" />
     <property role="TrG5h" value="Separator" />
     <property role="3GE5qa" value="Unit" />
-    <property role="34LRSv" value="--" />
+    <property role="34LRSv" value="----" />
     <ref role="1TJDcQ" node="2Ky6l76zgrq" resolve="Unit" />
+    <node concept="1TJgyi" id="5p0f$nvZJF9" role="1TKVEl">
+      <property role="IQ2nx" value="6215035955602979529" />
+      <property role="TrG5h" value="sep" />
+      <ref role="AX2Wp" node="5p0f$nvZJF8" resolve="Separation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4pT0XE4G_me">
     <property role="EcuMT" value="5078094291900978574" />
@@ -1503,6 +1510,7 @@
     <property role="EcuMT" value="1760991658762979671" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="ExpressionBetweenParentheses" />
+    <property role="34LRSv" value="(" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
     <node concept="1TJgyj" id="1xKj9lwZ$_o" role="1TKVEi">
       <property role="IQ2ns" value="1760991658762979672" />
@@ -1581,6 +1589,7 @@
     <property role="EcuMT" value="622434103402456154" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="ChooseAndExpressions" />
+    <property role="34LRSv" value="CHOOSE" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
     <node concept="1TJgyj" id="yzl8jHp6hr" role="1TKVEi">
       <property role="IQ2ns" value="622434103402456155" />
@@ -1629,6 +1638,7 @@
     <property role="EcuMT" value="8453805701281740578" />
     <property role="TrG5h" value="TupleForChoose" />
     <property role="3GE5qa" value="Types" />
+    <property role="34LRSv" value="&lt;&lt;&gt;&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7lhWRV14vsz" role="1TKVEi">
       <property role="IQ2ns" value="8453805701281740579" />
@@ -1844,6 +1854,7 @@
     <property role="EcuMT" value="2425262332964270872" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="NameColonExpr" />
+    <property role="34LRSv" value=":" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="26CgNS3u7cp" role="1TKVEl">
       <property role="IQ2nx" value="2425262332964270873" />
@@ -1861,6 +1872,7 @@
     <property role="EcuMT" value="2425262332964270941" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="PointAndName" />
+    <property role="34LRSv" value="." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="26CgNS3u7du" role="1TKVEl">
       <property role="IQ2nx" value="2425262332964270942" />
@@ -1899,6 +1911,7 @@
     <property role="EcuMT" value="2425262332964271007" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="ExceptList" />
+    <property role="34LRSv" value="!" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26CgNS3u7ew" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964271008" />
@@ -1939,6 +1952,7 @@
     <property role="EcuMT" value="2425262332964271124" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="ExpressionTuple" />
+    <property role="34LRSv" value="&lt;&lt;&gt;&gt;" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
     <node concept="1TJgyj" id="26CgNS3u7gl" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964271125" />
@@ -1952,6 +1966,7 @@
     <property role="EcuMT" value="2425262332964271159" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="XandExpr" />
+    <property role="34LRSv" value="x" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26CgNS3u7gS" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964271160" />
@@ -1985,6 +2000,7 @@
     <property role="EcuMT" value="2425262332964271220" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="If" />
+    <property role="34LRSv" value="IF" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
     <node concept="1TJgyj" id="26CgNS3u7hP" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964271221" />
@@ -2032,6 +2048,7 @@
     <property role="EcuMT" value="2425262332964271330" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="SquareAndCaseArm" />
+    <property role="34LRSv" value="[]" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26CgNS3u7jz" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964271331" />
@@ -2045,6 +2062,7 @@
     <property role="EcuMT" value="2425262332964271352" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="Case" />
+    <property role="34LRSv" value="CASE" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
     <node concept="1TJgyj" id="26CgNS3u7jT" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964271353" />
@@ -2071,6 +2089,7 @@
     <property role="EcuMT" value="2425262332964271360" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="Other" />
+    <property role="34LRSv" value="OTHER" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26CgNS3u7k1" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964271361" />
@@ -2092,6 +2111,7 @@
     <property role="EcuMT" value="2425262332964305427" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="Let" />
+    <property role="34LRSv" value="LET" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
     <node concept="1TJgyj" id="26CgNS3ulvM" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964329458" />
@@ -2112,6 +2132,7 @@
     <property role="EcuMT" value="2425262332964329525" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="SlashAntiSlahExpr" />
+    <property role="34LRSv" value="/\" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26CgNS3ulwQ" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964329526" />
@@ -2138,6 +2159,7 @@
     <property role="EcuMT" value="2425262332964329566" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="AntiSlashSlashExpr" />
+    <property role="34LRSv" value="\/" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26CgNS3ulxv" role="1TKVEi">
       <property role="IQ2ns" value="2425262332964329567" />
@@ -2210,6 +2232,7 @@
     <property role="EcuMT" value="9002822135469081008" />
     <property role="3GE5qa" value="Argument.Expression" />
     <property role="TrG5h" value="ExprTupleAndExpr" />
+    <property role="34LRSv" value="&lt;&lt;&gt;&gt;_" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
     <node concept="1TJgyj" id="7NKsKy0E86L" role="1TKVEi">
       <property role="IQ2ns" value="9002822135469081009" />
@@ -2245,6 +2268,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6tbn_b6SrPv" resolve="Expression" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="5p0f$nvZJF8">
+    <property role="3F6X1D" value="6215035955602979528" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="Separation" />
+    <property role="FLfZY" value="---(-)+" />
   </node>
 </model>
 

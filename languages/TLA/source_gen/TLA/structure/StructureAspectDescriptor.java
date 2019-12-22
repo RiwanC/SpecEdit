@@ -125,6 +125,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeNumber = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03795888L, "Number", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329608", "[0-9]+");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeNumeral = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936cbL, "Numeral", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7405347886383838923", "[0-9]");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeOpIdentifier = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb8eb85L, "OpIdentifier", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/5169970363584015237", "^(?!((ASSUME)$|(ELSE)$|(LOCAL)$|(UNION)$|(ASSUMPTION)$|(ENABLED)$|(MODULE)$|(VARIABLE)$|(AXIOM)$|(EXCEPT)$|(OTHER)$|(VARIABLES)$|(CASE)$|(EXTENDS)$|(CHOOSE)$|(IF)$|(SUBSET)$|(WITH)$|(CONSTANT)$|(IN)$|(THEN)$|(CONSTANTS)$|(INSTANCE)$|(THEOREM)$|(DOMAIN)$|(LET)$|(UNCHANGED)$|(BOOLEAN)$|(TRUE)$|(FALSE)$|(STRING)$))^(?!WF_|SF_)(([a-zA-Z]|[0-9]|_)*[a-zA-Z]([a-zA-Z]|[0-9]|_)*[(]_(,_)*[)])");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeSeparation = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x56403e45dffefac8L, "Separation", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/6215035955602979528", "---(-)+");
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -342,7 +343,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationAxiom, myEnumerationInfixOp, myEnumerationPostfixOp, myEnumerationPrefixOp, myEnumerationRegularQuantifier, myEnumerationWForSFEnum, myCSDatatypeIdentifier, myCSDatatypeLetter, myCSDatatypeName, myCSDatatypeNameChar, myCSDatatypeNumber, myCSDatatypeNumeral, myCSDatatypeOpIdentifier);
+    return Arrays.asList(myEnumerationAxiom, myEnumerationInfixOp, myEnumerationPostfixOp, myEnumerationPrefixOp, myEnumerationRegularQuantifier, myEnumerationWForSFEnum, myCSDatatypeIdentifier, myCSDatatypeLetter, myCSDatatypeName, myCSDatatypeNameChar, myCSDatatypeNumber, myCSDatatypeNumeral, myCSDatatypeOpIdentifier, myCSDatatypeSeparation);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -362,6 +363,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329566");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e0379585fL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964329567").done();
+    b.alias("\\/");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForAntiSlashSlashExprList() {
@@ -407,6 +409,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("CaseArm", 0x21a8433e037874f9L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e037874c1L).optional(false).ordered(true).multiple(false).origin("2425262332964271353").done();
     b.aggregate("SquareAndCaseArm", 0x21a8433e037874fbL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e037874e2L).optional(false).ordered(true).multiple(true).origin("2425262332964271355").done();
     b.aggregate("OptionalOther", 0x21a8433e0378759eL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03787500L).optional(true).ordered(true).multiple(false).origin("2425262332964271518").done();
+    b.alias("CASE");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForCaseArm() {
@@ -435,6 +438,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("IDorTuple", 0x8a35484ed64645bL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x7551f37ec111f703L).optional(false).ordered(true).multiple(false).origin("622434103402456155").done();
     b.aggregate("ExprMandatory", 0x8a35484ed646460L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("622434103402456160").done();
+    b.alias("CHOOSE");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForConstantDeclaration() {
@@ -480,6 +484,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("OneOrMore", 0x21a8433e037873a0L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03787398L).optional(false).ordered(true).multiple(true).origin("2425262332964271008").done();
     b.aggregate("Expr", 0x21a8433e037873a2L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964271010").done();
+    b.alias("!");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForExprAndGeneralInfixOpAndExpr() {
@@ -521,6 +526,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("Expr1", 0x7cf0730880a881b1L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("9002822135469081009").done();
     b.aggregate("Expr2", 0x7cf0730880a881b3L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("9002822135469081011").done();
+    b.alias("<<>>_");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForExpression() {
@@ -538,6 +544,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/1760991658762979671");
     b.version(2);
     b.aggregate("Expr", 0x18704c9560fe4958L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("1760991658762979672").done();
+    b.alias("(");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForExpressionTuple() {
@@ -547,6 +554,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964271124");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e03787415L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(true).origin("2425262332964271125").done();
+    b.alias("<<>>");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForExtendedModuleName() {
@@ -723,6 +731,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("Expr1", 0x21a8433e03787475L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964271221").done();
     b.aggregate("Expr2", 0x21a8433e03787477L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964271223").done();
     b.aggregate("Expr3", 0x21a8433e0378747aL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964271226").done();
+    b.alias("IF");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForInfixOpNode() {
@@ -761,6 +770,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("Def", 0x21a8433e037957f2L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e0378fa0aL).optional(false).ordered(true).multiple(true).origin("2425262332964329458").done();
     b.aggregate("Expr", 0x21a8433e037957f4L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964329460").done();
+    b.alias("LET");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLocalFunctionDefinition() {
@@ -850,6 +860,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("NameProperty", 0x21a8433e03787319L).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936c9L)).origin("2425262332964270873").done();
     b.aggregate("Expr", 0x21a8433e0378731bL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(true).ordered(true).multiple(false).origin("2425262332964270875").done();
+    b.alias(":");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForNonFixLHS() {
@@ -912,6 +923,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964271360");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e03787501L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964271361").done();
+    b.alias("OTHER");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPointAndName() {
@@ -921,6 +933,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964270941");
     b.version(2);
     b.property("NameProperty", 0x21a8433e0378735eL).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936c9L)).origin("2425262332964270942").done();
+    b.alias(".");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPostfixOpNode() {
@@ -1063,7 +1076,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("TLA.structure.Unit", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d06daL);
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/5078094291900484001");
     b.version(2);
-    b.alias("--");
+    b.property("sep", 0x56403e45dffefac9L).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x56403e45dffefac8L)).origin("6215035955602979529").done();
+    b.alias("----");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSetExpr() {
@@ -1111,6 +1125,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329525");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e03795836L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964329526").done();
+    b.alias("/\\");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSlashAntiSlashExprList() {
@@ -1128,6 +1143,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964271330");
     b.version(2);
     b.aggregate("CaseArm", 0x21a8433e037874e3L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e037874c1L).optional(false).ordered(true).multiple(false).origin("2425262332964271331").done();
+    b.alias("[]");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForStringNode() {
@@ -1146,6 +1162,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("substitLHS", 0x674b5e52c6e1bd3cL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd07L).optional(false).ordered(true).multiple(false).origin("7443146518776888636").done();
     b.aggregate("Arg", 0x674b5e52c6e1bd55L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1b6c1L).optional(false).ordered(true).multiple(false).origin("7443146518776888661").done();
+    b.alias("<-");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSubstitution_LHS() {
@@ -1173,6 +1190,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/5078094291900483778");
     b.version(2);
     b.aggregate("IDList", 0x467903da84aac8c3L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL).optional(false).ordered(true).multiple(false).origin("5078094291900483779").done();
+    b.alias("<<>>");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTupleForChoose() {
@@ -1183,6 +1201,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("IDList", 0x7551f37ec111f723L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL).optional(false).ordered(true).multiple(false).origin("8453805701281740579").done();
     b.aggregate("ExprOption", 0x70c5d7f04f50eabfL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(true).ordered(true).multiple(false).origin("8126138529782753983").done();
+    b.alias("<<>>");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForUnderscoreInfixOpUnderscoreNode() {
@@ -1229,6 +1248,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964271159");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e03787438L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964271160").done();
+    b.alias("x");
     return b.create();
   }
 }

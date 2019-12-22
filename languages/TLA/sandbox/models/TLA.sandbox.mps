@@ -111,7 +111,9 @@
       <concept id="5078094291900978596" name="TLA.structure.LocalOperatorDefinition" flags="ng" index="32MPpY">
         <child id="5078094291900978597" name="OpDef" index="32MPpZ" />
       </concept>
-      <concept id="5078094291900484001" name="TLA.structure.Separator" flags="ng" index="32OWDV" />
+      <concept id="5078094291900484001" name="TLA.structure.Separator" flags="ng" index="32OWDV">
+        <property id="6215035955602979529" name="sep" index="29JGic" />
+      </concept>
       <concept id="5078094291900483918" name="TLA.structure.FunctionDefinition" flags="ng" index="32OWEk">
         <property id="5078094291900483919" name="ID" index="32OWEl" />
         <child id="5078094291900483923" name="Expr" index="32OWE9" />
@@ -446,7 +448,9 @@
         </node>
       </node>
     </node>
-    <node concept="32OWDV" id="59kRZv6XI1y" role="2SR288" />
+    <node concept="32OWDV" id="59kRZv6XI1y" role="2SR288">
+      <property role="29JGic" value="-----------------------" />
+    </node>
     <node concept="32OWJ_" id="59kRZv6QKF$" role="2SR288">
       <node concept="3LvGQJ" id="59kRZv6QKFM" role="32OWIq">
         <property role="3LvGQI" value="CanMove" />
@@ -625,7 +629,9 @@
         </node>
       </node>
     </node>
-    <node concept="32OWDV" id="59kRZv6XI6i" role="2SR288" />
+    <node concept="32OWDV" id="59kRZv6XI6i" role="2SR288">
+      <property role="29JGic" value="-----------------------" />
+    </node>
     <node concept="32OWJ_" id="59kRZv6RueI" role="2SR288">
       <node concept="3LvGQJ" id="59kRZv6Rufg" role="32OWIq">
         <property role="3LvGQI" value="Invariant" />

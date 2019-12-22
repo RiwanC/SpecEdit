@@ -1680,11 +1680,8 @@
     <property role="3GE5qa" value="Unit" />
     <ref role="1XX52x" to="548q:4pT0XE4EGAx" resolve="Separator" />
     <node concept="3EZMnI" id="4pT0XE4EGAQ" role="2wV5jI">
-      <node concept="3F0ifn" id="4pT0XE4EGAX" role="3EZMnx">
-        <property role="3F0ifm" value="--------------------" />
-        <node concept="Vb9p2" id="4pT0XE4Jl9f" role="3F10Kt">
-          <property role="Vbekb" value="g1_k_vY/BOLD" />
-        </node>
+      <node concept="3F0A7n" id="5p0f$nvZJFb" role="3EZMnx">
+        <ref role="1NtTu8" to="548q:5p0f$nvZJF9" resolve="sep" />
       </node>
       <node concept="l2Vlx" id="4pT0XE4EGAT" role="2iSdaV" />
     </node>
