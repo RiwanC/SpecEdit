@@ -121,7 +121,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeIdentifier = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1948c4L, "Identifier", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7405347886383843524", "^(?!((ASSUME)$|(ELSE)$|(LOCAL)$|(UNION)$|(ASSUMPTION)$|(ENABLED)$|(MODULE)$|(VARIABLE)$|(AXIOM)$|(EXCEPT)$|(OTHER)$|(VARIABLES)$|(CASE)$|(EXTENDS)$|(CHOOSE)$|(IF)$|(SUBSET)$|(WITH)$|(CONSTANT)$|(IN)$|(THEN)$|(CONSTANTS)$|(INSTANCE)$|(THEOREM)$|(DOMAIN)$|(LET)$|(UNCHANGED)$))^(?!WF_|SF_)(([a-zA-Z]|[0-9]|_)*[a-zA-Z]([a-zA-Z]|[0-9]|_)*)");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeLetter = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936caL, "Letter", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7405347886383838922", "[a-zA-Z]");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeName = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936c9L, "Name", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7405347886383838921", "^(?!WF_|SF_)(([a-zA-Z]|[0-9]|_)*[a-zA-Z]([a-zA-Z]|[0-9]|_)*)");
-  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeNameChar = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936ccL, "NameChar", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7405347886383838924", "[a-zA-Z][0-9]_");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeNameChar = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936ccL, "NameChar", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7405347886383838924", "[a-zA-Z]|[0-9]|_");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeNumber = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03795888L, "Number", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329608", "[0-9]+");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeNumeral = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936cbL, "Numeral", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7405347886383838923", "[0-9]");
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatypeOpIdentifier = new ConstrainedStringDatatypeDescriptorImpl(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb8eb85L, "OpIdentifier", "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/5169970363584015237", "^(?!((ASSUME)$|(ELSE)$|(LOCAL)$|(UNION)$|(ASSUMPTION)$|(ENABLED)$|(MODULE)$|(VARIABLE)$|(AXIOM)$|(EXCEPT)$|(OTHER)$|(VARIABLES)$|(CASE)$|(EXTENDS)$|(CHOOSE)$|(IF)$|(SUBSET)$|(WITH)$|(CONSTANT)$|(IN)$|(THEN)$|(CONSTANTS)$|(INSTANCE)$|(THEOREM)$|(DOMAIN)$|(LET)$|(UNCHANGED)$|(BOOLEAN)$|(TRUE)$|(FALSE)$|(STRING)$))^(?!WF_|SF_)(([a-zA-Z]|[0-9]|_)*[a-zA-Z]([a-zA-Z]|[0-9]|_)*[(]_(,_)*[)])");
@@ -424,6 +424,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("TLA.structure.Expression", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL);
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/3385657663133068260");
     b.version(2);
+    b.alias("@");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForChooseAndExpressions() {
@@ -443,6 +444,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/3180132125891168194");
     b.version(2);
     b.aggregate("OpDeclL", 0x47bf6ca76cb55cfdL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb55cffL).optional(false).ordered(true).multiple(false).origin("5169970363583782141").done();
+    b.alias("CONSTANT");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDefinition() {
@@ -740,6 +742,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("Name", 0x6b3146ab9a50d852L).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936c9L)).origin("7724032538759452754").done();
     b.aggregate("Substitution", 0x6b3146ab9a50d87bL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d87aL).optional(true).ordered(true).multiple(true).origin("7724032538759452795").done();
+    b.alias("INSTANCE");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForInstancePrefix() {
@@ -777,6 +780,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("Name", 0x6b3146ab9a528d1aL).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936c9L)).origin("7724032538759564570").done();
     b.aggregate("Substitution", 0x6b3146ab9a528d1bL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d87aL).optional(true).ordered(true).multiple(true).origin("7724032538759564571").done();
+    b.alias("LOCAL INSTANCE");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLocalModuleDefinition() {
@@ -1059,6 +1063,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("TLA.structure.Unit", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d06daL);
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/5078094291900484001");
     b.version(2);
+    b.alias("--");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSetExpr() {
@@ -1158,6 +1163,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7443146518776888677");
     b.version(2);
     b.aggregate("Expr", 0x674b5e52c6e1bd66L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("7443146518776888678").done();
+    b.alias("THEOREM");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTuple() {
@@ -1203,6 +1209,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/3180132125891168137");
     b.version(2);
     b.aggregate("IDList", 0x43917a23f8d4d97aL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL).optional(false).ordered(true).multiple(false).origin("4868806967081359738").done();
+    b.alias("VARIABLE");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForWForSF() {

@@ -166,7 +166,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.CharacterAt:
         if (props_CharacterAt == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("CharacterAt");
+          cpb.rawPresentation("@");
           props_CharacterAt = cpb.create();
         }
         return props_CharacterAt;
@@ -180,7 +180,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ConstantDeclaration:
         if (props_ConstantDeclaration == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("ConstantDeclaration");
+          cpb.rawPresentation("CONSTANT");
           props_ConstantDeclaration = cpb.create();
         }
         return props_ConstantDeclaration;
@@ -391,7 +391,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Instance:
         if (props_Instance == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Instance");
+          cpb.rawPresentation("INSTANCE");
           props_Instance = cpb.create();
         }
         return props_Instance;
@@ -419,7 +419,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.LocalInstance:
         if (props_LocalInstance == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("LocalInstance");
+          cpb.rawPresentation("LOCAL INSTANCE");
           props_LocalInstance = cpb.create();
         }
         return props_LocalInstance;
@@ -628,7 +628,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Separator:
         if (props_Separator == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Separator");
+          cpb.rawPresentation("--");
           props_Separator = cpb.create();
         }
         return props_Separator;
@@ -704,7 +704,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Theorem:
         if (props_Theorem == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Theorem");
+          cpb.rawPresentation("THEOREM");
           props_Theorem = cpb.create();
         }
         return props_Theorem;
@@ -739,7 +739,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.VariableDeclaration:
         if (props_VariableDeclaration == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("VariableDeclaration");
+          cpb.rawPresentation("VARIABLE");
           props_VariableDeclaration = cpb.create();
         }
         return props_VariableDeclaration;

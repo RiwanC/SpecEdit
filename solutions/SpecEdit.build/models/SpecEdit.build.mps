@@ -484,6 +484,9 @@
     </node>
     <node concept="m$_wf" id="6oOBu5XtYYD" role="3989C9">
       <property role="m$_wk" value="SpecEdit" />
+      <node concept="m$_yC" id="56WCbHpDonI" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
       <node concept="3_J27D" id="6oOBu5XtYYE" role="m$_yQ">
         <node concept="3Mxwew" id="6oOBu5XtYYF" role="3MwsjC">
           <property role="3MwjfP" value="SpecEdit" />
@@ -496,9 +499,6 @@
       </node>
       <node concept="m$f5U" id="6oOBu5XtYYI" role="m$_yh">
         <ref role="m$f5T" node="6oOBu5XtYYC" resolve="SpecEdit" />
-      </node>
-      <node concept="m$_yC" id="6oOBu5XtYYJ" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="3_J27D" id="6oOBu5XtYYK" role="m_cZH">
         <node concept="3Mxwew" id="6oOBu5XtYYL" role="3MwsjC">
@@ -541,6 +541,11 @@
         <node concept="1yeLz9" id="6oOBu5XtYZK" role="1TViLv">
           <property role="TrG5h" value="TLA#01" />
           <property role="3LESm3" value="9582733f-c091-4138-a2e5-faa16653c44a" />
+        </node>
+        <node concept="1SiIV0" id="56WCbHpDonM" role="3bR37C">
+          <node concept="3bR9La" id="56WCbHpDonN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
         </node>
       </node>
     </node>

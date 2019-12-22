@@ -28,6 +28,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -75,6 +76,7 @@
     <property role="EcuMT" value="3180132125891168137" />
     <property role="TrG5h" value="VariableDeclaration" />
     <property role="3GE5qa" value="Unit" />
+    <property role="34LRSv" value="VARIABLE" />
     <ref role="1TJDcQ" node="2Ky6l76zgrq" resolve="Unit" />
     <node concept="1TJgyj" id="4ehuyfSPd_U" role="1TKVEi">
       <property role="IQ2ns" value="4868806967081359738" />
@@ -88,6 +90,7 @@
     <property role="EcuMT" value="3180132125891168194" />
     <property role="TrG5h" value="ConstantDeclaration" />
     <property role="3GE5qa" value="Unit" />
+    <property role="34LRSv" value="CONSTANT" />
     <ref role="1TJDcQ" node="2Ky6l76zgrq" resolve="Unit" />
     <node concept="1TJgyj" id="4uZratGHlNX" role="1TKVEi">
       <property role="IQ2ns" value="5169970363583782141" />
@@ -151,7 +154,7 @@
   <node concept="Az7Fb" id="6r55aFu6jrc">
     <property role="3F6X1D" value="7405347886383838924" />
     <property role="TrG5h" value="NameChar" />
-    <property role="FLfZY" value="[a-zA-Z][0-9]_" />
+    <property role="FLfZY" value="[a-zA-Z]|[0-9]|_" />
     <property role="3GE5qa" value="Types" />
   </node>
   <node concept="Az7Fb" id="6r55aFu6kz4">
@@ -855,7 +858,7 @@
     <node concept="25R33" id="6GLhEIqh07M" role="25R1y">
       <property role="3tVfz5" value="7724032538758611442" />
       <property role="TrG5h" value="A4" />
-      <property role="1L1pqM" value="′" />
+      <property role="1L1pqM" value="'" />
     </node>
   </node>
   <node concept="1TIwiD" id="6GLhEIqh0tx">
@@ -934,6 +937,7 @@
     <property role="EcuMT" value="7724032538759451531" />
     <property role="TrG5h" value="Instance" />
     <property role="3GE5qa" value="Unit.NonLocal" />
+    <property role="34LRSv" value="INSTANCE" />
     <ref role="1TJDcQ" node="2Ky6l76zgrq" resolve="Unit" />
     <node concept="1TJgyi" id="6GLhEIqkdxi" role="1TKVEl">
       <property role="IQ2nx" value="7724032538759452754" />
@@ -972,6 +976,7 @@
     <property role="EcuMT" value="7724032538759564569" />
     <property role="TrG5h" value="LocalInstance" />
     <property role="3GE5qa" value="Unit.Local" />
+    <property role="34LRSv" value="LOCAL INSTANCE" />
     <ref role="1TJDcQ" node="2Ky6l76zgrq" resolve="Unit" />
     <node concept="1TJgyi" id="6GLhEIqkCOq" role="1TKVEl">
       <property role="IQ2nx" value="7724032538759564570" />
@@ -1137,6 +1142,7 @@
     <property role="EcuMT" value="7443146518776888677" />
     <property role="TrG5h" value="Theorem" />
     <property role="3GE5qa" value="Unit" />
+    <property role="34LRSv" value="THEOREM" />
     <ref role="1TJDcQ" node="2Ky6l76zgrq" resolve="Unit" />
     <node concept="1TJgyj" id="6tbn_b6SrPA" role="1TKVEi">
       <property role="IQ2ns" value="7443146518776888678" />
@@ -1377,6 +1383,7 @@
     <property role="EcuMT" value="5078094291900484001" />
     <property role="TrG5h" value="Separator" />
     <property role="3GE5qa" value="Unit" />
+    <property role="34LRSv" value="--" />
     <ref role="1TJDcQ" node="2Ky6l76zgrq" resolve="Unit" />
   </node>
   <node concept="1TIwiD" id="4pT0XE4G_me">
@@ -1817,6 +1824,7 @@
     <property role="EcuMT" value="3385657663133068260" />
     <property role="3GE5qa" value="Types.Wrapper" />
     <property role="TrG5h" value="CharacterAt" />
+    <property role="34LRSv" value="@" />
     <ref role="1TJDcQ" node="6tbn_b6SrPv" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="26CgNS3u7cn">

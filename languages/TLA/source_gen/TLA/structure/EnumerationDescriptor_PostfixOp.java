@@ -18,7 +18,7 @@ public class EnumerationDescriptor_PostfixOp extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_A1_0 = new EnumerationDescriptor.MemberDescriptor("A1", "^+", 0x6b3146ab9a4401eaL, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758611434");
   private final EnumerationDescriptor.MemberDescriptor myMember_A2_0 = new EnumerationDescriptor.MemberDescriptor("A2", "^*", 0x6b3146ab9a4401ebL, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758611435");
   private final EnumerationDescriptor.MemberDescriptor myMember_A3_0 = new EnumerationDescriptor.MemberDescriptor("A3", "^#", 0x6b3146ab9a4401eeL, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758611438");
-  private final EnumerationDescriptor.MemberDescriptor myMember_A4_0 = new EnumerationDescriptor.MemberDescriptor("A4", "′", 0x6b3146ab9a4401f2L, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758611442");
+  private final EnumerationDescriptor.MemberDescriptor myMember_A4_0 = new EnumerationDescriptor.MemberDescriptor("A4", "'", 0x6b3146ab9a4401f2L, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758611442");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a4401e9L, 0x6b3146ab9a4401eaL, 0x6b3146ab9a4401ebL, 0x6b3146ab9a4401eeL, 0x6b3146ab9a4401f2L);
   private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_A1_0, myMember_A2_0, myMember_A3_0, myMember_A4_0);
