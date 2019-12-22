@@ -235,7 +235,7 @@ public class TlaModelPersistence implements ModelFactory {
    */
   private static void addEmptyRootAndImportTLALang(SModelBase model) {
     String name = model.getName().getSimpleName();
-    SNode tlaFile = null;
+    SNode tlaFile = TlaConverter.newDocument(name);
     model.addLanguage(MetaAdapterFactory.getLanguage(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, "TLA"));
     model.addRootNode(tlaFile);
   }
