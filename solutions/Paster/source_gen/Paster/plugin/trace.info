@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/2872212824181502643">
+    <file name="EditorPopup_paste_ActionGroup.java">
+      <node id="2872212824181502643" at="10,0,11,0" concept="12" trace="ID" />
+      <node id="2872212824181502643" at="12,76,13,43" concept="14" />
+      <node id="2872212824181502643" at="13,43,14,25" concept="3" />
+      <node id="2872212824181502643" at="14,25,15,20" concept="3" />
+      <node id="2214335295231571801" at="15,20,16,91" concept="3" />
+      <node id="2872212824181502643" at="12,0,18,0" concept="2" trace="EditorPopup_paste_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="2872212824181502643" at="12,76,16,91" />
+      <scope id="2872212824181502643" at="12,0,18,0">
+        <var name="plugin" id="2872212824181502643" />
+      </scope>
+      <unit id="2872212824181502643" at="9,0,19,0" name="Paster.plugin.EditorPopup_paste_ActionGroup" />
+    </file>
+    <file name="Paster_ApplicationPlugin.java">
+      <node id="2872212824181502643" at="23,14,24,54" concept="3" />
+      <node id="4524063460725342849" at="26,37,27,79" concept="3" />
+      <node id="2872212824181502646" at="27,79,28,99" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/2872212824181502669">
+    <file name="PasteAsAntlrRules_Action.java">
+      <node id="2872212824181502669" at="19,0,20,0" concept="12" trace="ICON" />
+      <node id="2872212824181502669" at="21,37,22,40" concept="14" />
+      <node id="2872212824181502669" at="22,40,23,34" concept="3" />
+      <node id="2872212824181502669" at="23,34,24,41" concept="3" />
+      <node id="2872212824181502669" at="27,32,28,16" concept="9" />
+      <node id="2872212824181502669" at="32,53,33,19" concept="9" />
+      <node id="2872212824181502671" at="35,5,36,54" concept="8" />
+      <node id="8898893144448210069" at="37,22,38,21" concept="9" />
+      <node id="3542521394190724558" at="41,5,42,64" concept="8" />
+      <node id="3542521394190724559" at="43,22,44,21" concept="9" />
+      <node id="3542521394190724560" at="46,61,47,21" concept="9" />
+      <node id="912131512389472994" at="50,5,51,66" concept="8" />
+      <node id="5272353921214662134" at="52,22,53,21" concept="9" />
+      <node id="1433263869221346118" at="56,5,57,90" concept="8" />
+      <node id="1433263869221346118" at="58,67,59,31" concept="3" />
+      <node id="1433263869221346119" at="61,36,62,21" concept="9" />
+      <node id="2872212824181502669" at="64,5,65,16" concept="9" />
+      <node id="9113994647407580439" at="68,96,69,124" concept="3" />
+      <node id="2872212824181502669" at="31,95,34,5" concept="6" />
+      <node id="8898893144448210069" at="36,54,39,7" concept="6" />
+      <node id="3542521394190724559" at="42,64,45,7" concept="6" />
+      <node id="3542521394190724560" at="45,7,48,7" concept="6" />
+      <node id="5272353921214662134" at="51,66,54,7" concept="6" />
+      <node id="1433263869221346118" at="57,90,60,7" concept="6" />
+      <node id="1433263869221346119" at="60,7,63,7" concept="6" />
+      <node id="2872212824181502669" at="26,0,30,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="2872212824181502669" at="67,0,71,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="2872212824181502669" at="21,0,26,0" concept="2" trace="PasteAsAntlrRules_Action#()V" />
+      <node id="2872212824181502671" at="34,5,40,5" concept="0" />
+      <node id="912131512389472994" at="49,5,55,5" concept="0" />
+      <node id="3542521394190724558" at="40,5,49,5" concept="0" />
+      <node id="1433263869221346118" at="55,5,64,5" concept="0" />
+      <node id="2872212824181502669" at="30,0,67,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="2872212824181502669" at="27,32,28,16" />
+      <scope id="2872212824181502669" at="32,53,33,19" />
+      <scope id="8898893144448210069" at="37,22,38,21" />
+      <scope id="3542521394190724559" at="43,22,44,21" />
+      <scope id="3542521394190724560" at="46,61,47,21" />
+      <scope id="5272353921214662134" at="52,22,53,21" />
+      <scope id="1433263869221346118" at="58,67,59,31" />
+      <scope id="1433263869221346119" at="61,36,62,21" />
+      <scope id="2872212824181502669" at="68,96,69,124" />
+      <scope id="2872212824181502669" at="21,37,24,41" />
+      <scope id="2872212824181502669" at="26,0,30,0" />
+      <scope id="2872212824181502671" at="35,5,39,7">
+        <var name="p" id="2872212824181502671" />
+      </scope>
+      <scope id="912131512389472994" at="50,5,54,7">
+        <var name="p" id="912131512389472994" />
+      </scope>
+      <scope id="2872212824181502669" at="67,0,71,0">
+        <var name="_params" id="2872212824181502669" />
+        <var name="event" id="2872212824181502669" />
+      </scope>
+      <scope id="2872212824181502669" at="21,0,26,0" />
+      <scope id="3542521394190724558" at="41,5,48,7">
+        <var name="p" id="3542521394190724558" />
+      </scope>
+      <scope id="1433263869221346118" at="56,5,63,7">
+        <var name="editorComponent" id="1433263869221346118" />
+      </scope>
+      <scope id="2872212824181502669" at="31,95,65,16" />
+      <scope id="2872212824181502669" at="30,0,67,0">
+        <var name="_params" id="2872212824181502669" />
+        <var name="event" id="2872212824181502669" />
+      </scope>
+      <unit id="2872212824181502669" at="18,0,72,0" name="Paster.plugin.PasteAsAntlrRules_Action" />
+    </file>
+    <file name="Paster_ApplicationPlugin.java">
+      <node id="2872212824181502669" at="21,30,22,46" concept="3" />
+    </file>
+  </root>
+  <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/5646944109420335310">
+    <file name="AntlrPaster.java">
+      <node id="5646944109420336544" at="34,0,35,0" concept="12" trace="LOG" />
+      <node id="5646944109420336563" at="37,93,38,52" concept="8" />
+      <node id="5646944109420336572" at="39,32,40,13" concept="9" />
+      <node id="5866387967693239132" at="42,41,43,38" concept="3" />
+      <node id="5646944109420336573" at="43,38,44,95" concept="3" />
+      <node id="558881339884899842" at="45,12,46,93" concept="3" />
+      <node id="5646944109420336590" at="49,99,50,47" concept="8" />
+      <node id="5646944109420336599" at="51,27,52,13" concept="9" />
+      <node id="5646944109420336600" at="53,5,54,74" concept="3" />
+      <node id="5646944109420336611" at="56,42,57,33" concept="8" />
+      <node id="5646944109420336632" at="59,78,60,23" concept="3" />
+      <node id="5646944109420336636" at="61,7,62,12" concept="1" />
+      <node id="5646944109420336642" at="64,27,65,18" concept="9" />
+      <node id="5646944109420336667" at="68,11,69,72" concept="8" />
+      <node id="5646944109420336679" at="70,37,71,31" concept="9" />
+      <node id="5646944109420336653" at="73,47,74,20" concept="9" />
+      <node id="5646944109420336659" at="75,32,76,40" concept="3" />
+      <node id="5646944109420336683" at="78,5,79,16" concept="9" />
+      <node id="558881339884701834" at="81,147,82,39" concept="8" />
+      <node id="558881339884701843" at="83,9,84,116" concept="8" />
+      <node id="558881339884701853" at="84,116,85,91" concept="8" />
+      <node id="558881339884701861" at="85,91,86,64" concept="8" />
+      <node id="558881339884701867" at="86,64,87,70" concept="10" />
+      <node id="558881339884701869" at="87,70,88,41" concept="3" />
+      <node id="558881339884701873" at="88,41,89,0" concept="11" />
+      <node id="558881339884701874" at="89,0,90,45" concept="10" />
+      <node id="558881339884701876" at="90,45,91,98" concept="8" />
+      <node id="5866387967693641059" at="91,98,92,84" concept="3" />
+      <node id="5866387967693689815" at="92,84,93,92" concept="3" />
+      <node id="5646944109420336699" at="99,145,100,39" concept="8" />
+      <node id="7142405419536707509" at="101,9,102,116" concept="8" />
+      <node id="7142405419536707515" at="102,116,103,91" concept="8" />
+      <node id="7142405419536707521" at="103,91,104,60" concept="8" />
+      <node id="8251289970136526403" at="104,60,105,70" concept="10" />
+      <node id="9113994647408557998" at="105,70,106,0" concept="11" />
+      <node id="2214335295230305213" at="106,0,107,45" concept="10" />
+      <node id="2214335295230540492" at="107,45,108,98" concept="8" />
+      <node id="5662895729668301265" at="115,55,116,72" concept="8" />
+      <node id="5662895729668294581" at="117,75,118,19" concept="9" />
+      <node id="5662895729668294600" at="120,61,121,18" concept="9" />
+      <node id="5662895729668294604" at="122,5,123,17" concept="9" />
+      <node id="5646944109420335310" at="127,0,128,0" concept="12" trace="Module$3n" />
+      <node id="5646944109420335310" at="128,0,129,0" concept="12" trace="Separator$Hy" />
+      <node id="5646944109420335310" at="132,0,133,0" concept="12" trace="ModuleName$iAUB" />
+      <node id="5646944109420335310" at="136,0,137,0" concept="12" trace="SetOfUnits$fqCa" />
+      <node id="5646944109420336549" at="35,0,37,0" concept="2" trace="AntlrPaster#()V" />
+      <node id="558881339884899545" at="45,10,47,5" concept="0" />
+      <node id="558881339884689514" at="113,0,115,0" concept="7" trace="saveTreeAsPostScript#(Lparser/TLAPlusGrammarParser/ModuleContext;Lparser/TLAPlusGrammarParser;)V" />
+      <node id="5646944109420336567" at="38,52,41,5" concept="6" />
+      <node id="5646944109420336594" at="50,47,53,5" concept="6" />
+      <node id="5646944109420336622" at="58,82,61,7" concept="6" />
+      <node id="5646944109420336637" at="63,5,66,5" concept="6" />
+      <node id="5646944109420336674" at="69,72,72,9" concept="6" />
+      <node id="5662895729668294572" at="116,72,119,5" concept="6" />
+      <node id="5662895729668294592" at="119,5,122,5" concept="6" />
+      <node id="558881339884882855" at="41,5,47,5" concept="6" />
+      <node id="5646944109420336615" at="57,33,63,5" concept="5" />
+      <node id="5646944109420336582" at="49,0,56,0" concept="7" trace="pasteJavaAsClass#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
+      <node id="5646944109420336650" at="67,66,77,7" concept="15" />
+      <node id="5662895729668271035" at="115,0,125,0" concept="13" trace="areDataAvailableInClipboard#()Z" />
+      <node id="2214335295231319193" at="100,39,111,5" concept="15" />
+      <node id="5646944109420336553" at="37,0,49,0" concept="7" trace="pasteRules#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
+      <node id="5646944109420336644" at="66,5,78,5" concept="6" />
+      <node id="558881339884701841" at="82,39,96,5" concept="15" />
+      <node id="5646944109420336685" at="99,0,113,0" concept="7" trace="pasteRulesAsNodes#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
+      <node id="558881339884701832" at="81,0,98,0" concept="7" trace="pasteGrammarAsNodes#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
+      <node id="5646944109420336607" at="56,0,81,0" concept="7" trace="getStringFromClipboard#()Ljava/lang/String;" />
+      <scope id="5646944109420336552" at="35,24,35,24" />
+      <scope id="558881339884701999" at="94,0,94,39">
+        <var name="ioException" id="558881339884702004" />
+      </scope>
+      <scope id="558881339884702000" at="94,39,94,39" />
+      <scope id="9113994647408444022" at="95,0,95,38">
+        <var name="e" id="9113994647408444024" />
+      </scope>
+      <scope id="9113994647408444023" at="95,38,95,38" />
+      <scope id="9113994647408522243" at="109,0,109,39">
+        <var name="ioexception" id="9113994647408522245" />
+      </scope>
+      <scope id="9113994647408522244" at="109,39,109,39" />
+      <scope id="9113994647409055335" at="110,0,110,38">
+        <var name="e" id="9113994647409055337" />
+      </scope>
+      <scope id="9113994647409055336" at="110,38,110,38" />
+      <scope id="558881339884689483" at="113,126,113,126" />
+      <scope id="5646944109420336571" at="39,32,40,13" />
+      <scope id="558881339884899546" at="45,12,46,93" />
+      <scope id="5646944109420336598" at="51,27,52,13" />
+      <scope id="5646944109420336631" at="59,78,60,23" />
+      <scope id="5646944109420336641" at="64,27,65,18" />
+      <scope id="5646944109420336678" at="70,37,71,31" />
+      <scope id="5646944109420336651" at="73,0,74,20">
+        <var name="ex" id="5646944109420336655" />
+      </scope>
+      <scope id="5646944109420336652" at="73,47,74,20" />
+      <scope id="5646944109420336657" at="75,0,76,40">
+        <var name="ex" id="5646944109420336664" />
+      </scope>
+      <scope id="5646944109420336658" at="75,32,76,40" />
+      <scope id="5662895729668294573" at="117,75,118,19" />
+      <scope id="5662895729668294593" at="120,61,121,18" />
+      <scope id="5646944109420336549" at="35,0,37,0" />
+      <scope id="558881339884882857" at="42,41,44,95" />
+      <scope id="558881339884689514" at="113,0,115,0">
+        <var name="parser" id="558881339884689508" />
+        <var name="tree" id="558881339884689506" />
+      </scope>
+      <scope id="5646944109420336621" at="58,82,62,12" />
+      <scope id="5646944109420336666" at="68,11,72,9">
+        <var name="data" id="5646944109420336668" />
+      </scope>
+      <scope id="5646944109420336589" at="49,99,54,74">
+        <var name="javaCode" id="5646944109420336591" />
+      </scope>
+      <scope id="5646944109420336615" at="57,33,63,5">
+        <var name="trf" id="5646944109420336619" />
+      </scope>
+      <scope id="5646944109420336582" at="49,0,56,0">
+        <var name="model" id="5646944109420336585" />
+        <var name="operationContext" id="5646944109420336587" />
+        <var name="project" id="912131512389473200" />
+      </scope>
+      <scope id="2214335295231319195" at="101,9,108,98">
+        <var name="lexer" id="7142405419536707508" />
+        <var name="moduleNode" id="2214335295230540498" />
+        <var name="parser" id="7142405419536707514" />
+        <var name="tree" id="7142405419536707520" />
+      </scope>
+      <scope id="5662895729668271038" at="115,55,123,17">
+        <var name="trf" id="5662895729668301266" />
+      </scope>
+      <scope id="5646944109420336562" at="37,93,47,5">
+        <var name="clipboardText" id="5646944109420336564" />
+      </scope>
+      <scope id="5646944109420336649" at="67,66,77,7" />
+      <scope id="558881339884701842" at="83,9,93,92">
+        <var name="lexer" id="558881339884701844" />
+        <var name="moduleNode" id="558881339884701877" />
+        <var name="parser" id="558881339884701854" />
+        <var name="tree" id="558881339884701862" />
+      </scope>
+      <scope id="5662895729668271035" at="115,0,125,0" />
+      <scope id="5646944109420336553" at="37,0,49,0">
+        <var name="anchor" id="5646944109420336556" />
+        <var name="operationContext" id="5646944109420336558" />
+        <var name="project" id="912131512389473038" />
+      </scope>
+      <scope id="5646944109420336698" at="99,145,111,5">
+        <var name="module" id="5646944109420336700" />
+      </scope>
+      <scope id="5646944109420336685" at="99,0,113,0">
+        <var name="anchor" id="5646944109420336688" />
+        <var name="antlrRulesAsText" id="5646944109420336692" />
+        <var name="model" id="5646944109420336690" />
+        <var name="operationContext" id="5646944109420336694" />
+        <var name="project" id="912131512389473690" />
+      </scope>
+      <scope id="558881339884701833" at="81,147,96,5">
+        <var name="module" id="558881339884701835" />
+      </scope>
+      <scope id="558881339884701832" at="81,0,98,0">
+        <var name="anchor" id="558881339884702006" />
+        <var name="antlrRulesAsText" id="558881339884702012" />
+        <var name="model" id="558881339884702008" />
+        <var name="operationContext" id="558881339884702014" />
+        <var name="project" id="558881339884702016" />
+      </scope>
+      <scope id="5646944109420336610" at="56,42,79,16">
+        <var name="contents" id="5646944109420336612" />
+      </scope>
+      <scope id="5646944109420336607" at="56,0,81,0" />
+      <unit id="5646944109420335310" at="131,0,134,0" name="Paster.plugin.AntlrPaster$PROPS" />
+      <unit id="5646944109420335310" at="135,0,138,0" name="Paster.plugin.AntlrPaster$LINKS" />
+      <unit id="5646944109420335310" at="126,0,130,0" name="Paster.plugin.AntlrPaster$CONCEPTS" />
+      <unit id="5646944109420335310" at="33,0,139,0" name="Paster.plugin.AntlrPaster" />
+    </file>
+  </root>
+  <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/8251289970136807840">
+    <file name="Result.java">
+      <node id="8251289970136808459" at="9,0,10,0" concept="4" trace="rules" />
+      <unit id="8251289970136807840" at="8,0,11,0" name="Paster.plugin.Result" />
+    </file>
+  </root>
+  <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/9113994647406988966">
+    <file name="Paster_ApplicationPlugin.java">
+      <node id="9113994647406988966" at="10,0,11,0" concept="4" trace="myId" />
+      <node id="9113994647406988966" at="16,27,17,16" concept="9" />
+      <node id="9113994647406988966" at="20,30,21,30" concept="10" />
+      <node id="9113994647406988966" at="22,46,23,14" concept="10" />
+      <node id="9113994647406988966" at="12,0,14,0" concept="2" trace="Paster_ApplicationPlugin#()V" />
+      <node id="9113994647406988966" at="15,0,19,0" concept="7" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="9113994647406988966" at="26,0,30,0" concept="7" trace="adjustRegularGroups#()V" />
+      <node id="9113994647406988966" at="20,0,26,0" concept="7" trace="createGroups#()V" />
+      <scope id="9113994647406988966" at="12,37,12,37" />
+      <scope id="9113994647406988966" at="16,27,17,16" />
+      <scope id="9113994647406988966" at="12,0,14,0" />
+      <scope id="9113994647406988966" at="26,37,28,99" />
+      <scope id="9113994647406988966" at="15,0,19,0" />
+      <scope id="9113994647406988966" at="20,30,24,54" />
+      <scope id="9113994647406988966" at="26,0,30,0" />
+      <scope id="9113994647406988966" at="20,0,26,0" />
+      <unit id="9113994647406988966" at="9,0,31,0" name="Paster.plugin.Paster_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/9113994647408618336">
+    <file name="PluginSpecEditPaster.xml">
+      <unit id="9113994647408618336" at="1,0,860,10" name="Paster.plugin.PluginSpecEditPaster" />
+    </file>
+  </root>
+</debug-info>
+
