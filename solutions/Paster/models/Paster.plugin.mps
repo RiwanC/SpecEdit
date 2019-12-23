@@ -173,6 +173,7 @@
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
+        <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -193,6 +194,10 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
+        <child id="1206060619838" name="condition" index="3eO9$A" />
+        <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -943,6 +948,22 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="2V$dEz$jANy" role="3cqZAp">
+              <node concept="3cpWsn" id="2V$dEz$jANz" role="3cpWs9">
+                <property role="TrG5h" value="unitContext" />
+                <node concept="3uibUv" id="2V$dEz$jAN$" role="1tU5fm">
+                  <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$UnitContext" resolve="TLAPlusGrammarParser.UnitContext" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$jDQs" role="33vP2m">
+                  <node concept="37vLTw" id="2V$dEz$jDy9" role="2Oq$k0">
+                    <ref role="3cqZAo" node="v1yTSnr0yu" resolve="parser" />
+                  </node>
+                  <node concept="liA8E" id="2V$dEz$jEjw" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser.unit()" resolve="unit" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3SKdUt" id="v1yTSnr0yF" role="3cqZAp">
               <node concept="3SKdUq" id="v1yTSnr0yG" role="3SKWNk">
                 <property role="3SKdUp" value="use the following to print types of nodes on the parse tree:" />
@@ -959,7 +980,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="v1yTSnr0yL" role="3cqZAp" />
             <node concept="3SKdUt" id="v1yTSnr0yM" role="3cqZAp">
               <node concept="3SKdUq" id="v1yTSnr0yN" role="3SKWNk">
                 <property role="3SKdUp" value="initiate walk of tree with listener" />
@@ -1031,11 +1051,11 @@
                 <node concept="2I9FWS" id="55DAcpL7vZ1" role="1tU5fm">
                   <ref role="2I9WkF" to="548q:2Ky6l76zgrq" resolve="Unit" />
                 </node>
-                <node concept="2OqwBi" id="55DAcpL7wEl" role="33vP2m">
-                  <node concept="37vLTw" id="55DAcpL7wq8" role="2Oq$k0">
+                <node concept="2OqwBi" id="2V$dEz$kWZ3" role="33vP2m">
+                  <node concept="37vLTw" id="2V$dEz$kOwB" role="2Oq$k0">
                     <ref role="3cqZAo" node="55DAcpL4CLo" resolve="parsedGrammar" />
                   </node>
-                  <node concept="3Tsc0h" id="55DAcpL7x1Q" role="2OqNvi">
+                  <node concept="3Tsc0h" id="2V$dEz$kZmY" role="2OqNvi">
                     <ref role="3TtcxE" to="548q:6r55aFu6jqy" resolve="SetOfUnits" />
                   </node>
                 </node>
@@ -1110,7 +1130,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="55DAcpL5nUc" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="v1yTSnr0$J" role="TEbGg">
             <node concept="3clFbS" id="v1yTSnr0$K" role="TDEfX" />
@@ -2042,6 +2061,69 @@
             </node>
           </node>
         </node>
+        <node concept="1Dw8fO" id="2V$dEz$m6BR" role="3cqZAp">
+          <node concept="3clFbS" id="2V$dEz$m6BT" role="2LFqv$">
+            <node concept="3clFbF" id="2V$dEz$mbL0" role="3cqZAp">
+              <node concept="2OqwBi" id="2V$dEz$mdJq" role="3clFbG">
+                <node concept="2OqwBi" id="2V$dEz$md0I" role="2Oq$k0">
+                  <node concept="37vLTw" id="2V$dEz$mcOq" role="2Oq$k0">
+                    <ref role="3cqZAo" node="lnjiSCMbF8" resolve="moduleNode" />
+                  </node>
+                  <node concept="3Tsc0h" id="2V$dEz$md7D" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:6r55aFu6jqy" resolve="SetOfUnits" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="2V$dEz$mh1d" role="2OqNvi">
+                  <node concept="1eOMI4" id="2V$dEz$mQGk" role="25WWJ7">
+                    <node concept="10QFUN" id="2V$dEz$mQGh" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$mRqm" role="10QFUM">
+                        <ref role="ehGHo" to="548q:2Ky6l76zgrq" resolve="Unit" />
+                      </node>
+                      <node concept="1rXfSq" id="2V$dEz$mRQ6" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" resolve="visitUnit" />
+                        <node concept="2OqwBi" id="2V$dEz$mUjM" role="37wK5m">
+                          <node concept="37vLTw" id="2V$dEz$mSWj" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qym" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$mVGM" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ModuleContext.unit(int)" resolve="unit" />
+                            <node concept="37vLTw" id="2V$dEz$mVT$" role="37wK5m">
+                              <ref role="3cqZAo" node="2V$dEz$m6BU" resolve="i" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="15s5l7" id="2V$dEz$mv13" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+                <property role="huDt6" value="all typesystem messages" />
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="2V$dEz$m6BU" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="2V$dEz$m8kG" role="1tU5fm" />
+            <node concept="3cmrfG" id="2V$dEz$m8uT" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="2V$dEz$m9Cw" role="1Dwp0S">
+            <node concept="3cmrfG" id="2V$dEz$m9Fa" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="37vLTw" id="2V$dEz$m8yB" role="3uHU7B">
+              <ref role="3cqZAo" node="2V$dEz$m6BU" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="2V$dEz$mbhp" role="1Dwrff">
+            <node concept="37vLTw" id="2V$dEz$mbhr" role="2$L3a6">
+              <ref role="3cqZAo" node="2V$dEz$m6BU" resolve="i" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6r0k" role="3cqZAp">
           <node concept="37vLTw" id="lnjiSCMdra" role="3cqZAk">
             <ref role="3cqZAo" node="lnjiSCMbF8" resolve="moduleNode" />
@@ -2065,8 +2147,105 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6r3l" role="3clF47">
-        <node concept="3cpWs6" id="55DAcpL6rQs" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6s_y" role="3cqZAk" />
+        <node concept="3cpWs8" id="2V$dEz$mobj" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$mobm" role="3cpWs9">
+            <property role="TrG5h" value="un" />
+            <node concept="3Tqbb2" id="2V$dEz$mobh" role="1tU5fm">
+              <ref role="ehGHo" to="548q:2Ky6l76zgrq" resolve="Unit" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$mpp5" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$mpms" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$mpmt" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:2Ky6l76zgrq" resolve="Unit" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2V$dEz$nuxE" role="3cqZAp">
+          <node concept="3clFbS" id="2V$dEz$nuxG" role="3clFbx">
+            <node concept="3clFbF" id="2V$dEz$nCtd" role="3cqZAp">
+              <node concept="37vLTI" id="2V$dEz$nJrF" role="3clFbG">
+                <node concept="1eOMI4" id="2V$dEz$nN2$" role="37vLTx">
+                  <node concept="10QFUN" id="2V$dEz$nN2x" role="1eOMHV">
+                    <node concept="3Tqbb2" id="2V$dEz$nO1R" role="10QFUM">
+                      <ref role="ehGHo" to="548q:2Ky6l76zgv2" resolve="ConstantDeclaration" />
+                    </node>
+                    <node concept="1rXfSq" id="2V$dEz$nJxI" role="10QFUP">
+                      <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" resolve="visitConstantDeclaration" />
+                      <node concept="2OqwBi" id="2V$dEz$nL_Q" role="37wK5m">
+                        <node concept="37vLTw" id="2V$dEz$nKr5" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$nMS7" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.constantDeclaration()" resolve="constantDeclaration" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2V$dEz$nJcI" role="37vLTJ">
+                  <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2V$dEz$nBjw" role="3clFbw">
+            <node concept="10Nm6u" id="2V$dEz$nCk2" role="3uHU7w" />
+            <node concept="2OqwBi" id="2V$dEz$n_Eg" role="3uHU7B">
+              <node concept="37vLTw" id="2V$dEz$n$tU" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="2V$dEz$nATN" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.constantDeclaration()" resolve="constantDeclaration" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$nWuS" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$nZvq" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$o0xL" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$nXO$" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$nWAz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$nZ5M" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.variableDeclaration()" resolve="variableDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$nWuU" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$o0EV" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$o0Sp" role="3clFbG">
+                  <node concept="1eOMI4" id="2V$dEz$o11l" role="37vLTx">
+                    <node concept="10QFUN" id="2V$dEz$o11i" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$o11n" role="10QFUM">
+                        <ref role="ehGHo" to="548q:2Ky6l76zgu9" resolve="VariableDeclaration" />
+                      </node>
+                      <node concept="1rXfSq" id="2V$dEz$o18J" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" resolve="visitVariableDeclaration" />
+                        <node concept="2OqwBi" id="2V$dEz$o3lT" role="37wK5m">
+                          <node concept="37vLTw" id="2V$dEz$o24S" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$o4Gs" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.variableDeclaration()" resolve="variableDeclaration" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$o0EU" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2V$dEz$mrE$" role="3cqZAp">
+          <node concept="37vLTw" id="2V$dEz$mtO_" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+          </node>
         </node>
       </node>
     </node>
@@ -2107,8 +2286,64 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6u7T" role="3clF47">
+        <node concept="3cpWs8" id="2V$dEz$o65K" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$o65N" role="3cpWs9">
+            <property role="TrG5h" value="vdNode" />
+            <node concept="3Tqbb2" id="2V$dEz$o65I" role="1tU5fm">
+              <ref role="ehGHo" to="548q:2Ky6l76zgu9" resolve="VariableDeclaration" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$o7rn" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$o7oI" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$o7oJ" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:2Ky6l76zgu9" resolve="VariableDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2V$dEz$rtJ9" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$rtJc" role="3cpWs9">
+            <property role="TrG5h" value="idList" />
+            <node concept="3Tqbb2" id="2V$dEz$rtJ7" role="1tU5fm">
+              <ref role="ehGHo" to="548q:4ehuyfSPd_W" resolve="IdentifierList" />
+            </node>
+            <node concept="10QFUN" id="2V$dEz$ryNH" role="33vP2m">
+              <node concept="3Tqbb2" id="2V$dEz$rzLg" role="10QFUM">
+                <ref role="ehGHo" to="548q:4ehuyfSPd_W" resolve="IdentifierList" />
+              </node>
+              <node concept="1rXfSq" id="2V$dEz$rveg" role="10QFUP">
+                <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" resolve="visitIdentifierList" />
+                <node concept="2OqwBi" id="2V$dEz$rxoR" role="37wK5m">
+                  <node concept="37vLTw" id="2V$dEz$rwad" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL2qyC" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="2V$dEz$ryIl" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$VariableDeclarationContext.identifierList()" resolve="identifierList" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2V$dEz$r$3o" role="3cqZAp">
+          <node concept="37vLTI" id="2V$dEz$r_LX" role="3clFbG">
+            <node concept="37vLTw" id="2V$dEz$r_WY" role="37vLTx">
+              <ref role="3cqZAo" node="2V$dEz$rtJc" resolve="idList" />
+            </node>
+            <node concept="2OqwBi" id="2V$dEz$r_5F" role="37vLTJ">
+              <node concept="37vLTw" id="2V$dEz$r$3m" role="2Oq$k0">
+                <ref role="3cqZAo" node="2V$dEz$o65N" resolve="vdNode" />
+              </node>
+              <node concept="3TrEf2" id="2V$dEz$r_$o" role="2OqNvi">
+                <ref role="3Tt5mk" to="548q:4ehuyfSPd_U" resolve="IDList" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6uV4" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6uXL" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$o7vb" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$o65N" resolve="vdNode" />
+          </node>
         </node>
       </node>
     </node>
@@ -2128,8 +2363,25 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6uY5" role="3clF47">
+        <node concept="3cpWs8" id="2V$dEz$nPuR" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$nPuU" role="3cpWs9">
+            <property role="TrG5h" value="cdNode" />
+            <node concept="3Tqbb2" id="2V$dEz$nPuP" role="1tU5fm">
+              <ref role="ehGHo" to="548q:2Ky6l76zgv2" resolve="ConstantDeclaration" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$nQK1" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$nQHo" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$nQHp" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:2Ky6l76zgv2" resolve="ConstantDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6vLi" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6vNZ" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$nQQu" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$nPuU" resolve="cdNode" />
+          </node>
         </node>
       </node>
     </node>
@@ -2816,7 +3068,9 @@
           </node>
         </node>
         <node concept="3cpWs6" id="55DAcpL6UrZ" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6UuG" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$q4Yu" role="3cqZAk">
+            <ref role="3cqZAo" node="lnjiSCXglf" resolve="idList" />
+          </node>
         </node>
       </node>
     </node>

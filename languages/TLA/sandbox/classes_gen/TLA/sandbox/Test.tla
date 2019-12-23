@@ -1,0 +1,4 @@
+---- MODULE Test ----
+EXTENDS AAAA,BBBB,CCCC,DDDD,EEEE
+VARIABLE ABAA,FDGH
+====================

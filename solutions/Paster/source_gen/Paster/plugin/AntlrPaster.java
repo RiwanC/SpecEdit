@@ -81,9 +81,9 @@ public class AntlrPaster {
       TLAPlusGrammarLexer lexer = new TLAPlusGrammarLexer(new ANTLRInputStream(new StringReader(TextFromClipboard)));
       TLAPlusGrammarParser parser = new TLAPlusGrammarParser(new CommonTokenStream(lexer));
       TLAPlusGrammarParser.ModuleContext moduleContext = parser.module();
+      TLAPlusGrammarParser.UnitContext unitContext = parser.unit();
       // use the following to print types of nodes on the parse tree: 
       saveTreeAsPostScript(moduleContext, parser);
-
       // initiate walk of tree with listener 
       SNode moduleNode = SNodeOperations.getNodeAncestor(anchor, CONCEPTS.Module$3n, true, false);
       AntlrUnitVisitor visitor = new AntlrUnitVisitor();
@@ -92,7 +92,6 @@ public class AntlrPaster {
       ListSequence.fromList(SLinkOperations.getChildren(moduleNode, LINKS.SetOfUnits$fqCa)).addSequence(ListSequence.fromList(UnitList));
       SPropertyOperations.assign(moduleNode, PROPS.ModuleName$iAUB, SPropertyOperations.getString(parsedGrammar, PROPS.ModuleName$iAUB));
       ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(moduleNode, LINKS.SetOfModuleNames$Bn0), LINKS.ListM$Vevw)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(parsedGrammar, LINKS.SetOfModuleNames$Bn0), LINKS.ListM$Vevw)));
-
     } catch (IOException ioException) {
     } catch (RecognitionException e) {
     }

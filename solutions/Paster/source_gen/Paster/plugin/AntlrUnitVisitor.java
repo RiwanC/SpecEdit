@@ -38,11 +38,20 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
         ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(moduleNode, LINKS.SetOfModuleNames$Bn0), LINKS.ListM$Vevw)).addElement(emn);
       }
     }
+    for (int i = 0; i < 1; i++) {
+      ListSequence.fromList(SLinkOperations.getChildren(moduleNode, LINKS.SetOfUnits$fqCa)).addElement(((SNode) visitUnit(ctx.unit(i))));
+    }
     return moduleNode;
   }
   @Override
   public Object visitUnit(TLAPlusGrammarParser.UnitContext ctx) {
-    return null;
+    SNode un = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d06daL, "TLA.structure.Unit"));
+    if (ctx.constantDeclaration() != null) {
+      un = ((SNode) visitConstantDeclaration(ctx.constantDeclaration()));
+    } else if (ctx.variableDeclaration() != null) {
+      un = ((SNode) visitVariableDeclaration(ctx.variableDeclaration()));
+    }
+    return un;
   }
   @Override
   public Object visitOpDeclList(TLAPlusGrammarParser.OpDeclListContext ctx) {
@@ -50,11 +59,15 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitVariableDeclaration(TLAPlusGrammarParser.VariableDeclarationContext ctx) {
-    return null;
+    SNode vdNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d0789L, "TLA.structure.VariableDeclaration"));
+    SNode idList = (SNode) visitIdentifierList(ctx.identifierList());
+    SLinkOperations.setTarget(vdNode, LINKS.IDList$Xpjd, idList);
+    return vdNode;
   }
   @Override
   public Object visitConstantDeclaration(TLAPlusGrammarParser.ConstantDeclarationContext ctx) {
-    return null;
+    SNode cdNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d07c2L, "TLA.structure.ConstantDeclaration"));
+    return cdNode;
   }
   @Override
   public Object visitOperatorDefinition(TLAPlusGrammarParser.OperatorDefinitionContext ctx) {
@@ -168,7 +181,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
       SPropertyOperations.assign(idNode, PROPS.ID$ll3w, ctx.Identifier(i).getText());
       ListSequence.fromList(SLinkOperations.getChildren(idList, LINKS.ID$llx0)).addElement(idNode);
     }
-    return null;
+    return idList;
   }
   @Override
   public Object visitIdentifierOrTuple(TLAPlusGrammarParser.IdentifierOrTupleContext ctx) {
@@ -197,5 +210,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SContainmentLink ID$llx0 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL, 0x43917a23f8d4d97dL, "ID");
     /*package*/ static final SContainmentLink SetOfModuleNames$Bn0 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade19ce7bL, "SetOfModuleNames");
     /*package*/ static final SContainmentLink ListM$Vevw = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x3f9c65b68f3e2c45L, 0x3f9c65b68f3e2c46L, "ListM");
+    /*package*/ static final SContainmentLink SetOfUnits$fqCa = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade1936a2L, "SetOfUnits");
+    /*package*/ static final SContainmentLink IDList$Xpjd = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d0789L, 0x43917a23f8d4d97aL, "IDList");
   }
 }
