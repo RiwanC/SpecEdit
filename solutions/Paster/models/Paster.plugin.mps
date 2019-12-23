@@ -21,15 +21,20 @@
     <import index="dp1x" ref="r:84719e1a-99f6-4297-90ba-8ad2a947fa4a(jetbrains.mps.ide.datatransfer)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="p3ir" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:org.antlr.v4.runtime(ExternalDependencies/)" />
     <import index="cw0v" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:parser(ExternalDependencies/)" />
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="6xeh" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:org.antlr.v4.runtime.tree(ExternalDependencies/)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
         <child id="1207145201301" name="reference" index="ftvYc" />
@@ -39,6 +44,7 @@
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
+        <child id="8976425910813834639" name="icon" index="3Uehp1" />
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
@@ -76,6 +82,18 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
+        <child id="1239714902950" name="expression" index="2$L3a6" />
+      </concept>
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -97,7 +115,6 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -113,6 +130,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -122,7 +140,9 @@
         <property id="8606350594693632173" name="isTransient" index="eg7rD" />
         <property id="1240249534625" name="isVolatile" index="34CwA1" />
       </concept>
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -160,6 +180,9 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -168,6 +191,10 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -184,6 +211,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
@@ -195,6 +223,10 @@
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
+      <concept id="1144231330558" name="jetbrains.mps.baseLanguage.structure.ForStatement" flags="nn" index="1Dw8fO">
+        <child id="1144231399730" name="condition" index="1Dwp0S" />
+        <child id="1144231408325" name="iteration" index="1Dwrff" />
+      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -203,9 +235,6 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -281,19 +310,22 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
-      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
-        <reference id="1139877738879" name="concept" index="1A0vxQ" />
-      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
+        <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -311,6 +343,13 @@
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
@@ -423,6 +462,9 @@
         </node>
       </node>
     </node>
+    <node concept="1QGGSu" id="55DAcpL1xlS" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/MPS16.png" />
+    </node>
   </node>
   <node concept="tC5Ba" id="2vs9_ygEfaN">
     <property role="TrG5h" value="EditorPopup_paste" />
@@ -443,20 +485,7 @@
   <node concept="312cEu" id="4TtYrYGuX3e">
     <property role="TrG5h" value="AntlrPaster" />
     <property role="3GE5qa" value="Actions" />
-    <node concept="Wx3nA" id="4TtYrYGuXmw" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <node concept="2YIFZM" id="Hn0$MvbYou" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-        <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-        <node concept="3VsKOn" id="Hn0$MvbYov" role="37wK5m">
-          <ref role="3VsUkX" node="4TtYrYGuX3e" resolve="AntlrPaster" />
-        </node>
-      </node>
-      <node concept="3uibUv" id="Hn0$MvbYom" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="3Tm6S6" id="4TtYrYGuXmy" role="1B3o_S" />
-    </node>
+    <node concept="2tJIrI" id="lnjiSCKGyM" role="jymVt" />
     <node concept="3clFbW" id="4TtYrYGuXm_" role="jymVt">
       <node concept="3cqZAl" id="4TtYrYGuXmB" role="3clF45" />
       <node concept="3Tm1VV" id="4TtYrYGuXmA" role="1B3o_S" />
@@ -497,23 +526,6 @@
         </node>
         <node concept="3clFbJ" id="v1yTSnrGIB" role="3cqZAp">
           <node concept="3clFbS" id="v1yTSnrGID" role="3clFbx">
-            <node concept="3clFbF" id="55DAcpKYNds" role="3cqZAp">
-              <node concept="2OqwBi" id="55DAcpKYNHH" role="3clFbG">
-                <node concept="37vLTw" id="55DAcpKYNdq" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4TtYrYGuXmw" resolve="LOG" />
-                </node>
-                <node concept="liA8E" id="55DAcpKYO0B" role="2OqNvi">
-                  <ref role="37wK5l" to="q7tw:~Category.log(org.apache.log4j.Priority,java.lang.Object)" resolve="log" />
-                  <node concept="10M0yZ" id="55DAcpKYOit" role="37wK5m">
-                    <ref role="3cqZAo" to="q7tw:~Priority.INFO" resolve="INFO" />
-                    <ref role="1PxDUh" to="q7tw:~Priority" resolve="Priority" />
-                  </node>
-                  <node concept="Xl_RD" id="55DAcpKYOpG" role="37wK5m">
-                    <property role="Xl_RC" value="valid" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="4TtYrYGuXmX" role="3cqZAp">
               <node concept="1rXfSq" id="4hiugqyz9Oq" role="3clFbG">
                 <ref role="37wK5l" node="v1yTSnr0y8" resolve="pasteGrammarAsNodes" />
@@ -810,23 +822,7 @@
                     <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
                   </node>
                 </node>
-                <node concept="3clFbS" id="4TtYrYGuXoi" role="TDEfX">
-                  <node concept="3clFbF" id="4TtYrYGuXoj" role="3cqZAp">
-                    <node concept="2OqwBi" id="4TtYrYGuXok" role="3clFbG">
-                      <node concept="10M0yZ" id="6cuUYchjyPe" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4TtYrYGuXmw" resolve="LOG" />
-                        <ref role="1PxDUh" node="4TtYrYGuX3e" resolve="AntlrPaster" />
-                      </node>
-                      <node concept="liA8E" id="4TtYrYGuXom" role="2OqNvi">
-                        <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable)" resolve="error" />
-                        <node concept="10Nm6u" id="4t57iE9W2BO" role="37wK5m" />
-                        <node concept="37vLTw" id="3GM_nagTvJU" role="37wK5m">
-                          <ref role="3cqZAo" node="4TtYrYGuXoo" resolve="ex" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
+                <node concept="3clFbS" id="4TtYrYGuXoi" role="TDEfX" />
               </node>
             </node>
           </node>
@@ -896,7 +892,7 @@
                           <node concept="1pGfFk" id="v1yTSnr0yr" role="2ShVmc">
                             <ref role="37wK5l" to="guwi:~StringReader.&lt;init&gt;(java.lang.String)" resolve="StringReader" />
                             <node concept="37vLTw" id="v1yTSnr0ys" role="37wK5m">
-                              <ref role="3cqZAo" node="v1yTSnr0$W" resolve="antlrRulesAsText" />
+                              <ref role="3cqZAo" node="v1yTSnr0$W" resolve="TextFromClipboard" />
                             </node>
                           </node>
                         </node>
@@ -931,7 +927,7 @@
             <node concept="3cpWs8" id="v1yTSnr0y_" role="3cqZAp">
               <node concept="3cpWsn" id="v1yTSnr0yA" role="3cpWs9">
                 <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="tree" />
+                <property role="TrG5h" value="moduleContext" />
                 <node concept="3uibUv" id="7TVqtw3$qss" role="1tU5fm">
                   <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ModuleContext" resolve="TLAPlusGrammarParser.ModuleContext" />
                 </node>
@@ -954,7 +950,7 @@
               <node concept="1rXfSq" id="v1yTSnr0yI" role="3clFbG">
                 <ref role="37wK5l" node="v1yTSnqXxE" resolve="saveTreeAsPostScript" />
                 <node concept="37vLTw" id="7TVqtw3$AR2" role="37wK5m">
-                  <ref role="3cqZAo" node="v1yTSnr0yA" resolve="tree" />
+                  <ref role="3cqZAo" node="v1yTSnr0yA" resolve="moduleContext" />
                 </node>
                 <node concept="37vLTw" id="7TVqtw3$B2B" role="37wK5m">
                   <ref role="3cqZAo" node="v1yTSnr0yu" resolve="parser" />
@@ -988,36 +984,131 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="55DAcpL0llz" role="3cqZAp">
-              <node concept="37vLTI" id="55DAcpL0mro" role="3clFbG">
-                <node concept="Xl_RD" id="55DAcpL0m$L" role="37vLTx">
-                  <property role="Xl_RC" value="jesuislaehoh" />
+            <node concept="3cpWs8" id="55DAcpL4B_7" role="3cqZAp">
+              <node concept="3cpWsn" id="55DAcpL4B_8" role="3cpWs9">
+                <property role="TrG5h" value="visitor" />
+                <node concept="3uibUv" id="55DAcpL4B_9" role="1tU5fm">
+                  <ref role="3uigEE" node="~TLAPlusGrammarBaseVisitor" resolve="AntlrUnitVisitor" />
                 </node>
-                <node concept="2OqwBi" id="55DAcpL0lzm" role="37vLTJ">
-                  <node concept="37vLTw" id="55DAcpL0llx" role="2Oq$k0">
+                <node concept="2ShNRf" id="55DAcpL4BKd" role="33vP2m">
+                  <node concept="HV5vD" id="55DAcpL4Cvd" role="2ShVmc">
+                    <ref role="HV5vE" node="~TLAPlusGrammarBaseVisitor" resolve="AntlrUnitVisitor" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="55DAcpL4CLl" role="3cqZAp">
+              <node concept="3cpWsn" id="55DAcpL4CLo" role="3cpWs9">
+                <property role="TrG5h" value="parsedGrammar" />
+                <node concept="3Tqbb2" id="55DAcpL4CLj" role="1tU5fm">
+                  <ref role="ehGHo" to="548q:6r55aFu62hr" resolve="Module" />
+                </node>
+                <node concept="1eOMI4" id="55DAcpL4D8h" role="33vP2m">
+                  <node concept="10QFUN" id="55DAcpL4D8e" role="1eOMHV">
+                    <node concept="3Tqbb2" id="55DAcpL4D8j" role="10QFUM">
+                      <ref role="ehGHo" to="548q:6r55aFu62hr" resolve="Module" />
+                    </node>
+                    <node concept="2OqwBi" id="55DAcpL4DBx" role="10QFUP">
+                      <node concept="37vLTw" id="55DAcpL4Dcp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL4B_8" resolve="visitor" />
+                      </node>
+                      <node concept="liA8E" id="55DAcpL4E8d" role="2OqNvi">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" resolve="visitModule" />
+                        <node concept="37vLTw" id="55DAcpL4EgC" role="37wK5m">
+                          <ref role="3cqZAo" node="v1yTSnr0yA" resolve="moduleContext" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="55DAcpL7vZ3" role="3cqZAp">
+              <node concept="3cpWsn" id="55DAcpL7vZ6" role="3cpWs9">
+                <property role="TrG5h" value="UnitList" />
+                <node concept="2I9FWS" id="55DAcpL7vZ1" role="1tU5fm">
+                  <ref role="2I9WkF" to="548q:2Ky6l76zgrq" resolve="Unit" />
+                </node>
+                <node concept="2OqwBi" id="55DAcpL7wEl" role="33vP2m">
+                  <node concept="37vLTw" id="55DAcpL7wq8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL4CLo" resolve="parsedGrammar" />
+                  </node>
+                  <node concept="3Tsc0h" id="55DAcpL7x1Q" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:6r55aFu6jqy" resolve="SetOfUnits" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="55DAcpL7A36" role="3cqZAp">
+              <node concept="2OqwBi" id="55DAcpL7CYy" role="3clFbG">
+                <node concept="2OqwBi" id="55DAcpL7Apg" role="2Oq$k0">
+                  <node concept="37vLTw" id="55DAcpL7A34" role="2Oq$k0">
                     <ref role="3cqZAo" node="v1yTSnr0yP" resolve="moduleNode" />
                   </node>
-                  <node concept="3TrcHB" id="55DAcpL0lSx" role="2OqNvi">
+                  <node concept="3Tsc0h" id="55DAcpL7AKp" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:6r55aFu6jqy" resolve="SetOfUnits" />
+                  </node>
+                </node>
+                <node concept="X8dFx" id="55DAcpL7FRg" role="2OqNvi">
+                  <node concept="37vLTw" id="55DAcpL7IWu" role="25WWJ7">
+                    <ref role="3cqZAo" node="55DAcpL7vZ6" resolve="UnitList" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="55DAcpL7MxB" role="3cqZAp">
+              <node concept="37vLTI" id="55DAcpL7P7k" role="3clFbG">
+                <node concept="2OqwBi" id="55DAcpL7NRu" role="37vLTJ">
+                  <node concept="37vLTw" id="55DAcpL7NDE" role="2Oq$k0">
+                    <ref role="3cqZAo" node="v1yTSnr0yP" resolve="moduleNode" />
+                  </node>
+                  <node concept="3TrcHB" id="55DAcpL7OeZ" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:6r55aFu6qiK" resolve="ModuleName" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="lnjiSCMx4b" role="37vLTx">
+                  <node concept="37vLTw" id="lnjiSCMwKF" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL4CLo" resolve="parsedGrammar" />
+                  </node>
+                  <node concept="3TrcHB" id="lnjiSCMxyh" role="2OqNvi">
                     <ref role="3TsBF5" to="548q:6r55aFu6qiK" resolve="ModuleName" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="55DAcpL0xfn" role="3cqZAp">
-              <node concept="2OqwBi" id="55DAcpL0zG6" role="3clFbG">
-                <node concept="2OqwBi" id="55DAcpL0xts" role="2Oq$k0">
-                  <node concept="37vLTw" id="55DAcpL0xfl" role="2Oq$k0">
-                    <ref role="3cqZAo" node="v1yTSnr0yP" resolve="moduleNode" />
+            <node concept="3clFbF" id="lnjiSCW0tA" role="3cqZAp">
+              <node concept="2OqwBi" id="lnjiSCW3mA" role="3clFbG">
+                <node concept="2OqwBi" id="lnjiSCW1Tl" role="2Oq$k0">
+                  <node concept="2OqwBi" id="lnjiSCW10f" role="2Oq$k0">
+                    <node concept="37vLTw" id="lnjiSCW0t$" role="2Oq$k0">
+                      <ref role="3cqZAo" node="v1yTSnr0yP" resolve="moduleNode" />
+                    </node>
+                    <node concept="3TrEf2" id="lnjiSCW1o8" role="2OqNvi">
+                      <ref role="3Tt5mk" to="548q:6r55aFu6sTV" resolve="SetOfModuleNames" />
+                    </node>
                   </node>
-                  <node concept="3Tsc0h" id="55DAcpL0xMN" role="2OqNvi">
-                    <ref role="3TtcxE" to="548q:6r55aFu6jqy" resolve="SetOfUnits" />
+                  <node concept="3Tsc0h" id="lnjiSCW2aY" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:3YsprqffyL6" resolve="ListM" />
                   </node>
                 </node>
-                <node concept="WFELt" id="55DAcpL0Az2" role="2OqNvi">
-                  <ref role="1A0vxQ" to="548q:4pT0XE4EGAx" resolve="Separator" />
+                <node concept="X8dFx" id="lnjiSCW5ie" role="2OqNvi">
+                  <node concept="2OqwBi" id="lnjiSCWc1K" role="25WWJ7">
+                    <node concept="2OqwBi" id="lnjiSCW8Lt" role="2Oq$k0">
+                      <node concept="37vLTw" id="lnjiSCW6b_" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL4CLo" resolve="parsedGrammar" />
+                      </node>
+                      <node concept="3TrEf2" id="lnjiSCW9sT" role="2OqNvi">
+                        <ref role="3Tt5mk" to="548q:6r55aFu6sTV" resolve="SetOfModuleNames" />
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="lnjiSCWefJ" role="2OqNvi">
+                      <ref role="3TtcxE" to="548q:3YsprqffyL6" resolve="ListM" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="55DAcpL5nUc" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="v1yTSnr0$J" role="TEbGg">
             <node concept="3clFbS" id="v1yTSnr0$K" role="TDEfX" />
@@ -1050,7 +1141,7 @@
       <node concept="3Tm1VV" id="v1yTSnr0$U" role="1B3o_S" />
       <node concept="3cqZAl" id="v1yTSnr0$V" role="3clF45" />
       <node concept="37vLTG" id="v1yTSnr0$W" role="3clF46">
-        <property role="TrG5h" value="antlrRulesAsText" />
+        <property role="TrG5h" value="TextFromClipboard" />
         <property role="3TUv4t" value="true" />
         <node concept="17QB3L" id="v1yTSnr0$X" role="1tU5fm" />
       </node>
@@ -1572,12 +1663,12 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2elm$X2TKZA" role="3bR37C">
-          <node concept="1BurEX" id="2elm$X2TKZB" role="1SiIV1">
-            <node concept="55IIr" id="2elm$X2TKZz" role="1BurEY">
-              <node concept="2Ry0Ak" id="2elm$X2TKZ$" role="iGT6I">
+        <node concept="1SiIV0" id="2V$dEz$eh3s" role="3bR37C">
+          <node concept="1BurEX" id="2V$dEz$eh3t" role="1SiIV1">
+            <node concept="55IIr" id="2V$dEz$eh3p" role="1BurEY">
+              <node concept="2Ry0Ak" id="2V$dEz$eh3q" role="iGT6I">
                 <property role="2Ry0Am" value="libs" />
-                <node concept="2Ry0Ak" id="2elm$X2TKZ_" role="2Ry0An">
+                <node concept="2Ry0Ak" id="2V$dEz$eh3r" role="2Ry0An">
                   <property role="2Ry0Am" value="antlr2mps-all.jar" />
                 </node>
               </node>
@@ -1585,6 +1676,1179 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="~TLAPlusGrammarBaseVisitor">
+    <property role="TrG5h" value="AntlrUnitVisitor" />
+    <property role="3GE5qa" value="Actions" />
+    <node concept="2tJIrI" id="55DAcpL3$Xg" role="jymVt" />
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitNameList(parser.TLAPlusGrammarParser$NameListContext)" role="jymVt">
+      <property role="TrG5h" value="visitNameList" />
+      <node concept="3Tm1VV" id="55DAcpL2qyc" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3$Ua" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qyg" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyf" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$NameListContext" resolve="TLAPlusGrammarParser.NameListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4aoy" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6pnb" role="3clF47">
+        <node concept="3cpWs8" id="lnjiSD0Dkd" role="3cqZAp">
+          <node concept="3cpWsn" id="lnjiSD0Dkg" role="3cpWs9">
+            <property role="TrG5h" value="namelist" />
+            <node concept="3Tqbb2" id="lnjiSD0Dkb" role="1tU5fm">
+              <ref role="ehGHo" to="548q:4ehuyfSPd_W" resolve="IdentifierList" />
+            </node>
+            <node concept="2ShNRf" id="lnjiSD0LxD" role="33vP2m">
+              <node concept="3zrR0B" id="lnjiSD0Lv0" role="2ShVmc">
+                <node concept="3Tqbb2" id="lnjiSD0Lv1" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:4ehuyfSPd_W" resolve="IdentifierList" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="lnjiSD0AVj" role="3cqZAp">
+          <node concept="3clFbS" id="lnjiSD0AVk" role="2LFqv$">
+            <node concept="3cpWs8" id="lnjiSD0AVl" role="3cqZAp">
+              <node concept="3cpWsn" id="lnjiSD0AVm" role="3cpWs9">
+                <property role="TrG5h" value="idNode" />
+                <node concept="3Tqbb2" id="lnjiSD0AVn" role="1tU5fm">
+                  <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                </node>
+                <node concept="2ShNRf" id="lnjiSD0AVo" role="33vP2m">
+                  <node concept="3zrR0B" id="lnjiSD0AVp" role="2ShVmc">
+                    <node concept="3Tqbb2" id="lnjiSD0AVq" role="3zrR0E">
+                      <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="lnjiSD0AVr" role="3cqZAp">
+              <node concept="37vLTI" id="lnjiSD0AVs" role="3clFbG">
+                <node concept="2OqwBi" id="lnjiSD0AVt" role="37vLTJ">
+                  <node concept="37vLTw" id="lnjiSD0AVu" role="2Oq$k0">
+                    <ref role="3cqZAo" node="lnjiSD0AVm" resolve="idNode" />
+                  </node>
+                  <node concept="3TrcHB" id="lnjiSD0AVv" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="lnjiSD0NjK" role="37vLTx">
+                  <node concept="2OqwBi" id="lnjiSD0AVx" role="2Oq$k0">
+                    <node concept="37vLTw" id="lnjiSD0AVy" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qyg" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="lnjiSD0N7Z" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameListContext.Identifier(int)" resolve="Identifier" />
+                      <node concept="3cmrfG" id="lnjiSD0Nbz" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="lnjiSD0OqZ" role="2OqNvi">
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                  </node>
+                </node>
+              </node>
+              <node concept="15s5l7" id="lnjiSD0AVA" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+                <property role="huDt6" value="all typesystem messages" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="lnjiSD0AVB" role="3cqZAp">
+              <node concept="2OqwBi" id="lnjiSD0AVC" role="3clFbG">
+                <node concept="2OqwBi" id="lnjiSD0AVD" role="2Oq$k0">
+                  <node concept="37vLTw" id="lnjiSD0OGJ" role="2Oq$k0">
+                    <ref role="3cqZAo" node="lnjiSD0Dkg" resolve="namelist" />
+                  </node>
+                  <node concept="3Tsc0h" id="lnjiSD0AVF" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:4ehuyfSPd_X" resolve="ID" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="lnjiSD0AVG" role="2OqNvi">
+                  <node concept="37vLTw" id="lnjiSD0AVH" role="25WWJ7">
+                    <ref role="3cqZAo" node="lnjiSD0AVm" resolve="idNode" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="lnjiSD0AVI" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="lnjiSD0AVJ" role="1tU5fm" />
+            <node concept="3cmrfG" id="lnjiSD0AVK" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="lnjiSD0AVL" role="1Dwp0S">
+            <node concept="3cmrfG" id="lnjiSD0AVM" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="37vLTw" id="lnjiSD0AVN" role="3uHU7B">
+              <ref role="3cqZAo" node="lnjiSD0AVI" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="lnjiSD0AVO" role="1Dwrff">
+            <node concept="37vLTw" id="lnjiSD0AVP" role="2$L3a6">
+              <ref role="3cqZAo" node="lnjiSD0AVI" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="55DAcpL6qae" role="3cqZAp">
+          <node concept="37vLTw" id="lnjiSD1ggD" role="3cqZAk">
+            <ref role="3cqZAo" node="lnjiSD0Dkg" resolve="namelist" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="55DAcpL6n02" role="jymVt" />
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" role="jymVt">
+      <property role="TrG5h" value="visitModule" />
+      <node concept="3Tm1VV" id="55DAcpL2qyi" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3FxN" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qym" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyl" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ModuleContext" resolve="TLAPlusGrammarParser.ModuleContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4b6l" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6qdf" role="3clF47">
+        <node concept="3cpWs8" id="lnjiSCMbF5" role="3cqZAp">
+          <node concept="3cpWsn" id="lnjiSCMbF8" role="3cpWs9">
+            <property role="TrG5h" value="moduleNode" />
+            <node concept="3Tqbb2" id="lnjiSCMbF9" role="1tU5fm">
+              <ref role="ehGHo" to="548q:6r55aFu62hr" resolve="Module" />
+            </node>
+            <node concept="2ShNRf" id="lnjiSCMcD1" role="33vP2m">
+              <node concept="3zrR0B" id="lnjiSCMcAo" role="2ShVmc">
+                <node concept="3Tqbb2" id="lnjiSCMcAp" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:6r55aFu62hr" resolve="Module" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="lnjiSCMpAD" role="3cqZAp">
+          <node concept="37vLTI" id="lnjiSCMrfe" role="3clFbG">
+            <node concept="2OqwBi" id="lnjiSCMqx2" role="37vLTJ">
+              <node concept="37vLTw" id="lnjiSCMpAB" role="2Oq$k0">
+                <ref role="3cqZAo" node="lnjiSCMbF8" resolve="moduleNode" />
+              </node>
+              <node concept="3TrcHB" id="lnjiSCMqOt" role="2OqNvi">
+                <ref role="3TsBF5" to="548q:6r55aFu6qiK" resolve="ModuleName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="lnjiSCPdCp" role="37vLTx">
+              <node concept="2OqwBi" id="lnjiSCP5io" role="2Oq$k0">
+                <node concept="37vLTw" id="lnjiSCNTGf" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qym" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="lnjiSCPdiy" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ModuleContext.Identifier()" resolve="Identifier" />
+                </node>
+              </node>
+              <node concept="liA8E" id="lnjiSCPfkq" role="2OqNvi">
+                <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+              </node>
+            </node>
+          </node>
+          <node concept="15s5l7" id="lnjiSD1XIu" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+            <property role="huDt6" value="all typesystem messages" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="lnjiSCPCtU" role="3cqZAp">
+          <node concept="3clFbS" id="lnjiSCPCtW" role="3clFbx">
+            <node concept="3clFbF" id="lnjiSCUIQ4" role="3cqZAp">
+              <node concept="37vLTI" id="lnjiSCUJAy" role="3clFbG">
+                <node concept="2ShNRf" id="lnjiSCUJH4" role="37vLTx">
+                  <node concept="3zrR0B" id="lnjiSCUKJ3" role="2ShVmc">
+                    <node concept="3Tqbb2" id="lnjiSCUKJ5" role="3zrR0E">
+                      <ref role="ehGHo" to="548q:3YsprqffyL5" resolve="ModuleNameList" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="lnjiSCUJ3k" role="37vLTJ">
+                  <node concept="37vLTw" id="lnjiSCUIQ2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="lnjiSCMbF8" resolve="moduleNode" />
+                  </node>
+                  <node concept="3TrEf2" id="lnjiSCUJpi" role="2OqNvi">
+                    <ref role="3Tt5mk" to="548q:6r55aFu6sTV" resolve="SetOfModuleNames" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1Dw8fO" id="lnjiSD4ucH" role="3cqZAp">
+              <node concept="3clFbS" id="lnjiSD4ucJ" role="2LFqv$">
+                <node concept="3cpWs8" id="lnjiSD3UMg" role="3cqZAp">
+                  <node concept="3cpWsn" id="lnjiSCQKXo" role="3cpWs9">
+                    <property role="TrG5h" value="emn" />
+                    <node concept="3Tqbb2" id="lnjiSCQKXj" role="1tU5fm">
+                      <ref role="ehGHo" to="548q:6r55aFu6sTR" resolve="ExtendedModuleName" />
+                    </node>
+                    <node concept="2ShNRf" id="lnjiSCQL6S" role="33vP2m">
+                      <node concept="3zrR0B" id="lnjiSCQL4f" role="2ShVmc">
+                        <node concept="3Tqbb2" id="lnjiSCQL4g" role="3zrR0E">
+                          <ref role="ehGHo" to="548q:6r55aFu6sTR" resolve="ExtendedModuleName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="lnjiSD1UZE" role="3cqZAp">
+                  <node concept="37vLTI" id="lnjiSD1UZG" role="3clFbG">
+                    <node concept="2OqwBi" id="lnjiSD1UZH" role="37vLTJ">
+                      <node concept="37vLTw" id="lnjiSD1UZI" role="2Oq$k0">
+                        <ref role="3cqZAo" node="lnjiSCQKXo" resolve="emn" />
+                      </node>
+                      <node concept="3TrcHB" id="lnjiSD1UZJ" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:6r55aFu6sTS" resolve="ModuleName" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="lnjiSD4Aep" role="37vLTx">
+                      <node concept="2OqwBi" id="lnjiSD4$wF" role="2Oq$k0">
+                        <node concept="2OqwBi" id="lnjiSD4yMk" role="2Oq$k0">
+                          <node concept="37vLTw" id="lnjiSD4xD4" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qym" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="lnjiSD4$6f" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ModuleContext.nameList()" resolve="nameList" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="lnjiSD4_N6" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameListContext.Identifier(int)" resolve="Identifier" />
+                          <node concept="37vLTw" id="lnjiSD4_Xu" role="37wK5m">
+                            <ref role="3cqZAo" node="lnjiSD4ucK" resolve="i" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="lnjiSD4BoR" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="15s5l7" id="lnjiSD4BDU" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+                    <property role="huDt6" value="all typesystem messages" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="lnjiSCSa16" role="3cqZAp">
+                  <node concept="2OqwBi" id="lnjiSCSbVX" role="3clFbG">
+                    <node concept="2OqwBi" id="lnjiSCSayV" role="2Oq$k0">
+                      <node concept="2OqwBi" id="lnjiSCSajt" role="2Oq$k0">
+                        <node concept="37vLTw" id="lnjiSCSa14" role="2Oq$k0">
+                          <ref role="3cqZAo" node="lnjiSCMbF8" resolve="moduleNode" />
+                        </node>
+                        <node concept="3TrEf2" id="lnjiSCSaqo" role="2OqNvi">
+                          <ref role="3Tt5mk" to="548q:6r55aFu6sTV" resolve="SetOfModuleNames" />
+                        </node>
+                      </node>
+                      <node concept="3Tsc0h" id="lnjiSCSaP8" role="2OqNvi">
+                        <ref role="3TtcxE" to="548q:3YsprqffyL6" resolve="ListM" />
+                      </node>
+                    </node>
+                    <node concept="TSZUe" id="lnjiSCScGS" role="2OqNvi">
+                      <node concept="37vLTw" id="lnjiSCSd0I" role="25WWJ7">
+                        <ref role="3cqZAo" node="lnjiSCQKXo" resolve="emn" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="lnjiSD4ucK" role="1Duv9x">
+                <property role="TrG5h" value="i" />
+                <node concept="10Oyi0" id="lnjiSD4umN" role="1tU5fm" />
+                <node concept="3cmrfG" id="lnjiSD4ury" role="33vP2m">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+              <node concept="3eOVzh" id="lnjiSD4vkL" role="1Dwp0S">
+                <node concept="37vLTw" id="lnjiSD4uvg" role="3uHU7B">
+                  <ref role="3cqZAo" node="lnjiSD4ucK" resolve="i" />
+                </node>
+                <node concept="3cmrfG" id="2V$dEz$ewVf" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+              <node concept="3uNrnE" id="lnjiSD4wjc" role="1Dwrff">
+                <node concept="37vLTw" id="lnjiSD4wje" role="2$L3a6">
+                  <ref role="3cqZAo" node="lnjiSD4ucK" resolve="i" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="lnjiSCPFjT" role="3clFbw">
+            <node concept="10Nm6u" id="lnjiSCPG6R" role="3uHU7w" />
+            <node concept="2OqwBi" id="lnjiSCPEnx" role="3uHU7B">
+              <node concept="37vLTw" id="lnjiSCPDjL" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2qym" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="lnjiSCPF3U" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ModuleContext.EXTENDS()" resolve="EXTENDS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="55DAcpL6r0k" role="3cqZAp">
+          <node concept="37vLTw" id="lnjiSCMdra" role="3cqZAk">
+            <ref role="3cqZAo" node="lnjiSCMbF8" resolve="moduleNode" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" role="jymVt">
+      <property role="TrG5h" value="visitUnit" />
+      <node concept="3Tm1VV" id="55DAcpL2qyo" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3Gmy" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qys" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyr" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$UnitContext" resolve="TLAPlusGrammarParser.UnitContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4bOg" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6r3l" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6rQs" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6s_y" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" role="jymVt">
+      <property role="TrG5h" value="visitOpDeclList" />
+      <node concept="3Tm1VV" id="55DAcpL2qyu" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3HfE" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qyy" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyx" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$OpDeclListContext" resolve="TLAPlusGrammarParser.OpDeclListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4cyj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6thR" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6toP" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6try" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" role="jymVt">
+      <property role="TrG5h" value="visitVariableDeclaration" />
+      <node concept="3Tm1VV" id="55DAcpL2qy$" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3I00" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qyC" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyB" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$VariableDeclarationContext" resolve="TLAPlusGrammarParser.VariableDeclarationContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4dgu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6u7T" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6uV4" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6uXL" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" role="jymVt">
+      <property role="TrG5h" value="visitConstantDeclaration" />
+      <node concept="3Tm1VV" id="55DAcpL2qyE" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3IJy" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qyI" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyH" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ConstantDeclarationContext" resolve="TLAPlusGrammarParser.ConstantDeclarationContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4dYL" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6uY5" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6vLi" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6vNZ" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" role="jymVt">
+      <property role="TrG5h" value="visitOperatorDefinition" />
+      <node concept="3Tm1VV" id="55DAcpL2qyK" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3J$h" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qyO" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyN" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext" resolve="TLAPlusGrammarParser.OperatorDefinitionContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4eHc" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6vOj" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6vVh" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6vXY" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" role="jymVt">
+      <property role="TrG5h" value="visitQuantifierBoundList" />
+      <node concept="3Tm1VV" id="55DAcpL2qyQ" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3Kp0" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qyU" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyT" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$QuantifierBoundListContext" resolve="TLAPlusGrammarParser.QuantifierBoundListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4frJ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6wEr" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6wLp" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6wO6" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" role="jymVt">
+      <property role="TrG5h" value="visitFunctionDefinition" />
+      <node concept="3Tm1VV" id="55DAcpL2qyW" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3L9x" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qz0" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qyZ" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$FunctionDefinitionContext" resolve="TLAPlusGrammarParser.FunctionDefinitionContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4gaq" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6xw_" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6yjS" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6ym_" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" role="jymVt">
+      <property role="TrG5h" value="visitSubstitutionList" />
+      <node concept="3Tm1VV" id="55DAcpL2qz2" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3LYg" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qz6" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qz5" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$SubstitutionListContext" resolve="TLAPlusGrammarParser.SubstitutionListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4gTd" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6ymT" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6zae" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6zcV" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" role="jymVt">
+      <property role="TrG5h" value="visitInstance" />
+      <node concept="3Tm1VV" id="55DAcpL2qz8" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3MMZ" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzc" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzb" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$InstanceContext" resolve="TLAPlusGrammarParser.InstanceContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4hC8" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6zdf" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6$0A" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6$3j" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" role="jymVt">
+      <property role="TrG5h" value="visitModuleDefinition" />
+      <node concept="3Tm1VV" id="55DAcpL2qze" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3Nzw" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzi" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzh" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ModuleDefinitionContext" resolve="TLAPlusGrammarParser.ModuleDefinitionContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4inb" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6$3B" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6$R0" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6$TH" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" role="jymVt">
+      <property role="TrG5h" value="visitAssumption" />
+      <node concept="3Tm1VV" id="55DAcpL2qzk" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3Oof" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzo" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzn" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$AssumptionContext" resolve="TLAPlusGrammarParser.AssumptionContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4j6m" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6_11" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6_Os" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6_R9" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" role="jymVt">
+      <property role="TrG5h" value="visitTheorem" />
+      <node concept="3Tm1VV" id="55DAcpL2qzq" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3PcY" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzu" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzt" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$TheoremContext" resolve="TLAPlusGrammarParser.TheoremContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4jPD" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6_Rt" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6AEU" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6AHB" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitUnderscoreList(parser.TLAPlusGrammarParser$UnderscoreListContext)" role="jymVt">
+      <property role="TrG5h" value="visitUnderscoreList" />
+      <node concept="3Tm1VV" id="55DAcpL2qzw" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3Q1H" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qz$" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzz" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$UnderscoreListContext" resolve="TLAPlusGrammarParser.UnderscoreListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4k_4" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6AHV" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6Bxq" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6B$7" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" role="jymVt">
+      <property role="TrG5h" value="visitOpDecl" />
+      <node concept="3Tm1VV" id="55DAcpL2qzA" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3QMe" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzE" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzD" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$OpDeclContext" resolve="TLAPlusGrammarParser.OpDeclContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4lkB" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6B$r" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6CnW" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6CqD" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitIdOrOpDeclList(parser.TLAPlusGrammarParser$IdOrOpDeclListContext)" role="jymVt">
+      <property role="TrG5h" value="visitIdOrOpDeclList" />
+      <node concept="3Tm1VV" id="55DAcpL2qzG" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3RAX" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzK" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzJ" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$IdOrOpDeclListContext" resolve="TLAPlusGrammarParser.IdOrOpDeclListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4m4i" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6CqX" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6CxV" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6C$C" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" role="jymVt">
+      <property role="TrG5h" value="visitNonFixLHS" />
+      <node concept="3Tm1VV" id="55DAcpL2qzM" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3SrG" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzQ" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzP" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$NonFixLHSContext" resolve="TLAPlusGrammarParser.NonFixLHSContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4mO5" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6Dhp" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6E4Y" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6E7F" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" role="jymVt">
+      <property role="TrG5h" value="visitQuantifierBound" />
+      <node concept="3Tm1VV" id="55DAcpL2qzS" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3Tcd" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2qzW" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2qzV" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$QuantifierBoundContext" resolve="TLAPlusGrammarParser.QuantifierBoundContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4n$0" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6E7Z" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6EVA" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6EYx" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" role="jymVt">
+      <property role="TrG5h" value="visitSubstitution" />
+      <node concept="3Tm1VV" id="55DAcpL2qzY" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3U0W" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$2" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$1" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$SubstitutionContext" resolve="TLAPlusGrammarParser.SubstitutionContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4ok3" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6FFm" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6GuZ" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6GxU" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" role="jymVt">
+      <property role="TrG5h" value="visitArgument" />
+      <node concept="3Tm1VV" id="55DAcpL2q$4" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3UPF" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$8" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$7" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ArgumentContext" resolve="TLAPlusGrammarParser.ArgumentContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4p4e" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6HeL" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6I2s" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6I59" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" role="jymVt">
+      <property role="TrG5h" value="visitExpressionList" />
+      <node concept="3Tm1VV" id="55DAcpL2q$a" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3VEq" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$e" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$d" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ExpressionListContext" resolve="TLAPlusGrammarParser.ExpressionListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4pOx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6I5t" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6ITa" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6IVR" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" role="jymVt">
+      <property role="TrG5h" value="visitInstancePrefix" />
+      <node concept="3Tm1VV" id="55DAcpL2q$g" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3WqV" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$k" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$j" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$InstancePrefixContext" resolve="TLAPlusGrammarParser.InstancePrefixContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4q$W" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6IWb" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6JJU" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6JMB" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" role="jymVt">
+      <property role="TrG5h" value="visitGeneralIdentifier" />
+      <node concept="3Tm1VV" id="55DAcpL2q$m" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3XfE" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$q" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$p" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$GeneralIdentifierContext" resolve="TLAPlusGrammarParser.GeneralIdentifierContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4rlv" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6JMV" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6KAG" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6KDp" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" role="jymVt">
+      <property role="TrG5h" value="visitGeneralPrefixOp" />
+      <node concept="3Tm1VV" id="55DAcpL2q$s" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3Y4p" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$w" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$v" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$GeneralPrefixOpContext" resolve="TLAPlusGrammarParser.GeneralPrefixOpContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4s6a" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6KDH" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6Ltw" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6Lwd" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" role="jymVt">
+      <property role="TrG5h" value="visitGeneralInfixOp" />
+      <node concept="3Tm1VV" id="55DAcpL2q$y" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3YP1" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$A" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$_" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$GeneralInfixOpContext" resolve="TLAPlusGrammarParser.GeneralInfixOpContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4sQX" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6Lwx" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6Mkm" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6Mnh" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" role="jymVt">
+      <property role="TrG5h" value="visitGeneralPostfixOp" />
+      <node concept="3Tm1VV" id="55DAcpL2q$C" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL3ZDK" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$G" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$F" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$GeneralPostfixOpContext" resolve="TLAPlusGrammarParser.GeneralPostfixOpContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4tBS" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6N4k" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6NSb" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6NUY" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" role="jymVt">
+      <property role="TrG5h" value="visitCaseArm" />
+      <node concept="3Tm1VV" id="55DAcpL2q$I" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL40uv" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$M" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$L" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$CaseArmContext" resolve="TLAPlusGrammarParser.CaseArmContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4uoV" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6OC3" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6PrW" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6PuD" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" role="jymVt">
+      <property role="TrG5h" value="visitNameArrowExprList" />
+      <node concept="3Tm1VV" id="55DAcpL2q$O" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL41je" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$S" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$R" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext" resolve="TLAPlusGrammarParser.NameArrowExprListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4va6" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6PuX" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6QiS" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6QlN" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" role="jymVt">
+      <property role="TrG5h" value="visitNameColonExprList" />
+      <node concept="3Tm1VV" id="55DAcpL2q$U" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL423J" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q$Y" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q$X" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext" resolve="TLAPlusGrammarParser.NameColonExprListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4vVp" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6R2W" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6RQT" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6RTA" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" role="jymVt">
+      <property role="TrG5h" value="visitExceptList" />
+      <node concept="3Tm1VV" id="55DAcpL2q_0" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL46$B" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q_4" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q_3" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ExceptListContext" resolve="TLAPlusGrammarParser.ExceptListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4wGO" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6RTU" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6SHT" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6SKA" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" role="jymVt">
+      <property role="TrG5h" value="visitExpression" />
+      <node concept="3Tm1VV" id="55DAcpL2q_6" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL45O5" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q_a" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q_9" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ExpressionContext" resolve="TLAPlusGrammarParser.ExpressionContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4xun" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6SKU" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6T$V" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6TBC" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" role="jymVt">
+      <property role="TrG5h" value="visitIdentifierList" />
+      <node concept="3Tm1VV" id="55DAcpL2q_c" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL453z" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q_g" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q_f" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$IdentifierListContext" resolve="TLAPlusGrammarParser.IdentifierListContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4yg2" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6TBW" role="3clF47">
+        <node concept="3cpWs8" id="lnjiSCXglc" role="3cqZAp">
+          <node concept="3cpWsn" id="lnjiSCXglf" role="3cpWs9">
+            <property role="TrG5h" value="idList" />
+            <node concept="3Tqbb2" id="lnjiSCXgla" role="1tU5fm">
+              <ref role="ehGHo" to="548q:4ehuyfSPd_W" resolve="IdentifierList" />
+            </node>
+            <node concept="2ShNRf" id="lnjiSCXhkx" role="33vP2m">
+              <node concept="3zrR0B" id="lnjiSCXhhS" role="2ShVmc">
+                <node concept="3Tqbb2" id="lnjiSCXhhT" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:4ehuyfSPd_W" resolve="IdentifierList" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="lnjiSCYPED" role="3cqZAp">
+          <node concept="3clFbS" id="lnjiSCYPEF" role="2LFqv$">
+            <node concept="3cpWs8" id="lnjiSCYT0J" role="3cqZAp">
+              <node concept="3cpWsn" id="lnjiSCYT0M" role="3cpWs9">
+                <property role="TrG5h" value="idNode" />
+                <node concept="3Tqbb2" id="lnjiSCYT0H" role="1tU5fm">
+                  <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                </node>
+                <node concept="2ShNRf" id="lnjiSCYT7A" role="33vP2m">
+                  <node concept="3zrR0B" id="lnjiSCYT4X" role="2ShVmc">
+                    <node concept="3Tqbb2" id="lnjiSCYT4Y" role="3zrR0E">
+                      <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="lnjiSCYUKr" role="3cqZAp">
+              <node concept="37vLTI" id="lnjiSCYVNr" role="3clFbG">
+                <node concept="2OqwBi" id="lnjiSCYUYH" role="37vLTJ">
+                  <node concept="37vLTw" id="lnjiSCYUKp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="lnjiSCYT0M" resolve="idNode" />
+                  </node>
+                  <node concept="3TrcHB" id="lnjiSCYViL" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="lnjiSD07jo" role="37vLTx">
+                  <node concept="2OqwBi" id="lnjiSD05GV" role="2Oq$k0">
+                    <node concept="37vLTw" id="lnjiSD04yD" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_g" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="lnjiSD06VT" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$IdentifierListContext.VIRGULE(int)" resolve="VIRGULE" />
+                      <node concept="3cmrfG" id="lnjiSD075u" role="37wK5m">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="lnjiSD08pz" role="2OqNvi">
+                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                  </node>
+                </node>
+              </node>
+              <node concept="15s5l7" id="lnjiSCZ1kq" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+                <property role="huDt6" value="all typesystem messages" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="lnjiSCZ1_C" role="3cqZAp">
+              <node concept="2OqwBi" id="lnjiSCZ49Z" role="3clFbG">
+                <node concept="2OqwBi" id="lnjiSCZ1S_" role="2Oq$k0">
+                  <node concept="37vLTw" id="lnjiSCZ1GM" role="2Oq$k0">
+                    <ref role="3cqZAo" node="lnjiSCXglf" resolve="idList" />
+                  </node>
+                  <node concept="3Tsc0h" id="lnjiSCZ28B" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:4ehuyfSPd_X" resolve="ID" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="lnjiSCZ5Lg" role="2OqNvi">
+                  <node concept="37vLTw" id="lnjiSCZ650" role="25WWJ7">
+                    <ref role="3cqZAo" node="lnjiSCYT0M" resolve="idNode" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="lnjiSCYPEG" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="lnjiSCYQFT" role="1tU5fm" />
+            <node concept="3cmrfG" id="lnjiSCYRMn" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="lnjiSCYR_f" role="1Dwp0S">
+            <node concept="3cmrfG" id="lnjiSCYRBT" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="37vLTw" id="lnjiSCYQKy" role="3uHU7B">
+              <ref role="3cqZAo" node="lnjiSCYPEG" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="lnjiSCYS_f" role="1Dwrff">
+            <node concept="37vLTw" id="lnjiSCYS_h" role="2$L3a6">
+              <ref role="3cqZAo" node="lnjiSCYPEG" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="55DAcpL6UrZ" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6UuG" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" role="jymVt">
+      <property role="TrG5h" value="visitIdentifierOrTuple" />
+      <node concept="3Tm1VV" id="55DAcpL2q_i" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL47pb" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q_m" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q_l" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$IdentifierOrTupleContext" resolve="TLAPlusGrammarParser.IdentifierOrTupleContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4z1P" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6Uv0" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6Vj5" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6VlM" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" role="jymVt">
+      <property role="TrG5h" value="visitPrefixOp" />
+      <node concept="3Tm1VV" id="55DAcpL2q_o" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL489H" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q_s" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q_r" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$PrefixOpContext" resolve="TLAPlusGrammarParser.PrefixOpContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4zRN" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6Vm6" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6Wad" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6Wd8" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" role="jymVt">
+      <property role="TrG5h" value="visitInfixOp" />
+      <node concept="3Tm1VV" id="55DAcpL2q_u" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL48Uf" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q_y" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q_x" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$InfixOpContext" resolve="TLAPlusGrammarParser.InfixOpContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4$DQ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6WUt" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6XIA" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6XLx" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" role="jymVt">
+      <property role="TrG5h" value="visitPostfixOp" />
+      <node concept="3Tm1VV" id="55DAcpL2q_$" role="1B3o_S" />
+      <node concept="3uibUv" id="55DAcpL49EL" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="55DAcpL2q_C" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="55DAcpL2q_B" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$PostfixOpContext" resolve="TLAPlusGrammarParser.PostfixOpContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="55DAcpL4_s1" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="55DAcpL6YyV" role="3clF47">
+        <node concept="3cpWs6" id="55DAcpL6Zn6" role="3cqZAp">
+          <node concept="10Nm6u" id="55DAcpL6ZpN" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="55DAcpL2q_D" role="1B3o_S" />
+    <node concept="3uibUv" id="55DAcpL3_5K" role="1zkMxy">
+      <ref role="3uigEE" to="cw0v:~TLAPlusGrammarBaseVisitor" resolve="TLAPlusGrammarBaseVisitor" />
     </node>
   </node>
 </model>

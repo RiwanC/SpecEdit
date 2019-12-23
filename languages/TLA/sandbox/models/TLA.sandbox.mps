@@ -818,13 +818,10 @@
     </node>
   </node>
   <node concept="2SRj3L" id="_pU7hk2pvA">
-    <property role="2SRb0q" value="test" />
+    <property role="2SRb0q" value="Test" />
     <node concept="2KC$BN" id="_pU7hk2pvB" role="2SRdFh">
-      <node concept="2SRdFt" id="iFu8Xm6hgx" role="2KC$BK">
-        <property role="2SRdFi" value="BB" />
-      </node>
-      <node concept="2SRdFt" id="iFu8Xm6hg$" role="2KC$BK">
-        <property role="2SRdFi" value="CC" />
+      <node concept="2SRdFt" id="2V$dEz$eXDH" role="2KC$BK">
+        <property role="2SRdFi" value="AAAA" />
       </node>
     </node>
   </node>

@@ -1,3 +1,3 @@
----- MODULE test ----
+---- MODULE gfhgvjhk ----
 EXTENDS BB,CC
 ====================

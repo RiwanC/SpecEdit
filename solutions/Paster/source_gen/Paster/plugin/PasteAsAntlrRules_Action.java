@@ -16,7 +16,7 @@ import jetbrains.mps.ide.editor.MPSEditorDataKeys;
 import org.jetbrains.annotations.NotNull;
 
 public class PasteAsAntlrRules_Action extends BaseAction {
-  private static final Icon ICON = null;
+  private static final Icon ICON = IconContainer.ICON_a0;
 
   public PasteAsAntlrRules_Action() {
     super("Paste Plain Text", "", ICON);
