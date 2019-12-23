@@ -18,7 +18,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   @Override
   public Object visitNameList(TLAPlusGrammarParser.NameListContext ctx) {
     SNode namelist = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL, "TLA.structure.IdentifierList"));
-    for (int i = 0; i < 1; i++) {
+    for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
       SNode idNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
       SPropertyOperations.assign(idNode, PROPS.ID$ll3w, ctx.Identifier(0).getText());
       ListSequence.fromList(SLinkOperations.getChildren(namelist, LINKS.ID$llx0)).addElement(idNode);
@@ -32,7 +32,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     SPropertyOperations.assign(moduleNode, PROPS.ModuleName$iAUB, ctx.Identifier().getText());
     if (ctx.EXTENDS() != null) {
       SLinkOperations.setTarget(moduleNode, LINKS.SetOfModuleNames$Bn0, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x3f9c65b68f3e2c45L, "TLA.structure.ModuleNameList")));
-      for (int i = 0; i < 1; i++) {
+      for (int i = 0; i < (ctx.nameList().getChildCount() + 1) / 2; i++) {
         SNode emn = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade19ce77L, "TLA.structure.ExtendedModuleName"));
         SPropertyOperations.assign(emn, PROPS.ModuleName$Lfj0, ctx.nameList().Identifier(i).getText());
         ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(moduleNode, LINKS.SetOfModuleNames$Bn0), LINKS.ListM$Vevw)).addElement(emn);
@@ -163,9 +163,9 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   @Override
   public Object visitIdentifierList(TLAPlusGrammarParser.IdentifierListContext ctx) {
     SNode idList = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL, "TLA.structure.IdentifierList"));
-    for (int i = 0; i < 1; i++) {
+    for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
       SNode idNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
-      SPropertyOperations.assign(idNode, PROPS.ID$ll3w, ctx.VIRGULE(1).getText());
+      SPropertyOperations.assign(idNode, PROPS.ID$ll3w, ctx.Identifier(i).getText());
       ListSequence.fromList(SLinkOperations.getChildren(idList, LINKS.ID$llx0)).addElement(idNode);
     }
     return null;

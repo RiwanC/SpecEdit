@@ -91,6 +91,7 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
@@ -183,6 +184,7 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -1788,11 +1790,28 @@
             </node>
           </node>
           <node concept="3eOVzh" id="lnjiSD0AVL" role="1Dwp0S">
-            <node concept="3cmrfG" id="lnjiSD0AVM" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
-            </node>
             <node concept="37vLTw" id="lnjiSD0AVN" role="3uHU7B">
               <ref role="3cqZAo" node="lnjiSD0AVI" resolve="i" />
+            </node>
+            <node concept="FJ1c_" id="2V$dEz$fYCr" role="3uHU7w">
+              <node concept="3cmrfG" id="2V$dEz$fYF5" role="3uHU7w">
+                <property role="3cmrfH" value="2" />
+              </node>
+              <node concept="1eOMI4" id="2V$dEz$fTTn" role="3uHU7B">
+                <node concept="3cpWs3" id="2V$dEz$fXz0" role="1eOMHV">
+                  <node concept="3cmrfG" id="2V$dEz$fX_E" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$fVxE" role="3uHU7B">
+                    <node concept="37vLTw" id="2V$dEz$fU7s" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qyg" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$fWHc" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
           <node concept="3uNrnE" id="lnjiSD0AVO" role="1Dwrff">
@@ -1978,8 +1997,30 @@
                 <node concept="37vLTw" id="lnjiSD4uvg" role="3uHU7B">
                   <ref role="3cqZAo" node="lnjiSD4ucK" resolve="i" />
                 </node>
-                <node concept="3cmrfG" id="2V$dEz$ewVf" role="3uHU7w">
-                  <property role="3cmrfH" value="1" />
+                <node concept="FJ1c_" id="2V$dEz$fSRE" role="3uHU7w">
+                  <node concept="3cmrfG" id="2V$dEz$fSUk" role="3uHU7w">
+                    <property role="3cmrfH" value="2" />
+                  </node>
+                  <node concept="1eOMI4" id="2V$dEz$fROk" role="3uHU7B">
+                    <node concept="3cpWs3" id="2V$dEz$fQ6H" role="1eOMHV">
+                      <node concept="3cmrfG" id="2V$dEz$fQ9n" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="2OqwBi" id="2V$dEz$fNEu" role="3uHU7B">
+                        <node concept="2OqwBi" id="2V$dEz$fLLv" role="2Oq$k0">
+                          <node concept="37vLTw" id="2V$dEz$fKgA" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qym" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$fMYV" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ModuleContext.nameList()" resolve="nameList" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$fPiR" role="2OqNvi">
+                          <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="3uNrnE" id="lnjiSD4wjc" role="1Dwrff">
@@ -2701,10 +2742,10 @@
                     <node concept="37vLTw" id="lnjiSD04yD" role="2Oq$k0">
                       <ref role="3cqZAo" node="55DAcpL2q_g" resolve="ctx" />
                     </node>
-                    <node concept="liA8E" id="lnjiSD06VT" role="2OqNvi">
-                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$IdentifierListContext.VIRGULE(int)" resolve="VIRGULE" />
-                      <node concept="3cmrfG" id="lnjiSD075u" role="37wK5m">
-                        <property role="3cmrfH" value="1" />
+                    <node concept="liA8E" id="2V$dEz$f8i7" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$IdentifierListContext.Identifier(int)" resolve="Identifier" />
+                      <node concept="37vLTw" id="2V$dEz$f8w9" role="37wK5m">
+                        <ref role="3cqZAo" node="lnjiSCYPEG" resolve="i" />
                       </node>
                     </node>
                   </node>
@@ -2744,11 +2785,28 @@
             </node>
           </node>
           <node concept="3eOVzh" id="lnjiSCYR_f" role="1Dwp0S">
-            <node concept="3cmrfG" id="lnjiSCYRBT" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
-            </node>
             <node concept="37vLTw" id="lnjiSCYQKy" role="3uHU7B">
               <ref role="3cqZAo" node="lnjiSCYPEG" resolve="i" />
+            </node>
+            <node concept="FJ1c_" id="2V$dEz$g66e" role="3uHU7w">
+              <node concept="3cmrfG" id="2V$dEz$g68S" role="3uHU7w">
+                <property role="3cmrfH" value="2" />
+              </node>
+              <node concept="1eOMI4" id="2V$dEz$g5lB" role="3uHU7B">
+                <node concept="3cpWs3" id="2V$dEz$g3nL" role="1eOMHV">
+                  <node concept="3cmrfG" id="2V$dEz$g3qr" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$g1WJ" role="3uHU7B">
+                    <node concept="37vLTw" id="2V$dEz$g0s9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_g" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$g2Gs" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
           <node concept="3uNrnE" id="lnjiSCYS_f" role="1Dwrff">
