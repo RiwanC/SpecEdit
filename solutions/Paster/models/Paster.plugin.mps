@@ -355,8 +355,12 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
@@ -2062,6 +2066,10 @@
           </node>
         </node>
         <node concept="1Dw8fO" id="2V$dEz$m6BR" role="3cqZAp">
+          <node concept="15s5l7" id="2V$dEz$utM1" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not comparable with list&lt;UnitContext&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1178271928127]&quot;;" />
+            <property role="huDt6" value="Error: type ?no classifier? is not comparable with list&lt;UnitContext&gt;" />
+          </node>
           <node concept="3clFbS" id="2V$dEz$m6BT" role="2LFqv$">
             <node concept="3clFbF" id="2V$dEz$mbL0" role="3cqZAp">
               <node concept="2OqwBi" id="2V$dEz$mdJq" role="3clFbG">
@@ -2111,11 +2119,28 @@
             </node>
           </node>
           <node concept="3eOVzh" id="2V$dEz$m9Cw" role="1Dwp0S">
-            <node concept="3cmrfG" id="2V$dEz$m9Fa" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
-            </node>
             <node concept="37vLTw" id="2V$dEz$m8yB" role="3uHU7B">
               <ref role="3cqZAo" node="2V$dEz$m6BU" resolve="i" />
+            </node>
+            <node concept="2OqwBi" id="2V$dEz$u8Hv" role="3uHU7w">
+              <node concept="1eOMI4" id="2V$dEz$u3sZ" role="2Oq$k0">
+                <node concept="10QFUN" id="2V$dEz$u3sW" role="1eOMHV">
+                  <node concept="_YKpA" id="2V$dEz$u3MX" role="10QFUM">
+                    <node concept="3uibUv" id="2V$dEz$u4nR" role="_ZDj9">
+                      <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$UnitContext" resolve="TLAPlusGrammarParser.UnitContext" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$u72s" role="10QFUP">
+                    <node concept="37vLTw" id="2V$dEz$u5NJ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qym" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$u7U7" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ModuleContext.unit()" resolve="unit" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="2V$dEz$uaCl" role="2OqNvi" />
             </node>
           </node>
           <node concept="3uNrnE" id="2V$dEz$mbhp" role="1Dwrff">

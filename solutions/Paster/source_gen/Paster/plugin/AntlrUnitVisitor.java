@@ -10,6 +10,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import java.util.List;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
@@ -38,7 +39,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
         ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(moduleNode, LINKS.SetOfModuleNames$Bn0), LINKS.ListM$Vevw)).addElement(emn);
       }
     }
-    for (int i = 0; i < 1; i++) {
+    for (int i = 0; i < ListSequence.fromList(((List<TLAPlusGrammarParser.UnitContext>) ctx.unit())).count(); i++) {
       ListSequence.fromList(SLinkOperations.getChildren(moduleNode, LINKS.SetOfUnits$fqCa)).addElement(((SNode) visitUnit(ctx.unit(i))));
     }
     return moduleNode;
