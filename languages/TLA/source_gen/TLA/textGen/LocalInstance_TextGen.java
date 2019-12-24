@@ -5,16 +5,11 @@ package TLA.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.traceable.behavior.TraceableConcept__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
 public class LocalInstance_TextGen extends TextGenDescriptorBase {
@@ -23,33 +18,16 @@ public class LocalInstance_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.createPositionInfo();
     tgs.newLine();
-    tgs.append("LOCAL INSTANCE");
+    tgs.append("LOCAL");
     tgs.append(" ");
-    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.Name$klzb));
-    if (ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.Substitution$klzE)).isNotEmpty()) {
-      tgs.append(" WITH ");
-      {
-        Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.Substitution$klzE);
-        final SNode lastItem = Sequence.fromIterable(collection).last();
-        for (SNode item : collection) {
-          tgs.appendNode(item);
-          if (item != lastItem) {
-            tgs.append(",");
-          }
-        }
-      }
-    }
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Instance$iKCK));
     if (tgs.needPositions()) {
       tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$kK)));
     }
   }
 
-  private static final class PROPS {
-    /*package*/ static final SProperty Name$klzb = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a528d19L, 0x6b3146ab9a528d1aL, "Name");
-  }
-
   private static final class LINKS {
-    /*package*/ static final SContainmentLink Substitution$klzE = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a528d19L, 0x6b3146ab9a528d1bL, "Substitution");
+    /*package*/ static final SContainmentLink Instance$iKCK = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a528d19L, 0x2ee436a8e47f2abcL, "Instance");
   }
 
   private static final class CONCEPTS {

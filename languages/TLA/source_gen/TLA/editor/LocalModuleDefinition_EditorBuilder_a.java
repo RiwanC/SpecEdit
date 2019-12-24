@@ -46,8 +46,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefNode_0());
-    editorCell.addEditorCell(createConstant_1());
-    editorCell.addEditorCell(createRefNode_1());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -57,14 +55,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new NonFixLHSSingleRoleHandler_en3vrl_b0(myNode, LINKS.NonFixLHS$J3Ud, getEditorContext());
+    SingleRoleCellProvider provider = new ModDefSingleRoleHandler_en3vrl_b0(myNode, LINKS.ModDef$8ulG, getEditorContext());
     return provider.createCell();
   }
-  private static class NonFixLHSSingleRoleHandler_en3vrl_b0 extends SingleRoleCellProvider {
+  private static class ModDefSingleRoleHandler_en3vrl_b0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public NonFixLHSSingleRoleHandler_en3vrl_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public ModDefSingleRoleHandler_en3vrl_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -77,8 +75,8 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
     protected EditorCell createChildCell(SNode child) {
       EditorCell editorCell = getUpdateSession().updateChildNodeCell(child);
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), LINKS.NonFixLHS$J3Ud, child));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), LINKS.NonFixLHS$J3Ud, child));
+      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), LINKS.ModDef$8ulG, child));
+      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), LINKS.ModDef$8ulG, child));
       installCellInfo(child, editorCell, false);
       return editorCell;
     }
@@ -90,16 +88,16 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
         editorCell.setSubstituteInfo((isEmpty ? new SEmptyContainmentSubstituteInfo(editorCell) : new SChildSubstituteInfo(editorCell)));
       }
       if (editorCell.getSRole() == null) {
-        editorCell.setSRole(LINKS.NonFixLHS$J3Ud);
+        editorCell.setSRole(LINKS.ModDef$8ulG);
       }
     }
     @Override
     protected EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), LINKS.NonFixLHS$J3Ud));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), LINKS.ModDef$8ulG));
       try {
         EditorCell editorCell = super.createEmptyCell();
-        editorCell.setCellId("empty_NonFixLHS");
+        editorCell.setCellId("empty_ModDef");
         installCellInfo(null, editorCell, true);
         setCellContext(editorCell);
         return editorCell;
@@ -108,73 +106,11 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       }
     }
     protected String getNoTargetText() {
-      return "<no NonFixLHS>";
-    }
-  }
-  private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "≜");
-    editorCell.setCellId("Constant_en3vrl_c0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new InstanceSingleRoleHandler_en3vrl_d0(myNode, LINKS.Instance$MO8h, getEditorContext());
-    return provider.createCell();
-  }
-  private static class InstanceSingleRoleHandler_en3vrl_d0 extends SingleRoleCellProvider {
-    @NotNull
-    private SNode myNode;
-
-    public InstanceSingleRoleHandler_en3vrl_d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
-      super(containmentLink, context);
-      myNode = ownerNode;
-    }
-
-    @Override
-    @NotNull
-    public SNode getNode() {
-      return myNode;
-    }
-
-    protected EditorCell createChildCell(SNode child) {
-      EditorCell editorCell = getUpdateSession().updateChildNodeCell(child);
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), LINKS.Instance$MO8h, child));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), LINKS.Instance$MO8h, child));
-      installCellInfo(child, editorCell, false);
-      return editorCell;
-    }
-
-
-
-    private void installCellInfo(SNode child, EditorCell editorCell, boolean isEmpty) {
-      if (editorCell.getSubstituteInfo() == null || editorCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
-        editorCell.setSubstituteInfo((isEmpty ? new SEmptyContainmentSubstituteInfo(editorCell) : new SChildSubstituteInfo(editorCell)));
-      }
-      if (editorCell.getSRole() == null) {
-        editorCell.setSRole(LINKS.Instance$MO8h);
-      }
-    }
-    @Override
-    protected EditorCell createEmptyCell() {
-      getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), LINKS.Instance$MO8h));
-      try {
-        EditorCell editorCell = super.createEmptyCell();
-        editorCell.setCellId("empty_Instance");
-        installCellInfo(null, editorCell, true);
-        setCellContext(editorCell);
-        return editorCell;
-      } finally {
-        getCellFactory().popCellContext();
-      }
-    }
-    protected String getNoTargetText() {
-      return "<no Instance>";
+      return "<no ModDef>";
     }
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink NonFixLHS$J3Ud = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50c482L, 0x6b3146ab9a50d374L, "NonFixLHS");
-    /*package*/ static final SContainmentLink Instance$MO8h = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50c482L, 0x6b3146ab9a50d82aL, "Instance");
+    /*package*/ static final SContainmentLink ModDef$8ulG = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50c482L, 0x2ee436a8e483bc7cL, "ModDef");
   }
 }

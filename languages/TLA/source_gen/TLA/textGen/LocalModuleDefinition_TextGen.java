@@ -20,17 +20,14 @@ public class LocalModuleDefinition_TextGen extends TextGenDescriptorBase {
     tgs.newLine();
     tgs.append("LOCAL");
     tgs.append(" ");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.NonFixLHS$J3Ud));
-    tgs.append(" == ");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Instance$MO8h));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.ModDef$8ulG));
     if (tgs.needPositions()) {
       tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$kK)));
     }
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink NonFixLHS$J3Ud = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50c482L, 0x6b3146ab9a50d374L, "NonFixLHS");
-    /*package*/ static final SContainmentLink Instance$MO8h = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50c482L, 0x6b3146ab9a50d82aL, "Instance");
+    /*package*/ static final SContainmentLink ModDef$8ulG = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50c482L, 0x2ee436a8e483bc7cL, "ModDef");
   }
 
   private static final class CONCEPTS {
