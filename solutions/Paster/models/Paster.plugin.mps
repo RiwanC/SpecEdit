@@ -80,6 +80,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
@@ -238,6 +239,7 @@
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -349,6 +351,21 @@
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1772,8 +1789,8 @@
                     </node>
                     <node concept="liA8E" id="lnjiSD0N7Z" role="2OqNvi">
                       <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameListContext.Identifier(int)" resolve="Identifier" />
-                      <node concept="3cmrfG" id="lnjiSD0Nbz" role="37wK5m">
-                        <property role="3cmrfH" value="0" />
+                      <node concept="37vLTw" id="2V$dEz$y$lv" role="37wK5m">
+                        <ref role="3cqZAo" node="lnjiSD0AVI" resolve="i" />
                       </node>
                     </node>
                   </node>
@@ -2266,6 +2283,620 @@
               </node>
             </node>
           </node>
+          <node concept="3eNFk2" id="2V$dEz$v13w" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$v4$C" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$v5Ev" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$v2uB" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$v1eC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$v4aI" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.assumption()" resolve="assumption" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$v13y" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$v6hC" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$v6hD" role="3clFbG">
+                  <node concept="1eOMI4" id="2V$dEz$v6hE" role="37vLTx">
+                    <node concept="10QFUN" id="2V$dEz$v6hF" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$v6hG" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6tbn_b6SrPV" resolve="Assumption" />
+                      </node>
+                      <node concept="1rXfSq" id="2V$dEz$v6hH" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" resolve="visitAssumption" />
+                        <node concept="2OqwBi" id="2V$dEz$v6hI" role="37wK5m">
+                          <node concept="37vLTw" id="2V$dEz$v6hJ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$v8Ie" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.assumption()" resolve="assumption" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$v6hL" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$v8TN" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$vbGB" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$vcNv" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$vaoV" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$v98m" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$vbiz" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.theorem()" resolve="theorem" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$v8TP" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$vcOc" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$vcOd" role="3clFbG">
+                  <node concept="1eOMI4" id="2V$dEz$vcOe" role="37vLTx">
+                    <node concept="10QFUN" id="2V$dEz$vcOf" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$vcOg" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6tbn_b6SrP_" resolve="Theorem" />
+                      </node>
+                      <node concept="1rXfSq" id="2V$dEz$vcOh" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" resolve="visitTheorem" />
+                        <node concept="2OqwBi" id="2V$dEz$vcOi" role="37wK5m">
+                          <node concept="37vLTw" id="2V$dEz$vcOj" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$vePm" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.theorem()" resolve="theorem" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$vcOl" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$veUx" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$vjFX" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$vku$" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$vgj0" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$vfcv" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$vhiN" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.module()" resolve="module" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$veUz" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$vhrI" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$vhrJ" role="3clFbG">
+                  <node concept="1eOMI4" id="2V$dEz$vhrK" role="37vLTx">
+                    <node concept="10QFUN" id="2V$dEz$vhrL" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$vhrM" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6r55aFu62hr" resolve="Module" />
+                      </node>
+                      <node concept="1rXfSq" id="2V$dEz$vhrN" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" resolve="visitModule" />
+                        <node concept="2OqwBi" id="2V$dEz$vhrO" role="37wK5m">
+                          <node concept="37vLTw" id="2V$dEz$vhrP" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$vjwz" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.module()" resolve="module" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$vhrR" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$vkHL" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$vnvf" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$voaG" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$vmeD" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$vl5L" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$vnb0" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.FourMinus()" resolve="FourMinus" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$vkHN" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$voBb" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$vvh6" role="3clFbG">
+                  <node concept="2ShNRf" id="2V$dEz$vvrj" role="37vLTx">
+                    <node concept="3zrR0B" id="2V$dEz$vvmu" role="2ShVmc">
+                      <node concept="3Tqbb2" id="2V$dEz$vvmv" role="3zrR0E">
+                        <ref role="ehGHo" to="548q:4pT0XE4EGAx" resolve="Separator" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$vv8H" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2V$dEz$vzol" role="3cqZAp">
+                <node concept="1PaTwC" id="2V$dEz$vzom" role="3ndbpf">
+                  <node concept="3oM_SD" id="2V$dEz$v$uq" role="1PaTwD">
+                    <property role="3oM_SC" value="LOCAL" />
+                  </node>
+                  <node concept="3oM_SD" id="2V$dEz$v$uC" role="1PaTwD">
+                    <property role="3oM_SC" value="ou" />
+                  </node>
+                  <node concept="3oM_SD" id="2V$dEz$v$vg" role="1PaTwD">
+                    <property role="3oM_SC" value="non" />
+                  </node>
+                  <node concept="3oM_SD" id="2V$dEz$vzpe" role="1PaTwD">
+                    <property role="3oM_SC" value="pour" />
+                  </node>
+                  <node concept="3oM_SD" id="2V$dEz$vzpK" role="1PaTwD">
+                    <property role="3oM_SC" value="ceux" />
+                  </node>
+                  <node concept="3oM_SD" id="2V$dEz$vzpQ" role="1PaTwD">
+                    <property role="3oM_SC" value="qui" />
+                  </node>
+                  <node concept="3oM_SD" id="2V$dEz$vzpX" role="1PaTwD">
+                    <property role="3oM_SC" value="suivent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$vvtP" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$vyi_" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$vyln" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$vwWM" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$vvNU" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$vxS8" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.operatorDefinition()" resolve="operatorDefinition" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$vvtR" role="3eOfB_">
+              <node concept="3clFbJ" id="2V$dEz$v$H9" role="3cqZAp">
+                <node concept="3clFbS" id="2V$dEz$v$Hb" role="3clFbx">
+                  <node concept="3clFbF" id="2V$dEz$wYeZ" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$wYol" role="3clFbG">
+                      <node concept="2ShNRf" id="2V$dEz$wYzw" role="37vLTx">
+                        <node concept="3zrR0B" id="2V$dEz$wYuF" role="2ShVmc">
+                          <node concept="3Tqbb2" id="2V$dEz$wYuG" role="3zrR0E">
+                            <ref role="ehGHo" to="548q:4pT0XE4G_m$" resolve="LocalOperatorDefinition" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="2V$dEz$wYeX" role="37vLTJ">
+                        <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2V$dEz$wYNP" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$x0W1" role="3clFbG">
+                      <node concept="2OqwBi" id="2V$dEz$x0pU" role="37vLTJ">
+                        <node concept="1eOMI4" id="2V$dEz$wZZZ" role="2Oq$k0">
+                          <node concept="10QFUN" id="2V$dEz$wZZW" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$x04J" role="10QFUM">
+                              <ref role="ehGHo" to="548q:4pT0XE4G_m$" resolve="LocalOperatorDefinition" />
+                            </node>
+                            <node concept="37vLTw" id="2V$dEz$x0bH" role="10QFUP">
+                              <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="2V$dEz$x0FL" role="2OqNvi">
+                          <ref role="3Tt5mk" to="548q:4pT0XE4G_m_" resolve="OpDef" />
+                        </node>
+                      </node>
+                      <node concept="1eOMI4" id="2V$dEz$wWTJ" role="37vLTx">
+                        <node concept="10QFUN" id="2V$dEz$wWTK" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$wWTL" role="10QFUM">
+                            <ref role="ehGHo" to="548q:4pT0XE4EGwZ" resolve="OperatorDefinition" />
+                          </node>
+                          <node concept="1rXfSq" id="2V$dEz$wWTM" role="10QFUP">
+                            <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" resolve="visitOperatorDefinition" />
+                            <node concept="2OqwBi" id="2V$dEz$wWTN" role="37wK5m">
+                              <node concept="37vLTw" id="2V$dEz$wWTO" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="2V$dEz$wWTP" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.operatorDefinition()" resolve="operatorDefinition" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="2V$dEz$vB8x" role="3clFbw">
+                  <node concept="10Nm6u" id="2V$dEz$vCeI" role="3uHU7w" />
+                  <node concept="2OqwBi" id="2V$dEz$v_Yc" role="3uHU7B">
+                    <node concept="37vLTw" id="2V$dEz$v$Ot" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$vAST" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.LOCAL()" resolve="LOCAL" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="9aQIb" id="2V$dEz$x6V4" role="9aQIa">
+                  <node concept="3clFbS" id="2V$dEz$x6V5" role="9aQI4">
+                    <node concept="3clFbF" id="2V$dEz$vHwI" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$vHwJ" role="3clFbG">
+                        <node concept="1eOMI4" id="2V$dEz$vHwK" role="37vLTx">
+                          <node concept="10QFUN" id="2V$dEz$vHwL" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$vHwM" role="10QFUM">
+                              <ref role="ehGHo" to="548q:4pT0XE4EGwZ" resolve="OperatorDefinition" />
+                            </node>
+                            <node concept="1rXfSq" id="2V$dEz$vHwN" role="10QFUP">
+                              <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" resolve="visitOperatorDefinition" />
+                              <node concept="2OqwBi" id="2V$dEz$vHwO" role="37wK5m">
+                                <node concept="37vLTw" id="2V$dEz$vHwP" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                                </node>
+                                <node concept="liA8E" id="2V$dEz$vHwQ" role="2OqNvi">
+                                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.operatorDefinition()" resolve="operatorDefinition" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$vHwR" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$x9dL" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$xckG" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$xcYE" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$xaVG" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$x9GB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$xbTG" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.functionDefinition()" resolve="functionDefinition" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$x9dN" role="3eOfB_">
+              <node concept="3clFbJ" id="2V$dEz$xdlD" role="3cqZAp">
+                <node concept="3clFbS" id="2V$dEz$xdlE" role="3clFbx">
+                  <node concept="3clFbF" id="2V$dEz$xdlF" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$xdlG" role="3clFbG">
+                      <node concept="2ShNRf" id="2V$dEz$xdlH" role="37vLTx">
+                        <node concept="3zrR0B" id="2V$dEz$xdlI" role="2ShVmc">
+                          <node concept="3Tqbb2" id="2V$dEz$xdlJ" role="3zrR0E">
+                            <ref role="ehGHo" to="548q:4pT0XE4G_me" resolve="LocalFunctionDefinition" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="2V$dEz$xdlK" role="37vLTJ">
+                        <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2V$dEz$xdlL" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$xdlM" role="3clFbG">
+                      <node concept="2OqwBi" id="2V$dEz$xdlN" role="37vLTJ">
+                        <node concept="1eOMI4" id="2V$dEz$xdlO" role="2Oq$k0">
+                          <node concept="10QFUN" id="2V$dEz$xdlP" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$xdlQ" role="10QFUM">
+                              <ref role="ehGHo" to="548q:4pT0XE4G_me" resolve="LocalFunctionDefinition" />
+                            </node>
+                            <node concept="37vLTw" id="2V$dEz$xdlR" role="10QFUP">
+                              <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="2V$dEz$xf6R" role="2OqNvi">
+                          <ref role="3Tt5mk" to="548q:4pT0XE4G_mf" resolve="FDef" />
+                        </node>
+                      </node>
+                      <node concept="1eOMI4" id="2V$dEz$xdlT" role="37vLTx">
+                        <node concept="10QFUN" id="2V$dEz$xdlU" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$xdlV" role="10QFUM">
+                            <ref role="ehGHo" to="548q:4pT0XE4EG_e" resolve="FunctionDefinition" />
+                          </node>
+                          <node concept="1rXfSq" id="2V$dEz$xdlW" role="10QFUP">
+                            <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" resolve="visitFunctionDefinition" />
+                            <node concept="2OqwBi" id="2V$dEz$xdlX" role="37wK5m">
+                              <node concept="37vLTw" id="2V$dEz$xdlY" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="2V$dEz$xgpE" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.functionDefinition()" resolve="functionDefinition" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="2V$dEz$xdm0" role="3clFbw">
+                  <node concept="10Nm6u" id="2V$dEz$xdm1" role="3uHU7w" />
+                  <node concept="2OqwBi" id="2V$dEz$xdm2" role="3uHU7B">
+                    <node concept="37vLTw" id="2V$dEz$xdm3" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$xdm4" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.LOCAL()" resolve="LOCAL" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="9aQIb" id="2V$dEz$xdm5" role="9aQIa">
+                  <node concept="3clFbS" id="2V$dEz$xdm6" role="9aQI4">
+                    <node concept="3clFbF" id="2V$dEz$xdm7" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$xdm8" role="3clFbG">
+                        <node concept="1eOMI4" id="2V$dEz$xdm9" role="37vLTx">
+                          <node concept="10QFUN" id="2V$dEz$xdma" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$xdmb" role="10QFUM">
+                              <ref role="ehGHo" to="548q:4pT0XE4EG_e" resolve="FunctionDefinition" />
+                            </node>
+                            <node concept="1rXfSq" id="2V$dEz$xdmc" role="10QFUP">
+                              <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" resolve="visitFunctionDefinition" />
+                              <node concept="2OqwBi" id="2V$dEz$xdmd" role="37wK5m">
+                                <node concept="37vLTw" id="2V$dEz$xdme" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                                </node>
+                                <node concept="liA8E" id="2V$dEz$xhGS" role="2OqNvi">
+                                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.functionDefinition()" resolve="functionDefinition" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$xdmg" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$xhKp" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$xk24" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$xk4Q" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$xiCd" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$xinR" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$xjAZ" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.instance()" resolve="instance" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$xhKr" role="3eOfB_">
+              <node concept="3clFbJ" id="2V$dEz$xop8" role="3cqZAp">
+                <node concept="3clFbS" id="2V$dEz$xop9" role="3clFbx">
+                  <node concept="3clFbF" id="2V$dEz$xopa" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$xopb" role="3clFbG">
+                      <node concept="2ShNRf" id="2V$dEz$xopc" role="37vLTx">
+                        <node concept="3zrR0B" id="2V$dEz$xopd" role="2ShVmc">
+                          <node concept="3Tqbb2" id="2V$dEz$xope" role="3zrR0E">
+                            <ref role="ehGHo" to="548q:6GLhEIqkCOp" resolve="LocalInstance" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="2V$dEz$xopf" role="37vLTJ">
+                        <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2V$dEz$xopg" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$xoph" role="3clFbG">
+                      <node concept="2OqwBi" id="2V$dEz$xopi" role="37vLTJ">
+                        <node concept="1eOMI4" id="2V$dEz$xopj" role="2Oq$k0">
+                          <node concept="10QFUN" id="2V$dEz$xopk" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$xopl" role="10QFUM">
+                              <ref role="ehGHo" to="548q:6GLhEIqkCOp" resolve="LocalInstance" />
+                            </node>
+                            <node concept="37vLTw" id="2V$dEz$xopm" role="10QFUP">
+                              <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="2V$dEz$xqbs" role="2OqNvi">
+                          <ref role="3Tt5mk" to="548q:2V$dEz$vMEW" resolve="Instance" />
+                        </node>
+                      </node>
+                      <node concept="1eOMI4" id="2V$dEz$xopo" role="37vLTx">
+                        <node concept="10QFUN" id="2V$dEz$xopp" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$xopq" role="10QFUM">
+                            <ref role="ehGHo" to="548q:6GLhEIqkdeb" resolve="Instance" />
+                          </node>
+                          <node concept="1rXfSq" id="2V$dEz$xopr" role="10QFUP">
+                            <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" resolve="visitInstance" />
+                            <node concept="2OqwBi" id="2V$dEz$xops" role="37wK5m">
+                              <node concept="37vLTw" id="2V$dEz$xopt" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="2V$dEz$xr_P" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.instance()" resolve="instance" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="2V$dEz$xopv" role="3clFbw">
+                  <node concept="10Nm6u" id="2V$dEz$xopw" role="3uHU7w" />
+                  <node concept="2OqwBi" id="2V$dEz$xopx" role="3uHU7B">
+                    <node concept="37vLTw" id="2V$dEz$xopy" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$xopz" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.LOCAL()" resolve="LOCAL" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="9aQIb" id="2V$dEz$xop$" role="9aQIa">
+                  <node concept="3clFbS" id="2V$dEz$xop_" role="9aQI4">
+                    <node concept="3clFbF" id="2V$dEz$xopA" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$xopB" role="3clFbG">
+                        <node concept="1eOMI4" id="2V$dEz$xopC" role="37vLTx">
+                          <node concept="10QFUN" id="2V$dEz$xopD" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$xopE" role="10QFUM">
+                              <ref role="ehGHo" to="548q:6GLhEIqkdeb" resolve="Instance" />
+                            </node>
+                            <node concept="1rXfSq" id="2V$dEz$xopF" role="10QFUP">
+                              <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" resolve="visitInstance" />
+                              <node concept="2OqwBi" id="2V$dEz$xopG" role="37wK5m">
+                                <node concept="37vLTw" id="2V$dEz$xopH" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                                </node>
+                                <node concept="liA8E" id="2V$dEz$xsUr" role="2OqNvi">
+                                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.instance()" resolve="instance" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$xopJ" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$xl4F" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$xnmu" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$xnpg" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$xlX6" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$xlGK" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$xmVk" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.moduleDefinition()" resolve="moduleDefinition" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$xl4H" role="3eOfB_">
+              <node concept="3clFbJ" id="2V$dEz$xt0O" role="3cqZAp">
+                <node concept="3clFbS" id="2V$dEz$xt0P" role="3clFbx">
+                  <node concept="3clFbF" id="2V$dEz$xt0Q" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$xt0R" role="3clFbG">
+                      <node concept="2ShNRf" id="2V$dEz$xt0S" role="37vLTx">
+                        <node concept="3zrR0B" id="2V$dEz$xt0T" role="2ShVmc">
+                          <node concept="3Tqbb2" id="2V$dEz$xt0U" role="3zrR0E">
+                            <ref role="ehGHo" to="548q:6GLhEIqkci2" resolve="LocalModuleDefinition" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="2V$dEz$xt0V" role="37vLTJ">
+                        <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2V$dEz$xt0W" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$xt0X" role="3clFbG">
+                      <node concept="2OqwBi" id="2V$dEz$xt0Y" role="37vLTJ">
+                        <node concept="1eOMI4" id="2V$dEz$xt0Z" role="2Oq$k0">
+                          <node concept="10QFUN" id="2V$dEz$xt10" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$xt11" role="10QFUM">
+                              <ref role="ehGHo" to="548q:6GLhEIqkci2" resolve="LocalModuleDefinition" />
+                            </node>
+                            <node concept="37vLTw" id="2V$dEz$xt12" role="10QFUP">
+                              <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="2V$dEz$xuNB" role="2OqNvi">
+                          <ref role="3Tt5mk" to="548q:2V$dEz$wVLW" resolve="ModDef" />
+                        </node>
+                      </node>
+                      <node concept="1eOMI4" id="2V$dEz$xt14" role="37vLTx">
+                        <node concept="10QFUN" id="2V$dEz$xt15" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$xt16" role="10QFUM">
+                            <ref role="ehGHo" to="548q:4uZratGHmyw" resolve="ModuleDefinition" />
+                          </node>
+                          <node concept="1rXfSq" id="2V$dEz$xt17" role="10QFUP">
+                            <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" resolve="visitModuleDefinition" />
+                            <node concept="2OqwBi" id="2V$dEz$xt18" role="37wK5m">
+                              <node concept="37vLTw" id="2V$dEz$xt19" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="2V$dEz$xwdQ" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.moduleDefinition()" resolve="moduleDefinition" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="2V$dEz$xt1b" role="3clFbw">
+                  <node concept="10Nm6u" id="2V$dEz$xt1c" role="3uHU7w" />
+                  <node concept="2OqwBi" id="2V$dEz$xt1d" role="3uHU7B">
+                    <node concept="37vLTw" id="2V$dEz$xt1e" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$xt1f" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.LOCAL()" resolve="LOCAL" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="9aQIb" id="2V$dEz$xt1g" role="9aQIa">
+                  <node concept="3clFbS" id="2V$dEz$xt1h" role="9aQI4">
+                    <node concept="3clFbF" id="2V$dEz$xt1i" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$xt1j" role="3clFbG">
+                        <node concept="1eOMI4" id="2V$dEz$xt1k" role="37vLTx">
+                          <node concept="10QFUN" id="2V$dEz$xt1l" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$xt1m" role="10QFUM">
+                              <ref role="ehGHo" to="548q:4uZratGHmyw" resolve="ModuleDefinition" />
+                            </node>
+                            <node concept="1rXfSq" id="2V$dEz$xt1n" role="10QFUP">
+                              <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" resolve="visitModuleDefinition" />
+                              <node concept="2OqwBi" id="2V$dEz$xt1o" role="37wK5m">
+                                <node concept="37vLTw" id="2V$dEz$xt1p" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                                </node>
+                                <node concept="liA8E" id="2V$dEz$xxBw" role="2OqNvi">
+                                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.moduleDefinition()" resolve="moduleDefinition" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$xt1r" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="3cpWs6" id="2V$dEz$mrE$" role="3cqZAp">
           <node concept="37vLTw" id="2V$dEz$mtO_" role="3cqZAk">
@@ -2290,8 +2921,130 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6thR" role="3clF47">
+        <node concept="3cpWs8" id="2V$dEz$y0AC" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$y0AF" role="3cpWs9">
+            <property role="TrG5h" value="OpList" />
+            <node concept="3Tqbb2" id="2V$dEz$y0AA" role="1tU5fm">
+              <ref role="ehGHo" to="548q:4uZratGHlNZ" resolve="OpDeclList" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$y2OL" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$y2M8" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$y2M9" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:4uZratGHlNZ" resolve="OpDeclList" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="2V$dEz$xW7E" role="3cqZAp">
+          <node concept="3clFbS" id="2V$dEz$xW7F" role="2LFqv$">
+            <node concept="3cpWs8" id="2V$dEz$xW7G" role="3cqZAp">
+              <node concept="3cpWsn" id="2V$dEz$xW7H" role="3cpWs9">
+                <property role="TrG5h" value="OpNode" />
+                <node concept="3Tqbb2" id="2V$dEz$xW7I" role="1tU5fm">
+                  <ref role="ehGHo" to="548q:6r55aFu62hp" resolve="OpDecl" />
+                </node>
+                <node concept="2ShNRf" id="2V$dEz$xW7J" role="33vP2m">
+                  <node concept="3zrR0B" id="2V$dEz$xW7K" role="2ShVmc">
+                    <node concept="3Tqbb2" id="2V$dEz$xW7L" role="3zrR0E">
+                      <ref role="ehGHo" to="548q:6r55aFu62hp" resolve="OpDecl" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2V$dEz$xW7M" role="3cqZAp">
+              <node concept="37vLTI" id="2V$dEz$yiNs" role="3clFbG">
+                <node concept="1eOMI4" id="2V$dEz$BTU9" role="37vLTx">
+                  <node concept="10QFUN" id="2V$dEz$BTU6" role="1eOMHV">
+                    <node concept="3Tqbb2" id="2V$dEz$BVis" role="10QFUM">
+                      <ref role="ehGHo" to="548q:6r55aFu62hp" resolve="OpDecl" />
+                    </node>
+                    <node concept="1rXfSq" id="2V$dEz$yiVD" role="10QFUP">
+                      <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" resolve="visitOpDecl" />
+                      <node concept="2OqwBi" id="2V$dEz$yltf" role="37wK5m">
+                        <node concept="37vLTw" id="2V$dEz$yk4$" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qyy" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$ymTN" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclListContext.opDecl(int)" resolve="opDecl" />
+                          <node concept="37vLTw" id="2V$dEz$ymZa" role="37wK5m">
+                            <ref role="3cqZAo" node="2V$dEz$xW85" resolve="i" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2V$dEz$xW7P" role="37vLTJ">
+                  <ref role="3cqZAo" node="2V$dEz$xW7H" resolve="OpNode" />
+                </node>
+              </node>
+              <node concept="15s5l7" id="2V$dEz$xW7X" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+                <property role="huDt6" value="all typesystem messages" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="2V$dEz$xW7Y" role="3cqZAp">
+              <node concept="2OqwBi" id="2V$dEz$xW7Z" role="3clFbG">
+                <node concept="2OqwBi" id="2V$dEz$xW80" role="2Oq$k0">
+                  <node concept="37vLTw" id="2V$dEz$yect" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2V$dEz$y0AF" resolve="OpList" />
+                  </node>
+                  <node concept="3Tsc0h" id="2V$dEz$yeKw" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:4uZratGHlO0" resolve="OpDeclarations" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="2V$dEz$xW83" role="2OqNvi">
+                  <node concept="37vLTw" id="2V$dEz$xW84" role="25WWJ7">
+                    <ref role="3cqZAo" node="2V$dEz$xW7H" resolve="OpNode" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="2V$dEz$xW85" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="2V$dEz$xW86" role="1tU5fm" />
+            <node concept="3cmrfG" id="2V$dEz$xW87" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="2V$dEz$xW88" role="1Dwp0S">
+            <node concept="37vLTw" id="2V$dEz$xW89" role="3uHU7B">
+              <ref role="3cqZAo" node="2V$dEz$xW85" resolve="i" />
+            </node>
+            <node concept="FJ1c_" id="2V$dEz$xW8a" role="3uHU7w">
+              <node concept="3cmrfG" id="2V$dEz$xW8b" role="3uHU7w">
+                <property role="3cmrfH" value="2" />
+              </node>
+              <node concept="1eOMI4" id="2V$dEz$xW8c" role="3uHU7B">
+                <node concept="3cpWs3" id="2V$dEz$xW8d" role="1eOMHV">
+                  <node concept="3cmrfG" id="2V$dEz$xW8e" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$xW8f" role="3uHU7B">
+                    <node concept="37vLTw" id="2V$dEz$xW8g" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2qyy" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$xW8h" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uNrnE" id="2V$dEz$xW8i" role="1Dwrff">
+            <node concept="37vLTw" id="2V$dEz$xW8j" role="2$L3a6">
+              <ref role="3cqZAo" node="2V$dEz$xW85" resolve="i" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6toP" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6try" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$Df4J" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$y0AF" resolve="OpList" />
+          </node>
         </node>
       </node>
     </node>
@@ -2399,6 +3152,45 @@
                 <node concept="3Tqbb2" id="2V$dEz$nQHp" role="3zrR0E">
                   <ref role="ehGHo" to="548q:2Ky6l76zgv2" resolve="ConstantDeclaration" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2V$dEz$yrck" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$yrcl" role="3cpWs9">
+            <property role="TrG5h" value="opList" />
+            <node concept="3Tqbb2" id="2V$dEz$yrcm" role="1tU5fm">
+              <ref role="ehGHo" to="548q:4uZratGHlNZ" resolve="OpDeclList" />
+            </node>
+            <node concept="10QFUN" id="2V$dEz$yrcn" role="33vP2m">
+              <node concept="3Tqbb2" id="2V$dEz$yrco" role="10QFUM">
+                <ref role="ehGHo" to="548q:4uZratGHlNZ" resolve="OpDeclList" />
+              </node>
+              <node concept="1rXfSq" id="2V$dEz$yrcp" role="10QFUP">
+                <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" resolve="visitOpDeclList" />
+                <node concept="2OqwBi" id="2V$dEz$yrcq" role="37wK5m">
+                  <node concept="37vLTw" id="2V$dEz$yrcr" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL2qyI" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="2V$dEz$yuBZ" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ConstantDeclarationContext.opDeclList()" resolve="opDeclList" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2V$dEz$ywVv" role="3cqZAp">
+          <node concept="37vLTI" id="2V$dEz$yzE2" role="3clFbG">
+            <node concept="37vLTw" id="2V$dEz$yzUg" role="37vLTx">
+              <ref role="3cqZAo" node="2V$dEz$yrcl" resolve="opList" />
+            </node>
+            <node concept="2OqwBi" id="2V$dEz$yz93" role="37vLTJ">
+              <node concept="37vLTw" id="2V$dEz$ywVt" role="2Oq$k0">
+                <ref role="3cqZAo" node="2V$dEz$nPuU" resolve="cdNode" />
+              </node>
+              <node concept="3TrEf2" id="2V$dEz$yzvU" role="2OqNvi">
+                <ref role="3Tt5mk" to="548q:4uZratGHlNX" resolve="OpDeclL" />
               </node>
             </node>
           </node>
@@ -2615,8 +3407,493 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6B$r" role="3clF47">
+        <node concept="3cpWs8" id="2V$dEz$yBdK" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$yBdN" role="3cpWs9">
+            <property role="TrG5h" value="opNode" />
+            <node concept="3Tqbb2" id="2V$dEz$yBdI" role="1tU5fm">
+              <ref role="ehGHo" to="548q:6r55aFu62hp" resolve="OpDecl" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$yDuz" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$yDrU" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$yDrV" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:6r55aFu62hp" resolve="OpDecl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2V$dEz$yStU" role="3cqZAp">
+          <node concept="3clFbS" id="2V$dEz$yStW" role="3clFbx">
+            <node concept="3clFbF" id="2V$dEz$zwDf" role="3cqZAp">
+              <node concept="37vLTI" id="2V$dEz$zwP5" role="3clFbG">
+                <node concept="2ShNRf" id="2V$dEz$zwVC" role="37vLTx">
+                  <node concept="3zrR0B" id="2V$dEz$zwRj" role="2ShVmc">
+                    <node concept="3Tqbb2" id="2V$dEz$zwRk" role="3zrR0E">
+                      <ref role="ehGHo" to="548q:6GLhEIqh0tV" resolve="UnderscoreInfixOpUnderscoreNode" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2V$dEz$zwDd" role="37vLTJ">
+                  <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2V$dEz$zwZA" role="3cqZAp">
+              <node concept="37vLTI" id="2V$dEz$zwZB" role="3clFbG">
+                <node concept="2OqwBi" id="2V$dEz$zwZC" role="37vLTJ">
+                  <node concept="1eOMI4" id="2V$dEz$zwZD" role="2Oq$k0">
+                    <node concept="10QFUN" id="2V$dEz$zwZE" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$zwZF" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6GLhEIqh0tV" resolve="UnderscoreInfixOpUnderscoreNode" />
+                      </node>
+                      <node concept="37vLTw" id="2V$dEz$zyNT" role="10QFUP">
+                        <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="2V$dEz$zzex" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:6GLhEIqh0tW" resolve="InfixOp" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$z_Bf" role="37vLTx">
+                  <node concept="1eOMI4" id="2V$dEz$zwZI" role="2Oq$k0">
+                    <node concept="10QFUN" id="2V$dEz$zwZJ" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$zwZK" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                      </node>
+                      <node concept="1rXfSq" id="2V$dEz$zwZL" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" resolve="visitInfixOp" />
+                        <node concept="2OqwBi" id="2V$dEz$zwZM" role="37wK5m">
+                          <node concept="37vLTw" id="2V$dEz$zwZN" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$z$JI" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.infixOp()" resolve="infixOp" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="2V$dEz$zB45" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:6tbn_b6SrOt" resolve="InfixOp" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2V$dEz$z5bk" role="3clFbw">
+            <node concept="10Nm6u" id="2V$dEz$z5e6" role="3uHU7w" />
+            <node concept="2OqwBi" id="2V$dEz$yW76" role="3uHU7B">
+              <node concept="37vLTw" id="2V$dEz$yUAS" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="2V$dEz$z4KQ" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.infixOp()" resolve="infixOp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$z6s6" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$z9sE" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$zaMx" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$z7R$" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$z6w_" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$z927" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.postfixOp()" resolve="postfixOp" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$z6s8" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$zBjV" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$zBjW" role="3clFbG">
+                  <node concept="2ShNRf" id="2V$dEz$zBjX" role="37vLTx">
+                    <node concept="3zrR0B" id="2V$dEz$zBjY" role="2ShVmc">
+                      <node concept="3Tqbb2" id="2V$dEz$zBjZ" role="3zrR0E">
+                        <ref role="ehGHo" to="548q:6GLhEIqh0tx" resolve="PostfixOpUnderscoreNode" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$zBk0" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="2V$dEz$zBqs" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$zBqt" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$zBqu" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$zBqv" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$zBqw" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$zBqx" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6GLhEIqh0tx" resolve="PostfixOpUnderscoreNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$zBqy" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$zDgL" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6GLhEIqh0ty" resolve="PostfixOp" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$zBq$" role="37vLTx">
+                    <node concept="1eOMI4" id="2V$dEz$zBq_" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$zBqA" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$zBqB" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+                        </node>
+                        <node concept="1rXfSq" id="2V$dEz$zBqC" role="10QFUP">
+                          <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" resolve="visitPostfixOp" />
+                          <node concept="2OqwBi" id="2V$dEz$zBqD" role="37wK5m">
+                            <node concept="37vLTw" id="2V$dEz$zBqE" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz$zEPt" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.postfixOp()" resolve="postfixOp" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$zFg4" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOH" resolve="PostfixOp" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$zaOg" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$zdKs" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$zdNe" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$zcdo" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$zaTm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$zdlO" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.prefixOp()" resolve="prefixOp" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$zaOi" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$zFsx" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$zFsy" role="3clFbG">
+                  <node concept="2ShNRf" id="2V$dEz$zFsz" role="37vLTx">
+                    <node concept="3zrR0B" id="2V$dEz$zFs$" role="2ShVmc">
+                      <node concept="3Tqbb2" id="2V$dEz$zFs_" role="3zrR0E">
+                        <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$zFsA" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="2V$dEz$zFzm" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$zFzn" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$zFzo" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$zFzp" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$zFzq" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$zFzr" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$zFzs" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="2V$dEz$zOJe" role="2OqNvi">
+                      <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                    </node>
+                  </node>
+                  <node concept="1eOMI4" id="2V$dEz$zFzv" role="37vLTx">
+                    <node concept="10QFUN" id="2V$dEz$zFzw" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$zFzx" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                      </node>
+                      <node concept="1rXfSq" id="2V$dEz$zFzy" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" resolve="visitPrefixOp" />
+                        <node concept="2OqwBi" id="2V$dEz$zFzz" role="37wK5m">
+                          <node concept="37vLTw" id="2V$dEz$zFz$" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$zJEW" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.prefixOp()" resolve="prefixOp" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$zfO4" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$ziOZ" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$zjzA" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$zhdN" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$zfTL" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$zilj" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.underscoreList()" resolve="underscoreList" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$zfO6" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$zRtm" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$zRtn" role="3clFbG">
+                  <node concept="2ShNRf" id="2V$dEz$zRto" role="37vLTx">
+                    <node concept="3zrR0B" id="2V$dEz$zRtp" role="2ShVmc">
+                      <node concept="3Tqbb2" id="2V$dEz$zRtq" role="3zrR0E">
+                        <ref role="ehGHo" to="548q:4uZratGIeI6" resolve="OpIdentifierNode" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$zRtr" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="2V$dEz$$dlI" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$$dlJ" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                </node>
+                <node concept="37vLTI" id="2V$dEz$$dlK" role="3clFbG">
+                  <node concept="3cpWs3" id="2V$dEz$$fkm" role="37vLTx">
+                    <node concept="Xl_RD" id="2V$dEz$$fn0" role="3uHU7w">
+                      <property role="Xl_RC" value="(" />
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$$dlL" role="3uHU7B">
+                      <node concept="2OqwBi" id="2V$dEz$$dlM" role="2Oq$k0">
+                        <node concept="37vLTw" id="2V$dEz$$dlN" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$$dlO" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$$dlP" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$$dlQ" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$$dlR" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$$dlS" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$$dlT" role="10QFUM">
+                          <ref role="ehGHo" to="548q:4uZratGIeI6" resolve="OpIdentifierNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$$dlU" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$$f71" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:4uZratGIeI7" resolve="OpId" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="2V$dEz$$xVU" role="3cqZAp">
+                <node concept="d57v9" id="2V$dEz$$xVV" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$$xVX" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$$xVY" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$$xVZ" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$$xW0" role="10QFUM">
+                          <ref role="ehGHo" to="548q:4uZratGIeI6" resolve="OpIdentifierNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$$xW1" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$$xW2" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:4uZratGIeI7" resolve="OpId" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="2V$dEz$$BU4" role="37vLTx">
+                    <property role="Xl_RC" value="_" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Dw8fO" id="2V$dEz$$q3j" role="3cqZAp">
+                <node concept="3clFbS" id="2V$dEz$$q3l" role="2LFqv$">
+                  <node concept="3clFbF" id="2V$dEz$$I9L" role="3cqZAp">
+                    <node concept="d57v9" id="2V$dEz$$I9M" role="3clFbG">
+                      <node concept="2OqwBi" id="2V$dEz$$I9N" role="37vLTJ">
+                        <node concept="1eOMI4" id="2V$dEz$$I9O" role="2Oq$k0">
+                          <node concept="10QFUN" id="2V$dEz$$I9P" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$$I9Q" role="10QFUM">
+                              <ref role="ehGHo" to="548q:4uZratGIeI6" resolve="OpIdentifierNode" />
+                            </node>
+                            <node concept="37vLTw" id="2V$dEz$$I9R" role="10QFUP">
+                              <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="2V$dEz$$I9S" role="2OqNvi">
+                          <ref role="3TsBF5" to="548q:4uZratGIeI7" resolve="OpId" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="2V$dEz$$I9T" role="37vLTx">
+                        <property role="Xl_RC" value=",_" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWsn" id="2V$dEz$$q3m" role="1Duv9x">
+                  <property role="TrG5h" value="i" />
+                  <node concept="10Oyi0" id="2V$dEz$$qct" role="1tU5fm" />
+                  <node concept="3cmrfG" id="2V$dEz$$xue" role="33vP2m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+                <node concept="3eOVzh" id="2V$dEz$$r9q" role="1Dwp0S">
+                  <node concept="FJ1c_" id="2V$dEz$$Gr7" role="3uHU7w">
+                    <node concept="3cmrfG" id="2V$dEz$$GtL" role="3uHU7w">
+                      <property role="3cmrfH" value="2" />
+                    </node>
+                    <node concept="1eOMI4" id="2V$dEz$$EgC" role="3uHU7B">
+                      <node concept="3cpWs3" id="2V$dEz$$CAg" role="1eOMHV">
+                        <node concept="3cmrfG" id="2V$dEz$$CCU" role="3uHU7w">
+                          <property role="3cmrfH" value="1" />
+                        </node>
+                        <node concept="2OqwBi" id="2V$dEz$$uIi" role="3uHU7B">
+                          <node concept="2OqwBi" id="2V$dEz$$sSy" role="2Oq$k0">
+                            <node concept="37vLTw" id="2V$dEz$$reg" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz$$u2v" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.underscoreList()" resolve="underscoreList" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$$wlR" role="2OqNvi">
+                            <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$$qi6" role="3uHU7B">
+                    <ref role="3cqZAo" node="2V$dEz$$q3m" resolve="i" />
+                  </node>
+                </node>
+                <node concept="3uNrnE" id="2V$dEz$$xfB" role="1Dwrff">
+                  <node concept="37vLTw" id="2V$dEz$$xfD" role="2$L3a6">
+                    <ref role="3cqZAo" node="2V$dEz$$q3m" resolve="i" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="2V$dEz$$hUj" role="3cqZAp">
+                <node concept="d57v9" id="2V$dEz$$pxR" role="3clFbG">
+                  <node concept="Xl_RD" id="2V$dEz$$pBT" role="37vLTx">
+                    <property role="Xl_RC" value=")" />
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$$hUt" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$$hUu" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$$hUv" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$$hUw" role="10QFUM">
+                          <ref role="ehGHo" to="548q:4uZratGIeI6" resolve="OpIdentifierNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$$hUx" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$$hUy" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:4uZratGIeI7" resolve="OpId" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$zk0A" role="3eNLev">
+            <node concept="1Wc70l" id="2V$dEz$zonW" role="3eO9$A">
+              <node concept="3y3z36" id="2V$dEz$zsez" role="3uHU7w">
+                <node concept="10Nm6u" id="2V$dEz$ztuW" role="3uHU7w" />
+                <node concept="2OqwBi" id="2V$dEz$zqQU" role="3uHU7B">
+                  <node concept="37vLTw" id="2V$dEz$zpxi" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="2V$dEz$zrY0" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="2V$dEz$zmXt" role="3uHU7B">
+                <node concept="2OqwBi" id="2V$dEz$zlrW" role="3uHU7B">
+                  <node concept="37vLTw" id="2V$dEz$zk6U" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="2V$dEz$zmzs" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.underscoreList()" resolve="underscoreList" />
+                  </node>
+                </node>
+                <node concept="10Nm6u" id="2V$dEz$zojz" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$zk0C" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$zYNT" role="3cqZAp">
+                <node concept="37vLTI" id="2V$dEz$zYNU" role="3clFbG">
+                  <node concept="2ShNRf" id="2V$dEz$zYNV" role="37vLTx">
+                    <node concept="3zrR0B" id="2V$dEz$zYNW" role="2ShVmc">
+                      <node concept="3Tqbb2" id="2V$dEz$zYNX" role="3zrR0E">
+                        <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2V$dEz$zYNY" role="37vLTJ">
+                    <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="2V$dEz$zZ5K" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$$cLE" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                </node>
+                <node concept="37vLTI" id="2V$dEz$$7PM" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$$aZ8" role="37vLTx">
+                    <node concept="2OqwBi" id="2V$dEz$$9t4" role="2Oq$k0">
+                      <node concept="37vLTw" id="2V$dEz$$82_" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$$aJD" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$$cvh" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$zZ5M" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$zZ5N" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$zZ5O" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$zZ5P" role="10QFUM">
+                          <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$zZ5Q" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$$13K" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6CnW" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6CqD" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$yDyn" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+          </node>
         </node>
       </node>
     </node>
@@ -3136,8 +4413,124 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6Vm6" role="3clF47">
+        <node concept="3cpWs8" id="2V$dEz$$LkF" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$$LkG" role="3cpWs9">
+            <property role="TrG5h" value="poNode" />
+            <node concept="3Tqbb2" id="2V$dEz$$LkH" role="1tU5fm">
+              <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$$LkI" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$$LkJ" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$$LkK" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2V$dEz$_bx4" role="3cqZAp">
+          <node concept="3clFbS" id="2V$dEz$_bx6" role="3clFbx">
+            <node concept="1X3_iC" id="2V$dEz$Cmgj" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="2V$dEz$_i6L" role="8Wnug">
+                <node concept="15s5l7" id="2V$dEz$_lhg" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                </node>
+                <node concept="37vLTI" id="2V$dEz$_i6M" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$_i6N" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$_i6O" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$_i6P" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$_i6Q" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$_i6R" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$_i6S" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$_j_Z" role="37vLTx">
+                    <node concept="2OqwBi" id="2V$dEz$_i6T" role="2Oq$k0">
+                      <node concept="37vLTw" id="2V$dEz$_i6U" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$_jna" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$PrefixOpContext.SQUARE()" resolve="SQUARE" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$_l2P" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2V$dEz$_gJP" role="3clFbw">
+            <node concept="10Nm6u" id="2V$dEz$_hHo" role="3uHU7w" />
+            <node concept="2OqwBi" id="2V$dEz$_fmx" role="3uHU7B">
+              <node concept="37vLTw" id="2V$dEz$_eaJ" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="2V$dEz$_gxe" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$PrefixOpContext.SQUARE()" resolve="SQUARE" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2V$dEz$_lt8" role="9aQIa">
+            <node concept="3clFbS" id="2V$dEz$_lt9" role="9aQI4">
+              <node concept="1X3_iC" id="2V$dEz$CnzX" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="2V$dEz$$X7E" role="8Wnug">
+                  <node concept="15s5l7" id="2V$dEz$_tHN" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                  </node>
+                  <node concept="37vLTI" id="2V$dEz$$X7F" role="3clFbG">
+                    <node concept="2OqwBi" id="2V$dEz$$X7G" role="37vLTJ">
+                      <node concept="1eOMI4" id="2V$dEz$$X7H" role="2Oq$k0">
+                        <node concept="10QFUN" id="2V$dEz$$X7I" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$$X7J" role="10QFUM">
+                            <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                          </node>
+                          <node concept="37vLTw" id="2V$dEz$$ZWJ" role="10QFUP">
+                            <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2V$dEz$_0nk" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$_sbO" role="37vLTx">
+                      <node concept="2OqwBi" id="2V$dEz$_4x4" role="2Oq$k0">
+                        <node concept="37vLTw" id="2V$dEz$_2WK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$_rXr" role="2OqNvi">
+                          <ref role="37wK5l" to="p3ir:~ParserRuleContext.getStart()" resolve="getStart" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$_tzd" role="2OqNvi">
+                        <ref role="37wK5l" to="p3ir:~Token.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6Wad" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6Wd8" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$$NB9" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
+          </node>
         </node>
       </node>
     </node>
@@ -3157,8 +4550,344 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6WUt" role="3clF47">
+        <node concept="3cpWs8" id="2V$dEz$_$vK" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$_$vL" role="3cpWs9">
+            <property role="TrG5h" value="ioNode" />
+            <node concept="3Tqbb2" id="2V$dEz$_$vM" role="1tU5fm">
+              <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$_$vN" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$_$vO" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$_$vP" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2V$dEz$_wnt" role="3cqZAp">
+          <node concept="3clFbS" id="2V$dEz$_wnu" role="3clFbx">
+            <node concept="1X3_iC" id="2V$dEz$CoQ_" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="2V$dEz$_wnv" role="8Wnug">
+                <node concept="15s5l7" id="2V$dEz$_wnw" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;InfixOp&gt;" />
+                </node>
+                <node concept="37vLTI" id="2V$dEz$_wnx" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$_wny" role="37vLTJ">
+                    <node concept="1eOMI4" id="2V$dEz$_wnz" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$_wn$" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$_wn_" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$_Prh" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$_$vL" resolve="ioNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$_Tm8" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOt" resolve="InfixOp" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$_Rei" role="37vLTx">
+                    <node concept="2OqwBi" id="2V$dEz$_wnC" role="2Oq$k0">
+                      <node concept="37vLTw" id="2V$dEz$_wnE" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$_QSC" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.ANTISLASHANTISLASHIN()" resolve="ANTISLASHANTISLASHIN" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$_SFz" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2V$dEz$_wnH" role="3clFbw">
+            <node concept="10Nm6u" id="2V$dEz$_wnI" role="3uHU7w" />
+            <node concept="2OqwBi" id="2V$dEz$_wnJ" role="3uHU7B">
+              <node concept="37vLTw" id="2V$dEz$_wnK" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="2V$dEz$_Pne" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.ANTISLASHANTISLASHIN()" resolve="ANTISLASHANTISLASHIN" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$_WpU" role="3eNLev">
+            <node concept="3clFbS" id="2V$dEz$_WpV" role="3eOfB_">
+              <node concept="1X3_iC" id="2V$dEz$Cq9Y" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="2V$dEz$AgMN" role="8Wnug">
+                  <node concept="15s5l7" id="2V$dEz$AgMO" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;InfixOp&gt;" />
+                  </node>
+                  <node concept="37vLTI" id="2V$dEz$AgMP" role="3clFbG">
+                    <node concept="2OqwBi" id="2V$dEz$AgMQ" role="37vLTJ">
+                      <node concept="1eOMI4" id="2V$dEz$AgMR" role="2Oq$k0">
+                        <node concept="10QFUN" id="2V$dEz$AgMS" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$AgMT" role="10QFUM">
+                            <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                          </node>
+                          <node concept="37vLTw" id="2V$dEz$AgMU" role="10QFUP">
+                            <ref role="3cqZAo" node="2V$dEz$_$vL" resolve="ioNode" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2V$dEz$AgMV" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:6tbn_b6SrOt" resolve="InfixOp" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$AgMW" role="37vLTx">
+                      <node concept="2OqwBi" id="2V$dEz$AgMX" role="2Oq$k0">
+                        <node concept="37vLTw" id="2V$dEz$AgMY" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$Ame1" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.ANTISLASHSLASH()" resolve="ANTISLASHSLASH" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$AgN0" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="2V$dEz$A3Ae" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$A4Dz" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$A2bC" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$A0CH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$A3n9" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.ANTISLASHSLASH()" resolve="ANTISLASHSLASH" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$_YXG" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$A7wL" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$A8k3" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$A66l" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$A4Yb" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$A7hQ" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.EQUAL()" resolve="EQUAL" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$_YXI" role="3eOfB_">
+              <node concept="1X3_iC" id="2V$dEz$Crtd" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="2V$dEz$Ai8h" role="8Wnug">
+                  <node concept="15s5l7" id="2V$dEz$Ai8i" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;InfixOp&gt;" />
+                  </node>
+                  <node concept="37vLTI" id="2V$dEz$Ai8j" role="3clFbG">
+                    <node concept="2OqwBi" id="2V$dEz$Ai8k" role="37vLTJ">
+                      <node concept="1eOMI4" id="2V$dEz$Ai8l" role="2Oq$k0">
+                        <node concept="10QFUN" id="2V$dEz$Ai8m" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$Ai8n" role="10QFUM">
+                            <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                          </node>
+                          <node concept="37vLTw" id="2V$dEz$Ai8o" role="10QFUP">
+                            <ref role="3cqZAo" node="2V$dEz$_$vL" resolve="ioNode" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2V$dEz$Ai8p" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:6tbn_b6SrOt" resolve="InfixOp" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$Ai8q" role="37vLTx">
+                      <node concept="2OqwBi" id="2V$dEz$Ai8r" role="2Oq$k0">
+                        <node concept="37vLTw" id="2V$dEz$Ai8s" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$AmiP" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.EQUAL()" resolve="EQUAL" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$Ai8u" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$_Z02" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$Ab$V" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$Aczi" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$Aaaq" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$A8M1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$AblV" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.POINT()" resolve="POINT" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$_Z04" role="3eOfB_">
+              <node concept="1X3_iC" id="2V$dEz$CsLF" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="2V$dEz$Ajt3" role="8Wnug">
+                  <node concept="15s5l7" id="2V$dEz$Ajt4" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;InfixOp&gt;" />
+                  </node>
+                  <node concept="37vLTI" id="2V$dEz$Ajt5" role="3clFbG">
+                    <node concept="2OqwBi" id="2V$dEz$Ajt6" role="37vLTJ">
+                      <node concept="1eOMI4" id="2V$dEz$Ajt7" role="2Oq$k0">
+                        <node concept="10QFUN" id="2V$dEz$Ajt8" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$Ajt9" role="10QFUM">
+                            <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                          </node>
+                          <node concept="37vLTw" id="2V$dEz$Ajta" role="10QFUP">
+                            <ref role="3cqZAo" node="2V$dEz$_$vL" resolve="ioNode" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2V$dEz$Ajtb" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:6tbn_b6SrOt" resolve="InfixOp" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$Ajtc" role="37vLTx">
+                      <node concept="2OqwBi" id="2V$dEz$Ajtd" role="2Oq$k0">
+                        <node concept="37vLTw" id="2V$dEz$Ajte" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$AmlL" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.POINT()" resolve="POINT" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$Ajtg" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$_Z1K" role="3eNLev">
+            <node concept="3y3z36" id="2V$dEz$Afz8" role="3eO9$A">
+              <node concept="10Nm6u" id="2V$dEz$Af_U" role="3uHU7w" />
+              <node concept="2OqwBi" id="2V$dEz$Ae8y" role="3uHU7B">
+                <node concept="37vLTw" id="2V$dEz$AcX2" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$Afk3" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.SLASHANTISLASH()" resolve="SLASHANTISLASH" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$_Z1M" role="3eOfB_">
+              <node concept="1X3_iC" id="2V$dEz$Cu4A" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="2V$dEz$AkS0" role="8Wnug">
+                  <node concept="15s5l7" id="2V$dEz$AkS1" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;InfixOp&gt;" />
+                  </node>
+                  <node concept="37vLTI" id="2V$dEz$AkS2" role="3clFbG">
+                    <node concept="2OqwBi" id="2V$dEz$AkS3" role="37vLTJ">
+                      <node concept="1eOMI4" id="2V$dEz$AkS4" role="2Oq$k0">
+                        <node concept="10QFUN" id="2V$dEz$AkS5" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$AkS6" role="10QFUM">
+                            <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                          </node>
+                          <node concept="37vLTw" id="2V$dEz$AkS7" role="10QFUP">
+                            <ref role="3cqZAo" node="2V$dEz$_$vL" resolve="ioNode" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2V$dEz$AkS8" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:6tbn_b6SrOt" resolve="InfixOp" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$AkS9" role="37vLTx">
+                      <node concept="2OqwBi" id="2V$dEz$AkSa" role="2Oq$k0">
+                        <node concept="37vLTw" id="2V$dEz$AkSb" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$Amq_" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InfixOpContext.SLASHANTISLASH()" resolve="SLASHANTISLASH" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$AkSd" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2V$dEz$_ZcN" role="9aQIa">
+            <node concept="3clFbS" id="2V$dEz$_ZcO" role="9aQI4">
+              <node concept="1X3_iC" id="2V$dEz$Cvnn" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="2V$dEz$_WpX" role="8Wnug">
+                  <node concept="15s5l7" id="2V$dEz$_WpY" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;InfixOp&gt;" />
+                  </node>
+                  <node concept="37vLTI" id="2V$dEz$_WpZ" role="3clFbG">
+                    <node concept="2OqwBi" id="2V$dEz$_Wq0" role="37vLTJ">
+                      <node concept="1eOMI4" id="2V$dEz$_Wq1" role="2Oq$k0">
+                        <node concept="10QFUN" id="2V$dEz$_Wq2" role="1eOMHV">
+                          <node concept="3Tqbb2" id="2V$dEz$_Wq3" role="10QFUM">
+                            <ref role="ehGHo" to="548q:6tbn_b6SrOs" resolve="InfixOpNode" />
+                          </node>
+                          <node concept="37vLTw" id="2V$dEz$_Wq4" role="10QFUP">
+                            <ref role="3cqZAo" node="2V$dEz$_$vL" resolve="ioNode" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2V$dEz$_Wq5" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:6tbn_b6SrOt" resolve="InfixOp" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$_Wq6" role="37vLTx">
+                      <node concept="2OqwBi" id="2V$dEz$_Wq7" role="2Oq$k0">
+                        <node concept="37vLTw" id="2V$dEz$_Wq8" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_y" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$_Wq9" role="2OqNvi">
+                          <ref role="37wK5l" to="p3ir:~ParserRuleContext.getStart()" resolve="getStart" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$_Wqa" role="2OqNvi">
+                        <ref role="37wK5l" to="p3ir:~Token.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6XIA" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6XLx" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$Amve" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$_$vL" resolve="ioNode" />
+          </node>
         </node>
       </node>
     </node>
@@ -3178,8 +4907,65 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6YyV" role="3clF47">
+        <node concept="3cpWs8" id="2V$dEz$B6Mq" role="3cqZAp">
+          <node concept="3cpWsn" id="2V$dEz$B6Mt" role="3cpWs9">
+            <property role="TrG5h" value="poNode" />
+            <node concept="3Tqbb2" id="2V$dEz$B6Mo" role="1tU5fm">
+              <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+            </node>
+            <node concept="2ShNRf" id="2V$dEz$B9tI" role="33vP2m">
+              <node concept="3zrR0B" id="2V$dEz$B9q3" role="2ShVmc">
+                <node concept="3Tqbb2" id="2V$dEz$B9q4" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="2V$dEz$CwIS" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="2V$dEz$AxYC" role="8Wnug">
+            <node concept="15s5l7" id="2V$dEz$AxYD" role="lGtFl">
+              <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+              <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PostfixOp&gt;" />
+            </node>
+            <node concept="37vLTI" id="2V$dEz$AxYE" role="3clFbG">
+              <node concept="2OqwBi" id="2V$dEz$AxYF" role="37vLTJ">
+                <node concept="1eOMI4" id="2V$dEz$AxYG" role="2Oq$k0">
+                  <node concept="10QFUN" id="2V$dEz$AxYH" role="1eOMHV">
+                    <node concept="3Tqbb2" id="2V$dEz$AxYI" role="10QFUM">
+                      <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+                    </node>
+                    <node concept="37vLTw" id="2V$dEz$BeTu" role="10QFUP">
+                      <ref role="3cqZAo" node="2V$dEz$B6Mt" resolve="poNode" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="2V$dEz$Bfe2" role="2OqNvi">
+                  <ref role="3TsBF5" to="548q:6tbn_b6SrOH" resolve="PostfixOp" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$AxYL" role="37vLTx">
+                <node concept="2OqwBi" id="2V$dEz$AxYM" role="2Oq$k0">
+                  <node concept="37vLTw" id="2V$dEz$AxYN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL2q_C" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="2V$dEz$AxYO" role="2OqNvi">
+                    <ref role="37wK5l" to="p3ir:~ParserRuleContext.getStart()" resolve="getStart" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2V$dEz$AxYP" role="2OqNvi">
+                  <ref role="37wK5l" to="p3ir:~Token.getText()" resolve="getText" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6Zn6" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6ZpN" role="3cqZAk" />
+          <node concept="37vLTw" id="2V$dEz$Bjr7" role="3cqZAk">
+            <ref role="3cqZAo" node="2V$dEz$B6Mt" resolve="poNode" />
+          </node>
         </node>
       </node>
     </node>

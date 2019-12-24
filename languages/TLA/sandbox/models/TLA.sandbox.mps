@@ -13,7 +13,6 @@
       </concept>
       <concept id="7443146518776888674" name="TLA.structure.GeneralPostfixOp" flags="ng" index="2xEIcK">
         <property id="5078094291900483624" name="PostfixOp" index="32OWJM" />
-        <child id="5078094291900483626" name="InstancePrefix" index="32OWJK" />
       </concept>
       <concept id="7443146518776888675" name="TLA.structure.GeneralIdentifier" flags="ng" index="2xEIcL">
         <property id="5078094291900483555" name="ID" index="32OWgT" />
@@ -27,9 +26,6 @@
       </concept>
       <concept id="7443146518776888677" name="TLA.structure.Theorem" flags="ng" index="2xEIcR">
         <child id="7443146518776888678" name="Expr" index="2xEIcO" />
-      </concept>
-      <concept id="7443146518776888588" name="TLA.structure.PrefixOpNode" flags="ng" index="2xEIdu">
-        <property id="7443146518776888589" name="PrefixOp" index="2xEIdv" />
       </concept>
       <concept id="7443146518776888620" name="TLA.structure.PostfixOpNode" flags="ng" index="2xEIdY">
         <property id="7443146518776888621" name="PostfixOp" index="2xEIdZ" />
@@ -151,10 +147,6 @@
         <child id="7443146518776888661" name="Arg" index="2xEIc7" />
         <child id="7443146518776888636" name="substitLHS" index="2xEIdI" />
       </concept>
-      <concept id="7724032538759564569" name="TLA.structure.LocalInstance" flags="ng" index="3LoWIM">
-        <property id="7724032538759564570" name="Name" index="3LoWIL" />
-        <child id="7724032538759564571" name="Substitution" index="3LoWIK" />
-      </concept>
       <concept id="7724032538758612833" name="TLA.structure.PostfixOpUnderscoreNode" flags="ng" index="3Ltk7a">
         <property id="7724032538758612834" name="PostfixOp" index="3Ltk79" />
       </concept>
@@ -246,22 +238,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3LoWIM" id="4pT0XE4G_jQ" role="2SR288">
-      <property role="3LoWIL" value="Inst2" />
-      <node concept="3LopVh" id="4pT0XE4G_kf" role="3LoWIK">
-        <node concept="2xEIdu" id="4pT0XE4G_kh" role="2xEIdI">
-          <property role="2xEIdv" value="4uZratGIeHq/Enabled" />
-        </node>
-        <node concept="2xEIcK" id="4pT0XE4G_kj" role="2xEIc7">
-          <property role="32OWJM" value="6GLhEIqh07E/A1" />
-          <node concept="2xEIcQ" id="4pT0XE4G_kl" role="32OWJK">
-            <node concept="2xEIeL" id="4pT0XE4G_kn" role="2xEIeQ">
-              <property role="2xEIeO" value="ID2" />
             </node>
           </node>
         </node>
@@ -820,39 +796,39 @@
   <node concept="2SRj3L" id="_pU7hk2pvA">
     <property role="2SRb0q" value="Test" />
     <node concept="2KC$BN" id="_pU7hk2pvB" role="2SRdFh">
-      <node concept="2SRdFt" id="2V$dEz$uPUO" role="2KC$BK">
+      <node concept="2SRdFt" id="2V$dEz$DHue" role="2KC$BK">
         <property role="2SRdFi" value="AAAA" />
       </node>
-      <node concept="2SRdFt" id="2V$dEz$uPUP" role="2KC$BK">
+      <node concept="2SRdFt" id="2V$dEz$DHuf" role="2KC$BK">
         <property role="2SRdFi" value="BBBB" />
       </node>
-      <node concept="2SRdFt" id="2V$dEz$uPUQ" role="2KC$BK">
+      <node concept="2SRdFt" id="2V$dEz$DHug" role="2KC$BK">
         <property role="2SRdFi" value="CCCC" />
       </node>
-      <node concept="2SRdFt" id="2V$dEz$uPUR" role="2KC$BK">
+      <node concept="2SRdFt" id="2V$dEz$DHuh" role="2KC$BK">
         <property role="2SRdFi" value="DDDD" />
       </node>
-      <node concept="2SRdFt" id="2V$dEz$uPUS" role="2KC$BK">
+      <node concept="2SRdFt" id="2V$dEz$DHui" role="2KC$BK">
         <property role="2SRdFi" value="EEEE" />
       </node>
     </node>
-    <node concept="3EFLVo" id="2V$dEz$uPUU" role="2SR288">
-      <node concept="2Vhqdv" id="2V$dEz$uPUV" role="2Vhqdp">
-        <node concept="2Vhqd8" id="2V$dEz$uPUW" role="2Vhqdu">
+    <node concept="3EFLVo" id="2V$dEz$DHuk" role="2SR288">
+      <node concept="2Vhqdv" id="2V$dEz$DHul" role="2Vhqdp">
+        <node concept="2Vhqd8" id="2V$dEz$DHum" role="2Vhqdu">
           <property role="2Vhqdf" value="ABAA" />
         </node>
-        <node concept="2Vhqd8" id="2V$dEz$uPUX" role="2Vhqdu">
+        <node concept="2Vhqd8" id="2V$dEz$DHun" role="2Vhqdu">
           <property role="2Vhqdf" value="FDGH" />
         </node>
       </node>
     </node>
-    <node concept="3EFLVo" id="2V$dEz$uPUZ" role="2SR288">
-      <node concept="2Vhqdv" id="2V$dEz$uPV0" role="2Vhqdp">
-        <node concept="2Vhqd8" id="2V$dEz$uPV1" role="2Vhqdu">
-          <property role="2Vhqdf" value="ZZZZ" />
+    <node concept="3EFLUj" id="2V$dEz$DHup" role="2SR288">
+      <node concept="F2z1o" id="2V$dEz$DHuq" role="F2z1q">
+        <node concept="2Vhqd8" id="2V$dEz$DHut" role="F2z6B">
+          <property role="2Vhqdf" value="D" />
         </node>
-        <node concept="2Vhqd8" id="2V$dEz$uPV2" role="2Vhqdu">
-          <property role="2Vhqdf" value="EEE" />
+        <node concept="2Vhqd8" id="2V$dEz$DHuw" role="F2z6B">
+          <property role="2Vhqdf" value="N" />
         </node>
       </node>
     </node>

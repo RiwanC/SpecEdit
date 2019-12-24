@@ -351,136 +351,223 @@
       <node id="3378885719448191699" at="48,65,49,164" concept="9" />
       <node id="3378885719448520525" at="50,44,51,73" concept="3" />
       <node id="3378885719448619707" at="52,51,53,73" concept="3" />
-      <node id="3378885719448205988" at="54,5,55,14" concept="10" />
-      <node id="5866387967695246901" at="58,77,59,16" concept="10" />
-      <node id="3378885719448641904" at="62,95,63,183" concept="9" />
-      <node id="3378885719449525193" at="63,183,64,69" concept="9" />
-      <node id="3378885719449551064" at="64,69,65,65" concept="3" />
-      <node id="5866387967695253188" at="65,65,66,18" concept="10" />
-      <node id="3378885719448573879" at="69,95,70,183" concept="9" />
-      <node id="5866387967695256658" at="70,183,71,18" concept="10" />
-      <node id="5866387967695257297" at="74,93,75,16" concept="10" />
-      <node id="5866387967695260761" at="78,95,79,16" concept="10" />
-      <node id="5866387967695267064" at="82,93,83,16" concept="10" />
-      <node id="5866387967695270542" at="86,89,87,16" concept="10" />
-      <node id="5866387967695274022" at="90,73,91,16" concept="10" />
-      <node id="5866387967695277504" at="94,89,95,16" concept="10" />
-      <node id="5866387967695281436" at="98,77,99,16" concept="10" />
-      <node id="5866387967695284922" at="102,71,103,16" concept="10" />
-      <node id="5866387967695288410" at="106,85,107,16" concept="10" />
-      <node id="5866387967695291900" at="110,69,111,16" concept="10" />
-      <node id="5866387967695292539" at="114,85,115,16" concept="10" />
-      <node id="5866387967695298878" at="118,75,119,16" concept="10" />
-      <node id="5866387967695302374" at="122,87,123,16" concept="10" />
-      <node id="5866387967695308735" at="126,81,127,16" concept="10" />
-      <node id="5866387967695315100" at="130,73,131,16" concept="10" />
-      <node id="5866387967695318602" at="134,85,135,16" concept="10" />
-      <node id="5866387967695322106" at="138,85,139,16" concept="10" />
-      <node id="5866387967695325612" at="142,91,143,16" concept="10" />
-      <node id="5866387967695329120" at="146,87,147,16" concept="10" />
-      <node id="5866387967695332630" at="150,85,151,16" concept="10" />
-      <node id="5866387967695339019" at="154,89,155,16" concept="10" />
-      <node id="5866387967695345404" at="158,71,159,16" concept="10" />
-      <node id="5866387967695348920" at="162,91,163,16" concept="10" />
-      <node id="5866387967695355321" at="166,91,167,16" concept="10" />
-      <node id="5866387967695358841" at="170,77,171,16" concept="10" />
-      <node id="5866387967695362363" at="174,77,175,16" concept="10" />
-      <node id="384861153814447436" at="178,85,179,178" concept="9" />
-      <node id="384861153814876207" at="180,61,181,180" concept="9" />
-      <node id="384861153814883355" at="181,180,182,85" concept="3" />
-      <node id="384861153814911336" at="182,85,183,99" concept="3" />
-      <node id="5866387967695365887" at="184,5,185,18" concept="10" />
-      <node id="5866387967695369413" at="188,91,189,16" concept="10" />
-      <node id="5866387967695372941" at="192,73,193,16" concept="10" />
-      <node id="5866387967695379366" at="196,71,197,16" concept="10" />
-      <node id="5866387967695386054" at="200,75,201,16" concept="10" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="205,0,206,0" concept="13" trace="ID$ll3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="206,0,207,0" concept="13" trace="ModuleName$iAUB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="207,0,208,0" concept="13" trace="ModuleName$Lfj0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="211,0,212,0" concept="13" trace="ID$llx0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="212,0,213,0" concept="13" trace="SetOfModuleNames$Bn0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="213,0,214,0" concept="13" trace="ListM$Vevw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="214,0,215,0" concept="13" trace="SetOfUnits$fqCa" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="215,0,216,0" concept="13" trace="IDList$Xpjd" />
+      <node id="3378885719450477672" at="54,42,55,55" concept="3" />
+      <node id="3378885719450504460" at="56,39,57,49" concept="3" />
+      <node id="3378885719450523374" at="58,38,59,47" concept="3" />
+      <node id="3378885719450552779" at="60,41,61,165" concept="3" />
+      <node id="3378885719450596885" at="61,165,62,44" concept="11" />
+      <node id="3378885719450969023" at="64,32,65,181" concept="3" />
+      <node id="3378885719450971381" at="65,181,66,127" concept="3" />
+      <node id="3378885719450638382" at="67,14,68,73" concept="3" />
+      <node id="3378885719451030891" at="71,32,72,181" concept="3" />
+      <node id="3378885719451030897" at="72,181,73,126" concept="3" />
+      <node id="3378885719451030919" at="74,14,75,73" concept="3" />
+      <node id="3378885719451076170" at="78,32,79,171" concept="3" />
+      <node id="3378885719451076176" at="79,171,80,110" concept="3" />
+      <node id="3378885719451076198" at="81,14,82,53" concept="3" />
+      <node id="3378885719451095094" at="85,32,86,179" concept="3" />
+      <node id="3378885719451095100" at="86,179,87,124" concept="3" />
+      <node id="3378885719451095122" at="88,14,89,69" concept="3" />
+      <node id="3378885719448205988" at="91,5,92,14" concept="10" />
+      <node id="3378885719451240872" at="95,77,96,174" concept="9" />
+      <node id="3378885719451222508" at="97,61,98,172" concept="9" />
+      <node id="3378885719451222514" at="98,172,99,52" concept="3" />
+      <node id="3378885719451222526" at="99,52,100,111" concept="3" />
+      <node id="5866387967695246901" at="101,5,102,18" concept="10" />
+      <node id="3378885719448641904" at="105,95,106,183" concept="9" />
+      <node id="3378885719449525193" at="106,183,107,69" concept="9" />
+      <node id="3378885719449551064" at="107,69,108,65" concept="3" />
+      <node id="5866387967695253188" at="108,65,109,18" concept="10" />
+      <node id="3378885719448573879" at="112,95,113,183" concept="9" />
+      <node id="3378885719451349780" at="113,183,114,61" concept="9" />
+      <node id="3378885719451373279" at="114,61,115,66" concept="3" />
+      <node id="5866387967695256658" at="115,66,116,18" concept="10" />
+      <node id="5866387967695257297" at="119,93,120,16" concept="10" />
+      <node id="5866387967695260761" at="123,95,124,16" concept="10" />
+      <node id="5866387967695267064" at="127,93,128,16" concept="10" />
+      <node id="5866387967695270542" at="131,89,132,16" concept="10" />
+      <node id="5866387967695274022" at="135,73,136,16" concept="10" />
+      <node id="5866387967695277504" at="139,89,140,16" concept="10" />
+      <node id="5866387967695281436" at="143,77,144,16" concept="10" />
+      <node id="5866387967695284922" at="147,71,148,16" concept="10" />
+      <node id="5866387967695288410" at="151,85,152,16" concept="10" />
+      <node id="3378885719451399024" at="155,69,156,170" concept="9" />
+      <node id="3378885719451634255" at="157,32,158,191" concept="3" />
+      <node id="3378885719451635686" at="158,191,159,163" concept="3" />
+      <node id="3378885719451661563" at="160,41,161,183" concept="3" />
+      <node id="3378885719451661980" at="161,183,162,171" concept="3" />
+      <node id="3378885719451678497" at="163,40,164,182" concept="3" />
+      <node id="3378885719451678934" at="164,182,165,112" concept="3" />
+      <node id="3378885719451727702" at="166,46,167,176" concept="3" />
+      <node id="3378885719451817326" at="167,176,168,102" concept="3" />
+      <node id="3378885719451901690" at="168,102,169,87" concept="3" />
+      <node id="3378885719451951729" at="170,80,171,90" concept="3" />
+      <node id="3378885719451836051" at="172,7,173,87" concept="3" />
+      <node id="3378885719451757817" at="174,74,175,174" concept="3" />
+      <node id="3378885719451758960" at="175,174,176,94" concept="3" />
+      <node id="5866387967695291900" at="177,5,178,18" concept="10" />
+      <node id="5866387967695292539" at="181,85,182,16" concept="10" />
+      <node id="5866387967695298878" at="185,75,186,16" concept="10" />
+      <node id="5866387967695302374" at="189,87,190,16" concept="10" />
+      <node id="5866387967695308735" at="193,81,194,16" concept="10" />
+      <node id="5866387967695315100" at="197,73,198,16" concept="10" />
+      <node id="5866387967695318602" at="201,85,202,16" concept="10" />
+      <node id="5866387967695322106" at="205,85,206,16" concept="10" />
+      <node id="5866387967695325612" at="209,91,210,16" concept="10" />
+      <node id="5866387967695329120" at="213,87,214,16" concept="10" />
+      <node id="5866387967695332630" at="217,85,218,16" concept="10" />
+      <node id="5866387967695339019" at="221,89,222,16" concept="10" />
+      <node id="5866387967695345404" at="225,71,226,16" concept="10" />
+      <node id="5866387967695348920" at="229,91,230,16" concept="10" />
+      <node id="5866387967695355321" at="233,91,234,16" concept="10" />
+      <node id="5866387967695358841" at="237,77,238,16" concept="10" />
+      <node id="5866387967695362363" at="241,77,242,16" concept="10" />
+      <node id="384861153814447436" at="245,85,246,178" concept="9" />
+      <node id="384861153814876207" at="247,61,248,180" concept="9" />
+      <node id="384861153814883355" at="248,180,249,85" concept="3" />
+      <node id="384861153814911336" at="249,85,250,99" concept="3" />
+      <node id="5866387967695365887" at="251,5,252,18" concept="10" />
+      <node id="5866387967695369413" at="255,91,256,16" concept="10" />
+      <node id="3378885719451964715" at="259,73,260,176" concept="9" />
+      <node id="3378885719452112712" at="262,10,263,5" concept="0" />
+      <node id="5866387967695372941" at="263,5,264,18" concept="10" />
+      <node id="3378885719452174320" at="267,71,268,175" concept="9" />
+      <node id="3378885719452283699" at="274,10,275,5" concept="0" />
+      <node id="5866387967695379366" at="275,5,276,18" concept="10" />
+      <node id="3378885719452576922" at="279,75,280,177" concept="9" />
+      <node id="5866387967695386054" at="280,177,281,18" concept="10" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="285,0,286,0" concept="13" trace="ID$ll3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="286,0,287,0" concept="13" trace="ModuleName$iAUB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="287,0,288,0" concept="13" trace="ModuleName$Lfj0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="288,0,289,0" concept="13" trace="InfixOp$eE2F" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="289,0,290,0" concept="13" trace="InfixOp$R0p0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="290,0,291,0" concept="13" trace="PostfixOp$eDmw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="291,0,292,0" concept="13" trace="PostfixOp$R0Q0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="292,0,293,0" concept="13" trace="OpId$vrV0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="296,0,297,0" concept="13" trace="ID$llx0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="297,0,298,0" concept="13" trace="SetOfModuleNames$Bn0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="298,0,299,0" concept="13" trace="ListM$Vevw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="299,0,300,0" concept="13" trace="SetOfUnits$fqCa" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="300,0,301,0" concept="13" trace="OpDef$GiEw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="301,0,302,0" concept="13" trace="FDef$Giaw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="302,0,303,0" concept="13" trace="Instance$iKCK" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="303,0,304,0" concept="13" trace="ModDef$8ulG" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="304,0,305,0" concept="13" trace="OpDeclarations$75Cw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="305,0,306,0" concept="13" trace="IDList$Xpjd" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="306,0,307,0" concept="13" trace="OpDeclL$PA7w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="307,0,308,0" concept="13" trace="PrefixOp$_Bcn" />
+      <node id="3378885719451004612" at="67,12,69,7" concept="0" />
+      <node id="3378885719451030917" at="74,12,76,7" concept="0" />
+      <node id="3378885719451076196" at="81,12,83,7" concept="0" />
+      <node id="3378885719451095120" at="88,12,90,7" concept="0" />
       <node id="3378885719448119799" at="41,5,44,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="57,0,61,0" concept="8" trace="visitOpDeclList#(Lparser/TLAPlusGrammarParser/OpDeclListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="73,0,77,0" concept="8" trace="visitOperatorDefinition#(Lparser/TLAPlusGrammarParser/OperatorDefinitionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="77,0,81,0" concept="8" trace="visitQuantifierBoundList#(Lparser/TLAPlusGrammarParser/QuantifierBoundListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="81,0,85,0" concept="8" trace="visitFunctionDefinition#(Lparser/TLAPlusGrammarParser/FunctionDefinitionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="85,0,89,0" concept="8" trace="visitSubstitutionList#(Lparser/TLAPlusGrammarParser/SubstitutionListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="89,0,93,0" concept="8" trace="visitInstance#(Lparser/TLAPlusGrammarParser/InstanceContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="93,0,97,0" concept="8" trace="visitModuleDefinition#(Lparser/TLAPlusGrammarParser/ModuleDefinitionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="97,0,101,0" concept="8" trace="visitAssumption#(Lparser/TLAPlusGrammarParser/AssumptionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="101,0,105,0" concept="8" trace="visitTheorem#(Lparser/TLAPlusGrammarParser/TheoremContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitUnderscoreList(parser.TLAPlusGrammarParser$UnderscoreListContext)" at="105,0,109,0" concept="8" trace="visitUnderscoreList#(Lparser/TLAPlusGrammarParser/UnderscoreListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="109,0,113,0" concept="8" trace="visitOpDecl#(Lparser/TLAPlusGrammarParser/OpDeclContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitIdOrOpDeclList(parser.TLAPlusGrammarParser$IdOrOpDeclListContext)" at="113,0,117,0" concept="8" trace="visitIdOrOpDeclList#(Lparser/TLAPlusGrammarParser/IdOrOpDeclListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="117,0,121,0" concept="8" trace="visitNonFixLHS#(Lparser/TLAPlusGrammarParser/NonFixLHSContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="121,0,125,0" concept="8" trace="visitQuantifierBound#(Lparser/TLAPlusGrammarParser/QuantifierBoundContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="125,0,129,0" concept="8" trace="visitSubstitution#(Lparser/TLAPlusGrammarParser/SubstitutionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="129,0,133,0" concept="8" trace="visitArgument#(Lparser/TLAPlusGrammarParser/ArgumentContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="133,0,137,0" concept="8" trace="visitExpressionList#(Lparser/TLAPlusGrammarParser/ExpressionListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="137,0,141,0" concept="8" trace="visitInstancePrefix#(Lparser/TLAPlusGrammarParser/InstancePrefixContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="141,0,145,0" concept="8" trace="visitGeneralIdentifier#(Lparser/TLAPlusGrammarParser/GeneralIdentifierContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="145,0,149,0" concept="8" trace="visitGeneralPrefixOp#(Lparser/TLAPlusGrammarParser/GeneralPrefixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="149,0,153,0" concept="8" trace="visitGeneralInfixOp#(Lparser/TLAPlusGrammarParser/GeneralInfixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="153,0,157,0" concept="8" trace="visitGeneralPostfixOp#(Lparser/TLAPlusGrammarParser/GeneralPostfixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="157,0,161,0" concept="8" trace="visitCaseArm#(Lparser/TLAPlusGrammarParser/CaseArmContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="161,0,165,0" concept="8" trace="visitNameArrowExprList#(Lparser/TLAPlusGrammarParser/NameArrowExprListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="165,0,169,0" concept="8" trace="visitNameColonExprList#(Lparser/TLAPlusGrammarParser/NameColonExprListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="169,0,173,0" concept="8" trace="visitExceptList#(Lparser/TLAPlusGrammarParser/ExceptListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="173,0,177,0" concept="8" trace="visitExpression#(Lparser/TLAPlusGrammarParser/ExpressionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="187,0,191,0" concept="8" trace="visitIdentifierOrTuple#(Lparser/TLAPlusGrammarParser/IdentifierOrTupleContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="191,0,195,0" concept="8" trace="visitPrefixOp#(Lparser/TLAPlusGrammarParser/PrefixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="195,0,199,0" concept="8" trace="visitInfixOp#(Lparser/TLAPlusGrammarParser/InfixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="199,0,203,0" concept="8" trace="visitPostfixOp#(Lparser/TLAPlusGrammarParser/PostfixOpContext;)Ljava/lang/Object;" />
+      <node id="3378885719451869395" at="169,87,172,7" concept="5" />
+      <node id="3378885719452072004" at="260,176,263,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="118,0,122,0" concept="8" trace="visitOperatorDefinition#(Lparser/TLAPlusGrammarParser/OperatorDefinitionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="122,0,126,0" concept="8" trace="visitQuantifierBoundList#(Lparser/TLAPlusGrammarParser/QuantifierBoundListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="126,0,130,0" concept="8" trace="visitFunctionDefinition#(Lparser/TLAPlusGrammarParser/FunctionDefinitionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="130,0,134,0" concept="8" trace="visitSubstitutionList#(Lparser/TLAPlusGrammarParser/SubstitutionListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="134,0,138,0" concept="8" trace="visitInstance#(Lparser/TLAPlusGrammarParser/InstanceContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="138,0,142,0" concept="8" trace="visitModuleDefinition#(Lparser/TLAPlusGrammarParser/ModuleDefinitionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="142,0,146,0" concept="8" trace="visitAssumption#(Lparser/TLAPlusGrammarParser/AssumptionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="146,0,150,0" concept="8" trace="visitTheorem#(Lparser/TLAPlusGrammarParser/TheoremContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitUnderscoreList(parser.TLAPlusGrammarParser$UnderscoreListContext)" at="150,0,154,0" concept="8" trace="visitUnderscoreList#(Lparser/TLAPlusGrammarParser/UnderscoreListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitIdOrOpDeclList(parser.TLAPlusGrammarParser$IdOrOpDeclListContext)" at="180,0,184,0" concept="8" trace="visitIdOrOpDeclList#(Lparser/TLAPlusGrammarParser/IdOrOpDeclListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="184,0,188,0" concept="8" trace="visitNonFixLHS#(Lparser/TLAPlusGrammarParser/NonFixLHSContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="188,0,192,0" concept="8" trace="visitQuantifierBound#(Lparser/TLAPlusGrammarParser/QuantifierBoundContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="192,0,196,0" concept="8" trace="visitSubstitution#(Lparser/TLAPlusGrammarParser/SubstitutionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="196,0,200,0" concept="8" trace="visitArgument#(Lparser/TLAPlusGrammarParser/ArgumentContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="200,0,204,0" concept="8" trace="visitExpressionList#(Lparser/TLAPlusGrammarParser/ExpressionListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="204,0,208,0" concept="8" trace="visitInstancePrefix#(Lparser/TLAPlusGrammarParser/InstancePrefixContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="208,0,212,0" concept="8" trace="visitGeneralIdentifier#(Lparser/TLAPlusGrammarParser/GeneralIdentifierContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="212,0,216,0" concept="8" trace="visitGeneralPrefixOp#(Lparser/TLAPlusGrammarParser/GeneralPrefixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="216,0,220,0" concept="8" trace="visitGeneralInfixOp#(Lparser/TLAPlusGrammarParser/GeneralInfixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="220,0,224,0" concept="8" trace="visitGeneralPostfixOp#(Lparser/TLAPlusGrammarParser/GeneralPostfixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="224,0,228,0" concept="8" trace="visitCaseArm#(Lparser/TLAPlusGrammarParser/CaseArmContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="228,0,232,0" concept="8" trace="visitNameArrowExprList#(Lparser/TLAPlusGrammarParser/NameArrowExprListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="232,0,236,0" concept="8" trace="visitNameColonExprList#(Lparser/TLAPlusGrammarParser/NameColonExprListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="236,0,240,0" concept="8" trace="visitExceptList#(Lparser/TLAPlusGrammarParser/ExceptListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="240,0,244,0" concept="8" trace="visitExpression#(Lparser/TLAPlusGrammarParser/ExpressionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="254,0,258,0" concept="8" trace="visitIdentifierOrTuple#(Lparser/TLAPlusGrammarParser/IdentifierOrTupleContext;)Ljava/lang/Object;" />
       <node id="384861153815326419" at="21,180,26,5" concept="5" />
       <node id="384861153816339245" at="35,232,40,7" concept="5" />
-      <node id="3378885719448479850" at="49,164,54,5" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="68,0,73,0" concept="8" trace="visitConstantDeclaration#(Lparser/TLAPlusGrammarParser/ConstantDeclarationContext;)Ljava/lang/Object;" />
-      <node id="384861153814862505" at="179,178,184,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="61,0,68,0" concept="8" trace="visitVariableDeclaration#(Lparser/TLAPlusGrammarParser/VariableDeclarationContext;)Ljava/lang/Object;" />
+      <node id="3378885719451222506" at="96,174,101,5" concept="5" />
+      <node id="384861153814862505" at="246,178,251,5" concept="5" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="278,0,283,0" concept="8" trace="visitPostfixOp#(Lparser/TLAPlusGrammarParser/PostfixOpContext;)Ljava/lang/Object;" />
+      <node id="3378885719450602313" at="63,50,69,7" concept="7" />
+      <node id="3378885719451030889" at="70,50,76,7" concept="7" />
+      <node id="3378885719451076168" at="77,40,83,7" concept="7" />
+      <node id="3378885719451095092" at="84,48,90,7" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="104,0,111,0" concept="8" trace="visitVariableDeclaration#(Lparser/TLAPlusGrammarParser/VariableDeclarationContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="111,0,118,0" concept="8" trace="visitConstantDeclaration#(Lparser/TLAPlusGrammarParser/ConstantDeclarationContext;)Ljava/lang/Object;" />
+      <node id="3378885719452157405" at="268,175,275,5" concept="7" />
       <node id="384861153812449146" at="33,94,41,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="258,0,266,0" concept="8" trace="visitPrefixOp#(Lparser/TLAPlusGrammarParser/PrefixOpContext;)Ljava/lang/Object;" />
       <node id="~TLAPlusGrammarBaseVisitor.visitNameList(parser.TLAPlusGrammarParser$NameListContext)" at="19,0,29,0" concept="8" trace="visitNameList#(Lparser/TLAPlusGrammarParser/NameListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="47,0,57,0" concept="8" trace="visitUnit#(Lparser/TLAPlusGrammarParser/UnitContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="177,0,187,0" concept="8" trace="visitIdentifierList#(Lparser/TLAPlusGrammarParser/IdentifierListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="94,0,104,0" concept="8" trace="visitOpDeclList#(Lparser/TLAPlusGrammarParser/OpDeclListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="244,0,254,0" concept="8" trace="visitIdentifierList#(Lparser/TLAPlusGrammarParser/IdentifierListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="266,0,278,0" concept="8" trace="visitInfixOp#(Lparser/TLAPlusGrammarParser/InfixOpContext;)Ljava/lang/Object;" />
       <node id="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" at="30,0,47,0" concept="8" trace="visitModule#(Lparser/TLAPlusGrammarParser/ModuleContext;)Ljava/lang/Object;" />
+      <node id="3378885719451469690" at="156,170,177,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="154,0,180,0" concept="8" trace="visitOpDecl#(Lparser/TLAPlusGrammarParser/OpDeclContext;)Ljava/lang/Object;" />
+      <node id="3378885719448479850" at="49,164,91,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="47,0,94,0" concept="8" trace="visitUnit#(Lparser/TLAPlusGrammarParser/UnitContext;)Ljava/lang/Object;" />
+      <scope id="3378885719452072006" at="261,31,261,31" />
+      <scope id="3378885719452112713" at="262,12,262,12" />
+      <scope id="3378885719452157406" at="269,45,269,45" />
+      <scope id="3378885719452272251" at="270,46,270,46" />
+      <scope id="3378885719452282734" at="271,37,271,37" />
+      <scope id="3378885719452282884" at="272,37,272,37" />
+      <scope id="3378885719452282994" at="273,46,273,46" />
+      <scope id="3378885719452283700" at="274,12,274,12" />
       <scope id="3378885719448119801" at="42,116,43,137" />
       <scope id="3378885719448479852" at="50,44,51,73" />
       <scope id="3378885719448602554" at="52,51,53,73" />
-      <scope id="5866387967695246455" at="58,77,59,16" />
-      <scope id="5866387967695256851" at="74,93,75,16" />
-      <scope id="5866387967695260315" at="78,95,79,16" />
-      <scope id="5866387967695263781" at="82,93,83,16" />
-      <scope id="5866387967695267257" at="86,89,87,16" />
-      <scope id="5866387967695270735" at="90,73,91,16" />
-      <scope id="5866387967695274215" at="94,89,95,16" />
-      <scope id="5866387967695278145" at="98,77,99,16" />
-      <scope id="5866387967695281629" at="102,71,103,16" />
-      <scope id="5866387967695285115" at="106,85,107,16" />
-      <scope id="5866387967695288603" at="110,69,111,16" />
-      <scope id="5866387967695292093" at="114,85,115,16" />
-      <scope id="5866387967695295577" at="118,75,119,16" />
-      <scope id="5866387967695299071" at="122,87,123,16" />
-      <scope id="5866387967695305430" at="126,81,127,16" />
-      <scope id="5866387967695311793" at="130,73,131,16" />
-      <scope id="5866387967695315293" at="134,85,135,16" />
-      <scope id="5866387967695318795" at="138,85,139,16" />
-      <scope id="5866387967695322299" at="142,91,143,16" />
-      <scope id="5866387967695325805" at="146,87,147,16" />
-      <scope id="5866387967695329313" at="150,85,151,16" />
-      <scope id="5866387967695335700" at="154,89,155,16" />
-      <scope id="5866387967695342083" at="158,71,159,16" />
-      <scope id="5866387967695345597" at="162,91,163,16" />
-      <scope id="5866387967695351996" at="166,91,167,16" />
-      <scope id="5866387967695355514" at="170,77,171,16" />
-      <scope id="5866387967695359034" at="174,77,175,16" />
-      <scope id="5866387967695366080" at="188,91,189,16" />
-      <scope id="5866387967695369606" at="192,73,193,16" />
-      <scope id="5866387967695376029" at="196,71,197,16" />
-      <scope id="5866387967695382715" at="200,75,201,16" />
-      <scope id="5866387967695253381" at="69,95,71,18">
-        <var name="cdNode" id="3378885719448573882" />
+      <scope id="3378885719450456290" at="54,42,55,55" />
+      <scope id="3378885719450488437" at="56,39,57,49" />
+      <scope id="3378885719450513059" at="58,38,59,47" />
+      <scope id="3378885719451004613" at="67,14,68,73" />
+      <scope id="3378885719451030918" at="74,14,75,73" />
+      <scope id="3378885719451076197" at="81,14,82,53" />
+      <scope id="3378885719451095121" at="88,14,89,69" />
+      <scope id="5866387967695256851" at="119,93,120,16" />
+      <scope id="5866387967695260315" at="123,95,124,16" />
+      <scope id="5866387967695263781" at="127,93,128,16" />
+      <scope id="5866387967695267257" at="131,89,132,16" />
+      <scope id="5866387967695270735" at="135,73,136,16" />
+      <scope id="5866387967695274215" at="139,89,140,16" />
+      <scope id="5866387967695278145" at="143,77,144,16" />
+      <scope id="5866387967695281629" at="147,71,148,16" />
+      <scope id="5866387967695285115" at="151,85,152,16" />
+      <scope id="3378885719451869397" at="170,80,171,90" />
+      <scope id="5866387967695292093" at="181,85,182,16" />
+      <scope id="5866387967695295577" at="185,75,186,16" />
+      <scope id="5866387967695299071" at="189,87,190,16" />
+      <scope id="5866387967695305430" at="193,81,194,16" />
+      <scope id="5866387967695311793" at="197,73,198,16" />
+      <scope id="5866387967695315293" at="201,85,202,16" />
+      <scope id="5866387967695318795" at="205,85,206,16" />
+      <scope id="5866387967695322299" at="209,91,210,16" />
+      <scope id="5866387967695325805" at="213,87,214,16" />
+      <scope id="5866387967695329313" at="217,85,218,16" />
+      <scope id="5866387967695335700" at="221,89,222,16" />
+      <scope id="5866387967695342083" at="225,71,226,16" />
+      <scope id="5866387967695345597" at="229,91,230,16" />
+      <scope id="5866387967695351996" at="233,91,234,16" />
+      <scope id="5866387967695355514" at="237,77,238,16" />
+      <scope id="5866387967695359034" at="241,77,242,16" />
+      <scope id="5866387967695366080" at="255,91,256,16" />
+      <scope id="3378885719450536819" at="60,41,62,44" />
+      <scope id="3378885719450602315" at="64,32,66,127" />
+      <scope id="3378885719451030890" at="71,32,73,126" />
+      <scope id="3378885719451076169" at="78,32,80,110" />
+      <scope id="3378885719451095093" at="85,32,87,124" />
+      <scope id="3378885719451469692" at="157,32,159,163" />
+      <scope id="3378885719451526920" at="160,41,162,171" />
+      <scope id="3378885719451544850" at="163,40,165,112" />
+      <scope id="3378885719451582504" at="174,74,176,94" />
+      <scope id="5866387967695382715" at="279,75,281,18">
+        <var name="poNode" id="3378885719452576925" />
       </scope>
       <scope id="384861153815326420" at="22,61,25,101">
         <var name="idNode" id="384861153815326422" />
@@ -491,105 +578,100 @@
       <scope id="3378885719448119799" at="41,5,44,5">
         <var name="i" id="3378885719448119802" />
       </scope>
-      <scope id="384861153814862507" at="180,61,183,99">
+      <scope id="3378885719451222507" at="97,61,100,111">
+        <var name="OpNode" id="3378885719451222509" />
+      </scope>
+      <scope id="3378885719451869395" at="169,87,172,7">
+        <var name="i" id="3378885719451869398" />
+      </scope>
+      <scope id="384861153814862507" at="247,61,250,99">
         <var name="idNode" id="384861153814876210" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="57,0,61,0">
-        <var name="ctx" id="5866387967694186658" />
-      </scope>
-      <scope id="5866387967695249913" at="62,95,66,18">
+      <scope id="5866387967695249913" at="105,95,109,18">
         <var name="idList" id="3378885719449525196" />
         <var name="vdNode" id="3378885719448641907" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="73,0,77,0">
+      <scope id="5866387967695253381" at="112,95,116,18">
+        <var name="cdNode" id="3378885719448573882" />
+        <var name="opList" id="3378885719451349781" />
+      </scope>
+      <scope id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="118,0,122,0">
         <var name="ctx" id="5866387967694186676" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="77,0,81,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="122,0,126,0">
         <var name="ctx" id="5866387967694186682" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="81,0,85,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="126,0,130,0">
         <var name="ctx" id="5866387967694186688" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="85,0,89,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="130,0,134,0">
         <var name="ctx" id="5866387967694186694" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="89,0,93,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="134,0,138,0">
         <var name="ctx" id="5866387967694186700" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="93,0,97,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="138,0,142,0">
         <var name="ctx" id="5866387967694186706" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="97,0,101,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="142,0,146,0">
         <var name="ctx" id="5866387967694186712" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="101,0,105,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="146,0,150,0">
         <var name="ctx" id="5866387967694186718" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitUnderscoreList(parser.TLAPlusGrammarParser$UnderscoreListContext)" at="105,0,109,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitUnderscoreList(parser.TLAPlusGrammarParser$UnderscoreListContext)" at="150,0,154,0">
         <var name="ctx" id="5866387967694186724" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="109,0,113,0">
-        <var name="ctx" id="5866387967694186730" />
-      </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitIdOrOpDeclList(parser.TLAPlusGrammarParser$IdOrOpDeclListContext)" at="113,0,117,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitIdOrOpDeclList(parser.TLAPlusGrammarParser$IdOrOpDeclListContext)" at="180,0,184,0">
         <var name="ctx" id="5866387967694186736" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="117,0,121,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="184,0,188,0">
         <var name="ctx" id="5866387967694186742" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="121,0,125,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="188,0,192,0">
         <var name="ctx" id="5866387967694186748" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="125,0,129,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="192,0,196,0">
         <var name="ctx" id="5866387967694186754" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="129,0,133,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="196,0,200,0">
         <var name="ctx" id="5866387967694186760" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="133,0,137,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="200,0,204,0">
         <var name="ctx" id="5866387967694186766" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="137,0,141,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="204,0,208,0">
         <var name="ctx" id="5866387967694186772" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="141,0,145,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="208,0,212,0">
         <var name="ctx" id="5866387967694186778" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="145,0,149,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="212,0,216,0">
         <var name="ctx" id="5866387967694186784" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="149,0,153,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="216,0,220,0">
         <var name="ctx" id="5866387967694186790" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="153,0,157,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="220,0,224,0">
         <var name="ctx" id="5866387967694186796" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="157,0,161,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="224,0,228,0">
         <var name="ctx" id="5866387967694186802" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="161,0,165,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="228,0,232,0">
         <var name="ctx" id="5866387967694186808" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="165,0,169,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="232,0,236,0">
         <var name="ctx" id="5866387967694186814" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="169,0,173,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="236,0,240,0">
         <var name="ctx" id="5866387967694186820" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="173,0,177,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="240,0,244,0">
         <var name="ctx" id="5866387967694186826" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="187,0,191,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="254,0,258,0">
         <var name="ctx" id="5866387967694186838" />
-      </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="191,0,195,0">
-        <var name="ctx" id="5866387967694186844" />
-      </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="195,0,199,0">
-        <var name="ctx" id="5866387967694186850" />
-      </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="199,0,203,0">
-        <var name="ctx" id="5866387967694186856" />
       </scope>
       <scope id="384861153815326419" at="21,180,26,5">
         <var name="i" id="384861153815326446" />
@@ -597,33 +679,56 @@
       <scope id="384861153816339245" at="35,232,40,7">
         <var name="i" id="384861153816339248" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="68,0,73,0">
-        <var name="ctx" id="5866387967694186670" />
+      <scope id="3378885719451222506" at="96,174,101,5">
+        <var name="i" id="3378885719451222533" />
       </scope>
-      <scope id="384861153814862505" at="179,178,184,5">
+      <scope id="384861153814862505" at="246,178,251,5">
         <var name="i" id="384861153814862508" />
       </scope>
+      <scope id="5866387967695369606" at="259,73,264,18">
+        <var name="poNode" id="3378885719451964716" />
+      </scope>
+      <scope id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="278,0,283,0">
+        <var name="ctx" id="5866387967694186856" />
+      </scope>
       <scope id="384861153812449148" at="34,32,40,7" />
+      <scope id="3378885719450580855" at="63,50,69,7" />
+      <scope id="3378885719451014003" at="70,50,76,7" />
+      <scope id="3378885719451048987" at="77,40,83,7" />
+      <scope id="3378885719451062573" at="84,48,90,7" />
       <scope id="5866387967695230411" at="20,73,27,20">
         <var name="namelist" id="384861153815336208" />
       </scope>
-      <scope id="5866387967695237333" at="48,65,55,14">
-        <var name="un" id="3378885719448191702" />
+      <scope id="5866387967695246455" at="95,77,102,18">
+        <var name="OpList" id="3378885719451240875" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="61,0,68,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="104,0,111,0">
         <var name="ctx" id="5866387967694186664" />
       </scope>
-      <scope id="5866387967695362556" at="178,85,185,18">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="111,0,118,0">
+        <var name="ctx" id="5866387967694186670" />
+      </scope>
+      <scope id="3378885719451565318" at="166,46,173,87" />
+      <scope id="5866387967695362556" at="245,85,252,18">
         <var name="idList" id="384861153814447439" />
+      </scope>
+      <scope id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="258,0,266,0">
+        <var name="ctx" id="5866387967694186844" />
+      </scope>
+      <scope id="5866387967695376029" at="267,71,276,18">
+        <var name="ioNode" id="3378885719452174321" />
       </scope>
       <scope id="~TLAPlusGrammarBaseVisitor.visitNameList(parser.TLAPlusGrammarParser$NameListContext)" at="19,0,29,0">
         <var name="ctx" id="5866387967694186640" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="47,0,57,0">
-        <var name="ctx" id="5866387967694186652" />
+      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="94,0,104,0">
+        <var name="ctx" id="5866387967694186658" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="177,0,187,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="244,0,254,0">
         <var name="ctx" id="5866387967694186832" />
+      </scope>
+      <scope id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="266,0,278,0">
+        <var name="ctx" id="5866387967694186850" />
       </scope>
       <scope id="5866387967695233871" at="31,69,45,22">
         <var name="moduleNode" id="384861153811544776" />
@@ -631,9 +736,21 @@
       <scope id="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" at="30,0,47,0">
         <var name="ctx" id="5866387967694186646" />
       </scope>
-      <unit id="~TLAPlusGrammarBaseVisitor" at="204,0,209,0" name="Paster.plugin.AntlrUnitVisitor$PROPS" />
-      <unit id="~TLAPlusGrammarBaseVisitor" at="210,0,217,0" name="Paster.plugin.AntlrUnitVisitor$LINKS" />
-      <unit id="~TLAPlusGrammarBaseVisitor" at="17,0,218,0" name="Paster.plugin.AntlrUnitVisitor" />
+      <scope id="5866387967695288603" at="155,69,178,18">
+        <var name="opNode" id="3378885719451399027" />
+      </scope>
+      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="154,0,180,0">
+        <var name="ctx" id="5866387967694186730" />
+      </scope>
+      <scope id="5866387967695237333" at="48,65,92,14">
+        <var name="un" id="3378885719448191702" />
+      </scope>
+      <scope id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="47,0,94,0">
+        <var name="ctx" id="5866387967694186652" />
+      </scope>
+      <unit id="~TLAPlusGrammarBaseVisitor" at="284,0,294,0" name="Paster.plugin.AntlrUnitVisitor$PROPS" />
+      <unit id="~TLAPlusGrammarBaseVisitor" at="295,0,309,0" name="Paster.plugin.AntlrUnitVisitor$LINKS" />
+      <unit id="~TLAPlusGrammarBaseVisitor" at="17,0,310,0" name="Paster.plugin.AntlrUnitVisitor" />
     </file>
   </root>
 </debug-info>

@@ -788,8 +788,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("TLA.structure.Unit", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d06daL);
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538759564569");
     b.version(2);
-    b.property("Name", 0x6b3146ab9a528d1aL).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1936c9L)).origin("7724032538759564570").done();
-    b.aggregate("Substitution", 0x6b3146ab9a528d1bL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d87aL).optional(true).ordered(true).multiple(true).origin("7724032538759564571").done();
+    b.aggregate("Instance", 0x2ee436a8e47f2abcL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d38bL).optional(false).ordered(true).multiple(false).origin("3378885719450659516").done();
     b.alias("LOCAL INSTANCE");
     return b.create();
   }
@@ -799,9 +798,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("TLA.structure.Unit", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d06daL);
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538759447682");
     b.version(2);
-    b.property("isLocal", 0x6b3146ab9a50c483L).type(PrimitiveTypeId.BOOLEAN).origin("7724032538759447683").done();
-    b.aggregate("Instance", 0x6b3146ab9a50d82aL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d38bL).optional(false).ordered(true).multiple(false).origin("7724032538759452714").done();
-    b.aggregate("NonFixLHS", 0x6b3146ab9a50d374L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a4f8b04L).optional(false).ordered(true).multiple(false).origin("7724032538759451508").done();
+    b.aggregate("ModDef", 0x2ee436a8e483bc7cL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb568a0L).optional(false).ordered(true).multiple(false).origin("3378885719450958972").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForLocalOperatorDefinition() {
