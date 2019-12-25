@@ -306,11 +306,17 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
+      <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
+        <child id="1138662048170" name="value" index="tz02z" />
       </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
@@ -3423,6 +3429,10 @@
           </node>
         </node>
         <node concept="3clFbJ" id="2V$dEz$yStU" role="3cqZAp">
+          <node concept="15s5l7" id="2V$dEz$JF5i" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: ?no classifier? is not a subtype of String&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5875805516898273487,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4660288602099522921]&quot;;" />
+            <property role="huDt6" value="Error: ?no classifier? is not a subtype of String" />
+          </node>
           <node concept="3clFbS" id="2V$dEz$yStW" role="3clFbx">
             <node concept="3clFbF" id="2V$dEz$zwDf" role="3cqZAp">
               <node concept="37vLTI" id="2V$dEz$zwP5" role="3clFbG">
@@ -3837,52 +3847,571 @@
               </node>
             </node>
             <node concept="3clFbS" id="2V$dEz$zk0C" role="3eOfB_">
-              <node concept="3clFbF" id="2V$dEz$zYNT" role="3cqZAp">
-                <node concept="37vLTI" id="2V$dEz$zYNU" role="3clFbG">
-                  <node concept="2ShNRf" id="2V$dEz$zYNV" role="37vLTx">
-                    <node concept="3zrR0B" id="2V$dEz$zYNW" role="2ShVmc">
-                      <node concept="3Tqbb2" id="2V$dEz$zYNX" role="3zrR0E">
-                        <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="2V$dEz$zYNY" role="37vLTJ">
-                    <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="2V$dEz$zZ5K" role="3cqZAp">
-                <node concept="15s5l7" id="2V$dEz$$cLE" role="lGtFl">
-                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
-                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
-                </node>
-                <node concept="37vLTI" id="2V$dEz$$7PM" role="3clFbG">
-                  <node concept="2OqwBi" id="2V$dEz$$aZ8" role="37vLTx">
-                    <node concept="2OqwBi" id="2V$dEz$$9t4" role="2Oq$k0">
-                      <node concept="37vLTw" id="2V$dEz$$82_" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
-                      </node>
-                      <node concept="liA8E" id="2V$dEz$$aJD" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2V$dEz$$cvh" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="2V$dEz$zZ5M" role="37vLTJ">
-                    <node concept="1eOMI4" id="2V$dEz$zZ5N" role="2Oq$k0">
-                      <node concept="10QFUN" id="2V$dEz$zZ5O" role="1eOMHV">
-                        <node concept="3Tqbb2" id="2V$dEz$zZ5P" role="10QFUM">
-                          <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+              <node concept="3clFbJ" id="2V$dEz$KhbM" role="3cqZAp">
+                <node concept="3clFbS" id="2V$dEz$KhbO" role="3clFbx">
+                  <node concept="3clFbF" id="2V$dEz$JDFB" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$JDFC" role="3clFbG">
+                      <node concept="2ShNRf" id="2V$dEz$JDFD" role="37vLTx">
+                        <node concept="3zrR0B" id="2V$dEz$JDFE" role="2ShVmc">
+                          <node concept="3Tqbb2" id="2V$dEz$JDFF" role="3zrR0E">
+                            <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                          </node>
                         </node>
-                        <node concept="37vLTw" id="2V$dEz$zZ5Q" role="10QFUP">
+                      </node>
+                      <node concept="37vLTw" id="2V$dEz$JDFG" role="37vLTJ">
+                        <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2V$dEz$MqF_" role="3cqZAp">
+                    <node concept="37vLTI" id="2V$dEz$MqFA" role="3clFbG">
+                      <node concept="2ShNRf" id="2V$dEz$MqFB" role="37vLTx">
+                        <node concept="3zrR0B" id="2V$dEz$MqFC" role="2ShVmc">
+                          <node concept="3Tqbb2" id="2V$dEz$MqFD" role="3zrR0E">
+                            <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="2V$dEz$MqFE" role="37vLTJ">
+                        <node concept="1eOMI4" id="2V$dEz$MqFF" role="2Oq$k0">
+                          <node concept="10QFUN" id="2V$dEz$MqFG" role="1eOMHV">
+                            <node concept="3Tqbb2" id="2V$dEz$MqFH" role="10QFUM">
+                              <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                            </node>
+                            <node concept="37vLTw" id="2V$dEz$MqFI" role="10QFUP">
+                              <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrEf2" id="2V$dEz$MqFJ" role="2OqNvi">
+                          <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2V$dEz$IGSh" role="3cqZAp">
+                    <node concept="15s5l7" id="2V$dEz$IGSi" role="lGtFl">
+                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                      <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$JEEv" role="3clFbG">
+                      <node concept="2OqwBi" id="2V$dEz$IGSj" role="2Oq$k0">
+                        <node concept="2OqwBi" id="2V$dEz$IGSk" role="2Oq$k0">
+                          <node concept="1eOMI4" id="2V$dEz$IGSl" role="2Oq$k0">
+                            <node concept="10QFUN" id="2V$dEz$IGSm" role="1eOMHV">
+                              <node concept="3Tqbb2" id="2V$dEz$IGSn" role="10QFUM">
+                                <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                              </node>
+                              <node concept="37vLTw" id="2V$dEz$JDMw" role="10QFUP">
+                                <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="2V$dEz$JEfJ" role="2OqNvi">
+                            <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="2V$dEz$JEjp" role="2OqNvi">
+                          <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                        </node>
+                      </node>
+                      <node concept="tyxLq" id="2V$dEz$JEU8" role="2OqNvi">
+                        <node concept="21nZrQ" id="2V$dEz$JEYx" role="tz02z">
+                          <ref role="21nZrZ" to="548q:4uZratGIeHi" resolve="DOMAIN" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbC" id="2V$dEz$KxmV" role="3clFbw">
+                  <node concept="3cmrfG" id="2V$dEz$Kydl" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="2V$dEz$Kn1I" role="3uHU7B">
+                    <node concept="Xl_RD" id="2V$dEz$KmCt" role="2Oq$k0">
+                      <property role="Xl_RC" value="DOMAIN_" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$KnwQ" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                      <node concept="2OqwBi" id="2V$dEz$Krtk" role="37wK5m">
+                        <node concept="2OqwBi" id="2V$dEz$Kpr6" role="2Oq$k0">
+                          <node concept="37vLTw" id="2V$dEz$KnJy" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$Kr5o" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$KsVo" role="2OqNvi">
+                          <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eNFk2" id="2V$dEz$KHJQ" role="3eNLev">
+                  <node concept="3clFbC" id="2V$dEz$KPnE" role="3eO9$A">
+                    <node concept="3cmrfG" id="2V$dEz$KReT" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$KIHm" role="3uHU7B">
+                      <node concept="Xl_RD" id="2V$dEz$KIjX" role="2Oq$k0">
+                        <property role="Xl_RC" value="ENABLED_" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$KJdl" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                        <node concept="2OqwBi" id="2V$dEz$KN8j" role="37wK5m">
+                          <node concept="2OqwBi" id="2V$dEz$KL7_" role="2Oq$k0">
+                            <node concept="37vLTw" id="2V$dEz$KJs1" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz$KMVD" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$KOAn" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="2V$dEz$KHJS" role="3eOfB_">
+                    <node concept="3clFbF" id="2V$dEz$KRi0" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$KRi1" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$KRi2" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$KRi3" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$KRi4" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$KRi5" role="37vLTJ">
                           <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
                         </node>
                       </node>
                     </node>
-                    <node concept="3TrcHB" id="2V$dEz$$13K" role="2OqNvi">
-                      <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                    <node concept="3clFbF" id="2V$dEz$Mqxr" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$Mqxs" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$Mqxt" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$Mqxu" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$Mqxv" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="2V$dEz$Mqxw" role="37vLTJ">
+                          <node concept="1eOMI4" id="2V$dEz$Mqxx" role="2Oq$k0">
+                            <node concept="10QFUN" id="2V$dEz$Mqxy" role="1eOMHV">
+                              <node concept="3Tqbb2" id="2V$dEz$Mqxz" role="10QFUM">
+                                <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                              </node>
+                              <node concept="37vLTw" id="2V$dEz$Mqx$" role="10QFUP">
+                                <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="2V$dEz$Mqx_" role="2OqNvi">
+                            <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$KRoI" role="3cqZAp">
+                      <node concept="15s5l7" id="2V$dEz$KRoJ" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                        <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                      </node>
+                      <node concept="2OqwBi" id="2V$dEz$KRoK" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz$KRoL" role="2Oq$k0">
+                          <node concept="2OqwBi" id="2V$dEz$KRoM" role="2Oq$k0">
+                            <node concept="1eOMI4" id="2V$dEz$KRoN" role="2Oq$k0">
+                              <node concept="10QFUN" id="2V$dEz$KRoO" role="1eOMHV">
+                                <node concept="3Tqbb2" id="2V$dEz$KRoP" role="10QFUM">
+                                  <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                                </node>
+                                <node concept="37vLTw" id="2V$dEz$KRoQ" role="10QFUP">
+                                  <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="2V$dEz$KRoR" role="2OqNvi">
+                              <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="2V$dEz$KRoS" role="2OqNvi">
+                            <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                        <node concept="tyxLq" id="2V$dEz$KRoT" role="2OqNvi">
+                          <node concept="21nZrQ" id="2V$dEz$KREW" role="tz02z">
+                            <ref role="21nZrZ" to="548q:4uZratGIeHq" resolve="ENABLED" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eNFk2" id="2V$dEz$KRGN" role="3eNLev">
+                  <node concept="3clFbC" id="2V$dEz$KZKU" role="3eO9$A">
+                    <node concept="3cmrfG" id="2V$dEz$L1Bf" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$KSLX" role="3uHU7B">
+                      <node concept="Xl_RD" id="2V$dEz$KShE" role="2Oq$k0">
+                        <property role="Xl_RC" value="SUBSET_" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$KTg5" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                        <node concept="2OqwBi" id="2V$dEz$KXlz" role="37wK5m">
+                          <node concept="2OqwBi" id="2V$dEz$KVav" role="2Oq$k0">
+                            <node concept="37vLTw" id="2V$dEz$KTuT" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz$KWXy" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$KYOb" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="2V$dEz$KRGP" role="3eOfB_">
+                    <node concept="3clFbF" id="2V$dEz$L2ae" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$L2af" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$L2ag" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$L2ah" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$L2ai" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$L2aj" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$Mqqy" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$Mqqz" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$Mqq$" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$Mqq_" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$MqqA" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="2V$dEz$MqqB" role="37vLTJ">
+                          <node concept="1eOMI4" id="2V$dEz$MqqC" role="2Oq$k0">
+                            <node concept="10QFUN" id="2V$dEz$MqqD" role="1eOMHV">
+                              <node concept="3Tqbb2" id="2V$dEz$MqqE" role="10QFUM">
+                                <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                              </node>
+                              <node concept="37vLTw" id="2V$dEz$MqqF" role="10QFUP">
+                                <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="2V$dEz$MqqG" role="2OqNvi">
+                            <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$L2eg" role="3cqZAp">
+                      <node concept="15s5l7" id="2V$dEz$L2eh" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                        <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                      </node>
+                      <node concept="2OqwBi" id="2V$dEz$L2ei" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz$L2ej" role="2Oq$k0">
+                          <node concept="2OqwBi" id="2V$dEz$L2ek" role="2Oq$k0">
+                            <node concept="1eOMI4" id="2V$dEz$L2el" role="2Oq$k0">
+                              <node concept="10QFUN" id="2V$dEz$L2em" role="1eOMHV">
+                                <node concept="3Tqbb2" id="2V$dEz$L2en" role="10QFUM">
+                                  <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                                </node>
+                                <node concept="37vLTw" id="2V$dEz$L2eo" role="10QFUP">
+                                  <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="2V$dEz$L2ep" role="2OqNvi">
+                              <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="2V$dEz$L2eq" role="2OqNvi">
+                            <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                        <node concept="tyxLq" id="2V$dEz$L2er" role="2OqNvi">
+                          <node concept="21nZrQ" id="2V$dEz$L2vU" role="tz02z">
+                            <ref role="21nZrZ" to="548q:4uZratGIeHz" resolve="SUBSET" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eNFk2" id="2V$dEz$L2wk" role="3eNLev">
+                  <node concept="3clFbC" id="2V$dEz$L9wi" role="3eO9$A">
+                    <node concept="3cmrfG" id="2V$dEz$Lbo5" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$L3AT" role="3uHU7B">
+                      <node concept="Xl_RD" id="2V$dEz$L37Y" role="2Oq$k0">
+                        <property role="Xl_RC" value="UNCHANGED_" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$L4uI" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                        <node concept="2OqwBi" id="2V$dEz$L74m" role="37wK5m">
+                          <node concept="2OqwBi" id="2V$dEz$L5eL" role="2Oq$k0">
+                            <node concept="37vLTw" id="2V$dEz$L4IE" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz$L6Rx" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$L8IF" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="2V$dEz$L2wm" role="3eOfB_">
+                    <node concept="3clFbF" id="2V$dEz$LbC0" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$LbC1" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$LbC2" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$LbC3" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$LbC4" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$LbC5" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$Mqfr" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$Mqfs" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$Mqft" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$Mqfu" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$Mqfv" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="2V$dEz$Mqfw" role="37vLTJ">
+                          <node concept="1eOMI4" id="2V$dEz$Mqfx" role="2Oq$k0">
+                            <node concept="10QFUN" id="2V$dEz$Mqfy" role="1eOMHV">
+                              <node concept="3Tqbb2" id="2V$dEz$Mqfz" role="10QFUM">
+                                <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                              </node>
+                              <node concept="37vLTw" id="2V$dEz$Mqf$" role="10QFUP">
+                                <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="2V$dEz$Mqf_" role="2OqNvi">
+                            <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$Lbpw" role="3cqZAp">
+                      <node concept="15s5l7" id="2V$dEz$Lbpx" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                        <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                      </node>
+                      <node concept="2OqwBi" id="2V$dEz$Lbpy" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz$Lbpz" role="2Oq$k0">
+                          <node concept="2OqwBi" id="2V$dEz$Lbp$" role="2Oq$k0">
+                            <node concept="1eOMI4" id="2V$dEz$Lbp_" role="2Oq$k0">
+                              <node concept="10QFUN" id="2V$dEz$LbpA" role="1eOMHV">
+                                <node concept="3Tqbb2" id="2V$dEz$LbpB" role="10QFUM">
+                                  <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                                </node>
+                                <node concept="37vLTw" id="2V$dEz$LbpC" role="10QFUP">
+                                  <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="2V$dEz$LbpD" role="2OqNvi">
+                              <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="2V$dEz$LbpE" role="2OqNvi">
+                            <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                        <node concept="tyxLq" id="2V$dEz$LbpF" role="2OqNvi">
+                          <node concept="21nZrQ" id="2V$dEz$LbVb" role="tz02z">
+                            <ref role="21nZrZ" to="548q:4uZratGIeHH" resolve="UNCHANGED" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eNFk2" id="2V$dEz$LbW_" role="3eNLev">
+                  <node concept="3clFbC" id="2V$dEz$LjLO" role="3eO9$A">
+                    <node concept="3cmrfG" id="2V$dEz$LlDT" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="2OqwBi" id="2V$dEz$Ld2J" role="3uHU7B">
+                      <node concept="Xl_RD" id="2V$dEz$Lc$W" role="2Oq$k0">
+                        <property role="Xl_RC" value="UNION_" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$LdxR" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                        <node concept="2OqwBi" id="2V$dEz$Lhw8" role="37wK5m">
+                          <node concept="2OqwBi" id="2V$dEz$Lfva" role="2Oq$k0">
+                            <node concept="37vLTw" id="2V$dEz$LdNy" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz$Lh7V" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$Lj03" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="2V$dEz$LbWB" role="3eOfB_">
+                    <node concept="3clFbF" id="2V$dEz$LlFk" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$LlFl" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$LlFm" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$LlFn" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$LlFo" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$LlFp" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$LVxa" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$LWfK" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$LWoB" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$LWk2" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$LWk3" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="2V$dEz$LVxe" role="37vLTJ">
+                          <node concept="1eOMI4" id="2V$dEz$LVxf" role="2Oq$k0">
+                            <node concept="10QFUN" id="2V$dEz$LVxg" role="1eOMHV">
+                              <node concept="3Tqbb2" id="2V$dEz$LVxh" role="10QFUM">
+                                <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                              </node>
+                              <node concept="37vLTw" id="2V$dEz$LVxi" role="10QFUP">
+                                <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrEf2" id="2V$dEz$LW6_" role="2OqNvi">
+                            <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$LlL2" role="3cqZAp">
+                      <node concept="15s5l7" id="2V$dEz$LlL3" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                        <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                      </node>
+                      <node concept="2OqwBi" id="2V$dEz$LlL4" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz$LlL5" role="2Oq$k0">
+                          <node concept="2OqwBi" id="2V$dEz$LlL6" role="2Oq$k0">
+                            <node concept="1eOMI4" id="2V$dEz$LlL7" role="2Oq$k0">
+                              <node concept="10QFUN" id="2V$dEz$LlL8" role="1eOMHV">
+                                <node concept="3Tqbb2" id="2V$dEz$LlL9" role="10QFUM">
+                                  <ref role="ehGHo" to="548q:6GLhEIqgQ8j" resolve="PrefixOpUnderscoreNode" />
+                                </node>
+                                <node concept="37vLTw" id="2V$dEz$LlLa" role="10QFUP">
+                                  <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="2V$dEz$LlLb" role="2OqNvi">
+                              <ref role="3Tt5mk" to="548q:49n75jDHcQn" resolve="PrefixOp" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="2V$dEz$LlLc" role="2OqNvi">
+                            <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                          </node>
+                        </node>
+                        <node concept="tyxLq" id="2V$dEz$LlLd" role="2OqNvi">
+                          <node concept="21nZrQ" id="2V$dEz$Lm2f" role="tz02z">
+                            <ref role="21nZrZ" to="548q:4uZratGIeHS" resolve="UNION" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="9aQIb" id="2V$dEz$Lm5t" role="9aQIa">
+                  <node concept="3clFbS" id="2V$dEz$Lm5u" role="9aQI4">
+                    <node concept="3clFbF" id="2V$dEz$zYNT" role="3cqZAp">
+                      <node concept="37vLTI" id="2V$dEz$zYNU" role="3clFbG">
+                        <node concept="2ShNRf" id="2V$dEz$zYNV" role="37vLTx">
+                          <node concept="3zrR0B" id="2V$dEz$zYNW" role="2ShVmc">
+                            <node concept="3Tqbb2" id="2V$dEz$zYNX" role="3zrR0E">
+                              <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$zYNY" role="37vLTJ">
+                          <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2V$dEz$zZ5K" role="3cqZAp">
+                      <node concept="15s5l7" id="2V$dEz$$cLE" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                        <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                      </node>
+                      <node concept="37vLTI" id="2V$dEz$$7PM" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz$$aZ8" role="37vLTx">
+                          <node concept="2OqwBi" id="2V$dEz$$9t4" role="2Oq$k0">
+                            <node concept="37vLTw" id="2V$dEz$$82_" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzE" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz$$aJD" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OpDeclContext.Identifier()" resolve="Identifier" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2V$dEz$$cvh" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="2V$dEz$zZ5M" role="37vLTJ">
+                          <node concept="1eOMI4" id="2V$dEz$zZ5N" role="2Oq$k0">
+                            <node concept="10QFUN" id="2V$dEz$zZ5O" role="1eOMHV">
+                              <node concept="3Tqbb2" id="2V$dEz$zZ5P" role="10QFUM">
+                                <ref role="ehGHo" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
+                              </node>
+                              <node concept="37vLTw" id="2V$dEz$zZ5Q" role="10QFUP">
+                                <ref role="3cqZAo" node="2V$dEz$yBdN" resolve="opNode" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="2V$dEz$$13K" role="2OqNvi">
+                            <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -4429,43 +4958,35 @@
           </node>
         </node>
         <node concept="3clFbJ" id="2V$dEz$_bx4" role="3cqZAp">
+          <node concept="15s5l7" id="2V$dEz$Hfuf" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: ?no classifier? is not a subtype of String&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5875805516898273487,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4660288602099522921]&quot;;" />
+            <property role="huDt6" value="Error: ?no classifier? is not a subtype of String" />
+          </node>
           <node concept="3clFbS" id="2V$dEz$_bx6" role="3clFbx">
-            <node concept="1X3_iC" id="2V$dEz$Cmgj" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="2V$dEz$_i6L" role="8Wnug">
-                <node concept="15s5l7" id="2V$dEz$_lhg" role="lGtFl">
-                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
-                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
-                </node>
-                <node concept="37vLTI" id="2V$dEz$_i6M" role="3clFbG">
-                  <node concept="2OqwBi" id="2V$dEz$_i6N" role="37vLTJ">
-                    <node concept="1eOMI4" id="2V$dEz$_i6O" role="2Oq$k0">
-                      <node concept="10QFUN" id="2V$dEz$_i6P" role="1eOMHV">
-                        <node concept="3Tqbb2" id="2V$dEz$_i6Q" role="10QFUM">
-                          <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
-                        </node>
-                        <node concept="37vLTw" id="2V$dEz$_i6R" role="10QFUP">
-                          <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
-                        </node>
+            <node concept="3clFbF" id="2V$dEz$_i6L" role="3cqZAp">
+              <node concept="15s5l7" id="2V$dEz$_lhg" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$FCxf" role="3clFbG">
+                <node concept="2OqwBi" id="2V$dEz$_i6N" role="2Oq$k0">
+                  <node concept="1eOMI4" id="2V$dEz$_i6O" role="2Oq$k0">
+                    <node concept="10QFUN" id="2V$dEz$_i6P" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$_i6Q" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
                       </node>
-                    </node>
-                    <node concept="3TrcHB" id="2V$dEz$_i6S" role="2OqNvi">
-                      <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                      <node concept="37vLTw" id="2V$dEz$_i6R" role="10QFUP">
+                        <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
+                      </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="2V$dEz$_j_Z" role="37vLTx">
-                    <node concept="2OqwBi" id="2V$dEz$_i6T" role="2Oq$k0">
-                      <node concept="37vLTw" id="2V$dEz$_i6U" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
-                      </node>
-                      <node concept="liA8E" id="2V$dEz$_jna" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$PrefixOpContext.SQUARE()" resolve="SQUARE" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2V$dEz$_l2P" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
-                    </node>
+                  <node concept="3TrcHB" id="2V$dEz$_i6S" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                  </node>
+                </node>
+                <node concept="tyxLq" id="2V$dEz$FCJY" role="2OqNvi">
+                  <node concept="21nZrQ" id="2V$dEz$FCTS" role="tz02z">
+                    <ref role="21nZrZ" to="548q:4uZratGIeH5" resolve="Square" />
                   </node>
                 </node>
               </node>
@@ -4482,44 +5003,215 @@
               </node>
             </node>
           </node>
-          <node concept="9aQIb" id="2V$dEz$_lt8" role="9aQIa">
-            <node concept="3clFbS" id="2V$dEz$_lt9" role="9aQI4">
-              <node concept="1X3_iC" id="2V$dEz$CnzX" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="2V$dEz$$X7E" role="8Wnug">
-                  <node concept="15s5l7" id="2V$dEz$_tHN" role="lGtFl">
-                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
-                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
-                  </node>
-                  <node concept="37vLTI" id="2V$dEz$$X7F" role="3clFbG">
-                    <node concept="2OqwBi" id="2V$dEz$$X7G" role="37vLTJ">
-                      <node concept="1eOMI4" id="2V$dEz$$X7H" role="2Oq$k0">
-                        <node concept="10QFUN" id="2V$dEz$$X7I" role="1eOMHV">
-                          <node concept="3Tqbb2" id="2V$dEz$$X7J" role="10QFUM">
-                            <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
-                          </node>
-                          <node concept="37vLTw" id="2V$dEz$$ZWJ" role="10QFUP">
-                            <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
-                          </node>
+          <node concept="3eNFk2" id="2V$dEz$GHyV" role="3eNLev">
+            <node concept="3clFbS" id="2V$dEz$GHyW" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$GHyX" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$GHyY" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$GHyZ" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$GHz0" role="2Oq$k0">
+                    <node concept="1eOMI4" id="2V$dEz$GHz1" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$GHz2" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$GHz3" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
                         </node>
-                      </node>
-                      <node concept="3TrcHB" id="2V$dEz$_0nk" role="2OqNvi">
-                        <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                        <node concept="37vLTw" id="2V$dEz$GHz4" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="2V$dEz$_sbO" role="37vLTx">
-                      <node concept="2OqwBi" id="2V$dEz$_4x4" role="2Oq$k0">
-                        <node concept="37vLTw" id="2V$dEz$_2WK" role="2Oq$k0">
+                    <node concept="3TrcHB" id="2V$dEz$GHz5" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="2V$dEz$GHz6" role="2OqNvi">
+                    <node concept="21nZrQ" id="2V$dEz$HHgi" role="tz02z">
+                      <ref role="21nZrZ" to="548q:4uZratGIeHb" resolve="Diamond" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="2V$dEz$Haxc" role="3eO9$A">
+              <node concept="3cmrfG" id="2V$dEz$Hb3U" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$H9eo" role="3uHU7B">
+                <node concept="1eOMI4" id="2V$dEz$H96Y" role="2Oq$k0">
+                  <node concept="Xl_RD" id="2V$dEz$H8Ix" role="1eOMHV">
+                    <property role="Xl_RC" value="&lt;&gt;" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2V$dEz$H9GC" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                  <node concept="2OqwBi" id="2V$dEz$HdbU" role="37wK5m">
+                    <node concept="37vLTw" id="2V$dEz$Hb7n" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$Hfl4" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$IfbB" role="3eNLev">
+            <node concept="3clFbS" id="2V$dEz$IfbC" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$IfbD" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$IfbE" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$IfbF" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$IfbG" role="2Oq$k0">
+                    <node concept="1eOMI4" id="2V$dEz$IfbH" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$IfbI" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$IfbJ" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$IfbK" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$IfbL" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="2V$dEz$IfbM" role="2OqNvi">
+                    <node concept="21nZrQ" id="2V$dEz$IE2W" role="tz02z">
+                      <ref role="21nZrZ" to="548q:4uZratGIeGT" resolve="Neg" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="22lmx$" id="2V$dEz$IuXp" role="3eO9$A">
+              <node concept="22lmx$" id="2V$dEz$Ikdx" role="3uHU7B">
+                <node concept="3clFbC" id="2V$dEz$IfbO" role="3uHU7B">
+                  <node concept="2OqwBi" id="2V$dEz$IfbQ" role="3uHU7B">
+                    <node concept="1eOMI4" id="2V$dEz$IfbR" role="2Oq$k0">
+                      <node concept="Xl_RD" id="2V$dEz$IfbS" role="1eOMHV">
+                        <property role="Xl_RC" value="~" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$IfbT" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                      <node concept="2OqwBi" id="2V$dEz$IfbU" role="37wK5m">
+                        <node concept="37vLTw" id="2V$dEz$IfbV" role="2Oq$k0">
                           <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
                         </node>
-                        <node concept="liA8E" id="2V$dEz$_rXr" role="2OqNvi">
-                          <ref role="37wK5l" to="p3ir:~ParserRuleContext.getStart()" resolve="getStart" />
+                        <node concept="liA8E" id="2V$dEz$IfbW" role="2OqNvi">
+                          <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                         </node>
                       </node>
-                      <node concept="liA8E" id="2V$dEz$_tzd" role="2OqNvi">
-                        <ref role="37wK5l" to="p3ir:~Token.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="2V$dEz$IfbP" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+                <node concept="3clFbC" id="2V$dEz$IsRo" role="3uHU7w">
+                  <node concept="2OqwBi" id="2V$dEz$ImYX" role="3uHU7B">
+                    <node concept="1eOMI4" id="2V$dEz$IlZX" role="2Oq$k0">
+                      <node concept="Xl_RD" id="2V$dEz$IlZY" role="1eOMHV">
+                        <property role="Xl_RC" value="\\lnot" />
                       </node>
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$Inum" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                      <node concept="2OqwBi" id="2V$dEz$IpVL" role="37wK5m">
+                        <node concept="37vLTw" id="2V$dEz$IodC" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="2V$dEz$IrAB" role="2OqNvi">
+                          <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="2V$dEz$ItO0" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="2V$dEz$IBoZ" role="3uHU7w">
+                <node concept="3cmrfG" id="2V$dEz$IDg2" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$IxLv" role="3uHU7B">
+                  <node concept="1eOMI4" id="2V$dEz$IwM2" role="2Oq$k0">
+                    <node concept="Xl_RD" id="2V$dEz$IwM3" role="1eOMHV">
+                      <property role="Xl_RC" value="\\neg" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2V$dEz$Iyi3" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                    <node concept="2OqwBi" id="2V$dEz$I$Kx" role="37wK5m">
+                      <node concept="37vLTw" id="2V$dEz$Iyyo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="2V$dEz$IAsW" role="2OqNvi">
+                        <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$IEMQ" role="3eNLev">
+            <node concept="3clFbS" id="2V$dEz$IEMR" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$IEMS" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$IEMT" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$IEMU" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$IEMV" role="2Oq$k0">
+                    <node concept="1eOMI4" id="2V$dEz$IEMW" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$IEMX" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$IEMY" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOc" resolve="PrefixOpNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$IEMZ" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$$LkG" resolve="poNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$IEN0" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOd" resolve="PrefixOp" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="2V$dEz$IEN1" role="2OqNvi">
+                    <node concept="21nZrQ" id="2V$dEz$IGQB" role="tz02z">
+                      <ref role="21nZrZ" to="548q:4uZratGIeGS" resolve="Dash" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="2V$dEz$IEN3" role="3eO9$A">
+              <node concept="3cmrfG" id="2V$dEz$IEN4" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$IEN5" role="3uHU7B">
+                <node concept="1eOMI4" id="2V$dEz$IEN6" role="2Oq$k0">
+                  <node concept="Xl_RD" id="2V$dEz$IEN7" role="1eOMHV">
+                    <property role="Xl_RC" value="-" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2V$dEz$IEN8" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                  <node concept="2OqwBi" id="2V$dEz$IEN9" role="37wK5m">
+                    <node concept="37vLTw" id="2V$dEz$IENa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_s" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$IENb" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                     </node>
                   </node>
                 </node>
@@ -4922,41 +5614,217 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="2V$dEz$CwIS" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="2V$dEz$AxYC" role="8Wnug">
-            <node concept="15s5l7" id="2V$dEz$AxYD" role="lGtFl">
-              <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
-              <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PostfixOp&gt;" />
-            </node>
-            <node concept="37vLTI" id="2V$dEz$AxYE" role="3clFbG">
-              <node concept="2OqwBi" id="2V$dEz$AxYF" role="37vLTJ">
-                <node concept="1eOMI4" id="2V$dEz$AxYG" role="2Oq$k0">
-                  <node concept="10QFUN" id="2V$dEz$AxYH" role="1eOMHV">
-                    <node concept="3Tqbb2" id="2V$dEz$AxYI" role="10QFUM">
-                      <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
-                    </node>
-                    <node concept="37vLTw" id="2V$dEz$BeTu" role="10QFUP">
-                      <ref role="3cqZAo" node="2V$dEz$B6Mt" resolve="poNode" />
+        <node concept="3clFbJ" id="2V$dEz$N1R2" role="3cqZAp">
+          <node concept="15s5l7" id="2V$dEz$NfdD" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: ?no classifier? is not a subtype of String&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5875805516898273487,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4660288602099522921]&quot;;" />
+            <property role="huDt6" value="Error: ?no classifier? is not a subtype of String" />
+          </node>
+          <node concept="3clFbS" id="2V$dEz$N1R4" role="3clFbx">
+            <node concept="3clFbF" id="2V$dEz$Ncpm" role="3cqZAp">
+              <node concept="15s5l7" id="2V$dEz$Ncpn" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$Ncpo" role="3clFbG">
+                <node concept="2OqwBi" id="2V$dEz$Ncpp" role="2Oq$k0">
+                  <node concept="1eOMI4" id="2V$dEz$Ncpq" role="2Oq$k0">
+                    <node concept="10QFUN" id="2V$dEz$Ncpr" role="1eOMHV">
+                      <node concept="3Tqbb2" id="2V$dEz$Ncps" role="10QFUM">
+                        <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+                      </node>
+                      <node concept="37vLTw" id="2V$dEz$Ncpt" role="10QFUP">
+                        <ref role="3cqZAo" node="2V$dEz$B6Mt" resolve="poNode" />
+                      </node>
                     </node>
                   </node>
+                  <node concept="3TrcHB" id="2V$dEz$NcV0" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:6tbn_b6SrOH" resolve="PostfixOp" />
+                  </node>
                 </node>
-                <node concept="3TrcHB" id="2V$dEz$Bfe2" role="2OqNvi">
-                  <ref role="3TsBF5" to="548q:6tbn_b6SrOH" resolve="PostfixOp" />
+                <node concept="tyxLq" id="2V$dEz$Ncpv" role="2OqNvi">
+                  <node concept="21nZrQ" id="2V$dEz$Nerb" role="tz02z">
+                    <ref role="21nZrZ" to="548q:6GLhEIqh07E" resolve="A1" />
+                  </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="2V$dEz$AxYL" role="37vLTx">
-                <node concept="2OqwBi" id="2V$dEz$AxYM" role="2Oq$k0">
-                  <node concept="37vLTw" id="2V$dEz$AxYN" role="2Oq$k0">
+            </node>
+          </node>
+          <node concept="3clFbC" id="2V$dEz$Na0L" role="3clFbw">
+            <node concept="3cmrfG" id="2V$dEz$NbGB" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="2V$dEz$N4VF" role="3uHU7B">
+              <node concept="Xl_RD" id="2V$dEz$N4yy" role="2Oq$k0">
+                <property role="Xl_RC" value="^+" />
+              </node>
+              <node concept="liA8E" id="2V$dEz$N5rU" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                <node concept="2OqwBi" id="2V$dEz$N7o5" role="37wK5m">
+                  <node concept="37vLTw" id="2V$dEz$N5Fe" role="2Oq$k0">
                     <ref role="3cqZAo" node="55DAcpL2q_C" resolve="ctx" />
                   </node>
-                  <node concept="liA8E" id="2V$dEz$AxYO" role="2OqNvi">
-                    <ref role="37wK5l" to="p3ir:~ParserRuleContext.getStart()" resolve="getStart" />
+                  <node concept="liA8E" id="2V$dEz$N90Q" role="2OqNvi">
+                    <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
                   </node>
                 </node>
-                <node concept="liA8E" id="2V$dEz$AxYP" role="2OqNvi">
-                  <ref role="37wK5l" to="p3ir:~Token.getText()" resolve="getText" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$NeEH" role="3eNLev">
+            <node concept="3clFbC" id="2V$dEz$Nlj1" role="3eO9$A">
+              <node concept="3cmrfG" id="2V$dEz$NmI7" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$NfDo" role="3uHU7B">
+                <node concept="Xl_RD" id="2V$dEz$Nfhv" role="2Oq$k0">
+                  <property role="Xl_RC" value="^*" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$Ng8K" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                  <node concept="2OqwBi" id="2V$dEz$NiIk" role="37wK5m">
+                    <node concept="37vLTw" id="2V$dEz$Nh1s" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_C" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$NkyA" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$NeEJ" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$NnbY" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$NnbZ" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$Nnc0" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$Nnc1" role="2Oq$k0">
+                    <node concept="1eOMI4" id="2V$dEz$Nnc2" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$Nnc3" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$Nnc4" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$Nnc5" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$B6Mt" resolve="poNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$Nnc6" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOH" resolve="PostfixOp" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="2V$dEz$Nnc7" role="2OqNvi">
+                    <node concept="21nZrQ" id="2V$dEz$NnmO" role="tz02z">
+                      <ref role="21nZrZ" to="548q:6GLhEIqh07F" resolve="A2" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$Nnou" role="3eNLev">
+            <node concept="3clFbC" id="2V$dEz$Nt$n" role="3eO9$A">
+              <node concept="3cmrfG" id="2V$dEz$Nv3u" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$NooR" role="3uHU7B">
+                <node concept="Xl_RD" id="2V$dEz$No0$" role="2Oq$k0">
+                  <property role="Xl_RC" value="^#" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$NoSf" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                  <node concept="2OqwBi" id="2V$dEz$NqOF" role="37wK5m">
+                    <node concept="37vLTw" id="2V$dEz$Np7N" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_C" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$NsDA" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$Nnow" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$Nvsa" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$Nvsb" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$Nvsc" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$Nvsd" role="2Oq$k0">
+                    <node concept="1eOMI4" id="2V$dEz$Nvse" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$Nvsf" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$Nvsg" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$Nvsh" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$B6Mt" resolve="poNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$Nvsi" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOH" resolve="PostfixOp" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="2V$dEz$Nvsj" role="2OqNvi">
+                    <node concept="21nZrQ" id="2V$dEz$NvAS" role="tz02z">
+                      <ref role="21nZrZ" to="548q:6GLhEIqh07I" resolve="A3" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="2V$dEz$NvCy" role="3eNLev">
+            <node concept="3clFbC" id="2V$dEz$N_Kn" role="3eO9$A">
+              <node concept="3cmrfG" id="2V$dEz$NB9j" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="2V$dEz$NwGZ" role="3uHU7B">
+                <node concept="Xl_RD" id="2V$dEz$Nwe4" role="2Oq$k0">
+                  <property role="Xl_RC" value="'" />
+                </node>
+                <node concept="liA8E" id="2V$dEz$NxcR" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
+                  <node concept="2OqwBi" id="2V$dEz$NzaB" role="37wK5m">
+                    <node concept="37vLTw" id="2V$dEz$NxtN" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_C" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="2V$dEz$N$Og" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~RuleContext.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2V$dEz$NvC$" role="3eOfB_">
+              <node concept="3clFbF" id="2V$dEz$NBAZ" role="3cqZAp">
+                <node concept="15s5l7" id="2V$dEz$NBB0" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of enummember&lt;PrefixOp&gt;" />
+                </node>
+                <node concept="2OqwBi" id="2V$dEz$NBB1" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz$NBB2" role="2Oq$k0">
+                    <node concept="1eOMI4" id="2V$dEz$NBB3" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz$NBB4" role="1eOMHV">
+                        <node concept="3Tqbb2" id="2V$dEz$NBB5" role="10QFUM">
+                          <ref role="ehGHo" to="548q:6tbn_b6SrOG" resolve="PostfixOpNode" />
+                        </node>
+                        <node concept="37vLTw" id="2V$dEz$NBB6" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$B6Mt" resolve="poNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2V$dEz$NBB7" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6tbn_b6SrOH" resolve="PostfixOp" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="2V$dEz$NBB8" role="2OqNvi">
+                    <node concept="21nZrQ" id="2V$dEz$NBKn" role="tz02z">
+                      <ref role="21nZrZ" to="548q:6GLhEIqh07M" resolve="A4" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

@@ -172,8 +172,30 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
       }
       SPropertyOperations.plusAssignStringProp(((SNode) opNode), PROPS.OpId$vrV0, ")");
     } else if (ctx.underscoreList() == null && ctx.Identifier() != null) {
-      opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
-      SPropertyOperations.assign(((SNode) opNode), PROPS.ID$ll3w, ctx.Identifier().getText());
+      if ("DOMAIN_".compareTo(ctx.Identifier().getText()) == 0) {
+        opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a436213L, "TLA.structure.PrefixOpUnderscoreNode"));
+        SLinkOperations.setTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb52L, "DOMAIN");
+      } else if ("ENABLED_".compareTo(ctx.Identifier().getText()) == 0) {
+        opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a436213L, "TLA.structure.PrefixOpUnderscoreNode"));
+        SLinkOperations.setTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb5aL, "ENABLED");
+      } else if ("SUBSET_".compareTo(ctx.Identifier().getText()) == 0) {
+        opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a436213L, "TLA.structure.PrefixOpUnderscoreNode"));
+        SLinkOperations.setTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb63L, "SUBSET");
+      } else if ("UNCHANGED_".compareTo(ctx.Identifier().getText()) == 0) {
+        opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a436213L, "TLA.structure.PrefixOpUnderscoreNode"));
+        SLinkOperations.setTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb6dL, "UNCHANGED");
+      } else if ("UNION_".compareTo(ctx.Identifier().getText()) == 0) {
+        opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a436213L, "TLA.structure.PrefixOpUnderscoreNode"));
+        SLinkOperations.setTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb78L, "UNION");
+      } else {
+        opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
+        SPropertyOperations.assign(((SNode) opNode), PROPS.ID$ll3w, ctx.Identifier().getText());
+      }
     }
     return opNode;
   }
@@ -259,7 +281,13 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   public Object visitPrefixOp(TLAPlusGrammarParser.PrefixOpContext ctx) {
     SNode poNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode"));
     if (ctx.SQUARE() != null) {
-    } else {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb45L, "Square");
+    } else if (("<>").compareTo(ctx.getText()) == 0) {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb4bL, "Diamond");
+    } else if (("~").compareTo(ctx.getText()) == 0 || ("\\lnot").compareTo(ctx.getText()) == 0 || ("\\neg").compareTo(ctx.getText()) == 0) {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb39L, "Neg");
+    } else if (("-").compareTo(ctx.getText()) == 0) {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb38L, "Dash");
     }
     return poNode;
   }
@@ -278,6 +306,15 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   @Override
   public Object visitPostfixOp(TLAPlusGrammarParser.PostfixOpContext ctx) {
     SNode poNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd2cL, "TLA.structure.PostfixOpNode"));
+    if ("^+".compareTo(ctx.getText()) == 0) {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PostfixOp$R0Q0, 0x6b3146ab9a4401eaL, "A1");
+    } else if ("^*".compareTo(ctx.getText()) == 0) {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PostfixOp$R0Q0, 0x6b3146ab9a4401ebL, "A2");
+    } else if ("^#".compareTo(ctx.getText()) == 0) {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PostfixOp$R0Q0, 0x6b3146ab9a4401eeL, "A3");
+    } else if ("'".compareTo(ctx.getText()) == 0) {
+      SPropertyOperations.setEnum(((SNode) poNode), PROPS.PostfixOp$R0Q0, 0x6b3146ab9a4401f2L, "A4");
+    }
     return poNode;
   }
 
@@ -290,6 +327,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SProperty PostfixOp$eDmw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a440761L, 0x6b3146ab9a440762L, "PostfixOp");
     /*package*/ static final SProperty PostfixOp$R0Q0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd2cL, 0x674b5e52c6e1bd2dL, "PostfixOp");
     /*package*/ static final SProperty OpId$vrV0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb8eb86L, 0x47bf6ca76cb8eb87L, "OpId");
+    /*package*/ static final SProperty PrefixOp$QUQw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, 0x674b5e52c6e1bd0dL, "PrefixOp");
   }
 
   private static final class LINKS {
