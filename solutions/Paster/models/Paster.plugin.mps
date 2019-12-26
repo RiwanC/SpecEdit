@@ -3339,28 +3339,12 @@
                 </node>
               </node>
               <node concept="3clFbF" id="2V$dEz_0lbm" role="3cqZAp">
-                <node concept="15s5l7" id="2V$dEz_0uW9" role="lGtFl">
-                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                <node concept="15s5l7" id="5b0tRkMXxKw" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                   <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                 </node>
-                <node concept="37vLTI" id="2V$dEz_0p4e" role="3clFbG">
-                  <node concept="2OqwBi" id="2V$dEz_0sOk" role="37vLTx">
-                    <node concept="2OqwBi" id="2V$dEz_0qPN" role="2Oq$k0">
-                      <node concept="37vLTw" id="2V$dEz_0pmz" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                      </node>
-                      <node concept="liA8E" id="2V$dEz_0shm" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                        <node concept="3cmrfG" id="2V$dEz_0syP" role="37wK5m">
-                          <property role="3cmrfH" value="0" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2V$dEz_0uxI" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="2V$dEz_0nI2" role="37vLTJ">
+                <node concept="2OqwBi" id="5b0tRkMXiUZ" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz_0nI2" role="2Oq$k0">
                     <node concept="1eOMI4" id="2V$dEz_0m_k" role="2Oq$k0">
                       <node concept="10QFUN" id="2V$dEz_0m_h" role="1eOMHV">
                         <node concept="3Tqbb2" id="2V$dEz_0mFB" role="10QFUM">
@@ -3378,6 +3362,24 @@
                     </node>
                     <node concept="3TrcHB" id="2V$dEz_0nSy" role="2OqNvi">
                       <ref role="3TsBF5" to="548q:4pT0XE4EGxy" resolve="ID" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="5b0tRkMXjzF" role="2OqNvi">
+                    <node concept="2OqwBi" id="5b0tRkMXoiQ" role="tz02z">
+                      <node concept="2OqwBi" id="5b0tRkMXl3a" role="2Oq$k0">
+                        <node concept="37vLTw" id="5b0tRkMXkEo" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="5b0tRkMXn$F" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                          <node concept="3cmrfG" id="5b0tRkMXnUy" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5b0tRkMXqG2" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -3459,28 +3461,12 @@
                 </node>
               </node>
               <node concept="3clFbF" id="2V$dEz_0FTA" role="3cqZAp">
-                <node concept="15s5l7" id="2V$dEz_0FTB" role="lGtFl">
-                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                <node concept="15s5l7" id="5b0tRkMXMfs" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                   <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                 </node>
-                <node concept="37vLTI" id="2V$dEz_0FTC" role="3clFbG">
-                  <node concept="2OqwBi" id="2V$dEz_0FTD" role="37vLTx">
-                    <node concept="2OqwBi" id="2V$dEz_0FTE" role="2Oq$k0">
-                      <node concept="37vLTw" id="2V$dEz_0FTF" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                      </node>
-                      <node concept="liA8E" id="2V$dEz_0FTG" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                        <node concept="3cmrfG" id="2V$dEz_0FTH" role="37wK5m">
-                          <property role="3cmrfH" value="0" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2V$dEz_0FTI" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="2V$dEz_0FTJ" role="37vLTJ">
+                <node concept="2OqwBi" id="5b0tRkMXysa" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz_0FTJ" role="2Oq$k0">
                     <node concept="1eOMI4" id="2V$dEz_0FTK" role="2Oq$k0">
                       <node concept="10QFUN" id="2V$dEz_0FTL" role="1eOMHV">
                         <node concept="3Tqbb2" id="2V$dEz_0FTM" role="10QFUM">
@@ -3500,31 +3486,33 @@
                       <ref role="3TsBF5" to="548q:4pT0XE4EGxV" resolve="ID1" />
                     </node>
                   </node>
+                  <node concept="tyxLq" id="5b0tRkMXyNQ" role="2OqNvi">
+                    <node concept="2OqwBi" id="5b0tRkMXAsX" role="tz02z">
+                      <node concept="2OqwBi" id="5b0tRkMXzKI" role="2Oq$k0">
+                        <node concept="37vLTw" id="5b0tRkMXyWg" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="5b0tRkMX_V8" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                          <node concept="3cmrfG" id="5b0tRkMXAbD" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5b0tRkMXC$n" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="2V$dEz_0Oxk" role="3cqZAp">
-                <node concept="15s5l7" id="2V$dEz_0Oxl" role="lGtFl">
-                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                <node concept="15s5l7" id="5b0tRkMY0FK" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                   <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                 </node>
-                <node concept="37vLTI" id="2V$dEz_0Oxm" role="3clFbG">
-                  <node concept="2OqwBi" id="2V$dEz_0Oxn" role="37vLTx">
-                    <node concept="2OqwBi" id="2V$dEz_0Oxo" role="2Oq$k0">
-                      <node concept="37vLTw" id="2V$dEz_0Oxp" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                      </node>
-                      <node concept="liA8E" id="2V$dEz_0Oxq" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                        <node concept="3cmrfG" id="2V$dEz_0RbC" role="37wK5m">
-                          <property role="3cmrfH" value="1" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2V$dEz_0Oxs" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="2V$dEz_0Oxt" role="37vLTJ">
+                <node concept="2OqwBi" id="5b0tRkMXMyO" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz_0Oxt" role="2Oq$k0">
                     <node concept="1eOMI4" id="2V$dEz_0Oxu" role="2Oq$k0">
                       <node concept="10QFUN" id="2V$dEz_0Oxv" role="1eOMHV">
                         <node concept="3Tqbb2" id="2V$dEz_0Oxw" role="10QFUM">
@@ -3542,6 +3530,24 @@
                     </node>
                     <node concept="3TrcHB" id="2V$dEz_0QTE" role="2OqNvi">
                       <ref role="3TsBF5" to="548q:4pT0XE4EGxX" resolve="ID2" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="5b0tRkMXMTd" role="2OqNvi">
+                    <node concept="2OqwBi" id="5b0tRkMXPKL" role="tz02z">
+                      <node concept="2OqwBi" id="5b0tRkMXN5f" role="2Oq$k0">
+                        <node concept="37vLTw" id="5b0tRkMXN1B" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="5b0tRkMXPgW" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                          <node concept="3cmrfG" id="5b0tRkN0eek" role="37wK5m">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5b0tRkMXRSb" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -3628,28 +3634,12 @@
                 </node>
               </node>
               <node concept="3clFbF" id="2V$dEz_0HM8" role="3cqZAp">
-                <node concept="15s5l7" id="2V$dEz_0HM9" role="lGtFl">
-                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                <node concept="15s5l7" id="5b0tRkMYcEb" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                   <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                 </node>
-                <node concept="37vLTI" id="2V$dEz_0HMa" role="3clFbG">
-                  <node concept="2OqwBi" id="2V$dEz_0HMb" role="37vLTx">
-                    <node concept="2OqwBi" id="2V$dEz_0HMc" role="2Oq$k0">
-                      <node concept="37vLTw" id="2V$dEz_0HMd" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                      </node>
-                      <node concept="liA8E" id="2V$dEz_0HMe" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                        <node concept="3cmrfG" id="2V$dEz_0HMf" role="37wK5m">
-                          <property role="3cmrfH" value="0" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="2V$dEz_0HMg" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="2V$dEz_0HMh" role="37vLTJ">
+                <node concept="2OqwBi" id="5b0tRkMY30O" role="3clFbG">
+                  <node concept="2OqwBi" id="2V$dEz_0HMh" role="2Oq$k0">
                     <node concept="1eOMI4" id="2V$dEz_0HMi" role="2Oq$k0">
                       <node concept="10QFUN" id="2V$dEz_0HMj" role="1eOMHV">
                         <node concept="3Tqbb2" id="2V$dEz_0HMk" role="10QFUM">
@@ -3667,6 +3657,24 @@
                     </node>
                     <node concept="3TrcHB" id="2V$dEz_0YBT" role="2OqNvi">
                       <ref role="3TsBF5" to="548q:4pT0XE4EGyD" resolve="ID" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="5b0tRkMY3nd" role="2OqNvi">
+                    <node concept="2OqwBi" id="5b0tRkMY6du" role="tz02z">
+                      <node concept="2OqwBi" id="5b0tRkMY3zf" role="2Oq$k0">
+                        <node concept="37vLTw" id="5b0tRkMY3vB" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="5b0tRkMY5HD" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                          <node concept="3cmrfG" id="5b0tRkMY5Ya" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5b0tRkMY8kS" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -3867,12 +3875,12 @@
                     </node>
                   </node>
                   <node concept="3clFbF" id="2V$dEz_03r_" role="3cqZAp">
-                    <node concept="15s5l7" id="2V$dEz_0cYl" role="lGtFl">
-                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                    <node concept="15s5l7" id="5b0tRkMYppO" role="lGtFl">
+                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                       <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                     </node>
-                    <node concept="37vLTI" id="2V$dEz_03rA" role="3clFbG">
-                      <node concept="2OqwBi" id="2V$dEz_03rE" role="37vLTJ">
+                    <node concept="2OqwBi" id="5b0tRkMYcNG" role="3clFbG">
+                      <node concept="2OqwBi" id="2V$dEz_03rE" role="2Oq$k0">
                         <node concept="1eOMI4" id="2V$dEz_03rF" role="2Oq$k0">
                           <node concept="10QFUN" id="2V$dEz_03rG" role="1eOMHV">
                             <node concept="3Tqbb2" id="2V$dEz_03rH" role="10QFUM">
@@ -3892,20 +3900,22 @@
                           <ref role="3TsBF5" to="548q:4pT0XE4EGxy" resolve="ID" />
                         </node>
                       </node>
-                      <node concept="2OqwBi" id="2V$dEz_0aLZ" role="37vLTx">
-                        <node concept="2OqwBi" id="2V$dEz_08VV" role="2Oq$k0">
-                          <node concept="37vLTw" id="2V$dEz_07p8" role="2Oq$k0">
-                            <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                          </node>
-                          <node concept="liA8E" id="2V$dEz_0anu" role="2OqNvi">
-                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                            <node concept="3cmrfG" id="2V$dEz_0awT" role="37wK5m">
-                              <property role="3cmrfH" value="1" />
+                      <node concept="tyxLq" id="5b0tRkMYdbo" role="2OqNvi">
+                        <node concept="2OqwBi" id="5b0tRkMYfUt" role="tz02z">
+                          <node concept="2OqwBi" id="5b0tRkMYdnq" role="2Oq$k0">
+                            <node concept="37vLTw" id="5b0tRkMYdjM" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="5b0tRkMYfxO" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                              <node concept="3cmrfG" id="5b0tRkMYfF9" role="37wK5m">
+                                <property role="3cmrfH" value="1" />
+                              </node>
                             </node>
                           </node>
-                        </node>
-                        <node concept="liA8E" id="2V$dEz_0cv0" role="2OqNvi">
-                          <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          <node concept="liA8E" id="5b0tRkMYi3a" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -4060,12 +4070,12 @@
                       </node>
                     </node>
                     <node concept="3clFbF" id="2V$dEz_0dmm" role="3cqZAp">
-                      <node concept="15s5l7" id="2V$dEz_0dmn" role="lGtFl">
-                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                      <node concept="15s5l7" id="5b0tRkMY_y$" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                         <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                       </node>
-                      <node concept="37vLTI" id="2V$dEz_0dmo" role="3clFbG">
-                        <node concept="2OqwBi" id="2V$dEz_0dmp" role="37vLTJ">
+                      <node concept="2OqwBi" id="5b0tRkMYpBE" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz_0dmp" role="2Oq$k0">
                           <node concept="1eOMI4" id="2V$dEz_0dmq" role="2Oq$k0">
                             <node concept="10QFUN" id="2V$dEz_0dmr" role="1eOMHV">
                               <node concept="3Tqbb2" id="2V$dEz_0dms" role="10QFUM">
@@ -4085,20 +4095,22 @@
                             <ref role="3TsBF5" to="548q:4pT0XE4EGxy" resolve="ID" />
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="2V$dEz_0dmx" role="37vLTx">
-                          <node concept="2OqwBi" id="2V$dEz_0dmy" role="2Oq$k0">
-                            <node concept="37vLTw" id="2V$dEz_0dmz" role="2Oq$k0">
-                              <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                            </node>
-                            <node concept="liA8E" id="2V$dEz_0dm$" role="2OqNvi">
-                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                              <node concept="3cmrfG" id="2V$dEz_0dm_" role="37wK5m">
-                                <property role="3cmrfH" value="1" />
+                        <node concept="tyxLq" id="5b0tRkMYpZm" role="2OqNvi">
+                          <node concept="2OqwBi" id="5b0tRkMYuKI" role="tz02z">
+                            <node concept="2OqwBi" id="5b0tRkMYsdF" role="2Oq$k0">
+                              <node concept="37vLTw" id="5b0tRkMYq7K" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="5b0tRkMYuo5" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                                <node concept="3cmrfG" id="5b0tRkMYuxq" role="37wK5m">
+                                  <property role="3cmrfH" value="1" />
+                                </node>
                               </node>
                             </node>
-                          </node>
-                          <node concept="liA8E" id="2V$dEz_0dmA" role="2OqNvi">
-                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            <node concept="liA8E" id="5b0tRkMYwTr" role="2OqNvi">
+                              <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -4225,12 +4237,12 @@
                       </node>
                     </node>
                     <node concept="3clFbF" id="2V$dEz_0fjS" role="3cqZAp">
-                      <node concept="15s5l7" id="2V$dEz_0fjT" role="lGtFl">
-                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                      <node concept="15s5l7" id="5b0tRkMYRcD" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                         <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                       </node>
-                      <node concept="37vLTI" id="2V$dEz_0fjU" role="3clFbG">
-                        <node concept="2OqwBi" id="2V$dEz_0fjV" role="37vLTJ">
+                      <node concept="2OqwBi" id="5b0tRkMYC5r" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz_0fjV" role="2Oq$k0">
                           <node concept="1eOMI4" id="2V$dEz_0fjW" role="2Oq$k0">
                             <node concept="10QFUN" id="2V$dEz_0fjX" role="1eOMHV">
                               <node concept="3Tqbb2" id="2V$dEz_0fjY" role="10QFUM">
@@ -4250,20 +4262,22 @@
                             <ref role="3TsBF5" to="548q:4pT0XE4EGxy" resolve="ID" />
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="2V$dEz_0fk3" role="37vLTx">
-                          <node concept="2OqwBi" id="2V$dEz_0fk4" role="2Oq$k0">
-                            <node concept="37vLTw" id="2V$dEz_0fk5" role="2Oq$k0">
-                              <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                            </node>
-                            <node concept="liA8E" id="2V$dEz_0fk6" role="2OqNvi">
-                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                              <node concept="3cmrfG" id="2V$dEz_0fk7" role="37wK5m">
-                                <property role="3cmrfH" value="1" />
+                        <node concept="tyxLq" id="5b0tRkMYCGZ" role="2OqNvi">
+                          <node concept="2OqwBi" id="5b0tRkMYGkG" role="tz02z">
+                            <node concept="2OqwBi" id="5b0tRkMYDfv" role="2Oq$k0">
+                              <node concept="37vLTw" id="5b0tRkMYCQH" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="5b0tRkMYFJH" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                                <node concept="3cmrfG" id="5b0tRkMYFWo" role="37wK5m">
+                                  <property role="3cmrfH" value="1" />
+                                </node>
                               </node>
                             </node>
-                          </node>
-                          <node concept="liA8E" id="2V$dEz_0fk8" role="2OqNvi">
-                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            <node concept="liA8E" id="5b0tRkMYIFw" role="2OqNvi">
+                              <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -4390,12 +4404,12 @@
                       </node>
                     </node>
                     <node concept="3clFbF" id="2V$dEz_0haS" role="3cqZAp">
-                      <node concept="15s5l7" id="2V$dEz_0haT" role="lGtFl">
-                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                      <node concept="15s5l7" id="5b0tRkMZ383" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                         <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                       </node>
-                      <node concept="37vLTI" id="2V$dEz_0haU" role="3clFbG">
-                        <node concept="2OqwBi" id="2V$dEz_0haV" role="37vLTJ">
+                      <node concept="2OqwBi" id="5b0tRkMYRqv" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz_0haV" role="2Oq$k0">
                           <node concept="1eOMI4" id="2V$dEz_0haW" role="2Oq$k0">
                             <node concept="10QFUN" id="2V$dEz_0haX" role="1eOMHV">
                               <node concept="3Tqbb2" id="2V$dEz_0haY" role="10QFUM">
@@ -4415,20 +4429,22 @@
                             <ref role="3TsBF5" to="548q:4pT0XE4EGxy" resolve="ID" />
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="2V$dEz_0hb3" role="37vLTx">
-                          <node concept="2OqwBi" id="2V$dEz_0hb4" role="2Oq$k0">
-                            <node concept="37vLTw" id="2V$dEz_0hb5" role="2Oq$k0">
-                              <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                            </node>
-                            <node concept="liA8E" id="2V$dEz_0hb6" role="2OqNvi">
-                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                              <node concept="3cmrfG" id="2V$dEz_0hb7" role="37wK5m">
-                                <property role="3cmrfH" value="1" />
+                        <node concept="tyxLq" id="5b0tRkMYRKS" role="2OqNvi">
+                          <node concept="2OqwBi" id="5b0tRkMYUHj" role="tz02z">
+                            <node concept="2OqwBi" id="5b0tRkMYRWU" role="2Oq$k0">
+                              <node concept="37vLTw" id="5b0tRkMYRTi" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="5b0tRkMYUuD" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                                <node concept="3cmrfG" id="5b0tRkMYU$3" role="37wK5m">
+                                  <property role="3cmrfH" value="1" />
+                                </node>
                               </node>
                             </node>
-                          </node>
-                          <node concept="liA8E" id="2V$dEz_0hb8" role="2OqNvi">
-                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            <node concept="liA8E" id="5b0tRkMYWS3" role="2OqNvi">
+                              <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -4555,12 +4571,12 @@
                       </node>
                     </node>
                     <node concept="3clFbF" id="2V$dEz_0j28" role="3cqZAp">
-                      <node concept="15s5l7" id="2V$dEz_0j29" role="lGtFl">
-                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+                      <node concept="15s5l7" id="5b0tRkMZePC" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
                         <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                       </node>
-                      <node concept="37vLTI" id="2V$dEz_0j2a" role="3clFbG">
-                        <node concept="2OqwBi" id="2V$dEz_0j2b" role="37vLTJ">
+                      <node concept="2OqwBi" id="5b0tRkMZ3lT" role="3clFbG">
+                        <node concept="2OqwBi" id="2V$dEz_0j2b" role="2Oq$k0">
                           <node concept="1eOMI4" id="2V$dEz_0j2c" role="2Oq$k0">
                             <node concept="10QFUN" id="2V$dEz_0j2d" role="1eOMHV">
                               <node concept="3Tqbb2" id="2V$dEz_0j2e" role="10QFUM">
@@ -4580,20 +4596,22 @@
                             <ref role="3TsBF5" to="548q:4pT0XE4EGxy" resolve="ID" />
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="2V$dEz_0j2j" role="37vLTx">
-                          <node concept="2OqwBi" id="2V$dEz_0j2k" role="2Oq$k0">
-                            <node concept="37vLTw" id="2V$dEz_0j2l" role="2Oq$k0">
-                              <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
-                            </node>
-                            <node concept="liA8E" id="2V$dEz_0j2m" role="2OqNvi">
-                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
-                              <node concept="3cmrfG" id="2V$dEz_0j2n" role="37wK5m">
-                                <property role="3cmrfH" value="1" />
+                        <node concept="tyxLq" id="5b0tRkMZ3Gg" role="2OqNvi">
+                          <node concept="2OqwBi" id="5b0tRkMZ6sV" role="tz02z">
+                            <node concept="2OqwBi" id="5b0tRkMZ3Si" role="2Oq$k0">
+                              <node concept="37vLTw" id="5b0tRkMZ3OE" role="2Oq$k0">
+                                <ref role="3cqZAo" node="55DAcpL2qyO" resolve="ctx" />
+                              </node>
+                              <node concept="liA8E" id="5b0tRkMZ63Z" role="2OqNvi">
+                                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$OperatorDefinitionContext.Identifier(int)" resolve="Identifier" />
+                                <node concept="3cmrfG" id="5b0tRkMZ6dz" role="37wK5m">
+                                  <property role="3cmrfH" value="1" />
+                                </node>
                               </node>
                             </node>
-                          </node>
-                          <node concept="liA8E" id="2V$dEz_0j2o" role="2OqNvi">
-                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            <node concept="liA8E" id="5b0tRkMZ8CY" role="2OqNvi">
+                              <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                            </node>
                           </node>
                         </node>
                       </node>

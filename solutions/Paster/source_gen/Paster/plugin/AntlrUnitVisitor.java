@@ -125,43 +125,43 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
       SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, ((SNode) visitNonFixLHS(ctx.nonFixLHS())));
     } else if (ctx.prefixOp() != null) {
       SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
-      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(0).getText());
+      SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(0).getText());
       SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, ((SNode) visitPrefixOp(ctx.prefixOp())));
     } else if (ctx.infixOp() != null) {
       SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, "TLA.structure.IDAndInfixOpAndID")));
-      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID1$9c_w, ctx.Identifier(0).getText());
-      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID2$9cAu, ctx.Identifier(1).getText());
+      SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID1$9c_w, ctx.Identifier(0).getText());
+      SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID2$9cAu, ctx.Identifier(1).getText());
       SPropertyOperations.assignEnum(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.InfixOp$9cO2, SPropertyOperations.getEnum(((SNode) visitInfixOp(ctx.infixOp())), PROPS.InfixOp$R0p0));
     } else if (ctx.postfixOp() != null) {
       SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8a8L, "TLA.structure.IDAndPostfixOp")));
-      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$9dL0, ctx.Identifier(0).getText());
+      SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$9dL0, ctx.Identifier(0).getText());
       SPropertyOperations.assignEnum(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.PostfixOp$9dLY, SPropertyOperations.getEnum(((SNode) visitPostfixOp(ctx.postfixOp())), PROPS.PostfixOp$9dLY));
     } else if (ctx.Identifier() != null && ctx.prefixOp() == null && ctx.infixOp() == null && ctx.postfixOp() == null) {
       if ("DOMAIN".compareTo(ctx.Identifier(0).getText()) == 0) {
         SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
         SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
         SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb52L, "DOMAIN");
-        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+        SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
       } else if ("ENABLED".compareTo(ctx.Identifier(0).getText()) == 0) {
         SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
         SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
         SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb5aL, "ENABLED");
-        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+        SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
       } else if ("SUBSET".compareTo(ctx.Identifier(0).getText()) == 0) {
         SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
         SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
         SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb63L, "SUBSET");
-        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+        SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
       } else if ("UNCHANGED".compareTo(ctx.Identifier(0).getText()) == 0) {
         SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
         SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
         SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb6dL, "UNCHANGED");
-        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+        SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
       } else if ("UNION".compareTo(ctx.Identifier(0).getText()) == 0) {
         SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
         SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
         SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb78L, "UNION");
-        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+        SPropertyOperations.set(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
       }
     }
     return opdefNode;
