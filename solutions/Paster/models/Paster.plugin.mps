@@ -9291,8 +9291,145 @@
         </node>
       </node>
       <node concept="3clFbS" id="1kkdmfUM0$s" role="3clF47">
+        <node concept="3cpWs8" id="1kkdmfUTFdv" role="3cqZAp">
+          <node concept="3cpWsn" id="1kkdmfUTFdy" role="3cpWs9">
+            <property role="TrG5h" value="def" />
+            <node concept="3Tqbb2" id="1kkdmfUTFdt" role="1tU5fm">
+              <ref role="ehGHo" to="548q:26CgNS3ufCa" resolve="Definition" />
+            </node>
+            <node concept="2ShNRf" id="1kkdmfUU95f" role="33vP2m">
+              <node concept="3zrR0B" id="1kkdmfUU91w" role="2ShVmc">
+                <node concept="3Tqbb2" id="1kkdmfUU91x" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:26CgNS3ufCa" resolve="Definition" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1kkdmfUSrFF" role="3cqZAp">
+          <node concept="3clFbS" id="1kkdmfUSrFH" role="3clFbx">
+            <node concept="3clFbF" id="1kkdmfUU9ds" role="3cqZAp">
+              <node concept="37vLTI" id="1kkdmfUU9pN" role="3clFbG">
+                <node concept="1eOMI4" id="1kkdmfUU9yt" role="37vLTx">
+                  <node concept="10QFUN" id="1kkdmfUU9yq" role="1eOMHV">
+                    <node concept="3Tqbb2" id="1kkdmfUU9yv" role="10QFUM">
+                      <ref role="ehGHo" to="548q:4pT0XE4EG_e" resolve="FunctionDefinition" />
+                    </node>
+                    <node concept="1rXfSq" id="1kkdmfUU9EH" role="10QFUP">
+                      <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" resolve="visitFunctionDefinition" />
+                      <node concept="2OqwBi" id="1kkdmfUUdlX" role="37wK5m">
+                        <node concept="37vLTw" id="1kkdmfUUd3j" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1kkdmfU38tE" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="1kkdmfUUgIm" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$DefiContext.functionDefinition()" resolve="functionDefinition" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1kkdmfUU9dq" role="37vLTJ">
+                  <ref role="3cqZAo" node="1kkdmfUTFdy" resolve="def" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="1kkdmfUSWAU" role="3clFbw">
+            <node concept="10Nm6u" id="1kkdmfUSXij" role="3uHU7w" />
+            <node concept="2OqwBi" id="1kkdmfUSSqx" role="3uHU7B">
+              <node concept="37vLTw" id="1kkdmfUSPp0" role="2Oq$k0">
+                <ref role="3cqZAo" node="1kkdmfU38tE" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="1kkdmfUSW7t" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$DefiContext.functionDefinition()" resolve="functionDefinition" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="1kkdmfUT01X" role="3eNLev">
+            <node concept="3y3z36" id="1kkdmfUTbhR" role="3eO9$A">
+              <node concept="10Nm6u" id="1kkdmfUTbkG" role="3uHU7w" />
+              <node concept="2OqwBi" id="1kkdmfUT3Ec" role="3uHU7B">
+                <node concept="37vLTw" id="1kkdmfUT05v" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1kkdmfU38tE" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="1kkdmfUT6Vl" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$DefiContext.moduleDefinition()" resolve="moduleDefinition" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="1kkdmfUT01Z" role="3eOfB_">
+              <node concept="3clFbF" id="1kkdmfUUgUb" role="3cqZAp">
+                <node concept="37vLTI" id="1kkdmfUUh1$" role="3clFbG">
+                  <node concept="1eOMI4" id="1kkdmfUUhat" role="37vLTx">
+                    <node concept="10QFUN" id="1kkdmfUUhaq" role="1eOMHV">
+                      <node concept="3Tqbb2" id="1kkdmfUUhav" role="10QFUM">
+                        <ref role="ehGHo" to="548q:4uZratGHmyw" resolve="ModuleDefinition" />
+                      </node>
+                      <node concept="1rXfSq" id="1kkdmfUUhiH" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" resolve="visitModuleDefinition" />
+                        <node concept="2OqwBi" id="1kkdmfUUlC9" role="37wK5m">
+                          <node concept="37vLTw" id="1kkdmfUUkHO" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1kkdmfU38tE" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="1kkdmfUUp1q" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$DefiContext.moduleDefinition()" resolve="moduleDefinition" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="1kkdmfUUgUa" role="37vLTJ">
+                    <ref role="3cqZAo" node="1kkdmfUTFdy" resolve="def" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="1kkdmfUT72f" role="3eNLev">
+            <node concept="3y3z36" id="1kkdmfUTeYb" role="3eO9$A">
+              <node concept="10Nm6u" id="1kkdmfUTfCJ" role="3uHU7w" />
+              <node concept="2OqwBi" id="1kkdmfUT7x7" role="3uHU7B">
+                <node concept="37vLTw" id="1kkdmfUT7cf" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1kkdmfU38tE" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="1kkdmfUTaMg" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$DefiContext.operatorDefinition()" resolve="operatorDefinition" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="1kkdmfUT72h" role="3eOfB_">
+              <node concept="3clFbF" id="1kkdmfUUOnd" role="3cqZAp">
+                <node concept="37vLTI" id="1kkdmfUUPGC" role="3clFbG">
+                  <node concept="1eOMI4" id="1kkdmfUUPNV" role="37vLTx">
+                    <node concept="10QFUN" id="1kkdmfUUPNS" role="1eOMHV">
+                      <node concept="3Tqbb2" id="1kkdmfUUPNX" role="10QFUM">
+                        <ref role="ehGHo" to="548q:4pT0XE4EGwZ" resolve="OperatorDefinition" />
+                      </node>
+                      <node concept="1rXfSq" id="1kkdmfUUPYp" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" resolve="visitOperatorDefinition" />
+                        <node concept="2OqwBi" id="1kkdmfUUVVf" role="37wK5m">
+                          <node concept="37vLTw" id="1kkdmfUUSQg" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1kkdmfU38tE" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="1kkdmfUUZmS" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$DefiContext.operatorDefinition()" resolve="operatorDefinition" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="1kkdmfUUOnc" role="37vLTJ">
+                    <ref role="3cqZAo" node="1kkdmfUTFdy" resolve="def" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="1kkdmfUMo_F" role="3cqZAp">
-          <node concept="10Nm6u" id="1kkdmfUMoCr" role="3cqZAk" />
+          <node concept="37vLTw" id="1kkdmfUUp90" role="3cqZAk">
+            <ref role="3cqZAo" node="1kkdmfUTFdy" resolve="def" />
+          </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="1kkdmfUMX7X" role="2AJF6D">

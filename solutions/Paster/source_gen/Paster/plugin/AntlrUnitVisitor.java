@@ -453,7 +453,15 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitDefi(TLAPlusGrammarParser.DefiContext ctx) {
-    return null;
+    SNode def = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getInterfaceConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e0378fa0aL, "TLA.structure.Definition")));
+    if (ctx.functionDefinition() != null) {
+      def = ((SNode) visitFunctionDefinition(ctx.functionDefinition()));
+    } else if (ctx.moduleDefinition() != null) {
+      def = ((SNode) visitModuleDefinition(ctx.moduleDefinition()));
+    } else if (ctx.operatorDefinition() != null) {
+      def = ((SNode) visitOperatorDefinition(ctx.operatorDefinition()));
+    }
+    return def;
   }
   @Override
   public Object visitExpression(TLAPlusGrammarParser.ExpressionContext ctx) {

@@ -7,7 +7,6 @@
   <imports />
   <registry>
     <language id="7a6b8f83-d202-4e59-94ec-f562edfca98d" name="TLA">
-      <concept id="7443146518776888671" name="TLA.structure.Expression" flags="ng" index="2xEIcd" />
       <concept id="7443146518776888699" name="TLA.structure.Assumption" flags="ng" index="2xEIcD">
         <child id="7443146518776888735" name="Axiom" index="2xEIfd" />
         <child id="7443146518776888737" name="Expr" index="2xEIfN" />
@@ -800,9 +799,6 @@
       <node concept="2SRdFt" id="5b0tRkNbJLr" role="2KC$BK">
         <property role="2SRdFi" value="AAAA" />
       </node>
-    </node>
-    <node concept="2xEIcR" id="5b0tRkNfpnp" role="2SR288">
-      <node concept="2xEIcd" id="5b0tRkNfpnq" role="2xEIcO" />
     </node>
   </node>
 </model>

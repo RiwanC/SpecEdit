@@ -1,0 +1,3 @@
+---- MODULE Test ----
+EXTENDS AAAA
+====================
