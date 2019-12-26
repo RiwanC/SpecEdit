@@ -1592,7 +1592,7 @@
   <node concept="PlHQZ" id="7lhWRV14vs3">
     <property role="EcuMT" value="8453805701281740547" />
     <property role="TrG5h" value="IdentifierOrTupleForChoose" />
-    <property role="3GE5qa" value="QuantifierBound" />
+    <property role="3GE5qa" value="Argument.Expression" />
     <node concept="PrWs8" id="7lhWRV14vs4" role="PrDN$">
       <ref role="PrY4T" node="4pT0XE4EGzK" resolve="IDOrTupleOrIDList" />
     </node>
