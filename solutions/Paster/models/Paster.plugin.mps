@@ -7841,6 +7841,120 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" role="jymVt">
+      <property role="TrG5h" value="visitSingleInstancePrefix" />
+      <node concept="3Tm1VV" id="5b0tRkMNjVj" role="1B3o_S" />
+      <node concept="3uibUv" id="5b0tRkMQjZd" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="5b0tRkMNjVn" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="5b0tRkMNjVm" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$SingleInstancePrefixContext" resolve="TLAPlusGrammarParser.SingleInstancePrefixContext" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5b0tRkMQ8zl" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="5b0tRkMQx_C" role="3clF47">
+        <node concept="3cpWs8" id="5b0tRkMTagQ" role="3cqZAp">
+          <node concept="3cpWsn" id="5b0tRkMTagT" role="3cpWs9">
+            <property role="TrG5h" value="sip" />
+            <node concept="3Tqbb2" id="5b0tRkMTagO" role="1tU5fm">
+              <ref role="ehGHo" to="548q:6tbn_b6SrRz" resolve="SingleInstancePrefix" />
+            </node>
+            <node concept="2ShNRf" id="5b0tRkMTnwc" role="33vP2m">
+              <node concept="3zrR0B" id="5b0tRkMTnsx" role="2ShVmc">
+                <node concept="3Tqbb2" id="5b0tRkMTnsy" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:6tbn_b6SrRz" resolve="SingleInstancePrefix" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5b0tRkMTGx2" role="3cqZAp">
+          <node concept="15s5l7" id="5b0tRkMUIXq" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
+            <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+          </node>
+          <node concept="37vLTI" id="5b0tRkMUCjI" role="3clFbG">
+            <node concept="2OqwBi" id="5b0tRkMUFTD" role="37vLTx">
+              <node concept="2OqwBi" id="5b0tRkMUDsL" role="2Oq$k0">
+                <node concept="37vLTw" id="5b0tRkMUCwD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5b0tRkMNjVn" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="5b0tRkMUF$H" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$SingleInstancePrefixContext.Identifier()" resolve="Identifier" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5b0tRkMUIhO" role="2OqNvi">
+                <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5b0tRkMTOO2" role="37vLTJ">
+              <node concept="37vLTw" id="5b0tRkMTGx0" role="2Oq$k0">
+                <ref role="3cqZAo" node="5b0tRkMTagT" resolve="sip" />
+              </node>
+              <node concept="3TrcHB" id="5b0tRkMUBL8" role="2OqNvi">
+                <ref role="3TsBF5" to="548q:6tbn_b6SrRA" resolve="ID" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5b0tRkMU7eS" role="3cqZAp">
+          <node concept="3clFbS" id="5b0tRkMU7eU" role="3clFbx">
+            <node concept="3clFbF" id="5b0tRkMUJ8D" role="3cqZAp">
+              <node concept="2OqwBi" id="5b0tRkMUL1E" role="3clFbG">
+                <node concept="2OqwBi" id="5b0tRkMUJkf" role="2Oq$k0">
+                  <node concept="37vLTw" id="5b0tRkMUJ8B" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5b0tRkMTagT" resolve="sip" />
+                  </node>
+                  <node concept="3Tsc0h" id="5b0tRkMUJoH" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:6tbn_b6SrRO" resolve="Exprs" />
+                  </node>
+                </node>
+                <node concept="X8dFx" id="5b0tRkMUN5Z" role="2OqNvi">
+                  <node concept="1eOMI4" id="5b0tRkMUPWi" role="25WWJ7">
+                    <node concept="10QFUN" id="5b0tRkMUPWf" role="1eOMHV">
+                      <node concept="2I9FWS" id="5b0tRkMUQhf" role="10QFUM">
+                        <ref role="2I9WkF" to="548q:6tbn_b6SrPv" resolve="Expression" />
+                      </node>
+                      <node concept="1rXfSq" id="5b0tRkMUTY_" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" resolve="visitExpressionList" />
+                        <node concept="2OqwBi" id="5b0tRkMUZan" role="37wK5m">
+                          <node concept="37vLTw" id="5b0tRkMUXi0" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5b0tRkMNjVn" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="5b0tRkMV1v2" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$SingleInstancePrefixContext.expressionList()" resolve="expressionList" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5b0tRkMU_$2" role="3clFbw">
+            <node concept="10Nm6u" id="5b0tRkMU_AO" role="3uHU7w" />
+            <node concept="2OqwBi" id="5b0tRkMUz4b" role="3uHU7B">
+              <node concept="37vLTw" id="5b0tRkMUwKg" role="2Oq$k0">
+                <ref role="3cqZAo" node="5b0tRkMNjVn" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="5b0tRkMU_3_" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$SingleInstancePrefixContext.expressionList()" resolve="expressionList" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5b0tRkMQGEc" role="3cqZAp">
+          <node concept="37vLTw" id="5b0tRkMTn$0" role="3cqZAk">
+            <ref role="3cqZAo" node="5b0tRkMTagT" resolve="sip" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" role="jymVt">
       <property role="TrG5h" value="visitInstancePrefix" />
       <node concept="3Tm1VV" id="55DAcpL2q$g" role="1B3o_S" />
@@ -7857,8 +7971,89 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="55DAcpL6IWb" role="3clF47">
+        <node concept="3cpWs8" id="5b0tRkMR49m" role="3cqZAp">
+          <node concept="3cpWsn" id="5b0tRkMR49p" role="3cpWs9">
+            <property role="TrG5h" value="ipNode" />
+            <node concept="3Tqbb2" id="5b0tRkMR49k" role="1tU5fm">
+              <ref role="ehGHo" to="548q:6tbn_b6SrP$" resolve="InstancePrefix" />
+            </node>
+            <node concept="2ShNRf" id="5b0tRkMReIM" role="33vP2m">
+              <node concept="3zrR0B" id="5b0tRkMReF7" role="2ShVmc">
+                <node concept="3Tqbb2" id="5b0tRkMReF8" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:6tbn_b6SrP$" resolve="InstancePrefix" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="5b0tRkMS4c5" role="3cqZAp">
+          <node concept="3clFbS" id="5b0tRkMS4c7" role="2LFqv$">
+            <node concept="3clFbF" id="5b0tRkMSvsm" role="3cqZAp">
+              <node concept="2OqwBi" id="5b0tRkMSx9$" role="3clFbG">
+                <node concept="2OqwBi" id="5b0tRkMSvyw" role="2Oq$k0">
+                  <node concept="37vLTw" id="5b0tRkMSvsk" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5b0tRkMR49p" resolve="ipNode" />
+                  </node>
+                  <node concept="3Tsc0h" id="5b0tRkMSvC8" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:6tbn_b6SrR$" resolve="InstancePrefixList" />
+                  </node>
+                </node>
+                <node concept="X8dFx" id="5b0tRkMSyY_" role="2OqNvi">
+                  <node concept="1eOMI4" id="5b0tRkMS$ql" role="25WWJ7">
+                    <node concept="10QFUN" id="5b0tRkMS$qi" role="1eOMHV">
+                      <node concept="2I9FWS" id="5b0tRkMS_Le" role="10QFUM">
+                        <ref role="2I9WkF" to="548q:6tbn_b6SrRz" resolve="SingleInstancePrefix" />
+                      </node>
+                      <node concept="1rXfSq" id="5b0tRkMSBJE" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" resolve="visitSingleInstancePrefix" />
+                        <node concept="2OqwBi" id="5b0tRkMSK97" role="37wK5m">
+                          <node concept="37vLTw" id="5b0tRkMSGra" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2q$k" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="5b0tRkMSSrK" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InstancePrefixContext.singleInstancePrefix(int)" resolve="singleInstancePrefix" />
+                            <node concept="37vLTw" id="5b0tRkMSW3Y" role="37wK5m">
+                              <ref role="3cqZAo" node="5b0tRkMS4c8" resolve="i" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="5b0tRkMS4c8" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="5b0tRkMSh4g" role="1tU5fm" />
+            <node concept="3cmrfG" id="5b0tRkMSiCK" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="5b0tRkMSlJQ" role="1Dwp0S">
+            <node concept="2OqwBi" id="5b0tRkMSpgz" role="3uHU7w">
+              <node concept="37vLTw" id="5b0tRkMSo0o" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2q$k" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="5b0tRkMSutV" role="2OqNvi">
+                <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5b0tRkMSjVO" role="3uHU7B">
+              <ref role="3cqZAo" node="5b0tRkMS4c8" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="5b0tRkMSvi$" role="1Dwrff">
+            <node concept="37vLTw" id="5b0tRkMSviA" role="2$L3a6">
+              <ref role="3cqZAo" node="5b0tRkMS4c8" resolve="i" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="55DAcpL6JJU" role="3cqZAp">
-          <node concept="10Nm6u" id="55DAcpL6JMB" role="3cqZAk" />
+          <node concept="37vLTw" id="5b0tRkMRl25" role="3cqZAk">
+            <ref role="3cqZAo" node="5b0tRkMR49p" resolve="ipNode" />
+          </node>
         </node>
       </node>
     </node>
