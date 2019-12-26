@@ -11,6 +11,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.List;
+import java.util.ArrayList;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
@@ -117,39 +119,114 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitOperatorDefinition(TLAPlusGrammarParser.OperatorDefinitionContext ctx) {
-    return null;
+    SNode opdefNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac83fL, "TLA.structure.OperatorDefinition"));
+    SLinkOperations.setTarget(opdefNode, LINKS.Expr$96eD, ((SNode) visitExpression(ctx.expression())));
+    if (ctx.nonFixLHS() != null) {
+      SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, ((SNode) visitNonFixLHS(ctx.nonFixLHS())));
+    } else if (ctx.prefixOp() != null) {
+      SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
+      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(0).getText());
+      SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, ((SNode) visitPrefixOp(ctx.prefixOp())));
+    } else if (ctx.infixOp() != null) {
+      SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, "TLA.structure.IDAndInfixOpAndID")));
+      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID1$9c_w, ctx.Identifier(0).getText());
+      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID2$9cAu, ctx.Identifier(1).getText());
+      SPropertyOperations.assignEnum(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.InfixOp$9cO2, SPropertyOperations.getEnum(((SNode) visitInfixOp(ctx.infixOp())), PROPS.InfixOp$R0p0));
+    } else if (ctx.postfixOp() != null) {
+      SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8a8L, "TLA.structure.IDAndPostfixOp")));
+      SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$9dL0, ctx.Identifier(0).getText());
+      SPropertyOperations.assignEnum(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.PostfixOp$9dLY, SPropertyOperations.getEnum(((SNode) visitPostfixOp(ctx.postfixOp())), PROPS.PostfixOp$9dLY));
+    } else if (ctx.Identifier() != null && ctx.prefixOp() == null && ctx.infixOp() == null && ctx.postfixOp() == null) {
+      if ("DOMAIN".compareTo(ctx.Identifier(0).getText()) == 0) {
+        SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
+        SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb52L, "DOMAIN");
+        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+      } else if ("ENABLED".compareTo(ctx.Identifier(0).getText()) == 0) {
+        SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
+        SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb5aL, "ENABLED");
+        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+      } else if ("SUBSET".compareTo(ctx.Identifier(0).getText()) == 0) {
+        SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
+        SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb63L, "SUBSET");
+        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+      } else if ("UNCHANGED".compareTo(ctx.Identifier(0).getText()) == 0) {
+        SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
+        SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb6dL, "UNCHANGED");
+        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+      } else if ("UNION".compareTo(ctx.Identifier(0).getText()) == 0) {
+        SLinkOperations.setTarget(opdefNode, LINKS.LHS$963w, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, "TLA.structure.PrefixOpAndID")));
+        SLinkOperations.setTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode")));
+        SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), LINKS.PrefixOp$o_PB), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb78L, "UNION");
+        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(opdefNode, LINKS.LHS$963w)), PROPS.ID$96Yw, ctx.Identifier(1).getText());
+      }
+    }
+    return opdefNode;
   }
   @Override
   public Object visitQuantifierBoundList(TLAPlusGrammarParser.QuantifierBoundListContext ctx) {
-    return null;
+    List<SNode> qbList = new ArrayList<SNode>();
+    for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
+      ListSequence.fromList(qbList).addElement(((SNode) visitQuantifierBound(ctx.quantifierBound(i))));
+    }
+    return qbList;
   }
   @Override
   public Object visitFunctionDefinition(TLAPlusGrammarParser.FunctionDefinitionContext ctx) {
-    return null;
+    // id, quantifierbound and expr 
+    SNode fdefNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac94eL, "TLA.structure.FunctionDefinition"));
+    SLinkOperations.setTarget(fdefNode, LINKS.Expr$9s37, ((SNode) visitExpression(ctx.expression())));
+    SPropertyOperations.assign(fdefNode, PROPS.ID$9rR0, ctx.Identifier().getText());
+    ListSequence.fromList(SLinkOperations.getChildren(fdefNode, LINKS.QuantifierBound$9s29)).addSequence(ListSequence.fromList(((List<SNode>) visitQuantifierBoundList(ctx.quantifierBoundList()))));
+    return fdefNode;
   }
   @Override
   public Object visitSubstitutionList(TLAPlusGrammarParser.SubstitutionListContext ctx) {
-    return null;
+    List<SNode> sublist = new ArrayList<SNode>();
+    for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
+      ListSequence.fromList(sublist).addElement(((SNode) visitSubstitution(ctx.substitution(i))));
+    }
+    return sublist;
   }
   @Override
   public Object visitInstance(TLAPlusGrammarParser.InstanceContext ctx) {
-    return null;
+    // name et eventuellement substitutions 
+    SNode inst = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d38bL, "TLA.structure.Instance"));
+    SPropertyOperations.assign(inst, PROPS.Name$PEBZ, ctx.Name().getText());
+    if (ctx.substitutionList() != null) {
+      ListSequence.fromList(SLinkOperations.getChildren(inst, LINKS.Substitution$PF$y)).addSequence(ListSequence.fromList(((List<SNode>) visitSubstitutionList(ctx.substitutionList()))));
+    }
+    return inst;
   }
   @Override
   public Object visitModuleDefinition(TLAPlusGrammarParser.ModuleDefinitionContext ctx) {
-    return null;
+    SNode modDef = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb568a0L, "TLA.structure.ModuleDefinition"));
+    SLinkOperations.setTarget(modDef, LINKS.Instance$yUit, ((SNode) visitInstance(ctx.instance())));
+    SLinkOperations.setTarget(modDef, LINKS.NonFixLHS$uPR7, ((SNode) visitNonFixLHS(ctx.nonFixLHS())));
+    return modDef;
   }
   @Override
   public Object visitAssumption(TLAPlusGrammarParser.AssumptionContext ctx) {
-    return null;
+    SNode assNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd7bL, "TLA.structure.Assumption"));
+    SLinkOperations.setTarget(assNode, LINKS.Axiom$R8rY, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd85L, "TLA.structure.AxiomNode")));
+    if ("ASSUME".compareTo(ctx.Ass().getText()) == 0) {
+      SPropertyOperations.setEnum(SLinkOperations.getTarget(assNode, LINKS.Axiom$R8rY), PROPS.Axiom$R86b, 0x674b5e52c6e1bd7dL, "ASSUME");
+    } else if ("ASSUMPTION".compareTo(ctx.Ass().getText()) == 0) {
+      SPropertyOperations.setEnum(SLinkOperations.getTarget(assNode, LINKS.Axiom$R8rY), PROPS.Axiom$R86b, 0x674b5e52c6e1bd7eL, "ASSUMPTION");
+    } else if ("AXIOM".compareTo(ctx.Ass().getText()) == 0) {
+      SPropertyOperations.setEnum(SLinkOperations.getTarget(assNode, LINKS.Axiom$R8rY), PROPS.Axiom$R86b, 0x674b5e52c6e1bd81L, "AXIOM");
+    }
+    SLinkOperations.setTarget(assNode, LINKS.Expr$R8sW, ((SNode) visitExpression(ctx.expression())));
+    return assNode;
   }
   @Override
   public Object visitTheorem(TLAPlusGrammarParser.TheoremContext ctx) {
-    return null;
-  }
-  @Override
-  public Object visitUnderscoreList(TLAPlusGrammarParser.UnderscoreListContext ctx) {
-    return null;
+    SNode theoNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd65L, "TLA.structure.Theorem"));
+    SLinkOperations.setTarget(theoNode, LINKS.Expr$R270, ((SNode) visitExpression(ctx.expression())));
+    return theoNode;
   }
   @Override
   public Object visitOpDecl(TLAPlusGrammarParser.OpDeclContext ctx) {
@@ -205,11 +282,24 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitNonFixLHS(TLAPlusGrammarParser.NonFixLHSContext ctx) {
-    return null;
+    SNode nfl = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a4f8b04L, "TLA.structure.NonFixLHS"));
+    SPropertyOperations.assign(nfl, PROPS.ID$h$Dw, ctx.Identifier().getText());
+    if (ctx.opDeclList() != null) {
+      ListSequence.fromList(SLinkOperations.getChildren(nfl, LINKS.SetOfOpDecl$E0N2)).addSequence(ListSequence.fromList(((List<SNode>) visitOpDeclList(ctx.opDeclList()))));
+    }
+    return nfl;
   }
   @Override
   public Object visitQuantifierBound(TLAPlusGrammarParser.QuantifierBoundContext ctx) {
-    return null;
+    SNode qb = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8c1L, "TLA.structure.QuantifierBound"));
+    SLinkOperations.setTarget(qb, LINKS.Expr$9k_w, ((SNode) visitExpression(ctx.expression())));
+    // id ou tuple ou listid 
+    if (ctx.identifierList() != null) {
+      SLinkOperations.setTarget(qb, LINKS.IDs$9k$y, ((SNode) visitIdentifierList(ctx.identifierList())));
+    } else if (ctx.identifierOrTuple() != null) {
+      SLinkOperations.setTarget(qb, LINKS.IDs$9k$y, ((SNode) visitIdentifierOrTuple(ctx.identifierOrTuple())));
+    }
+    return qb;
   }
   @Override
   public Object visitSubstitution(TLAPlusGrammarParser.SubstitutionContext ctx) {
@@ -275,7 +365,15 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitIdentifierOrTuple(TLAPlusGrammarParser.IdentifierOrTupleContext ctx) {
-    return null;
+    SNode idortup = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getInterfaceConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8e1L, "TLA.structure.IdentifierOrTuple")));
+    if (ctx.TUPLELEFT() != null) {
+      idortup = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8c2L, "TLA.structure.Tuple"));
+      SLinkOperations.setTarget(((SNode) idortup), LINKS.IDList$9ej0, ((SNode) visitIdentifierList(ctx.identifierList())));
+    } else if (ctx.Identifier() != null) {
+      idortup = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
+      SPropertyOperations.assign(((SNode) idortup), PROPS.ID$ll3w, ctx.Identifier().getText());
+    }
+    return idortup;
   }
   @Override
   public Object visitPrefixOp(TLAPlusGrammarParser.PrefixOpContext ctx) {
@@ -295,11 +393,207 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   public Object visitInfixOp(TLAPlusGrammarParser.InfixOpContext ctx) {
     SNode ioNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd1cL, "TLA.structure.InfixOpNode"));
     if (ctx.ANTISLASHANTISLASHIN() != null) {
+      SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f5aaL, "AA63");
     } else if (ctx.ANTISLASHSLASH() != null) {
+      SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f1a8L, "AA45");
     } else if (ctx.EQUAL() != null) {
+      SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f040L, "AA35");
     } else if (ctx.POINT() != null) {
+      SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f361L, "AA53");
     } else if (ctx.SLASHANTISLASH() != null) {
+      SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ef60L, "AA28");
     } else {
+      if ("!!".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edccL, "AA1");
+      } else if ("#".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edcdL, "AA2");
+      } else if ("##".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edd0L, "AA3");
+      } else if ("$".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edd4L, "AA4");
+      } else if ("$$".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edd9L, "AA5");
+      } else if ("%".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43eddfL, "AA6");
+      } else if ("§§".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ede6L, "AA7");
+      } else if ("&".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edeeL, "AA8");
+      } else if ("&&".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edf7L, "AA9");
+      } else if ("(+)".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee01L, "AA10");
+      } else if ("(-)".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee0cL, "AA11");
+      } else if ("(.)".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee18L, "AA12");
+      } else if ("(/)".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee63L, "AA13");
+      } else if ("(\\X)".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ef0fL, "AA14");
+      } else if ("*".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee75L, "AA15");
+      } else if ("**".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee88L, "AA16");
+      } else if ("+".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee9cL, "AA17");
+      } else if ("++".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43eeb1L, "AA18");
+      } else if ("-".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43eec7L, "AA19");
+      } else if ("-+->".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43eedeL, "AA20");
+      } else if ("--".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43eef6L, "AA21");
+      } else if ("-|".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee25L, "AA22");
+      } else if ("..".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee33L, "AA23");
+      } else if ("...".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee42L, "AA24");
+      } else if ("/".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ee52L, "AA25");
+      } else if ("//".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ef29L, "AA26");
+      } else if ("/=".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43edcdL, "AA2");
+      } else if ("::=".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ef7dL, "AA29");
+      } else if (":=".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ef9bL, "AA30");
+      } else if (":>".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43efbaL, "AA31");
+      } else if ("<".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43efdaL, "AA32");
+      } else if ("<:".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43effbL, "AA33");
+      } else if ("<=>".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f01dL, "AA34");
+      } else if ("=<".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f064L, "AA36");
+      } else if ("=>".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f089L, "AA37");
+      } else if ("=|".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f0afL, "AA38");
+      } else if (">".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f203L, "AA39");
+      } else if (">=".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f0d6L, "AA40");
+      } else if ("?".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f0feL, "AA41");
+      } else if ("??".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f127L, "AA42");
+      } else if ("@@".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f151L, "AA43");
+      } else if ("\\".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f17cL, "AA44");
+      } else if ("^".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f1d5L, "AA46");
+      } else if ("^^".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f232L, "AA47");
+      } else if ("|".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f262L, "AA48");
+      } else if ("|-".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f293L, "AA49");
+      } else if ("|=".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f2c5L, "AA50");
+      } else if ("||".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f2f8L, "AA51");
+      } else if ("~>".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f32cL, "AA52");
+      } else if ("\\approx".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f397L, "AA54");
+      } else if ("\\geq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f3ceL, "AA55");
+      } else if ("\\oslash".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f406L, "AA56");
+      } else if ("\\sqsupseteq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f43fL, "AA57");
+      } else if ("\\asymp".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f479L, "AA58");
+      } else if ("\\gg".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f4b4L, "AA59");
+      } else if ("\\otimes".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f4f0L, "AA60");
+      } else if ("\\star".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f52dL, "AA61");
+      } else if ("\\bigcirc".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f56bL, "AA62");
+      } else if ("\\prec".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f5eaL, "AA64");
+      } else if ("\\subset".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f62bL, "AA65");
+      } else if ("\\bullet".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f66dL, "AA66");
+      } else if ("\\intersect".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f6b0L, "AA67");
+      } else if ("\\preceq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f6f4L, "AA68");
+      } else if ("\\subseteq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fb15L, "AA69");
+      } else if ("\\cap".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fb68L, "AA70");
+      } else if ("\\land".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f739L, "AA71");
+      } else if ("\\propto".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f77fL, "AA72");
+      } else if ("\\succ".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f7c6L, "AA73");
+      } else if ("\\cdot".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f80eL, "AA74");
+      } else if ("\\leq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f857L, "AA75");
+      } else if ("\\sim".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fbbcL, "AA76");
+      } else if ("\\succeq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f8a1L, "AA77");
+      } else if ("\\circ".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fcbeL, "AA87");
+      } else if ("\\ll".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f938L, "AA79");
+      } else if ("\\simeq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f985L, "AA80");
+      } else if ("\\supset".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43f9d3L, "AA81");
+      } else if ("\\cong".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fa22L, "AA82");
+      } else if ("\\lor".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fa72L, "AA83");
+      } else if ("\\sqcap".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fac3L, "AA84");
+      } else if ("\\supseteq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fc11L, "AA85");
+      } else if ("\\cup".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fc67L, "AA86");
+      } else if ("\\o".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fcbeL, "AA87");
+      } else if ("\\sqcup".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fd16L, "AA88");
+      } else if ("\\union".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fd6fL, "AA89");
+      } else if ("\\div".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fdc9L, "AA90");
+      } else if ("\\odot".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fe24L, "AA91");
+      } else if ("\\sqsubset".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fe80L, "AA92");
+      } else if ("\\uplus".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43feddL, "AA93");
+      } else if ("\\doteq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ff3bL, "AA94");
+      } else if ("\\ominus".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43ff9aL, "AA95");
+      } else if ("\\sqsubseteq".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a43fffaL, "AA96");
+      } else if ("\\wr".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a44005bL, "AA97");
+      } else if ("\\equiv".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a4400bdL, "AA98");
+      } else if ("\\oplus".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a440120L, "AA99");
+      } else if ("\\sqsupset".compareTo(ctx.getText()) == 0) {
+        SPropertyOperations.setEnum(((SNode) ioNode), PROPS.InfixOp$R0p0, 0x6b3146ab9a440184L, "AA100");
+      }
     }
     return ioNode;
   }
@@ -322,12 +616,22 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SProperty ID$ll3w = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, 0x43917a23f8d4d96cL, "ID");
     /*package*/ static final SProperty ModuleName$iAUB = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade19a4b0L, "ModuleName");
     /*package*/ static final SProperty ModuleName$Lfj0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade19ce77L, 0x66c514aade19ce78L, "ModuleName");
-    /*package*/ static final SProperty InfixOp$eE2F = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a44077bL, 0x6b3146ab9a44077cL, "InfixOp");
+    /*package*/ static final SProperty ID$96Yw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, 0x467903da84aac862L, "ID");
+    /*package*/ static final SProperty ID1$9c_w = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87bL, "ID1");
+    /*package*/ static final SProperty ID2$9cAu = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87dL, "ID2");
+    /*package*/ static final SProperty InfixOp$9cO2 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac884L, "InfixOp");
     /*package*/ static final SProperty InfixOp$R0p0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd1cL, 0x674b5e52c6e1bd1dL, "InfixOp");
+    /*package*/ static final SProperty ID$9dL0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8a8L, 0x467903da84aac8a9L, "ID");
+    /*package*/ static final SProperty PostfixOp$9dLY = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8a8L, 0x467903da84aac8abL, "PostfixOp");
+    /*package*/ static final SProperty PrefixOp$QUQw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, 0x674b5e52c6e1bd0dL, "PrefixOp");
+    /*package*/ static final SProperty ID$9rR0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac94eL, 0x467903da84aac94fL, "ID");
+    /*package*/ static final SProperty Name$PEBZ = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d38bL, 0x6b3146ab9a50d852L, "Name");
+    /*package*/ static final SProperty Axiom$R86b = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd85L, 0x674b5e52c6e1bd86L, "Axiom");
+    /*package*/ static final SProperty InfixOp$eE2F = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a44077bL, 0x6b3146ab9a44077cL, "InfixOp");
     /*package*/ static final SProperty PostfixOp$eDmw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a440761L, 0x6b3146ab9a440762L, "PostfixOp");
     /*package*/ static final SProperty PostfixOp$R0Q0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd2cL, 0x674b5e52c6e1bd2dL, "PostfixOp");
     /*package*/ static final SProperty OpId$vrV0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb8eb86L, 0x47bf6ca76cb8eb87L, "OpId");
-    /*package*/ static final SProperty PrefixOp$QUQw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, 0x674b5e52c6e1bd0dL, "PrefixOp");
+    /*package*/ static final SProperty ID$h$Dw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a4f8b04L, 0x6b3146ab9a4f8b05L, "ID");
   }
 
   private static final class LINKS {
@@ -342,6 +646,21 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SContainmentLink OpDeclarations$75Cw = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb55cffL, 0x47bf6ca76cb55d00L, "OpDeclarations");
     /*package*/ static final SContainmentLink IDList$Xpjd = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d0789L, 0x43917a23f8d4d97aL, "IDList");
     /*package*/ static final SContainmentLink OpDeclL$PA7w = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d07c2L, 0x47bf6ca76cb55cfdL, "OpDeclL");
+    /*package*/ static final SContainmentLink Expr$96eD = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac83fL, 0x467903da84aac842L, "Expr");
+    /*package*/ static final SContainmentLink LHS$963w = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac83fL, 0x467903da84aac840L, "LHS");
+    /*package*/ static final SContainmentLink PrefixOp$o_PB = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, 0x42571c54e9b4c52cL, "PrefixOp");
+    /*package*/ static final SContainmentLink Expr$9s37 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac94eL, 0x467903da84aac953L, "Expr");
+    /*package*/ static final SContainmentLink QuantifierBound$9s29 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac94eL, 0x467903da84aac951L, "QuantifierBound");
+    /*package*/ static final SContainmentLink Substitution$PF$y = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d38bL, 0x6b3146ab9a50d87bL, "Substitution");
+    /*package*/ static final SContainmentLink Instance$yUit = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb568a0L, 0x6b3146ab9a50d38cL, "Instance");
+    /*package*/ static final SContainmentLink NonFixLHS$uPR7 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb568a0L, 0x6b3146ab9a50cdecL, "NonFixLHS");
+    /*package*/ static final SContainmentLink Axiom$R8rY = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd7bL, 0x674b5e52c6e1bd9fL, "Axiom");
+    /*package*/ static final SContainmentLink Expr$R8sW = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd7bL, 0x674b5e52c6e1bda1L, "Expr");
+    /*package*/ static final SContainmentLink Expr$R270 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd65L, 0x674b5e52c6e1bd66L, "Expr");
     /*package*/ static final SContainmentLink PrefixOp$_Bcn = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a436213L, 0x42571c54e9b4cd97L, "PrefixOp");
+    /*package*/ static final SContainmentLink SetOfOpDecl$E0N2 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a4f8b04L, 0x6b3146ab9a4f9c12L, "SetOfOpDecl");
+    /*package*/ static final SContainmentLink Expr$9k_w = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8c1L, 0x467903da84aac8f9L, "Expr");
+    /*package*/ static final SContainmentLink IDs$9k$y = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8c1L, 0x467903da84aac8f7L, "IDs");
+    /*package*/ static final SContainmentLink IDList$9ej0 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8c2L, 0x467903da84aac8c3L, "IDList");
   }
 }
