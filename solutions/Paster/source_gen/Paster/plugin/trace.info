@@ -355,624 +355,625 @@
       <node id="3378885719450504460" at="58,39,59,49" concept="3" />
       <node id="3378885719450523374" at="60,38,61,47" concept="3" />
       <node id="3378885719450552779" at="62,41,63,165" concept="3" />
-      <node id="3378885719450596885" at="63,165,64,44" concept="11" />
-      <node id="3378885719450969023" at="66,32,67,181" concept="3" />
-      <node id="3378885719450971381" at="67,181,68,127" concept="3" />
-      <node id="3378885719450638382" at="69,14,70,73" concept="3" />
-      <node id="3378885719451030891" at="73,32,74,181" concept="3" />
-      <node id="3378885719451030897" at="74,181,75,126" concept="3" />
-      <node id="3378885719451030919" at="76,14,77,73" concept="3" />
-      <node id="3378885719451076170" at="80,32,81,171" concept="3" />
-      <node id="3378885719451076176" at="81,171,82,110" concept="3" />
-      <node id="3378885719451076198" at="83,14,84,53" concept="3" />
-      <node id="3378885719451095094" at="87,32,88,179" concept="3" />
-      <node id="3378885719451095100" at="88,179,89,124" concept="3" />
-      <node id="3378885719451095122" at="90,14,91,69" concept="3" />
-      <node id="3378885719448205988" at="93,5,94,14" concept="10" />
-      <node id="3378885719451240872" at="97,77,98,174" concept="9" />
-      <node id="3378885719451222508" at="99,61,100,19" concept="9" />
-      <node id="3378885719451222514" at="100,19,101,52" concept="3" />
-      <node id="3378885719451222526" at="101,52,102,111" concept="3" />
-      <node id="5866387967695246901" at="103,5,104,18" concept="10" />
-      <node id="3378885719448641904" at="107,95,108,183" concept="9" />
-      <node id="3378885719449525193" at="108,183,109,69" concept="9" />
-      <node id="3378885719449551064" at="109,69,110,65" concept="3" />
-      <node id="5866387967695253188" at="110,65,111,18" concept="10" />
-      <node id="3378885719448573879" at="114,95,115,183" concept="9" />
-      <node id="3378885719451349780" at="115,183,116,61" concept="9" />
-      <node id="3378885719451373279" at="116,61,117,66" concept="3" />
-      <node id="5866387967695256658" at="117,66,118,18" concept="10" />
-      <node id="3378885719458150812" at="121,93,122,185" concept="9" />
-      <node id="3378885719458190689" at="122,185,123,103" concept="3" />
-      <node id="3378885719458769076" at="124,34,125,102" concept="3" />
-      <node id="3378885719459089828" at="126,40,127,218" concept="3" />
-      <node id="3378885719459189462" at="127,218,128,138" concept="3" />
-      <node id="3378885719459230205" at="128,138,129,158" concept="3" />
-      <node id="3378885719459096806" at="130,39,131,222" concept="3" />
-      <node id="3378885719459282534" at="131,222,132,139" concept="3" />
-      <node id="3378885719459317844" at="132,139,133,139" concept="3" />
-      <node id="3378885719459299087" at="133,139,134,209" concept="3" />
-      <node id="3378885719459103351" at="135,41,136,219" concept="3" />
-      <node id="3378885719459290248" at="136,219,137,138" concept="3" />
-      <node id="3378885719459306135" at="137,138,138,217" concept="3" />
-      <node id="3378885719458616910" at="140,65,141,220" concept="3" />
-      <node id="3378885719458616916" at="141,220,142,277" concept="3" />
-      <node id="3378885719458616927" at="142,277,143,200" concept="3" />
-      <node id="3378885719459116773" at="143,200,144,140" concept="3" />
-      <node id="3378885719458897710" at="145,73,146,220" concept="3" />
-      <node id="3378885719458616968" at="146,220,147,277" concept="3" />
-      <node id="3378885719458616979" at="147,277,148,201" concept="3" />
-      <node id="3378885719459157398" at="148,201,149,140" concept="3" />
-      <node id="3378885719458899822" at="150,72,151,220" concept="3" />
-      <node id="3378885719458617010" at="151,220,152,277" concept="3" />
-      <node id="3378885719458617021" at="152,277,153,200" concept="3" />
-      <node id="3378885719459165432" at="153,200,154,140" concept="3" />
-      <node id="3378885719458900551" at="155,75,156,220" concept="3" />
-      <node id="3378885719458617052" at="156,220,157,277" concept="3" />
-      <node id="3378885719458617063" at="157,277,158,203" concept="3" />
-      <node id="3378885719459173048" at="158,203,159,140" concept="3" />
-      <node id="3378885719458901400" at="160,71,161,220" concept="3" />
-      <node id="3378885719458617094" at="161,220,162,277" concept="3" />
-      <node id="3378885719458617105" at="162,277,163,199" concept="3" />
-      <node id="3378885719459180680" at="163,199,164,140" concept="3" />
-      <node id="5866387967695257297" at="166,5,167,21" concept="10" />
-      <node id="3378885719460200735" at="170,95,171,48" concept="9" />
-      <node id="3378885719460342862" at="172,61,173,103" concept="3" />
-      <node id="5866387967695260761" at="174,5,175,18" concept="10" />
-      <node id="3378885719459597261" at="178,93,179,36" concept="11" />
-      <node id="3378885719459708697" at="179,36,180,184" concept="9" />
-      <node id="3378885719459752964" at="180,184,181,102" concept="3" />
-      <node id="3378885719459808543" at="181,102,182,84" concept="3" />
-      <node id="3378885719459873813" at="182,84,183,197" concept="3" />
-      <node id="5866387967695267064" at="183,197,184,20" concept="10" />
-      <node id="3378885719462041958" at="187,89,188,49" concept="9" />
-      <node id="3378885719462240352" at="189,61,190,98" concept="3" />
-      <node id="5866387967695270542" at="191,5,192,19" concept="10" />
-      <node id="3378885719461438945" at="195,73,196,44" concept="11" />
-      <node id="3378885719461506418" at="196,44,197,170" concept="9" />
-      <node id="3378885719461806479" at="197,170,198,76" concept="3" />
-      <node id="3378885719461874864" at="199,41,200,186" concept="3" />
-      <node id="5866387967695274022" at="201,5,202,16" concept="10" />
-      <node id="3378885719464125597" at="205,89,206,180" concept="9" />
-      <node id="3378885719464217835" at="206,180,207,100" concept="3" />
-      <node id="3378885719464311303" at="207,100,208,103" concept="3" />
-      <node id="5866387967695277504" at="208,103,209,18" concept="10" />
-      <node id="3378885719457562150" at="212,77,213,175" concept="9" />
-      <node id="3378885719457970767" at="213,175,214,212" concept="3" />
-      <node id="3378885719457937393" at="215,55,216,137" concept="3" />
-      <node id="3378885719457944751" at="217,66,218,141" concept="3" />
-      <node id="3378885719457950574" at="219,61,220,136" concept="3" />
-      <node id="3378885719457658912" at="221,5,222,101" concept="3" />
-      <node id="5866387967695281436" at="222,101,223,19" concept="10" />
-      <node id="3378885719458048029" at="226,71,227,173" concept="9" />
-      <node id="3378885719458074285" at="227,173,228,102" concept="3" />
-      <node id="5866387967695284922" at="228,102,229,20" concept="10" />
-      <node id="3378885719451399024" at="232,69,233,170" concept="9" />
-      <node id="3378885719451634255" at="234,32,235,191" concept="3" />
-      <node id="3378885719451635686" at="235,191,236,163" concept="3" />
-      <node id="3378885719451661563" at="237,41,238,183" concept="3" />
-      <node id="3378885719451661980" at="238,183,239,171" concept="3" />
-      <node id="3378885719451678497" at="240,40,241,182" concept="3" />
-      <node id="3378885719451678934" at="241,182,242,112" concept="3" />
-      <node id="3378885719451727702" at="243,46,244,176" concept="3" />
-      <node id="3378885719451817326" at="244,176,245,102" concept="3" />
-      <node id="3378885719451901690" at="245,102,246,87" concept="3" />
-      <node id="3378885719451951729" at="247,80,248,90" concept="3" />
-      <node id="3378885719451836051" at="249,7,250,87" concept="3" />
-      <node id="3378885719454816999" at="252,65,253,184" concept="3" />
-      <node id="3378885719455541989" at="253,184,254,231" concept="3" />
-      <node id="3378885719454567953" at="254,231,255,154" concept="3" />
-      <node id="3378885719455134848" at="256,73,257,184" concept="3" />
-      <node id="3378885719455541339" at="257,184,258,231" concept="3" />
-      <node id="3378885719455135278" at="258,231,259,155" concept="3" />
-      <node id="3378885719455179406" at="260,72,261,184" concept="3" />
-      <node id="3378885719455540898" at="261,184,262,231" concept="3" />
-      <node id="3378885719455179664" at="262,231,263,154" concept="3" />
-      <node id="3378885719455218176" at="264,75,265,184" concept="3" />
-      <node id="3378885719455540187" at="265,184,266,231" concept="3" />
-      <node id="3378885719455217248" at="266,231,267,157" concept="3" />
-      <node id="3378885719455259348" at="268,71,269,184" concept="3" />
-      <node id="3378885719455414346" at="269,184,270,231" concept="3" />
-      <node id="3378885719455259714" at="270,231,271,153" concept="3" />
-      <node id="3378885719451757817" at="272,14,273,176" concept="3" />
-      <node id="3378885719451758960" at="273,176,274,96" concept="3" />
-      <node id="5866387967695291900" at="276,5,277,18" concept="10" />
-      <node id="3378885719462337084" at="281,75,282,170" concept="9" />
-      <node id="3378885719462460631" at="282,170,283,79" concept="3" />
-      <node id="3378885719462873186" at="284,35,285,172" concept="3" />
-      <node id="5866387967695298878" at="286,5,287,15" concept="10" />
-      <node id="3378885719460417590" at="290,87,291,175" concept="9" />
-      <node id="3378885719460496425" at="291,175,292,96" concept="3" />
-      <node id="3378885719460648540" at="292,96,293,29" concept="11" />
-      <node id="3378885719460810286" at="294,39,295,105" concept="3" />
-      <node id="3378885719460856623" at="296,49,297,111" concept="3" />
-      <node id="5866387967695302374" at="298,5,299,14" concept="10" />
-      <node id="9150185381761598012" at="302,81,303,173" concept="9" />
-      <node id="9150185381761707540" at="303,173,304,92" concept="3" />
-      <node id="9150185381762097258" at="305,32,306,99" concept="3" />
-      <node id="9150185381762097293" at="307,41,308,103" concept="3" />
-      <node id="9150185381762097323" at="309,40,310,101" concept="3" />
-      <node id="9150185381762097434" at="312,64,313,220" concept="3" />
-      <node id="9150185381762097451" at="313,220,314,153" concept="3" />
-      <node id="9150185381762097486" at="315,72,316,220" concept="3" />
-      <node id="9150185381762097503" at="316,220,317,154" concept="3" />
-      <node id="9150185381762097528" at="318,71,319,220" concept="3" />
-      <node id="9150185381762097545" at="319,220,320,153" concept="3" />
-      <node id="9150185381762097570" at="321,74,322,220" concept="3" />
-      <node id="9150185381762097587" at="322,220,323,156" concept="3" />
-      <node id="9150185381762097612" at="324,70,325,220" concept="3" />
-      <node id="9150185381762097629" at="325,220,326,152" concept="3" />
-      <node id="9150185381762097644" at="327,14,328,222" concept="3" />
-      <node id="9150185381762097650" at="328,222,329,143" concept="3" />
-      <node id="5866387967695308735" at="331,5,332,15" concept="10" />
-      <node id="9150185381763379095" at="335,73,336,169" concept="9" />
-      <node id="9150185381763417385" at="337,35,338,56" concept="3" />
-      <node id="9150185381763506129" at="339,46,340,64" concept="3" />
-      <node id="9150185381763550910" at="341,48,342,68" concept="3" />
-      <node id="9150185381763606157" at="343,47,344,66" concept="3" />
-      <node id="5866387967695315100" at="345,5,346,15" concept="10" />
-      <node id="9150185381763724401" at="349,85,350,50" concept="9" />
-      <node id="9150185381763960880" at="351,61,352,95" concept="3" />
-      <node id="5866387967695318602" at="353,5,354,20" concept="10" />
-      <node id="5962897251887260726" at="357,97,358,181" concept="9" />
-      <node id="5962897251887401026" at="358,181,359,79" concept="3" />
-      <node id="5962897251887673897" at="360,39,361,174" concept="3" />
-      <node id="5962897251886615180" at="362,5,363,15" concept="10" />
-      <node id="5962897251886711382" at="366,85,367,178" concept="9" />
-      <node id="5962897251887085334" at="368,51,369,203" concept="3" />
-      <node id="5866387967695322106" at="370,5,371,18" concept="10" />
-      <node id="9150185381764288480" at="374,91,375,178" concept="9" />
-      <node id="9150185381764435900" at="375,178,376,79" concept="3" />
-      <node id="9150185381764554535" at="377,39,378,117" concept="3" />
-      <node id="5866387967695325612" at="379,5,380,15" concept="10" />
-      <node id="9150185381764667924" at="383,87,384,177" concept="9" />
-      <node id="9150185381764907171" at="384,177,385,98" concept="3" />
-      <node id="9150185381764794640" at="386,39,387,118" concept="3" />
-      <node id="5866387967695329120" at="388,5,389,16" concept="10" />
-      <node id="9150185381765010696" at="392,85,393,175" concept="9" />
-      <node id="9150185381765218457" at="393,175,394,57" concept="9" />
-      <node id="9150185381765093400" at="394,57,395,117" concept="3" />
-      <node id="9150185381765323814" at="396,39,397,117" concept="3" />
-      <node id="5866387967695332630" at="398,5,399,15" concept="10" />
-      <node id="9150185381765526883" at="402,89,403,177" concept="9" />
-      <node id="9150185381765743361" at="403,177,404,61" concept="9" />
-      <node id="9150185381765659067" at="404,61,405,121" concept="3" />
-      <node id="9150185381765909212" at="406,39,407,117" concept="3" />
-      <node id="5866387967695339019" at="408,5,409,15" concept="10" />
-      <node id="5866387967695345404" at="412,71,413,16" concept="10" />
-      <node id="5866387967695348920" at="416,91,417,16" concept="10" />
-      <node id="5866387967695355321" at="420,91,421,16" concept="10" />
-      <node id="5866387967695358841" at="424,77,425,16" concept="10" />
-      <node id="5866387967695362363" at="428,77,429,18" concept="10" />
-      <node id="384861153814447436" at="432,85,433,178" concept="9" />
-      <node id="384861153814876207" at="434,61,435,180" concept="9" />
-      <node id="384861153814883355" at="435,180,436,85" concept="3" />
-      <node id="384861153814911336" at="436,85,437,99" concept="3" />
-      <node id="5866387967695365887" at="438,5,439,18" concept="10" />
-      <node id="3378885719460899254" at="442,91,443,226" concept="9" />
-      <node id="3378885719461005038" at="444,34,445,166" concept="3" />
-      <node id="3378885719461008001" at="445,166,446,123" concept="3" />
-      <node id="3378885719461312000" at="447,42,448,175" concept="3" />
-      <node id="3378885719461323445" at="448,175,449,95" concept="3" />
-      <node id="5866387967695369413" at="450,5,451,19" concept="10" />
-      <node id="3378885719451964715" at="454,73,455,176" concept="9" />
-      <node id="3378885719452098993" at="456,31,457,104" concept="3" />
-      <node id="3378885719454046397" at="458,52,459,105" concept="3" />
-      <node id="3378885719454446313" at="460,134,461,101" concept="3" />
-      <node id="3378885719454559416" at="462,51,463,102" concept="3" />
-      <node id="5866387967695372941" at="464,5,465,18" concept="10" />
-      <node id="3378885719452174320" at="468,71,469,175" concept="9" />
-      <node id="3378885719456073874" at="470,45,471,101" concept="3" />
-      <node id="3378885719456091213" at="472,46,473,101" concept="3" />
-      <node id="3378885719456107453" at="474,37,475,101" concept="3" />
-      <node id="3378885719456117015" at="476,37,477,101" concept="3" />
-      <node id="3378885719456126251" at="478,46,479,101" concept="3" />
-      <node id="3378885719456164900" at="481,47,482,102" concept="3" />
-      <node id="3378885719456218105" at="483,53,484,102" concept="3" />
-      <node id="3378885719456224358" at="485,54,486,102" concept="3" />
-      <node id="3378885719456230267" at="487,53,488,102" concept="3" />
-      <node id="3378885719456238314" at="489,54,490,102" concept="3" />
-      <node id="3378885719456244157" at="491,53,492,102" concept="3" />
-      <node id="3378885719456252381" at="493,54,494,102" concept="3" />
-      <node id="3378885719456256667" at="495,53,496,102" concept="3" />
-      <node id="3378885719456265018" at="497,54,498,102" concept="3" />
-      <node id="3378885719456271282" at="499,55,500,103" concept="3" />
-      <node id="3378885719456279703" at="501,55,502,103" concept="3" />
-      <node id="3378885719456286087" at="503,55,504,103" concept="3" />
-      <node id="3378885719456294759" at="505,55,506,103" concept="3" />
-      <node id="3378885719456298127" at="507,57,508,103" concept="3" />
-      <node id="3378885719456306191" at="509,53,510,103" concept="3" />
-      <node id="3378885719456313109" at="511,54,512,103" concept="3" />
-      <node id="3378885719456319774" at="513,53,514,103" concept="3" />
-      <node id="3378885719456328126" at="515,54,516,103" concept="3" />
-      <node id="3378885719456335212" at="517,53,518,103" concept="3" />
-      <node id="3378885719456343277" at="519,56,520,103" concept="3" />
-      <node id="3378885719456349992" at="521,54,522,103" concept="3" />
-      <node id="3378885719456355198" at="523,54,524,103" concept="3" />
-      <node id="3378885719456363574" at="525,54,526,103" concept="3" />
-      <node id="3378885719456369001" at="527,55,528,103" concept="3" />
-      <node id="3378885719456377411" at="529,53,530,103" concept="3" />
-      <node id="3378885719456382617" at="531,54,532,103" concept="3" />
-      <node id="3378885719456390288" at="533,54,534,102" concept="3" />
-      <node id="3378885719456394964" at="535,55,536,103" concept="3" />
-      <node id="3378885719456402759" at="537,54,538,103" concept="3" />
-      <node id="3378885719456412725" at="539,54,540,103" concept="3" />
-      <node id="3378885719456420320" at="541,53,542,103" concept="3" />
-      <node id="3378885719456429929" at="543,54,544,103" concept="3" />
-      <node id="3378885719456437098" at="545,55,546,103" concept="3" />
-      <node id="3378885719456441864" at="547,54,548,103" concept="3" />
-      <node id="3378885719456448073" at="549,54,550,103" concept="3" />
-      <node id="3378885719456457383" at="551,54,552,103" concept="3" />
-      <node id="3378885719456463537" at="553,53,554,103" concept="3" />
-      <node id="3378885719456471376" at="555,54,556,103" concept="3" />
-      <node id="3378885719456480245" at="557,53,558,103" concept="3" />
-      <node id="3378885719456488475" at="559,54,560,103" concept="3" />
-      <node id="3378885719456498063" at="561,54,562,103" concept="3" />
-      <node id="3378885719456505359" at="563,54,564,103" concept="3" />
-      <node id="3378885719456511992" at="565,53,566,103" concept="3" />
-      <node id="3378885719456522157" at="567,54,568,103" concept="3" />
-      <node id="3378885719456532057" at="569,53,570,103" concept="3" />
-      <node id="3378885719456540319" at="571,54,572,103" concept="3" />
-      <node id="3378885719456547363" at="573,54,574,103" concept="3" />
-      <node id="3378885719456554159" at="575,54,576,103" concept="3" />
-      <node id="3378885719456564198" at="577,54,578,103" concept="3" />
-      <node id="3378885719456573886" at="579,60,580,103" concept="3" />
-      <node id="3378885719456582528" at="581,57,582,103" concept="3" />
-      <node id="3378885719456592715" at="583,60,584,103" concept="3" />
-      <node id="3378885719456599805" at="585,64,586,103" concept="3" />
-      <node id="3378885719456610532" at="587,59,588,103" concept="3" />
-      <node id="3378885719456619432" at="589,56,590,103" concept="3" />
-      <node id="3378885719456626154" at="591,60,592,103" concept="3" />
-      <node id="3378885719456637211" at="593,58,594,103" concept="3" />
-      <node id="3378885719456648317" at="595,61,596,103" concept="3" />
-      <node id="3378885719456657433" at="597,58,598,103" concept="3" />
-      <node id="3378885719456664663" at="599,60,600,103" concept="3" />
-      <node id="3378885719456675146" at="601,60,602,103" concept="3" />
-      <node id="3378885719456682935" at="603,63,604,103" concept="3" />
-      <node id="3378885719456694138" at="605,60,606,103" concept="3" />
-      <node id="3378885719456701748" at="607,62,608,103" concept="3" />
-      <node id="3378885719456714741" at="609,57,610,103" concept="3" />
-      <node id="3378885719456721550" at="611,58,612,103" concept="3" />
-      <node id="3378885719456732426" at="613,60,614,103" concept="3" />
-      <node id="3378885719456744032" at="615,58,616,103" concept="3" />
-      <node id="3378885719456751742" at="617,58,618,103" concept="3" />
-      <node id="3378885719456763079" at="619,57,620,103" concept="3" />
-      <node id="3378885719456771455" at="621,57,622,103" concept="3" />
-      <node id="3378885719456783242" at="623,60,624,103" concept="3" />
-      <node id="3378885719456793914" at="625,58,626,103" concept="3" />
-      <node id="3378885719456802734" at="627,56,628,103" concept="3" />
-      <node id="3378885719456813506" at="629,59,630,103" concept="3" />
-      <node id="3378885719456823638" at="631,60,632,103" concept="3" />
-      <node id="3378885719456835192" at="633,58,634,103" concept="3" />
-      <node id="3378885719456844937" at="635,57,636,103" concept="3" />
-      <node id="3378885719456857148" at="637,59,638,103" concept="3" />
-      <node id="3378885719456867506" at="639,62,640,103" concept="3" />
-      <node id="3378885719456879047" at="641,57,642,103" concept="3" />
-      <node id="3378885719456890327" at="643,55,644,103" concept="3" />
-      <node id="3378885719456901149" at="645,59,646,103" concept="3" />
-      <node id="3378885719456914051" at="647,59,648,103" concept="3" />
-      <node id="3378885719456926307" at="649,57,650,103" concept="3" />
-      <node id="3378885719456935773" at="651,58,652,103" concept="3" />
-      <node id="3378885719456947277" at="653,62,654,103" concept="3" />
-      <node id="3378885719456957607" at="655,59,656,103" concept="3" />
-      <node id="3378885719456970025" at="657,59,658,103" concept="3" />
-      <node id="3378885719456982519" at="659,60,660,103" concept="3" />
-      <node id="3378885719456993246" at="661,64,662,103" concept="3" />
-      <node id="3378885719457007030" at="663,56,664,103" concept="3" />
-      <node id="3378885719457018914" at="665,59,666,103" concept="3" />
-      <node id="3378885719457030274" at="667,59,668,103" concept="3" />
-      <node id="3378885719457038939" at="669,62,670,104" concept="3" />
-      <node id="5866387967695379366" at="672,5,673,18" concept="10" />
-      <node id="3378885719452576922" at="676,75,677,177" concept="9" />
-      <node id="3378885719455745622" at="678,45,679,101" concept="3" />
-      <node id="3378885719455789822" at="680,52,681,101" concept="3" />
-      <node id="3378885719455823626" at="682,52,683,101" concept="3" />
-      <node id="3378885719455857087" at="684,51,685,101" concept="3" />
-      <node id="5866387967695386054" at="686,5,687,18" concept="10" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="691,0,692,0" concept="13" trace="ID$ll3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="692,0,693,0" concept="13" trace="ModuleName$iAUB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="693,0,694,0" concept="13" trace="ModuleName$Lfj0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="694,0,695,0" concept="13" trace="ID$96Yw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="695,0,696,0" concept="13" trace="ID1$9c_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="696,0,697,0" concept="13" trace="ID2$9cAu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="697,0,698,0" concept="13" trace="InfixOp$9cO2" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="698,0,699,0" concept="13" trace="InfixOp$R0p0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="699,0,700,0" concept="13" trace="ID$9dL0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="700,0,701,0" concept="13" trace="PostfixOp$9dLY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="701,0,702,0" concept="13" trace="PrefixOp$QUQw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="702,0,703,0" concept="13" trace="ID$9rR0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="703,0,704,0" concept="13" trace="Name$PEBZ" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="704,0,705,0" concept="13" trace="Axiom$R86b" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="705,0,706,0" concept="13" trace="InfixOp$eE2F" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="706,0,707,0" concept="13" trace="PostfixOp$eDmw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="707,0,708,0" concept="13" trace="PostfixOp$R0Q0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="708,0,709,0" concept="13" trace="OpId$vrV0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="709,0,710,0" concept="13" trace="ID$h$Dw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="710,0,711,0" concept="13" trace="ID$Rfqu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="711,0,712,0" concept="13" trace="ID$gqRE" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="712,0,713,0" concept="13" trace="InfixOp$gwW6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="713,0,714,0" concept="13" trace="PostfixOp$gxrA" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="717,0,718,0" concept="13" trace="ID$llx0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="718,0,719,0" concept="13" trace="SetOfModuleNames$Bn0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="719,0,720,0" concept="13" trace="ListM$Vevw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="720,0,721,0" concept="13" trace="SetOfUnits$fqCa" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="721,0,722,0" concept="13" trace="OpDef$GiEw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="722,0,723,0" concept="13" trace="FDef$Giaw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="723,0,724,0" concept="13" trace="Instance$iKCK" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="724,0,725,0" concept="13" trace="ModDef$8ulG" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="725,0,726,0" concept="13" trace="OpDeclarations$75Cw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="726,0,727,0" concept="13" trace="IDList$Xpjd" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="727,0,728,0" concept="13" trace="OpDeclL$PA7w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="728,0,729,0" concept="13" trace="Expr$96eD" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="729,0,730,0" concept="13" trace="LHS$963w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="730,0,731,0" concept="13" trace="PrefixOp$o_PB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="731,0,732,0" concept="13" trace="Expr$9s37" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="732,0,733,0" concept="13" trace="QuantifierBound$9s29" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="733,0,734,0" concept="13" trace="Substitution$PF$y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="734,0,735,0" concept="13" trace="Instance$yUit" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="735,0,736,0" concept="13" trace="NonFixLHS$uPR7" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="736,0,737,0" concept="13" trace="Axiom$R8rY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="737,0,738,0" concept="13" trace="Expr$R8sW" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="738,0,739,0" concept="13" trace="Expr$R270" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="739,0,740,0" concept="13" trace="PrefixOp$_Bcn" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="740,0,741,0" concept="13" trace="SetOfOpDecl$E0N2" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="741,0,742,0" concept="13" trace="Expr$9k_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="742,0,743,0" concept="13" trace="IDs$9k$y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="743,0,744,0" concept="13" trace="Arg$KZn6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="744,0,745,0" concept="13" trace="substitLHS$KYGu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="745,0,746,0" concept="13" trace="Exprs$RfPA" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="746,0,747,0" concept="13" trace="InstancePrefixList$ReYU" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="747,0,748,0" concept="13" trace="InstancePrefix$gqQG" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="748,0,749,0" concept="13" trace="PrefixOp$2zjg" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="749,0,750,0" concept="13" trace="InstancePrefix$grn6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="750,0,751,0" concept="13" trace="InstancePrefix$gwX4" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="751,0,752,0" concept="13" trace="InstancePrefix$gxs$" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="752,0,753,0" concept="13" trace="IDList$9ej0" />
-      <node id="3378885719451004612" at="69,12,71,7" concept="0" />
-      <node id="3378885719451030917" at="76,12,78,7" concept="0" />
-      <node id="3378885719451076196" at="83,12,85,7" concept="0" />
-      <node id="3378885719451095120" at="90,12,92,7" concept="0" />
+      <node id="5962897251890695123" at="63,165,64,87" concept="3" />
+      <node id="3378885719450596885" at="64,87,65,44" concept="11" />
+      <node id="3378885719450969023" at="67,32,68,181" concept="3" />
+      <node id="3378885719450971381" at="68,181,69,127" concept="3" />
+      <node id="3378885719450638382" at="70,14,71,73" concept="3" />
+      <node id="3378885719451030891" at="74,32,75,181" concept="3" />
+      <node id="3378885719451030897" at="75,181,76,126" concept="3" />
+      <node id="3378885719451030919" at="77,14,78,73" concept="3" />
+      <node id="3378885719451076170" at="81,32,82,171" concept="3" />
+      <node id="3378885719451076176" at="82,171,83,110" concept="3" />
+      <node id="3378885719451076198" at="84,14,85,53" concept="3" />
+      <node id="3378885719451095094" at="88,32,89,179" concept="3" />
+      <node id="3378885719451095100" at="89,179,90,124" concept="3" />
+      <node id="3378885719451095122" at="91,14,92,69" concept="3" />
+      <node id="3378885719448205988" at="94,5,95,14" concept="10" />
+      <node id="3378885719451240872" at="98,77,99,174" concept="9" />
+      <node id="3378885719451222508" at="100,61,101,19" concept="9" />
+      <node id="3378885719451222514" at="101,19,102,52" concept="3" />
+      <node id="3378885719451222526" at="102,52,103,111" concept="3" />
+      <node id="5866387967695246901" at="104,5,105,18" concept="10" />
+      <node id="3378885719448641904" at="108,95,109,183" concept="9" />
+      <node id="3378885719449525193" at="109,183,110,69" concept="9" />
+      <node id="3378885719449551064" at="110,69,111,65" concept="3" />
+      <node id="5866387967695253188" at="111,65,112,18" concept="10" />
+      <node id="3378885719448573879" at="115,95,116,183" concept="9" />
+      <node id="3378885719451349780" at="116,183,117,61" concept="9" />
+      <node id="3378885719451373279" at="117,61,118,66" concept="3" />
+      <node id="5866387967695256658" at="118,66,119,18" concept="10" />
+      <node id="3378885719458150812" at="122,93,123,185" concept="9" />
+      <node id="3378885719458190689" at="123,185,124,103" concept="3" />
+      <node id="3378885719458769076" at="125,34,126,102" concept="3" />
+      <node id="3378885719459089828" at="127,40,128,218" concept="3" />
+      <node id="3378885719459189462" at="128,218,129,138" concept="3" />
+      <node id="3378885719459230205" at="129,138,130,158" concept="3" />
+      <node id="3378885719459096806" at="131,39,132,222" concept="3" />
+      <node id="3378885719459282534" at="132,222,133,139" concept="3" />
+      <node id="3378885719459317844" at="133,139,134,139" concept="3" />
+      <node id="3378885719459299087" at="134,139,135,209" concept="3" />
+      <node id="3378885719459103351" at="136,41,137,219" concept="3" />
+      <node id="3378885719459290248" at="137,219,138,138" concept="3" />
+      <node id="3378885719459306135" at="138,138,139,217" concept="3" />
+      <node id="3378885719458616910" at="141,65,142,220" concept="3" />
+      <node id="3378885719458616916" at="142,220,143,277" concept="3" />
+      <node id="3378885719458616927" at="143,277,144,200" concept="3" />
+      <node id="3378885719459116773" at="144,200,145,140" concept="3" />
+      <node id="3378885719458897710" at="146,73,147,220" concept="3" />
+      <node id="3378885719458616968" at="147,220,148,277" concept="3" />
+      <node id="3378885719458616979" at="148,277,149,201" concept="3" />
+      <node id="3378885719459157398" at="149,201,150,140" concept="3" />
+      <node id="3378885719458899822" at="151,72,152,220" concept="3" />
+      <node id="3378885719458617010" at="152,220,153,277" concept="3" />
+      <node id="3378885719458617021" at="153,277,154,200" concept="3" />
+      <node id="3378885719459165432" at="154,200,155,140" concept="3" />
+      <node id="3378885719458900551" at="156,75,157,220" concept="3" />
+      <node id="3378885719458617052" at="157,220,158,277" concept="3" />
+      <node id="3378885719458617063" at="158,277,159,203" concept="3" />
+      <node id="3378885719459173048" at="159,203,160,140" concept="3" />
+      <node id="3378885719458901400" at="161,71,162,220" concept="3" />
+      <node id="3378885719458617094" at="162,220,163,277" concept="3" />
+      <node id="3378885719458617105" at="163,277,164,199" concept="3" />
+      <node id="3378885719459180680" at="164,199,165,140" concept="3" />
+      <node id="5866387967695257297" at="167,5,168,21" concept="10" />
+      <node id="3378885719460200735" at="171,95,172,48" concept="9" />
+      <node id="3378885719460342862" at="173,61,174,103" concept="3" />
+      <node id="5866387967695260761" at="175,5,176,18" concept="10" />
+      <node id="3378885719459597261" at="179,93,180,36" concept="11" />
+      <node id="3378885719459708697" at="180,36,181,184" concept="9" />
+      <node id="3378885719459752964" at="181,184,182,102" concept="3" />
+      <node id="3378885719459808543" at="182,102,183,84" concept="3" />
+      <node id="3378885719459873813" at="183,84,184,197" concept="3" />
+      <node id="5866387967695267064" at="184,197,185,20" concept="10" />
+      <node id="3378885719462041958" at="188,89,189,49" concept="9" />
+      <node id="3378885719462240352" at="190,61,191,98" concept="3" />
+      <node id="5866387967695270542" at="192,5,193,19" concept="10" />
+      <node id="3378885719461438945" at="196,73,197,44" concept="11" />
+      <node id="3378885719461506418" at="197,44,198,170" concept="9" />
+      <node id="3378885719461806479" at="198,170,199,76" concept="3" />
+      <node id="3378885719461874864" at="200,41,201,186" concept="3" />
+      <node id="5866387967695274022" at="202,5,203,16" concept="10" />
+      <node id="3378885719464125597" at="206,89,207,180" concept="9" />
+      <node id="3378885719464217835" at="207,180,208,100" concept="3" />
+      <node id="3378885719464311303" at="208,100,209,103" concept="3" />
+      <node id="5866387967695277504" at="209,103,210,18" concept="10" />
+      <node id="3378885719457562150" at="213,77,214,175" concept="9" />
+      <node id="3378885719457970767" at="214,175,215,212" concept="3" />
+      <node id="3378885719457937393" at="216,55,217,137" concept="3" />
+      <node id="3378885719457944751" at="218,66,219,141" concept="3" />
+      <node id="3378885719457950574" at="220,61,221,136" concept="3" />
+      <node id="3378885719457658912" at="222,5,223,101" concept="3" />
+      <node id="5866387967695281436" at="223,101,224,19" concept="10" />
+      <node id="3378885719458048029" at="227,71,228,173" concept="9" />
+      <node id="3378885719458074285" at="228,173,229,102" concept="3" />
+      <node id="5866387967695284922" at="229,102,230,20" concept="10" />
+      <node id="3378885719451399024" at="233,69,234,170" concept="9" />
+      <node id="3378885719451634255" at="235,32,236,191" concept="3" />
+      <node id="3378885719451635686" at="236,191,237,163" concept="3" />
+      <node id="3378885719451661563" at="238,41,239,183" concept="3" />
+      <node id="3378885719451661980" at="239,183,240,171" concept="3" />
+      <node id="3378885719451678497" at="241,40,242,182" concept="3" />
+      <node id="3378885719451678934" at="242,182,243,112" concept="3" />
+      <node id="3378885719451727702" at="244,46,245,176" concept="3" />
+      <node id="3378885719451817326" at="245,176,246,102" concept="3" />
+      <node id="3378885719451901690" at="246,102,247,87" concept="3" />
+      <node id="3378885719451951729" at="248,80,249,90" concept="3" />
+      <node id="3378885719451836051" at="250,7,251,87" concept="3" />
+      <node id="3378885719454816999" at="253,65,254,184" concept="3" />
+      <node id="3378885719455541989" at="254,184,255,231" concept="3" />
+      <node id="3378885719454567953" at="255,231,256,154" concept="3" />
+      <node id="3378885719455134848" at="257,73,258,184" concept="3" />
+      <node id="3378885719455541339" at="258,184,259,231" concept="3" />
+      <node id="3378885719455135278" at="259,231,260,155" concept="3" />
+      <node id="3378885719455179406" at="261,72,262,184" concept="3" />
+      <node id="3378885719455540898" at="262,184,263,231" concept="3" />
+      <node id="3378885719455179664" at="263,231,264,154" concept="3" />
+      <node id="3378885719455218176" at="265,75,266,184" concept="3" />
+      <node id="3378885719455540187" at="266,184,267,231" concept="3" />
+      <node id="3378885719455217248" at="267,231,268,157" concept="3" />
+      <node id="3378885719455259348" at="269,71,270,184" concept="3" />
+      <node id="3378885719455414346" at="270,184,271,231" concept="3" />
+      <node id="3378885719455259714" at="271,231,272,153" concept="3" />
+      <node id="3378885719451757817" at="273,14,274,176" concept="3" />
+      <node id="3378885719451758960" at="274,176,275,96" concept="3" />
+      <node id="5866387967695291900" at="277,5,278,18" concept="10" />
+      <node id="3378885719462337084" at="282,75,283,170" concept="9" />
+      <node id="3378885719462460631" at="283,170,284,79" concept="3" />
+      <node id="3378885719462873186" at="285,35,286,222" concept="3" />
+      <node id="5866387967695298878" at="287,5,288,15" concept="10" />
+      <node id="3378885719460417590" at="291,87,292,175" concept="9" />
+      <node id="3378885719460496425" at="292,175,293,96" concept="3" />
+      <node id="3378885719460648540" at="293,96,294,29" concept="11" />
+      <node id="3378885719460810286" at="295,39,296,105" concept="3" />
+      <node id="3378885719460856623" at="297,49,298,111" concept="3" />
+      <node id="5866387967695302374" at="299,5,300,14" concept="10" />
+      <node id="9150185381761598012" at="303,81,304,173" concept="9" />
+      <node id="9150185381761707540" at="304,173,305,92" concept="3" />
+      <node id="9150185381762097258" at="306,32,307,99" concept="3" />
+      <node id="9150185381762097293" at="308,41,309,103" concept="3" />
+      <node id="9150185381762097323" at="310,40,311,101" concept="3" />
+      <node id="9150185381762097434" at="313,64,314,220" concept="3" />
+      <node id="9150185381762097451" at="314,220,315,153" concept="3" />
+      <node id="9150185381762097486" at="316,72,317,220" concept="3" />
+      <node id="9150185381762097503" at="317,220,318,154" concept="3" />
+      <node id="9150185381762097528" at="319,71,320,220" concept="3" />
+      <node id="9150185381762097545" at="320,220,321,153" concept="3" />
+      <node id="9150185381762097570" at="322,74,323,220" concept="3" />
+      <node id="9150185381762097587" at="323,220,324,156" concept="3" />
+      <node id="9150185381762097612" at="325,70,326,220" concept="3" />
+      <node id="9150185381762097629" at="326,220,327,152" concept="3" />
+      <node id="9150185381762097644" at="328,14,329,222" concept="3" />
+      <node id="9150185381762097650" at="329,222,330,143" concept="3" />
+      <node id="5866387967695308735" at="332,5,333,15" concept="10" />
+      <node id="9150185381763379095" at="336,73,337,169" concept="9" />
+      <node id="9150185381763417385" at="338,35,339,56" concept="3" />
+      <node id="9150185381763506129" at="340,46,341,64" concept="3" />
+      <node id="9150185381763550910" at="342,48,343,68" concept="3" />
+      <node id="9150185381763606157" at="344,47,345,66" concept="3" />
+      <node id="5866387967695315100" at="346,5,347,15" concept="10" />
+      <node id="9150185381763724401" at="350,85,351,50" concept="9" />
+      <node id="9150185381763960880" at="352,61,353,95" concept="3" />
+      <node id="5866387967695318602" at="354,5,355,20" concept="10" />
+      <node id="5962897251887260726" at="358,97,359,181" concept="9" />
+      <node id="5962897251887401026" at="359,181,360,79" concept="3" />
+      <node id="5962897251887673897" at="361,39,362,174" concept="3" />
+      <node id="5962897251886615180" at="363,5,364,15" concept="10" />
+      <node id="5962897251886711382" at="367,85,368,178" concept="9" />
+      <node id="5962897251887085334" at="369,51,370,203" concept="3" />
+      <node id="5866387967695322106" at="371,5,372,18" concept="10" />
+      <node id="9150185381764288480" at="375,91,376,178" concept="9" />
+      <node id="9150185381764435900" at="376,178,377,79" concept="3" />
+      <node id="9150185381764554535" at="378,39,379,117" concept="3" />
+      <node id="5866387967695325612" at="380,5,381,15" concept="10" />
+      <node id="9150185381764667924" at="384,87,385,177" concept="9" />
+      <node id="9150185381764907171" at="385,177,386,98" concept="3" />
+      <node id="9150185381764794640" at="387,39,388,118" concept="3" />
+      <node id="5866387967695329120" at="389,5,390,16" concept="10" />
+      <node id="9150185381765010696" at="393,85,394,175" concept="9" />
+      <node id="9150185381765218457" at="394,175,395,57" concept="9" />
+      <node id="9150185381765093400" at="395,57,396,117" concept="3" />
+      <node id="9150185381765323814" at="397,39,398,117" concept="3" />
+      <node id="5866387967695332630" at="399,5,400,15" concept="10" />
+      <node id="9150185381765526883" at="403,89,404,177" concept="9" />
+      <node id="9150185381765743361" at="404,177,405,61" concept="9" />
+      <node id="9150185381765659067" at="405,61,406,121" concept="3" />
+      <node id="9150185381765909212" at="407,39,408,117" concept="3" />
+      <node id="5866387967695339019" at="409,5,410,15" concept="10" />
+      <node id="5866387967695345404" at="413,71,414,16" concept="10" />
+      <node id="5866387967695348920" at="417,91,418,16" concept="10" />
+      <node id="5866387967695355321" at="421,91,422,16" concept="10" />
+      <node id="5866387967695358841" at="425,77,426,16" concept="10" />
+      <node id="5866387967695362363" at="429,77,430,166" concept="10" />
+      <node id="384861153814447436" at="433,85,434,178" concept="9" />
+      <node id="384861153814876207" at="435,61,436,180" concept="9" />
+      <node id="384861153814883355" at="436,180,437,85" concept="3" />
+      <node id="384861153814911336" at="437,85,438,99" concept="3" />
+      <node id="5866387967695365887" at="439,5,440,18" concept="10" />
+      <node id="3378885719460899254" at="443,91,444,226" concept="9" />
+      <node id="3378885719461005038" at="445,34,446,166" concept="3" />
+      <node id="3378885719461008001" at="446,166,447,123" concept="3" />
+      <node id="3378885719461312000" at="448,42,449,175" concept="3" />
+      <node id="3378885719461323445" at="449,175,450,95" concept="3" />
+      <node id="5866387967695369413" at="451,5,452,19" concept="10" />
+      <node id="3378885719451964715" at="455,73,456,176" concept="9" />
+      <node id="3378885719452098993" at="457,31,458,104" concept="3" />
+      <node id="3378885719454046397" at="459,52,460,105" concept="3" />
+      <node id="3378885719454446313" at="461,134,462,101" concept="3" />
+      <node id="3378885719454559416" at="463,51,464,102" concept="3" />
+      <node id="5866387967695372941" at="465,5,466,18" concept="10" />
+      <node id="3378885719452174320" at="469,71,470,175" concept="9" />
+      <node id="3378885719456073874" at="471,45,472,101" concept="3" />
+      <node id="3378885719456091213" at="473,46,474,101" concept="3" />
+      <node id="3378885719456107453" at="475,37,476,101" concept="3" />
+      <node id="3378885719456117015" at="477,37,478,101" concept="3" />
+      <node id="3378885719456126251" at="479,46,480,101" concept="3" />
+      <node id="3378885719456164900" at="482,47,483,102" concept="3" />
+      <node id="3378885719456218105" at="484,53,485,102" concept="3" />
+      <node id="3378885719456224358" at="486,54,487,102" concept="3" />
+      <node id="3378885719456230267" at="488,53,489,102" concept="3" />
+      <node id="3378885719456238314" at="490,54,491,102" concept="3" />
+      <node id="3378885719456244157" at="492,53,493,102" concept="3" />
+      <node id="3378885719456252381" at="494,54,495,102" concept="3" />
+      <node id="3378885719456256667" at="496,53,497,102" concept="3" />
+      <node id="3378885719456265018" at="498,54,499,102" concept="3" />
+      <node id="3378885719456271282" at="500,55,501,103" concept="3" />
+      <node id="3378885719456279703" at="502,55,503,103" concept="3" />
+      <node id="3378885719456286087" at="504,55,505,103" concept="3" />
+      <node id="3378885719456294759" at="506,55,507,103" concept="3" />
+      <node id="3378885719456298127" at="508,57,509,103" concept="3" />
+      <node id="3378885719456306191" at="510,53,511,103" concept="3" />
+      <node id="3378885719456313109" at="512,54,513,103" concept="3" />
+      <node id="3378885719456319774" at="514,53,515,103" concept="3" />
+      <node id="3378885719456328126" at="516,54,517,103" concept="3" />
+      <node id="3378885719456335212" at="518,53,519,103" concept="3" />
+      <node id="3378885719456343277" at="520,56,521,103" concept="3" />
+      <node id="3378885719456349992" at="522,54,523,103" concept="3" />
+      <node id="3378885719456355198" at="524,54,525,103" concept="3" />
+      <node id="3378885719456363574" at="526,54,527,103" concept="3" />
+      <node id="3378885719456369001" at="528,55,529,103" concept="3" />
+      <node id="3378885719456377411" at="530,53,531,103" concept="3" />
+      <node id="3378885719456382617" at="532,54,533,103" concept="3" />
+      <node id="3378885719456390288" at="534,54,535,102" concept="3" />
+      <node id="3378885719456394964" at="536,55,537,103" concept="3" />
+      <node id="3378885719456402759" at="538,54,539,103" concept="3" />
+      <node id="3378885719456412725" at="540,54,541,103" concept="3" />
+      <node id="3378885719456420320" at="542,53,543,103" concept="3" />
+      <node id="3378885719456429929" at="544,54,545,103" concept="3" />
+      <node id="3378885719456437098" at="546,55,547,103" concept="3" />
+      <node id="3378885719456441864" at="548,54,549,103" concept="3" />
+      <node id="3378885719456448073" at="550,54,551,103" concept="3" />
+      <node id="3378885719456457383" at="552,54,553,103" concept="3" />
+      <node id="3378885719456463537" at="554,53,555,103" concept="3" />
+      <node id="3378885719456471376" at="556,54,557,103" concept="3" />
+      <node id="3378885719456480245" at="558,53,559,103" concept="3" />
+      <node id="3378885719456488475" at="560,54,561,103" concept="3" />
+      <node id="3378885719456498063" at="562,54,563,103" concept="3" />
+      <node id="3378885719456505359" at="564,54,565,103" concept="3" />
+      <node id="3378885719456511992" at="566,53,567,103" concept="3" />
+      <node id="3378885719456522157" at="568,54,569,103" concept="3" />
+      <node id="3378885719456532057" at="570,53,571,103" concept="3" />
+      <node id="3378885719456540319" at="572,54,573,103" concept="3" />
+      <node id="3378885719456547363" at="574,54,575,103" concept="3" />
+      <node id="3378885719456554159" at="576,54,577,103" concept="3" />
+      <node id="3378885719456564198" at="578,54,579,103" concept="3" />
+      <node id="3378885719456573886" at="580,60,581,103" concept="3" />
+      <node id="3378885719456582528" at="582,57,583,103" concept="3" />
+      <node id="3378885719456592715" at="584,60,585,103" concept="3" />
+      <node id="3378885719456599805" at="586,64,587,103" concept="3" />
+      <node id="3378885719456610532" at="588,59,589,103" concept="3" />
+      <node id="3378885719456619432" at="590,56,591,103" concept="3" />
+      <node id="3378885719456626154" at="592,60,593,103" concept="3" />
+      <node id="3378885719456637211" at="594,58,595,103" concept="3" />
+      <node id="3378885719456648317" at="596,61,597,103" concept="3" />
+      <node id="3378885719456657433" at="598,58,599,103" concept="3" />
+      <node id="3378885719456664663" at="600,60,601,103" concept="3" />
+      <node id="3378885719456675146" at="602,60,603,103" concept="3" />
+      <node id="3378885719456682935" at="604,63,605,103" concept="3" />
+      <node id="3378885719456694138" at="606,60,607,103" concept="3" />
+      <node id="3378885719456701748" at="608,62,609,103" concept="3" />
+      <node id="3378885719456714741" at="610,57,611,103" concept="3" />
+      <node id="3378885719456721550" at="612,58,613,103" concept="3" />
+      <node id="3378885719456732426" at="614,60,615,103" concept="3" />
+      <node id="3378885719456744032" at="616,58,617,103" concept="3" />
+      <node id="3378885719456751742" at="618,58,619,103" concept="3" />
+      <node id="3378885719456763079" at="620,57,621,103" concept="3" />
+      <node id="3378885719456771455" at="622,57,623,103" concept="3" />
+      <node id="3378885719456783242" at="624,60,625,103" concept="3" />
+      <node id="3378885719456793914" at="626,58,627,103" concept="3" />
+      <node id="3378885719456802734" at="628,56,629,103" concept="3" />
+      <node id="3378885719456813506" at="630,59,631,103" concept="3" />
+      <node id="3378885719456823638" at="632,60,633,103" concept="3" />
+      <node id="3378885719456835192" at="634,58,635,103" concept="3" />
+      <node id="3378885719456844937" at="636,57,637,103" concept="3" />
+      <node id="3378885719456857148" at="638,59,639,103" concept="3" />
+      <node id="3378885719456867506" at="640,62,641,103" concept="3" />
+      <node id="3378885719456879047" at="642,57,643,103" concept="3" />
+      <node id="3378885719456890327" at="644,55,645,103" concept="3" />
+      <node id="3378885719456901149" at="646,59,647,103" concept="3" />
+      <node id="3378885719456914051" at="648,59,649,103" concept="3" />
+      <node id="3378885719456926307" at="650,57,651,103" concept="3" />
+      <node id="3378885719456935773" at="652,58,653,103" concept="3" />
+      <node id="3378885719456947277" at="654,62,655,103" concept="3" />
+      <node id="3378885719456957607" at="656,59,657,103" concept="3" />
+      <node id="3378885719456970025" at="658,59,659,103" concept="3" />
+      <node id="3378885719456982519" at="660,60,661,103" concept="3" />
+      <node id="3378885719456993246" at="662,64,663,103" concept="3" />
+      <node id="3378885719457007030" at="664,56,665,103" concept="3" />
+      <node id="3378885719457018914" at="666,59,667,103" concept="3" />
+      <node id="3378885719457030274" at="668,59,669,103" concept="3" />
+      <node id="3378885719457038939" at="670,62,671,104" concept="3" />
+      <node id="5866387967695379366" at="673,5,674,18" concept="10" />
+      <node id="3378885719452576922" at="677,75,678,177" concept="9" />
+      <node id="3378885719455745622" at="679,45,680,101" concept="3" />
+      <node id="3378885719455789822" at="681,52,682,101" concept="3" />
+      <node id="3378885719455823626" at="683,52,684,101" concept="3" />
+      <node id="3378885719455857087" at="685,51,686,101" concept="3" />
+      <node id="5866387967695386054" at="687,5,688,18" concept="10" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="692,0,693,0" concept="13" trace="ID$ll3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="693,0,694,0" concept="13" trace="ModuleName$iAUB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="694,0,695,0" concept="13" trace="ModuleName$Lfj0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="695,0,696,0" concept="13" trace="sep$Oove" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="696,0,697,0" concept="13" trace="ID$96Yw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="697,0,698,0" concept="13" trace="ID1$9c_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="698,0,699,0" concept="13" trace="ID2$9cAu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="699,0,700,0" concept="13" trace="InfixOp$9cO2" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="700,0,701,0" concept="13" trace="InfixOp$R0p0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="701,0,702,0" concept="13" trace="ID$9dL0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="702,0,703,0" concept="13" trace="PostfixOp$9dLY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="703,0,704,0" concept="13" trace="PrefixOp$QUQw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="704,0,705,0" concept="13" trace="ID$9rR0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="705,0,706,0" concept="13" trace="Name$PEBZ" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="706,0,707,0" concept="13" trace="Axiom$R86b" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="707,0,708,0" concept="13" trace="InfixOp$eE2F" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="708,0,709,0" concept="13" trace="PostfixOp$eDmw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="709,0,710,0" concept="13" trace="PostfixOp$R0Q0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="710,0,711,0" concept="13" trace="OpId$vrV0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="711,0,712,0" concept="13" trace="ID$h$Dw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="712,0,713,0" concept="13" trace="ID$Rfqu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="713,0,714,0" concept="13" trace="ID$gqRE" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="714,0,715,0" concept="13" trace="InfixOp$gwW6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="715,0,716,0" concept="13" trace="PostfixOp$gxrA" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="719,0,720,0" concept="13" trace="ID$llx0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="720,0,721,0" concept="13" trace="SetOfModuleNames$Bn0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="721,0,722,0" concept="13" trace="ListM$Vevw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="722,0,723,0" concept="13" trace="SetOfUnits$fqCa" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="723,0,724,0" concept="13" trace="OpDef$GiEw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="724,0,725,0" concept="13" trace="FDef$Giaw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="725,0,726,0" concept="13" trace="Instance$iKCK" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="726,0,727,0" concept="13" trace="ModDef$8ulG" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="727,0,728,0" concept="13" trace="OpDeclarations$75Cw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="728,0,729,0" concept="13" trace="IDList$Xpjd" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="729,0,730,0" concept="13" trace="OpDeclL$PA7w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="730,0,731,0" concept="13" trace="Expr$96eD" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="731,0,732,0" concept="13" trace="LHS$963w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="732,0,733,0" concept="13" trace="PrefixOp$o_PB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="733,0,734,0" concept="13" trace="Expr$9s37" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="734,0,735,0" concept="13" trace="QuantifierBound$9s29" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="735,0,736,0" concept="13" trace="Substitution$PF$y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="736,0,737,0" concept="13" trace="Instance$yUit" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="737,0,738,0" concept="13" trace="NonFixLHS$uPR7" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="738,0,739,0" concept="13" trace="Axiom$R8rY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="739,0,740,0" concept="13" trace="Expr$R8sW" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="740,0,741,0" concept="13" trace="Expr$R270" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="741,0,742,0" concept="13" trace="PrefixOp$_Bcn" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="742,0,743,0" concept="13" trace="SetOfOpDecl$E0N2" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="743,0,744,0" concept="13" trace="Expr$9k_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="744,0,745,0" concept="13" trace="IDs$9k$y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="745,0,746,0" concept="13" trace="Arg$KZn6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="746,0,747,0" concept="13" trace="substitLHS$KYGu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="747,0,748,0" concept="13" trace="Exprs$RfPA" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="748,0,749,0" concept="13" trace="InstancePrefixList$ReYU" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="749,0,750,0" concept="13" trace="InstancePrefix$gqQG" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="750,0,751,0" concept="13" trace="PrefixOp$2zjg" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="751,0,752,0" concept="13" trace="InstancePrefix$grn6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="752,0,753,0" concept="13" trace="InstancePrefix$gwX4" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="753,0,754,0" concept="13" trace="InstancePrefix$gxs$" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="754,0,755,0" concept="13" trace="IDList$9ej0" />
+      <node id="3378885719451004612" at="70,12,72,7" concept="0" />
+      <node id="3378885719451030917" at="77,12,79,7" concept="0" />
+      <node id="3378885719451076196" at="84,12,86,7" concept="0" />
+      <node id="3378885719451095120" at="91,12,93,7" concept="0" />
       <node id="3378885719448119799" at="43,5,46,5" concept="5" />
-      <node id="3378885719460266482" at="171,48,174,5" concept="5" />
-      <node id="3378885719462136033" at="188,49,191,5" concept="5" />
-      <node id="3378885719461661336" at="198,76,201,5" concept="7" />
-      <node id="3378885719451869395" at="246,87,249,7" concept="5" />
-      <node id="3378885719455261021" at="272,12,275,7" concept="0" />
-      <node id="3378885719462702163" at="283,79,286,5" concept="7" />
-      <node id="9150185381762097642" at="327,12,330,7" concept="0" />
-      <node id="9150185381763844498" at="350,50,353,5" concept="5" />
-      <node id="5962897251887510456" at="359,79,362,5" concept="7" />
-      <node id="5962897251886973701" at="367,178,370,5" concept="5" />
-      <node id="9150185381766588830" at="376,79,379,5" concept="7" />
-      <node id="9150185381766767984" at="385,98,388,5" concept="7" />
-      <node id="9150185381766926858" at="395,117,398,5" concept="7" />
-      <node id="9150185381767154526" at="405,121,408,5" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="411,0,415,0" concept="8" trace="visitCaseArm#(Lparser/TLAPlusGrammarParser/CaseArmContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="415,0,419,0" concept="8" trace="visitNameArrowExprList#(Lparser/TLAPlusGrammarParser/NameArrowExprListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="419,0,423,0" concept="8" trace="visitNameColonExprList#(Lparser/TLAPlusGrammarParser/NameColonExprListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="423,0,427,0" concept="8" trace="visitExceptList#(Lparser/TLAPlusGrammarParser/ExceptListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="427,0,431,0" concept="8" trace="visitExpression#(Lparser/TLAPlusGrammarParser/ExpressionContext;)Ljava/lang/Object;" />
+      <node id="3378885719460266482" at="172,48,175,5" concept="5" />
+      <node id="3378885719462136033" at="189,49,192,5" concept="5" />
+      <node id="3378885719461661336" at="199,76,202,5" concept="7" />
+      <node id="3378885719451869395" at="247,87,250,7" concept="5" />
+      <node id="3378885719455261021" at="273,12,276,7" concept="0" />
+      <node id="3378885719462702163" at="284,79,287,5" concept="7" />
+      <node id="9150185381762097642" at="328,12,331,7" concept="0" />
+      <node id="9150185381763844498" at="351,50,354,5" concept="5" />
+      <node id="5962897251887510456" at="360,79,363,5" concept="7" />
+      <node id="5962897251886973701" at="368,178,371,5" concept="5" />
+      <node id="9150185381766588830" at="377,79,380,5" concept="7" />
+      <node id="9150185381766767984" at="386,98,389,5" concept="7" />
+      <node id="9150185381766926858" at="396,117,399,5" concept="7" />
+      <node id="9150185381767154526" at="406,121,409,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="412,0,416,0" concept="8" trace="visitCaseArm#(Lparser/TLAPlusGrammarParser/CaseArmContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="416,0,420,0" concept="8" trace="visitNameArrowExprList#(Lparser/TLAPlusGrammarParser/NameArrowExprListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="420,0,424,0" concept="8" trace="visitNameColonExprList#(Lparser/TLAPlusGrammarParser/NameColonExprListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="424,0,428,0" concept="8" trace="visitExceptList#(Lparser/TLAPlusGrammarParser/ExceptListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="428,0,432,0" concept="8" trace="visitExpression#(Lparser/TLAPlusGrammarParser/ExpressionContext;)Ljava/lang/Object;" />
       <node id="384861153815326419" at="23,180,28,5" concept="5" />
       <node id="384861153816339245" at="37,232,42,7" concept="5" />
-      <node id="3378885719451222506" at="98,174,103,5" concept="5" />
-      <node id="3378885719460713116" at="293,29,298,5" concept="7" />
-      <node id="384861153814862505" at="433,178,438,5" concept="5" />
-      <node id="3378885719450602313" at="65,50,71,7" concept="7" />
-      <node id="3378885719451030889" at="72,50,78,7" concept="7" />
-      <node id="3378885719451076168" at="79,40,85,7" concept="7" />
-      <node id="3378885719451095092" at="86,48,92,7" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="225,0,231,0" concept="8" trace="visitTheorem#(Lparser/TLAPlusGrammarParser/TheoremContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="106,0,113,0" concept="8" trace="visitVariableDeclaration#(Lparser/TLAPlusGrammarParser/VariableDeclarationContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="113,0,120,0" concept="8" trace="visitConstantDeclaration#(Lparser/TLAPlusGrammarParser/ConstantDeclarationContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="204,0,211,0" concept="8" trace="visitModuleDefinition#(Lparser/TLAPlusGrammarParser/ModuleDefinitionContext;)Ljava/lang/Object;" />
-      <node id="3378885719457776089" at="214,212,221,5" concept="7" />
-      <node id="3378885719460963874" at="443,226,450,5" concept="7" />
+      <node id="3378885719451222506" at="99,174,104,5" concept="5" />
+      <node id="3378885719460713116" at="294,29,299,5" concept="7" />
+      <node id="384861153814862505" at="434,178,439,5" concept="5" />
+      <node id="3378885719450602313" at="66,50,72,7" concept="7" />
+      <node id="3378885719451030889" at="73,50,79,7" concept="7" />
+      <node id="3378885719451076168" at="80,40,86,7" concept="7" />
+      <node id="3378885719451095092" at="87,48,93,7" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="226,0,232,0" concept="8" trace="visitTheorem#(Lparser/TLAPlusGrammarParser/TheoremContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="107,0,114,0" concept="8" trace="visitVariableDeclaration#(Lparser/TLAPlusGrammarParser/VariableDeclarationContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="114,0,121,0" concept="8" trace="visitConstantDeclaration#(Lparser/TLAPlusGrammarParser/ConstantDeclarationContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="205,0,212,0" concept="8" trace="visitModuleDefinition#(Lparser/TLAPlusGrammarParser/ModuleDefinitionContext;)Ljava/lang/Object;" />
+      <node id="3378885719457776089" at="215,212,222,5" concept="7" />
+      <node id="3378885719460963874" at="444,226,451,5" concept="7" />
       <node id="384861153812449146" at="35,94,43,5" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="169,0,177,0" concept="8" trace="visitQuantifierBoundList#(Lparser/TLAPlusGrammarParser/QuantifierBoundListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="186,0,194,0" concept="8" trace="visitSubstitutionList#(Lparser/TLAPlusGrammarParser/SubstitutionListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="348,0,356,0" concept="8" trace="visitExpressionList#(Lparser/TLAPlusGrammarParser/ExpressionListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="365,0,373,0" concept="8" trace="visitInstancePrefix#(Lparser/TLAPlusGrammarParser/InstancePrefixContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="177,0,186,0" concept="8" trace="visitFunctionDefinition#(Lparser/TLAPlusGrammarParser/FunctionDefinitionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="280,0,289,0" concept="8" trace="visitNonFixLHS#(Lparser/TLAPlusGrammarParser/NonFixLHSContext;)Ljava/lang/Object;" />
-      <node id="9150185381763280836" at="336,169,345,5" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" at="356,0,365,0" concept="8" trace="visitSingleInstancePrefix#(Lparser/TLAPlusGrammarParser/SingleInstancePrefixContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="373,0,382,0" concept="8" trace="visitGeneralIdentifier#(Lparser/TLAPlusGrammarParser/GeneralIdentifierContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="382,0,391,0" concept="8" trace="visitGeneralPrefixOp#(Lparser/TLAPlusGrammarParser/GeneralPrefixOpContext;)Ljava/lang/Object;" />
-      <node id="3378885719452072004" at="455,176,464,5" concept="7" />
-      <node id="3378885719455702466" at="677,177,686,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="170,0,178,0" concept="8" trace="visitQuantifierBoundList#(Lparser/TLAPlusGrammarParser/QuantifierBoundListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="187,0,195,0" concept="8" trace="visitSubstitutionList#(Lparser/TLAPlusGrammarParser/SubstitutionListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="349,0,357,0" concept="8" trace="visitExpressionList#(Lparser/TLAPlusGrammarParser/ExpressionListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="366,0,374,0" concept="8" trace="visitInstancePrefix#(Lparser/TLAPlusGrammarParser/InstancePrefixContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="178,0,187,0" concept="8" trace="visitFunctionDefinition#(Lparser/TLAPlusGrammarParser/FunctionDefinitionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="281,0,290,0" concept="8" trace="visitNonFixLHS#(Lparser/TLAPlusGrammarParser/NonFixLHSContext;)Ljava/lang/Object;" />
+      <node id="9150185381763280836" at="337,169,346,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" at="357,0,366,0" concept="8" trace="visitSingleInstancePrefix#(Lparser/TLAPlusGrammarParser/SingleInstancePrefixContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="374,0,383,0" concept="8" trace="visitGeneralIdentifier#(Lparser/TLAPlusGrammarParser/GeneralIdentifierContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="383,0,392,0" concept="8" trace="visitGeneralPrefixOp#(Lparser/TLAPlusGrammarParser/GeneralPrefixOpContext;)Ljava/lang/Object;" />
+      <node id="3378885719452072004" at="456,176,465,5" concept="7" />
+      <node id="3378885719455702466" at="678,177,687,5" concept="7" />
       <node id="~TLAPlusGrammarBaseVisitor.visitNameList(parser.TLAPlusGrammarParser$NameListContext)" at="21,0,31,0" concept="8" trace="visitNameList#(Lparser/TLAPlusGrammarParser/NameListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="96,0,106,0" concept="8" trace="visitOpDeclList#(Lparser/TLAPlusGrammarParser/OpDeclListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="194,0,204,0" concept="8" trace="visitInstance#(Lparser/TLAPlusGrammarParser/InstanceContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="391,0,401,0" concept="8" trace="visitGeneralInfixOp#(Lparser/TLAPlusGrammarParser/GeneralInfixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="401,0,411,0" concept="8" trace="visitGeneralPostfixOp#(Lparser/TLAPlusGrammarParser/GeneralPostfixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="431,0,441,0" concept="8" trace="visitIdentifierList#(Lparser/TLAPlusGrammarParser/IdentifierListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="289,0,301,0" concept="8" trace="visitQuantifierBound#(Lparser/TLAPlusGrammarParser/QuantifierBoundContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="441,0,453,0" concept="8" trace="visitIdentifierOrTuple#(Lparser/TLAPlusGrammarParser/IdentifierOrTupleContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="211,0,225,0" concept="8" trace="visitAssumption#(Lparser/TLAPlusGrammarParser/AssumptionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="334,0,348,0" concept="8" trace="visitArgument#(Lparser/TLAPlusGrammarParser/ArgumentContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="453,0,467,0" concept="8" trace="visitPrefixOp#(Lparser/TLAPlusGrammarParser/PrefixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="675,0,689,0" concept="8" trace="visitPostfixOp#(Lparser/TLAPlusGrammarParser/PostfixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="97,0,107,0" concept="8" trace="visitOpDeclList#(Lparser/TLAPlusGrammarParser/OpDeclListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="195,0,205,0" concept="8" trace="visitInstance#(Lparser/TLAPlusGrammarParser/InstanceContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="392,0,402,0" concept="8" trace="visitGeneralInfixOp#(Lparser/TLAPlusGrammarParser/GeneralInfixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="402,0,412,0" concept="8" trace="visitGeneralPostfixOp#(Lparser/TLAPlusGrammarParser/GeneralPostfixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="432,0,442,0" concept="8" trace="visitIdentifierList#(Lparser/TLAPlusGrammarParser/IdentifierListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="290,0,302,0" concept="8" trace="visitQuantifierBound#(Lparser/TLAPlusGrammarParser/QuantifierBoundContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="442,0,454,0" concept="8" trace="visitIdentifierOrTuple#(Lparser/TLAPlusGrammarParser/IdentifierOrTupleContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="212,0,226,0" concept="8" trace="visitAssumption#(Lparser/TLAPlusGrammarParser/AssumptionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="335,0,349,0" concept="8" trace="visitArgument#(Lparser/TLAPlusGrammarParser/ArgumentContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="454,0,468,0" concept="8" trace="visitPrefixOp#(Lparser/TLAPlusGrammarParser/PrefixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="676,0,690,0" concept="8" trace="visitPostfixOp#(Lparser/TLAPlusGrammarParser/PostfixOpContext;)Ljava/lang/Object;" />
       <node id="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" at="32,0,49,0" concept="8" trace="visitModule#(Lparser/TLAPlusGrammarParser/ModuleContext;)Ljava/lang/Object;" />
-      <node id="9150185381762097432" at="311,42,330,7" concept="7" />
-      <node id="3378885719454978802" at="251,74,275,7" concept="7" />
-      <node id="3378885719458616908" at="139,120,165,7" concept="7" />
-      <node id="9150185381762097255" at="304,92,331,5" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="301,0,334,0" concept="8" trace="visitSubstitution#(Lparser/TLAPlusGrammarParser/SubstitutionContext;)Ljava/lang/Object;" />
-      <node id="3378885719448479850" at="51,164,93,5" concept="7" />
-      <node id="3378885719458417894" at="123,103,166,5" concept="7" />
-      <node id="3378885719451469690" at="233,170,276,5" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="49,0,96,0" concept="8" trace="visitUnit#(Lparser/TLAPlusGrammarParser/UnitContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="231,0,279,0" concept="8" trace="visitOpDecl#(Lparser/TLAPlusGrammarParser/OpDeclContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="120,0,169,0" concept="8" trace="visitOperatorDefinition#(Lparser/TLAPlusGrammarParser/OperatorDefinitionContext;)Ljava/lang/Object;" />
-      <node id="3378885719456135985" at="480,12,671,7" concept="7" />
-      <node id="3378885719452283699" at="480,10,672,5" concept="0" />
-      <node id="3378885719452157405" at="469,175,672,5" concept="7" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="467,0,675,0" concept="8" trace="visitInfixOp#(Lparser/TLAPlusGrammarParser/InfixOpContext;)Ljava/lang/Object;" />
+      <node id="9150185381762097432" at="312,42,331,7" concept="7" />
+      <node id="3378885719454978802" at="252,74,276,7" concept="7" />
+      <node id="3378885719458616908" at="140,120,166,7" concept="7" />
+      <node id="9150185381762097255" at="305,92,332,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="302,0,335,0" concept="8" trace="visitSubstitution#(Lparser/TLAPlusGrammarParser/SubstitutionContext;)Ljava/lang/Object;" />
+      <node id="3378885719448479850" at="51,164,94,5" concept="7" />
+      <node id="3378885719458417894" at="124,103,167,5" concept="7" />
+      <node id="3378885719451469690" at="234,170,277,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="49,0,97,0" concept="8" trace="visitUnit#(Lparser/TLAPlusGrammarParser/UnitContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="232,0,280,0" concept="8" trace="visitOpDecl#(Lparser/TLAPlusGrammarParser/OpDeclContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="121,0,170,0" concept="8" trace="visitOperatorDefinition#(Lparser/TLAPlusGrammarParser/OperatorDefinitionContext;)Ljava/lang/Object;" />
+      <node id="3378885719456135985" at="481,12,672,7" concept="7" />
+      <node id="3378885719452283699" at="481,10,673,5" concept="0" />
+      <node id="3378885719452157405" at="470,175,673,5" concept="7" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="468,0,676,0" concept="8" trace="visitInfixOp#(Lparser/TLAPlusGrammarParser/InfixOpContext;)Ljava/lang/Object;" />
       <scope id="3378885719448119801" at="44,116,45,137" />
       <scope id="3378885719448479852" at="52,44,53,73" />
       <scope id="3378885719448602554" at="54,51,55,73" />
       <scope id="3378885719450456290" at="56,42,57,55" />
       <scope id="3378885719450488437" at="58,39,59,49" />
       <scope id="3378885719450513059" at="60,38,61,47" />
-      <scope id="3378885719451004613" at="69,14,70,73" />
-      <scope id="3378885719451030918" at="76,14,77,73" />
-      <scope id="3378885719451076197" at="83,14,84,53" />
-      <scope id="3378885719451095121" at="90,14,91,69" />
-      <scope id="3378885719458417896" at="124,34,125,102" />
-      <scope id="3378885719460266484" at="172,61,173,103" />
-      <scope id="3378885719462136035" at="189,61,190,98" />
-      <scope id="3378885719461661338" at="199,41,200,186" />
-      <scope id="3378885719457776091" at="215,55,216,137" />
-      <scope id="3378885719457875189" at="217,66,218,141" />
-      <scope id="3378885719457922540" at="219,61,220,136" />
-      <scope id="3378885719451869397" at="247,80,248,90" />
-      <scope id="3378885719462702165" at="284,35,285,172" />
-      <scope id="3378885719460713118" at="294,39,295,105" />
-      <scope id="3378885719460788401" at="296,49,297,111" />
-      <scope id="9150185381762097257" at="305,32,306,99" />
-      <scope id="9150185381762097292" at="307,41,308,103" />
-      <scope id="9150185381762097322" at="309,40,310,101" />
-      <scope id="9150185381763280838" at="337,35,338,56" />
-      <scope id="9150185381763481704" at="339,46,340,64" />
-      <scope id="9150185381763527845" at="341,48,342,68" />
-      <scope id="9150185381763583201" at="343,47,344,66" />
-      <scope id="9150185381763844500" at="351,61,352,95" />
-      <scope id="5962897251887510458" at="360,39,361,174" />
-      <scope id="5962897251886973703" at="368,51,369,203" />
-      <scope id="9150185381766588832" at="377,39,378,117" />
-      <scope id="9150185381766767986" at="386,39,387,118" />
-      <scope id="9150185381766926860" at="396,39,397,117" />
-      <scope id="9150185381767154528" at="406,39,407,117" />
-      <scope id="5866387967695342083" at="412,71,413,16" />
-      <scope id="5866387967695345597" at="416,91,417,16" />
-      <scope id="5866387967695351996" at="420,91,421,16" />
-      <scope id="5866387967695355514" at="424,77,425,16" />
-      <scope id="5866387967695359034" at="428,77,429,18" />
-      <scope id="3378885719452072006" at="456,31,457,104" />
-      <scope id="3378885719454046396" at="458,52,459,105" />
-      <scope id="3378885719454446312" at="460,134,461,101" />
-      <scope id="3378885719454559415" at="462,51,463,102" />
-      <scope id="3378885719452157406" at="470,45,471,101" />
-      <scope id="3378885719452272251" at="472,46,473,101" />
-      <scope id="3378885719452282734" at="474,37,475,101" />
-      <scope id="3378885719452282884" at="476,37,477,101" />
-      <scope id="3378885719452282994" at="478,46,479,101" />
-      <scope id="3378885719456135987" at="481,47,482,102" />
-      <scope id="3378885719456187511" at="483,53,484,102" />
-      <scope id="3378885719456224357" at="485,54,486,102" />
-      <scope id="3378885719456230266" at="487,53,488,102" />
-      <scope id="3378885719456238313" at="489,54,490,102" />
-      <scope id="3378885719456244156" at="491,53,492,102" />
-      <scope id="3378885719456252380" at="493,54,494,102" />
-      <scope id="3378885719456256666" at="495,53,496,102" />
-      <scope id="3378885719456265017" at="497,54,498,102" />
-      <scope id="3378885719456271281" at="499,55,500,103" />
-      <scope id="3378885719456279702" at="501,55,502,103" />
-      <scope id="3378885719456286086" at="503,55,504,103" />
-      <scope id="3378885719456294758" at="505,55,506,103" />
-      <scope id="3378885719456298126" at="507,57,508,103" />
-      <scope id="3378885719456306190" at="509,53,510,103" />
-      <scope id="3378885719456313108" at="511,54,512,103" />
-      <scope id="3378885719456319773" at="513,53,514,103" />
-      <scope id="3378885719456328125" at="515,54,516,103" />
-      <scope id="3378885719456335211" at="517,53,518,103" />
-      <scope id="3378885719456343276" at="519,56,520,103" />
-      <scope id="3378885719456349991" at="521,54,522,103" />
-      <scope id="3378885719456355197" at="523,54,524,103" />
-      <scope id="3378885719456363573" at="525,54,526,103" />
-      <scope id="3378885719456369000" at="527,55,528,103" />
-      <scope id="3378885719456377410" at="529,53,530,103" />
-      <scope id="3378885719456382616" at="531,54,532,103" />
-      <scope id="3378885719456390287" at="533,54,534,102" />
-      <scope id="3378885719456394963" at="535,55,536,103" />
-      <scope id="3378885719456402758" at="537,54,538,103" />
-      <scope id="3378885719456412724" at="539,54,540,103" />
-      <scope id="3378885719456420319" at="541,53,542,103" />
-      <scope id="3378885719456429928" at="543,54,544,103" />
-      <scope id="3378885719456437097" at="545,55,546,103" />
-      <scope id="3378885719456441863" at="547,54,548,103" />
-      <scope id="3378885719456448072" at="549,54,550,103" />
-      <scope id="3378885719456457382" at="551,54,552,103" />
-      <scope id="3378885719456463536" at="553,53,554,103" />
-      <scope id="3378885719456471375" at="555,54,556,103" />
-      <scope id="3378885719456480244" at="557,53,558,103" />
-      <scope id="3378885719456488474" at="559,54,560,103" />
-      <scope id="3378885719456498062" at="561,54,562,103" />
-      <scope id="3378885719456505358" at="563,54,564,103" />
-      <scope id="3378885719456511991" at="565,53,566,103" />
-      <scope id="3378885719456522156" at="567,54,568,103" />
-      <scope id="3378885719456532056" at="569,53,570,103" />
-      <scope id="3378885719456540318" at="571,54,572,103" />
-      <scope id="3378885719456547362" at="573,54,574,103" />
-      <scope id="3378885719456554158" at="575,54,576,103" />
-      <scope id="3378885719456564197" at="577,54,578,103" />
-      <scope id="3378885719456573885" at="579,60,580,103" />
-      <scope id="3378885719456582527" at="581,57,582,103" />
-      <scope id="3378885719456592714" at="583,60,584,103" />
-      <scope id="3378885719456599804" at="585,64,586,103" />
-      <scope id="3378885719456610531" at="587,59,588,103" />
-      <scope id="3378885719456619431" at="589,56,590,103" />
-      <scope id="3378885719456626153" at="591,60,592,103" />
-      <scope id="3378885719456637210" at="593,58,594,103" />
-      <scope id="3378885719456648316" at="595,61,596,103" />
-      <scope id="3378885719456657432" at="597,58,598,103" />
-      <scope id="3378885719456664662" at="599,60,600,103" />
-      <scope id="3378885719456675145" at="601,60,602,103" />
-      <scope id="3378885719456682934" at="603,63,604,103" />
-      <scope id="3378885719456694137" at="605,60,606,103" />
-      <scope id="3378885719456701747" at="607,62,608,103" />
-      <scope id="3378885719456714740" at="609,57,610,103" />
-      <scope id="3378885719456721549" at="611,58,612,103" />
-      <scope id="3378885719456732425" at="613,60,614,103" />
-      <scope id="3378885719456744031" at="615,58,616,103" />
-      <scope id="3378885719456751741" at="617,58,618,103" />
-      <scope id="3378885719456763078" at="619,57,620,103" />
-      <scope id="3378885719456771454" at="621,57,622,103" />
-      <scope id="3378885719456783241" at="623,60,624,103" />
-      <scope id="3378885719456793913" at="625,58,626,103" />
-      <scope id="3378885719456802733" at="627,56,628,103" />
-      <scope id="3378885719456813505" at="629,59,630,103" />
-      <scope id="3378885719456823637" at="631,60,632,103" />
-      <scope id="3378885719456835191" at="633,58,634,103" />
-      <scope id="3378885719456844936" at="635,57,636,103" />
-      <scope id="3378885719456857147" at="637,59,638,103" />
-      <scope id="3378885719456867505" at="639,62,640,103" />
-      <scope id="3378885719456879046" at="641,57,642,103" />
-      <scope id="3378885719456890326" at="643,55,644,103" />
-      <scope id="3378885719456901148" at="645,59,646,103" />
-      <scope id="3378885719456914050" at="647,59,648,103" />
-      <scope id="3378885719456926306" at="649,57,650,103" />
-      <scope id="3378885719456935772" at="651,58,652,103" />
-      <scope id="3378885719456947276" at="653,62,654,103" />
-      <scope id="3378885719456957606" at="655,59,656,103" />
-      <scope id="3378885719456970024" at="657,59,658,103" />
-      <scope id="3378885719456982518" at="659,60,660,103" />
-      <scope id="3378885719456993245" at="661,64,662,103" />
-      <scope id="3378885719457007029" at="663,56,664,103" />
-      <scope id="3378885719457018913" at="665,59,666,103" />
-      <scope id="3378885719457030273" at="667,59,668,103" />
-      <scope id="3378885719457038938" at="669,62,670,104" />
-      <scope id="3378885719455702468" at="678,45,679,101" />
-      <scope id="3378885719455754927" at="680,52,681,101" />
-      <scope id="3378885719455790624" at="682,52,683,101" />
-      <scope id="3378885719455824420" at="684,51,685,101" />
-      <scope id="3378885719450536819" at="62,41,64,44" />
-      <scope id="3378885719450602315" at="66,32,68,127" />
-      <scope id="3378885719451030890" at="73,32,75,126" />
-      <scope id="3378885719451076169" at="80,32,82,110" />
-      <scope id="3378885719451095093" at="87,32,89,124" />
-      <scope id="3378885719451469692" at="234,32,236,163" />
-      <scope id="3378885719451526920" at="237,41,239,171" />
-      <scope id="3378885719451544850" at="240,40,242,112" />
-      <scope id="3378885719455261022" at="272,14,274,96" />
-      <scope id="9150185381762097433" at="312,64,314,153" />
-      <scope id="9150185381762097485" at="315,72,317,154" />
-      <scope id="9150185381762097527" at="318,71,320,153" />
-      <scope id="9150185381762097569" at="321,74,323,156" />
-      <scope id="9150185381762097611" at="324,70,326,152" />
-      <scope id="9150185381762097643" at="327,14,329,143" />
-      <scope id="3378885719460963876" at="444,34,446,123" />
-      <scope id="3378885719461273034" at="447,42,449,95" />
+      <scope id="3378885719451004613" at="70,14,71,73" />
+      <scope id="3378885719451030918" at="77,14,78,73" />
+      <scope id="3378885719451076197" at="84,14,85,53" />
+      <scope id="3378885719451095121" at="91,14,92,69" />
+      <scope id="3378885719458417896" at="125,34,126,102" />
+      <scope id="3378885719460266484" at="173,61,174,103" />
+      <scope id="3378885719462136035" at="190,61,191,98" />
+      <scope id="3378885719461661338" at="200,41,201,186" />
+      <scope id="3378885719457776091" at="216,55,217,137" />
+      <scope id="3378885719457875189" at="218,66,219,141" />
+      <scope id="3378885719457922540" at="220,61,221,136" />
+      <scope id="3378885719451869397" at="248,80,249,90" />
+      <scope id="3378885719462702165" at="285,35,286,222" />
+      <scope id="3378885719460713118" at="295,39,296,105" />
+      <scope id="3378885719460788401" at="297,49,298,111" />
+      <scope id="9150185381762097257" at="306,32,307,99" />
+      <scope id="9150185381762097292" at="308,41,309,103" />
+      <scope id="9150185381762097322" at="310,40,311,101" />
+      <scope id="9150185381763280838" at="338,35,339,56" />
+      <scope id="9150185381763481704" at="340,46,341,64" />
+      <scope id="9150185381763527845" at="342,48,343,68" />
+      <scope id="9150185381763583201" at="344,47,345,66" />
+      <scope id="9150185381763844500" at="352,61,353,95" />
+      <scope id="5962897251887510458" at="361,39,362,174" />
+      <scope id="5962897251886973703" at="369,51,370,203" />
+      <scope id="9150185381766588832" at="378,39,379,117" />
+      <scope id="9150185381766767986" at="387,39,388,118" />
+      <scope id="9150185381766926860" at="397,39,398,117" />
+      <scope id="9150185381767154528" at="407,39,408,117" />
+      <scope id="5866387967695342083" at="413,71,414,16" />
+      <scope id="5866387967695345597" at="417,91,418,16" />
+      <scope id="5866387967695351996" at="421,91,422,16" />
+      <scope id="5866387967695355514" at="425,77,426,16" />
+      <scope id="5866387967695359034" at="429,77,430,166" />
+      <scope id="3378885719452072006" at="457,31,458,104" />
+      <scope id="3378885719454046396" at="459,52,460,105" />
+      <scope id="3378885719454446312" at="461,134,462,101" />
+      <scope id="3378885719454559415" at="463,51,464,102" />
+      <scope id="3378885719452157406" at="471,45,472,101" />
+      <scope id="3378885719452272251" at="473,46,474,101" />
+      <scope id="3378885719452282734" at="475,37,476,101" />
+      <scope id="3378885719452282884" at="477,37,478,101" />
+      <scope id="3378885719452282994" at="479,46,480,101" />
+      <scope id="3378885719456135987" at="482,47,483,102" />
+      <scope id="3378885719456187511" at="484,53,485,102" />
+      <scope id="3378885719456224357" at="486,54,487,102" />
+      <scope id="3378885719456230266" at="488,53,489,102" />
+      <scope id="3378885719456238313" at="490,54,491,102" />
+      <scope id="3378885719456244156" at="492,53,493,102" />
+      <scope id="3378885719456252380" at="494,54,495,102" />
+      <scope id="3378885719456256666" at="496,53,497,102" />
+      <scope id="3378885719456265017" at="498,54,499,102" />
+      <scope id="3378885719456271281" at="500,55,501,103" />
+      <scope id="3378885719456279702" at="502,55,503,103" />
+      <scope id="3378885719456286086" at="504,55,505,103" />
+      <scope id="3378885719456294758" at="506,55,507,103" />
+      <scope id="3378885719456298126" at="508,57,509,103" />
+      <scope id="3378885719456306190" at="510,53,511,103" />
+      <scope id="3378885719456313108" at="512,54,513,103" />
+      <scope id="3378885719456319773" at="514,53,515,103" />
+      <scope id="3378885719456328125" at="516,54,517,103" />
+      <scope id="3378885719456335211" at="518,53,519,103" />
+      <scope id="3378885719456343276" at="520,56,521,103" />
+      <scope id="3378885719456349991" at="522,54,523,103" />
+      <scope id="3378885719456355197" at="524,54,525,103" />
+      <scope id="3378885719456363573" at="526,54,527,103" />
+      <scope id="3378885719456369000" at="528,55,529,103" />
+      <scope id="3378885719456377410" at="530,53,531,103" />
+      <scope id="3378885719456382616" at="532,54,533,103" />
+      <scope id="3378885719456390287" at="534,54,535,102" />
+      <scope id="3378885719456394963" at="536,55,537,103" />
+      <scope id="3378885719456402758" at="538,54,539,103" />
+      <scope id="3378885719456412724" at="540,54,541,103" />
+      <scope id="3378885719456420319" at="542,53,543,103" />
+      <scope id="3378885719456429928" at="544,54,545,103" />
+      <scope id="3378885719456437097" at="546,55,547,103" />
+      <scope id="3378885719456441863" at="548,54,549,103" />
+      <scope id="3378885719456448072" at="550,54,551,103" />
+      <scope id="3378885719456457382" at="552,54,553,103" />
+      <scope id="3378885719456463536" at="554,53,555,103" />
+      <scope id="3378885719456471375" at="556,54,557,103" />
+      <scope id="3378885719456480244" at="558,53,559,103" />
+      <scope id="3378885719456488474" at="560,54,561,103" />
+      <scope id="3378885719456498062" at="562,54,563,103" />
+      <scope id="3378885719456505358" at="564,54,565,103" />
+      <scope id="3378885719456511991" at="566,53,567,103" />
+      <scope id="3378885719456522156" at="568,54,569,103" />
+      <scope id="3378885719456532056" at="570,53,571,103" />
+      <scope id="3378885719456540318" at="572,54,573,103" />
+      <scope id="3378885719456547362" at="574,54,575,103" />
+      <scope id="3378885719456554158" at="576,54,577,103" />
+      <scope id="3378885719456564197" at="578,54,579,103" />
+      <scope id="3378885719456573885" at="580,60,581,103" />
+      <scope id="3378885719456582527" at="582,57,583,103" />
+      <scope id="3378885719456592714" at="584,60,585,103" />
+      <scope id="3378885719456599804" at="586,64,587,103" />
+      <scope id="3378885719456610531" at="588,59,589,103" />
+      <scope id="3378885719456619431" at="590,56,591,103" />
+      <scope id="3378885719456626153" at="592,60,593,103" />
+      <scope id="3378885719456637210" at="594,58,595,103" />
+      <scope id="3378885719456648316" at="596,61,597,103" />
+      <scope id="3378885719456657432" at="598,58,599,103" />
+      <scope id="3378885719456664662" at="600,60,601,103" />
+      <scope id="3378885719456675145" at="602,60,603,103" />
+      <scope id="3378885719456682934" at="604,63,605,103" />
+      <scope id="3378885719456694137" at="606,60,607,103" />
+      <scope id="3378885719456701747" at="608,62,609,103" />
+      <scope id="3378885719456714740" at="610,57,611,103" />
+      <scope id="3378885719456721549" at="612,58,613,103" />
+      <scope id="3378885719456732425" at="614,60,615,103" />
+      <scope id="3378885719456744031" at="616,58,617,103" />
+      <scope id="3378885719456751741" at="618,58,619,103" />
+      <scope id="3378885719456763078" at="620,57,621,103" />
+      <scope id="3378885719456771454" at="622,57,623,103" />
+      <scope id="3378885719456783241" at="624,60,625,103" />
+      <scope id="3378885719456793913" at="626,58,627,103" />
+      <scope id="3378885719456802733" at="628,56,629,103" />
+      <scope id="3378885719456813505" at="630,59,631,103" />
+      <scope id="3378885719456823637" at="632,60,633,103" />
+      <scope id="3378885719456835191" at="634,58,635,103" />
+      <scope id="3378885719456844936" at="636,57,637,103" />
+      <scope id="3378885719456857147" at="638,59,639,103" />
+      <scope id="3378885719456867505" at="640,62,641,103" />
+      <scope id="3378885719456879046" at="642,57,643,103" />
+      <scope id="3378885719456890326" at="644,55,645,103" />
+      <scope id="3378885719456901148" at="646,59,647,103" />
+      <scope id="3378885719456914050" at="648,59,649,103" />
+      <scope id="3378885719456926306" at="650,57,651,103" />
+      <scope id="3378885719456935772" at="652,58,653,103" />
+      <scope id="3378885719456947276" at="654,62,655,103" />
+      <scope id="3378885719456957606" at="656,59,657,103" />
+      <scope id="3378885719456970024" at="658,59,659,103" />
+      <scope id="3378885719456982518" at="660,60,661,103" />
+      <scope id="3378885719456993245" at="662,64,663,103" />
+      <scope id="3378885719457007029" at="664,56,665,103" />
+      <scope id="3378885719457018913" at="666,59,667,103" />
+      <scope id="3378885719457030273" at="668,59,669,103" />
+      <scope id="3378885719457038938" at="670,62,671,104" />
+      <scope id="3378885719455702468" at="679,45,680,101" />
+      <scope id="3378885719455754927" at="681,52,682,101" />
+      <scope id="3378885719455790624" at="683,52,684,101" />
+      <scope id="3378885719455824420" at="685,51,686,101" />
+      <scope id="3378885719450602315" at="67,32,69,127" />
+      <scope id="3378885719451030890" at="74,32,76,126" />
+      <scope id="3378885719451076169" at="81,32,83,110" />
+      <scope id="3378885719451095093" at="88,32,90,124" />
+      <scope id="3378885719451469692" at="235,32,237,163" />
+      <scope id="3378885719451526920" at="238,41,240,171" />
+      <scope id="3378885719451544850" at="241,40,243,112" />
+      <scope id="3378885719455261022" at="273,14,275,96" />
+      <scope id="9150185381762097433" at="313,64,315,153" />
+      <scope id="9150185381762097485" at="316,72,318,154" />
+      <scope id="9150185381762097527" at="319,71,321,153" />
+      <scope id="9150185381762097569" at="322,74,324,156" />
+      <scope id="9150185381762097611" at="325,70,327,152" />
+      <scope id="9150185381762097643" at="328,14,330,143" />
+      <scope id="3378885719460963876" at="445,34,447,123" />
+      <scope id="3378885719461273034" at="448,42,450,95" />
       <scope id="384861153815326420" at="24,61,27,101">
         <var name="idNode" id="384861153815326422" />
       </scope>
@@ -982,67 +983,68 @@
       <scope id="3378885719448119799" at="43,5,46,5">
         <var name="i" id="3378885719448119802" />
       </scope>
-      <scope id="3378885719451222507" at="99,61,102,111">
+      <scope id="3378885719450536819" at="62,41,65,44" />
+      <scope id="3378885719451222507" at="100,61,103,111">
         <var name="OpNode" id="3378885719451222509" />
       </scope>
-      <scope id="3378885719458460823" at="126,40,129,158" />
-      <scope id="3378885719458519860" at="135,41,138,217" />
-      <scope id="3378885719460266482" at="171,48,174,5">
+      <scope id="3378885719458460823" at="127,40,130,158" />
+      <scope id="3378885719458519860" at="136,41,139,217" />
+      <scope id="3378885719460266482" at="172,48,175,5">
         <var name="i" id="3378885719460266485" />
       </scope>
-      <scope id="3378885719462136033" at="188,49,191,5">
+      <scope id="3378885719462136033" at="189,49,192,5">
         <var name="i" id="3378885719462136036" />
       </scope>
-      <scope id="5866387967695281629" at="226,71,229,20">
+      <scope id="5866387967695281629" at="227,71,230,20">
         <var name="theoNode" id="3378885719458048032" />
       </scope>
-      <scope id="3378885719451869395" at="246,87,249,7">
+      <scope id="3378885719451869395" at="247,87,250,7">
         <var name="i" id="3378885719451869398" />
       </scope>
-      <scope id="3378885719454978804" at="252,65,255,154" />
-      <scope id="3378885719455095800" at="256,73,259,155" />
-      <scope id="3378885719455136565" at="260,72,263,154" />
-      <scope id="3378885719455180822" at="264,75,267,157" />
-      <scope id="3378885719455219495" at="268,71,271,153" />
-      <scope id="9150185381763844498" at="350,50,353,5">
+      <scope id="3378885719454978804" at="253,65,256,154" />
+      <scope id="3378885719455095800" at="257,73,260,155" />
+      <scope id="3378885719455136565" at="261,72,264,154" />
+      <scope id="3378885719455180822" at="265,75,268,157" />
+      <scope id="3378885719455219495" at="269,71,272,153" />
+      <scope id="9150185381763844498" at="351,50,354,5">
         <var name="i" id="9150185381763844501" />
       </scope>
-      <scope id="5962897251886973701" at="367,178,370,5">
+      <scope id="5962897251886973701" at="368,178,371,5">
         <var name="i" id="5962897251886973704" />
       </scope>
-      <scope id="384861153814862507" at="434,61,437,99">
+      <scope id="384861153814862507" at="435,61,438,99">
         <var name="idNode" id="384861153814876210" />
       </scope>
-      <scope id="5866387967695249913" at="107,95,111,18">
+      <scope id="5866387967695249913" at="108,95,112,18">
         <var name="idList" id="3378885719449525196" />
         <var name="vdNode" id="3378885719448641907" />
       </scope>
-      <scope id="5866387967695253381" at="114,95,118,18">
+      <scope id="5866387967695253381" at="115,95,119,18">
         <var name="cdNode" id="3378885719448573882" />
         <var name="opList" id="3378885719451349781" />
       </scope>
-      <scope id="3378885719458497529" at="130,39,134,209" />
-      <scope id="3378885719458616909" at="140,65,144,140" />
-      <scope id="3378885719458616961" at="145,73,149,140" />
-      <scope id="3378885719458617003" at="150,72,154,140" />
-      <scope id="3378885719458617045" at="155,75,159,140" />
-      <scope id="3378885719458617087" at="160,71,164,140" />
-      <scope id="5866387967695274215" at="205,89,209,18">
+      <scope id="3378885719458497529" at="131,39,135,209" />
+      <scope id="3378885719458616909" at="141,65,145,140" />
+      <scope id="3378885719458616961" at="146,73,150,140" />
+      <scope id="3378885719458617003" at="151,72,155,140" />
+      <scope id="3378885719458617045" at="156,75,160,140" />
+      <scope id="3378885719458617087" at="161,71,165,140" />
+      <scope id="5866387967695274215" at="206,89,210,18">
         <var name="modDef" id="3378885719464125600" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="411,0,415,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="412,0,416,0">
         <var name="ctx" id="5866387967694186802" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="415,0,419,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="416,0,420,0">
         <var name="ctx" id="5866387967694186808" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="419,0,423,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="420,0,424,0">
         <var name="ctx" id="5866387967694186814" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="423,0,427,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="424,0,428,0">
         <var name="ctx" id="5866387967694186820" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="427,0,431,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="428,0,432,0">
         <var name="ctx" id="5866387967694186826" />
       </scope>
       <scope id="384861153815326419" at="23,180,28,5">
@@ -1051,201 +1053,201 @@
       <scope id="384861153816339245" at="37,232,42,7">
         <var name="i" id="384861153816339248" />
       </scope>
-      <scope id="3378885719451222506" at="98,174,103,5">
+      <scope id="3378885719451222506" at="99,174,104,5">
         <var name="i" id="3378885719451222533" />
       </scope>
-      <scope id="5866387967695260315" at="170,95,175,18">
+      <scope id="5866387967695260315" at="171,95,176,18">
         <var name="qbList" id="3378885719460200738" />
       </scope>
-      <scope id="5866387967695267257" at="187,89,192,19">
+      <scope id="5866387967695267257" at="188,89,193,19">
         <var name="sublist" id="3378885719462041961" />
       </scope>
-      <scope id="5866387967695315293" at="349,85,354,20">
+      <scope id="5866387967695315293" at="350,85,355,20">
         <var name="exprList" id="9150185381763724404" />
       </scope>
-      <scope id="5866387967695318795" at="366,85,371,18">
+      <scope id="5866387967695318795" at="367,85,372,18">
         <var name="ipNode" id="5962897251886711385" />
       </scope>
-      <scope id="384861153814862505" at="433,178,438,5">
+      <scope id="384861153814862505" at="434,178,439,5">
         <var name="i" id="384861153814862508" />
       </scope>
       <scope id="384861153812449148" at="36,32,42,7" />
-      <scope id="3378885719450580855" at="65,50,71,7" />
-      <scope id="3378885719451014003" at="72,50,78,7" />
-      <scope id="3378885719451048987" at="79,40,85,7" />
-      <scope id="3378885719451062573" at="86,48,92,7" />
-      <scope id="5866387967695263781" at="178,93,184,20">
+      <scope id="3378885719450580855" at="66,50,72,7" />
+      <scope id="3378885719451014003" at="73,50,79,7" />
+      <scope id="3378885719451048987" at="80,40,86,7" />
+      <scope id="3378885719451062573" at="87,48,93,7" />
+      <scope id="5866387967695263781" at="179,93,185,20">
         <var name="fdefNode" id="3378885719459708700" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="225,0,231,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="226,0,232,0">
         <var name="ctx" id="5866387967694186718" />
       </scope>
-      <scope id="5866387967695295577" at="281,75,287,15">
+      <scope id="5866387967695295577" at="282,75,288,15">
         <var name="nfl" id="3378885719462337087" />
       </scope>
-      <scope id="5962897251886569832" at="357,97,363,15">
+      <scope id="5962897251886569832" at="358,97,364,15">
         <var name="sip" id="5962897251887260729" />
       </scope>
-      <scope id="5866387967695322299" at="374,91,380,15">
+      <scope id="5866387967695322299" at="375,91,381,15">
         <var name="gid" id="9150185381764288483" />
       </scope>
-      <scope id="5866387967695325805" at="383,87,389,16">
+      <scope id="5866387967695325805" at="384,87,390,16">
         <var name="gpop" id="9150185381764667927" />
       </scope>
       <scope id="5866387967695230411" at="22,73,29,20">
         <var name="namelist" id="384861153815336208" />
       </scope>
-      <scope id="5866387967695246455" at="97,77,104,18">
+      <scope id="5866387967695246455" at="98,77,105,18">
         <var name="OpList" id="3378885719451240875" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="106,0,113,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="107,0,114,0">
         <var name="ctx" id="5866387967694186664" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="113,0,120,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="114,0,121,0">
         <var name="ctx" id="5866387967694186670" />
       </scope>
-      <scope id="5866387967695270735" at="195,73,202,16">
+      <scope id="5866387967695270735" at="196,73,203,16">
         <var name="inst" id="3378885719461506421" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="204,0,211,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="205,0,212,0">
         <var name="ctx" id="5866387967694186706" />
       </scope>
-      <scope id="3378885719451565318" at="243,46,250,87" />
-      <scope id="5866387967695329313" at="392,85,399,15">
+      <scope id="3378885719451565318" at="244,46,251,87" />
+      <scope id="5866387967695329313" at="393,85,400,15">
         <var name="gio" id="9150185381765010699" />
         <var name="ioNode" id="9150185381765218460" />
       </scope>
-      <scope id="5866387967695335700" at="402,89,409,15">
+      <scope id="5866387967695335700" at="403,89,410,15">
         <var name="gpo" id="9150185381765526886" />
         <var name="poNode" id="9150185381765743364" />
       </scope>
-      <scope id="5866387967695362556" at="432,85,439,18">
+      <scope id="5866387967695362556" at="433,85,440,18">
         <var name="idList" id="384861153814447439" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="169,0,177,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="170,0,178,0">
         <var name="ctx" id="5866387967694186682" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="186,0,194,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="187,0,195,0">
         <var name="ctx" id="5866387967694186694" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="348,0,356,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="349,0,357,0">
         <var name="ctx" id="5866387967694186766" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="365,0,373,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="366,0,374,0">
         <var name="ctx" id="5866387967694186772" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="177,0,186,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="178,0,187,0">
         <var name="ctx" id="5866387967694186688" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="280,0,289,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="281,0,290,0">
         <var name="ctx" id="5866387967694186742" />
       </scope>
-      <scope id="5866387967695299071" at="290,87,299,14">
+      <scope id="5866387967695299071" at="291,87,300,14">
         <var name="qb" id="3378885719460417593" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" at="356,0,365,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" at="357,0,366,0">
         <var name="ctx" id="5962897251885727447" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="373,0,382,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="374,0,383,0">
         <var name="ctx" id="5866387967694186778" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="382,0,391,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="383,0,392,0">
         <var name="ctx" id="5866387967694186784" />
       </scope>
-      <scope id="5866387967695366080" at="442,91,451,19">
+      <scope id="5866387967695366080" at="443,91,452,19">
         <var name="idortup" id="3378885719460899257" />
       </scope>
       <scope id="~TLAPlusGrammarBaseVisitor.visitNameList(parser.TLAPlusGrammarParser$NameListContext)" at="21,0,31,0">
         <var name="ctx" id="5866387967694186640" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="96,0,106,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="97,0,107,0">
         <var name="ctx" id="5866387967694186658" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="194,0,204,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="195,0,205,0">
         <var name="ctx" id="5866387967694186700" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="391,0,401,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="392,0,402,0">
         <var name="ctx" id="5866387967694186790" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="401,0,411,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="402,0,412,0">
         <var name="ctx" id="5866387967694186796" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="431,0,441,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="432,0,442,0">
         <var name="ctx" id="5866387967694186832" />
       </scope>
-      <scope id="5866387967695278145" at="212,77,223,19">
+      <scope id="5866387967695278145" at="213,77,224,19">
         <var name="assNode" id="3378885719457562153" />
       </scope>
-      <scope id="5866387967695311793" at="335,73,346,15">
+      <scope id="5866387967695311793" at="336,73,347,15">
         <var name="arg" id="9150185381763379098" />
       </scope>
-      <scope id="5866387967695369606" at="454,73,465,18">
+      <scope id="5866387967695369606" at="455,73,466,18">
         <var name="poNode" id="3378885719451964716" />
       </scope>
-      <scope id="5866387967695382715" at="676,75,687,18">
+      <scope id="5866387967695382715" at="677,75,688,18">
         <var name="poNode" id="3378885719452576925" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="289,0,301,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="290,0,302,0">
         <var name="ctx" id="5866387967694186748" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="441,0,453,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="442,0,454,0">
         <var name="ctx" id="5866387967694186838" />
       </scope>
       <scope id="5866387967695233871" at="33,69,47,22">
         <var name="moduleNode" id="384861153811544776" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="211,0,225,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="212,0,226,0">
         <var name="ctx" id="5866387967694186712" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="334,0,348,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="335,0,349,0">
         <var name="ctx" id="5866387967694186760" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="453,0,467,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="454,0,468,0">
         <var name="ctx" id="5866387967694186844" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="675,0,689,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="676,0,690,0">
         <var name="ctx" id="5866387967694186856" />
       </scope>
       <scope id="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" at="32,0,49,0">
         <var name="ctx" id="5866387967694186646" />
       </scope>
-      <scope id="9150185381762097431" at="311,42,330,7" />
-      <scope id="3378885719451582504" at="251,74,275,7" />
-      <scope id="3378885719458616907" at="139,120,165,7" />
-      <scope id="5866387967695305430" at="302,81,332,15">
+      <scope id="9150185381762097431" at="312,42,331,7" />
+      <scope id="3378885719451582504" at="252,74,276,7" />
+      <scope id="3378885719458616907" at="140,120,166,7" />
+      <scope id="5866387967695305430" at="303,81,333,15">
         <var name="sub" id="9150185381761598015" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="301,0,334,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="302,0,335,0">
         <var name="ctx" id="5866387967694186754" />
       </scope>
-      <scope id="5866387967695237333" at="50,65,94,14">
+      <scope id="5866387967695237333" at="50,65,95,14">
         <var name="un" id="3378885719448191702" />
       </scope>
-      <scope id="5866387967695288603" at="232,69,277,18">
+      <scope id="5866387967695288603" at="233,69,278,18">
         <var name="opNode" id="3378885719451399027" />
       </scope>
-      <scope id="5866387967695256851" at="121,93,167,21">
+      <scope id="5866387967695256851" at="122,93,168,21">
         <var name="opdefNode" id="3378885719458150815" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="49,0,96,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="49,0,97,0">
         <var name="ctx" id="5866387967694186652" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="231,0,279,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="232,0,280,0">
         <var name="ctx" id="5866387967694186730" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="120,0,169,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="121,0,170,0">
         <var name="ctx" id="5866387967694186676" />
       </scope>
-      <scope id="3378885719452283700" at="480,12,671,7" />
-      <scope id="5866387967695376029" at="468,71,673,18">
+      <scope id="3378885719452283700" at="481,12,672,7" />
+      <scope id="5866387967695376029" at="469,71,674,18">
         <var name="ioNode" id="3378885719452174321" />
       </scope>
-      <scope id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="467,0,675,0">
+      <scope id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="468,0,676,0">
         <var name="ctx" id="5866387967694186850" />
       </scope>
-      <unit id="~TLAPlusGrammarBaseVisitor" at="690,0,715,0" name="Paster.plugin.AntlrUnitVisitor$PROPS" />
-      <unit id="~TLAPlusGrammarBaseVisitor" at="716,0,754,0" name="Paster.plugin.AntlrUnitVisitor$LINKS" />
-      <unit id="~TLAPlusGrammarBaseVisitor" at="19,0,755,0" name="Paster.plugin.AntlrUnitVisitor" />
+      <unit id="~TLAPlusGrammarBaseVisitor" at="691,0,717,0" name="Paster.plugin.AntlrUnitVisitor$PROPS" />
+      <unit id="~TLAPlusGrammarBaseVisitor" at="718,0,756,0" name="Paster.plugin.AntlrUnitVisitor$LINKS" />
+      <unit id="~TLAPlusGrammarBaseVisitor" at="19,0,757,0" name="Paster.plugin.AntlrUnitVisitor" />
     </file>
   </root>
 </debug-info>

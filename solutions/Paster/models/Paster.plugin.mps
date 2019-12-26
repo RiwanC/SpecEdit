@@ -2436,6 +2436,44 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="5b0tRkN6gJj" role="3cqZAp">
+                <node concept="15s5l7" id="5b0tRkN6pod" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                </node>
+                <node concept="2OqwBi" id="5b0tRkN6iHG" role="3clFbG">
+                  <node concept="2OqwBi" id="5b0tRkN6hRi" role="2Oq$k0">
+                    <node concept="1eOMI4" id="5b0tRkN6hpK" role="2Oq$k0">
+                      <node concept="10QFUN" id="5b0tRkN6hpH" role="1eOMHV">
+                        <node concept="3Tqbb2" id="5b0tRkN6h$4" role="10QFUM">
+                          <ref role="ehGHo" to="548q:4pT0XE4EGAx" resolve="Separator" />
+                        </node>
+                        <node concept="37vLTw" id="5b0tRkN6hD$" role="10QFUP">
+                          <ref role="3cqZAo" node="2V$dEz$mobm" resolve="un" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="5b0tRkN6ikE" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:5p0f$nvZJF9" resolve="sep" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="5b0tRkN6jjH" role="2OqNvi">
+                    <node concept="2OqwBi" id="5b0tRkN6myL" role="tz02z">
+                      <node concept="2OqwBi" id="5b0tRkN6jIL" role="2Oq$k0">
+                        <node concept="37vLTw" id="5b0tRkN6jph" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qys" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="5b0tRkN6mds" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$UnitContext.FourMinus()" resolve="FourMinus" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5b0tRkN6oRU" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3SKdUt" id="2V$dEz$vzol" role="3cqZAp">
                 <node concept="1PaTwC" id="2V$dEz$vzom" role="3ndbpf">
                   <node concept="3oM_SD" id="2V$dEz$v$uq" role="1PaTwD">
@@ -3256,7 +3294,7 @@
               <node concept="37vLTw" id="2V$dEz$Wxlv" role="2Oq$k0">
                 <ref role="3cqZAo" node="2V$dEz$WnAv" resolve="opdefNode" />
               </node>
-              <node concept="3TrEf2" id="2V$dEz$W$ZB" role="2OqNvi">
+              <node concept="3TrEf2" id="5b0tRkN2fiZ" role="2OqNvi">
                 <ref role="3Tt5mk" to="548q:4pT0XE4EGx2" resolve="Expr" />
               </node>
             </node>
@@ -6638,22 +6676,27 @@
                   </node>
                 </node>
                 <node concept="X8dFx" id="2V$dEz_es8y" role="2OqNvi">
-                  <node concept="1eOMI4" id="2V$dEz_et2E" role="25WWJ7">
-                    <node concept="10QFUN" id="2V$dEz_et2B" role="1eOMHV">
-                      <node concept="2I9FWS" id="2V$dEz_etOB" role="10QFUM">
-                        <ref role="2I9WkF" to="548q:6r55aFu62hp" resolve="OpDecl" />
-                      </node>
-                      <node concept="1rXfSq" id="2V$dEz_exWE" role="10QFUP">
-                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" resolve="visitOpDeclList" />
-                        <node concept="2OqwBi" id="2V$dEz_eBOv" role="37wK5m">
-                          <node concept="37vLTw" id="2V$dEz_e_Eg" role="2Oq$k0">
-                            <ref role="3cqZAo" node="55DAcpL2qzQ" resolve="ctx" />
-                          </node>
-                          <node concept="liA8E" id="2V$dEz_eFue" role="2OqNvi">
-                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NonFixLHSContext.opDeclList()" resolve="opDeclList" />
+                  <node concept="2OqwBi" id="5b0tRkN50t4" role="25WWJ7">
+                    <node concept="1eOMI4" id="2V$dEz_et2E" role="2Oq$k0">
+                      <node concept="10QFUN" id="2V$dEz_et2B" role="1eOMHV">
+                        <node concept="1rXfSq" id="2V$dEz_exWE" role="10QFUP">
+                          <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" resolve="visitOpDeclList" />
+                          <node concept="2OqwBi" id="2V$dEz_eBOv" role="37wK5m">
+                            <node concept="37vLTw" id="2V$dEz_e_Eg" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2qzQ" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="2V$dEz_eFue" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NonFixLHSContext.opDeclList()" resolve="opDeclList" />
+                            </node>
                           </node>
                         </node>
+                        <node concept="3Tqbb2" id="5b0tRkN4Yxu" role="10QFUM">
+                          <ref role="ehGHo" to="548q:4uZratGHlNZ" resolve="OpDeclList" />
+                        </node>
                       </node>
+                    </node>
+                    <node concept="3Tsc0h" id="5b0tRkN56dY" role="2OqNvi">
+                      <ref role="3TtcxE" to="548q:4uZratGHlO0" resolve="OpDeclarations" />
                     </node>
                   </node>
                 </node>
@@ -8659,8 +8702,12 @@
       </node>
       <node concept="3clFbS" id="55DAcpL6SKU" role="3clF47">
         <node concept="3cpWs6" id="55DAcpL6T$V" role="3cqZAp">
-          <node concept="Xl_RD" id="7VVZhZX1618" role="3cqZAk">
-            <property role="Xl_RC" value="expr" />
+          <node concept="2ShNRf" id="5b0tRkN2Qw9" role="3cqZAk">
+            <node concept="3zrR0B" id="5b0tRkN3h5s" role="2ShVmc">
+              <node concept="3Tqbb2" id="5b0tRkN3h5u" role="3zrR0E">
+                <ref role="ehGHo" to="548q:6tbn_b6SrPv" resolve="Expression" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

@@ -61,6 +61,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
       un = ((SNode) visitModule(ctx.module()));
     } else if (ctx.FourMinus() != null) {
       un = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac9a1L, "TLA.structure.Separator"));
+      SPropertyOperations.set(((SNode) un), PROPS.sep$Oove, ctx.FourMinus().getText());
       // LOCAL ou non pour ceux qui suivent 
     } else if (ctx.operatorDefinition() != null) {
       if (ctx.LOCAL() != null) {
@@ -282,7 +283,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     SNode nfl = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a4f8b04L, "TLA.structure.NonFixLHS"));
     SPropertyOperations.assign(nfl, PROPS.ID$h$Dw, ctx.Identifier().getText());
     if (ctx.opDeclList() != null) {
-      ListSequence.fromList(SLinkOperations.getChildren(nfl, LINKS.SetOfOpDecl$E0N2)).addSequence(ListSequence.fromList(((List<SNode>) visitOpDeclList(ctx.opDeclList()))));
+      ListSequence.fromList(SLinkOperations.getChildren(nfl, LINKS.SetOfOpDecl$E0N2)).addSequence(ListSequence.fromList(SLinkOperations.getChildren(((SNode) visitOpDeclList(ctx.opDeclList())), LINKS.OpDeclarations$75Cw)));
     }
     return nfl;
   }
@@ -426,7 +427,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitExpression(TLAPlusGrammarParser.ExpressionContext ctx) {
-    return "expr";
+    return SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL, "TLA.structure.Expression"));
   }
   @Override
   public Object visitIdentifierList(TLAPlusGrammarParser.IdentifierListContext ctx) {
@@ -691,6 +692,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SProperty ID$ll3w = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, 0x43917a23f8d4d96cL, "ID");
     /*package*/ static final SProperty ModuleName$iAUB = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade19a4b0L, "ModuleName");
     /*package*/ static final SProperty ModuleName$Lfj0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade19ce77L, 0x66c514aade19ce78L, "ModuleName");
+    /*package*/ static final SProperty sep$Oove = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac9a1L, 0x56403e45dffefac9L, "sep");
     /*package*/ static final SProperty ID$96Yw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, 0x467903da84aac862L, "ID");
     /*package*/ static final SProperty ID1$9c_w = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87bL, "ID1");
     /*package*/ static final SProperty ID2$9cAu = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87dL, "ID2");

@@ -27,9 +27,6 @@
       <concept id="7443146518776888677" name="TLA.structure.Theorem" flags="ng" index="2xEIcR">
         <child id="7443146518776888678" name="Expr" index="2xEIcO" />
       </concept>
-      <concept id="7443146518776888588" name="TLA.structure.PrefixOpNode" flags="ng" index="2xEIdu">
-        <property id="7443146518776888589" name="PrefixOp" index="2xEIdv" />
-      </concept>
       <concept id="7443146518776888620" name="TLA.structure.PostfixOpNode" flags="ng" index="2xEIdY">
         <property id="7443146518776888621" name="PostfixOp" index="2xEIdZ" />
       </concept>
@@ -149,9 +146,6 @@
       <concept id="7724032538759452794" name="TLA.structure.Substitution" flags="ng" index="3LopVh">
         <child id="7443146518776888661" name="Arg" index="2xEIc7" />
         <child id="7443146518776888636" name="substitLHS" index="2xEIdI" />
-      </concept>
-      <concept id="7724032538758570515" name="TLA.structure.PrefixOpUnderscoreNode" flags="ng" index="3LsyiS">
-        <child id="4780320680500841879" name="PrefixOp" index="2FSX73" />
       </concept>
       <concept id="7724032538758612833" name="TLA.structure.PostfixOpUnderscoreNode" flags="ng" index="3Ltk7a">
         <property id="7724032538758612834" name="PostfixOp" index="3Ltk79" />
@@ -800,41 +794,13 @@
     </node>
   </node>
   <node concept="2SRj3L" id="_pU7hk2pvA">
-    <property role="2SRb0q" value="Test" />
+    <property role="2SRb0q" value="Hanoi" />
     <node concept="2KC$BN" id="_pU7hk2pvB" role="2SRdFh">
-      <node concept="2SRdFt" id="5b0tRkN1gVc" role="2KC$BK">
-        <property role="2SRdFi" value="AAAA" />
+      <node concept="2SRdFt" id="5b0tRkN7rRn" role="2KC$BK">
+        <property role="2SRdFi" value="Sequences" />
       </node>
-      <node concept="2SRdFt" id="5b0tRkN1gVd" role="2KC$BK">
-        <property role="2SRdFi" value="BBBB" />
-      </node>
-      <node concept="2SRdFt" id="5b0tRkN1gVe" role="2KC$BK">
-        <property role="2SRdFi" value="CCCC" />
-      </node>
-      <node concept="2SRdFt" id="5b0tRkN1gVf" role="2KC$BK">
-        <property role="2SRdFi" value="DDDD" />
-      </node>
-      <node concept="2SRdFt" id="5b0tRkN1gVg" role="2KC$BK">
-        <property role="2SRdFi" value="EEEE" />
-      </node>
-    </node>
-    <node concept="3EFLVo" id="5b0tRkN1gVi" role="2SR288">
-      <node concept="2Vhqdv" id="5b0tRkN1gVj" role="2Vhqdp">
-        <node concept="2Vhqd8" id="5b0tRkN1gVk" role="2Vhqdu">
-          <property role="2Vhqdf" value="ABAA" />
-        </node>
-        <node concept="2Vhqd8" id="5b0tRkN1gVl" role="2Vhqdu">
-          <property role="2Vhqdf" value="FDGH" />
-        </node>
-      </node>
-    </node>
-    <node concept="3EFLUj" id="5b0tRkN1gVn" role="2SR288">
-      <node concept="F2z1o" id="5b0tRkN1gVo" role="F2z1q">
-        <node concept="3LsyiS" id="5b0tRkN1gVq" role="F2z6B">
-          <node concept="2xEIdu" id="5b0tRkN1gVr" role="2FSX73">
-            <property role="2xEIdv" value="4uZratGIeGT/Neg" />
-          </node>
-        </node>
+      <node concept="2SRdFt" id="5b0tRkN7rRo" role="2KC$BK">
+        <property role="2SRdFi" value="Integers" />
       </node>
     </node>
   </node>
