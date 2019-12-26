@@ -97,7 +97,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   public Object visitOpDeclList(TLAPlusGrammarParser.OpDeclListContext ctx) {
     SNode OpList = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb55cffL, "TLA.structure.OpDeclList"));
     for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
-      SNode OpNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade182459L, "TLA.structure.OpDecl"));
+      SNode OpNode;
       OpNode = ((SNode) visitOpDecl(ctx.opDecl(i)));
       ListSequence.fromList(SLinkOperations.getChildren(OpList, LINKS.OpDeclarations$75Cw)).addElement(OpNode);
     }
@@ -302,7 +302,6 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   public Object visitSubstitution(TLAPlusGrammarParser.SubstitutionContext ctx) {
     SNode sub = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d87aL, "TLA.structure.Substitution"));
     SLinkOperations.setTarget(sub, LINKS.Arg$KZn6, ((SNode) visitArgument(ctx.argument())));
-
     if (ctx.infixOp() != null) {
       SLinkOperations.setTarget(sub, LINKS.substitLHS$KYGu, ((SNode) visitInfixOp(ctx.infixOp())));
     } else if (ctx.postfixOp() != null) {
@@ -330,17 +329,29 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
         SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(sub, LINKS.substitLHS$KYGu)), PROPS.ID$ll3w, ctx.Identifier().getText());
       }
     }
-
-
     return sub;
   }
   @Override
   public Object visitArgument(TLAPlusGrammarParser.ArgumentContext ctx) {
-    return null;
+    SNode arg = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1b6c1L, "TLA.structure.Argument"));
+    if (ctx.expression() != null) {
+      arg = ((SNode) visitExpression(ctx.expression()));
+    } else if (ctx.generalInfixOp() != null) {
+      arg = ((SNode) visitGeneralInfixOp(ctx.generalInfixOp()));
+    } else if (ctx.generalPostfixOp() != null) {
+      arg = ((SNode) visitGeneralPostfixOp(ctx.generalPostfixOp()));
+    } else if (ctx.generalPrefixOp() != null) {
+      arg = ((SNode) visitGeneralPrefixOp(ctx.generalPrefixOp()));
+    }
+    return arg;
   }
   @Override
   public Object visitExpressionList(TLAPlusGrammarParser.ExpressionListContext ctx) {
-    return null;
+    List<SNode> exprList = new ArrayList<SNode>();
+    for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
+      ListSequence.fromList(exprList).addElement(((SNode) visitExpression(ctx.expression(i))));
+    }
+    return exprList;
   }
   @Override
   public Object visitInstancePrefix(TLAPlusGrammarParser.InstancePrefixContext ctx) {
@@ -348,19 +359,33 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitGeneralIdentifier(TLAPlusGrammarParser.GeneralIdentifierContext ctx) {
-    return null;
+    SNode gid = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd63L, "TLA.structure.GeneralIdentifier"));
+    SPropertyOperations.assign(gid, PROPS.ID$gqRE, ctx.Identifier().getText());
+    SLinkOperations.setTarget(gid, LINKS.InstancePrefix$gqQG, ((SNode) visitInstancePrefix(ctx.instancePrefix())));
+    return gid;
   }
   @Override
   public Object visitGeneralPrefixOp(TLAPlusGrammarParser.GeneralPrefixOpContext ctx) {
-    return null;
+    SNode gpop = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd60L, "TLA.structure.GeneralPrefixOp"));
+    SLinkOperations.setTarget(gpop, LINKS.PrefixOp$2zjg, ((SNode) visitPrefixOp(ctx.prefixOp())));
+    SLinkOperations.setTarget(gpop, LINKS.InstancePrefix$grn6, ((SNode) visitInstancePrefix(ctx.instancePrefix())));
+    return gpop;
   }
   @Override
   public Object visitGeneralInfixOp(TLAPlusGrammarParser.GeneralInfixOpContext ctx) {
-    return null;
+    SNode gio = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd61L, "TLA.structure.GeneralInfixOp"));
+    SNode ioNode = ((SNode) visitInfixOp(ctx.infixOp()));
+    SPropertyOperations.assignEnum(gio, PROPS.InfixOp$gwW6, SPropertyOperations.getEnum(ioNode, PROPS.InfixOp$R0p0));
+    SLinkOperations.setTarget(gio, LINKS.InstancePrefix$gwX4, ((SNode) visitInstancePrefix(ctx.instancePrefix())));
+    return gio;
   }
   @Override
   public Object visitGeneralPostfixOp(TLAPlusGrammarParser.GeneralPostfixOpContext ctx) {
-    return null;
+    SNode gpo = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd62L, "TLA.structure.GeneralPostfixOp"));
+    SNode poNode = ((SNode) visitPostfixOp(ctx.postfixOp()));
+    SPropertyOperations.assignEnum(gpo, PROPS.PostfixOp$gxrA, SPropertyOperations.getEnum(poNode, PROPS.PostfixOp$R0Q0));
+    SLinkOperations.setTarget(gpo, LINKS.InstancePrefix$gxs$, ((SNode) visitInstancePrefix(ctx.instancePrefix())));
+    return gpo;
   }
   @Override
   public Object visitCaseArm(TLAPlusGrammarParser.CaseArmContext ctx) {
@@ -380,7 +405,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
   @Override
   public Object visitExpression(TLAPlusGrammarParser.ExpressionContext ctx) {
-    return null;
+    return "expr";
   }
   @Override
   public Object visitIdentifierList(TLAPlusGrammarParser.IdentifierListContext ctx) {
@@ -409,11 +434,11 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     SNode poNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd0cL, "TLA.structure.PrefixOpNode"));
     if (ctx.SQUARE() != null) {
       SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb45L, "Square");
-    } else if (("<>").compareTo(ctx.getText()) == 0) {
+    } else if ("<>".compareTo(ctx.getText()) == 0) {
       SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb4bL, "Diamond");
-    } else if (("~").compareTo(ctx.getText()) == 0 || ("\\lnot").compareTo(ctx.getText()) == 0 || ("\\neg").compareTo(ctx.getText()) == 0) {
+    } else if ("~".compareTo(ctx.getText()) == 0 || "\\lnot".compareTo(ctx.getText()) == 0 || "\\neg".compareTo(ctx.getText()) == 0) {
       SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb39L, "Neg");
-    } else if (("-").compareTo(ctx.getText()) == 0) {
+    } else if ("-".compareTo(ctx.getText()) == 0) {
       SPropertyOperations.setEnum(((SNode) poNode), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb38L, "Dash");
     }
     return poNode;
@@ -661,6 +686,9 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SProperty PostfixOp$R0Q0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd2cL, 0x674b5e52c6e1bd2dL, "PostfixOp");
     /*package*/ static final SProperty OpId$vrV0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb8eb86L, 0x47bf6ca76cb8eb87L, "OpId");
     /*package*/ static final SProperty ID$h$Dw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a4f8b04L, 0x6b3146ab9a4f8b05L, "ID");
+    /*package*/ static final SProperty ID$gqRE = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd63L, 0x467903da84aac7e3L, "ID");
+    /*package*/ static final SProperty InfixOp$gwW6 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd61L, 0x467903da84aac811L, "InfixOp");
+    /*package*/ static final SProperty PostfixOp$gxrA = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd62L, 0x467903da84aac828L, "PostfixOp");
   }
 
   private static final class LINKS {
@@ -692,6 +720,11 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SContainmentLink IDs$9k$y = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8c1L, 0x467903da84aac8f7L, "IDs");
     /*package*/ static final SContainmentLink Arg$KZn6 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d87aL, 0x674b5e52c6e1bd55L, "Arg");
     /*package*/ static final SContainmentLink substitLHS$KYGu = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d87aL, 0x674b5e52c6e1bd3cL, "substitLHS");
+    /*package*/ static final SContainmentLink InstancePrefix$gqQG = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd63L, 0x467903da84aac7e1L, "InstancePrefix");
+    /*package*/ static final SContainmentLink PrefixOp$2zjg = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd60L, 0x42571c54e9b4e015L, "PrefixOp");
+    /*package*/ static final SContainmentLink InstancePrefix$grn6 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd60L, 0x467903da84aac7faL, "InstancePrefix");
+    /*package*/ static final SContainmentLink InstancePrefix$gwX4 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd61L, 0x467903da84aac813L, "InstancePrefix");
+    /*package*/ static final SContainmentLink InstancePrefix$gxs$ = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd62L, 0x467903da84aac82aL, "InstancePrefix");
     /*package*/ static final SContainmentLink IDList$9ej0 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8c2L, 0x467903da84aac8c3L, "IDList");
   }
 }
