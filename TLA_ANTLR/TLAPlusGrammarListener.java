@@ -1,4 +1,5 @@
-// Generated from C:/Users/riwan/Desktop/antlr2mps/src/main/antlr/tla\TLAPlusGrammar.g4 by ANTLR 4.7.2
+// Generated from tla\TLAPlusGrammar.g4 by ANTLR 4.5.1
+package parser;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -167,16 +168,6 @@ public interface TLAPlusGrammarListener extends ParseTreeListener {
 	 */
 	void exitOpDecl(TLAPlusGrammarParser.OpDeclContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#idOrOpDeclList}.
-	 * @param ctx the parse tree
-	 */
-	void enterIdOrOpDeclList(TLAPlusGrammarParser.IdOrOpDeclListContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link TLAPlusGrammarParser#idOrOpDeclList}.
-	 * @param ctx the parse tree
-	 */
-	void exitIdOrOpDeclList(TLAPlusGrammarParser.IdOrOpDeclListContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#nonFixLHS}.
 	 * @param ctx the parse tree
 	 */
@@ -226,6 +217,16 @@ public interface TLAPlusGrammarListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitExpressionList(TLAPlusGrammarParser.ExpressionListContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#singleInstancePrefix}.
+	 * @param ctx the parse tree
+	 */
+	void enterSingleInstancePrefix(TLAPlusGrammarParser.SingleInstancePrefixContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link TLAPlusGrammarParser#singleInstancePrefix}.
+	 * @param ctx the parse tree
+	 */
+	void exitSingleInstancePrefix(TLAPlusGrammarParser.SingleInstancePrefixContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#instancePrefix}.
 	 * @param ctx the parse tree
@@ -307,6 +308,36 @@ public interface TLAPlusGrammarListener extends ParseTreeListener {
 	 */
 	void exitNameColonExprList(TLAPlusGrammarParser.NameColonExprListContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#defi}.
+	 * @param ctx the parse tree
+	 */
+	void enterDefi(TLAPlusGrammarParser.DefiContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link TLAPlusGrammarParser#defi}.
+	 * @param ctx the parse tree
+	 */
+	void exitDefi(TLAPlusGrammarParser.DefiContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#exceptInterfaceTerminal}.
+	 * @param ctx the parse tree
+	 */
+	void enterExceptInterfaceTerminal(TLAPlusGrammarParser.ExceptInterfaceTerminalContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link TLAPlusGrammarParser#exceptInterfaceTerminal}.
+	 * @param ctx the parse tree
+	 */
+	void exitExceptInterfaceTerminal(TLAPlusGrammarParser.ExceptInterfaceTerminalContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#exceptInterface}.
+	 * @param ctx the parse tree
+	 */
+	void enterExceptInterface(TLAPlusGrammarParser.ExceptInterfaceContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link TLAPlusGrammarParser#exceptInterface}.
+	 * @param ctx the parse tree
+	 */
+	void exitExceptInterface(TLAPlusGrammarParser.ExceptInterfaceContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#exceptList}.
 	 * @param ctx the parse tree
 	 */
@@ -376,4 +407,14 @@ public interface TLAPlusGrammarListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitPostfixOp(TLAPlusGrammarParser.PostfixOpContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#comment}.
+	 * @param ctx the parse tree
+	 */
+	void enterComment(TLAPlusGrammarParser.CommentContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link TLAPlusGrammarParser#comment}.
+	 * @param ctx the parse tree
+	 */
+	void exitComment(TLAPlusGrammarParser.CommentContext ctx);
 }

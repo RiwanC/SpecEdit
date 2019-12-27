@@ -10,7 +10,7 @@ VIRGULE : ',';
 MODULE: 'MODULE';
 EXTENDS: 'EXTENDS';
 LOCAL: 'LOCAL';
-nameList : (Name|Identifier) (VIRGULE (Name|Identifier))*;
+nameList : (Name|Identifier) (VIRGULE (Name|Identifier))* ;
 
 module
     : FourMinus MODULE (Name|Identifier) FourMinus (EXTENDS (nameList|identifierList))? unit* FourEquals; //ajout identifier car ambiguité
@@ -25,6 +25,7 @@ unit
     |assumption
     |theorem
     |module
+    |comment
     |FourMinus;
 
 FourMinus : '---'('-')+;
@@ -67,7 +68,7 @@ Ass:('ASSUME'| 'ASSUMPTION'| 'AXIOM');
 THEOREM:'THEOREM';
 
 
-instance : INSTANCE Name  (WITH   substitutionList)? ;
+instance : INSTANCE (Name|Identifier)  (WITH   substitutionList)? ;
 
 moduleDefinition :   nonFixLHS   EQUALEQUAL   instance;
 
@@ -83,10 +84,8 @@ opDecl :    Identifier
            | Underscore   infixOp   Underscore
            |Underscore postfixOp;
 
-idOrOpDeclList : (Identifier| opDecl) (VIRGULE (Identifier| opDecl))*;
-
 nonFixLHS :
-             (Identifier) (LEFTBRACKET   (idOrOpDeclList|identifierList|opDeclList)   RIGHTBRACKET)?;
+             (Identifier) (LEFTBRACKET   (opDeclList)   RIGHTBRACKET)?;
 
 ANTISLASHANTISLASHIN:'\\in';
 IN:'IN';
@@ -109,15 +108,17 @@ expressionList : expression (VIRGULE expression)*;
 
 EXCLAMATIONPOINT:'!';
 
-instancePrefix :
-        (    Identifier 
-             (LEFTBRACKET   expressionList   RIGHTBRACKET )?
-             EXCLAMATIONPOINT  )*;
+singleInstancePrefix:(    Identifier
+                                  (LEFTBRACKET   expressionList   RIGHTBRACKET )?
+                                  EXCLAMATIONPOINT  );
 
-generalIdentifier : instancePrefix   Identifier;
-generalPrefixOp   : instancePrefix   prefixOp;
-generalInfixOp    : instancePrefix   infixOp;
-generalPostfixOp  : instancePrefix   postfixOp;
+instancePrefix :
+        singleInstancePrefix+;
+
+generalIdentifier : instancePrefix?   Identifier;
+generalPrefixOp   : instancePrefix?   prefixOp;
+generalInfixOp    : instancePrefix?   infixOp;
+generalPostfixOp  : instancePrefix?   postfixOp;
 
 RIGHTARROW:'->';
 PIPERIGHTARROW: '|->';
@@ -125,8 +126,8 @@ COLON:':';
 
 caseArm: expression   RIGHTARROW   expression;
 
-nameArrowExprList: (Name   PIPERIGHTARROW   expression) (VIRGULE (Name   PIPERIGHTARROW   expression))*;
-nameColonExprList: (Name   COLON   expression) (VIRGULE (Name   COLON   expression))*;
+nameArrowExprList: ((Name|Identifier)   PIPERIGHTARROW   expression) (VIRGULE ((Name|Identifier)   PIPERIGHTARROW   expression))*;
+nameColonExprList: ((Name|Identifier)   COLON   expression) (VIRGULE ((Name|Identifier)   COLON   expression))*;
 
 POINT: '.';
 AorE:('\\A'| '\\E');
@@ -138,9 +139,13 @@ LET:'LET';
 CASE:'CASE';
 XorTimes:('\\X'| '\\times');
 EQUAL:'=';
-
-exceptList: (  EXCLAMATIONPOINT (  (POINT   Name) | (LEFTSQUAREBRACKET   expressionList  RIGHTSQUAREBRACKET) )+ EQUAL expression )
-            (VIRGULE (  EXCLAMATIONPOINT (  (POINT   Name)  | (LEFTSQUAREBRACKET   expressionList  RIGHTSQUAREBRACKET) )+ EQUAL expression ))*;
+defi:     operatorDefinition
+                      |  functionDefinition
+                      |  moduleDefinition;
+exceptInterfaceTerminal:(POINT   (Name|Identifier)) | (LEFTSQUAREBRACKET   expressionList  RIGHTSQUAREBRACKET);
+exceptInterface:( exceptInterfaceTerminal  )+;
+exceptList: (  EXCLAMATIONPOINT exceptInterface EQUAL expression )
+            (VIRGULE (  EXCLAMATIONPOINT exceptInterface EQUAL expression ))*;
 expression  :
             generalIdentifier
 
@@ -162,7 +167,7 @@ expression  :
 
         |     CHOOSE
               identifierOrTuple
-              (IN   expression)?
+              (ANTISLASHANTISLASHIN   expression)?
               COLON
               expression
 
@@ -219,9 +224,7 @@ expression  :
             (SQUARE OTHER   RIGHTARROW   expression)?
 
      |        LET
-              (    operatorDefinition
-                |  functionDefinition
-                |  moduleDefinition)+
+              (defi)+
               IN
               expression
 
@@ -272,14 +275,15 @@ identifierOrTuple :
 
 Num:
          [0-9]+
-      |  ([0-9]*   {'.'}   [0-9]+)
+      |  ([0-9]*   '.'   [0-9]+)
       |  ('\\b'| '\\B')   [0-1]+
       |  ('\\o'| '\\O')   [0-7]+
       |  ('\\h'| '\\H')   ([0-9]|[a-fA-F])+;
 
 NameChar : [a-zA-Z]|[0-9]|Underscore;
 
-String:  '\'' ( ESC_SEQ | ~('\\'|'\'') )* '\'';
+
+String:  '"' ( ESC_SEQ | ~('\\'|'\'') )* '"';
 
 ESC_SEQ
     :   '\\' ('b'|'t'|'n'|'f'|'r'|'"'|'\''|'\\')
@@ -326,3 +330,4 @@ infixOp  :
 
 postfixOp:  '^+'| '^*'| '^#'| '\'';
 
+comment: '(*' (Identifier)* '*)';

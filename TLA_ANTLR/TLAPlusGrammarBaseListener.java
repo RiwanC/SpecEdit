@@ -1,4 +1,5 @@
-// Generated from C:/Users/riwan/Desktop/antlr2mps/src/main/antlr/tla\TLAPlusGrammar.g4 by ANTLR 4.7.2
+// Generated from tla\TLAPlusGrammar.g4 by ANTLR 4.5.1
+package parser;
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -207,18 +208,6 @@ public class TLAPlusGrammarBaseListener implements TLAPlusGrammarListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIdOrOpDeclList(TLAPlusGrammarParser.IdOrOpDeclListContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitIdOrOpDeclList(TLAPlusGrammarParser.IdOrOpDeclListContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterNonFixLHS(TLAPlusGrammarParser.NonFixLHSContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -274,6 +263,18 @@ public class TLAPlusGrammarBaseListener implements TLAPlusGrammarListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitExpressionList(TLAPlusGrammarParser.ExpressionListContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterSingleInstancePrefix(TLAPlusGrammarParser.SingleInstancePrefixContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSingleInstancePrefix(TLAPlusGrammarParser.SingleInstancePrefixContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -375,6 +376,42 @@ public class TLAPlusGrammarBaseListener implements TLAPlusGrammarListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterDefi(TLAPlusGrammarParser.DefiContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDefi(TLAPlusGrammarParser.DefiContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterExceptInterfaceTerminal(TLAPlusGrammarParser.ExceptInterfaceTerminalContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitExceptInterfaceTerminal(TLAPlusGrammarParser.ExceptInterfaceTerminalContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterExceptInterface(TLAPlusGrammarParser.ExceptInterfaceContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitExceptInterface(TLAPlusGrammarParser.ExceptInterfaceContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterExceptList(TLAPlusGrammarParser.ExceptListContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -454,6 +491,18 @@ public class TLAPlusGrammarBaseListener implements TLAPlusGrammarListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPostfixOp(TLAPlusGrammarParser.PostfixOpContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterComment(TLAPlusGrammarParser.CommentContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitComment(TLAPlusGrammarParser.CommentContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

@@ -1,4 +1,5 @@
-// Generated from C:/Users/riwan/Desktop/antlr2mps/src/main/antlr/tla\TLAPlusGrammar.g4 by ANTLR 4.7.2
+// Generated from tla\TLAPlusGrammar.g4 by ANTLR 4.5.1
+package parser;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**
@@ -106,12 +107,6 @@ public interface TLAPlusGrammarVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitOpDecl(TLAPlusGrammarParser.OpDeclContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#idOrOpDeclList}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitIdOrOpDeclList(TLAPlusGrammarParser.IdOrOpDeclListContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#nonFixLHS}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -141,6 +136,12 @@ public interface TLAPlusGrammarVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitExpressionList(TLAPlusGrammarParser.ExpressionListContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#singleInstancePrefix}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitSingleInstancePrefix(TLAPlusGrammarParser.SingleInstancePrefixContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#instancePrefix}.
 	 * @param ctx the parse tree
@@ -190,6 +191,24 @@ public interface TLAPlusGrammarVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitNameColonExprList(TLAPlusGrammarParser.NameColonExprListContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#defi}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitDefi(TLAPlusGrammarParser.DefiContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#exceptInterfaceTerminal}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExceptInterfaceTerminal(TLAPlusGrammarParser.ExceptInterfaceTerminalContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#exceptInterface}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExceptInterface(TLAPlusGrammarParser.ExceptInterfaceContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#exceptList}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -231,4 +250,10 @@ public interface TLAPlusGrammarVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitPostfixOp(TLAPlusGrammarParser.PostfixOpContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#comment}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitComment(TLAPlusGrammarParser.CommentContext ctx);
 }
