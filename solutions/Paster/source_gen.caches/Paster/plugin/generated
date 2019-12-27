@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-a32sgatvzodmlnvo6wphwlxox375gav">
+<product version="3" modelHash="3xknrm8wmceu9e07ped7ee1z3wrwbh2">
   <files names="AntlrPaster.java:AntlrUnitVisitor.java:EditorPopup_paste_ActionGroup.java:IconContainer.java:PasteAsAntlrRules_Action.java:Paster_ApplicationPlugin.java:PluginSpecEditPaster.xml:Result.java" />
 </product>
 

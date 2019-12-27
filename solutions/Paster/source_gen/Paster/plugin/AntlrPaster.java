@@ -41,7 +41,7 @@ public class AntlrPaster {
     if (clipboardText.contains("----")) {
       pasteGrammarAsNodes(anchor, anchor.getModel(), clipboardText, operationContext, project);
     } else {
-      pasteRulesAsNodes(anchor, anchor.getModel(), clipboardText, operationContext, project);
+      // do nothing 
     }
   }
   public void pasteJavaAsClass(SModel model, IOperationContext operationContext, Project project) {
@@ -97,21 +97,8 @@ public class AntlrPaster {
     }
   }
 
-  public void pasteRulesAsNodes(SNode anchor, SModel model, final String antlrRulesAsText, IOperationContext operationContext, Project project) {
-    SModule module = model.getModule();
-    try {
-      TLAPlusGrammarLexer lexer = new TLAPlusGrammarLexer(new ANTLRInputStream(new StringReader(antlrRulesAsText)));
-      TLAPlusGrammarParser parser = new TLAPlusGrammarParser(new CommonTokenStream(lexer));
-      TLAPlusGrammarParser.UnitContext tree = parser.unit();
-      // use the following to print types of nodes on the parse tree: 
-
-      // initiate walk of tree with listener 
-      SNode moduleNode = SNodeOperations.getNodeAncestor(anchor, CONCEPTS.Module$3n, true, false);
-    } catch (IOException ioexception) {
-    } catch (RecognitionException e) {
-    }
-  }
   private void saveTreeAsPostScript(TLAPlusGrammarParser.ModuleContext tree, TLAPlusGrammarParser parser) throws IOException {
+    // none 
   }
   public static boolean areDataAvailableInClipboard() {
     Transferable trf = CopyPasteManagerEx.getInstanceEx().getContents();

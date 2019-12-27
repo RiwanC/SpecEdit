@@ -14,7 +14,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1153952380246:jetbrains.mps.baseLanguage.structure.TryStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="18,0,333,0" name="TLA.editor.EditorAspectDescriptorImpl" />
+      <unit at="18,0,335,0" name="TLA.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:ac9edd4d-dcc1-4e18-b1bb-1318827a041e(TLA.editor)/1673065396611600200">
@@ -1673,6 +1673,53 @@
       <unit id="1760991658762979809" at="110,0,161,0" name="TLA.editor.QuantifierAndIDListAndExpr_EditorBuilder_a$IDListSingleRoleHandler_6jf45p_c0" />
       <unit id="1760991658762979809" at="171,0,222,0" name="TLA.editor.QuantifierAndIDListAndExpr_EditorBuilder_a$ExprSingleRoleHandler_6jf45p_e0" />
       <unit id="1760991658762979809" at="42,0,236,0" name="TLA.editor.QuantifierAndIDListAndExpr_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:ac9edd4d-dcc1-4e18-b1bb-1318827a041e(TLA.editor)/2218580622056468148">
+    <file name="Expression_Editor.java">
+      <node id="2218580622056468148" at="11,79,12,76" concept="7" />
+      <node id="2218580622056468148" at="11,0,14,0" concept="5" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="2218580622056468148" at="11,79,12,76" />
+      <scope id="2218580622056468148" at="11,0,14,0">
+        <var name="editorContext" id="2218580622056468148" />
+        <var name="node" id="2218580622056468148" />
+      </scope>
+      <unit id="2218580622056468148" at="10,0,15,0" name="TLA.editor.Expression_Editor" />
+    </file>
+    <file name="Expression_EditorBuilder_a.java">
+      <node id="2218580622056468148" at="19,90,20,19" concept="9" />
+      <node id="2218580622056468148" at="20,19,21,18" concept="1" />
+      <node id="2218580622056468148" at="26,26,27,18" concept="7" />
+      <node id="2218580622056468148" at="30,39,31,30" concept="7" />
+      <node id="2218580622056728071" at="34,41,35,93" concept="6" />
+      <node id="2218580622056728071" at="35,93,36,46" concept="1" />
+      <node id="2218580622056728071" at="36,46,37,28" concept="1" />
+      <node id="2218580622056728071" at="37,28,38,31" concept="1" />
+      <node id="2218580622056728071" at="38,31,39,34" concept="6" />
+      <node id="2218580622056862455" at="39,34,40,46" concept="1" />
+      <node id="2218580622056728071" at="40,46,41,40" concept="1" />
+      <node id="2218580622056728071" at="41,40,42,34" concept="1" />
+      <node id="2218580622056728071" at="42,34,43,22" concept="7" />
+      <node id="2218580622056468148" at="16,0,18,0" concept="2" trace="myNode" />
+      <node id="2218580622056468148" at="30,0,33,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="2218580622056468148" at="19,0,23,0" concept="0" trace="Expression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2218580622056468148" at="24,0,29,0" concept="5" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2218580622056728071" at="34,0,45,0" concept="5" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="2218580622056468148" at="26,26,27,18" />
+      <scope id="2218580622056468148" at="30,39,31,30" />
+      <scope id="2218580622056468148" at="19,90,21,18" />
+      <scope id="2218580622056468148" at="30,0,33,0" />
+      <scope id="2218580622056468148" at="19,0,23,0">
+        <var name="context" id="2218580622056468148" />
+        <var name="node" id="2218580622056468148" />
+      </scope>
+      <scope id="2218580622056468148" at="24,0,29,0" />
+      <scope id="2218580622056728071" at="34,41,43,22">
+        <var name="editorCell" id="2218580622056728071" />
+        <var name="style" id="2218580622056728071" />
+      </scope>
+      <scope id="2218580622056728071" at="34,0,45,0" />
+      <unit id="2218580622056468148" at="15,0,46,0" name="TLA.editor.Expression_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:ac9edd4d-dcc1-4e18-b1bb-1318827a041e(TLA.editor)/2425262332964270877">

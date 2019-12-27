@@ -12,7 +12,6 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -24,8 +23,8 @@
   </root>
   <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/2872212824181502643">
     <file name="EditorPopup_paste_ActionGroup.java">
-      <node id="2872212824181502643" at="10,0,11,0" concept="13" trace="ID" />
-      <node id="2872212824181502643" at="12,76,13,43" concept="15" />
+      <node id="2872212824181502643" at="10,0,11,0" concept="12" trace="ID" />
+      <node id="2872212824181502643" at="12,76,13,43" concept="14" />
       <node id="2872212824181502643" at="13,43,14,25" concept="3" />
       <node id="2872212824181502643" at="14,25,15,20" concept="3" />
       <node id="2214335295231571801" at="15,20,16,91" concept="3" />
@@ -44,8 +43,8 @@
   </root>
   <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/2872212824181502669">
     <file name="PasteAsAntlrRules_Action.java">
-      <node id="2872212824181502669" at="19,0,20,0" concept="13" trace="ICON" />
-      <node id="2872212824181502669" at="21,37,22,40" concept="15" />
+      <node id="2872212824181502669" at="19,0,20,0" concept="12" trace="ICON" />
+      <node id="2872212824181502669" at="21,37,22,40" concept="14" />
       <node id="2872212824181502669" at="22,40,23,34" concept="3" />
       <node id="2872212824181502669" at="23,34,24,41" concept="3" />
       <node id="2872212824181502669" at="27,32,28,16" concept="10" />
@@ -121,7 +120,7 @@
       <node id="5646944109420336563" at="36,93,37,52" concept="9" />
       <node id="5646944109420336572" at="38,32,39,13" concept="10" />
       <node id="5646944109420336573" at="41,41,42,95" concept="3" />
-      <node id="558881339884899842" at="43,12,44,93" concept="3" />
+      <node id="2218580622056049482" at="43,12,44,20" concept="11" />
       <node id="5646944109420336590" at="47,99,48,47" concept="9" />
       <node id="5646944109420336599" at="49,27,50,13" concept="10" />
       <node id="5646944109420336600" at="51,5,52,74" concept="3" />
@@ -148,43 +147,34 @@
       <node id="5866387967695544518" at="91,95,92,137" concept="3" />
       <node id="5866387967695595623" at="92,137,93,137" concept="3" />
       <node id="384861153814120294" at="93,137,94,294" concept="3" />
-      <node id="5646944109420336699" at="100,145,101,39" concept="9" />
-      <node id="7142405419536707509" at="102,9,103,116" concept="9" />
-      <node id="7142405419536707515" at="103,116,104,91" concept="9" />
-      <node id="7142405419536707521" at="104,91,105,60" concept="9" />
-      <node id="8251289970136526403" at="105,60,106,70" concept="11" />
-      <node id="9113994647408557998" at="106,70,107,0" concept="12" />
-      <node id="2214335295230305213" at="107,0,108,45" concept="11" />
-      <node id="2214335295230540492" at="108,45,109,98" concept="9" />
-      <node id="5662895729668301265" at="116,55,117,72" concept="9" />
-      <node id="5662895729668294581" at="118,75,119,19" concept="10" />
-      <node id="5662895729668294600" at="121,61,122,18" concept="10" />
-      <node id="5662895729668294604" at="123,5,124,17" concept="10" />
-      <node id="5646944109420335310" at="128,0,129,0" concept="13" trace="Module$3n" />
-      <node id="5646944109420335310" at="132,0,133,0" concept="13" trace="SetOfUnits$fqCa" />
-      <node id="5646944109420335310" at="133,0,134,0" concept="13" trace="SetOfModuleNames$Bn0" />
-      <node id="5646944109420335310" at="134,0,135,0" concept="13" trace="ListM$Vevw" />
-      <node id="5646944109420335310" at="138,0,139,0" concept="13" trace="ModuleName$iAUB" />
+      <node id="2218580622054955725" at="100,126,101,12" concept="11" />
+      <node id="5662895729668301265" at="103,55,104,72" concept="9" />
+      <node id="5662895729668294581" at="105,75,106,19" concept="10" />
+      <node id="5662895729668294600" at="108,61,109,18" concept="10" />
+      <node id="5662895729668294604" at="110,5,111,17" concept="10" />
+      <node id="5646944109420335310" at="115,0,116,0" concept="12" trace="Module$3n" />
+      <node id="5646944109420335310" at="119,0,120,0" concept="12" trace="SetOfUnits$fqCa" />
+      <node id="5646944109420335310" at="120,0,121,0" concept="12" trace="SetOfModuleNames$Bn0" />
+      <node id="5646944109420335310" at="121,0,122,0" concept="12" trace="ListM$Vevw" />
+      <node id="5646944109420335310" at="125,0,126,0" concept="12" trace="ModuleName$iAUB" />
       <node id="5646944109420336549" at="34,0,36,0" concept="2" trace="AntlrPaster#()V" />
       <node id="558881339884899545" at="43,10,45,5" concept="0" />
-      <node id="558881339884689514" at="114,0,116,0" concept="8" trace="saveTreeAsPostScript#(Lparser/TLAPlusGrammarParser/ModuleContext;Lparser/TLAPlusGrammarParser;)V" />
       <node id="5646944109420336567" at="37,52,40,5" concept="7" />
       <node id="5646944109420336594" at="48,47,51,5" concept="7" />
       <node id="5646944109420336622" at="56,82,59,7" concept="7" />
       <node id="5646944109420336637" at="61,5,64,5" concept="7" />
       <node id="5646944109420336674" at="67,72,70,9" concept="7" />
-      <node id="5662895729668294572" at="117,72,120,5" concept="7" />
-      <node id="5662895729668294592" at="120,5,123,5" concept="7" />
+      <node id="558881339884689514" at="100,0,103,0" concept="8" trace="saveTreeAsPostScript#(Lparser/TLAPlusGrammarParser/ModuleContext;Lparser/TLAPlusGrammarParser;)V" />
+      <node id="5662895729668294572" at="104,72,107,5" concept="7" />
+      <node id="5662895729668294592" at="107,5,110,5" concept="7" />
       <node id="558881339884882855" at="40,5,45,5" concept="7" />
       <node id="5646944109420336615" at="55,33,61,5" concept="6" />
       <node id="5646944109420336582" at="47,0,54,0" concept="8" trace="pasteJavaAsClass#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
-      <node id="5646944109420336650" at="65,66,74,7" concept="16" />
-      <node id="5662895729668271035" at="116,0,126,0" concept="14" trace="areDataAvailableInClipboard#()Z" />
+      <node id="5646944109420336650" at="65,66,74,7" concept="15" />
+      <node id="5662895729668271035" at="103,0,113,0" concept="13" trace="areDataAvailableInClipboard#()Z" />
       <node id="5646944109420336553" at="36,0,47,0" concept="8" trace="pasteRules#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
       <node id="5646944109420336644" at="64,5,75,5" concept="7" />
-      <node id="2214335295231319193" at="101,39,112,5" concept="16" />
-      <node id="5646944109420336685" at="100,0,114,0" concept="8" trace="pasteRulesAsNodes#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
-      <node id="558881339884701841" at="79,39,97,5" concept="16" />
+      <node id="558881339884701841" at="79,39,97,5" concept="15" />
       <node id="558881339884701832" at="78,0,99,0" concept="8" trace="pasteGrammarAsNodes#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/project/Project;)V" />
       <node id="5646944109420336607" at="54,0,78,0" concept="8" trace="getStringFromClipboard#()Ljava/lang/String;" />
       <scope id="5646944109420336552" at="34,24,34,24" />
@@ -200,18 +190,9 @@
         <var name="e" id="9113994647408444024" />
       </scope>
       <scope id="9113994647408444023" at="96,38,96,38" />
-      <scope id="9113994647408522243" at="110,0,110,39">
-        <var name="ioexception" id="9113994647408522245" />
-      </scope>
-      <scope id="9113994647408522244" at="110,39,110,39" />
-      <scope id="9113994647409055335" at="111,0,111,38">
-        <var name="e" id="9113994647409055337" />
-      </scope>
-      <scope id="9113994647409055336" at="111,38,111,38" />
-      <scope id="558881339884689483" at="114,126,114,126" />
       <scope id="5646944109420336571" at="38,32,39,13" />
       <scope id="558881339884882857" at="41,41,42,95" />
-      <scope id="558881339884899546" at="43,12,44,93" />
+      <scope id="558881339884899546" at="43,12,44,20" />
       <scope id="5646944109420336598" at="49,27,50,13" />
       <scope id="5646944109420336631" at="57,78,58,23" />
       <scope id="5646944109420336641" at="62,27,63,18" />
@@ -220,10 +201,11 @@
         <var name="ex" id="5646944109420336655" />
       </scope>
       <scope id="5646944109420336652" at="71,47,72,20" />
-      <scope id="5662895729668294573" at="118,75,119,19" />
-      <scope id="5662895729668294593" at="121,61,122,18" />
+      <scope id="558881339884689483" at="100,126,101,12" />
+      <scope id="5662895729668294573" at="105,75,106,19" />
+      <scope id="5662895729668294593" at="108,61,109,18" />
       <scope id="5646944109420336549" at="34,0,36,0" />
-      <scope id="558881339884689514" at="114,0,116,0">
+      <scope id="558881339884689514" at="100,0,103,0">
         <var name="parser" id="558881339884689508" />
         <var name="tree" id="558881339884689506" />
       </scope>
@@ -242,27 +224,18 @@
         <var name="operationContext" id="5646944109420336587" />
         <var name="project" id="912131512389473200" />
       </scope>
-      <scope id="2214335295231319195" at="102,9,109,98">
-        <var name="lexer" id="7142405419536707508" />
-        <var name="moduleNode" id="2214335295230540498" />
-        <var name="parser" id="7142405419536707514" />
-        <var name="tree" id="7142405419536707520" />
-      </scope>
-      <scope id="5662895729668271038" at="116,55,124,17">
+      <scope id="5662895729668271038" at="103,55,111,17">
         <var name="trf" id="5662895729668301266" />
       </scope>
       <scope id="5646944109420336562" at="36,93,45,5">
         <var name="clipboardText" id="5646944109420336564" />
       </scope>
       <scope id="5646944109420336649" at="65,66,74,7" />
-      <scope id="5662895729668271035" at="116,0,126,0" />
+      <scope id="5662895729668271035" at="103,0,113,0" />
       <scope id="5646944109420336553" at="36,0,47,0">
         <var name="anchor" id="5646944109420336556" />
         <var name="operationContext" id="5646944109420336558" />
         <var name="project" id="912131512389473038" />
-      </scope>
-      <scope id="5646944109420336698" at="100,145,112,5">
-        <var name="module" id="5646944109420336700" />
       </scope>
       <scope id="558881339884701842" at="80,9,94,294">
         <var name="UnitList" id="5866387967695519686" />
@@ -273,13 +246,6 @@
         <var name="parser" id="558881339884701854" />
         <var name="unitContext" id="3378885719447465187" />
         <var name="visitor" id="5866387967694764360" />
-      </scope>
-      <scope id="5646944109420336685" at="100,0,114,0">
-        <var name="anchor" id="5646944109420336688" />
-        <var name="antlrRulesAsText" id="5646944109420336692" />
-        <var name="model" id="5646944109420336690" />
-        <var name="operationContext" id="5646944109420336694" />
-        <var name="project" id="912131512389473690" />
       </scope>
       <scope id="558881339884701833" at="78,148,97,5">
         <var name="module" id="558881339884701835" />
@@ -295,10 +261,10 @@
         <var name="contents" id="5646944109420336612" />
       </scope>
       <scope id="5646944109420336607" at="54,0,78,0" />
-      <unit id="5646944109420335310" at="127,0,130,0" name="Paster.plugin.AntlrPaster$CONCEPTS" />
-      <unit id="5646944109420335310" at="137,0,140,0" name="Paster.plugin.AntlrPaster$PROPS" />
-      <unit id="5646944109420335310" at="131,0,136,0" name="Paster.plugin.AntlrPaster$LINKS" />
-      <unit id="5646944109420335310" at="32,0,141,0" name="Paster.plugin.AntlrPaster" />
+      <unit id="5646944109420335310" at="114,0,117,0" name="Paster.plugin.AntlrPaster$CONCEPTS" />
+      <unit id="5646944109420335310" at="124,0,127,0" name="Paster.plugin.AntlrPaster$PROPS" />
+      <unit id="5646944109420335310" at="118,0,123,0" name="Paster.plugin.AntlrPaster$LINKS" />
+      <unit id="5646944109420335310" at="32,0,128,0" name="Paster.plugin.AntlrPaster" />
     </file>
   </root>
   <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/8251289970136807840">
@@ -846,142 +812,142 @@
       <node id="3378885719455823626" at="982,52,983,101" concept="3" />
       <node id="3378885719455857087" at="984,51,985,101" concept="3" />
       <node id="5866387967695386054" at="986,5,987,18" concept="10" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="991,0,992,0" concept="13" trace="ID$ll3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="992,0,993,0" concept="13" trace="ModuleName$iAUB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="993,0,994,0" concept="13" trace="ModuleName$Lfj0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="994,0,995,0" concept="13" trace="sep$Oove" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="995,0,996,0" concept="13" trace="ID$96Yw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="996,0,997,0" concept="13" trace="ID1$9c_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="997,0,998,0" concept="13" trace="ID2$9cAu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="998,0,999,0" concept="13" trace="InfixOp$9cO2" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="999,0,1000,0" concept="13" trace="InfixOp$R0p0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1000,0,1001,0" concept="13" trace="ID$9dL0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1001,0,1002,0" concept="13" trace="PostfixOp$9dLY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1002,0,1003,0" concept="13" trace="PrefixOp$QUQw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1003,0,1004,0" concept="13" trace="ID$9rR0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1004,0,1005,0" concept="13" trace="Name$PEBZ" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1005,0,1006,0" concept="13" trace="Axiom$R86b" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1006,0,1007,0" concept="13" trace="InfixOp$eE2F" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1007,0,1008,0" concept="13" trace="PostfixOp$eDmw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1008,0,1009,0" concept="13" trace="PostfixOp$R0Q0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1009,0,1010,0" concept="13" trace="OpId$vrV0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1010,0,1011,0" concept="13" trace="ID$h$Dw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1011,0,1012,0" concept="13" trace="ID$Rfqu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1012,0,1013,0" concept="13" trace="ID$gqRE" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1013,0,1014,0" concept="13" trace="InfixOp$gwW6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1014,0,1015,0" concept="13" trace="PostfixOp$gxrA" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1015,0,1016,0" concept="13" trace="NameProperty$FGtw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1016,0,1017,0" concept="13" trace="NameProperty$Y6Uw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1017,0,1018,0" concept="13" trace="NameProperty$YdG0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1018,0,1019,0" concept="13" trace="EorA$Sw1$" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1019,0,1020,0" concept="13" trace="EorA$SB40" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1020,0,1021,0" concept="13" trace="ID$2Job" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1021,0,1022,0" concept="13" trace="WFSF$X2w6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1022,0,1023,0" concept="13" trace="Number$FNWw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1023,0,1024,0" concept="13" trace="Str$FNEw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1027,0,1028,0" concept="13" trace="ID$llx0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1028,0,1029,0" concept="13" trace="SetOfModuleNames$Bn0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1029,0,1030,0" concept="13" trace="ListM$Vevw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1030,0,1031,0" concept="13" trace="SetOfUnits$fqCa" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1031,0,1032,0" concept="13" trace="OpDef$GiEw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1032,0,1033,0" concept="13" trace="FDef$Giaw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1033,0,1034,0" concept="13" trace="Instance$iKCK" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1034,0,1035,0" concept="13" trace="ModDef$8ulG" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1035,0,1036,0" concept="13" trace="com$yMd6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1036,0,1037,0" concept="13" trace="OpDeclarations$75Cw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1037,0,1038,0" concept="13" trace="IDList$Xpjd" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1038,0,1039,0" concept="13" trace="OpDeclL$PA7w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1039,0,1040,0" concept="13" trace="Expr$96eD" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1040,0,1041,0" concept="13" trace="LHS$963w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1041,0,1042,0" concept="13" trace="PrefixOp$o_PB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1042,0,1043,0" concept="13" trace="Expr$9s37" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1043,0,1044,0" concept="13" trace="QuantifierBound$9s29" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1044,0,1045,0" concept="13" trace="Substitution$PF$y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1045,0,1046,0" concept="13" trace="Instance$yUit" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1046,0,1047,0" concept="13" trace="NonFixLHS$uPR7" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1047,0,1048,0" concept="13" trace="Axiom$R8rY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1048,0,1049,0" concept="13" trace="Expr$R8sW" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1049,0,1050,0" concept="13" trace="Expr$R270" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1050,0,1051,0" concept="13" trace="PrefixOp$_Bcn" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1051,0,1052,0" concept="13" trace="SetOfOpDecl$E0N2" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1052,0,1053,0" concept="13" trace="Expr$9k_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1053,0,1054,0" concept="13" trace="IDs$9k$y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1054,0,1055,0" concept="13" trace="Arg$KZn6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1055,0,1056,0" concept="13" trace="substitLHS$KYGu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1056,0,1057,0" concept="13" trace="Exprs$RfPA" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1057,0,1058,0" concept="13" trace="InstancePrefixList$ReYU" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1058,0,1059,0" concept="13" trace="InstancePrefix$gqQG" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1059,0,1060,0" concept="13" trace="PrefixOp$2zjg" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1060,0,1061,0" concept="13" trace="InstancePrefix$grn6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1061,0,1062,0" concept="13" trace="InstancePrefix$gwX4" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1062,0,1063,0" concept="13" trace="InstancePrefix$gxs$" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1063,0,1064,0" concept="13" trace="Expr1$138w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1064,0,1065,0" concept="13" trace="Expr2$18eY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1065,0,1066,0" concept="13" trace="Expr$FGCD" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1066,0,1067,0" concept="13" trace="Expr$Y6Vu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1067,0,1068,0" concept="13" trace="ExprList$Yec0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1068,0,1069,0" concept="13" trace="Expr$M79" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1069,0,1070,0" concept="13" trace="OneOrMore$LW0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1070,0,1071,0" concept="13" trace="GeneralID$nVRw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1071,0,1072,0" concept="13" trace="Args$nVSu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1072,0,1073,0" concept="13" trace="Expr$o2aY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1073,0,1074,0" concept="13" trace="GPrefixOp$o2a0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1074,0,1075,0" concept="13" trace="Expr1$So6u" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1075,0,1076,0" concept="13" trace="Expr2$SohB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1076,0,1077,0" concept="13" trace="GInfixOp$Soj4" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1077,0,1078,0" concept="13" trace="Expr$Sp3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1078,0,1079,0" concept="13" trace="GPostfixOp$Sp4u" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1079,0,1080,0" concept="13" trace="Expr$SpJw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1080,0,1081,0" concept="13" trace="Expr$Sw3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1081,0,1082,0" concept="13" trace="QBList$Sw2y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1082,0,1083,0" concept="13" trace="Expr$SB5W" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1083,0,1084,0" concept="13" trace="IDList$SB4Y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1084,0,1085,0" concept="13" trace="ExprMandatory$6SU6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1085,0,1086,0" concept="13" trace="IDorTuple$6SHw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1086,0,1087,0" concept="13" trace="ExprOption$dC7d" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1087,0,1088,0" concept="13" trace="IDList$2JW0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1088,0,1089,0" concept="13" trace="ExprOption$dC4N" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1089,0,1090,0" concept="13" trace="Expressions$YfWw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1090,0,1091,0" concept="13" trace="IDorTuple$Hdow" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1091,0,1092,0" concept="13" trace="Expr1$Hdpu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1092,0,1093,0" concept="13" trace="Expr2$Hd_6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1093,0,1094,0" concept="13" trace="Expr$Kwxw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1094,0,1095,0" concept="13" trace="QuantifierBound$Kwyu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1095,0,1096,0" concept="13" trace="Expr$KB70" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1096,0,1097,0" concept="13" trace="ExprList$KB7Y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1097,0,1098,0" concept="13" trace="Expr$KHru" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1098,0,1099,0" concept="13" trace="QuantifierBoundList$KCl0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1099,0,1100,0" concept="13" trace="Expr1$KIP0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1100,0,1101,0" concept="13" trace="Expr2$KIPY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1101,0,1102,0" concept="13" trace="NameArrowExprList$FHnw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1102,0,1103,0" concept="13" trace="ExprList$YczP" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1103,0,1104,0" concept="13" trace="Expr$Nmu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1104,0,1105,0" concept="13" trace="ExceptList$Nlw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1105,0,1106,0" concept="13" trace="Expr$TU0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1106,0,1107,0" concept="13" trace="Expr$V_Y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1107,0,1108,0" concept="13" trace="Expr$UPb" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1108,0,1109,0" concept="13" trace="XandExpr$V_0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1109,0,1110,0" concept="13" trace="Expr1$lP2w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1110,0,1111,0" concept="13" trace="Expr2$lP3u" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1111,0,1112,0" concept="13" trace="Expr1$tkCw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1112,0,1113,0" concept="13" trace="Expr2$tkND" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1113,0,1114,0" concept="13" trace="Expr1$Lf_0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1114,0,1115,0" concept="13" trace="Expr2$LfK9" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1115,0,1116,0" concept="13" trace="Expr1$11ow" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1116,0,1117,0" concept="13" trace="Expr2$11pu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1117,0,1118,0" concept="13" trace="Expr3$11qV" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1118,0,1119,0" concept="13" trace="CaseArm$19Cw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1119,0,1120,0" concept="13" trace="CaseArm$198w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1120,0,1121,0" concept="13" trace="SquareAndCaseArm$19Du" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1121,0,1122,0" concept="13" trace="Expr$19R0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1122,0,1123,0" concept="13" trace="OptionalOther$1nhP" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1123,0,1124,0" concept="13" trace="Expr$9Xse" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1124,0,1125,0" concept="13" trace="Def$9Xh5" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1125,0,1126,0" concept="13" trace="Expr$h$5w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1126,0,1127,0" concept="13" trace="Expr$h$_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1127,0,1128,0" concept="13" trace="Expr$h_40" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1128,0,1129,0" concept="13" trace="Expr$h_$0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1129,0,1130,0" concept="13" trace="IDList$9ej0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="991,0,992,0" concept="12" trace="ID$ll3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="992,0,993,0" concept="12" trace="ModuleName$iAUB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="993,0,994,0" concept="12" trace="ModuleName$Lfj0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="994,0,995,0" concept="12" trace="sep$Oove" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="995,0,996,0" concept="12" trace="ID$96Yw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="996,0,997,0" concept="12" trace="ID1$9c_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="997,0,998,0" concept="12" trace="ID2$9cAu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="998,0,999,0" concept="12" trace="InfixOp$9cO2" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="999,0,1000,0" concept="12" trace="InfixOp$R0p0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1000,0,1001,0" concept="12" trace="ID$9dL0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1001,0,1002,0" concept="12" trace="PostfixOp$9dLY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1002,0,1003,0" concept="12" trace="PrefixOp$QUQw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1003,0,1004,0" concept="12" trace="ID$9rR0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1004,0,1005,0" concept="12" trace="Name$PEBZ" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1005,0,1006,0" concept="12" trace="Axiom$R86b" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1006,0,1007,0" concept="12" trace="InfixOp$eE2F" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1007,0,1008,0" concept="12" trace="PostfixOp$eDmw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1008,0,1009,0" concept="12" trace="PostfixOp$R0Q0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1009,0,1010,0" concept="12" trace="OpId$vrV0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1010,0,1011,0" concept="12" trace="ID$h$Dw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1011,0,1012,0" concept="12" trace="ID$Rfqu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1012,0,1013,0" concept="12" trace="ID$gqRE" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1013,0,1014,0" concept="12" trace="InfixOp$gwW6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1014,0,1015,0" concept="12" trace="PostfixOp$gxrA" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1015,0,1016,0" concept="12" trace="NameProperty$FGtw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1016,0,1017,0" concept="12" trace="NameProperty$Y6Uw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1017,0,1018,0" concept="12" trace="NameProperty$YdG0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1018,0,1019,0" concept="12" trace="EorA$Sw1$" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1019,0,1020,0" concept="12" trace="EorA$SB40" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1020,0,1021,0" concept="12" trace="ID$2Job" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1021,0,1022,0" concept="12" trace="WFSF$X2w6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1022,0,1023,0" concept="12" trace="Number$FNWw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1023,0,1024,0" concept="12" trace="Str$FNEw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1027,0,1028,0" concept="12" trace="ID$llx0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1028,0,1029,0" concept="12" trace="SetOfModuleNames$Bn0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1029,0,1030,0" concept="12" trace="ListM$Vevw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1030,0,1031,0" concept="12" trace="SetOfUnits$fqCa" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1031,0,1032,0" concept="12" trace="OpDef$GiEw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1032,0,1033,0" concept="12" trace="FDef$Giaw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1033,0,1034,0" concept="12" trace="Instance$iKCK" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1034,0,1035,0" concept="12" trace="ModDef$8ulG" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1035,0,1036,0" concept="12" trace="com$yMd6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1036,0,1037,0" concept="12" trace="OpDeclarations$75Cw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1037,0,1038,0" concept="12" trace="IDList$Xpjd" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1038,0,1039,0" concept="12" trace="OpDeclL$PA7w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1039,0,1040,0" concept="12" trace="Expr$96eD" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1040,0,1041,0" concept="12" trace="LHS$963w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1041,0,1042,0" concept="12" trace="PrefixOp$o_PB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1042,0,1043,0" concept="12" trace="Expr$9s37" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1043,0,1044,0" concept="12" trace="QuantifierBound$9s29" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1044,0,1045,0" concept="12" trace="Substitution$PF$y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1045,0,1046,0" concept="12" trace="Instance$yUit" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1046,0,1047,0" concept="12" trace="NonFixLHS$uPR7" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1047,0,1048,0" concept="12" trace="Axiom$R8rY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1048,0,1049,0" concept="12" trace="Expr$R8sW" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1049,0,1050,0" concept="12" trace="Expr$R270" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1050,0,1051,0" concept="12" trace="PrefixOp$_Bcn" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1051,0,1052,0" concept="12" trace="SetOfOpDecl$E0N2" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1052,0,1053,0" concept="12" trace="Expr$9k_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1053,0,1054,0" concept="12" trace="IDs$9k$y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1054,0,1055,0" concept="12" trace="Arg$KZn6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1055,0,1056,0" concept="12" trace="substitLHS$KYGu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1056,0,1057,0" concept="12" trace="Exprs$RfPA" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1057,0,1058,0" concept="12" trace="InstancePrefixList$ReYU" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1058,0,1059,0" concept="12" trace="InstancePrefix$gqQG" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1059,0,1060,0" concept="12" trace="PrefixOp$2zjg" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1060,0,1061,0" concept="12" trace="InstancePrefix$grn6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1061,0,1062,0" concept="12" trace="InstancePrefix$gwX4" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1062,0,1063,0" concept="12" trace="InstancePrefix$gxs$" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1063,0,1064,0" concept="12" trace="Expr1$138w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1064,0,1065,0" concept="12" trace="Expr2$18eY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1065,0,1066,0" concept="12" trace="Expr$FGCD" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1066,0,1067,0" concept="12" trace="Expr$Y6Vu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1067,0,1068,0" concept="12" trace="ExprList$Yec0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1068,0,1069,0" concept="12" trace="Expr$M79" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1069,0,1070,0" concept="12" trace="OneOrMore$LW0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1070,0,1071,0" concept="12" trace="GeneralID$nVRw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1071,0,1072,0" concept="12" trace="Args$nVSu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1072,0,1073,0" concept="12" trace="Expr$o2aY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1073,0,1074,0" concept="12" trace="GPrefixOp$o2a0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1074,0,1075,0" concept="12" trace="Expr1$So6u" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1075,0,1076,0" concept="12" trace="Expr2$SohB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1076,0,1077,0" concept="12" trace="GInfixOp$Soj4" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1077,0,1078,0" concept="12" trace="Expr$Sp3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1078,0,1079,0" concept="12" trace="GPostfixOp$Sp4u" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1079,0,1080,0" concept="12" trace="Expr$SpJw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1080,0,1081,0" concept="12" trace="Expr$Sw3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1081,0,1082,0" concept="12" trace="QBList$Sw2y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1082,0,1083,0" concept="12" trace="Expr$SB5W" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1083,0,1084,0" concept="12" trace="IDList$SB4Y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1084,0,1085,0" concept="12" trace="ExprMandatory$6SU6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1085,0,1086,0" concept="12" trace="IDorTuple$6SHw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1086,0,1087,0" concept="12" trace="ExprOption$dC7d" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1087,0,1088,0" concept="12" trace="IDList$2JW0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1088,0,1089,0" concept="12" trace="ExprOption$dC4N" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1089,0,1090,0" concept="12" trace="Expressions$YfWw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1090,0,1091,0" concept="12" trace="IDorTuple$Hdow" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1091,0,1092,0" concept="12" trace="Expr1$Hdpu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1092,0,1093,0" concept="12" trace="Expr2$Hd_6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1093,0,1094,0" concept="12" trace="Expr$Kwxw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1094,0,1095,0" concept="12" trace="QuantifierBound$Kwyu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1095,0,1096,0" concept="12" trace="Expr$KB70" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1096,0,1097,0" concept="12" trace="ExprList$KB7Y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1097,0,1098,0" concept="12" trace="Expr$KHru" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1098,0,1099,0" concept="12" trace="QuantifierBoundList$KCl0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1099,0,1100,0" concept="12" trace="Expr1$KIP0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1100,0,1101,0" concept="12" trace="Expr2$KIPY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1101,0,1102,0" concept="12" trace="NameArrowExprList$FHnw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1102,0,1103,0" concept="12" trace="ExprList$YczP" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1103,0,1104,0" concept="12" trace="Expr$Nmu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1104,0,1105,0" concept="12" trace="ExceptList$Nlw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1105,0,1106,0" concept="12" trace="Expr$TU0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1106,0,1107,0" concept="12" trace="Expr$V_Y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1107,0,1108,0" concept="12" trace="Expr$UPb" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1108,0,1109,0" concept="12" trace="XandExpr$V_0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1109,0,1110,0" concept="12" trace="Expr1$lP2w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1110,0,1111,0" concept="12" trace="Expr2$lP3u" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1111,0,1112,0" concept="12" trace="Expr1$tkCw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1112,0,1113,0" concept="12" trace="Expr2$tkND" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1113,0,1114,0" concept="12" trace="Expr1$Lf_0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1114,0,1115,0" concept="12" trace="Expr2$LfK9" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1115,0,1116,0" concept="12" trace="Expr1$11ow" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1116,0,1117,0" concept="12" trace="Expr2$11pu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1117,0,1118,0" concept="12" trace="Expr3$11qV" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1118,0,1119,0" concept="12" trace="CaseArm$19Cw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1119,0,1120,0" concept="12" trace="CaseArm$198w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1120,0,1121,0" concept="12" trace="SquareAndCaseArm$19Du" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1121,0,1122,0" concept="12" trace="Expr$19R0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1122,0,1123,0" concept="12" trace="OptionalOther$1nhP" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1123,0,1124,0" concept="12" trace="Expr$9Xse" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1124,0,1125,0" concept="12" trace="Def$9Xh5" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1125,0,1126,0" concept="12" trace="Expr$h$5w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1126,0,1127,0" concept="12" trace="Expr$h$_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1127,0,1128,0" concept="12" trace="Expr$h_40" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1128,0,1129,0" concept="12" trace="Expr$h_$0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1129,0,1130,0" concept="12" trace="IDList$9ej0" />
       <node id="3378885719451004612" at="70,12,72,7" concept="0" />
       <node id="3378885719451030917" at="77,12,79,7" concept="0" />
       <node id="3378885719451076196" at="84,12,86,7" concept="0" />

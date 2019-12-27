@@ -169,7 +169,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -596,28 +595,13 @@
           </node>
           <node concept="9aQIb" id="v1yTSnrKNp" role="9aQIa">
             <node concept="3clFbS" id="v1yTSnrKNq" role="9aQI4">
-              <node concept="3clFbF" id="v1yTSnrKS2" role="3cqZAp">
-                <node concept="1rXfSq" id="v1yTSnrKS1" role="3clFbG">
-                  <ref role="37wK5l" node="4TtYrYGuXoH" resolve="pasteRulesAsNodes" />
-                  <node concept="37vLTw" id="v1yTSnrL0m" role="37wK5m">
-                    <ref role="3cqZAo" node="4TtYrYGuXmG" resolve="anchor" />
+              <node concept="3SKdUt" id="1V9YP8VdOHa" role="3cqZAp">
+                <node concept="1PaTwC" id="1V9YP8VdOHb" role="3ndbpf">
+                  <node concept="3oM_SD" id="1V9YP8VdOHd" role="1PaTwD">
+                    <property role="3oM_SC" value="do" />
                   </node>
-                  <node concept="2OqwBi" id="2QRpUvVQXF0" role="37wK5m">
-                    <node concept="37vLTw" id="v1yTSnrL5a" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4TtYrYGuXmG" resolve="anchor" />
-                    </node>
-                    <node concept="liA8E" id="2QRpUvVQXUt" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="v1yTSnrLzw" role="37wK5m">
-                    <ref role="3cqZAo" node="4TtYrYGuXmO" resolve="clipboardText" />
-                  </node>
-                  <node concept="37vLTw" id="v1yTSnrLCc" role="37wK5m">
-                    <ref role="3cqZAo" node="4TtYrYGuXmI" resolve="operationContext" />
-                  </node>
-                  <node concept="37vLTw" id="v1yTSnrLG4" role="37wK5m">
-                    <ref role="3cqZAo" node="MCyGswqxce" resolve="project" />
+                  <node concept="3oM_SD" id="1V9YP8VdOHq" role="1PaTwD">
+                    <property role="3oM_SC" value="nothing" />
                   </node>
                 </node>
               </node>
@@ -1204,188 +1188,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="v1yTSnqZXW" role="jymVt" />
-    <node concept="3clFb_" id="4TtYrYGuXoH" role="jymVt">
-      <property role="TrG5h" value="pasteRulesAsNodes" />
-      <node concept="3clFbS" id="4TtYrYGuXoU" role="3clF47">
-        <node concept="3cpWs8" id="4TtYrYGuXoV" role="3cqZAp">
-          <node concept="3cpWsn" id="4TtYrYGuXoW" role="3cpWs9">
-            <property role="TrG5h" value="module" />
-            <node concept="2OqwBi" id="256tImPkKAw" role="33vP2m">
-              <node concept="2JrnkZ" id="256tImPkKA$" role="2Oq$k0">
-                <node concept="37vLTw" id="2BHiRxgldnL" role="2JrQYb">
-                  <ref role="3cqZAo" node="4TtYrYGuXoM" resolve="model" />
-                </node>
-              </node>
-              <node concept="liA8E" id="256tImPkKAx" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
-              </node>
-            </node>
-            <node concept="3uibUv" id="4TtYrYGuXoX" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
-            </node>
-          </node>
-        </node>
-        <node concept="SfApY" id="1UUTzwdRPMp" role="3cqZAp">
-          <node concept="15s5l7" id="7TVqtw3CdCk" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Caught exception IOException is never thrown in the corresponding try block&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/8512491756795014519]&quot;;" />
-            <property role="huDt6" value="Error: Caught exception IOException is never thrown in the corresponding try block" />
-          </node>
-          <node concept="15s5l7" id="7TVqtw3C3yV" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: RecognitionException is not a subtype of Throwable&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5875805516898273487,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1176896807264]&quot;;" />
-            <property role="huDt6" value="Error: RecognitionException is not a subtype of Throwable" />
-          </node>
-          <node concept="3clFbS" id="1UUTzwdRPMr" role="SfCbr">
-            <node concept="3cpWs8" id="6cuUYchjQYP" role="3cqZAp">
-              <node concept="15s5l7" id="7TVqtw3AbKg" role="lGtFl">
-                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: wrong number of parameters&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1219948518456]&quot;;" />
-                <property role="huDt6" value="Error: wrong number of parameters" />
-              </node>
-              <node concept="3cpWsn" id="6cuUYchjQYO" role="3cpWs9">
-                <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="lexer" />
-                <node concept="3uibUv" id="7TVqtw3_U0Z" role="1tU5fm">
-                  <ref role="3uigEE" to="cw0v:~TLAPlusGrammarLexer" resolve="TLAPlusGrammarLexer" />
-                </node>
-                <node concept="2ShNRf" id="5RU_G2xSpGo" role="33vP2m">
-                  <node concept="1pGfFk" id="5RU_G2xSpGp" role="2ShVmc">
-                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarLexer.&lt;init&gt;(org.antlr.v4.runtime.CharStream)" resolve="TLAPlusGrammarLexer" />
-                    <node concept="2ShNRf" id="1UUTzwdRM6p" role="37wK5m">
-                      <node concept="1pGfFk" id="1UUTzwdRMIG" role="2ShVmc">
-                        <ref role="37wK5l" to="p3ir:~ANTLRInputStream.&lt;init&gt;()" resolve="ANTLRInputStream" />
-                        <node concept="2ShNRf" id="1UUTzwdRN4j" role="37wK5m">
-                          <node concept="1pGfFk" id="1UUTzwdRNGA" role="2ShVmc">
-                            <ref role="37wK5l" to="guwi:~StringReader.&lt;init&gt;(java.lang.String)" resolve="StringReader" />
-                            <node concept="37vLTw" id="1UUTzwdRNKG" role="37wK5m">
-                              <ref role="3cqZAo" node="4TtYrYGuXoO" resolve="antlrRulesAsText" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="6cuUYchjQYV" role="3cqZAp">
-              <node concept="3cpWsn" id="6cuUYchjQYU" role="3cpWs9">
-                <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="parser" />
-                <node concept="2ShNRf" id="2N$DMhW9XZL" role="33vP2m">
-                  <node concept="1pGfFk" id="2N$DMhW9XZM" role="2ShVmc">
-                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser.&lt;init&gt;(org.antlr.v4.runtime.TokenStream)" resolve="TLAPlusGrammarParser" />
-                    <node concept="2ShNRf" id="2N$DMhW9ZsG" role="37wK5m">
-                      <node concept="1pGfFk" id="2N$DMhWa0aR" role="2ShVmc">
-                        <ref role="37wK5l" to="p3ir:~CommonTokenStream.&lt;init&gt;(org.antlr.v4.runtime.TokenSource)" resolve="CommonTokenStream" />
-                        <node concept="37vLTw" id="2N$DMhWa0eK" role="37wK5m">
-                          <ref role="3cqZAo" node="6cuUYchjQYO" resolve="lexer" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7TVqtw3_Z$p" role="1tU5fm">
-                  <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser" resolve="TLAPlusGrammarParser" />
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="6cuUYchjQZ1" role="3cqZAp">
-              <node concept="3cpWsn" id="6cuUYchjQZ0" role="3cpWs9">
-                <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="tree" />
-                <node concept="3uibUv" id="7TVqtw3A73z" role="1tU5fm">
-                  <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$UnitContext" resolve="TLAPlusGrammarParser.UnitContext" />
-                </node>
-                <node concept="2OqwBi" id="6cuUYchjTQy" role="33vP2m">
-                  <node concept="37vLTw" id="6cuUYchjTQx" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6cuUYchjQYU" resolve="parser" />
-                  </node>
-                  <node concept="liA8E" id="7TVqtw3A9kw" role="2OqNvi">
-                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser.unit()" resolve="unit" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="7a2u8aSIMT3" role="3cqZAp">
-              <node concept="3SKdUq" id="7a2u8aSIO4B" role="3SKWNk">
-                <property role="3SKdUp" value="use the following to print types of nodes on the parse tree:" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="7TVqtw3AjYI" role="3cqZAp" />
-            <node concept="3SKdUt" id="1UUTzwdNYeX" role="3cqZAp">
-              <node concept="3SKdUq" id="1UUTzwdNYeW" role="3SKWNk">
-                <property role="3SKdUp" value="initiate walk of tree with listener" />
-              </node>
-            </node>
-            <node concept="3cpWs8" id="1UUTzwdORFc" role="3cqZAp">
-              <node concept="3cpWsn" id="1UUTzwdORFi" role="3cpWs9">
-                <property role="TrG5h" value="moduleNode" />
-                <node concept="3Tqbb2" id="1UUTzwdOSRq" role="1tU5fm">
-                  <ref role="ehGHo" to="548q:6r55aFu62hr" resolve="Module" />
-                </node>
-                <node concept="2OqwBi" id="1UUTzwdOTLj" role="33vP2m">
-                  <node concept="37vLTw" id="1UUTzwdOTn1" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4TtYrYGuXoK" resolve="anchor" />
-                  </node>
-                  <node concept="2Xjw5R" id="1UUTzwdOUKJ" role="2OqNvi">
-                    <node concept="1xMEDy" id="1UUTzwdOUKL" role="1xVPHs">
-                      <node concept="chp4Y" id="7TVqtw3AsnR" role="ri$Ld">
-                        <ref role="cht4Q" to="548q:6r55aFu62hr" resolve="Module" />
-                      </node>
-                    </node>
-                    <node concept="1xIGOp" id="1UUTzwdOV8_" role="1xVPHs" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="7TVqtw3Abg3" role="TEbGg">
-            <node concept="3clFbS" id="7TVqtw3Abg4" role="TDEfX" />
-            <node concept="3cpWsn" id="7TVqtw3Abg5" role="TDEfY">
-              <property role="TrG5h" value="ioexception" />
-              <node concept="3uibUv" id="7TVqtw3CdfK" role="1tU5fm">
-                <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="7TVqtw3CdpB" role="TEbGg">
-            <node concept="3clFbS" id="7TVqtw3CdpC" role="TDEfX" />
-            <node concept="3cpWsn" id="7TVqtw3CdpD" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="7TVqtw3CdpE" role="1tU5fm">
-                <ref role="3uigEE" to="p3ir:~RecognitionException" resolve="RecognitionException" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="4TtYrYGuXoK" role="3clF46">
-        <property role="TrG5h" value="anchor" />
-        <node concept="3Tqbb2" id="7BzhXShKLkJ" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4TtYrYGuXoM" role="3clF46">
-        <property role="TrG5h" value="model" />
-        <node concept="H_c77" id="1eLg33xvAIP" role="1tU5fm" />
-      </node>
-      <node concept="3Tm1VV" id="4TtYrYGuXoI" role="1B3o_S" />
-      <node concept="3cqZAl" id="4TtYrYGuXoJ" role="3clF45" />
-      <node concept="37vLTG" id="4TtYrYGuXoO" role="3clF46">
-        <property role="TrG5h" value="antlrRulesAsText" />
-        <property role="3TUv4t" value="true" />
-        <node concept="17QB3L" id="1eLg33xvAIO" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4TtYrYGuXoQ" role="3clF46">
-        <property role="TrG5h" value="operationContext" />
-        <node concept="3uibUv" id="4TtYrYGuXoR" role="1tU5fm">
-          <ref role="3uigEE" to="w1kc:~IOperationContext" resolve="IOperationContext" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="MCyGswqxmq" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="MCyGswqxmr" role="1tU5fm">
-          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="v1yTSnqXxE" role="jymVt">
       <property role="TrG5h" value="saveTreeAsPostScript" />
       <node concept="3Tm6S6" id="v1yTSnqXxF" role="1B3o_S" />
@@ -1402,7 +1204,15 @@
           <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser" resolve="TLAPlusGrammarParser" />
         </node>
       </node>
-      <node concept="3clFbS" id="v1yTSnqXxb" role="3clF47" />
+      <node concept="3clFbS" id="v1yTSnqXxb" role="3clF47">
+        <node concept="3SKdUt" id="1V9YP8V9DFd" role="3cqZAp">
+          <node concept="1PaTwC" id="1V9YP8V9DFe" role="3ndbpf">
+            <node concept="3oM_SD" id="1V9YP8V9DFg" role="1PaTwD">
+              <property role="3oM_SC" value="none" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3uibUv" id="v1yTSnqXxJ" role="Sfmx6">
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
