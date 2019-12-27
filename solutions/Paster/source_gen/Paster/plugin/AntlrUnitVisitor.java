@@ -196,7 +196,11 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   public Object visitInstance(TLAPlusGrammarParser.InstanceContext ctx) {
     // name et eventuellement substitutions 
     SNode inst = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50d38bL, "TLA.structure.Instance"));
-    SPropertyOperations.assign(inst, PROPS.Name$PEBZ, ctx.Name().getText());
+    if (ctx.Name() != null) {
+      SPropertyOperations.set(inst, PROPS.Name$PEBZ, ctx.Name().getText());
+    } else {
+      SPropertyOperations.set(inst, PROPS.Name$PEBZ, ctx.Identifier().getText());
+    }
     if (ctx.substitutionList() != null) {
       ListSequence.fromList(SLinkOperations.getChildren(inst, LINKS.Substitution$PF$y)).addSequence(ListSequence.fromList(((List<SNode>) visitSubstitutionList(ctx.substitutionList()))));
     }
@@ -420,12 +424,20 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   public Object visitNameArrowExprList(TLAPlusGrammarParser.NameArrowExprListContext ctx) {
     List<SNode> naeList = new ArrayList<SNode>();
     SNode nae = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2efc45b4e6202b74L, "TLA.structure.NameArrowExpr"));
-    SPropertyOperations.set(nae, PROPS.NameProperty$FGtw, ctx.Name(0).getText());
+    if (ctx.Name(0) != null) {
+      SPropertyOperations.set(nae, PROPS.NameProperty$FGtw, ctx.Name(0).getText());
+    } else {
+      SPropertyOperations.set(nae, PROPS.NameProperty$FGtw, ctx.Identifier(0).getText());
+    }
     SLinkOperations.setTarget(nae, LINKS.Expr$FGCD, ((SNode) visitExpression(ctx.expression(0))));
     ListSequence.fromList(naeList).addElement(nae);
     for (int i = 0; i < (ctx.getChildCount() - 3) / 4; i++) {
       SNode nae1 = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2efc45b4e6202b74L, "TLA.structure.NameArrowExpr"));
-      SPropertyOperations.set(nae1, PROPS.NameProperty$FGtw, ctx.Name(i + 1).getText());
+      if (ctx.Name(i + 1) != null) {
+        SPropertyOperations.set(nae1, PROPS.NameProperty$FGtw, ctx.Name(i + 1).getText());
+      } else {
+        SPropertyOperations.set(nae1, PROPS.NameProperty$FGtw, ctx.Identifier(i + 1).getText());
+      }
       SLinkOperations.setTarget(nae1, LINKS.Expr$FGCD, ((SNode) visitExpression(ctx.expression(i + 1))));
       ListSequence.fromList(naeList).addElement(nae1);
     }
@@ -435,12 +447,20 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   public Object visitNameColonExprList(TLAPlusGrammarParser.NameColonExprListContext ctx) {
     List<SNode> nceList = new ArrayList<SNode>();
     SNode nce = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03787318L, "TLA.structure.NameColonExpr"));
-    SPropertyOperations.set(nce, PROPS.NameProperty$Y6Uw, ctx.Name(0).getText());
+    if (ctx.Name(0) != null) {
+      SPropertyOperations.set(nce, PROPS.NameProperty$Y6Uw, ctx.Name(0).getText());
+    } else {
+      SPropertyOperations.set(nce, PROPS.NameProperty$Y6Uw, ctx.Identifier(0).getText());
+    }
     SLinkOperations.setTarget(nce, LINKS.Expr$Y6Vu, ((SNode) visitExpression(ctx.expression(0))));
     ListSequence.fromList(nceList).addElement(nce);
     for (int i = 0; i < (ctx.getChildCount() - 3) / 4; i++) {
       SNode nce1 = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03787318L, "TLA.structure.NameColonExpr"));
-      SPropertyOperations.set(nce1, PROPS.NameProperty$Y6Uw, ctx.Name(i + 1).getText());
+      if (ctx.Name(i + 1) != null) {
+        SPropertyOperations.set(nce1, PROPS.NameProperty$Y6Uw, ctx.Name(i + 1).getText());
+      } else {
+        SPropertyOperations.set(nce1, PROPS.NameProperty$Y6Uw, ctx.Identifier(i + 1).getText());
+      }
       SLinkOperations.setTarget(nce1, LINKS.Expr$Y6Vu, ((SNode) visitExpression(ctx.expression(i + 1))));
       ListSequence.fromList(nceList).addElement(nce1);
     }
@@ -451,8 +471,12 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     SNode ei = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getInterfaceConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03787398L, "TLA.structure.ExceptInterface")));
     if (ctx.POINT() != null) {
       ei = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e0378735dL, "TLA.structure.PointAndName"));
-      SPropertyOperations.set(((SNode) ei), PROPS.NameProperty$YdG0, ctx.Name().getText());
-    } else if (ctx.expressionList() != null) {
+      if (ctx.Name() != null) {
+        SPropertyOperations.set(((SNode) ei), PROPS.NameProperty$YdG0, ctx.Name().getText());
+      } else {
+        SPropertyOperations.set(((SNode) ei), PROPS.NameProperty$YdG0, ctx.Identifier().getText());
+      }
+    } else if (ctx.LEFTSQUAREBRACKET() != null) {
       ei = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03787373L, "TLA.structure.RangeExprList"));
       ListSequence.fromList(SLinkOperations.getChildren(((SNode) ei), LINKS.ExprList$Yec0)).addSequence(ListSequence.fromList(((List<SNode>) visitExpressionList(ctx.expressionList()))));
     }
@@ -548,7 +572,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
       SLinkOperations.setTarget(((SNode) expr), LINKS.IDList$SB4Y, ((SNode) visitIdentifierList(ctx.identifierList())));
     } else if (ctx.CHOOSE() != null && ctx.identifierOrTuple() != null && ctx.COLON() != null && ctx.expression(0) != null) {
       expr = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x8a35484ed64645aL, "TLA.structure.ChooseAndExpressions"));
-      if (ctx.IN() != null) {
+      if (ctx.ANTISLASHANTISLASHIN() != null) {
         SLinkOperations.setTarget(((SNode) expr), LINKS.ExprMandatory$6SU6, ((SNode) visitExpression(ctx.expression(1))));
         SLinkOperations.setTarget(((SNode) expr), LINKS.IDorTuple$6SHw, SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getInterfaceConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x7551f37ec111f703L, "TLA.structure.IdentifierOrTupleForChoose"))));
         if (ctx.identifierOrTuple().TUPLELEFT() != null) {

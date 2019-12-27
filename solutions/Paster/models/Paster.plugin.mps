@@ -5078,31 +5078,83 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2V$dEz_ak6f" role="3cqZAp">
-          <node concept="15s5l7" id="2V$dEz_azVh" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1175519336188]&quot;;" />
-            <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
-          </node>
-          <node concept="37vLTI" id="2V$dEz_atxA" role="3clFbG">
-            <node concept="2OqwBi" id="2V$dEz_ax$v" role="37vLTx">
-              <node concept="2OqwBi" id="2V$dEz_avGn" role="2Oq$k0">
-                <node concept="37vLTw" id="2V$dEz_atJ_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="55DAcpL2qzc" resolve="ctx" />
-                </node>
-                <node concept="liA8E" id="2V$dEz_axkl" role="2OqNvi">
-                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InstanceContext.Name()" resolve="Name" />
-                </node>
+        <node concept="3clFbJ" id="3_9l9F6EGvg" role="3cqZAp">
+          <node concept="3clFbS" id="3_9l9F6EGvi" role="3clFbx">
+            <node concept="3clFbF" id="2V$dEz_ak6f" role="3cqZAp">
+              <node concept="15s5l7" id="6CM_PmNL0Xi" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
               </node>
-              <node concept="liA8E" id="2V$dEz_azqA" role="2OqNvi">
-                <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+              <node concept="2OqwBi" id="6CM_PmNKzRy" role="3clFbG">
+                <node concept="2OqwBi" id="2V$dEz_apmB" role="2Oq$k0">
+                  <node concept="37vLTw" id="2V$dEz_ak6d" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2V$dEz_9aPP" resolve="inst" />
+                  </node>
+                  <node concept="3TrcHB" id="2V$dEz_asGg" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:6GLhEIqkdxi" resolve="Name" />
+                  </node>
+                </node>
+                <node concept="tyxLq" id="6CM_PmNK$r2" role="2OqNvi">
+                  <node concept="2OqwBi" id="6CM_PmNKHkI" role="tz02z">
+                    <node concept="2OqwBi" id="6CM_PmNKCNg" role="2Oq$k0">
+                      <node concept="37vLTw" id="6CM_PmNK$_m" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2qzc" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="6CM_PmNKGY3" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InstanceContext.Name()" resolve="Name" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="6CM_PmNKLiI" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="2V$dEz_apmB" role="37vLTJ">
-              <node concept="37vLTw" id="2V$dEz_ak6d" role="2Oq$k0">
-                <ref role="3cqZAo" node="2V$dEz_9aPP" resolve="inst" />
+          </node>
+          <node concept="3y3z36" id="3_9l9F6FfGL" role="3clFbw">
+            <node concept="10Nm6u" id="3_9l9F6FfJG" role="3uHU7w" />
+            <node concept="2OqwBi" id="3_9l9F6F5HX" role="3uHU7B">
+              <node concept="37vLTw" id="3_9l9F6F3BX" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2qzc" resolve="ctx" />
               </node>
-              <node concept="3TrcHB" id="2V$dEz_asGg" role="2OqNvi">
-                <ref role="3TsBF5" to="548q:6GLhEIqkdxi" resolve="Name" />
+              <node concept="liA8E" id="3_9l9F6Ffs5" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InstanceContext.Name()" resolve="Name" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="3_9l9F6FQJe" role="9aQIa">
+            <node concept="3clFbS" id="3_9l9F6FQJf" role="9aQI4">
+              <node concept="3clFbF" id="3_9l9F6FRia" role="3cqZAp">
+                <node concept="15s5l7" id="3_9l9F6FRib" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                </node>
+                <node concept="2OqwBi" id="3_9l9F6FRic" role="3clFbG">
+                  <node concept="2OqwBi" id="3_9l9F6FRid" role="2Oq$k0">
+                    <node concept="37vLTw" id="3_9l9F6FRie" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2V$dEz_9aPP" resolve="inst" />
+                    </node>
+                    <node concept="3TrcHB" id="3_9l9F6FRif" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:6GLhEIqkdxi" resolve="Name" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="3_9l9F6FRig" role="2OqNvi">
+                    <node concept="2OqwBi" id="3_9l9F6FRih" role="tz02z">
+                      <node concept="2OqwBi" id="3_9l9F6FRii" role="2Oq$k0">
+                        <node concept="37vLTw" id="3_9l9F6FRij" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2qzc" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="3_9l9F6FVF3" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$InstanceContext.Identifier()" resolve="Identifier" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3_9l9F6FVIQ" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -8752,35 +8804,91 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1kkdmfUrMvh" role="3cqZAp">
-          <node concept="15s5l7" id="1kkdmfUsu9y" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
-            <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
-          </node>
-          <node concept="2OqwBi" id="1kkdmfUsjGB" role="3clFbG">
-            <node concept="2OqwBi" id="1kkdmfUs40F" role="2Oq$k0">
-              <node concept="37vLTw" id="1kkdmfUrMvf" role="2Oq$k0">
-                <ref role="3cqZAo" node="1kkdmfUqUVb" resolve="nae" />
+        <node concept="3clFbJ" id="3_9l9F6Apsv" role="3cqZAp">
+          <node concept="3clFbS" id="3_9l9F6Apsx" role="3clFbx">
+            <node concept="3clFbF" id="1kkdmfUrMvh" role="3cqZAp">
+              <node concept="15s5l7" id="1kkdmfUsu9y" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
               </node>
-              <node concept="3TrcHB" id="1kkdmfUsjka" role="2OqNvi">
-                <ref role="3TsBF5" to="548q:2VWhrjA82HP" resolve="NameProperty" />
-              </node>
-            </node>
-            <node concept="tyxLq" id="1kkdmfUsk5i" role="2OqNvi">
-              <node concept="2OqwBi" id="1kkdmfUspB$" role="tz02z">
-                <node concept="2OqwBi" id="1kkdmfUskUC" role="2Oq$k0">
-                  <node concept="37vLTw" id="1kkdmfUskmI" role="2Oq$k0">
-                    <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
+              <node concept="2OqwBi" id="1kkdmfUsjGB" role="3clFbG">
+                <node concept="2OqwBi" id="1kkdmfUs40F" role="2Oq$k0">
+                  <node concept="37vLTw" id="1kkdmfUrMvf" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1kkdmfUqUVb" resolve="nae" />
                   </node>
-                  <node concept="liA8E" id="1kkdmfUsowo" role="2OqNvi">
-                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Name(int)" resolve="Name" />
-                    <node concept="3cmrfG" id="1kkdmfUsp6g" role="37wK5m">
-                      <property role="3cmrfH" value="0" />
+                  <node concept="3TrcHB" id="1kkdmfUsjka" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:2VWhrjA82HP" resolve="NameProperty" />
+                  </node>
+                </node>
+                <node concept="tyxLq" id="1kkdmfUsk5i" role="2OqNvi">
+                  <node concept="2OqwBi" id="1kkdmfUspB$" role="tz02z">
+                    <node concept="2OqwBi" id="1kkdmfUskUC" role="2Oq$k0">
+                      <node concept="37vLTw" id="1kkdmfUskmI" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="1kkdmfUsowo" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Name(int)" resolve="Name" />
+                        <node concept="3cmrfG" id="1kkdmfUsp6g" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1kkdmfUstgf" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                     </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="1kkdmfUstgf" role="2OqNvi">
-                  <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="3_9l9F6AWiw" role="3clFbw">
+            <node concept="10Nm6u" id="3_9l9F6B0wy" role="3uHU7w" />
+            <node concept="2OqwBi" id="3_9l9F6ANQR" role="3uHU7B">
+              <node concept="37vLTw" id="3_9l9F6AMHc" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="3_9l9F6AVy9" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Name(int)" resolve="Name" />
+                <node concept="3cmrfG" id="3_9l9F6AVQI" role="37wK5m">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="3_9l9F6Byfi" role="9aQIa">
+            <node concept="3clFbS" id="3_9l9F6Byfj" role="9aQI4">
+              <node concept="3clFbF" id="3_9l9F6ByFn" role="3cqZAp">
+                <node concept="15s5l7" id="3_9l9F6ByFo" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                </node>
+                <node concept="2OqwBi" id="3_9l9F6ByFp" role="3clFbG">
+                  <node concept="2OqwBi" id="3_9l9F6ByFq" role="2Oq$k0">
+                    <node concept="37vLTw" id="3_9l9F6ByFr" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1kkdmfUqUVb" resolve="nae" />
+                    </node>
+                    <node concept="3TrcHB" id="3_9l9F6ByFs" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:2VWhrjA82HP" resolve="NameProperty" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="3_9l9F6ByFt" role="2OqNvi">
+                    <node concept="2OqwBi" id="3_9l9F6ByFu" role="tz02z">
+                      <node concept="2OqwBi" id="3_9l9F6ByFv" role="2Oq$k0">
+                        <node concept="37vLTw" id="3_9l9F6ByFw" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="3_9l9F6ByFx" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Identifier(int)" resolve="Identifier" />
+                          <node concept="3cmrfG" id="3_9l9F6ByFy" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3_9l9F6BBKJ" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -8848,40 +8956,106 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="1kkdmfUx5eb" role="3cqZAp">
-              <node concept="15s5l7" id="1kkdmfUx5ec" role="lGtFl">
-                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
-                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
-              </node>
-              <node concept="2OqwBi" id="1kkdmfUx5ed" role="3clFbG">
-                <node concept="2OqwBi" id="1kkdmfUx5ee" role="2Oq$k0">
-                  <node concept="37vLTw" id="1kkdmfUx9lf" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1kkdmfUx4HK" resolve="nae1" />
+            <node concept="3clFbJ" id="3_9l9F6BDgg" role="3cqZAp">
+              <node concept="3clFbS" id="3_9l9F6BDgi" role="3clFbx">
+                <node concept="3clFbF" id="1kkdmfUx5eb" role="3cqZAp">
+                  <node concept="15s5l7" id="1kkdmfUx5ec" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                   </node>
-                  <node concept="3TrcHB" id="1kkdmfUx9Gy" role="2OqNvi">
-                    <ref role="3TsBF5" to="548q:2VWhrjA82HP" resolve="NameProperty" />
-                  </node>
-                </node>
-                <node concept="tyxLq" id="1kkdmfUx5eh" role="2OqNvi">
-                  <node concept="2OqwBi" id="1kkdmfUx5ei" role="tz02z">
-                    <node concept="2OqwBi" id="1kkdmfUx5ej" role="2Oq$k0">
-                      <node concept="37vLTw" id="1kkdmfUx5ek" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
+                  <node concept="2OqwBi" id="1kkdmfUx5ed" role="3clFbG">
+                    <node concept="2OqwBi" id="1kkdmfUx5ee" role="2Oq$k0">
+                      <node concept="37vLTw" id="1kkdmfUx9lf" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1kkdmfUx4HK" resolve="nae1" />
                       </node>
-                      <node concept="liA8E" id="1kkdmfUx5el" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Name(int)" resolve="Name" />
-                        <node concept="3cpWs3" id="4pSjmJzUrxX" role="37wK5m">
-                          <node concept="3cmrfG" id="4pSjmJzUr$H" role="3uHU7w">
-                            <property role="3cmrfH" value="1" />
+                      <node concept="3TrcHB" id="1kkdmfUx9Gy" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:2VWhrjA82HP" resolve="NameProperty" />
+                      </node>
+                    </node>
+                    <node concept="tyxLq" id="1kkdmfUx5eh" role="2OqNvi">
+                      <node concept="2OqwBi" id="1kkdmfUx5ei" role="tz02z">
+                        <node concept="2OqwBi" id="1kkdmfUx5ej" role="2Oq$k0">
+                          <node concept="37vLTw" id="1kkdmfUx5ek" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
                           </node>
-                          <node concept="37vLTw" id="1kkdmfUxah4" role="3uHU7B">
-                            <ref role="3cqZAo" node="1kkdmfUwjDE" resolve="i" />
+                          <node concept="liA8E" id="1kkdmfUx5el" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Name(int)" resolve="Name" />
+                            <node concept="3cpWs3" id="4pSjmJzUrxX" role="37wK5m">
+                              <node concept="3cmrfG" id="4pSjmJzUr$H" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                              <node concept="37vLTw" id="1kkdmfUxah4" role="3uHU7B">
+                                <ref role="3cqZAo" node="1kkdmfUwjDE" resolve="i" />
+                              </node>
+                            </node>
                           </node>
+                        </node>
+                        <node concept="liA8E" id="1kkdmfUx5en" role="2OqNvi">
+                          <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                         </node>
                       </node>
                     </node>
-                    <node concept="liA8E" id="1kkdmfUx5en" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="3_9l9F6BKMj" role="3clFbw">
+                <node concept="10Nm6u" id="3_9l9F6BKPk" role="3uHU7w" />
+                <node concept="2OqwBi" id="3_9l9F6BEp$" role="3uHU7B">
+                  <node concept="37vLTw" id="3_9l9F6BDDF" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="3_9l9F6BIFg" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Name(int)" resolve="Name" />
+                    <node concept="3cpWs3" id="3_9l9F6BKcP" role="37wK5m">
+                      <node concept="3cmrfG" id="3_9l9F6BKfC" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="37vLTw" id="3_9l9F6BJiK" role="3uHU7B">
+                        <ref role="3cqZAo" node="1kkdmfUwjDE" resolve="i" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="3_9l9F6BY8F" role="9aQIa">
+                <node concept="3clFbS" id="3_9l9F6BY8G" role="9aQI4">
+                  <node concept="3clFbF" id="3_9l9F6BYqh" role="3cqZAp">
+                    <node concept="15s5l7" id="3_9l9F6BYqi" role="lGtFl">
+                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                      <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                    </node>
+                    <node concept="2OqwBi" id="3_9l9F6BYqj" role="3clFbG">
+                      <node concept="2OqwBi" id="3_9l9F6BYqk" role="2Oq$k0">
+                        <node concept="37vLTw" id="3_9l9F6BYql" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1kkdmfUx4HK" resolve="nae1" />
+                        </node>
+                        <node concept="3TrcHB" id="3_9l9F6BYqm" role="2OqNvi">
+                          <ref role="3TsBF5" to="548q:2VWhrjA82HP" resolve="NameProperty" />
+                        </node>
+                      </node>
+                      <node concept="tyxLq" id="3_9l9F6BYqn" role="2OqNvi">
+                        <node concept="2OqwBi" id="3_9l9F6BYqo" role="tz02z">
+                          <node concept="2OqwBi" id="3_9l9F6BYqp" role="2Oq$k0">
+                            <node concept="37vLTw" id="3_9l9F6BYqq" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2q$S" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="3_9l9F6BYqr" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Identifier(int)" resolve="Identifier" />
+                              <node concept="3cpWs3" id="3_9l9F6BYqs" role="37wK5m">
+                                <node concept="3cmrfG" id="3_9l9F6BYqt" role="3uHU7w">
+                                  <property role="3cmrfH" value="1" />
+                                </node>
+                                <node concept="37vLTw" id="3_9l9F6BYqu" role="3uHU7B">
+                                  <ref role="3cqZAo" node="1kkdmfUwjDE" resolve="i" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3_9l9F6C3CT" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -9029,35 +9203,91 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1kkdmfUxX3B" role="3cqZAp">
-          <node concept="15s5l7" id="1kkdmfUy$Mq" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
-            <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
-          </node>
-          <node concept="2OqwBi" id="1kkdmfUynA7" role="3clFbG">
-            <node concept="2OqwBi" id="1kkdmfUyfZL" role="2Oq$k0">
-              <node concept="37vLTw" id="1kkdmfUxX3_" role="2Oq$k0">
-                <ref role="3cqZAo" node="1kkdmfUxzvZ" resolve="nce" />
+        <node concept="3clFbJ" id="3_9l9F6Cvkb" role="3cqZAp">
+          <node concept="3clFbS" id="3_9l9F6Cvkd" role="3clFbx">
+            <node concept="3clFbF" id="1kkdmfUxX3B" role="3cqZAp">
+              <node concept="15s5l7" id="1kkdmfUy$Mq" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
               </node>
-              <node concept="3TrcHB" id="1kkdmfUyni$" role="2OqNvi">
-                <ref role="3TsBF5" to="548q:26CgNS3u7cp" resolve="NameProperty" />
-              </node>
-            </node>
-            <node concept="tyxLq" id="1kkdmfUynKr" role="2OqNvi">
-              <node concept="2OqwBi" id="1kkdmfUywqU" role="tz02z">
-                <node concept="2OqwBi" id="1kkdmfUyrW$" role="2Oq$k0">
-                  <node concept="37vLTw" id="1kkdmfUyo3e" role="2Oq$k0">
-                    <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
+              <node concept="2OqwBi" id="1kkdmfUynA7" role="3clFbG">
+                <node concept="2OqwBi" id="1kkdmfUyfZL" role="2Oq$k0">
+                  <node concept="37vLTw" id="1kkdmfUxX3_" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1kkdmfUxzvZ" resolve="nce" />
                   </node>
-                  <node concept="liA8E" id="1kkdmfUyvOU" role="2OqNvi">
-                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Name(int)" resolve="Name" />
-                    <node concept="3cmrfG" id="1kkdmfUywm6" role="37wK5m">
-                      <property role="3cmrfH" value="0" />
+                  <node concept="3TrcHB" id="1kkdmfUyni$" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:26CgNS3u7cp" resolve="NameProperty" />
+                  </node>
+                </node>
+                <node concept="tyxLq" id="1kkdmfUynKr" role="2OqNvi">
+                  <node concept="2OqwBi" id="1kkdmfUywqU" role="tz02z">
+                    <node concept="2OqwBi" id="1kkdmfUyrW$" role="2Oq$k0">
+                      <node concept="37vLTw" id="1kkdmfUyo3e" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="1kkdmfUyvOU" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Name(int)" resolve="Name" />
+                        <node concept="3cmrfG" id="1kkdmfUywm6" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1kkdmfUyzSq" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                     </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="1kkdmfUyzSq" role="2OqNvi">
-                  <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="3_9l9F6D6zt" role="3clFbw">
+            <node concept="10Nm6u" id="3_9l9F6D6Aq" role="3uHU7w" />
+            <node concept="2OqwBi" id="3_9l9F6CYqt" role="3uHU7B">
+              <node concept="37vLTw" id="3_9l9F6CX$T" role="2Oq$k0">
+                <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="3_9l9F6D5JN" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Name(int)" resolve="Name" />
+                <node concept="3cmrfG" id="3_9l9F6D6ma" role="37wK5m">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="3_9l9F6DCuL" role="9aQIa">
+            <node concept="3clFbS" id="3_9l9F6DCuM" role="9aQI4">
+              <node concept="3clFbF" id="3_9l9F6DCUQ" role="3cqZAp">
+                <node concept="15s5l7" id="3_9l9F6DCUR" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                  <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                </node>
+                <node concept="2OqwBi" id="3_9l9F6DCUS" role="3clFbG">
+                  <node concept="2OqwBi" id="3_9l9F6DCUT" role="2Oq$k0">
+                    <node concept="37vLTw" id="3_9l9F6DCUU" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1kkdmfUxzvZ" resolve="nce" />
+                    </node>
+                    <node concept="3TrcHB" id="3_9l9F6DCUV" role="2OqNvi">
+                      <ref role="3TsBF5" to="548q:26CgNS3u7cp" resolve="NameProperty" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="3_9l9F6DCUW" role="2OqNvi">
+                    <node concept="2OqwBi" id="3_9l9F6DCUX" role="tz02z">
+                      <node concept="2OqwBi" id="3_9l9F6DCUY" role="2Oq$k0">
+                        <node concept="37vLTw" id="3_9l9F6DCUZ" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="3_9l9F6DI2_" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Identifier(int)" resolve="Identifier" />
+                          <node concept="3cmrfG" id="3_9l9F6DI_2" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3_9l9F6DIRd" role="2OqNvi">
+                        <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -9125,40 +9355,106 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="1kkdmfU$8HQ" role="3cqZAp">
-              <node concept="15s5l7" id="1kkdmfU$8HR" role="lGtFl">
-                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
-                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
-              </node>
-              <node concept="2OqwBi" id="1kkdmfU$8HS" role="3clFbG">
-                <node concept="2OqwBi" id="1kkdmfU$8HT" role="2Oq$k0">
-                  <node concept="37vLTw" id="1kkdmfU$8HU" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1kkdmfU$8HL" resolve="nce1" />
+            <node concept="3clFbJ" id="3_9l9F6DKeK" role="3cqZAp">
+              <node concept="3clFbS" id="3_9l9F6DKeM" role="3clFbx">
+                <node concept="3clFbF" id="1kkdmfU$8HQ" role="3cqZAp">
+                  <node concept="15s5l7" id="1kkdmfU$8HR" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                   </node>
-                  <node concept="3TrcHB" id="1kkdmfU$zzT" role="2OqNvi">
-                    <ref role="3TsBF5" to="548q:26CgNS3u7cp" resolve="NameProperty" />
-                  </node>
-                </node>
-                <node concept="tyxLq" id="1kkdmfU$8HW" role="2OqNvi">
-                  <node concept="2OqwBi" id="1kkdmfU$8HX" role="tz02z">
-                    <node concept="2OqwBi" id="1kkdmfU$8HY" role="2Oq$k0">
-                      <node concept="37vLTw" id="1kkdmfU$8HZ" role="2Oq$k0">
-                        <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
+                  <node concept="2OqwBi" id="1kkdmfU$8HS" role="3clFbG">
+                    <node concept="2OqwBi" id="1kkdmfU$8HT" role="2Oq$k0">
+                      <node concept="37vLTw" id="1kkdmfU$8HU" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1kkdmfU$8HL" resolve="nce1" />
                       </node>
-                      <node concept="liA8E" id="1kkdmfU$8I0" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Name(int)" resolve="Name" />
-                        <node concept="3cpWs3" id="4pSjmJzUsFa" role="37wK5m">
-                          <node concept="3cmrfG" id="4pSjmJzUsHU" role="3uHU7w">
-                            <property role="3cmrfH" value="1" />
+                      <node concept="3TrcHB" id="1kkdmfU$zzT" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:26CgNS3u7cp" resolve="NameProperty" />
+                      </node>
+                    </node>
+                    <node concept="tyxLq" id="1kkdmfU$8HW" role="2OqNvi">
+                      <node concept="2OqwBi" id="1kkdmfU$8HX" role="tz02z">
+                        <node concept="2OqwBi" id="1kkdmfU$8HY" role="2Oq$k0">
+                          <node concept="37vLTw" id="1kkdmfU$8HZ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
                           </node>
-                          <node concept="37vLTw" id="1kkdmfU$8I1" role="3uHU7B">
-                            <ref role="3cqZAo" node="1kkdmfU$8Il" resolve="i" />
+                          <node concept="liA8E" id="1kkdmfU$8I0" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Name(int)" resolve="Name" />
+                            <node concept="3cpWs3" id="4pSjmJzUsFa" role="37wK5m">
+                              <node concept="3cmrfG" id="4pSjmJzUsHU" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                              <node concept="37vLTw" id="1kkdmfU$8I1" role="3uHU7B">
+                                <ref role="3cqZAo" node="1kkdmfU$8Il" resolve="i" />
+                              </node>
+                            </node>
                           </node>
+                        </node>
+                        <node concept="liA8E" id="1kkdmfU$8I2" role="2OqNvi">
+                          <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
                         </node>
                       </node>
                     </node>
-                    <node concept="liA8E" id="1kkdmfU$8I2" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="3_9l9F6DToq" role="3clFbw">
+                <node concept="10Nm6u" id="3_9l9F6DTrr" role="3uHU7w" />
+                <node concept="2OqwBi" id="3_9l9F6DOPJ" role="3uHU7B">
+                  <node concept="37vLTw" id="3_9l9F6DKCb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="3_9l9F6DSth" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Name(int)" resolve="Name" />
+                    <node concept="3cpWs3" id="3_9l9F6DSTM" role="37wK5m">
+                      <node concept="3cmrfG" id="3_9l9F6DSW_" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="37vLTw" id="3_9l9F6DSMP" role="3uHU7B">
+                        <ref role="3cqZAo" node="1kkdmfU$8Il" resolve="i" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="3_9l9F6E6JG" role="9aQIa">
+                <node concept="3clFbS" id="3_9l9F6E6JH" role="9aQI4">
+                  <node concept="3clFbF" id="3_9l9F6E71i" role="3cqZAp">
+                    <node concept="15s5l7" id="3_9l9F6E71j" role="lGtFl">
+                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                      <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                    </node>
+                    <node concept="2OqwBi" id="3_9l9F6E71k" role="3clFbG">
+                      <node concept="2OqwBi" id="3_9l9F6E71l" role="2Oq$k0">
+                        <node concept="37vLTw" id="3_9l9F6E71m" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1kkdmfU$8HL" resolve="nce1" />
+                        </node>
+                        <node concept="3TrcHB" id="3_9l9F6E71n" role="2OqNvi">
+                          <ref role="3TsBF5" to="548q:26CgNS3u7cp" resolve="NameProperty" />
+                        </node>
+                      </node>
+                      <node concept="tyxLq" id="3_9l9F6E71o" role="2OqNvi">
+                        <node concept="2OqwBi" id="3_9l9F6E71p" role="tz02z">
+                          <node concept="2OqwBi" id="3_9l9F6E71q" role="2Oq$k0">
+                            <node concept="37vLTw" id="3_9l9F6E71r" role="2Oq$k0">
+                              <ref role="3cqZAo" node="55DAcpL2q$Y" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="3_9l9F6E71s" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Identifier(int)" resolve="Identifier" />
+                              <node concept="3cpWs3" id="3_9l9F6E71t" role="37wK5m">
+                                <node concept="3cmrfG" id="3_9l9F6E71u" role="3uHU7w">
+                                  <property role="3cmrfH" value="1" />
+                                </node>
+                                <node concept="37vLTw" id="3_9l9F6E71v" role="3uHU7B">
+                                  <ref role="3cqZAo" node="1kkdmfU$8Il" resolve="i" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3_9l9F6Ecoq" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -9304,39 +9600,96 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="3R4gs_0kSyH" role="3cqZAp">
-              <node concept="15s5l7" id="3R4gs_0lgCI" role="lGtFl">
-                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
-                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
-              </node>
-              <node concept="2OqwBi" id="3R4gs_0l5ez" role="3clFbG">
-                <node concept="2OqwBi" id="3R4gs_0l4lr" role="2Oq$k0">
-                  <node concept="1eOMI4" id="3R4gs_0kSyF" role="2Oq$k0">
-                    <node concept="10QFUN" id="3R4gs_0kSyC" role="1eOMHV">
-                      <node concept="3Tqbb2" id="3R4gs_0l461" role="10QFUM">
-                        <ref role="ehGHo" to="548q:26CgNS3u7dt" resolve="PointAndName" />
+            <node concept="3clFbJ" id="3_9l9F6_d75" role="3cqZAp">
+              <node concept="3clFbS" id="3_9l9F6_d77" role="3clFbx">
+                <node concept="3clFbF" id="3R4gs_0kSyH" role="3cqZAp">
+                  <node concept="15s5l7" id="3R4gs_0lgCI" role="lGtFl">
+                    <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                    <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+                  </node>
+                  <node concept="2OqwBi" id="3R4gs_0l5ez" role="3clFbG">
+                    <node concept="2OqwBi" id="3R4gs_0l4lr" role="2Oq$k0">
+                      <node concept="1eOMI4" id="3R4gs_0kSyF" role="2Oq$k0">
+                        <node concept="10QFUN" id="3R4gs_0kSyC" role="1eOMHV">
+                          <node concept="3Tqbb2" id="3R4gs_0l461" role="10QFUM">
+                            <ref role="ehGHo" to="548q:26CgNS3u7dt" resolve="PointAndName" />
+                          </node>
+                          <node concept="37vLTw" id="3R4gs_0l4du" role="10QFUP">
+                            <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="37vLTw" id="3R4gs_0l4du" role="10QFUP">
-                        <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+                      <node concept="3TrcHB" id="3R4gs_0l4_j" role="2OqNvi">
+                        <ref role="3TsBF5" to="548q:26CgNS3u7du" resolve="NameProperty" />
                       </node>
                     </node>
-                  </node>
-                  <node concept="3TrcHB" id="3R4gs_0l4_j" role="2OqNvi">
-                    <ref role="3TsBF5" to="548q:26CgNS3u7du" resolve="NameProperty" />
+                    <node concept="tyxLq" id="3R4gs_0l5Lp" role="2OqNvi">
+                      <node concept="2OqwBi" id="3R4gs_0lbZo" role="tz02z">
+                        <node concept="2OqwBi" id="3R4gs_0l7Ek" role="2Oq$k0">
+                          <node concept="37vLTw" id="3R4gs_0l5R2" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="3R4gs_0lbJq" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.Name()" resolve="Name" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3R4gs_0lfSV" role="2OqNvi">
+                          <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
-                <node concept="tyxLq" id="3R4gs_0l5Lp" role="2OqNvi">
-                  <node concept="2OqwBi" id="3R4gs_0lbZo" role="tz02z">
-                    <node concept="2OqwBi" id="3R4gs_0l7Ek" role="2Oq$k0">
-                      <node concept="37vLTw" id="3R4gs_0l5R2" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
-                      </node>
-                      <node concept="liA8E" id="3R4gs_0lbJq" role="2OqNvi">
-                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.Name()" resolve="Name" />
-                      </node>
+              </node>
+              <node concept="3y3z36" id="3_9l9F6_nMh" role="3clFbw">
+                <node concept="10Nm6u" id="3_9l9F6_oxu" role="3uHU7w" />
+                <node concept="2OqwBi" id="3_9l9F6_e8c" role="3uHU7B">
+                  <node concept="37vLTw" id="3_9l9F6_dcp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
+                  </node>
+                  <node concept="liA8E" id="3_9l9F6_iOA" role="2OqNvi">
+                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.Name()" resolve="Name" />
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="3_9l9F6_Dez" role="9aQIa">
+                <node concept="3clFbS" id="3_9l9F6_De$" role="9aQI4">
+                  <node concept="3clFbF" id="3_9l9F6_Div" role="3cqZAp">
+                    <node concept="15s5l7" id="3_9l9F6_QkD" role="lGtFl">
+                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                      <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
                     </node>
-                    <node concept="liA8E" id="3R4gs_0lfSV" role="2OqNvi">
-                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    <node concept="2OqwBi" id="3_9l9F6_Dix" role="3clFbG">
+                      <node concept="2OqwBi" id="3_9l9F6_Diy" role="2Oq$k0">
+                        <node concept="1eOMI4" id="3_9l9F6_Diz" role="2Oq$k0">
+                          <node concept="10QFUN" id="3_9l9F6_Di$" role="1eOMHV">
+                            <node concept="3Tqbb2" id="3_9l9F6_Di_" role="10QFUM">
+                              <ref role="ehGHo" to="548q:26CgNS3u7dt" resolve="PointAndName" />
+                            </node>
+                            <node concept="37vLTw" id="3_9l9F6_DiA" role="10QFUP">
+                              <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="3_9l9F6_DiB" role="2OqNvi">
+                          <ref role="3TsBF5" to="548q:26CgNS3u7du" resolve="NameProperty" />
+                        </node>
+                      </node>
+                      <node concept="tyxLq" id="3_9l9F6_DiC" role="2OqNvi">
+                        <node concept="2OqwBi" id="3_9l9F6_DiD" role="tz02z">
+                          <node concept="2OqwBi" id="3_9l9F6_DiE" role="2Oq$k0">
+                            <node concept="37vLTw" id="3_9l9F6_DiF" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="3_9l9F6_QcN" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.Identifier()" resolve="Identifier" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3_9l9F6_R4B" role="2OqNvi">
+                            <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -9361,8 +9714,8 @@
                 <node concept="37vLTw" id="3R4gs_0kwxg" role="2Oq$k0">
                   <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
                 </node>
-                <node concept="liA8E" id="3R4gs_0kCoz" role="2OqNvi">
-                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.expressionList()" resolve="expressionList" />
+                <node concept="liA8E" id="6CM_PmNIho3" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.LEFTSQUAREBRACKET()" resolve="LEFTSQUAREBRACKET" />
                 </node>
               </node>
             </node>
@@ -11694,8 +12047,8 @@
                     <node concept="37vLTw" id="5b0tRkNcHXQ" role="2Oq$k0">
                       <ref role="3cqZAo" node="55DAcpL2q_a" resolve="ctx" />
                     </node>
-                    <node concept="liA8E" id="5b0tRkNcIKo" role="2OqNvi">
-                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExpressionContext.IN()" resolve="IN" />
+                    <node concept="liA8E" id="4846nzmkYK0" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExpressionContext.ANTISLASHANTISLASHIN()" resolve="ANTISLASHANTISLASHIN" />
                     </node>
                   </node>
                 </node>
