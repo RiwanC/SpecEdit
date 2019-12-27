@@ -19,6 +19,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_CaseArm;
   private ConceptPresentation props_CharacterAt;
   private ConceptPresentation props_ChooseAndExpressions;
+  private ConceptPresentation props_Comment;
   private ConceptPresentation props_ConstantDeclaration;
   private ConceptPresentation props_Definition;
   private ConceptPresentation props_Except;
@@ -177,6 +178,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ChooseAndExpressions = cpb.create();
         }
         return props_ChooseAndExpressions;
+      case LanguageConceptSwitch.Comment:
+        if (props_Comment == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("(*");
+          props_Comment = cpb.create();
+        }
+        return props_Comment;
       case LanguageConceptSwitch.ConstantDeclaration:
         if (props_ConstantDeclaration == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -247,7 +255,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ExpressionBetweenParentheses:
         if (props_ExpressionBetweenParentheses == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("(");
+          cpb.rawPresentation("()");
           props_ExpressionBetweenParentheses = cpb.create();
         }
         return props_ExpressionBetweenParentheses;

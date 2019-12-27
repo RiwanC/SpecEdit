@@ -41,6 +41,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new CharacterAt_TextGen();
       case LanguageConceptSwitch.ChooseAndExpressions:
         return new ChooseAndExpressions_TextGen();
+      case LanguageConceptSwitch.Comment:
+        return new Comment_TextGen();
       case LanguageConceptSwitch.ConstantDeclaration:
         return new ConstantDeclaration_TextGen();
       case LanguageConceptSwitch.Except:

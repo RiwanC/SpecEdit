@@ -14,9 +14,9 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
   <root>
     <file name="TextGenAspectDescriptor.java">
-      <unit at="216,0,219,0" name="TLA.textGen.TextGenAspectDescriptor$CONCEPTS" />
-      <unit at="220,0,223,0" name="TLA.textGen.TextGenAspectDescriptor$PROPS" />
-      <unit at="18,0,224,0" name="TLA.textGen.TextGenAspectDescriptor" />
+      <unit at="218,0,221,0" name="TLA.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="222,0,225,0" name="TLA.textGen.TextGenAspectDescriptor$PROPS" />
+      <unit at="18,0,226,0" name="TLA.textGen.TextGenAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/336495154189205434">
@@ -50,8 +50,8 @@
       <unit id="336495154189205434" at="14,0,34,0" name="TLA.textGen.ModuleNameList_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="336495154189205434" at="112,48,113,44" concept="8" />
-      <scope id="336495154189205434" at="112,48,113,44" />
+      <node id="336495154189205434" at="114,48,115,44" concept="8" />
+      <scope id="336495154189205434" at="114,48,115,44" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/336495154189206925">
@@ -70,8 +70,41 @@
       <unit id="336495154189206925" at="12,0,23,0" name="TLA.textGen.ExtendedModuleName_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="336495154189206925" at="62,52,63,48" concept="8" />
-      <scope id="336495154189206925" at="62,52,63,48" />
+      <node id="336495154189206925" at="64,52,65,48" concept="8" />
+      <scope id="336495154189206925" at="64,52,65,48" />
+    </file>
+  </root>
+  <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/4756955113194237139">
+    <file name="Comment_TextGen.java">
+      <node id="4756955113194237139" at="18,54,19,55" concept="7" />
+      <node id="4756955113194237139" at="19,55,20,29" concept="3" />
+      <node id="4756955113194237458" at="20,29,21,21" concept="3" />
+      <node id="4756955113194237514" at="22,91,23,27" concept="3" />
+      <node id="4756955113194237589" at="24,5,25,21" concept="3" />
+      <node id="4756955113194237139" at="26,30,27,182" concept="3" />
+      <node id="4756955113194237139" at="32,0,33,0" concept="9" trace="com$yMd6" />
+      <node id="4756955113194237139" at="36,0,37,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="4756955113194237514" at="21,21,24,5" concept="4" />
+      <node id="4756955113194237139" at="25,21,28,5" concept="5" />
+      <node id="4756955113194237139" at="17,0,30,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4756955113194237514" at="22,91,23,27" />
+      <scope id="4756955113194237139" at="26,30,27,182" />
+      <scope id="4756955113194237514" at="21,21,24,5">
+        <var name="item" id="4756955113194237514" />
+      </scope>
+      <scope id="4756955113194237139" at="18,54,28,5">
+        <var name="tgs" id="4756955113194237139" />
+      </scope>
+      <scope id="4756955113194237139" at="17,0,30,0">
+        <var name="ctx" id="4756955113194237139" />
+      </scope>
+      <unit id="4756955113194237139" at="31,0,34,0" name="TLA.textGen.Comment_TextGen$LINKS" />
+      <unit id="4756955113194237139" at="35,0,38,0" name="TLA.textGen.Comment_TextGen$CONCEPTS" />
+      <unit id="4756955113194237139" at="16,0,39,0" name="TLA.textGen.Comment_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4756955113194237139" at="44,41,45,37" concept="8" />
+      <scope id="4756955113194237139" at="44,41,45,37" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/673825205591482408">
@@ -115,26 +148,26 @@
       <unit id="673825205591482408" at="19,0,56,0" name="TLA.textGen.Module_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="673825205591482408" at="108,40,109,36" concept="8" />
-      <node id="673825205591482408" at="201,57,202,48" concept="7" />
-      <node id="673825205591482408" at="202,48,203,51" concept="7" />
-      <node id="673825205591482408" at="203,51,204,84" concept="3" />
-      <node id="673825205591482408" at="204,84,205,17" concept="2" />
-      <node id="1301780793258259889" at="209,56,210,81" concept="8" />
-      <node id="336495154188864034" at="212,61,213,17" concept="8" />
-      <node id="673825205591482408" at="209,0,212,0" concept="10" trace="getFileName_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="673825205591482408" at="212,0,215,0" concept="10" trace="getFileExtension_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="673825205591482408" at="200,58,206,7" concept="5" />
-      <scope id="673825205591482408" at="108,40,109,36" />
-      <scope id="673825205591482408" at="209,56,210,81" />
-      <scope id="673825205591482408" at="212,61,213,17" />
-      <scope id="673825205591482408" at="209,0,212,0">
+      <node id="673825205591482408" at="110,40,111,36" concept="8" />
+      <node id="673825205591482408" at="203,57,204,48" concept="7" />
+      <node id="673825205591482408" at="204,48,205,51" concept="7" />
+      <node id="673825205591482408" at="205,51,206,84" concept="3" />
+      <node id="673825205591482408" at="206,84,207,17" concept="2" />
+      <node id="1301780793258259889" at="211,56,212,81" concept="8" />
+      <node id="336495154188864034" at="214,61,215,17" concept="8" />
+      <node id="673825205591482408" at="211,0,214,0" concept="10" trace="getFileName_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="673825205591482408" at="214,0,217,0" concept="10" trace="getFileExtension_Module#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="673825205591482408" at="202,58,208,7" concept="5" />
+      <scope id="673825205591482408" at="110,40,111,36" />
+      <scope id="673825205591482408" at="211,56,212,81" />
+      <scope id="673825205591482408" at="214,61,215,17" />
+      <scope id="673825205591482408" at="211,0,214,0">
         <var name="node" id="673825205591482408" />
       </scope>
-      <scope id="673825205591482408" at="212,0,215,0">
+      <scope id="673825205591482408" at="214,0,217,0">
         <var name="node" id="673825205591482408" />
       </scope>
-      <scope id="673825205591482408" at="201,57,205,17">
+      <scope id="673825205591482408" at="203,57,207,17">
         <var name="ext" id="673825205591482408" />
         <var name="fname" id="673825205591482408" />
       </scope>
@@ -159,8 +192,8 @@
       <unit id="8385117376506447521" at="12,0,26,0" name="TLA.textGen.Substitution_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506447521" at="178,46,179,42" concept="8" />
-      <scope id="8385117376506447521" at="178,46,179,42" />
+      <node id="8385117376506447521" at="180,46,181,42" concept="8" />
+      <scope id="8385117376506447521" at="180,46,181,42" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506492100">
@@ -179,8 +212,8 @@
       <unit id="8385117376506492100" at="12,0,23,0" name="TLA.textGen.IdentifierNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506492100" at="86,48,87,44" concept="8" />
-      <scope id="8385117376506492100" at="86,48,87,44" />
+      <node id="8385117376506492100" at="88,48,89,44" concept="8" />
+      <scope id="8385117376506492100" at="88,48,89,44" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506494036">
@@ -214,8 +247,8 @@
       <unit id="8385117376506494036" at="14,0,34,0" name="TLA.textGen.IdentifierList_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506494036" at="84,48,85,44" concept="8" />
-      <scope id="8385117376506494036" at="84,48,85,44" />
+      <node id="8385117376506494036" at="86,48,87,44" concept="8" />
+      <scope id="8385117376506494036" at="86,48,87,44" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506495349">
@@ -250,8 +283,8 @@
       <unit id="8385117376506495349" at="12,0,40,0" name="TLA.textGen.PrefixOpNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506495349" at="138,46,139,42" concept="8" />
-      <scope id="8385117376506495349" at="138,46,139,42" />
+      <node id="8385117376506495349" at="140,46,141,42" concept="8" />
+      <scope id="8385117376506495349" at="140,46,141,42" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506498139">
@@ -272,8 +305,8 @@
       <unit id="8385117376506498139" at="12,0,25,0" name="TLA.textGen.InfixOpNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506498139" at="92,45,93,41" concept="8" />
-      <scope id="8385117376506498139" at="92,45,93,41" />
+      <node id="8385117376506498139" at="94,45,95,41" concept="8" />
+      <scope id="8385117376506498139" at="94,45,95,41" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506500834">
@@ -294,8 +327,8 @@
       <unit id="8385117376506500834" at="12,0,25,0" name="TLA.textGen.PostfixOpNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506500834" at="132,47,133,43" concept="8" />
-      <scope id="8385117376506500834" at="132,47,133,43" />
+      <node id="8385117376506500834" at="134,47,135,43" concept="8" />
+      <scope id="8385117376506500834" at="134,47,135,43" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506504310">
@@ -320,8 +353,8 @@
       <unit id="8385117376506504310" at="14,0,33,0" name="TLA.textGen.IdentifierNodeForChoose_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506504310" at="88,57,89,53" concept="8" />
-      <scope id="8385117376506504310" at="88,57,89,53" />
+      <node id="8385117376506504310" at="90,57,91,53" concept="8" />
+      <scope id="8385117376506504310" at="90,57,91,53" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506510742">
@@ -342,8 +375,8 @@
       <unit id="8385117376506510742" at="12,0,25,0" name="TLA.textGen.StringNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506510742" at="176,44,177,40" concept="8" />
-      <scope id="8385117376506510742" at="176,44,177,40" />
+      <node id="8385117376506510742" at="178,44,179,40" concept="8" />
+      <scope id="8385117376506510742" at="178,44,179,40" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506512413">
@@ -362,8 +395,8 @@
       <unit id="8385117376506512413" at="12,0,23,0" name="TLA.textGen.NumberNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506512413" at="120,44,121,40" concept="8" />
-      <scope id="8385117376506512413" at="120,44,121,40" />
+      <node id="8385117376506512413" at="122,44,123,40" concept="8" />
+      <scope id="8385117376506512413" at="122,44,123,40" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506513779">
@@ -386,8 +419,8 @@
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506513858">
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506513858" at="182,39,183,35" concept="8" />
-      <scope id="8385117376506513858" at="182,39,183,35" />
+      <node id="8385117376506513858" at="184,39,185,35" concept="8" />
+      <scope id="8385117376506513858" at="184,39,185,35" />
     </file>
     <file name="Tuple_TextGen.java">
       <node id="8385117376506513858" at="14,54,15,55" concept="7" />
@@ -408,8 +441,8 @@
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506516324">
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506516324" at="184,48,185,44" concept="8" />
-      <scope id="8385117376506516324" at="184,48,185,44" />
+      <node id="8385117376506516324" at="186,48,187,44" concept="8" />
+      <scope id="8385117376506516324" at="186,48,187,44" />
     </file>
     <file name="TupleForChoose_TextGen.java">
       <node id="8385117376506516324" at="14,54,15,55" concept="7" />
@@ -509,8 +542,8 @@
       <unit id="8385117376506527842" at="15,0,37,0" name="TLA.textGen.LocalModuleDefinition_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506527842" at="104,55,105,51" concept="8" />
-      <scope id="8385117376506527842" at="104,55,105,51" />
+      <node id="8385117376506527842" at="106,55,107,51" concept="8" />
+      <scope id="8385117376506527842" at="106,55,107,51" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506534217">
@@ -538,8 +571,8 @@
       <unit id="8385117376506534217" at="15,0,37,0" name="TLA.textGen.LocalInstance_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506534217" at="102,47,103,43" concept="8" />
-      <scope id="8385117376506534217" at="102,47,103,43" />
+      <node id="8385117376506534217" at="104,47,105,43" concept="8" />
+      <scope id="8385117376506534217" at="104,47,105,43" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506553778">
@@ -567,8 +600,8 @@
       <unit id="8385117376506553778" at="15,0,37,0" name="TLA.textGen.LocalFunctionDefinition_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506553778" at="100,57,101,53" concept="8" />
-      <scope id="8385117376506553778" at="100,57,101,53" />
+      <node id="8385117376506553778" at="102,57,103,53" concept="8" />
+      <scope id="8385117376506553778" at="102,57,103,53" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506555934">
@@ -596,8 +629,8 @@
       <unit id="8385117376506555934" at="15,0,37,0" name="TLA.textGen.LocalOperatorDefinition_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506555934" at="106,57,107,53" concept="8" />
-      <scope id="8385117376506555934" at="106,57,107,53" />
+      <node id="8385117376506555934" at="108,57,109,53" concept="8" />
+      <scope id="8385117376506555934" at="108,57,109,53" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506560184">
@@ -628,8 +661,8 @@
       <unit id="8385117376506560184" at="15,0,40,0" name="TLA.textGen.ModuleDefinition_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506560184" at="110,50,111,46" concept="8" />
-      <scope id="8385117376506560184" at="110,50,111,46" />
+      <node id="8385117376506560184" at="112,50,113,46" concept="8" />
+      <scope id="8385117376506560184" at="112,50,113,46" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506564893">
@@ -681,8 +714,8 @@
       <unit id="8385117376506564893" at="21,0,63,0" name="TLA.textGen.Instance_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506564893" at="94,42,95,38" concept="8" />
-      <scope id="8385117376506564893" at="94,42,95,38" />
+      <node id="8385117376506564893" at="96,42,97,38" concept="8" />
+      <scope id="8385117376506564893" at="96,42,97,38" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506580223">
@@ -716,8 +749,8 @@
       <unit id="8385117376506580223" at="16,0,44,0" name="TLA.textGen.OperatorDefinition_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506580223" at="126,52,127,48" concept="8" />
-      <scope id="8385117376506580223" at="126,52,127,48" />
+      <node id="8385117376506580223" at="128,52,129,48" concept="8" />
+      <scope id="8385117376506580223" at="128,52,129,48" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506583086">
@@ -758,14 +791,14 @@
       <unit id="8385117376506583086" at="19,0,53,0" name="TLA.textGen.FunctionDefinition_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506583086" at="66,52,67,48" concept="8" />
-      <scope id="8385117376506583086" at="66,52,67,48" />
+      <node id="8385117376506583086" at="68,52,69,48" concept="8" />
+      <scope id="8385117376506583086" at="68,52,69,48" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506591947">
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506591947" at="188,53,189,49" concept="8" />
-      <scope id="8385117376506591947" at="188,53,189,49" />
+      <node id="8385117376506591947" at="190,53,191,49" concept="8" />
+      <scope id="8385117376506591947" at="190,53,191,49" />
     </file>
     <file name="VariableDeclaration_TextGen.java">
       <node id="8385117376506591947" at="17,54,18,55" concept="7" />
@@ -816,14 +849,14 @@
       <unit id="8385117376506594038" at="15,0,37,0" name="TLA.textGen.ConstantDeclaration_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506594038" at="44,53,45,49" concept="8" />
-      <scope id="8385117376506594038" at="44,53,45,49" />
+      <node id="8385117376506594038" at="46,53,47,49" concept="8" />
+      <scope id="8385117376506594038" at="46,53,47,49" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8385117376506597423">
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506597423" at="180,41,181,37" concept="8" />
-      <scope id="8385117376506597423" at="180,41,181,37" />
+      <node id="8385117376506597423" at="182,41,183,37" concept="8" />
+      <scope id="8385117376506597423" at="182,41,183,37" />
     </file>
     <file name="Theorem_TextGen.java">
       <node id="8385117376506597423" at="17,54,18,55" concept="7" />
@@ -871,8 +904,8 @@
       <unit id="8385117376506599527" at="13,0,30,0" name="TLA.textGen.Separator_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8385117376506599527" at="160,43,161,39" concept="8" />
-      <scope id="8385117376506599527" at="160,43,161,39" />
+      <node id="8385117376506599527" at="162,43,163,39" concept="8" />
+      <scope id="8385117376506599527" at="162,43,163,39" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736503373">
@@ -896,8 +929,8 @@
       <unit id="8968830352736503373" at="14,0,32,0" name="TLA.textGen.GeneralIdentifier_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736503373" at="68,51,69,47" concept="8" />
-      <scope id="8968830352736503373" at="68,51,69,47" />
+      <node id="8968830352736503373" at="70,51,71,47" concept="8" />
+      <scope id="8968830352736503373" at="70,51,71,47" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736511031">
@@ -935,8 +968,8 @@
       <unit id="8968830352736511031" at="14,0,38,0" name="TLA.textGen.GeneralIdentifierAndArg_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736511031" at="70,57,71,53" concept="8" />
-      <scope id="8968830352736511031" at="70,57,71,53" />
+      <node id="8968830352736511031" at="72,57,73,53" concept="8" />
+      <scope id="8968830352736511031" at="72,57,73,53" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736513007">
@@ -957,8 +990,8 @@
       <unit id="8968830352736513007" at="12,0,25,0" name="TLA.textGen.GeneralPrefixOpAndExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736513007" at="78,62,79,58" concept="8" />
-      <scope id="8968830352736513007" at="78,62,79,58" />
+      <node id="8968830352736513007" at="80,62,81,58" concept="8" />
+      <scope id="8968830352736513007" at="80,62,81,58" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736516284">
@@ -981,8 +1014,8 @@
       <unit id="8968830352736516284" at="12,0,27,0" name="TLA.textGen.ExprAndGeneralInfixOpAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736516284" at="50,62,51,58" concept="8" />
-      <scope id="8968830352736516284" at="50,62,51,58" />
+      <node id="8968830352736516284" at="52,62,53,58" concept="8" />
+      <scope id="8968830352736516284" at="52,62,53,58" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736519595">
@@ -1003,8 +1036,8 @@
       <unit id="8968830352736519595" at="12,0,25,0" name="TLA.textGen.ExprAndGeneralPostfixOp_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736519595" at="52,57,53,53" concept="8" />
-      <scope id="8968830352736519595" at="52,57,53,53" />
+      <node id="8968830352736519595" at="54,57,55,53" concept="8" />
+      <scope id="8968830352736519595" at="54,57,55,53" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736522791">
@@ -1025,8 +1058,8 @@
       <unit id="8968830352736522791" at="12,0,25,0" name="TLA.textGen.ExpressionBetweenParentheses_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736522791" at="58,62,59,58" concept="8" />
-      <scope id="8968830352736522791" at="58,62,59,58" />
+      <node id="8968830352736522791" at="60,62,61,58" concept="8" />
+      <scope id="8968830352736522791" at="60,62,61,58" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736524599">
@@ -1068,8 +1101,8 @@
       <unit id="8968830352736524599" at="16,0,46,0" name="TLA.textGen.QuantifierBoundAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736524599" at="146,56,147,52" concept="8" />
-      <scope id="8968830352736524599" at="146,56,147,52" />
+      <node id="8968830352736524599" at="148,56,149,52" concept="8" />
+      <scope id="8968830352736524599" at="148,56,149,52" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736529888">
@@ -1096,8 +1129,8 @@
       <unit id="8968830352736529888" at="14,0,35,0" name="TLA.textGen.QuantifierAndIDListAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736529888" at="142,60,143,56" concept="8" />
-      <scope id="8968830352736529888" at="142,60,143,56" />
+      <node id="8968830352736529888" at="144,60,145,56" concept="8" />
+      <scope id="8968830352736529888" at="144,60,145,56" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736535451">
@@ -1157,8 +1190,8 @@
       <unit id="8968830352736537832" at="14,0,36,0" name="TLA.textGen.SetExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736537832" at="162,41,163,37" concept="8" />
-      <scope id="8968830352736537832" at="162,41,163,37" />
+      <node id="8968830352736537832" at="164,41,165,37" concept="8" />
+      <scope id="8968830352736537832" at="164,41,165,37" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736540250">
@@ -1185,8 +1218,8 @@
       <unit id="8968830352736540250" at="12,0,31,0" name="TLA.textGen.SetIDorTupleAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736540250" at="166,53,167,49" concept="8" />
-      <scope id="8968830352736540250" at="166,53,167,49" />
+      <node id="8968830352736540250" at="168,53,169,49" concept="8" />
+      <scope id="8968830352736540250" at="168,53,169,49" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736545855">
@@ -1225,8 +1258,8 @@
       <unit id="8968830352736545855" at="14,0,39,0" name="TLA.textGen.SetExprAndQuantifierBound_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736545855" at="164,59,165,55" concept="8" />
-      <scope id="8968830352736545855" at="164,59,165,55" />
+      <node id="8968830352736545855" at="166,59,167,55" concept="8" />
+      <scope id="8968830352736545855" at="166,59,167,55" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736549304">
@@ -1264,8 +1297,8 @@
       <unit id="8968830352736549304" at="14,0,38,0" name="TLA.textGen.FunctionAndRange_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736549304" at="64,50,65,46" concept="8" />
-      <scope id="8968830352736549304" at="64,50,65,46" />
+      <node id="8968830352736549304" at="66,50,67,46" concept="8" />
+      <scope id="8968830352736549304" at="66,50,67,46" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736551629">
@@ -1304,8 +1337,8 @@
       <unit id="8968830352736551629" at="14,0,39,0" name="TLA.textGen.RangeQuantifierBoundAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736551629" at="158,61,159,57" concept="8" />
-      <scope id="8968830352736551629" at="158,61,159,57" />
+      <node id="8968830352736551629" at="160,61,161,57" concept="8" />
+      <scope id="8968830352736551629" at="160,61,161,57" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736554480">
@@ -1329,8 +1362,8 @@
       <unit id="8968830352736554480" at="12,0,28,0" name="TLA.textGen.RangeExprImpliesExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736554480" at="150,54,151,50" concept="8" />
-      <scope id="8968830352736554480" at="150,54,151,50" />
+      <node id="8968830352736554480" at="152,54,153,50" concept="8" />
+      <scope id="8968830352736554480" at="152,54,153,50" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736556905">
@@ -1353,8 +1386,8 @@
       <unit id="8968830352736556905" at="14,0,31,0" name="TLA.textGen.NameArrowExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736556905" at="114,47,115,43" concept="8" />
-      <scope id="8968830352736556905" at="114,47,115,43" />
+      <node id="8968830352736556905" at="116,47,117,43" concept="8" />
+      <scope id="8968830352736556905" at="116,47,117,43" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736559529">
@@ -1390,8 +1423,8 @@
       <unit id="8968830352736559529" at="14,0,36,0" name="TLA.textGen.RangeNameArrowExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736559529" at="154,52,155,48" concept="8" />
-      <scope id="8968830352736559529" at="154,52,155,48" />
+      <node id="8968830352736559529" at="156,52,157,48" concept="8" />
+      <scope id="8968830352736559529" at="156,52,157,48" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736561247">
@@ -1427,8 +1460,8 @@
       <unit id="8968830352736561247" at="14,0,36,0" name="TLA.textGen.RangeNameExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736561247" at="156,47,157,43" concept="8" />
-      <scope id="8968830352736561247" at="156,47,157,43" />
+      <node id="8968830352736561247" at="158,47,159,43" concept="8" />
+      <scope id="8968830352736561247" at="158,47,159,43" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736567465">
@@ -1451,8 +1484,8 @@
       <unit id="8968830352736567465" at="14,0,31,0" name="TLA.textGen.NameColonExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736567465" at="116,47,117,43" concept="8" />
-      <scope id="8968830352736567465" at="116,47,117,43" />
+      <node id="8968830352736567465" at="118,47,119,43" concept="8" />
+      <scope id="8968830352736567465" at="118,47,119,43" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736569650">
@@ -1472,8 +1505,8 @@
       <unit id="8968830352736569650" at="12,0,24,0" name="TLA.textGen.PointAndName_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736569650" at="130,46,131,42" concept="8" />
-      <scope id="8968830352736569650" at="130,46,131,42" />
+      <node id="8968830352736569650" at="132,46,133,42" concept="8" />
+      <scope id="8968830352736569650" at="132,46,133,42" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736571497">
@@ -1509,8 +1542,8 @@
       <unit id="8968830352736571497" at="14,0,36,0" name="TLA.textGen.RangeExprList_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736571497" at="152,47,153,43" concept="8" />
-      <scope id="8968830352736571497" at="152,47,153,43" />
+      <node id="8968830352736571497" at="154,47,155,43" concept="8" />
+      <scope id="8968830352736571497" at="154,47,155,43" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736572956">
@@ -1548,8 +1581,8 @@
       <unit id="8968830352736572956" at="14,0,38,0" name="TLA.textGen.ExceptList_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736572956" at="48,44,49,40" concept="8" />
-      <scope id="8968830352736572956" at="48,44,49,40" />
+      <node id="8968830352736572956" at="50,44,51,40" concept="8" />
+      <scope id="8968830352736572956" at="50,44,51,40" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736575491">
@@ -1588,8 +1621,8 @@
       <unit id="8968830352736575491" at="14,0,39,0" name="TLA.textGen.Except_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736575491" at="46,40,47,36" concept="8" />
-      <scope id="8968830352736575491" at="46,40,47,36" />
+      <node id="8968830352736575491" at="48,40,49,36" concept="8" />
+      <scope id="8968830352736575491" at="48,40,49,36" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736578909">
@@ -1625,14 +1658,14 @@
       <unit id="8968830352736578909" at="14,0,36,0" name="TLA.textGen.ExpressionTuple_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736578909" at="60,49,61,45" concept="8" />
-      <scope id="8968830352736578909" at="60,49,61,45" />
+      <node id="8968830352736578909" at="62,49,63,45" concept="8" />
+      <scope id="8968830352736578909" at="62,49,63,45" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736580528">
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736580528" at="192,42,193,38" concept="8" />
-      <scope id="8968830352736580528" at="192,42,193,38" />
+      <node id="8968830352736580528" at="194,42,195,38" concept="8" />
+      <scope id="8968830352736580528" at="194,42,195,38" />
     </file>
     <file name="XandExpr_TextGen.java">
       <node id="8968830352736580528" at="14,54,15,55" concept="7" />
@@ -1673,8 +1706,8 @@
       <unit id="8968830352736581967" at="13,0,28,0" name="TLA.textGen.ExprAndXAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736581967" at="54,49,55,45" concept="8" />
-      <scope id="8968830352736581967" at="54,49,55,45" />
+      <node id="8968830352736581967" at="56,49,57,45" concept="8" />
+      <scope id="8968830352736581967" at="56,49,57,45" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736584633">
@@ -1700,8 +1733,8 @@
       <unit id="8968830352736584633" at="12,0,30,0" name="TLA.textGen.If_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736584633" at="90,36,91,32" concept="8" />
-      <scope id="8968830352736584633" at="90,36,91,32" />
+      <node id="8968830352736584633" at="92,36,93,32" concept="8" />
+      <scope id="8968830352736584633" at="92,36,93,32" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736588654">
@@ -1744,8 +1777,8 @@
       <unit id="8968830352736591641" at="12,0,24,0" name="TLA.textGen.SquareAndCaseArm_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736591641" at="174,50,175,46" concept="8" />
-      <scope id="8968830352736591641" at="174,50,175,46" />
+      <node id="8968830352736591641" at="176,50,177,46" concept="8" />
+      <scope id="8968830352736591641" at="176,50,177,46" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736593117">
@@ -1811,8 +1844,8 @@
       <unit id="8968830352736601129" at="12,0,24,0" name="TLA.textGen.Other_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736601129" at="128,39,129,35" concept="8" />
-      <scope id="8968830352736601129" at="128,39,129,35" />
+      <node id="8968830352736601129" at="130,39,131,35" concept="8" />
+      <scope id="8968830352736601129" at="130,39,131,35" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736603517">
@@ -1850,8 +1883,8 @@
       <unit id="8968830352736603517" at="14,0,38,0" name="TLA.textGen.Let_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736603517" at="98,37,99,33" concept="8" />
-      <scope id="8968830352736603517" at="98,37,99,33" />
+      <node id="8968830352736603517" at="100,37,101,33" concept="8" />
+      <scope id="8968830352736603517" at="100,37,101,33" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736607973">
@@ -1871,8 +1904,8 @@
       <unit id="8968830352736607973" at="12,0,24,0" name="TLA.textGen.SlashAntiSlahExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736607973" at="170,51,171,47" concept="8" />
-      <scope id="8968830352736607973" at="170,51,171,47" />
+      <node id="8968830352736607973" at="172,51,173,47" concept="8" />
+      <scope id="8968830352736607973" at="172,51,173,47" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736609412">
@@ -1906,8 +1939,8 @@
       <unit id="8968830352736609412" at="14,0,34,0" name="TLA.textGen.SlashAntiSlashExprList_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736609412" at="172,56,173,52" concept="8" />
-      <scope id="8968830352736609412" at="172,56,173,52" />
+      <node id="8968830352736609412" at="174,56,175,52" concept="8" />
+      <scope id="8968830352736609412" at="174,56,175,52" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736615243">
@@ -1968,8 +2001,8 @@
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736618704">
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736618704" at="190,40,191,36" concept="8" />
-      <scope id="8968830352736618704" at="190,40,191,36" />
+      <node id="8968830352736618704" at="192,40,193,36" concept="8" />
+      <scope id="8968830352736618704" at="192,40,193,36" />
     </file>
     <file name="WForSF_TextGen.java">
       <node id="8968830352736618704" at="16,54,17,55" concept="7" />
@@ -2013,8 +2046,8 @@
       <unit id="8968830352736623869" at="12,0,27,0" name="TLA.textGen.ExprTupleAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736623869" at="56,50,57,46" concept="8" />
-      <scope id="8968830352736623869" at="56,50,57,46" />
+      <node id="8968830352736623869" at="58,50,59,46" concept="8" />
+      <scope id="8968830352736623869" at="58,50,59,46" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736626250">
@@ -2037,8 +2070,8 @@
       <unit id="8968830352736626250" at="12,0,27,0" name="TLA.textGen.RangeExprAndExpr_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736626250" at="148,50,149,46" concept="8" />
-      <scope id="8968830352736626250" at="148,50,149,46" />
+      <node id="8968830352736626250" at="150,50,151,46" concept="8" />
+      <scope id="8968830352736626250" at="150,50,151,46" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736630315">
@@ -2061,8 +2094,8 @@
       <unit id="8968830352736630315" at="12,0,27,0" name="TLA.textGen.GeneralPrefixOp_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736630315" at="76,49,77,45" concept="8" />
-      <scope id="8968830352736630315" at="76,49,77,45" />
+      <node id="8968830352736630315" at="78,49,79,45" concept="8" />
+      <scope id="8968830352736630315" at="78,49,79,45" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736637127">
@@ -2089,8 +2122,8 @@
       <unit id="8968830352736637127" at="14,0,35,0" name="TLA.textGen.GeneralInfixOp_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736637127" at="72,48,73,44" concept="8" />
-      <scope id="8968830352736637127" at="72,48,73,44" />
+      <node id="8968830352736637127" at="74,48,75,44" concept="8" />
+      <scope id="8968830352736637127" at="74,48,75,44" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736646720">
@@ -2116,8 +2149,8 @@
       <unit id="8968830352736646720" at="14,0,34,0" name="TLA.textGen.GeneralPostfixOp_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736646720" at="74,50,75,46" concept="8" />
-      <scope id="8968830352736646720" at="74,50,75,46" />
+      <node id="8968830352736646720" at="76,50,77,46" concept="8" />
+      <scope id="8968830352736646720" at="76,50,77,46" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736652610">
@@ -2141,8 +2174,8 @@
       <unit id="8968830352736652610" at="13,0,26,0" name="TLA.textGen.InstancePrefix_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736652610" at="96,48,97,44" concept="8" />
-      <scope id="8968830352736652610" at="96,48,97,44" />
+      <node id="8968830352736652610" at="98,48,99,44" concept="8" />
+      <scope id="8968830352736652610" at="98,48,99,44" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736658941">
@@ -2184,8 +2217,8 @@
       <unit id="8968830352736658941" at="17,0,47,0" name="TLA.textGen.SingleInstancePrefix_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736658941" at="168,54,169,50" concept="8" />
-      <scope id="8968830352736658941" at="168,54,169,50" />
+      <node id="8968830352736658941" at="170,54,171,50" concept="8" />
+      <scope id="8968830352736658941" at="170,54,171,50" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736675751">
@@ -2219,8 +2252,8 @@
       <unit id="8968830352736675751" at="14,0,34,0" name="TLA.textGen.OpDeclList_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736675751" at="122,44,123,40" concept="8" />
-      <scope id="8968830352736675751" at="122,44,123,40" />
+      <node id="8968830352736675751" at="124,44,125,40" concept="8" />
+      <scope id="8968830352736675751" at="124,44,125,40" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736676850">
@@ -2239,8 +2272,8 @@
       <unit id="8968830352736676850" at="12,0,23,0" name="TLA.textGen.OpIdentifierNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736676850" at="124,50,125,46" concept="8" />
-      <scope id="8968830352736676850" at="124,50,125,46" />
+      <node id="8968830352736676850" at="126,50,127,46" concept="8" />
+      <scope id="8968830352736676850" at="126,50,127,46" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736678215">
@@ -2261,8 +2294,8 @@
       <unit id="8968830352736678215" at="12,0,25,0" name="TLA.textGen.PrefixOpUnderscoreNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736678215" at="140,56,141,52" concept="8" />
-      <scope id="8968830352736678215" at="140,56,141,52" />
+      <node id="8968830352736678215" at="142,56,143,52" concept="8" />
+      <scope id="8968830352736678215" at="142,56,143,52" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736680739">
@@ -2284,14 +2317,14 @@
       <unit id="8968830352736680739" at="12,0,26,0" name="TLA.textGen.PostfixOpUnderscoreNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736680739" at="134,57,135,53" concept="8" />
-      <scope id="8968830352736680739" at="134,57,135,53" />
+      <node id="8968830352736680739" at="136,57,137,53" concept="8" />
+      <scope id="8968830352736680739" at="136,57,137,53" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736683382">
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736683382" at="186,65,187,61" concept="8" />
-      <scope id="8968830352736683382" at="186,65,187,61" />
+      <node id="8968830352736683382" at="188,65,189,61" concept="8" />
+      <scope id="8968830352736683382" at="188,65,189,61" />
     </file>
     <file name="UnderscoreInfixOpUnderscoreNode_TextGen.java">
       <node id="8968830352736683382" at="14,54,15,55" concept="7" />
@@ -2350,8 +2383,8 @@
       <unit id="8968830352736686197" at="17,0,46,0" name="TLA.textGen.NonFixLHS_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736686197" at="118,43,119,39" concept="8" />
-      <scope id="8968830352736686197" at="118,43,119,39" />
+      <node id="8968830352736686197" at="120,43,121,39" concept="8" />
+      <scope id="8968830352736686197" at="120,43,121,39" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736702554">
@@ -2373,8 +2406,8 @@
       <unit id="8968830352736702554" at="14,0,30,0" name="TLA.textGen.PrefixOpAndID_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736702554" at="136,47,137,43" concept="8" />
-      <scope id="8968830352736702554" at="136,47,137,43" />
+      <node id="8968830352736702554" at="138,47,139,43" concept="8" />
+      <scope id="8968830352736702554" at="138,47,139,43" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736706366">
@@ -2399,8 +2432,8 @@
       <unit id="8968830352736706366" at="12,0,29,0" name="TLA.textGen.IDAndInfixOpAndID_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736706366" at="80,51,81,47" concept="8" />
-      <scope id="8968830352736706366" at="80,51,81,47" />
+      <node id="8968830352736706366" at="82,51,83,47" concept="8" />
+      <scope id="8968830352736706366" at="82,51,83,47" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736710645">
@@ -2423,8 +2456,8 @@
       <unit id="8968830352736710645" at="12,0,27,0" name="TLA.textGen.IDAndPostfixOp_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736710645" at="82,48,83,44" concept="8" />
-      <scope id="8968830352736710645" at="82,48,83,44" />
+      <node id="8968830352736710645" at="84,48,85,44" concept="8" />
+      <scope id="8968830352736710645" at="84,48,85,44" />
     </file>
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/8968830352736714114">
@@ -2446,8 +2479,8 @@
       <unit id="8968830352736714114" at="12,0,26,0" name="TLA.textGen.QuantifierBound_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="8968830352736714114" at="144,49,145,45" concept="8" />
-      <scope id="8968830352736714114" at="144,49,145,45" />
+      <node id="8968830352736714114" at="146,49,147,45" concept="8" />
+      <scope id="8968830352736714114" at="146,49,147,45" />
     </file>
   </root>
 </debug-info>

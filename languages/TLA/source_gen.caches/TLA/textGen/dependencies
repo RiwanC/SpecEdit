@@ -78,6 +78,19 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SContainmentLink" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
+  <dependency className="TLA.textGen.Comment_TextGen">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.traceable.behavior.TraceableConcept__BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SContainmentLink" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SInterfaceConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
   <dependency className="TLA.textGen.ConstantDeclaration_TextGen">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -830,6 +843,7 @@
     <classNode dependClassName="TLA.textGen.Case_TextGen" />
     <classNode dependClassName="TLA.textGen.CharacterAt_TextGen" />
     <classNode dependClassName="TLA.textGen.ChooseAndExpressions_TextGen" />
+    <classNode dependClassName="TLA.textGen.Comment_TextGen" />
     <classNode dependClassName="TLA.textGen.ConstantDeclaration_TextGen" />
     <classNode dependClassName="TLA.textGen.ExceptList_TextGen" />
     <classNode dependClassName="TLA.textGen.Except_TextGen" />

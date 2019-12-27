@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-98g4jrjxqnbubwxhmm3hxn0m10jnek9">
-  <files names="Hanoi.tla:TestModule.tla" />
+<product version="3" modelHash="-34goyhpjv7dlurfeiap1wawrjm8cy93">
+  <files names="Hanoi.tla:T.tla:TestModule.tla" />
 </product>
 
