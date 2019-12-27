@@ -8870,8 +8870,13 @@
                       </node>
                       <node concept="liA8E" id="1kkdmfUx5el" role="2OqNvi">
                         <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.Name(int)" resolve="Name" />
-                        <node concept="37vLTw" id="1kkdmfUxah4" role="37wK5m">
-                          <ref role="3cqZAo" node="1kkdmfUwjDE" resolve="i" />
+                        <node concept="3cpWs3" id="4pSjmJzUrxX" role="37wK5m">
+                          <node concept="3cmrfG" id="4pSjmJzUr$H" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                          <node concept="37vLTw" id="1kkdmfUxah4" role="3uHU7B">
+                            <ref role="3cqZAo" node="1kkdmfUwjDE" resolve="i" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -8897,8 +8902,13 @@
                         </node>
                         <node concept="liA8E" id="1kkdmfUxaAQ" role="2OqNvi">
                           <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameArrowExprListContext.expression(int)" resolve="expression" />
-                          <node concept="3cmrfG" id="1kkdmfUxaAR" role="37wK5m">
-                            <property role="3cmrfH" value="0" />
+                          <node concept="3cpWs3" id="4pSjmJzUshO" role="37wK5m">
+                            <node concept="3cmrfG" id="4pSjmJzUsk$" role="3uHU7w">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                            <node concept="37vLTw" id="4pSjmJzUs0i" role="3uHU7B">
+                              <ref role="3cqZAo" node="1kkdmfUwjDE" resolve="i" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -9137,8 +9147,13 @@
                       </node>
                       <node concept="liA8E" id="1kkdmfU$8I0" role="2OqNvi">
                         <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.Name(int)" resolve="Name" />
-                        <node concept="37vLTw" id="1kkdmfU$8I1" role="37wK5m">
-                          <ref role="3cqZAo" node="1kkdmfU$8Il" resolve="i" />
+                        <node concept="3cpWs3" id="4pSjmJzUsFa" role="37wK5m">
+                          <node concept="3cmrfG" id="4pSjmJzUsHU" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                          <node concept="37vLTw" id="1kkdmfU$8I1" role="3uHU7B">
+                            <ref role="3cqZAo" node="1kkdmfU$8Il" resolve="i" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -9164,8 +9179,13 @@
                         </node>
                         <node concept="liA8E" id="1kkdmfU$8Ib" role="2OqNvi">
                           <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameColonExprListContext.expression(int)" resolve="expression" />
-                          <node concept="3cmrfG" id="1kkdmfU$8Ic" role="37wK5m">
-                            <property role="3cmrfH" value="0" />
+                          <node concept="3cpWs3" id="4pSjmJzUtSO" role="37wK5m">
+                            <node concept="3cmrfG" id="4pSjmJzUtV$" role="3uHU7w">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                            <node concept="37vLTw" id="4pSjmJzUtDg" role="3uHU7B">
+                              <ref role="3cqZAo" node="1kkdmfU$8Il" resolve="i" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -9240,6 +9260,276 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitExceptInterfaceTerminal(parser.TLAPlusGrammarParser$ExceptInterfaceTerminalContext)" role="jymVt">
+      <property role="TrG5h" value="visitExceptInterfaceTerminal" />
+      <node concept="3Tm1VV" id="3R4gs_0aTkv" role="1B3o_S" />
+      <node concept="3uibUv" id="3R4gs_0eGuY" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="3R4gs_0aTkz" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="3R4gs_0aTky" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext" resolve="TLAPlusGrammarParser.ExceptInterfaceTerminalContext" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3R4gs_0dqoJ" role="3clF47">
+        <node concept="3cpWs8" id="3R4gs_0h5rw" role="3cqZAp">
+          <node concept="3cpWsn" id="3R4gs_0h5rz" role="3cpWs9">
+            <property role="TrG5h" value="ei" />
+            <node concept="3Tqbb2" id="3R4gs_0h5ru" role="1tU5fm">
+              <ref role="ehGHo" to="548q:26CgNS3u7eo" resolve="ExceptInterface" />
+            </node>
+            <node concept="2ShNRf" id="3R4gs_0hAbb" role="33vP2m">
+              <node concept="3zrR0B" id="3R4gs_0hA7k" role="2ShVmc">
+                <node concept="3Tqbb2" id="3R4gs_0hA7l" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:26CgNS3u7eo" resolve="ExceptInterface" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3R4gs_0jRno" role="3cqZAp">
+          <node concept="3clFbS" id="3R4gs_0jRnq" role="3clFbx">
+            <node concept="3clFbF" id="3R4gs_0kLrW" role="3cqZAp">
+              <node concept="37vLTI" id="3R4gs_0kMv8" role="3clFbG">
+                <node concept="2ShNRf" id="3R4gs_0kROm" role="37vLTx">
+                  <node concept="3zrR0B" id="3R4gs_0kMxw" role="2ShVmc">
+                    <node concept="3Tqbb2" id="3R4gs_0kMxx" role="3zrR0E">
+                      <ref role="ehGHo" to="548q:26CgNS3u7dt" resolve="PointAndName" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="3R4gs_0kLrU" role="37vLTJ">
+                  <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3R4gs_0kSyH" role="3cqZAp">
+              <node concept="15s5l7" id="3R4gs_0lgCI" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+              </node>
+              <node concept="2OqwBi" id="3R4gs_0l5ez" role="3clFbG">
+                <node concept="2OqwBi" id="3R4gs_0l4lr" role="2Oq$k0">
+                  <node concept="1eOMI4" id="3R4gs_0kSyF" role="2Oq$k0">
+                    <node concept="10QFUN" id="3R4gs_0kSyC" role="1eOMHV">
+                      <node concept="3Tqbb2" id="3R4gs_0l461" role="10QFUM">
+                        <ref role="ehGHo" to="548q:26CgNS3u7dt" resolve="PointAndName" />
+                      </node>
+                      <node concept="37vLTw" id="3R4gs_0l4du" role="10QFUP">
+                        <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3R4gs_0l4_j" role="2OqNvi">
+                    <ref role="3TsBF5" to="548q:26CgNS3u7du" resolve="NameProperty" />
+                  </node>
+                </node>
+                <node concept="tyxLq" id="3R4gs_0l5Lp" role="2OqNvi">
+                  <node concept="2OqwBi" id="3R4gs_0lbZo" role="tz02z">
+                    <node concept="2OqwBi" id="3R4gs_0l7Ek" role="2Oq$k0">
+                      <node concept="37vLTw" id="3R4gs_0l5R2" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="3R4gs_0lbJq" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.Name()" resolve="Name" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3R4gs_0lfSV" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="3R4gs_0ksF8" role="3clFbw">
+            <node concept="10Nm6u" id="3R4gs_0ksI3" role="3uHU7w" />
+            <node concept="2OqwBi" id="3R4gs_0knsE" role="3uHU7B">
+              <node concept="37vLTw" id="3R4gs_0kmmS" role="2Oq$k0">
+                <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="3R4gs_0ksrq" role="2OqNvi">
+                <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.POINT()" resolve="POINT" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="3R4gs_0kwsy" role="3eNLev">
+            <node concept="3y3z36" id="3R4gs_0kCM6" role="3eO9$A">
+              <node concept="10Nm6u" id="3R4gs_0kCP1" role="3uHU7w" />
+              <node concept="2OqwBi" id="3R4gs_0k$kT" role="3uHU7B">
+                <node concept="37vLTw" id="3R4gs_0kwxg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
+                </node>
+                <node concept="liA8E" id="3R4gs_0kCoz" role="2OqNvi">
+                  <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.expressionList()" resolve="expressionList" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="3R4gs_0kws$" role="3eOfB_">
+              <node concept="3clFbF" id="3R4gs_0kRZs" role="3cqZAp">
+                <node concept="37vLTI" id="3R4gs_0kSam" role="3clFbG">
+                  <node concept="2ShNRf" id="3R4gs_0kSgc" role="37vLTx">
+                    <node concept="3zrR0B" id="3R4gs_0kSbB" role="2ShVmc">
+                      <node concept="3Tqbb2" id="3R4gs_0kSbC" role="3zrR0E">
+                        <ref role="ehGHo" to="548q:26CgNS3u7dN" resolve="RangeExprList" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="3R4gs_0kRZr" role="37vLTJ">
+                    <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="3R4gs_0lgV6" role="3cqZAp">
+                <node concept="2OqwBi" id="3R4gs_0ljcO" role="3clFbG">
+                  <node concept="2OqwBi" id="3R4gs_0lhjJ" role="2Oq$k0">
+                    <node concept="1eOMI4" id="3R4gs_0lgV4" role="2Oq$k0">
+                      <node concept="10QFUN" id="3R4gs_0lgV1" role="1eOMHV">
+                        <node concept="3Tqbb2" id="3R4gs_0lh5s" role="10QFUM">
+                          <ref role="ehGHo" to="548q:26CgNS3u7dN" resolve="RangeExprList" />
+                        </node>
+                        <node concept="37vLTw" id="3R4gs_0lhbM" role="10QFUP">
+                          <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="3R4gs_0lhzB" role="2OqNvi">
+                      <ref role="3TtcxE" to="548q:26CgNS3u7dO" resolve="ExprList" />
+                    </node>
+                  </node>
+                  <node concept="X8dFx" id="3R4gs_0lr2Z" role="2OqNvi">
+                    <node concept="1eOMI4" id="3R4gs_0lz6F" role="25WWJ7">
+                      <node concept="10QFUN" id="3R4gs_0lz6C" role="1eOMHV">
+                        <node concept="2I9FWS" id="3R4gs_0lzog" role="10QFUM">
+                          <ref role="2I9WkF" to="548q:6tbn_b6SrPv" resolve="Expression" />
+                        </node>
+                        <node concept="1rXfSq" id="3R4gs_0lB52" role="10QFUP">
+                          <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" resolve="visitExpressionList" />
+                          <node concept="2OqwBi" id="3R4gs_0lKNB" role="37wK5m">
+                            <node concept="37vLTw" id="3R4gs_0lHLP" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3R4gs_0aTkz" resolve="ctx" />
+                            </node>
+                            <node concept="liA8E" id="3R4gs_0lPsx" role="2OqNvi">
+                              <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceTerminalContext.expressionList()" resolve="expressionList" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3R4gs_0dNoA" role="3cqZAp">
+          <node concept="37vLTw" id="3R4gs_0hAfb" role="3cqZAk">
+            <ref role="3cqZAo" node="3R4gs_0h5rz" resolve="ei" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3R4gs_0em0s" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitExceptInterface(parser.TLAPlusGrammarParser$ExceptInterfaceContext)" role="jymVt">
+      <property role="TrG5h" value="visitExceptInterface" />
+      <node concept="3Tm1VV" id="3RNfj0szCEK" role="1B3o_S" />
+      <node concept="3uibUv" id="3RNfj0sB4Kl" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="3RNfj0szCEO" role="3clF46">
+        <property role="TrG5h" value="ctx" />
+        <node concept="3uibUv" id="3RNfj0szCEN" role="1tU5fm">
+          <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceContext" resolve="TLAPlusGrammarParser.ExceptInterfaceContext" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3RNfj0sBwKB" role="3clF47">
+        <node concept="3cpWs8" id="4pSjmJzVxNr" role="3cqZAp">
+          <node concept="3cpWsn" id="4pSjmJzVxNu" role="3cpWs9">
+            <property role="TrG5h" value="eiList" />
+            <node concept="2I9FWS" id="4pSjmJzVxNp" role="1tU5fm">
+              <ref role="2I9WkF" to="548q:26CgNS3u7eo" resolve="ExceptInterface" />
+            </node>
+            <node concept="2ShNRf" id="4pSjmJzW0go" role="33vP2m">
+              <node concept="2T8Vx0" id="4pSjmJzW0dD" role="2ShVmc">
+                <node concept="2I9FWS" id="4pSjmJzW0dE" role="2T96Bj">
+                  <ref role="2I9WkF" to="548q:26CgNS3u7eo" resolve="ExceptInterface" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="3R4gs_0fG6$" role="3cqZAp">
+          <node concept="3clFbS" id="3R4gs_0fG6A" role="2LFqv$">
+            <node concept="3clFbF" id="3R4gs_0gqzb" role="3cqZAp">
+              <node concept="2OqwBi" id="3R4gs_0grGo" role="3clFbG">
+                <node concept="37vLTw" id="3R4gs_0gqz9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4pSjmJzVxNu" resolve="eiList" />
+                </node>
+                <node concept="TSZUe" id="3R4gs_0gv$Y" role="2OqNvi">
+                  <node concept="1eOMI4" id="3R4gs_0gw2J" role="25WWJ7">
+                    <node concept="10QFUN" id="3R4gs_0gw2G" role="1eOMHV">
+                      <node concept="3Tqbb2" id="3R4gs_0gwxy" role="10QFUM">
+                        <ref role="ehGHo" to="548q:26CgNS3u7eo" resolve="ExceptInterface" />
+                      </node>
+                      <node concept="1rXfSq" id="3R4gs_0gxk$" role="10QFUP">
+                        <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitExceptInterfaceTerminal(parser.TLAPlusGrammarParser$ExceptInterfaceTerminalContext)" resolve="visitExceptInterfaceTerminal" />
+                        <node concept="2OqwBi" id="3R4gs_0gAEd" role="37wK5m">
+                          <node concept="37vLTw" id="3R4gs_0g_8r" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3RNfj0szCEO" resolve="ctx" />
+                          </node>
+                          <node concept="liA8E" id="3R4gs_0gF5_" role="2OqNvi">
+                            <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptInterfaceContext.exceptInterfaceTerminal(int)" resolve="exceptInterfaceTerminal" />
+                            <node concept="37vLTw" id="3R4gs_0gFDA" role="37wK5m">
+                              <ref role="3cqZAo" node="3R4gs_0fG6B" resolve="i" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="3R4gs_0fG6B" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="3R4gs_0gfqp" role="1tU5fm" />
+            <node concept="3cmrfG" id="3R4gs_0gfHI" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="3R4gs_0ghdo" role="1Dwp0S">
+            <node concept="2OqwBi" id="3R4gs_0gjmL" role="3uHU7w">
+              <node concept="37vLTw" id="3R4gs_0ghvL" role="2Oq$k0">
+                <ref role="3cqZAo" node="3RNfj0szCEO" resolve="ctx" />
+              </node>
+              <node concept="liA8E" id="3R4gs_0goms" role="2OqNvi">
+                <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3R4gs_0gfZZ" role="3uHU7B">
+              <ref role="3cqZAo" node="3R4gs_0fG6B" resolve="i" />
+            </node>
+          </node>
+          <node concept="3uNrnE" id="3R4gs_0gqbQ" role="1Dwrff">
+            <node concept="37vLTw" id="3R4gs_0gqbS" role="2$L3a6">
+              <ref role="3cqZAo" node="3R4gs_0fG6B" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3RNfj0sBORV" role="3cqZAp">
+          <node concept="37vLTw" id="4pSjmJzW0n3" role="3cqZAk">
+            <ref role="3cqZAo" node="4pSjmJzVxNu" resolve="eiList" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3RNfj0sCG2m" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" role="jymVt">
       <property role="TrG5h" value="visitExceptList" />
       <node concept="3Tm1VV" id="55DAcpL2q_0" role="1B3o_S" />
@@ -9268,6 +9558,238 @@
                   <ref role="2I9WkF" to="548q:26CgNS3u7ev" resolve="ExceptList" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3RNfj0sDySB" role="3cqZAp">
+          <node concept="3cpWsn" id="3RNfj0sDySE" role="3cpWs9">
+            <property role="TrG5h" value="el" />
+            <node concept="3Tqbb2" id="3RNfj0sDyS_" role="1tU5fm">
+              <ref role="ehGHo" to="548q:26CgNS3u7ev" resolve="ExceptList" />
+            </node>
+            <node concept="2ShNRf" id="3RNfj0sDVSL" role="33vP2m">
+              <node concept="3zrR0B" id="3RNfj0sDVQ2" role="2ShVmc">
+                <node concept="3Tqbb2" id="3RNfj0sDVQ3" role="3zrR0E">
+                  <ref role="ehGHo" to="548q:26CgNS3u7ev" resolve="ExceptList" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3RNfj0sEla8" role="3cqZAp">
+          <node concept="37vLTI" id="3RNfj0sEKbc" role="3clFbG">
+            <node concept="1eOMI4" id="3RNfj0sEK$j" role="37vLTx">
+              <node concept="10QFUN" id="3RNfj0sEK$g" role="1eOMHV">
+                <node concept="3Tqbb2" id="3RNfj0sEK$l" role="10QFUM">
+                  <ref role="ehGHo" to="548q:6tbn_b6SrPv" resolve="Expression" />
+                </node>
+                <node concept="1rXfSq" id="3RNfj0sEKWc" role="10QFUP">
+                  <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" resolve="visitExpression" />
+                  <node concept="2OqwBi" id="3RNfj0sERkY" role="37wK5m">
+                    <node concept="37vLTw" id="3RNfj0sEOVy" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_4" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="3RNfj0sEVwl" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptListContext.expression(int)" resolve="expression" />
+                      <node concept="3cmrfG" id="3RNfj0sEVTl" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3RNfj0sECly" role="37vLTJ">
+              <node concept="37vLTw" id="3RNfj0sEla6" role="2Oq$k0">
+                <ref role="3cqZAo" node="3RNfj0sDySE" resolve="el" />
+              </node>
+              <node concept="3TrEf2" id="3RNfj0sEJFj" role="2OqNvi">
+                <ref role="3Tt5mk" to="548q:26CgNS3u7ey" resolve="Expr" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3RNfj0sFknM" role="3cqZAp">
+          <node concept="2OqwBi" id="3RNfj0sFZY_" role="3clFbG">
+            <node concept="2OqwBi" id="3RNfj0sFElB" role="2Oq$k0">
+              <node concept="37vLTw" id="3RNfj0sFknK" role="2Oq$k0">
+                <ref role="3cqZAo" node="3RNfj0sDySE" resolve="el" />
+              </node>
+              <node concept="3Tsc0h" id="3RNfj0sFKFg" role="2OqNvi">
+                <ref role="3TtcxE" to="548q:26CgNS3u7ew" resolve="OneOrMore" />
+              </node>
+            </node>
+            <node concept="X8dFx" id="4pSjmJzU3$i" role="2OqNvi">
+              <node concept="10QFUN" id="4pSjmJzU3$k" role="25WWJ7">
+                <node concept="2I9FWS" id="4pSjmJzU3$l" role="10QFUM">
+                  <ref role="2I9WkF" to="548q:26CgNS3u7eo" resolve="ExceptInterface" />
+                </node>
+                <node concept="1rXfSq" id="4pSjmJzU3$m" role="10QFUP">
+                  <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitExceptInterface(parser.TLAPlusGrammarParser$ExceptInterfaceContext)" resolve="visitExceptInterface" />
+                  <node concept="2OqwBi" id="4pSjmJzU3$n" role="37wK5m">
+                    <node concept="37vLTw" id="4pSjmJzU3$o" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_4" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="4pSjmJzU3$p" role="2OqNvi">
+                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptListContext.exceptInterface(int)" resolve="exceptInterface" />
+                      <node concept="3cmrfG" id="4pSjmJzU3$q" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3RNfj0sH7QS" role="3cqZAp">
+          <node concept="2OqwBi" id="3RNfj0sHuMH" role="3clFbG">
+            <node concept="37vLTw" id="3RNfj0sH7QQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="1kkdmfUluxG" resolve="elList" />
+            </node>
+            <node concept="TSZUe" id="3RNfj0sHBDr" role="2OqNvi">
+              <node concept="37vLTw" id="3RNfj0sHC4f" role="25WWJ7">
+                <ref role="3cqZAo" node="3RNfj0sDySE" resolve="el" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="3RNfj0sI4Gn" role="3cqZAp">
+          <node concept="3clFbS" id="3RNfj0sI4Gp" role="2LFqv$">
+            <node concept="3cpWs8" id="4pSjmJzUk7K" role="3cqZAp">
+              <node concept="3cpWsn" id="4pSjmJzUk7L" role="3cpWs9">
+                <property role="TrG5h" value="el1" />
+                <node concept="3Tqbb2" id="4pSjmJzUk7M" role="1tU5fm">
+                  <ref role="ehGHo" to="548q:26CgNS3u7ev" resolve="ExceptList" />
+                </node>
+                <node concept="2ShNRf" id="4pSjmJzUk7N" role="33vP2m">
+                  <node concept="3zrR0B" id="4pSjmJzUk7O" role="2ShVmc">
+                    <node concept="3Tqbb2" id="4pSjmJzUk7P" role="3zrR0E">
+                      <ref role="ehGHo" to="548q:26CgNS3u7ev" resolve="ExceptList" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4pSjmJzUkqk" role="3cqZAp">
+              <node concept="37vLTI" id="4pSjmJzUkql" role="3clFbG">
+                <node concept="1eOMI4" id="4pSjmJzUkqm" role="37vLTx">
+                  <node concept="10QFUN" id="4pSjmJzUkqn" role="1eOMHV">
+                    <node concept="3Tqbb2" id="4pSjmJzUkqo" role="10QFUM">
+                      <ref role="ehGHo" to="548q:6tbn_b6SrPv" resolve="Expression" />
+                    </node>
+                    <node concept="1rXfSq" id="4pSjmJzUkqp" role="10QFUP">
+                      <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" resolve="visitExpression" />
+                      <node concept="2OqwBi" id="4pSjmJzUkqq" role="37wK5m">
+                        <node concept="37vLTw" id="4pSjmJzUkqr" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_4" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="4pSjmJzUkqs" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptListContext.expression(int)" resolve="expression" />
+                          <node concept="3cpWs3" id="4pSjmJzUqrK" role="37wK5m">
+                            <node concept="3cmrfG" id="4pSjmJzUquw" role="3uHU7w">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                            <node concept="37vLTw" id="4pSjmJzUpFh" role="3uHU7B">
+                              <ref role="3cqZAo" node="3RNfj0sI4Gq" resolve="i" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4pSjmJzUkqu" role="37vLTJ">
+                  <node concept="37vLTw" id="4pSjmJzUouH" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4pSjmJzUk7L" resolve="el1" />
+                  </node>
+                  <node concept="3TrEf2" id="4pSjmJzUp1l" role="2OqNvi">
+                    <ref role="3Tt5mk" to="548q:26CgNS3u7ey" resolve="Expr" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4pSjmJzUuJH" role="3cqZAp">
+              <node concept="2OqwBi" id="4pSjmJzUuJI" role="3clFbG">
+                <node concept="2OqwBi" id="4pSjmJzUuJJ" role="2Oq$k0">
+                  <node concept="37vLTw" id="4pSjmJzUzU2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4pSjmJzUk7L" resolve="el1" />
+                  </node>
+                  <node concept="3Tsc0h" id="4pSjmJzUApW" role="2OqNvi">
+                    <ref role="3TtcxE" to="548q:26CgNS3u7ew" resolve="OneOrMore" />
+                  </node>
+                </node>
+                <node concept="X8dFx" id="4pSjmJzUCq4" role="2OqNvi">
+                  <node concept="10QFUN" id="4pSjmJzUCq6" role="25WWJ7">
+                    <node concept="2I9FWS" id="4pSjmJzUCq7" role="10QFUM">
+                      <ref role="2I9WkF" to="548q:26CgNS3u7eo" resolve="ExceptInterface" />
+                    </node>
+                    <node concept="1rXfSq" id="4pSjmJzUCq8" role="10QFUP">
+                      <ref role="37wK5l" node="~TLAPlusGrammarBaseVisitor.visitExceptInterface(parser.TLAPlusGrammarParser$ExceptInterfaceContext)" resolve="visitExceptInterface" />
+                      <node concept="2OqwBi" id="4pSjmJzUCq9" role="37wK5m">
+                        <node concept="37vLTw" id="4pSjmJzUCqa" role="2Oq$k0">
+                          <ref role="3cqZAo" node="55DAcpL2q_4" resolve="ctx" />
+                        </node>
+                        <node concept="liA8E" id="4pSjmJzUCqb" role="2OqNvi">
+                          <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$ExceptListContext.exceptInterface(int)" resolve="exceptInterface" />
+                          <node concept="3cpWs3" id="4pSjmJzUNJ_" role="37wK5m">
+                            <node concept="3cmrfG" id="4pSjmJzUNMl" role="3uHU7w">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                            <node concept="37vLTw" id="4pSjmJzUIM6" role="3uHU7B">
+                              <ref role="3cqZAo" node="3RNfj0sI4Gq" resolve="i" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4pSjmJzUQ6v" role="3cqZAp">
+              <node concept="2OqwBi" id="4pSjmJzUT3Z" role="3clFbG">
+                <node concept="37vLTw" id="4pSjmJzUQ6t" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1kkdmfUluxG" resolve="elList" />
+                </node>
+                <node concept="TSZUe" id="4pSjmJzUV7n" role="2OqNvi">
+                  <node concept="37vLTw" id="4pSjmJzUVma" role="25WWJ7">
+                    <ref role="3cqZAo" node="4pSjmJzUk7L" resolve="el1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="3RNfj0sI4Gq" role="1Duv9x">
+            <property role="TrG5h" value="i" />
+            <node concept="10Oyi0" id="3RNfj0sIz5g" role="1tU5fm" />
+            <node concept="3cmrfG" id="3RNfj0sIzpz" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3eOVzh" id="3RNfj0sI$JP" role="1Dwp0S">
+            <node concept="FJ1c_" id="3RNfj0sILdR" role="3uHU7w">
+              <node concept="3cmrfG" id="3RNfj0sILgB" role="3uHU7w">
+                <property role="3cmrfH" value="5" />
+              </node>
+              <node concept="1eOMI4" id="3RNfj0sIHES" role="3uHU7B">
+                <node concept="3cpWsd" id="3RNfj0sIGym" role="1eOMHV">
+                  <node concept="3cmrfG" id="3RNfj0sIG_6" role="3uHU7w">
+                    <property role="3cmrfH" value="4" />
+                  </node>
+                  <node concept="2OqwBi" id="3RNfj0sIAUz" role="3uHU7B">
+                    <node concept="37vLTw" id="3RNfj0sI_fH" role="2Oq$k0">
+                      <ref role="3cqZAo" node="55DAcpL2q_4" resolve="ctx" />
+                    </node>
+                    <node concept="liA8E" id="3RNfj0sIENy" role="2OqNvi">
+                      <ref role="37wK5l" to="p3ir:~ParserRuleContext.getChildCount()" resolve="getChildCount" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="3RNfj0sIztp" role="3uHU7B">
+              <ref role="3cqZAo" node="3RNfj0sI4Gq" resolve="i" />
             </node>
           </node>
         </node>
