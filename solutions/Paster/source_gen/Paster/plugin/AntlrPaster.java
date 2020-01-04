@@ -81,7 +81,6 @@ public class AntlrPaster {
       TLAPlusGrammarLexer lexer = new TLAPlusGrammarLexer(new ANTLRInputStream(new StringReader(TextFromClipboard)));
       TLAPlusGrammarParser parser = new TLAPlusGrammarParser(new CommonTokenStream(lexer));
       TLAPlusGrammarParser.ModuleContext moduleContext = parser.module();
-      TLAPlusGrammarParser.UnitContext unitContext = parser.unit();
       // use the following to print types of nodes on the parse tree: 
       saveTreeAsPostScript(moduleContext, parser);
       // initiate walk of tree with listener 

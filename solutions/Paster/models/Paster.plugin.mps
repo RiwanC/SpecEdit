@@ -956,22 +956,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="2V$dEz$jANy" role="3cqZAp">
-              <node concept="3cpWsn" id="2V$dEz$jANz" role="3cpWs9">
-                <property role="TrG5h" value="unitContext" />
-                <node concept="3uibUv" id="2V$dEz$jAN$" role="1tU5fm">
-                  <ref role="3uigEE" to="cw0v:~TLAPlusGrammarParser$UnitContext" resolve="TLAPlusGrammarParser.UnitContext" />
-                </node>
-                <node concept="2OqwBi" id="2V$dEz$jDQs" role="33vP2m">
-                  <node concept="37vLTw" id="2V$dEz$jDy9" role="2Oq$k0">
-                    <ref role="3cqZAo" node="v1yTSnr0yu" resolve="parser" />
-                  </node>
-                  <node concept="liA8E" id="2V$dEz$jEjw" role="2OqNvi">
-                    <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser.unit()" resolve="unit" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3SKdUt" id="v1yTSnr0yF" role="3cqZAp">
               <node concept="3SKdUq" id="v1yTSnr0yG" role="3SKWNk">
                 <property role="3SKdUp" value="use the following to print types of nodes on the parse tree:" />

@@ -28,11 +28,8 @@ import jetbrains.mps.extapi.model.SModelData;
 import java.io.InputStream;
 import jetbrains.mps.smodel.SModelId;
 import java.io.BufferedReader;
-import org.xml.sax.InputSource;
-import org.jdom.Document;
-import jetbrains.mps.util.JDOMUtil;
+import java.util.Scanner;
 import org.jetbrains.mps.openapi.model.SNode;
-import org.jdom.JDOMException;
 import org.jetbrains.mps.openapi.persistence.ModelSaveException;
 import java.util.Iterator;
 import java.util.Collections;
@@ -142,17 +139,14 @@ public class TlaModelPersistence implements ModelFactory {
           BufferedReader streamReader = new BufferedReader(new InputStreamReader(in, FileUtil.DEFAULT_CHARSET));
           streamReader.readLine();
           // skip the header 
-          InputSource inputSource = new InputSource(streamReader);
-          Document document = JDOMUtil.loadDocument(inputSource);
-          SNode tlaFile = TlaConverter.convertDocument(name, document);
+          Scanner s = new Scanner(in).useDelimiter("\\A");
+          SNode tlaFile = TlaConverter.pasteGrammarAsNodes((s.hasNext() ? s.next() : ""));
           jetbrains.mps.smodel.SModel modelData = new jetbrains.mps.smodel.SModel(reference);
           addRootAndImportTLALang0(modelData, tlaFile);
           return modelData;
         } catch (IOException e) {
           throw new ModelLoadException("Could not read the model " + reference, new ArrayList<SModel.Problem>(), e);
         }
-      } catch (JDOMException e) {
-        throw new ModelLoadException("Could not read from " + mySource.getLocation(), new ArrayList<SModel.Problem>(), e);
       } finally {
         FileUtil.closeFileSafe(in);
       }
