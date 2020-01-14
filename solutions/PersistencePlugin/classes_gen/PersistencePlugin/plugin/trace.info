@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:67048a32-335b-48d6-aba3-9a49c16e92e3(PersistencePlugin.plugin)/5669903759786116609">
+    <file name="plugin.xml">
+      <unit id="5669903759786116609" at="1,0,17,14" name="PersistencePlugin.plugin.plugin" />
+    </file>
+  </root>
+</debug-info>
+

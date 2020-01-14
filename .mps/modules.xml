@@ -7,7 +7,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/ExternalDependencies/ExternalDependencies.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MpsPersistence/MpsPersistence.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Paster/Paster.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/PersistencePlugin/PersistencePlugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/SpecEdit.build/SpecEdit.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SpecEdit.buildPersistence/SpecEdit.buildPersistence.msd" folder="" />
     </projectModules>
   </component>
 </project>

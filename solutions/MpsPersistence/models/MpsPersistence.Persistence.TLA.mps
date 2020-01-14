@@ -17,19 +17,15 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="ao3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.text(MPS.Core/)" />
     <import index="ends" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.persistence(MPS.Core/)" />
-    <import index="mmaq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.jdom(MPS.Core/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="kpbf" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.text.impl(MPS.Core/)" />
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
-    <import index="kart" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:org.xml.sax(JDK/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="cw0v" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:parser(ExternalDependencies/)" />
     <import index="p3ir" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:org.antlr.v4.runtime(ExternalDependencies/)" />
     <import index="6xeh" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:org.antlr.v4.runtime.tree(ExternalDependencies/)" />
     <import index="548q" ref="r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)" />
-    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
-    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2709,6 +2705,24 @@
             <node concept="37vLTw" id="1nh4MIxVeRF" role="37vLTx">
               <ref role="3cqZAo" node="1nh4MIxV1zv" resolve="name" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7ppXyy$cl6X" role="3cqZAp">
+          <node concept="2OqwBi" id="7ppXyy$cnvl" role="3clFbG">
+            <node concept="2OqwBi" id="7ppXyy$cmfU" role="2Oq$k0">
+              <node concept="2OqwBi" id="7ppXyy$clfY" role="2Oq$k0">
+                <node concept="37vLTw" id="7ppXyy$cl6V" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1nh4MIxV1_b" resolve="file" />
+                </node>
+                <node concept="3TrEf2" id="7ppXyy$cltt" role="2OqNvi">
+                  <ref role="3Tt5mk" to="548q:6r55aFu6sTV" resolve="SetOfModuleNames" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="7ppXyy$cmoq" role="2OqNvi">
+                <ref role="3TtcxE" to="548q:3YsprqffyL6" resolve="ListM" />
+              </node>
+            </node>
+            <node concept="WFELt" id="7ppXyy$coN4" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbF" id="1nh4MIxVeU4" role="3cqZAp">

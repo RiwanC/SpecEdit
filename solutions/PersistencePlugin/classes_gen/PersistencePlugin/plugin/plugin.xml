@@ -1,0 +1,17 @@
+<!DOCTYPE idea-plugin PUBLIC 'Plugin/DTD' 'http://plugins.intellij.net/plugin.dtd'>
+<idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
+  <id>PersistencePlugin</id>
+  <name>TLA+ Persistence</name>
+  <description>
+      Persistence of MPS models into tla+ files</description>
+  <version>1.0</version>
+  <vendor>SpecEdit</vendor>
+  <idea-version since-build="192.1" />
+  
+  <depends>jetbrains.mps.core</depends>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.ModelFactoryProvider implementationClass="MpsPersistence.Persistence.TLA.TlaModelPersistence" />
+    <mps.LanguageLibrary dir="/languages" />
+  </extensions>
+</idea-plugin>
