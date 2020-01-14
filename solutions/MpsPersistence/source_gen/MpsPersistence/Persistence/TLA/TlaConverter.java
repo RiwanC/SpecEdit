@@ -43,7 +43,7 @@ public class TlaConverter {
   public static SNode newDocument(String name) {
     SNode file = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, "TLA.structure.Module"));
     SPropertyOperations.assign(file, PROPS.ModuleName$iAUB, name);
-    SLinkOperations.addNewChild(SLinkOperations.getTarget(file, LINKS.SetOfModuleNames$Bn0), LINKS.ListM$Vevw, null);
+    SLinkOperations.setTarget(file, LINKS.SetOfModuleNames$Bn0, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x3f9c65b68f3e2c45L, "TLA.structure.ModuleNameList")));
     SLinkOperations.addNewChild(file, LINKS.SetOfUnits$fqCa, null);
     return file;
   }
@@ -54,7 +54,6 @@ public class TlaConverter {
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink SetOfModuleNames$Bn0 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade19ce7bL, "SetOfModuleNames");
-    /*package*/ static final SContainmentLink ListM$Vevw = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x3f9c65b68f3e2c45L, 0x3f9c65b68f3e2c46L, "ListM");
     /*package*/ static final SContainmentLink SetOfUnits$fqCa = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade1936a2L, "SetOfUnits");
   }
 }

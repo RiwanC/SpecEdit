@@ -196,7 +196,7 @@
       <node concept="3981dG" id="4pTWZzCGh3G" role="39821P">
         <node concept="3_J27D" id="4pTWZzCGh3H" role="Nbhlr">
           <node concept="3Mxwew" id="4pTWZzCGh3I" role="3MwsjC">
-            <property role="3MwjfP" value="SpecEditPersistencePlugin22.zip" />
+            <property role="3MwjfP" value="SpecEditPersistencePluginLast.zip" />
           </node>
         </node>
         <node concept="m$_wl" id="4pTWZzCGh3J" role="39821P">

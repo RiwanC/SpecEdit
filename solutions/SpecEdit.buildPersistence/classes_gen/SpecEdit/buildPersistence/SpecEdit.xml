@@ -28,10 +28,10 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/SpecEditPersistencePlugin22.zip" />
-    <mkdir dir="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin" />
-    <mkdir dir="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages" />
-    <mkdir dir="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence" />
+    <mkdir dir="${build.tmp}/default/SpecEditPersistencePluginLast.zip" />
+    <mkdir dir="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin" />
+    <mkdir dir="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages" />
+    <mkdir dir="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence" />
     <mkdir dir="${build.tmp}/default/ExternalDependencies.jar" />
     <mkdir dir="${build.tmp}/default/ExternalDependencies.jar/META-INF" />
     <echoxml file="${build.tmp}/default/ExternalDependencies.jar/META-INF/module.xml">
@@ -45,7 +45,7 @@
         <sources jar="ExternalDependencies-src.jar" descriptor="ExternalDependencies.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/ExternalDependencies.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/ExternalDependencies.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/ExternalDependencies" />
       <fileset dir="${basedir}/solutions/ExternalDependencies" includes="icons/**" />
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -54,7 +54,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-ExternalDependencies-models">
       <fileset dir="${basedir}/solutions/ExternalDependencies/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/ExternalDependencies-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/ExternalDependencies-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -96,7 +96,7 @@
         <sources jar="MpsPersistence-src.jar" descriptor="MpsPersistence.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/MpsPersistence.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/MpsPersistence.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/MpsPersistence" />
       <fileset dir="${basedir}/solutions/MpsPersistence/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/MpsPersistence.jar" />
@@ -104,7 +104,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-MpsPersistence-models">
       <fileset dir="${basedir}/solutions/MpsPersistence/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/MpsPersistence-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/MpsPersistence-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/MpsPersistence/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -173,7 +173,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/TLA.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/TLA.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA" />
       <fileset dir="${basedir}/languages/TLA/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/TLA.jar" />
@@ -217,7 +217,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/TLA-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/TLA-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA#01" />
       <fileset dir="${build.tmp}/default/TLA-generator.jar" />
     </jar>
@@ -227,7 +227,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-TLA-models">
       <fileset dir="${basedir}/languages/TLA/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/TLA-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/TLA-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/TLA/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -276,7 +276,7 @@
         <sources jar="PersistencePlugin-src.jar" descriptor="PersistencePlugin.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/PersistencePlugin.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/PersistencePlugin.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/PersistencePlugin" />
       <fileset dir="${basedir}/solutions/PersistencePlugin/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/PersistencePlugin.jar" />
@@ -284,7 +284,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-PersistencePlugin-models">
       <fileset dir="${basedir}/solutions/PersistencePlugin/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/PersistencePlugin-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/SpecEditPersistence/PersistencePlugin-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/PersistencePlugin/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -294,7 +294,7 @@
       <zipfileset file="${basedir}/solutions/PersistencePlugin/PersistencePlugin.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-PersistencePlugin-models" prefix="module/models" />
     </jar>
-    <mkdir dir="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages" />
+    <mkdir dir="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages" />
     <mkdir dir="${build.tmp}/default/TLA.jar1" />
     <mkdir dir="${build.tmp}/default/TLA.jar1/META-INF" />
     <echoxml file="${build.tmp}/default/TLA.jar1/META-INF/module.xml">
@@ -354,7 +354,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/TLA.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/TLA.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA" />
       <fileset dir="${basedir}/languages/TLA/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/TLA.jar1" />
@@ -398,7 +398,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/TLA-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/TLA-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA#01" />
       <fileset dir="${build.tmp}/default/TLA-generator.jar1" />
     </jar>
@@ -408,7 +408,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-TLA-models1">
       <fileset dir="${basedir}/languages/TLA/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/TLA-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/TLA-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/TLA/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -457,7 +457,7 @@
         <sources jar="PersistencePlugin-src.jar" descriptor="PersistencePlugin.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/PersistencePlugin.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/PersistencePlugin.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/PersistencePlugin" />
       <fileset dir="${basedir}/solutions/PersistencePlugin/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/PersistencePlugin.jar1" />
@@ -465,7 +465,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-PersistencePlugin-models1">
       <fileset dir="${basedir}/solutions/PersistencePlugin/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/languages/PersistencePlugin-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/languages/PersistencePlugin-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/PersistencePlugin/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -475,7 +475,7 @@
       <zipfileset file="${basedir}/solutions/PersistencePlugin/PersistencePlugin.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-PersistencePlugin-models1" prefix="module/models" />
     </jar>
-    <mkdir dir="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/lib" />
+    <mkdir dir="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/lib" />
     <mkdir dir="${build.tmp}/default/MpsPersistence.jar1" />
     <mkdir dir="${build.tmp}/default/MpsPersistence.jar1/META-INF" />
     <echoxml file="${build.tmp}/default/MpsPersistence.jar1/META-INF/module.xml">
@@ -508,7 +508,7 @@
         <sources jar="MpsPersistence-src.jar" descriptor="MpsPersistence.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/lib/MpsPersistence.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/lib/MpsPersistence.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/MpsPersistence" />
       <fileset dir="${basedir}/solutions/MpsPersistence/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/MpsPersistence.jar1" />
@@ -516,7 +516,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-MpsPersistence-models1">
       <fileset dir="${basedir}/solutions/MpsPersistence/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/lib/MpsPersistence-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/lib/MpsPersistence-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/MpsPersistence/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -539,7 +539,7 @@
         <sources jar="ExternalDependencies-src.jar" descriptor="ExternalDependencies.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/lib/ExternalDependencies.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/lib/ExternalDependencies.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/ExternalDependencies" />
       <fileset dir="${basedir}/solutions/ExternalDependencies" includes="icons/**" />
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -548,7 +548,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-ExternalDependencies-models1">
       <fileset dir="${basedir}/solutions/ExternalDependencies/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEditPersistencePlugin22.zip/TLA-Persistence-Plugin/lib/ExternalDependencies-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEditPersistencePluginLast.zip/TLA-Persistence-Plugin/lib/ExternalDependencies-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -558,10 +558,10 @@
       <zipfileset file="${basedir}/solutions/ExternalDependencies/ExternalDependencies.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-ExternalDependencies-models1" prefix="module/models" />
     </jar>
-    <zip destfile="${build.layout}/SpecEditPersistencePlugin22.zip">
+    <zip destfile="${build.layout}/SpecEditPersistencePluginLast.zip">
       <zipfileset file="${basedir}/solutions/PersistencePlugin/source_gen/PersistencePlugin/plugin/plugin.xml" prefix="TLA-Persistence-Plugin/META-INF" />
       <zipfileset file="${basedir}/libs/antlr2mps-all.jar" prefix="TLA-Persistence-Plugin/lib" />
-      <fileset dir="${build.tmp}/default/SpecEditPersistencePlugin22.zip" />
+      <fileset dir="${build.tmp}/default/SpecEditPersistencePluginLast.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
