@@ -306,7 +306,7 @@
       <node id="5866387967695233678" at="28,5,29,20" concept="10" />
       <node id="384861153811544773" at="33,69,34,174" concept="9" />
       <node id="384861153811601833" at="34,174,35,94" concept="3" />
-      <node id="384861153813785988" at="36,32,37,232" concept="3" />
+      <node id="384861153813785988" at="35,94,36,230" concept="3" />
       <node id="384861153816194192" at="38,74,39,183" concept="9" />
       <node id="384861153815670762" at="39,183,40,103" concept="3" />
       <node id="384861153813110854" at="40,103,41,160" concept="3" />
@@ -982,7 +982,7 @@
       <node id="1518897677845010347" at="701,111,704,7" concept="5" />
       <node id="5962897251892454999" at="595,14,599,9" concept="0" />
       <node id="384861153815326419" at="23,180,28,5" concept="5" />
-      <node id="384861153816339245" at="37,232,42,7" concept="5" />
+      <node id="384861153816339245" at="37,32,42,7" concept="5" />
       <node id="2218580622051836825" at="101,172,106,5" concept="5" />
       <node id="3378885719451222506" at="111,174,116,5" concept="5" />
       <node id="4127923557196548048" at="210,170,215,5" concept="7" />
@@ -1008,6 +1008,7 @@
       <node id="3378885719451095092" at="87,48,93,7" concept="7" />
       <node id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="242,0,248,0" concept="8" trace="visitTheorem#(Lparser/TLAPlusGrammarParser/TheoremContext;)Ljava/lang/Object;" />
       <node id="4463978932503857943" at="511,49,517,5" concept="5" />
+      <node id="384861153812449146" at="36,230,43,5" concept="7" />
       <node id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="119,0,126,0" concept="8" trace="visitVariableDeclaration#(Lparser/TLAPlusGrammarParser/VariableDeclarationContext;)Ljava/lang/Object;" />
       <node id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="126,0,133,0" concept="8" trace="visitConstantDeclaration#(Lparser/TLAPlusGrammarParser/ConstantDeclarationContext;)Ljava/lang/Object;" />
       <node id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="221,0,228,0" concept="8" trace="visitModuleDefinition#(Lparser/TLAPlusGrammarParser/ModuleDefinitionContext;)Ljava/lang/Object;" />
@@ -1015,7 +1016,6 @@
       <node id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="428,0,435,0" concept="8" trace="visitCaseArm#(Lparser/TLAPlusGrammarParser/CaseArmContext;)Ljava/lang/Object;" />
       <node id="1518897677857831659" at="522,215,529,5" concept="7" />
       <node id="3378885719460963874" at="743,226,750,5" concept="7" />
-      <node id="384861153812449146" at="35,94,43,5" concept="7" />
       <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="182,0,190,0" concept="8" trace="visitQuantifierBoundList#(Lparser/TLAPlusGrammarParser/QuantifierBoundListContext;)Ljava/lang/Object;" />
       <node id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="199,0,207,0" concept="8" trace="visitSubstitutionList#(Lparser/TLAPlusGrammarParser/SubstitutionListContext;)Ljava/lang/Object;" />
       <node id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="365,0,373,0" concept="8" trace="visitExpressionList#(Lparser/TLAPlusGrammarParser/ExpressionListContext;)Ljava/lang/Object;" />
@@ -1389,7 +1389,8 @@
       <scope id="384861153815326419" at="23,180,28,5">
         <var name="i" id="384861153815326446" />
       </scope>
-      <scope id="384861153816339245" at="37,232,42,7">
+      <scope id="384861153812449148" at="37,32,42,7" />
+      <scope id="384861153816339245" at="37,32,42,7">
         <var name="i" id="384861153816339248" />
       </scope>
       <scope id="2218580622051836825" at="101,172,106,5">
@@ -1435,7 +1436,6 @@
       <scope id="384861153814862505" at="733,178,738,5">
         <var name="i" id="384861153814862508" />
       </scope>
-      <scope id="384861153812449148" at="36,32,42,7" />
       <scope id="3378885719450580855" at="66,50,72,7" />
       <scope id="3378885719451014003" at="73,50,79,7" />
       <scope id="3378885719451048987" at="80,40,86,7" />

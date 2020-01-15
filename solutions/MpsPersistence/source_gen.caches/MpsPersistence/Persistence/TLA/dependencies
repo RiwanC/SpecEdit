@@ -19,6 +19,7 @@
   </dependency>
   <dependency className="MpsPersistence.Persistence.TLA.TlaConverter">
     <classNode dependClassName="MpsPersistence.Persistence.TLA.AntlrUnitVisitor" />
+    <classNode dependClassName="java.io.FileWriter" />
     <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.io.StringReader" />
     <classNode dependClassName="java.lang.String" />
@@ -46,12 +47,12 @@
     <classNode dependClassName="java.io.OutputStream" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.StringBuffer" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="java.util.Scanner" />
     <classNode dependClassName="jetbrains.mps.extapi.model.CustomPersistenceLoadFacility" />
     <classNode dependClassName="jetbrains.mps.extapi.model.CustomPersistenceModelWithHeader" />
     <classNode dependClassName="jetbrains.mps.extapi.model.PersistenceProblem" />

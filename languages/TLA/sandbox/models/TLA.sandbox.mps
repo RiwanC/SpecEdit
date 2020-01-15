@@ -801,9 +801,5 @@
       </node>
     </node>
   </node>
-  <node concept="2SRj3L" id="_pU7hk2pvA">
-    <property role="2SRb0q" value="T" />
-    <node concept="2KC$BN" id="_pU7hk2pvB" role="2SRdFh" />
-  </node>
 </model>
 

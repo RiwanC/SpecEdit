@@ -26,11 +26,6 @@
       <node id="5932612864439945202" at="1,0,11,20" concept="7" />
     </file>
   </root>
-  <root nodeRef="r:8245b745-7aa8-4ce5-8433-14951098525b(TLA.sandbox)/673825205592365030">
-    <file name="T.tla">
-      <node id="673825205592365030" at="1,0,3,20" concept="7" />
-    </file>
-  </root>
   <root nodeRef="r:8245b745-7aa8-4ce5-8433-14951098525b(TLA.sandbox)/7405347886383838881">
     <file name="TestModule.tla">
       <node id="2218580622053351752" at="4,20,4,28" concept="1" />

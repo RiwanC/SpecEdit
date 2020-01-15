@@ -28,7 +28,6 @@ import jetbrains.mps.extapi.model.SModelData;
 import java.io.InputStream;
 import jetbrains.mps.smodel.SModelId;
 import java.io.BufferedReader;
-import java.util.Scanner;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.persistence.ModelSaveException;
 import java.util.Iterator;
@@ -117,10 +116,9 @@ public class TlaModelPersistence implements ModelFactory {
           final SModelReference mr = PersistenceFacade.getInstance().createModelReference(modelRef);
           return new SModelSimpleHeader(mr);
         } finally {
-          FileUtil.closeFileSafe(reader);
         }
       } catch (IOException e) {
-        throw new ModelLoadException(e.getMessage(), new ArrayList<SModel.Problem>(), e);
+        throw new ModelLoadException("" + e.getMessage(), new ArrayList<SModel.Problem>(), e);
       }
     }
 
@@ -139,8 +137,12 @@ public class TlaModelPersistence implements ModelFactory {
           BufferedReader streamReader = new BufferedReader(new InputStreamReader(in, FileUtil.DEFAULT_CHARSET));
           streamReader.readLine();
           // skip the header 
-          Scanner s = new Scanner(in).useDelimiter("\\A");
-          SNode tlaFile = TlaConverter.pasteGrammarAsNodes((s.hasNext() ? s.next() : ""));
+          StringBuffer sb = new StringBuffer();
+          String str = "";
+          while ((str = streamReader.readLine()) != null) {
+            sb.append(str);
+          }
+          SNode tlaFile = TlaConverter.pasteGrammarAsNodes(sb.toString());
           jetbrains.mps.smodel.SModel modelData = new jetbrains.mps.smodel.SModel(reference);
           addRootAndImportTLALang0(modelData, tlaFile);
           return modelData;
@@ -159,7 +161,6 @@ public class TlaModelPersistence implements ModelFactory {
       if (root == null) {
         throw new ModelSaveException("cannot save empty model", Collections.<SModel.Problem>singletonList(new PersistenceProblem(SModel.Problem.Kind.Save, "cannot save empty model", null, true)));
       }
-      // TODO check concepts 
       if (IterableUtil.copyToList(modelData.getRootNodes()).size() > 1) {
         throw new ModelSaveException("cannot save more than one root into .tla file", Collections.<SModel.Problem>singletonList(new PersistenceProblem(SModel.Problem.Kind.Save, "cannot save more than one root into .tla file", null, true, -1, -1, root)));
       }
