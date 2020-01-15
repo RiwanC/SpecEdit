@@ -491,18 +491,6 @@ public class TLAPlusGrammarBaseListener implements TLAPlusGrammarListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPostfixOp(TLAPlusGrammarParser.PostfixOpContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterComment(TLAPlusGrammarParser.CommentContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitComment(TLAPlusGrammarParser.CommentContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

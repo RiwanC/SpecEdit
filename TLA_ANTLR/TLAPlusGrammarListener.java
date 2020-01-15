@@ -407,14 +407,4 @@ public interface TLAPlusGrammarListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitPostfixOp(TLAPlusGrammarParser.PostfixOpContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link TLAPlusGrammarParser#comment}.
-	 * @param ctx the parse tree
-	 */
-	void enterComment(TLAPlusGrammarParser.CommentContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link TLAPlusGrammarParser#comment}.
-	 * @param ctx the parse tree
-	 */
-	void exitComment(TLAPlusGrammarParser.CommentContext ctx);
 }

@@ -8,7 +8,7 @@
   <registry>
     <language id="7a6b8f83-d202-4e59-94ec-f562edfca98d" name="TLA">
       <concept id="4756955113194237062" name="TLA.structure.Comment" flags="ng" index="2krVnY">
-        <child id="4756955113194237090" name="com" index="2krVnq" />
+        <property id="3372285084127941722" name="com" index="2m1TsK" />
       </concept>
       <concept id="7443146518776888699" name="TLA.structure.Assumption" flags="ng" index="2xEIcD">
         <child id="7443146518776888735" name="Axiom" index="2xEIfd" />
@@ -206,10 +206,8 @@
         </node>
       </node>
     </node>
-    <node concept="2krVnY" id="1V9YP8V3y58" role="2SR288">
-      <node concept="2Vhqd8" id="1V9YP8V3y6$" role="2krVnq">
-        <property role="2Vhqdf" value="test" />
-      </node>
+    <node concept="2krVnY" id="3VZmpeWYfUT" role="2SR288">
+      <property role="2m1TsK" value="Ceci est un commentaire" />
     </node>
     <node concept="32OWDV" id="4pT0XE4Foqf" role="2SR288">
       <property role="29JGic" value="------------------------------" />

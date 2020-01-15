@@ -25,7 +25,7 @@ unit
     |assumption
     |theorem
     |module
-    |comment
+    |Comment
     |FourMinus;
 
 FourMinus : '---'('-')+;
@@ -265,8 +265,8 @@ ReservedWord:
    CONSTANTS |    INSTANCE|  THEOREM|
    'DOMAIN'|        LET|       'UNCHANGED';
 
-Identifier: Name; //privé des reservedword qui sont avant??
-Name: (NameChar*   [a-zA-Z]   NameChar*) ; //\ (('WF_'|'SF_')   NameChar+);
+Identifier: Name; //privé des reservedword qui sont avant
+Name: (NameChar*   [a-zA-Z]   NameChar*)|ReservedWord ; //\ (('WF_'|'SF_')   NameChar+);
 
 identifierList : Identifier(VIRGULE Identifier)*;
 
@@ -281,7 +281,6 @@ Num:
       |  ('\\h'| '\\H')   ([0-9]|[a-fA-F])+;
 
 NameChar : [a-zA-Z]|[0-9]|Underscore;
-
 
 String:  '"' ( ESC_SEQ | ~('\\'|'\'') )* '"';
 
@@ -330,4 +329,4 @@ infixOp  :
 
 postfixOp:  '^+'| '^*'| '^#'| '\'';
 
-comment: '(*' (Identifier)* '*)';
+Comment: '(*' ( ESC_SEQ | ~('\\'|'\'') )* '*)';

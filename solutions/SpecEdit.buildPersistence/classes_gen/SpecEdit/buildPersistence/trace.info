@@ -2,7 +2,7 @@
 <debug-info version="2">
   <root nodeRef="r:9c8d682f-212e-4144-b3b6-5bef755fe7b9(SpecEdit.buildPersistence)/5078358305218302151">
     <file name="SpecEdit.xml">
-      <unit id="5078358305218302151" at="1,0,963,10" name="SpecEdit.buildPersistence.SpecEdit" />
+      <unit id="5078358305218302151" at="1,0,885,10" name="SpecEdit.buildPersistence.SpecEdit" />
     </file>
   </root>
 </debug-info>

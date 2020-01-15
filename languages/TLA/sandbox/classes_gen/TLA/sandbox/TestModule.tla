@@ -1,7 +1,7 @@
 ---- MODULE TestModule ----
 EXTENDS Mod1,Mod2
 VARIABLE A,B,C
-CONSTANT  _^* , _^+ (*test*)
+CONSTANT  _^* , _^+ (*Ceci est un commentaire*)
 --------------------
 ASSUMPTION  AAAA!FDS
 INSTANCE Inst WITH  ^*  <- Prefix(Argg!Arggg)!IDi

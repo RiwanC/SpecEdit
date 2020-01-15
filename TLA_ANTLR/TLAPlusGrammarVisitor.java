@@ -250,10 +250,4 @@ public interface TLAPlusGrammarVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitPostfixOp(TLAPlusGrammarParser.PostfixOpContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link TLAPlusGrammarParser#comment}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitComment(TLAPlusGrammarParser.CommentContext ctx);
 }

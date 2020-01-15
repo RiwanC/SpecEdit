@@ -5,11 +5,10 @@ package TLA.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
-import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.traceable.behavior.TraceableConcept__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SInterfaceConcept;
 
@@ -19,17 +18,15 @@ public class Comment_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.createPositionInfo();
     tgs.append("(*");
-    for (SNode item : SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.com$yMd6)) {
-      tgs.appendNode(item);
-    }
+    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.com$uSA));
     tgs.append("*)");
     if (tgs.needPositions()) {
       tgs.fillPositionInfo(TraceableConcept__BehaviorDescriptor.getTraceableProperty_id4pl5GY7LKmH.invoke(SNodeOperations.cast(ctx.getPrimaryInput(), CONCEPTS.TraceableConcept$kK)));
     }
   }
 
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink com$yMd6 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x42041978d66bac86L, 0x42041978d66baca2L, "com");
+  private static final class PROPS {
+    /*package*/ static final SProperty com$uSA = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x42041978d66bac86L, 0x2eccc36ab8cb545aL, "com");
   }
 
   private static final class CONCEPTS {

@@ -76,31 +76,26 @@
   </root>
   <root nodeRef="r:292960b4-6b0c-4025-9637-2a9f237651ac(TLA.textGen)/4756955113194237139">
     <file name="Comment_TextGen.java">
-      <node id="4756955113194237139" at="18,54,19,55" concept="7" />
-      <node id="4756955113194237139" at="19,55,20,29" concept="3" />
-      <node id="4756955113194237458" at="20,29,21,21" concept="3" />
-      <node id="4756955113194237514" at="22,91,23,27" concept="3" />
-      <node id="4756955113194237589" at="24,5,25,21" concept="3" />
-      <node id="4756955113194237139" at="26,30,27,182" concept="3" />
-      <node id="4756955113194237139" at="32,0,33,0" concept="9" trace="com$yMd6" />
-      <node id="4756955113194237139" at="36,0,37,0" concept="9" trace="TraceableConcept$kK" />
-      <node id="4756955113194237514" at="21,21,24,5" concept="4" />
-      <node id="4756955113194237139" at="25,21,28,5" concept="5" />
-      <node id="4756955113194237139" at="17,0,30,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="4756955113194237514" at="22,91,23,27" />
-      <scope id="4756955113194237139" at="26,30,27,182" />
-      <scope id="4756955113194237514" at="21,21,24,5">
-        <var name="item" id="4756955113194237514" />
-      </scope>
-      <scope id="4756955113194237139" at="18,54,28,5">
+      <node id="4756955113194237139" at="17,54,18,55" concept="7" />
+      <node id="4756955113194237139" at="18,55,19,29" concept="3" />
+      <node id="4756955113194237458" at="19,29,20,21" concept="3" />
+      <node id="3372285084127942115" at="20,21,21,84" concept="3" />
+      <node id="4756955113194237589" at="21,84,22,21" concept="3" />
+      <node id="4756955113194237139" at="23,30,24,182" concept="3" />
+      <node id="4756955113194237139" at="29,0,30,0" concept="9" trace="com$uSA" />
+      <node id="4756955113194237139" at="33,0,34,0" concept="9" trace="TraceableConcept$kK" />
+      <node id="4756955113194237139" at="22,21,25,5" concept="5" />
+      <node id="4756955113194237139" at="16,0,27,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4756955113194237139" at="23,30,24,182" />
+      <scope id="4756955113194237139" at="17,54,25,5">
         <var name="tgs" id="4756955113194237139" />
       </scope>
-      <scope id="4756955113194237139" at="17,0,30,0">
+      <scope id="4756955113194237139" at="16,0,27,0">
         <var name="ctx" id="4756955113194237139" />
       </scope>
-      <unit id="4756955113194237139" at="31,0,34,0" name="TLA.textGen.Comment_TextGen$LINKS" />
-      <unit id="4756955113194237139" at="35,0,38,0" name="TLA.textGen.Comment_TextGen$CONCEPTS" />
-      <unit id="4756955113194237139" at="16,0,39,0" name="TLA.textGen.Comment_TextGen" />
+      <unit id="4756955113194237139" at="28,0,31,0" name="TLA.textGen.Comment_TextGen$PROPS" />
+      <unit id="4756955113194237139" at="32,0,35,0" name="TLA.textGen.Comment_TextGen$CONCEPTS" />
+      <unit id="4756955113194237139" at="15,0,36,0" name="TLA.textGen.Comment_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
       <node id="4756955113194237139" at="44,41,45,37" concept="8" />

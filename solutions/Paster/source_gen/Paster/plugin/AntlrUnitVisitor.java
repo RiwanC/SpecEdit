@@ -91,21 +91,14 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
       } else {
         un = ((SNode) visitModuleDefinition(ctx.moduleDefinition()));
       }
-    } else if (ctx.comment() != null) {
-      un = ((SNode) visitComment(ctx.comment()));
+    } else if (ctx.Comment() != null) {
+      un = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x42041978d66bac86L, "TLA.structure.Comment"));
+      String str = ctx.Comment().getText();
+      SPropertyOperations.set(((SNode) un), PROPS.com$uSA, str.substring(2, str.length() - 2));
     }
     return un;
   }
-  @Override
-  public Object visitComment(TLAPlusGrammarParser.CommentContext ctx) {
-    SNode comNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x42041978d66bac86L, "TLA.structure.Comment"));
-    for (int i = 0; i < ctx.getChildCount() - 2; i++) {
-      SNode idNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
-      SPropertyOperations.set(idNode, PROPS.ID$ll3w, ctx.Identifier(i).getText());
-      ListSequence.fromList(SLinkOperations.getChildren(comNode, LINKS.com$yMd6)).addElement(idNode);
-    }
-    return comNode;
-  }
+
   @Override
   public Object visitOpDeclList(TLAPlusGrammarParser.OpDeclListContext ctx) {
     SNode OpList = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb55cffL, "TLA.structure.OpDeclList"));
@@ -992,6 +985,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SProperty ModuleName$iAUB = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade19a4b0L, "ModuleName");
     /*package*/ static final SProperty ModuleName$Lfj0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade19ce77L, 0x66c514aade19ce78L, "ModuleName");
     /*package*/ static final SProperty sep$Oove = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac9a1L, 0x56403e45dffefac9L, "sep");
+    /*package*/ static final SProperty com$uSA = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x42041978d66bac86L, 0x2eccc36ab8cb545aL, "com");
     /*package*/ static final SProperty ID$96Yw = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac861L, 0x467903da84aac862L, "ID");
     /*package*/ static final SProperty ID1$9c_w = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87bL, "ID1");
     /*package*/ static final SProperty ID2$9cAu = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87dL, "ID2");
@@ -1032,7 +1026,6 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     /*package*/ static final SContainmentLink FDef$Giaw = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84b2558eL, 0x467903da84b2558fL, "FDef");
     /*package*/ static final SContainmentLink Instance$iKCK = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a528d19L, 0x2ee436a8e47f2abcL, "Instance");
     /*package*/ static final SContainmentLink ModDef$8ulG = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x6b3146ab9a50c482L, 0x2ee436a8e483bc7cL, "ModDef");
-    /*package*/ static final SContainmentLink com$yMd6 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x42041978d66bac86L, 0x42041978d66baca2L, "com");
     /*package*/ static final SContainmentLink OpDeclarations$75Cw = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x47bf6ca76cb55cffL, 0x47bf6ca76cb55d00L, "OpDeclarations");
     /*package*/ static final SContainmentLink IDList$Xpjd = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d0789L, 0x43917a23f8d4d97aL, "IDList");
     /*package*/ static final SContainmentLink OpDeclL$PA7w = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2c221951c68d07c2L, 0x47bf6ca76cb55cfdL, "OpDeclL");
