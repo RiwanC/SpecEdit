@@ -19,7 +19,6 @@
   </dependency>
   <dependency className="MpsPersistence.Persistence.TLA.TlaConverter">
     <classNode dependClassName="MpsPersistence.Persistence.TLA.AntlrUnitVisitor" />
-    <classNode dependClassName="java.io.FileWriter" />
     <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.io.StringReader" />
     <classNode dependClassName="java.lang.String" />
@@ -61,7 +60,6 @@
     <classNode dependClassName="jetbrains.mps.extapi.model.SModelSimpleHeader" />
     <classNode dependClassName="jetbrains.mps.extapi.persistence.FileSystemBasedDataSource" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModelId" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.text.TextUnit" />
     <classNode dependClassName="jetbrains.mps.text.impl.RegularTextUnit" />

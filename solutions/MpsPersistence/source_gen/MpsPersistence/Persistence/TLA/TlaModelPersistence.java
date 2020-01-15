@@ -26,7 +26,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import jetbrains.mps.extapi.model.SModelData;
 import java.io.InputStream;
-import jetbrains.mps.smodel.SModelId;
 import java.io.BufferedReader;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.persistence.ModelSaveException;
@@ -43,6 +42,7 @@ import java.util.List;
 import org.jetbrains.mps.openapi.persistence.ModelFactoryType;
 import org.jetbrains.mps.openapi.model.SModelName;
 import org.jetbrains.mps.openapi.persistence.ModelCreationException;
+import org.jetbrains.mps.openapi.model.SModelId;
 import jetbrains.mps.extapi.model.SModelBase;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.extapi.persistence.FileSystemBasedDataSource;
@@ -116,6 +116,7 @@ public class TlaModelPersistence implements ModelFactory {
           final SModelReference mr = PersistenceFacade.getInstance().createModelReference(modelRef);
           return new SModelSimpleHeader(mr);
         } finally {
+          FileUtil.closeFileSafe(reader);
         }
       } catch (IOException e) {
         throw new ModelLoadException("" + e.getMessage(), new ArrayList<SModel.Problem>(), e);
@@ -128,10 +129,6 @@ public class TlaModelPersistence implements ModelFactory {
       InputStream in = null;
       SModelReference reference = header.getModelReference();
       try {
-        String name = reference.getModelName();
-        if (reference.getModelId() instanceof SModelId.RelativePathSModelId) {
-          name = FileUtil.getNameWithoutExtension(((SModelId.RelativePathSModelId) reference.getModelId()).getFileName());
-        }
         try {
           in = mySource.openInputStream();
           BufferedReader streamReader = new BufferedReader(new InputStreamReader(in, FileUtil.DEFAULT_CHARSET));
@@ -217,7 +214,7 @@ public class TlaModelPersistence implements ModelFactory {
     if (!((supports(dataSource)))) {
       throw new UnsupportedDataSourceException(dataSource);
     }
-    org.jetbrains.mps.openapi.model.SModelId id = myFacade.createModelId("path:" + dataSource);
+    SModelId id = myFacade.createModelId("path:" + dataSource);
     SModelReference ref = myFacade.createModelReference(null, id, name);
     TlaCustomPersistenceLoadFacility facility = new TlaCustomPersistenceLoadFacility((StreamDataSource) dataSource, this);
     CustomPersistenceModelWithHeader newModel = CustomPersistenceModelWithHeader.createFromScratch(new SModelSimpleHeader(ref), (StreamDataSource) dataSource, facility);

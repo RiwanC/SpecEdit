@@ -8,7 +8,6 @@ import org.antlr.v4.runtime.ANTLRInputStream;
 import java.io.StringReader;
 import parser.TLAPlusGrammarParser;
 import org.antlr.v4.runtime.CommonTokenStream;
-import java.io.FileWriter;
 import org.antlr.v4.runtime.RecognitionException;
 import java.io.IOException;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
@@ -32,10 +31,6 @@ public class TlaConverter {
       TLAPlusGrammarParser parser = new TLAPlusGrammarParser(new CommonTokenStream(lexer));
       TLAPlusGrammarParser.ModuleContext moduleContext = parser.module();
       AntlrUnitVisitor visitor = new AntlrUnitVisitor();
-      FileWriter file = new FileWriter("C:\\Users\\riwan\\Desktop\\SpecEdit\\SpecEdit\\solutions\\Paster\\models\\debug.txt");
-      file.write(TextFromImport);
-      file.flush();
-      file.close();
 
       SNode parsedGrammar = ((SNode) visitor.visitModule(moduleContext));
       return parsedGrammar;
