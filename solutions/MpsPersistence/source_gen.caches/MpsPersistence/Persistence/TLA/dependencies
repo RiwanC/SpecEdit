@@ -45,6 +45,7 @@
     <classNode dependClassName="java.io.InputStream" />
     <classNode dependClassName="java.io.InputStreamReader" />
     <classNode dependClassName="java.io.OutputStream" />
+    <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.StringBuffer" />

@@ -34,7 +34,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     SNode moduleNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, "TLA.structure.Module"));
     SPropertyOperations.assign(moduleNode, PROPS.ModuleName$iAUB, ctx.Identifier().getText());
     SLinkOperations.setTarget(moduleNode, LINKS.SetOfModuleNames$Bn0, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x3f9c65b68f3e2c45L, "TLA.structure.ModuleNameList")));
-    if (ctx.EXTENDS() != null) {
+    if (ctx.EXTENDS() != null && ctx.nameList() != null) {
       for (int i = 0; i < (ctx.nameList().getChildCount() + 1) / 2; i++) {
         SNode emn = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade19ce77L, "TLA.structure.ExtendedModuleName"));
         SPropertyOperations.assign(emn, PROPS.ModuleName$Lfj0, ctx.nameList().Identifier(i).getText());

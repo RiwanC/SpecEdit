@@ -5,6 +5,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -19,30 +20,30 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root nodeRef="r:22a9051b-5c1c-4aec-a711-a48e1c7a5f80(MpsPersistence.Persistence.TLA)/2518201674535467508">
     <file name="TlaConverter.java">
-      <node id="7333162379381502618" at="22,45,23,29" concept="9" />
-      <node id="7333162379381502629" at="23,29,24,43" concept="7" />
-      <node id="4331511922347554679" at="24,43,25,16" concept="8" />
-      <node id="7333162379381555294" at="29,9,30,114" concept="7" />
-      <node id="7333162379381555305" at="30,114,31,91" concept="7" />
-      <node id="7333162379381555313" at="31,91,32,73" concept="7" />
-      <node id="7333162379381555319" at="32,73,33,56" concept="7" />
-      <node id="8773478360262001889" at="33,56,34,0" concept="10" />
-      <node id="7333162379381555324" at="34,0,35,73" concept="7" />
-      <node id="7333162379381555334" at="35,73,36,27" concept="8" />
-      <node id="7333162379381555338" at="37,38,38,18" concept="8" />
-      <node id="7333162379382005137" at="39,30,40,18" concept="8" />
-      <node id="1572058823050139976" at="44,48,45,168" concept="7" />
+      <node id="7333162379381502618" at="22,45,23,29" concept="10" />
+      <node id="7333162379381502629" at="23,29,24,43" concept="8" />
+      <node id="4331511922347554679" at="24,43,25,16" concept="9" />
+      <node id="7333162379381555294" at="29,9,30,114" concept="8" />
+      <node id="7333162379381555305" at="30,114,31,91" concept="8" />
+      <node id="7333162379381555313" at="31,91,32,73" concept="8" />
+      <node id="7333162379381555319" at="32,73,33,56" concept="8" />
+      <node id="8773478360262001889" at="33,56,34,0" concept="11" />
+      <node id="7333162379381555324" at="34,0,35,73" concept="8" />
+      <node id="7333162379381555334" at="35,73,36,27" concept="9" />
+      <node id="7333162379381555338" at="37,38,38,18" concept="9" />
+      <node id="7333162379382005137" at="39,30,40,18" concept="9" />
+      <node id="1572058823050139976" at="44,48,45,168" concept="8" />
       <node id="1572058823050148222" at="45,168,46,66" concept="2" />
       <node id="8326647083743145183" at="46,66,47,224" concept="2" />
       <node id="1572058823050194564" at="47,224,48,67" concept="2" />
-      <node id="1572058823050148161" at="48,67,49,16" concept="8" />
-      <node id="2518201674535467508" at="53,0,54,0" concept="11" trace="ModuleName$iAUB" />
-      <node id="2518201674535467508" at="57,0,58,0" concept="11" trace="SetOfModuleNames$Bn0" />
-      <node id="2518201674535467508" at="58,0,59,0" concept="11" trace="SetOfUnits$fqCa" />
-      <node id="7333162379381502613" at="22,0,27,0" concept="6" trace="convertDocument#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1572058823050138779" at="44,0,51,0" concept="12" trace="newDocument#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="7333162379381555291" at="28,72,41,5" concept="14" />
-      <node id="7333162379381555288" at="28,0,43,0" concept="12" trace="pasteGrammarAsNodes#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1572058823050148161" at="48,67,49,16" concept="9" />
+      <node id="2518201674535467508" at="53,0,54,0" concept="12" trace="ModuleName$iAUB" />
+      <node id="2518201674535467508" at="57,0,58,0" concept="12" trace="SetOfModuleNames$Bn0" />
+      <node id="2518201674535467508" at="58,0,59,0" concept="12" trace="SetOfUnits$fqCa" />
+      <node id="7333162379381502613" at="22,0,27,0" concept="7" trace="convertDocument#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1572058823050138779" at="44,0,51,0" concept="13" trace="newDocument#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="7333162379381555291" at="28,72,41,5" concept="15" />
+      <node id="7333162379381555288" at="28,0,43,0" concept="13" trace="pasteGrammarAsNodes#(Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <scope id="7333162379381555336" at="37,0,38,18">
         <var name="e" id="7333162379381555340" />
       </scope>
@@ -81,199 +82,192 @@
   </root>
   <root nodeRef="r:22a9051b-5c1c-4aec-a711-a48e1c7a5f80(MpsPersistence.Persistence.TLA)/5889759139216224427">
     <file name="TlaModelPersistence.java">
-      <node id="7358309956614999754" at="53,0,54,0" concept="11" trace="LOG" />
-      <node id="7358309956614999750" at="54,0,55,0" concept="11" trace="TLA_EXTENSION" />
-      <node id="3776467676525004075" at="55,0,56,0" concept="11" trace="TLA_TYPE" />
+      <node id="7358309956614999754" at="53,0,54,0" concept="12" trace="LOG" />
+      <node id="7358309956614999750" at="54,0,55,0" concept="12" trace="TLA_EXTENSION" />
+      <node id="3776467676525004075" at="55,0,56,0" concept="12" trace="TLA_TYPE" />
       <node id="3776467676524888069" at="57,0,58,0" concept="3" trace="myFacade" />
-      <node id="7358309956614999809" at="73,34,74,59" concept="13" />
-      <node id="1046890226387907955" at="75,5,76,119" concept="7" />
-      <node id="1046890226388414321" at="76,119,77,105" concept="8" />
+      <node id="7358309956614999809" at="73,34,74,59" concept="14" />
+      <node id="1046890226387907955" at="75,5,76,119" concept="8" />
+      <node id="1046890226388414321" at="76,119,77,105" concept="9" />
       <node id="1046890226387913981" at="87,110,88,24" concept="2" />
       <node id="1046890226387913985" at="88,24,89,26" concept="2" />
-      <node id="1046890226387913994" at="94,43,95,23" concept="8" />
-      <node id="1046890226387914002" at="100,41,101,22" concept="8" />
-      <node id="1046890226388063932" at="107,11,108,85" concept="7" />
-      <node id="1046890226387914014" at="109,13,110,58" concept="7" />
-      <node id="1046890226387914020" at="110,58,111,38" concept="7" />
-      <node id="1046890226387914035" at="112,69,113,99" concept="13" />
-      <node id="1046890226387914037" at="114,11,115,65" concept="7" />
-      <node id="1046890226387914042" at="115,65,116,100" concept="7" />
-      <node id="1046890226387914048" at="116,100,117,44" concept="8" />
-      <node id="1046890226388132419" at="118,19,119,41" concept="2" />
-      <node id="4331511922348847885" at="121,31,122,94" concept="13" />
-      <node id="1046890226387914074" at="128,95,129,28" concept="7" />
-      <node id="1046890226387914078" at="129,28,130,61" concept="7" />
-      <node id="1046890226387914105" at="132,13,133,42" concept="2" />
-      <node id="1046890226387914110" at="133,42,134,112" concept="7" />
-      <node id="1046890226387914116" at="134,112,135,34" concept="2" />
-      <node id="1046890226387914222" at="135,34,136,29" concept="9" />
-      <node id="5659623206271869647" at="136,29,137,47" concept="7" />
-      <node id="5659623206271891352" at="137,47,138,26" concept="7" />
-      <node id="5659623206271951096" at="139,59,140,27" concept="2" />
-      <node id="5659623206271923074" at="141,11,142,74" concept="7" />
-      <node id="1046890226387914135" at="142,74,143,93" concept="7" />
-      <node id="1046890226389041894" at="143,93,144,55" concept="2" />
-      <node id="1046890226387914148" at="144,55,145,27" concept="8" />
-      <node id="1046890226387914161" at="146,33,147,116" concept="13" />
-      <node id="1046890226387914166" at="149,17,150,35" concept="2" />
-      <node id="1046890226388753359" at="155,121,156,69" concept="7" />
-      <node id="1046890226388753366" at="156,69,157,67" concept="7" />
-      <node id="1046890226388753388" at="158,25,159,196" concept="13" />
-      <node id="1046890226388753412" at="161,73,162,254" concept="13" />
-      <node id="1046890226388753414" at="163,7,164,66" concept="7" />
-      <node id="1046890226388753419" at="164,66,165,20" concept="2" />
-      <node id="1046890226388753438" at="166,55,167,217" concept="13" />
-      <node id="1046890226388753440" at="169,11,170,84" concept="7" />
-      <node id="1046890226388753447" at="171,13,172,113" concept="7" />
-      <node id="1046890226388753458" at="172,113,173,41" concept="7" />
-      <node id="1046890226388753463" at="173,41,174,76" concept="7" />
-      <node id="1046890226388753466" at="174,76,175,46" concept="2" />
-      <node id="1046890226388753469" at="175,46,176,39" concept="2" />
-      <node id="1046890226388753472" at="176,39,177,40" concept="2" />
-      <node id="1046890226388753475" at="177,40,178,25" concept="2" />
-      <node id="1046890226388753479" at="179,19,180,41" concept="2" />
-      <node id="1046890226387914216" at="182,31,183,112" concept="13" />
-      <node id="8006535131967397798" at="190,61,191,47" concept="8" />
-      <node id="8006535131967434669" at="196,37,197,44" concept="8" />
-      <node id="8006535131967441270" at="206,36,207,41" concept="8" />
-      <node id="1046890226388509982" at="214,36,215,59" concept="13" />
-      <node id="1046890226388509984" at="216,5,217,63" concept="7" />
-      <node id="1046890226388509991" at="217,63,218,72" concept="7" />
-      <node id="1046890226388509998" at="218,72,219,122" concept="7" />
-      <node id="1046890226388510006" at="219,122,220,169" concept="7" />
-      <node id="1046890226388510015" at="220,169,221,43" concept="2" />
-      <node id="1046890226388510018" at="221,43,222,20" concept="8" />
-      <node id="1046890226388618762" at="228,70,229,50" concept="7" />
-      <node id="1046890226388618768" at="229,50,230,51" concept="7" />
-      <node id="1046890226389180409" at="230,51,231,103" concept="2" />
-      <node id="1046890226389180417" at="231,103,232,31" concept="2" />
-      <node id="1046890226389155942" at="236,102,237,107" concept="2" />
-      <node id="1046890226389155950" at="237,107,238,35" concept="2" />
-      <node id="8006535131967473919" at="242,55,243,93" concept="8" />
-      <node id="7358309956615000058" at="251,34,252,19" concept="8" />
-      <node id="7358309956615000083" at="253,5,254,16" concept="8" />
-      <node id="7358309956615000106" at="262,34,263,59" concept="13" />
-      <node id="1046890226389698381" at="264,5,265,78" concept="9" />
-      <node id="1046890226389688453" at="265,78,266,80" concept="7" />
-      <node id="1046890226389718916" at="266,80,267,77" concept="7" />
-      <node id="1046890226389721288" at="267,77,268,125" concept="7" />
-      <node id="1046890226389660854" at="268,125,269,49" concept="2" />
+      <node id="1046890226387913994" at="94,43,95,23" concept="9" />
+      <node id="1046890226387914002" at="100,41,101,22" concept="9" />
+      <node id="692767637043709255" at="107,11,108,47" concept="8" />
+      <node id="692767637043728834" at="108,47,109,73" concept="8" />
+      <node id="692767637043755760" at="109,73,110,30" concept="8" />
+      <node id="692767637043772290" at="110,30,111,29" concept="8" />
+      <node id="692767637043815120" at="112,51,113,44" concept="2" />
+      <node id="692767637043822668" at="113,44,114,23" concept="2" />
+      <node id="692767637043833019" at="115,9,116,67" concept="2" />
+      <node id="692767637043857804" at="116,67,117,64" concept="2" />
+      <node id="692767637043671467" at="117,64,118,111" concept="8" />
+      <node id="6023345618579299102" at="118,111,119,102" concept="9" />
+      <node id="4331511922348847885" at="120,29,121,94" concept="14" />
+      <node id="1046890226387914074" at="127,95,128,28" concept="8" />
+      <node id="1046890226387914078" at="128,28,129,61" concept="8" />
+      <node id="1046890226387914105" at="131,13,132,42" concept="2" />
+      <node id="1046890226387914110" at="132,42,133,112" concept="8" />
+      <node id="1046890226387914222" at="133,112,134,29" concept="10" />
+      <node id="5659623206271869647" at="134,29,135,47" concept="8" />
+      <node id="5659623206271891352" at="135,47,136,26" concept="8" />
+      <node id="5659623206271951096" at="137,59,138,33" concept="2" />
+      <node id="5659623206271923074" at="139,11,140,74" concept="8" />
+      <node id="1046890226387914135" at="140,74,141,93" concept="8" />
+      <node id="1046890226389041894" at="141,93,142,55" concept="2" />
+      <node id="1046890226387914148" at="142,55,143,27" concept="9" />
+      <node id="1046890226387914161" at="144,33,145,116" concept="14" />
+      <node id="1046890226387914166" at="147,17,148,35" concept="2" />
+      <node id="1046890226388753359" at="153,121,154,69" concept="8" />
+      <node id="1046890226388753366" at="154,69,155,67" concept="8" />
+      <node id="1046890226388753388" at="156,25,157,196" concept="14" />
+      <node id="1046890226388753412" at="159,73,160,254" concept="14" />
+      <node id="1046890226388753414" at="161,7,162,66" concept="8" />
+      <node id="1046890226388753419" at="162,66,163,20" concept="2" />
+      <node id="1046890226388753438" at="164,55,165,217" concept="14" />
+      <node id="1046890226388753440" at="167,11,168,84" concept="8" />
+      <node id="1046890226388753458" at="169,13,170,41" concept="8" />
+      <node id="1046890226388753463" at="170,41,171,76" concept="8" />
+      <node id="1046890226388753469" at="171,76,172,39" concept="2" />
+      <node id="1046890226388753472" at="172,39,173,40" concept="2" />
+      <node id="1046890226388753475" at="173,40,174,25" concept="2" />
+      <node id="1046890226388753479" at="175,19,176,41" concept="2" />
+      <node id="1046890226387914216" at="178,29,179,112" concept="14" />
+      <node id="8006535131967397798" at="186,61,187,47" concept="9" />
+      <node id="8006535131967434669" at="192,37,193,44" concept="9" />
+      <node id="8006535131967441270" at="202,36,203,41" concept="9" />
+      <node id="1046890226388509982" at="210,36,211,59" concept="14" />
+      <node id="1046890226388509984" at="212,5,213,63" concept="8" />
+      <node id="1046890226388509991" at="213,63,214,72" concept="8" />
+      <node id="1046890226388509998" at="214,72,215,122" concept="8" />
+      <node id="1046890226388510006" at="215,122,216,169" concept="8" />
+      <node id="1046890226388510015" at="216,169,217,43" concept="2" />
+      <node id="1046890226388510018" at="217,43,218,20" concept="9" />
+      <node id="1046890226388618762" at="224,70,225,50" concept="8" />
+      <node id="1046890226388618768" at="225,50,226,51" concept="8" />
+      <node id="1046890226389180409" at="226,51,227,103" concept="2" />
+      <node id="1046890226389180417" at="227,103,228,31" concept="2" />
+      <node id="1046890226389155942" at="232,102,233,107" concept="2" />
+      <node id="1046890226389155950" at="233,107,234,35" concept="2" />
+      <node id="8006535131967473919" at="238,55,239,93" concept="9" />
+      <node id="7358309956615000058" at="247,34,248,19" concept="9" />
+      <node id="7358309956615000083" at="249,5,250,16" concept="9" />
+      <node id="7358309956615000106" at="258,34,259,59" concept="14" />
+      <node id="1046890226389698381" at="260,5,261,78" concept="10" />
+      <node id="1046890226389688453" at="261,78,262,80" concept="8" />
+      <node id="1046890226389718916" at="262,80,263,77" concept="8" />
+      <node id="1046890226389721288" at="263,77,264,125" concept="8" />
+      <node id="1046890226389660854" at="264,125,265,49" concept="2" />
       <node id="7358309956614999760" at="59,0,61,0" concept="1" trace="TlaModelPersistence#()V" />
       <node id="1046890226387913962" at="82,0,84,0" concept="3" trace="mySource" />
       <node id="1046890226387913967" at="84,0,86,0" concept="3" trace="myFactory" />
-      <node id="7358309956614999799" at="72,152,75,5" concept="5" />
-      <node id="1046890226387914023" at="111,38,114,11" concept="5" />
-      <node id="5659623206271933867" at="138,26,141,11" concept="16" />
-      <node id="1046890226388753373" at="157,67,160,7" concept="5" />
-      <node id="1046890226388753389" at="160,7,163,7" concept="5" />
-      <node id="1046890226388753421" at="165,20,168,7" concept="5" />
-      <node id="1046890226388509973" at="213,184,216,5" concept="5" />
-      <node id="7358309956615000050" at="250,98,253,5" concept="5" />
-      <node id="7358309956615000096" at="261,114,264,5" concept="5" />
-      <node id="7358309956615000130" at="275,0,278,0" concept="6" trace="upgrade#(Lorg/jetbrains/mps/openapi/persistence/DataSource;)V" />
+      <node id="7358309956614999799" at="72,152,75,5" concept="6" />
+      <node id="5659623206271933867" at="136,26,139,11" concept="17" />
+      <node id="1046890226388753373" at="155,67,158,7" concept="6" />
+      <node id="1046890226388753389" at="158,7,161,7" concept="6" />
+      <node id="1046890226388753421" at="163,20,166,7" concept="6" />
+      <node id="1046890226388509973" at="209,184,212,5" concept="6" />
+      <node id="7358309956615000050" at="246,98,249,5" concept="6" />
+      <node id="7358309956615000096" at="257,114,260,5" concept="6" />
+      <node id="7358309956615000130" at="271,0,274,0" concept="7" trace="upgrade#(Lorg/jetbrains/mps/openapi/persistence/DataSource;)V" />
       <node id="1046890226387913972" at="87,0,91,0" concept="1" trace="TlaCustomPersistenceLoadFacility#(Lorg/jetbrains/mps/openapi/persistence/StreamDataSource;Lorg/jetbrains/mps/openapi/persistence/ModelFactory;)V" />
-      <node id="1046890226389423700" at="236,0,240,0" concept="12" trace="addRootAndImportTLALang0#(Ljetbrains/mps/smodel/SModel;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="8006535131967369447" at="241,0,245,0" concept="6" trace="supports#(Lorg/jetbrains/mps/openapi/persistence/DataSource;)Z" />
-      <node id="1046890226387913990" at="92,0,97,0" concept="6" trace="getModelFactory#()Lorg/jetbrains/mps/openapi/persistence/ModelFactory;" />
-      <node id="1046890226387913998" at="98,0,103,0" concept="6" trace="getSource#()Lorg/jetbrains/mps/openapi/persistence/StreamDataSource;" />
-      <node id="8006535131967369410" at="188,0,193,0" concept="6" trace="getPreferredDataSourceTypes#()Ljava/util/List;" />
-      <node id="8006535131967369420" at="194,0,199,0" concept="6" trace="getType#()Lorg/jetbrains/mps/openapi/persistence/ModelFactoryType;" />
-      <node id="8006535131967438303" at="204,0,209,0" concept="6" trace="getFormatTitle#()Ljava/lang/String;" />
-      <node id="1046890226389432546" at="228,0,234,0" concept="12" trace="addEmptyRootAndImportTLALang#(Ljetbrains/mps/extapi/model/SModelBase;)V" />
-      <node id="7358309956615000040" at="249,0,256,0" concept="6" trace="canCreate#(Lorg/jetbrains/mps/openapi/persistence/DataSource;Ljava/util/Map;)Z" />
-      <node id="7358309956614999786" at="70,0,79,0" concept="6" trace="load#(Lorg/jetbrains/mps/openapi/persistence/DataSource;null)Lorg/jetbrains/mps/openapi/model/SModel;" />
-      <node id="1046890226388753482" at="170,84,181,9" concept="15" />
-      <node id="7358309956615000087" at="260,0,271,0" concept="6" trace="save#(Lorg/jetbrains/mps/openapi/model/SModel;Lorg/jetbrains/mps/openapi/persistence/DataSource;)V" />
-      <node id="1046890226388125005" at="108,85,120,9" concept="15" />
-      <node id="8006535131967369389" at="211,0,224,0" concept="6" trace="create#(Lorg/jetbrains/mps/openapi/persistence/DataSource;Lorg/jetbrains/mps/openapi/model/SModelName;null)Lorg/jetbrains/mps/openapi/model/SModel;" />
-      <node id="1046890226387914217" at="168,7,184,7" concept="14" />
-      <node id="4331511922347883211" at="106,70,123,7" concept="14" />
-      <node id="1046890226387914162" at="131,11,148,9" concept="14" />
-      <node id="1046890226387914006" at="104,0,125,0" concept="6" trace="readHeader#()Ljetbrains/mps/extapi/model/SModelSimpleHeader;" />
-      <node id="1046890226387914181" at="130,61,151,7" concept="15" />
-      <node id="1046890226387914065" at="126,0,153,0" concept="6" trace="readModel#(Ljetbrains/mps/extapi/model/SModelSimpleHeader;)Ljetbrains/mps/extapi/model/SModelData;" />
-      <node id="1046890226387914185" at="154,0,186,0" concept="6" trace="writeModel#(Ljetbrains/mps/extapi/model/SModelSimpleHeader;Ljetbrains/mps/extapi/model/SModelData;)V" />
+      <node id="692767637043803265" at="111,29,115,9" concept="5" />
+      <node id="1046890226389423700" at="232,0,236,0" concept="13" trace="addRootAndImportTLALang0#(Ljetbrains/mps/smodel/SModel;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8006535131967369447" at="237,0,241,0" concept="7" trace="supports#(Lorg/jetbrains/mps/openapi/persistence/DataSource;)Z" />
+      <node id="1046890226387913990" at="92,0,97,0" concept="7" trace="getModelFactory#()Lorg/jetbrains/mps/openapi/persistence/ModelFactory;" />
+      <node id="1046890226387913998" at="98,0,103,0" concept="7" trace="getSource#()Lorg/jetbrains/mps/openapi/persistence/StreamDataSource;" />
+      <node id="8006535131967369410" at="184,0,189,0" concept="7" trace="getPreferredDataSourceTypes#()Ljava/util/List;" />
+      <node id="8006535131967369420" at="190,0,195,0" concept="7" trace="getType#()Lorg/jetbrains/mps/openapi/persistence/ModelFactoryType;" />
+      <node id="8006535131967438303" at="200,0,205,0" concept="7" trace="getFormatTitle#()Ljava/lang/String;" />
+      <node id="1046890226389432546" at="224,0,230,0" concept="13" trace="addEmptyRootAndImportTLALang#(Ljetbrains/mps/extapi/model/SModelBase;)V" />
+      <node id="7358309956615000040" at="245,0,252,0" concept="7" trace="canCreate#(Lorg/jetbrains/mps/openapi/persistence/DataSource;Ljava/util/Map;)Z" />
+      <node id="7358309956614999786" at="70,0,79,0" concept="7" trace="load#(Lorg/jetbrains/mps/openapi/persistence/DataSource;null)Lorg/jetbrains/mps/openapi/model/SModel;" />
+      <node id="1046890226388753482" at="168,84,177,9" concept="16" />
+      <node id="7358309956615000087" at="256,0,267,0" concept="7" trace="save#(Lorg/jetbrains/mps/openapi/model/SModel;Lorg/jetbrains/mps/openapi/persistence/DataSource;)V" />
+      <node id="8006535131967369389" at="207,0,220,0" concept="7" trace="create#(Lorg/jetbrains/mps/openapi/persistence/DataSource;Lorg/jetbrains/mps/openapi/model/SModelName;null)Lorg/jetbrains/mps/openapi/model/SModel;" />
+      <node id="1046890226387914217" at="166,7,180,7" concept="15" />
+      <node id="4331511922347883211" at="106,70,122,7" concept="15" />
+      <node id="1046890226387914162" at="130,11,146,9" concept="15" />
+      <node id="1046890226387914006" at="104,0,124,0" concept="7" trace="readHeader#()Ljetbrains/mps/extapi/model/SModelSimpleHeader;" />
+      <node id="1046890226387914181" at="129,61,149,7" concept="16" />
+      <node id="1046890226387914065" at="125,0,151,0" concept="7" trace="readModel#(Ljetbrains/mps/extapi/model/SModelSimpleHeader;)Ljetbrains/mps/extapi/model/SModelData;" />
+      <node id="1046890226387914185" at="152,0,182,0" concept="7" trace="writeModel#(Ljetbrains/mps/extapi/model/SModelSimpleHeader;Ljetbrains/mps/extapi/model/SModelData;)V" />
       <scope id="7358309956614999762" at="59,32,59,32" />
-      <scope id="7358309956615000135" at="276,74,276,74" />
+      <scope id="7358309956615000135" at="272,74,272,74" />
       <scope id="7358309956614999806" at="73,34,74,59" />
       <scope id="1046890226387913993" at="94,43,95,23" />
       <scope id="1046890226387914001" at="100,41,101,22" />
-      <scope id="1046890226387914032" at="112,69,113,99" />
-      <scope id="1046890226388125008" at="118,19,119,41" />
-      <scope id="4331511922347883207" at="121,0,122,94">
+      <scope id="4331511922347883207" at="120,0,121,94">
         <var name="e" id="4331511922347883209" />
       </scope>
-      <scope id="4331511922347883208" at="121,31,122,94" />
-      <scope id="5659623206271933869" at="139,59,140,27" />
-      <scope id="1046890226387914163" at="146,0,147,116">
+      <scope id="4331511922347883208" at="120,29,121,94" />
+      <scope id="5659623206271933869" at="137,59,138,33" />
+      <scope id="1046890226387914163" at="144,0,145,116">
         <var name="e" id="1046890226387914150" />
       </scope>
-      <scope id="1046890226387914154" at="146,33,147,116" />
-      <scope id="1046890226387914165" at="149,17,150,35" />
-      <scope id="1046890226388753378" at="158,25,159,196" />
-      <scope id="1046890226388753397" at="161,73,162,254" />
-      <scope id="1046890226388753426" at="166,55,167,217" />
-      <scope id="1046890226388753478" at="179,19,180,41" />
-      <scope id="1046890226387914218" at="182,0,183,112">
+      <scope id="1046890226387914154" at="144,33,145,116" />
+      <scope id="1046890226387914165" at="147,17,148,35" />
+      <scope id="1046890226388753378" at="156,25,157,196" />
+      <scope id="1046890226388753397" at="159,73,160,254" />
+      <scope id="1046890226388753426" at="164,55,165,217" />
+      <scope id="1046890226388753478" at="175,19,176,41" />
+      <scope id="1046890226387914218" at="178,0,179,112">
         <var name="e" id="1046890226387914205" />
       </scope>
-      <scope id="1046890226387914209" at="182,31,183,112" />
-      <scope id="8006535131967369416" at="190,61,191,47" />
-      <scope id="8006535131967369425" at="196,37,197,44" />
-      <scope id="8006535131967438308" at="206,36,207,41" />
-      <scope id="1046890226388509979" at="214,36,215,59" />
-      <scope id="8006535131967369454" at="242,55,243,93" />
-      <scope id="7358309956615000057" at="251,34,252,19" />
-      <scope id="7358309956615000103" at="262,34,263,59" />
+      <scope id="1046890226387914209" at="178,29,179,112" />
+      <scope id="8006535131967369416" at="186,61,187,47" />
+      <scope id="8006535131967369425" at="192,37,193,44" />
+      <scope id="8006535131967438308" at="202,36,203,41" />
+      <scope id="1046890226388509979" at="210,36,211,59" />
+      <scope id="8006535131967369454" at="238,55,239,93" />
+      <scope id="7358309956615000057" at="247,34,248,19" />
+      <scope id="7358309956615000103" at="258,34,259,59" />
       <scope id="7358309956614999760" at="59,0,61,0" />
       <scope id="1046890226387913980" at="87,110,89,26" />
-      <scope id="1046890226389155941" at="236,102,238,35" />
-      <scope id="7358309956615000130" at="275,0,278,0">
+      <scope id="692767637043803267" at="112,51,114,23" />
+      <scope id="1046890226389155941" at="232,102,234,35" />
+      <scope id="7358309956615000130" at="271,0,274,0">
         <var name="dataSource" id="7358309956615000132" />
       </scope>
       <scope id="1046890226387913972" at="87,0,91,0">
         <var name="factory" id="1046890226387913977" />
         <var name="source" id="1046890226387913974" />
       </scope>
-      <scope id="1046890226388618760" at="228,70,232,31">
+      <scope id="692767637043803265" at="111,29,115,9">
+        <var name="i" id="692767637043803268" />
+      </scope>
+      <scope id="1046890226388618760" at="224,70,228,31">
         <var name="name" id="1046890226388618761" />
         <var name="tlaFile" id="1046890226388618767" />
       </scope>
-      <scope id="1046890226389423700" at="236,0,240,0">
+      <scope id="1046890226389423700" at="232,0,236,0">
         <var name="modelData" id="1046890226389155937" />
         <var name="tlaFile" id="1046890226389155939" />
       </scope>
-      <scope id="8006535131967369447" at="241,0,245,0">
+      <scope id="8006535131967369447" at="237,0,241,0">
         <var name="source" id="8006535131967369451" />
       </scope>
-      <scope id="7358309956615000049" at="250,98,254,16" />
+      <scope id="7358309956615000049" at="246,98,250,16" />
       <scope id="7358309956614999798" at="72,152,77,105">
         <var name="facility" id="1046890226387907956" />
       </scope>
       <scope id="1046890226387913990" at="92,0,97,0" />
       <scope id="1046890226387913998" at="98,0,103,0" />
-      <scope id="8006535131967369410" at="188,0,193,0" />
-      <scope id="8006535131967369420" at="194,0,199,0" />
-      <scope id="8006535131967438303" at="204,0,209,0" />
-      <scope id="1046890226389432546" at="228,0,234,0">
-        <var name="model" id="1046890226388618758" />
-      </scope>
-      <scope id="1046890226388753445" at="171,13,178,25">
+      <scope id="1046890226388753445" at="169,13,174,25">
         <var name="auxByteStream" id="1046890226388753462" />
         <var name="content" id="1046890226388753457" />
-        <var name="ref" id="1046890226388753446" />
       </scope>
-      <scope id="7358309956615000040" at="249,0,256,0">
+      <scope id="8006535131967369410" at="184,0,189,0" />
+      <scope id="8006535131967369420" at="190,0,195,0" />
+      <scope id="8006535131967438303" at="200,0,205,0" />
+      <scope id="1046890226389432546" at="224,0,230,0">
+        <var name="model" id="1046890226388618758" />
+      </scope>
+      <scope id="7358309956615000040" at="245,0,252,0">
         <var name="dataSource" id="7358309956615000042" />
         <var name="options" id="7358309956615000044" />
       </scope>
-      <scope id="1046890226387914012" at="109,13,117,44">
-        <var name="firstLine" id="1046890226387914013" />
-        <var name="modelRef" id="1046890226387914036" />
-        <var name="mr" id="1046890226387914041" />
-        <var name="prefix" id="1046890226387914019" />
-      </scope>
-      <scope id="7358309956615000095" at="261,114,269,49">
+      <scope id="7358309956615000095" at="257,114,265,49">
         <var name="auxFacility" id="1046890226389721289" />
         <var name="modelData" id="1046890226389718917" />
         <var name="newHeader" id="1046890226389688454" />
@@ -282,74 +276,78 @@
         <var name="dataSource" id="7358309956614999789" />
         <var name="options" id="8006535131967369437" />
       </scope>
-      <scope id="8006535131967369406" at="213,184,222,20">
+      <scope id="8006535131967369406" at="209,184,218,20">
         <var name="facility" id="1046890226388509997" />
         <var name="id" id="1046890226388509983" />
         <var name="newModel" id="1046890226388510005" />
         <var name="ref" id="1046890226388509990" />
       </scope>
-      <scope id="7358309956615000087" at="260,0,271,0">
+      <scope id="1046890226387914196" at="167,11,177,9">
+        <var name="stream" id="1046890226388753439" />
+      </scope>
+      <scope id="7358309956615000087" at="256,0,267,0">
         <var name="dataSource" id="7358309956615000091" />
         <var name="model" id="7358309956615000089" />
       </scope>
-      <scope id="1046890226387914196" at="169,11,181,9">
-        <var name="stream" id="1046890226388753439" />
+      <scope id="4331511922347883212" at="107,11,119,102">
+        <var name="filename" id="692767637043772291" />
+        <var name="finalpath" id="692767637043755761" />
+        <var name="getLoc" id="692767637043709256" />
+        <var name="modelRef" id="692767637043671468" />
+        <var name="substringpath" id="692767637043728835" />
       </scope>
-      <scope id="4331511922347883212" at="107,11,120,9">
-        <var name="reader" id="1046890226388063933" />
-      </scope>
-      <scope id="1046890226387914104" at="132,13,145,27">
+      <scope id="1046890226387914104" at="131,13,143,27">
         <var name="modelData" id="1046890226387914134" />
         <var name="sb" id="5659623206271869648" />
         <var name="str" id="5659623206271891353" />
         <var name="streamReader" id="1046890226387914109" />
         <var name="tlaFile" id="5659623206271923075" />
       </scope>
-      <scope id="8006535131967369389" at="211,0,224,0">
+      <scope id="8006535131967369389" at="207,0,220,0">
         <var name="dataSource" id="8006535131967369394" />
         <var name="name" id="8006535131967369397" />
         <var name="options" id="8006535131967369400" />
       </scope>
-      <scope id="1046890226387914010" at="106,70,123,7" />
-      <scope id="1046890226387914082" at="131,11,148,9" />
-      <scope id="1046890226387914006" at="104,0,125,0" />
-      <scope id="1046890226387914072" at="128,95,151,7">
+      <scope id="1046890226387914010" at="106,70,122,7" />
+      <scope id="1046890226387914082" at="130,11,146,9" />
+      <scope id="1046890226387914006" at="104,0,124,0" />
+      <scope id="1046890226387914072" at="127,95,149,7">
         <var name="in" id="1046890226387914073" />
         <var name="reference" id="1046890226387914077" />
       </scope>
-      <scope id="1046890226387914065" at="126,0,153,0">
+      <scope id="1046890226387914065" at="125,0,151,0">
         <var name="header" id="1046890226387914068" />
       </scope>
-      <scope id="1046890226387914194" at="155,121,184,7">
+      <scope id="1046890226387914194" at="153,121,180,7">
         <var name="iterator" id="1046890226388753358" />
         <var name="root" id="1046890226388753365" />
         <var name="tu" id="1046890226388753413" />
       </scope>
-      <scope id="1046890226387914185" at="154,0,186,0">
+      <scope id="1046890226387914185" at="152,0,182,0">
         <var name="header" id="1046890226387914187" />
         <var name="modelData" id="1046890226387914190" />
       </scope>
-      <unit id="8006535131967437277" at="200,0,210,0" name="MpsPersistence.Persistence.TLA.TlaModelPersistence$TlaModelPersistenceType" />
-      <unit id="1046890226387913960" at="80,0,187,0" name="MpsPersistence.Persistence.TLA.TlaModelPersistence$TlaCustomPersistenceLoadFacility" />
-      <unit id="5889759139216224427" at="51,0,280,0" name="MpsPersistence.Persistence.TLA.TlaModelPersistence" />
+      <unit id="8006535131967437277" at="196,0,206,0" name="MpsPersistence.Persistence.TLA.TlaModelPersistence$TlaModelPersistenceType" />
+      <unit id="1046890226387913960" at="80,0,183,0" name="MpsPersistence.Persistence.TLA.TlaModelPersistence$TlaCustomPersistenceLoadFacility" />
+      <unit id="5889759139216224427" at="51,0,276,0" name="MpsPersistence.Persistence.TLA.TlaModelPersistence" />
     </file>
   </root>
   <root nodeRef="r:22a9051b-5c1c-4aec-a711-a48e1c7a5f80(MpsPersistence.Persistence.TLA)/~TLAPlusGrammarBaseVisitor">
     <file name="AntlrUnitVisitor.java">
-      <node id="384861153815336205" at="22,73,23,180" concept="7" />
-      <node id="384861153815326421" at="24,61,25,180" concept="7" />
+      <node id="384861153815336205" at="22,73,23,180" concept="8" />
+      <node id="384861153815326421" at="24,61,25,180" concept="8" />
       <node id="384861153815326427" at="25,180,26,85" concept="2" />
       <node id="384861153815326439" at="26,85,27,101" concept="2" />
-      <node id="5866387967695233678" at="28,5,29,20" concept="8" />
-      <node id="384861153811544773" at="33,69,34,174" concept="7" />
+      <node id="5866387967695233678" at="28,5,29,20" concept="9" />
+      <node id="384861153811544773" at="33,69,34,174" concept="8" />
       <node id="384861153811601833" at="34,174,35,94" concept="2" />
       <node id="384861153813785988" at="35,94,36,230" concept="2" />
-      <node id="384861153816194192" at="38,74,39,183" concept="7" />
+      <node id="384861153816194192" at="38,74,39,183" concept="8" />
       <node id="384861153815670762" at="39,183,40,103" concept="2" />
       <node id="384861153813110854" at="40,103,41,160" concept="2" />
       <node id="3378885719448140864" at="44,116,45,137" concept="2" />
-      <node id="5866387967695237140" at="46,5,47,22" concept="8" />
-      <node id="3378885719448191699" at="50,65,51,164" concept="7" />
+      <node id="5866387967695237140" at="46,5,47,22" concept="9" />
+      <node id="3378885719448191699" at="50,65,51,164" concept="8" />
       <node id="3378885719448520525" at="52,44,53,73" concept="2" />
       <node id="3378885719448619707" at="54,51,55,73" concept="2" />
       <node id="3378885719450477672" at="56,42,57,55" concept="2" />
@@ -357,7 +355,7 @@
       <node id="3378885719450523374" at="60,38,61,47" concept="2" />
       <node id="3378885719450552779" at="62,41,63,165" concept="2" />
       <node id="5962897251890695123" at="63,165,64,87" concept="2" />
-      <node id="3378885719450596885" at="64,87,65,44" concept="9" />
+      <node id="3378885719450596885" at="64,87,65,44" concept="10" />
       <node id="3378885719450969023" at="67,32,68,181" concept="2" />
       <node id="3378885719450971381" at="68,181,69,127" concept="2" />
       <node id="3378885719450638382" at="70,14,71,73" concept="2" />
@@ -371,23 +369,23 @@
       <node id="3378885719451095100" at="89,179,90,124" concept="2" />
       <node id="3378885719451095122" at="91,14,92,69" concept="2" />
       <node id="2218580622050782710" at="94,39,95,163" concept="2" />
-      <node id="4539445440479929988" at="95,163,96,43" concept="7" />
+      <node id="4539445440479929988" at="95,163,96,43" concept="8" />
       <node id="3372285084127931011" at="96,43,97,95" concept="2" />
-      <node id="3378885719448205988" at="98,5,99,14" concept="8" />
-      <node id="3378885719451240872" at="103,77,104,174" concept="7" />
-      <node id="3378885719451222508" at="105,61,106,19" concept="7" />
+      <node id="3378885719448205988" at="98,5,99,14" concept="9" />
+      <node id="3378885719451240872" at="103,77,104,174" concept="8" />
+      <node id="3378885719451222508" at="105,61,106,19" concept="8" />
       <node id="3378885719451222514" at="106,19,107,52" concept="2" />
       <node id="3378885719451222526" at="107,52,108,111" concept="2" />
-      <node id="5866387967695246901" at="109,5,110,18" concept="8" />
-      <node id="3378885719448641904" at="113,95,114,183" concept="7" />
-      <node id="3378885719449525193" at="114,183,115,69" concept="7" />
+      <node id="5866387967695246901" at="109,5,110,18" concept="9" />
+      <node id="3378885719448641904" at="113,95,114,183" concept="8" />
+      <node id="3378885719449525193" at="114,183,115,69" concept="8" />
       <node id="3378885719449551064" at="115,69,116,65" concept="2" />
-      <node id="5866387967695253188" at="116,65,117,18" concept="8" />
-      <node id="3378885719448573879" at="120,95,121,183" concept="7" />
-      <node id="3378885719451349780" at="121,183,122,61" concept="7" />
+      <node id="5866387967695253188" at="116,65,117,18" concept="9" />
+      <node id="3378885719448573879" at="120,95,121,183" concept="8" />
+      <node id="3378885719451349780" at="121,183,122,61" concept="8" />
       <node id="3378885719451373279" at="122,61,123,66" concept="2" />
-      <node id="5866387967695256658" at="123,66,124,18" concept="8" />
-      <node id="3378885719458150812" at="127,93,128,185" concept="7" />
+      <node id="5866387967695256658" at="123,66,124,18" concept="9" />
+      <node id="3378885719458150812" at="127,93,128,185" concept="8" />
       <node id="3378885719458190689" at="128,185,129,103" concept="2" />
       <node id="3378885719458769076" at="130,34,131,102" concept="2" />
       <node id="3378885719459089828" at="132,40,133,218" concept="2" />
@@ -420,40 +418,40 @@
       <node id="3378885719458617094" at="167,220,168,277" concept="2" />
       <node id="3378885719458617105" at="168,277,169,199" concept="2" />
       <node id="3378885719459180680" at="169,199,170,140" concept="2" />
-      <node id="5866387967695257297" at="172,5,173,21" concept="8" />
-      <node id="3378885719460200735" at="176,95,177,48" concept="7" />
+      <node id="5866387967695257297" at="172,5,173,21" concept="9" />
+      <node id="3378885719460200735" at="176,95,177,48" concept="8" />
       <node id="3378885719460342862" at="178,61,179,103" concept="2" />
-      <node id="5866387967695260761" at="180,5,181,18" concept="8" />
-      <node id="3378885719459597261" at="184,93,185,36" concept="9" />
-      <node id="3378885719459708697" at="185,36,186,184" concept="7" />
+      <node id="5866387967695260761" at="180,5,181,18" concept="9" />
+      <node id="3378885719459597261" at="184,93,185,36" concept="10" />
+      <node id="3378885719459708697" at="185,36,186,184" concept="8" />
       <node id="3378885719459752964" at="186,184,187,102" concept="2" />
       <node id="3378885719459808543" at="187,102,188,84" concept="2" />
       <node id="3378885719459873813" at="188,84,189,197" concept="2" />
-      <node id="5866387967695267064" at="189,197,190,20" concept="8" />
-      <node id="3378885719462041958" at="193,89,194,49" concept="7" />
+      <node id="5866387967695267064" at="189,197,190,20" concept="9" />
+      <node id="3378885719462041958" at="193,89,194,49" concept="8" />
       <node id="3378885719462240352" at="195,61,196,98" concept="2" />
-      <node id="5866387967695270542" at="197,5,198,19" concept="8" />
-      <node id="3378885719461438945" at="201,73,202,44" concept="9" />
-      <node id="3378885719461506418" at="202,44,203,170" concept="7" />
+      <node id="5866387967695270542" at="197,5,198,19" concept="9" />
+      <node id="3378885719461438945" at="201,73,202,44" concept="10" />
+      <node id="3378885719461506418" at="202,44,203,170" concept="8" />
       <node id="3378885719461806479" at="204,29,205,75" concept="2" />
       <node id="4127923557196854410" at="206,12,207,81" concept="2" />
       <node id="3378885719461874864" at="209,41,210,186" concept="2" />
-      <node id="5866387967695274022" at="211,5,212,16" concept="8" />
-      <node id="3378885719464125597" at="215,89,216,180" concept="7" />
+      <node id="5866387967695274022" at="211,5,212,16" concept="9" />
+      <node id="3378885719464125597" at="215,89,216,180" concept="8" />
       <node id="3378885719464217835" at="216,180,217,100" concept="2" />
       <node id="3378885719464311303" at="217,100,218,103" concept="2" />
-      <node id="5866387967695277504" at="218,103,219,18" concept="8" />
-      <node id="3378885719457562150" at="222,77,223,175" concept="7" />
+      <node id="5866387967695277504" at="218,103,219,18" concept="9" />
+      <node id="3378885719457562150" at="222,77,223,175" concept="8" />
       <node id="3378885719457970767" at="223,175,224,212" concept="2" />
       <node id="3378885719457937393" at="225,55,226,137" concept="2" />
       <node id="3378885719457944751" at="227,66,228,141" concept="2" />
       <node id="3378885719457950574" at="229,61,230,136" concept="2" />
       <node id="3378885719457658912" at="231,5,232,101" concept="2" />
-      <node id="5866387967695281436" at="232,101,233,19" concept="8" />
-      <node id="3378885719458048029" at="236,71,237,173" concept="7" />
+      <node id="5866387967695281436" at="232,101,233,19" concept="9" />
+      <node id="3378885719458048029" at="236,71,237,173" concept="8" />
       <node id="3378885719458074285" at="237,173,238,102" concept="2" />
-      <node id="5866387967695284922" at="238,102,239,20" concept="8" />
-      <node id="3378885719451399024" at="242,69,243,170" concept="7" />
+      <node id="5866387967695284922" at="238,102,239,20" concept="9" />
+      <node id="3378885719451399024" at="242,69,243,170" concept="8" />
       <node id="3378885719451634255" at="244,32,245,191" concept="2" />
       <node id="3378885719451635686" at="245,191,246,163" concept="2" />
       <node id="3378885719451661563" at="247,41,248,183" concept="2" />
@@ -482,18 +480,18 @@
       <node id="3378885719455259714" at="280,231,281,153" concept="2" />
       <node id="3378885719451757817" at="282,14,283,176" concept="2" />
       <node id="3378885719451758960" at="283,176,284,96" concept="2" />
-      <node id="5866387967695291900" at="286,5,287,18" concept="8" />
-      <node id="3378885719462337084" at="291,75,292,170" concept="7" />
+      <node id="5866387967695291900" at="286,5,287,18" concept="9" />
+      <node id="3378885719462337084" at="291,75,292,170" concept="8" />
       <node id="3378885719462460631" at="292,170,293,79" concept="2" />
       <node id="3378885719462873186" at="294,35,295,222" concept="2" />
-      <node id="5866387967695298878" at="296,5,297,15" concept="8" />
-      <node id="3378885719460417590" at="300,87,301,175" concept="7" />
+      <node id="5866387967695298878" at="296,5,297,15" concept="9" />
+      <node id="3378885719460417590" at="300,87,301,175" concept="8" />
       <node id="3378885719460496425" at="301,175,302,96" concept="2" />
-      <node id="3378885719460648540" at="302,96,303,29" concept="9" />
+      <node id="3378885719460648540" at="302,96,303,29" concept="10" />
       <node id="3378885719460810286" at="304,39,305,105" concept="2" />
       <node id="3378885719460856623" at="306,49,307,111" concept="2" />
-      <node id="5866387967695302374" at="308,5,309,14" concept="8" />
-      <node id="9150185381761598012" at="312,81,313,173" concept="7" />
+      <node id="5866387967695302374" at="308,5,309,14" concept="9" />
+      <node id="9150185381761598012" at="312,81,313,173" concept="8" />
       <node id="9150185381761707540" at="313,173,314,92" concept="2" />
       <node id="9150185381762097258" at="315,32,316,99" concept="2" />
       <node id="9150185381762097293" at="317,41,318,103" concept="2" />
@@ -510,95 +508,95 @@
       <node id="9150185381762097629" at="335,220,336,152" concept="2" />
       <node id="9150185381762097644" at="337,14,338,222" concept="2" />
       <node id="9150185381762097650" at="338,222,339,143" concept="2" />
-      <node id="5866387967695308735" at="341,5,342,15" concept="8" />
-      <node id="9150185381763379095" at="345,73,346,169" concept="7" />
+      <node id="5866387967695308735" at="341,5,342,15" concept="9" />
+      <node id="9150185381763379095" at="345,73,346,169" concept="8" />
       <node id="9150185381763417385" at="347,35,348,56" concept="2" />
       <node id="9150185381763506129" at="349,46,350,64" concept="2" />
       <node id="9150185381763550910" at="351,48,352,68" concept="2" />
       <node id="9150185381763606157" at="353,47,354,66" concept="2" />
-      <node id="5866387967695315100" at="355,5,356,15" concept="8" />
-      <node id="9150185381763724401" at="359,85,360,50" concept="7" />
+      <node id="5866387967695315100" at="355,5,356,15" concept="9" />
+      <node id="9150185381763724401" at="359,85,360,50" concept="8" />
       <node id="9150185381763960880" at="361,61,362,95" concept="2" />
-      <node id="5866387967695318602" at="363,5,364,20" concept="8" />
-      <node id="5962897251887260726" at="367,97,368,181" concept="7" />
+      <node id="5866387967695318602" at="363,5,364,20" concept="9" />
+      <node id="5962897251887260726" at="367,97,368,181" concept="8" />
       <node id="5962897251887401026" at="368,181,369,79" concept="2" />
       <node id="5962897251887673897" at="370,39,371,174" concept="2" />
-      <node id="5962897251886615180" at="372,5,373,15" concept="8" />
-      <node id="5962897251886711382" at="376,85,377,178" concept="7" />
+      <node id="5962897251886615180" at="372,5,373,15" concept="9" />
+      <node id="5962897251886711382" at="376,85,377,178" concept="8" />
       <node id="5962897251887085334" at="378,51,379,173" concept="2" />
-      <node id="5866387967695322106" at="380,5,381,18" concept="8" />
-      <node id="9150185381764288480" at="384,91,385,178" concept="7" />
+      <node id="5866387967695322106" at="380,5,381,18" concept="9" />
+      <node id="9150185381764288480" at="384,91,385,178" concept="8" />
       <node id="9150185381764435900" at="385,178,386,79" concept="2" />
       <node id="9150185381764554535" at="387,39,388,117" concept="2" />
-      <node id="5866387967695325612" at="389,5,390,15" concept="8" />
-      <node id="9150185381764667924" at="393,87,394,177" concept="7" />
+      <node id="5866387967695325612" at="389,5,390,15" concept="9" />
+      <node id="9150185381764667924" at="393,87,394,177" concept="8" />
       <node id="9150185381764907171" at="394,177,395,98" concept="2" />
       <node id="9150185381764794640" at="396,39,397,118" concept="2" />
-      <node id="5866387967695329120" at="398,5,399,16" concept="8" />
-      <node id="9150185381765010696" at="402,85,403,175" concept="7" />
-      <node id="9150185381765218457" at="403,175,404,57" concept="7" />
+      <node id="5866387967695329120" at="398,5,399,16" concept="9" />
+      <node id="9150185381765010696" at="402,85,403,175" concept="8" />
+      <node id="9150185381765218457" at="403,175,404,57" concept="8" />
       <node id="9150185381765093400" at="404,57,405,117" concept="2" />
       <node id="9150185381765323814" at="406,39,407,117" concept="2" />
-      <node id="5866387967695332630" at="408,5,409,15" concept="8" />
-      <node id="9150185381765526883" at="412,89,413,177" concept="7" />
-      <node id="9150185381765743361" at="413,177,414,61" concept="7" />
+      <node id="5866387967695332630" at="408,5,409,15" concept="9" />
+      <node id="9150185381765526883" at="412,89,413,177" concept="8" />
+      <node id="9150185381765743361" at="413,177,414,61" concept="8" />
       <node id="9150185381765659067" at="414,61,415,121" concept="2" />
       <node id="9150185381765909212" at="416,39,417,117" concept="2" />
-      <node id="5866387967695339019" at="418,5,419,15" concept="8" />
-      <node id="1518897677846553605" at="422,71,423,171" concept="7" />
+      <node id="5866387967695339019" at="418,5,419,15" concept="9" />
+      <node id="1518897677846553605" at="422,71,423,171" concept="8" />
       <node id="1518897677847415088" at="423,171,424,102" concept="2" />
       <node id="1518897677847700604" at="424,102,425,102" concept="2" />
-      <node id="5866387967695345404" at="425,102,426,18" concept="8" />
-      <node id="1518897677848039166" at="429,91,430,49" concept="7" />
-      <node id="1518897677850095304" at="430,49,431,174" concept="7" />
+      <node id="5866387967695345404" at="425,102,426,18" concept="9" />
+      <node id="1518897677848039166" at="429,91,430,49" concept="8" />
+      <node id="1518897677850095304" at="430,49,431,174" concept="8" />
       <node id="1518897677850322897" at="432,30,433,83" concept="2" />
       <node id="4127923557195721431" at="434,12,435,89" concept="2" />
       <node id="1518897677850590384" at="436,5,437,98" concept="2" />
       <node id="1518897677850823874" at="437,98,438,51" concept="2" />
-      <node id="1518897677851708271" at="439,61,440,177" concept="7" />
+      <node id="1518897677851708271" at="439,61,440,177" concept="8" />
       <node id="1518897677851710347" at="441,36,442,90" concept="2" />
       <node id="4127923557195835025" at="443,14,444,96" concept="2" />
       <node id="1518897677851732398" at="445,7,446,105" concept="2" />
       <node id="1518897677851751151" at="446,105,447,54" concept="2" />
-      <node id="5866387967695348920" at="448,5,449,19" concept="8" />
-      <node id="1518897677848373385" at="452,91,453,49" concept="7" />
-      <node id="1518897677851834366" at="453,49,454,174" concept="7" />
+      <node id="5866387967695348920" at="448,5,449,19" concept="9" />
+      <node id="1518897677848373385" at="452,91,453,49" concept="8" />
+      <node id="1518897677851834366" at="453,49,454,174" concept="8" />
       <node id="1518897677851939047" at="455,30,456,83" concept="2" />
       <node id="4127923557196271286" at="457,12,458,89" concept="2" />
       <node id="1518897677852192159" at="459,5,460,98" concept="2" />
       <node id="1518897677852381019" at="460,98,461,51" concept="2" />
-      <node id="1518897677852511088" at="462,61,463,177" concept="7" />
+      <node id="1518897677852511088" at="462,61,463,177" concept="8" />
       <node id="1518897677852511094" at="464,36,465,90" concept="2" />
       <node id="4127923557196394578" at="466,14,467,96" concept="2" />
       <node id="1518897677852511107" at="468,7,469,105" concept="2" />
       <node id="1518897677852511120" at="469,105,470,54" concept="2" />
-      <node id="5866387967695355321" at="471,5,472,19" concept="8" />
-      <node id="4450754664371345120" at="475,103,476,219" concept="7" />
+      <node id="5866387967695355321" at="471,5,472,19" concept="9" />
+      <node id="4450754664371345120" at="475,103,476,219" concept="8" />
       <node id="4450754664372311804" at="477,62,478,168" concept="2" />
       <node id="4450754664372340909" at="479,31,480,93" concept="2" />
       <node id="4127923557195224223" at="481,14,482,99" concept="2" />
       <node id="4450754664372338652" at="484,49,485,169" concept="2" />
       <node id="4450754664372440774" at="485,169,486,186" concept="2" />
-      <node id="4450754664370484774" at="487,5,488,14" concept="8" />
-      <node id="5077893705641106651" at="491,87,492,48" concept="7" />
+      <node id="4450754664370484774" at="487,5,488,14" concept="9" />
+      <node id="5077893705641106651" at="491,87,492,48" concept="8" />
       <node id="4450754664371169483" at="493,51,494,119" concept="2" />
-      <node id="4463978932502220283" at="495,5,496,18" concept="8" />
-      <node id="1518897677848668265" at="499,77,500,48" concept="7" />
-      <node id="4463978932502670887" at="500,48,501,170" concept="7" />
+      <node id="4463978932502220283" at="495,5,496,18" concept="9" />
+      <node id="1518897677848668265" at="499,77,500,48" concept="8" />
+      <node id="4463978932502670887" at="500,48,501,170" concept="8" />
       <node id="4463978932502876808" at="501,170,502,96" concept="2" />
       <node id="4463978932503135730" at="502,96,503,175" concept="2" />
       <node id="4463978932503608760" at="503,175,504,49" concept="2" />
-      <node id="5077893705640788464" at="505,57,506,173" concept="7" />
+      <node id="5077893705640788464" at="505,57,506,173" concept="8" />
       <node id="5077893705640789652" at="506,173,507,103" concept="2" />
       <node id="5077893705640831981" at="507,103,508,182" concept="2" />
       <node id="5077893705640927647" at="508,182,509,52" concept="2" />
-      <node id="5866387967695358841" at="510,5,511,18" concept="8" />
-      <node id="1518897677858157407" at="514,65,515,215" concept="7" />
+      <node id="5866387967695358841" at="510,5,511,18" concept="9" />
+      <node id="1518897677858157407" at="514,65,515,215" concept="8" />
       <node id="1518897677858280284" at="516,43,517,72" concept="2" />
       <node id="1518897677858311819" at="518,48,519,68" concept="2" />
       <node id="1518897677858457037" at="520,50,521,72" concept="2" />
-      <node id="1518897677856246123" at="522,5,523,15" concept="8" />
-      <node id="5962897251891191238" at="526,77,527,172" concept="7" />
+      <node id="1518897677856246123" at="522,5,523,15" concept="9" />
+      <node id="5962897251891191238" at="526,77,527,172" concept="8" />
       <node id="5962897251891227202" at="528,71,529,71" concept="2" />
       <node id="5962897251891592707" at="530,134,531,181" concept="2" />
       <node id="5962897251891238757" at="531,181,532,129" concept="2" />
@@ -630,18 +628,18 @@
       <node id="5962897251892377464" at="578,125,579,177" concept="2" />
       <node id="5962897251892398254" at="580,47,581,122" concept="2" />
       <node id="5962897251892404586" at="581,122,582,288" concept="2" />
-      <node id="5962897251892430651" at="583,58,584,181" concept="7" />
+      <node id="5962897251892430651" at="583,58,584,181" concept="8" />
       <node id="5962897251892432059" at="584,181,585,110" concept="2" />
       <node id="5962897251892440100" at="585,110,586,133" concept="2" />
       <node id="5962897251892419778" at="586,133,587,79" concept="2" />
-      <node id="5962897251892455003" at="588,16,589,191" concept="7" />
+      <node id="5962897251892455003" at="588,16,589,191" concept="8" />
       <node id="5962897251892457769" at="589,191,590,111" concept="2" />
       <node id="5962897251892461063" at="590,111,591,103" concept="2" />
       <node id="5962897251892378636" at="593,14,594,122" concept="2" />
-      <node id="5962897251892482552" at="595,58,596,181" concept="7" />
+      <node id="5962897251892482552" at="595,58,596,181" concept="8" />
       <node id="5962897251892482571" at="596,181,597,133" concept="2" />
       <node id="5962897251892482585" at="597,133,598,79" concept="2" />
-      <node id="5962897251892482603" at="599,16,600,191" concept="7" />
+      <node id="5962897251892482603" at="599,16,600,191" concept="8" />
       <node id="5962897251892482622" at="600,191,601,103" concept="2" />
       <node id="5962897251892495761" at="604,71,605,165" concept="2" />
       <node id="5962897251892902474" at="606,41,607,191" concept="2" />
@@ -672,7 +670,7 @@
       <node id="5962897251893609783" at="641,173,642,183" concept="2" />
       <node id="5962897251893696279" at="643,41,644,173" concept="2" />
       <node id="5962897251893714870" at="644,173,645,110" concept="2" />
-      <node id="5962897251893741404" at="646,63,647,173" concept="7" />
+      <node id="5962897251893741404" at="646,63,647,173" concept="8" />
       <node id="5962897251893743682" at="647,173,648,105" concept="2" />
       <node id="5962897251893725454" at="648,105,649,111" concept="2" />
       <node id="5962897251894139362" at="651,78,652,174" concept="2" />
@@ -692,13 +690,13 @@
       <node id="5962897251894381087" at="671,112,672,112" concept="2" />
       <node id="5962897251894451523" at="673,36,674,162" concept="2" />
       <node id="5962897251894452436" at="674,162,675,108" concept="2" />
-      <node id="5962897251894529821" at="677,65,678,184" concept="7" />
+      <node id="5962897251894529821" at="677,65,678,184" concept="8" />
       <node id="5962897251894532995" at="678,184,679,106" concept="2" />
       <node id="5962897251894487046" at="679,106,680,123" concept="2" />
-      <node id="5962897251894546623" at="683,65,684,184" concept="7" />
+      <node id="5962897251894546623" at="683,65,684,184" concept="8" />
       <node id="5962897251894546629" at="684,184,685,106" concept="2" />
       <node id="5962897251894546644" at="685,106,686,123" concept="2" />
-      <node id="5962897251894566386" at="687,9,688,170" concept="7" />
+      <node id="5962897251894566386" at="687,9,688,170" concept="8" />
       <node id="5962897251894569640" at="688,170,689,102" concept="2" />
       <node id="5962897251894560313" at="689,102,690,81" concept="2" />
       <node id="1518897677844854895" at="692,78,693,161" concept="2" />
@@ -706,11 +704,11 @@
       <node id="1518897677845078380" at="695,59,696,136" concept="2" />
       <node id="1518897677845003127" at="697,7,698,66" concept="2" />
       <node id="1518897677845992450" at="699,47,700,180" concept="2" />
-      <node id="1518897677846322968" at="701,57,702,183" concept="7" />
+      <node id="1518897677846322968" at="701,57,702,183" concept="8" />
       <node id="1518897677846324337" at="702,183,703,103" concept="2" />
       <node id="1518897677846203190" at="703,103,704,109" concept="2" />
       <node id="1518897677846409615" at="706,47,707,180" concept="2" />
-      <node id="1518897677846410669" at="708,57,709,184" concept="7" />
+      <node id="1518897677846410669" at="708,57,709,184" concept="8" />
       <node id="1518897677846410675" at="709,184,710,103" concept="2" />
       <node id="1518897677846410688" at="710,103,711,109" concept="2" />
       <node id="1518897677845900309" at="713,35,714,168" concept="2" />
@@ -718,25 +716,25 @@
       <node id="1518897677845795578" at="716,38,717,168" concept="2" />
       <node id="1518897677845836219" at="717,168,718,86" concept="2" />
       <node id="1518897677845792372" at="719,34,720,169" concept="2" />
-      <node id="5866387967695362363" at="721,5,722,16" concept="8" />
-      <node id="384861153814447436" at="725,85,726,178" concept="7" />
-      <node id="384861153814876207" at="727,61,728,180" concept="7" />
+      <node id="5866387967695362363" at="721,5,722,16" concept="9" />
+      <node id="384861153814447436" at="725,85,726,178" concept="8" />
+      <node id="384861153814876207" at="727,61,728,180" concept="8" />
       <node id="384861153814883355" at="728,180,729,85" concept="2" />
       <node id="384861153814911336" at="729,85,730,99" concept="2" />
-      <node id="5866387967695365887" at="731,5,732,18" concept="8" />
-      <node id="3378885719460899254" at="735,91,736,226" concept="7" />
+      <node id="5866387967695365887" at="731,5,732,18" concept="9" />
+      <node id="3378885719460899254" at="735,91,736,226" concept="8" />
       <node id="3378885719461005038" at="737,34,738,166" concept="2" />
       <node id="3378885719461008001" at="738,166,739,123" concept="2" />
       <node id="3378885719461312000" at="740,42,741,175" concept="2" />
       <node id="3378885719461323445" at="741,175,742,95" concept="2" />
-      <node id="5866387967695369413" at="743,5,744,19" concept="8" />
-      <node id="3378885719451964715" at="747,73,748,176" concept="7" />
+      <node id="5866387967695369413" at="743,5,744,19" concept="9" />
+      <node id="3378885719451964715" at="747,73,748,176" concept="8" />
       <node id="3378885719452098993" at="749,31,750,104" concept="2" />
       <node id="3378885719454046397" at="751,52,752,105" concept="2" />
       <node id="3378885719454446313" at="753,134,754,101" concept="2" />
       <node id="3378885719454559416" at="755,51,756,102" concept="2" />
-      <node id="5866387967695372941" at="757,5,758,18" concept="8" />
-      <node id="3378885719452174320" at="761,71,762,175" concept="7" />
+      <node id="5866387967695372941" at="757,5,758,18" concept="9" />
+      <node id="3378885719452174320" at="761,71,762,175" concept="8" />
       <node id="3378885719456073874" at="763,45,764,101" concept="2" />
       <node id="3378885719456091213" at="765,46,766,101" concept="2" />
       <node id="3378885719456107453" at="767,37,768,101" concept="2" />
@@ -837,149 +835,149 @@
       <node id="3378885719457018914" at="958,59,959,103" concept="2" />
       <node id="3378885719457030274" at="960,59,961,103" concept="2" />
       <node id="3378885719457038939" at="962,62,963,104" concept="2" />
-      <node id="5866387967695379366" at="965,5,966,18" concept="8" />
-      <node id="3378885719452576922" at="969,75,970,177" concept="7" />
+      <node id="5866387967695379366" at="965,5,966,18" concept="9" />
+      <node id="3378885719452576922" at="969,75,970,177" concept="8" />
       <node id="3378885719455745622" at="971,45,972,101" concept="2" />
       <node id="3378885719455789822" at="973,52,974,101" concept="2" />
       <node id="3378885719455823626" at="975,52,976,101" concept="2" />
       <node id="3378885719455857087" at="977,51,978,101" concept="2" />
-      <node id="5866387967695386054" at="979,5,980,18" concept="8" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="984,0,985,0" concept="11" trace="ID$ll3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="985,0,986,0" concept="11" trace="ModuleName$iAUB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="986,0,987,0" concept="11" trace="ModuleName$Lfj0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="987,0,988,0" concept="11" trace="sep$Oove" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="988,0,989,0" concept="11" trace="com$uSA" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="989,0,990,0" concept="11" trace="ID$96Yw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="990,0,991,0" concept="11" trace="ID1$9c_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="991,0,992,0" concept="11" trace="ID2$9cAu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="992,0,993,0" concept="11" trace="InfixOp$9cO2" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="993,0,994,0" concept="11" trace="InfixOp$R0p0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="994,0,995,0" concept="11" trace="ID$9dL0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="995,0,996,0" concept="11" trace="PostfixOp$9dLY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="996,0,997,0" concept="11" trace="PrefixOp$QUQw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="997,0,998,0" concept="11" trace="ID$9rR0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="998,0,999,0" concept="11" trace="Name$PEBZ" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="999,0,1000,0" concept="11" trace="Axiom$R86b" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1000,0,1001,0" concept="11" trace="InfixOp$eE2F" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1001,0,1002,0" concept="11" trace="PostfixOp$eDmw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1002,0,1003,0" concept="11" trace="PostfixOp$R0Q0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1003,0,1004,0" concept="11" trace="OpId$vrV0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1004,0,1005,0" concept="11" trace="ID$h$Dw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1005,0,1006,0" concept="11" trace="ID$Rfqu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1006,0,1007,0" concept="11" trace="ID$gqRE" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1007,0,1008,0" concept="11" trace="InfixOp$gwW6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1008,0,1009,0" concept="11" trace="PostfixOp$gxrA" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1009,0,1010,0" concept="11" trace="NameProperty$FGtw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1010,0,1011,0" concept="11" trace="NameProperty$Y6Uw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1011,0,1012,0" concept="11" trace="NameProperty$YdG0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1012,0,1013,0" concept="11" trace="EorA$Sw1$" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1013,0,1014,0" concept="11" trace="EorA$SB40" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1014,0,1015,0" concept="11" trace="ID$2Job" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1015,0,1016,0" concept="11" trace="WFSF$X2w6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1016,0,1017,0" concept="11" trace="Number$FNWw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1017,0,1018,0" concept="11" trace="Str$FNEw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1021,0,1022,0" concept="11" trace="ID$llx0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1022,0,1023,0" concept="11" trace="SetOfModuleNames$Bn0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1023,0,1024,0" concept="11" trace="ListM$Vevw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1024,0,1025,0" concept="11" trace="SetOfUnits$fqCa" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1025,0,1026,0" concept="11" trace="OpDef$GiEw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1026,0,1027,0" concept="11" trace="FDef$Giaw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1027,0,1028,0" concept="11" trace="Instance$iKCK" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1028,0,1029,0" concept="11" trace="ModDef$8ulG" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1029,0,1030,0" concept="11" trace="OpDeclarations$75Cw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1030,0,1031,0" concept="11" trace="IDList$Xpjd" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1031,0,1032,0" concept="11" trace="OpDeclL$PA7w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1032,0,1033,0" concept="11" trace="Expr$96eD" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1033,0,1034,0" concept="11" trace="LHS$963w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1034,0,1035,0" concept="11" trace="PrefixOp$o_PB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1035,0,1036,0" concept="11" trace="Expr$9s37" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1036,0,1037,0" concept="11" trace="QuantifierBound$9s29" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1037,0,1038,0" concept="11" trace="Substitution$PF$y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1038,0,1039,0" concept="11" trace="Instance$yUit" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1039,0,1040,0" concept="11" trace="NonFixLHS$uPR7" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1040,0,1041,0" concept="11" trace="Axiom$R8rY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1041,0,1042,0" concept="11" trace="Expr$R8sW" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1042,0,1043,0" concept="11" trace="Expr$R270" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1043,0,1044,0" concept="11" trace="PrefixOp$_Bcn" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1044,0,1045,0" concept="11" trace="SetOfOpDecl$E0N2" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1045,0,1046,0" concept="11" trace="Expr$9k_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1046,0,1047,0" concept="11" trace="IDs$9k$y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1047,0,1048,0" concept="11" trace="Arg$KZn6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1048,0,1049,0" concept="11" trace="substitLHS$KYGu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1049,0,1050,0" concept="11" trace="Exprs$RfPA" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1050,0,1051,0" concept="11" trace="InstancePrefixList$ReYU" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1051,0,1052,0" concept="11" trace="InstancePrefix$gqQG" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1052,0,1053,0" concept="11" trace="PrefixOp$2zjg" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1053,0,1054,0" concept="11" trace="InstancePrefix$grn6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1054,0,1055,0" concept="11" trace="InstancePrefix$gwX4" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1055,0,1056,0" concept="11" trace="InstancePrefix$gxs$" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1056,0,1057,0" concept="11" trace="Expr1$138w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1057,0,1058,0" concept="11" trace="Expr2$18eY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1058,0,1059,0" concept="11" trace="Expr$FGCD" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1059,0,1060,0" concept="11" trace="Expr$Y6Vu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1060,0,1061,0" concept="11" trace="ExprList$Yec0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1061,0,1062,0" concept="11" trace="Expr$M79" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1062,0,1063,0" concept="11" trace="OneOrMore$LW0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1063,0,1064,0" concept="11" trace="GeneralID$nVRw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1064,0,1065,0" concept="11" trace="Args$nVSu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1065,0,1066,0" concept="11" trace="Expr$o2aY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1066,0,1067,0" concept="11" trace="GPrefixOp$o2a0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1067,0,1068,0" concept="11" trace="Expr1$So6u" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1068,0,1069,0" concept="11" trace="Expr2$SohB" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1069,0,1070,0" concept="11" trace="GInfixOp$Soj4" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1070,0,1071,0" concept="11" trace="Expr$Sp3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1071,0,1072,0" concept="11" trace="GPostfixOp$Sp4u" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1072,0,1073,0" concept="11" trace="Expr$SpJw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1073,0,1074,0" concept="11" trace="Expr$Sw3w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1074,0,1075,0" concept="11" trace="QBList$Sw2y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1075,0,1076,0" concept="11" trace="Expr$SB5W" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1076,0,1077,0" concept="11" trace="IDList$SB4Y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1077,0,1078,0" concept="11" trace="ExprMandatory$6SU6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1078,0,1079,0" concept="11" trace="IDorTuple$6SHw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1079,0,1080,0" concept="11" trace="ExprOption$dC7d" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1080,0,1081,0" concept="11" trace="IDList$2JW0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1081,0,1082,0" concept="11" trace="ExprOption$dC4N" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1082,0,1083,0" concept="11" trace="Expressions$YfWw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1083,0,1084,0" concept="11" trace="IDorTuple$Hdow" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1084,0,1085,0" concept="11" trace="Expr1$Hdpu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1085,0,1086,0" concept="11" trace="Expr2$Hd_6" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1086,0,1087,0" concept="11" trace="Expr$Kwxw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1087,0,1088,0" concept="11" trace="QuantifierBound$Kwyu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1088,0,1089,0" concept="11" trace="Expr$KB70" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1089,0,1090,0" concept="11" trace="ExprList$KB7Y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1090,0,1091,0" concept="11" trace="Expr$KHru" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1091,0,1092,0" concept="11" trace="QuantifierBoundList$KCl0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1092,0,1093,0" concept="11" trace="Expr1$KIP0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1093,0,1094,0" concept="11" trace="Expr2$KIPY" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1094,0,1095,0" concept="11" trace="NameArrowExprList$FHnw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1095,0,1096,0" concept="11" trace="ExprList$YczP" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1096,0,1097,0" concept="11" trace="Expr$Nmu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1097,0,1098,0" concept="11" trace="ExceptList$Nlw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1098,0,1099,0" concept="11" trace="Expr$TU0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1099,0,1100,0" concept="11" trace="Expr$V_Y" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1100,0,1101,0" concept="11" trace="Expr$UPb" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1101,0,1102,0" concept="11" trace="XandExpr$V_0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1102,0,1103,0" concept="11" trace="Expr1$lP2w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1103,0,1104,0" concept="11" trace="Expr2$lP3u" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1104,0,1105,0" concept="11" trace="Expr1$tkCw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1105,0,1106,0" concept="11" trace="Expr2$tkND" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1106,0,1107,0" concept="11" trace="Expr1$Lf_0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1107,0,1108,0" concept="11" trace="Expr2$LfK9" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1108,0,1109,0" concept="11" trace="Expr1$11ow" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1109,0,1110,0" concept="11" trace="Expr2$11pu" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1110,0,1111,0" concept="11" trace="Expr3$11qV" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1111,0,1112,0" concept="11" trace="CaseArm$19Cw" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1112,0,1113,0" concept="11" trace="CaseArm$198w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1113,0,1114,0" concept="11" trace="SquareAndCaseArm$19Du" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1114,0,1115,0" concept="11" trace="Expr$19R0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1115,0,1116,0" concept="11" trace="OptionalOther$1nhP" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1116,0,1117,0" concept="11" trace="Expr$9Xse" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1117,0,1118,0" concept="11" trace="Def$9Xh5" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1118,0,1119,0" concept="11" trace="Expr$h$5w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1119,0,1120,0" concept="11" trace="Expr$h$_w" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1120,0,1121,0" concept="11" trace="Expr$h_40" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1121,0,1122,0" concept="11" trace="Expr$h_$0" />
-      <node id="~TLAPlusGrammarBaseVisitor" at="1122,0,1123,0" concept="11" trace="IDList$9ej0" />
+      <node id="5866387967695386054" at="979,5,980,18" concept="9" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="984,0,985,0" concept="12" trace="ID$ll3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="985,0,986,0" concept="12" trace="ModuleName$iAUB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="986,0,987,0" concept="12" trace="ModuleName$Lfj0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="987,0,988,0" concept="12" trace="sep$Oove" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="988,0,989,0" concept="12" trace="com$uSA" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="989,0,990,0" concept="12" trace="ID$96Yw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="990,0,991,0" concept="12" trace="ID1$9c_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="991,0,992,0" concept="12" trace="ID2$9cAu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="992,0,993,0" concept="12" trace="InfixOp$9cO2" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="993,0,994,0" concept="12" trace="InfixOp$R0p0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="994,0,995,0" concept="12" trace="ID$9dL0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="995,0,996,0" concept="12" trace="PostfixOp$9dLY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="996,0,997,0" concept="12" trace="PrefixOp$QUQw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="997,0,998,0" concept="12" trace="ID$9rR0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="998,0,999,0" concept="12" trace="Name$PEBZ" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="999,0,1000,0" concept="12" trace="Axiom$R86b" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1000,0,1001,0" concept="12" trace="InfixOp$eE2F" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1001,0,1002,0" concept="12" trace="PostfixOp$eDmw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1002,0,1003,0" concept="12" trace="PostfixOp$R0Q0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1003,0,1004,0" concept="12" trace="OpId$vrV0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1004,0,1005,0" concept="12" trace="ID$h$Dw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1005,0,1006,0" concept="12" trace="ID$Rfqu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1006,0,1007,0" concept="12" trace="ID$gqRE" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1007,0,1008,0" concept="12" trace="InfixOp$gwW6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1008,0,1009,0" concept="12" trace="PostfixOp$gxrA" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1009,0,1010,0" concept="12" trace="NameProperty$FGtw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1010,0,1011,0" concept="12" trace="NameProperty$Y6Uw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1011,0,1012,0" concept="12" trace="NameProperty$YdG0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1012,0,1013,0" concept="12" trace="EorA$Sw1$" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1013,0,1014,0" concept="12" trace="EorA$SB40" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1014,0,1015,0" concept="12" trace="ID$2Job" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1015,0,1016,0" concept="12" trace="WFSF$X2w6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1016,0,1017,0" concept="12" trace="Number$FNWw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1017,0,1018,0" concept="12" trace="Str$FNEw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1021,0,1022,0" concept="12" trace="ID$llx0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1022,0,1023,0" concept="12" trace="SetOfModuleNames$Bn0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1023,0,1024,0" concept="12" trace="ListM$Vevw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1024,0,1025,0" concept="12" trace="SetOfUnits$fqCa" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1025,0,1026,0" concept="12" trace="OpDef$GiEw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1026,0,1027,0" concept="12" trace="FDef$Giaw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1027,0,1028,0" concept="12" trace="Instance$iKCK" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1028,0,1029,0" concept="12" trace="ModDef$8ulG" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1029,0,1030,0" concept="12" trace="OpDeclarations$75Cw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1030,0,1031,0" concept="12" trace="IDList$Xpjd" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1031,0,1032,0" concept="12" trace="OpDeclL$PA7w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1032,0,1033,0" concept="12" trace="Expr$96eD" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1033,0,1034,0" concept="12" trace="LHS$963w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1034,0,1035,0" concept="12" trace="PrefixOp$o_PB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1035,0,1036,0" concept="12" trace="Expr$9s37" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1036,0,1037,0" concept="12" trace="QuantifierBound$9s29" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1037,0,1038,0" concept="12" trace="Substitution$PF$y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1038,0,1039,0" concept="12" trace="Instance$yUit" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1039,0,1040,0" concept="12" trace="NonFixLHS$uPR7" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1040,0,1041,0" concept="12" trace="Axiom$R8rY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1041,0,1042,0" concept="12" trace="Expr$R8sW" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1042,0,1043,0" concept="12" trace="Expr$R270" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1043,0,1044,0" concept="12" trace="PrefixOp$_Bcn" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1044,0,1045,0" concept="12" trace="SetOfOpDecl$E0N2" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1045,0,1046,0" concept="12" trace="Expr$9k_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1046,0,1047,0" concept="12" trace="IDs$9k$y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1047,0,1048,0" concept="12" trace="Arg$KZn6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1048,0,1049,0" concept="12" trace="substitLHS$KYGu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1049,0,1050,0" concept="12" trace="Exprs$RfPA" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1050,0,1051,0" concept="12" trace="InstancePrefixList$ReYU" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1051,0,1052,0" concept="12" trace="InstancePrefix$gqQG" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1052,0,1053,0" concept="12" trace="PrefixOp$2zjg" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1053,0,1054,0" concept="12" trace="InstancePrefix$grn6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1054,0,1055,0" concept="12" trace="InstancePrefix$gwX4" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1055,0,1056,0" concept="12" trace="InstancePrefix$gxs$" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1056,0,1057,0" concept="12" trace="Expr1$138w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1057,0,1058,0" concept="12" trace="Expr2$18eY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1058,0,1059,0" concept="12" trace="Expr$FGCD" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1059,0,1060,0" concept="12" trace="Expr$Y6Vu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1060,0,1061,0" concept="12" trace="ExprList$Yec0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1061,0,1062,0" concept="12" trace="Expr$M79" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1062,0,1063,0" concept="12" trace="OneOrMore$LW0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1063,0,1064,0" concept="12" trace="GeneralID$nVRw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1064,0,1065,0" concept="12" trace="Args$nVSu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1065,0,1066,0" concept="12" trace="Expr$o2aY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1066,0,1067,0" concept="12" trace="GPrefixOp$o2a0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1067,0,1068,0" concept="12" trace="Expr1$So6u" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1068,0,1069,0" concept="12" trace="Expr2$SohB" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1069,0,1070,0" concept="12" trace="GInfixOp$Soj4" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1070,0,1071,0" concept="12" trace="Expr$Sp3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1071,0,1072,0" concept="12" trace="GPostfixOp$Sp4u" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1072,0,1073,0" concept="12" trace="Expr$SpJw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1073,0,1074,0" concept="12" trace="Expr$Sw3w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1074,0,1075,0" concept="12" trace="QBList$Sw2y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1075,0,1076,0" concept="12" trace="Expr$SB5W" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1076,0,1077,0" concept="12" trace="IDList$SB4Y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1077,0,1078,0" concept="12" trace="ExprMandatory$6SU6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1078,0,1079,0" concept="12" trace="IDorTuple$6SHw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1079,0,1080,0" concept="12" trace="ExprOption$dC7d" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1080,0,1081,0" concept="12" trace="IDList$2JW0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1081,0,1082,0" concept="12" trace="ExprOption$dC4N" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1082,0,1083,0" concept="12" trace="Expressions$YfWw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1083,0,1084,0" concept="12" trace="IDorTuple$Hdow" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1084,0,1085,0" concept="12" trace="Expr1$Hdpu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1085,0,1086,0" concept="12" trace="Expr2$Hd_6" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1086,0,1087,0" concept="12" trace="Expr$Kwxw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1087,0,1088,0" concept="12" trace="QuantifierBound$Kwyu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1088,0,1089,0" concept="12" trace="Expr$KB70" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1089,0,1090,0" concept="12" trace="ExprList$KB7Y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1090,0,1091,0" concept="12" trace="Expr$KHru" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1091,0,1092,0" concept="12" trace="QuantifierBoundList$KCl0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1092,0,1093,0" concept="12" trace="Expr1$KIP0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1093,0,1094,0" concept="12" trace="Expr2$KIPY" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1094,0,1095,0" concept="12" trace="NameArrowExprList$FHnw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1095,0,1096,0" concept="12" trace="ExprList$YczP" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1096,0,1097,0" concept="12" trace="Expr$Nmu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1097,0,1098,0" concept="12" trace="ExceptList$Nlw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1098,0,1099,0" concept="12" trace="Expr$TU0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1099,0,1100,0" concept="12" trace="Expr$V_Y" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1100,0,1101,0" concept="12" trace="Expr$UPb" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1101,0,1102,0" concept="12" trace="XandExpr$V_0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1102,0,1103,0" concept="12" trace="Expr1$lP2w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1103,0,1104,0" concept="12" trace="Expr2$lP3u" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1104,0,1105,0" concept="12" trace="Expr1$tkCw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1105,0,1106,0" concept="12" trace="Expr2$tkND" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1106,0,1107,0" concept="12" trace="Expr1$Lf_0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1107,0,1108,0" concept="12" trace="Expr2$LfK9" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1108,0,1109,0" concept="12" trace="Expr1$11ow" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1109,0,1110,0" concept="12" trace="Expr2$11pu" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1110,0,1111,0" concept="12" trace="Expr3$11qV" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1111,0,1112,0" concept="12" trace="CaseArm$19Cw" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1112,0,1113,0" concept="12" trace="CaseArm$198w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1113,0,1114,0" concept="12" trace="SquareAndCaseArm$19Du" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1114,0,1115,0" concept="12" trace="Expr$19R0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1115,0,1116,0" concept="12" trace="OptionalOther$1nhP" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1116,0,1117,0" concept="12" trace="Expr$9Xse" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1117,0,1118,0" concept="12" trace="Def$9Xh5" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1118,0,1119,0" concept="12" trace="Expr$h$5w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1119,0,1120,0" concept="12" trace="Expr$h$_w" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1120,0,1121,0" concept="12" trace="Expr$h_40" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1121,0,1122,0" concept="12" trace="Expr$h_$0" />
+      <node id="~TLAPlusGrammarBaseVisitor" at="1122,0,1123,0" concept="12" trace="IDList$9ej0" />
       <node id="3378885719451004612" at="70,12,72,7" concept="0" />
       <node id="3378885719451030917" at="77,12,79,7" concept="0" />
       <node id="3378885719451076196" at="84,12,86,7" concept="0" />
@@ -997,115 +995,115 @@
       <node id="3378885719448119799" at="43,5,46,5" concept="4" />
       <node id="3378885719460266482" at="177,48,180,5" concept="4" />
       <node id="3378885719462136033" at="194,49,197,5" concept="4" />
-      <node id="3378885719461661336" at="208,5,211,5" concept="5" />
+      <node id="3378885719461661336" at="208,5,211,5" concept="6" />
       <node id="3378885719451869395" at="256,87,259,7" concept="4" />
       <node id="3378885719455261021" at="282,12,285,7" concept="0" />
-      <node id="3378885719462702163" at="293,79,296,5" concept="5" />
+      <node id="3378885719462702163" at="293,79,296,5" concept="6" />
       <node id="9150185381762097642" at="337,12,340,7" concept="0" />
       <node id="9150185381763844498" at="360,50,363,5" concept="4" />
-      <node id="5962897251887510456" at="369,79,372,5" concept="5" />
+      <node id="5962897251887510456" at="369,79,372,5" concept="6" />
       <node id="5962897251886973701" at="377,178,380,5" concept="4" />
-      <node id="9150185381766588830" at="386,79,389,5" concept="5" />
-      <node id="9150185381766767984" at="395,98,398,5" concept="5" />
-      <node id="9150185381766926858" at="405,117,408,5" concept="5" />
-      <node id="9150185381767154526" at="415,121,418,5" concept="5" />
+      <node id="9150185381766588830" at="386,79,389,5" concept="6" />
+      <node id="9150185381766767984" at="395,98,398,5" concept="6" />
+      <node id="9150185381766926858" at="405,117,408,5" concept="6" />
+      <node id="9150185381767154526" at="415,121,418,5" concept="6" />
       <node id="4450754664370979236" at="492,48,495,5" concept="4" />
       <node id="5962897251891250708" at="532,129,535,7" concept="4" />
       <node id="5962897251892482601" at="599,14,602,9" concept="0" />
-      <node id="5962897251892491200" at="605,165,608,7" concept="5" />
+      <node id="5962897251892491200" at="605,165,608,7" concept="6" />
       <node id="1518897677845010347" at="694,111,697,7" concept="4" />
       <node id="5962897251892454999" at="588,14,592,9" concept="0" />
       <node id="384861153815326419" at="23,180,28,5" concept="4" />
-      <node id="384861153816339245" at="37,32,42,7" concept="4" />
+      <node id="384861153816339245" at="37,58,42,7" concept="4" />
       <node id="3378885719451222506" at="104,174,109,5" concept="4" />
-      <node id="4127923557196548048" at="203,170,208,5" concept="5" />
-      <node id="3378885719460713116" at="303,29,308,5" concept="5" />
-      <node id="4127923557195421471" at="431,174,436,5" concept="5" />
-      <node id="4127923557195748368" at="440,177,445,7" concept="5" />
-      <node id="4127923557195969803" at="454,174,459,5" concept="5" />
-      <node id="4127923557196301232" at="463,177,468,7" concept="5" />
-      <node id="4127923557195108805" at="478,168,483,7" concept="5" />
-      <node id="5962897251892158587" at="553,180,558,7" concept="5" />
-      <node id="5962897251892301727" at="563,31,568,9" concept="5" />
-      <node id="5962897251892307980" at="569,42,574,9" concept="5" />
+      <node id="4127923557196548048" at="203,170,208,5" concept="6" />
+      <node id="3378885719460713116" at="303,29,308,5" concept="6" />
+      <node id="4127923557195421471" at="431,174,436,5" concept="6" />
+      <node id="4127923557195748368" at="440,177,445,7" concept="6" />
+      <node id="4127923557195969803" at="454,174,459,5" concept="6" />
+      <node id="4127923557196301232" at="463,177,468,7" concept="6" />
+      <node id="4127923557195108805" at="478,168,483,7" concept="6" />
+      <node id="5962897251892158587" at="553,180,558,7" concept="6" />
+      <node id="5962897251892301727" at="563,31,568,9" concept="6" />
+      <node id="5962897251892307980" at="569,42,574,9" concept="6" />
       <node id="5962897251893697187" at="645,110,650,7" concept="4" />
-      <node id="5962897251894277716" at="660,164,665,7" concept="5" />
+      <node id="5962897251894277716" at="660,164,665,7" concept="6" />
       <node id="5962897251894475044" at="676,57,681,9" concept="4" />
       <node id="5962897251894546621" at="682,64,687,9" concept="4" />
       <node id="1518897677846127839" at="700,180,705,7" concept="4" />
       <node id="1518897677846410667" at="707,180,712,7" concept="4" />
       <node id="384861153814862505" at="726,178,731,5" concept="4" />
-      <node id="3378885719450602313" at="66,50,72,7" concept="5" />
-      <node id="3378885719451030889" at="73,50,79,7" concept="5" />
-      <node id="3378885719451076168" at="80,40,86,7" concept="5" />
-      <node id="3378885719451095092" at="87,48,93,7" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="235,0,241,0" concept="6" trace="visitTheorem#(Lparser/TLAPlusGrammarParser/TheoremContext;)Ljava/lang/Object;" />
+      <node id="3378885719450602313" at="66,50,72,7" concept="6" />
+      <node id="3378885719451030889" at="73,50,79,7" concept="6" />
+      <node id="3378885719451076168" at="80,40,86,7" concept="6" />
+      <node id="3378885719451095092" at="87,48,93,7" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitTheorem(parser.TLAPlusGrammarParser$TheoremContext)" at="235,0,241,0" concept="7" trace="visitTheorem#(Lparser/TLAPlusGrammarParser/TheoremContext;)Ljava/lang/Object;" />
       <node id="4463978932503857943" at="504,49,510,5" concept="4" />
-      <node id="384861153812449146" at="36,230,43,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="112,0,119,0" concept="6" trace="visitVariableDeclaration#(Lparser/TLAPlusGrammarParser/VariableDeclarationContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="119,0,126,0" concept="6" trace="visitConstantDeclaration#(Lparser/TLAPlusGrammarParser/ConstantDeclarationContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="214,0,221,0" concept="6" trace="visitModuleDefinition#(Lparser/TLAPlusGrammarParser/ModuleDefinitionContext;)Ljava/lang/Object;" />
-      <node id="3378885719457776089" at="224,212,231,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="421,0,428,0" concept="6" trace="visitCaseArm#(Lparser/TLAPlusGrammarParser/CaseArmContext;)Ljava/lang/Object;" />
-      <node id="1518897677857831659" at="515,215,522,5" concept="5" />
-      <node id="3378885719460963874" at="736,226,743,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="175,0,183,0" concept="6" trace="visitQuantifierBoundList#(Lparser/TLAPlusGrammarParser/QuantifierBoundListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="192,0,200,0" concept="6" trace="visitSubstitutionList#(Lparser/TLAPlusGrammarParser/SubstitutionListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="358,0,366,0" concept="6" trace="visitExpressionList#(Lparser/TLAPlusGrammarParser/ExpressionListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="375,0,383,0" concept="6" trace="visitInstancePrefix#(Lparser/TLAPlusGrammarParser/InstancePrefixContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExceptInterface(parser.TLAPlusGrammarParser$ExceptInterfaceContext)" at="490,0,498,0" concept="6" trace="visitExceptInterface#(Lparser/TLAPlusGrammarParser/ExceptInterfaceContext;)Ljava/lang/Object;" />
-      <node id="5962897251892482550" at="594,122,602,9" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="183,0,192,0" concept="6" trace="visitFunctionDefinition#(Lparser/TLAPlusGrammarParser/FunctionDefinitionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="290,0,299,0" concept="6" trace="visitNonFixLHS#(Lparser/TLAPlusGrammarParser/NonFixLHSContext;)Ljava/lang/Object;" />
-      <node id="9150185381763280836" at="346,169,355,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" at="366,0,375,0" concept="6" trace="visitSingleInstancePrefix#(Lparser/TLAPlusGrammarParser/SingleInstancePrefixContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="383,0,392,0" concept="6" trace="visitGeneralIdentifier#(Lparser/TLAPlusGrammarParser/GeneralIdentifierContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="392,0,401,0" concept="6" trace="visitGeneralPrefixOp#(Lparser/TLAPlusGrammarParser/GeneralPrefixOpContext;)Ljava/lang/Object;" />
-      <node id="3378885719452072004" at="748,176,757,5" concept="5" />
-      <node id="3378885719455702466" at="970,177,979,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNameList(parser.TLAPlusGrammarParser$NameListContext)" at="21,0,31,0" concept="6" trace="visitNameList#(Lparser/TLAPlusGrammarParser/NameListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="102,0,112,0" concept="6" trace="visitOpDeclList#(Lparser/TLAPlusGrammarParser/OpDeclListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="401,0,411,0" concept="6" trace="visitGeneralInfixOp#(Lparser/TLAPlusGrammarParser/GeneralInfixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="411,0,421,0" concept="6" trace="visitGeneralPostfixOp#(Lparser/TLAPlusGrammarParser/GeneralPostfixOpContext;)Ljava/lang/Object;" />
+      <node id="384861153812449146" at="36,230,43,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitVariableDeclaration(parser.TLAPlusGrammarParser$VariableDeclarationContext)" at="112,0,119,0" concept="7" trace="visitVariableDeclaration#(Lparser/TLAPlusGrammarParser/VariableDeclarationContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitConstantDeclaration(parser.TLAPlusGrammarParser$ConstantDeclarationContext)" at="119,0,126,0" concept="7" trace="visitConstantDeclaration#(Lparser/TLAPlusGrammarParser/ConstantDeclarationContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitModuleDefinition(parser.TLAPlusGrammarParser$ModuleDefinitionContext)" at="214,0,221,0" concept="7" trace="visitModuleDefinition#(Lparser/TLAPlusGrammarParser/ModuleDefinitionContext;)Ljava/lang/Object;" />
+      <node id="3378885719457776089" at="224,212,231,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitCaseArm(parser.TLAPlusGrammarParser$CaseArmContext)" at="421,0,428,0" concept="7" trace="visitCaseArm#(Lparser/TLAPlusGrammarParser/CaseArmContext;)Ljava/lang/Object;" />
+      <node id="1518897677857831659" at="515,215,522,5" concept="6" />
+      <node id="3378885719460963874" at="736,226,743,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBoundList(parser.TLAPlusGrammarParser$QuantifierBoundListContext)" at="175,0,183,0" concept="7" trace="visitQuantifierBoundList#(Lparser/TLAPlusGrammarParser/QuantifierBoundListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitutionList(parser.TLAPlusGrammarParser$SubstitutionListContext)" at="192,0,200,0" concept="7" trace="visitSubstitutionList#(Lparser/TLAPlusGrammarParser/SubstitutionListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExpressionList(parser.TLAPlusGrammarParser$ExpressionListContext)" at="358,0,366,0" concept="7" trace="visitExpressionList#(Lparser/TLAPlusGrammarParser/ExpressionListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInstancePrefix(parser.TLAPlusGrammarParser$InstancePrefixContext)" at="375,0,383,0" concept="7" trace="visitInstancePrefix#(Lparser/TLAPlusGrammarParser/InstancePrefixContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExceptInterface(parser.TLAPlusGrammarParser$ExceptInterfaceContext)" at="490,0,498,0" concept="7" trace="visitExceptInterface#(Lparser/TLAPlusGrammarParser/ExceptInterfaceContext;)Ljava/lang/Object;" />
+      <node id="5962897251892482550" at="594,122,602,9" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitFunctionDefinition(parser.TLAPlusGrammarParser$FunctionDefinitionContext)" at="183,0,192,0" concept="7" trace="visitFunctionDefinition#(Lparser/TLAPlusGrammarParser/FunctionDefinitionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNonFixLHS(parser.TLAPlusGrammarParser$NonFixLHSContext)" at="290,0,299,0" concept="7" trace="visitNonFixLHS#(Lparser/TLAPlusGrammarParser/NonFixLHSContext;)Ljava/lang/Object;" />
+      <node id="9150185381763280836" at="346,169,355,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSingleInstancePrefix(parser.TLAPlusGrammarParser$SingleInstancePrefixContext)" at="366,0,375,0" concept="7" trace="visitSingleInstancePrefix#(Lparser/TLAPlusGrammarParser/SingleInstancePrefixContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralIdentifier(parser.TLAPlusGrammarParser$GeneralIdentifierContext)" at="383,0,392,0" concept="7" trace="visitGeneralIdentifier#(Lparser/TLAPlusGrammarParser/GeneralIdentifierContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPrefixOp(parser.TLAPlusGrammarParser$GeneralPrefixOpContext)" at="392,0,401,0" concept="7" trace="visitGeneralPrefixOp#(Lparser/TLAPlusGrammarParser/GeneralPrefixOpContext;)Ljava/lang/Object;" />
+      <node id="3378885719452072004" at="748,176,757,5" concept="6" />
+      <node id="3378885719455702466" at="970,177,979,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNameList(parser.TLAPlusGrammarParser$NameListContext)" at="21,0,31,0" concept="7" trace="visitNameList#(Lparser/TLAPlusGrammarParser/NameListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOpDeclList(parser.TLAPlusGrammarParser$OpDeclListContext)" at="102,0,112,0" concept="7" trace="visitOpDeclList#(Lparser/TLAPlusGrammarParser/OpDeclListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralInfixOp(parser.TLAPlusGrammarParser$GeneralInfixOpContext)" at="401,0,411,0" concept="7" trace="visitGeneralInfixOp#(Lparser/TLAPlusGrammarParser/GeneralInfixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitGeneralPostfixOp(parser.TLAPlusGrammarParser$GeneralPostfixOpContext)" at="411,0,421,0" concept="7" trace="visitGeneralPostfixOp#(Lparser/TLAPlusGrammarParser/GeneralPostfixOpContext;)Ljava/lang/Object;" />
       <node id="1518897677851507303" at="438,51,448,5" concept="4" />
       <node id="1518897677852511086" at="461,51,471,5" concept="4" />
-      <node id="5962897251892409736" at="582,288,592,9" concept="5" />
+      <node id="5962897251892409736" at="582,288,592,9" concept="6" />
       <node id="5962897251892392914" at="593,12,603,7" concept="0" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="724,0,734,0" concept="6" trace="visitIdentifierList#(Lparser/TLAPlusGrammarParser/IdentifierListContext;)Ljava/lang/Object;" />
-      <node id="4450754664372073944" at="476,219,487,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="299,0,311,0" concept="6" trace="visitQuantifierBound#(Lparser/TLAPlusGrammarParser/QuantifierBoundContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitDefi(parser.TLAPlusGrammarParser$DefiContext)" at="513,0,525,0" concept="6" trace="visitDefi#(Lparser/TLAPlusGrammarParser/DefiContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="734,0,746,0" concept="6" trace="visitIdentifierOrTuple#(Lparser/TLAPlusGrammarParser/IdentifierOrTupleContext;)Ljava/lang/Object;" />
-      <node id="5962897251892296840" at="562,184,575,7" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="200,0,214,0" concept="6" trace="visitInstance#(Lparser/TLAPlusGrammarParser/InstanceContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="221,0,235,0" concept="6" trace="visitAssumption#(Lparser/TLAPlusGrammarParser/AssumptionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="344,0,358,0" concept="6" trace="visitArgument#(Lparser/TLAPlusGrammarParser/ArgumentContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="746,0,760,0" concept="6" trace="visitPrefixOp#(Lparser/TLAPlusGrammarParser/PrefixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="968,0,982,0" concept="6" trace="visitPostfixOp#(Lparser/TLAPlusGrammarParser/PostfixOpContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="498,0,513,0" concept="6" trace="visitExceptList#(Lparser/TLAPlusGrammarParser/ExceptListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExceptInterfaceTerminal(parser.TLAPlusGrammarParser$ExceptInterfaceTerminalContext)" at="474,0,490,0" concept="6" trace="visitExceptInterfaceTerminal#(Lparser/TLAPlusGrammarParser/ExceptInterfaceTerminalContext;)Ljava/lang/Object;" />
-      <node id="5962897251894459602" at="675,108,691,7" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" at="32,0,49,0" concept="6" trace="visitModule#(Lparser/TLAPlusGrammarParser/ModuleContext;)Ljava/lang/Object;" />
-      <node id="9150185381762097432" at="321,42,340,7" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="428,0,451,0" concept="6" trace="visitNameArrowExprList#(Lparser/TLAPlusGrammarParser/NameArrowExprListContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="451,0,474,0" concept="6" trace="visitNameColonExprList#(Lparser/TLAPlusGrammarParser/NameColonExprListContext;)Ljava/lang/Object;" />
-      <node id="3378885719454978802" at="261,74,285,7" concept="5" />
-      <node id="5962897251892383719" at="579,177,603,7" concept="5" />
-      <node id="3378885719458616908" at="145,120,171,7" concept="5" />
-      <node id="9150185381762097255" at="314,92,341,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="311,0,344,0" concept="6" trace="visitSubstitution#(Lparser/TLAPlusGrammarParser/SubstitutionContext;)Ljava/lang/Object;" />
-      <node id="3378885719458417894" at="129,103,172,5" concept="5" />
-      <node id="3378885719451469690" at="243,170,286,5" concept="5" />
-      <node id="3378885719448479850" at="51,164,98,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="241,0,289,0" concept="6" trace="visitOpDecl#(Lparser/TLAPlusGrammarParser/OpDeclContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="126,0,175,0" concept="6" trace="visitOperatorDefinition#(Lparser/TLAPlusGrammarParser/OperatorDefinitionContext;)Ljava/lang/Object;" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="49,0,101,0" concept="6" trace="visitUnit#(Lparser/TLAPlusGrammarParser/UnitContext;)Ljava/lang/Object;" />
-      <node id="3378885719456135985" at="773,12,964,7" concept="5" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierList(parser.TLAPlusGrammarParser$IdentifierListContext)" at="724,0,734,0" concept="7" trace="visitIdentifierList#(Lparser/TLAPlusGrammarParser/IdentifierListContext;)Ljava/lang/Object;" />
+      <node id="4450754664372073944" at="476,219,487,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitQuantifierBound(parser.TLAPlusGrammarParser$QuantifierBoundContext)" at="299,0,311,0" concept="7" trace="visitQuantifierBound#(Lparser/TLAPlusGrammarParser/QuantifierBoundContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitDefi(parser.TLAPlusGrammarParser$DefiContext)" at="513,0,525,0" concept="7" trace="visitDefi#(Lparser/TLAPlusGrammarParser/DefiContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitIdentifierOrTuple(parser.TLAPlusGrammarParser$IdentifierOrTupleContext)" at="734,0,746,0" concept="7" trace="visitIdentifierOrTuple#(Lparser/TLAPlusGrammarParser/IdentifierOrTupleContext;)Ljava/lang/Object;" />
+      <node id="5962897251892296840" at="562,184,575,7" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInstance(parser.TLAPlusGrammarParser$InstanceContext)" at="200,0,214,0" concept="7" trace="visitInstance#(Lparser/TLAPlusGrammarParser/InstanceContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitAssumption(parser.TLAPlusGrammarParser$AssumptionContext)" at="221,0,235,0" concept="7" trace="visitAssumption#(Lparser/TLAPlusGrammarParser/AssumptionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitArgument(parser.TLAPlusGrammarParser$ArgumentContext)" at="344,0,358,0" concept="7" trace="visitArgument#(Lparser/TLAPlusGrammarParser/ArgumentContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitPrefixOp(parser.TLAPlusGrammarParser$PrefixOpContext)" at="746,0,760,0" concept="7" trace="visitPrefixOp#(Lparser/TLAPlusGrammarParser/PrefixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitPostfixOp(parser.TLAPlusGrammarParser$PostfixOpContext)" at="968,0,982,0" concept="7" trace="visitPostfixOp#(Lparser/TLAPlusGrammarParser/PostfixOpContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExceptList(parser.TLAPlusGrammarParser$ExceptListContext)" at="498,0,513,0" concept="7" trace="visitExceptList#(Lparser/TLAPlusGrammarParser/ExceptListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExceptInterfaceTerminal(parser.TLAPlusGrammarParser$ExceptInterfaceTerminalContext)" at="474,0,490,0" concept="7" trace="visitExceptInterfaceTerminal#(Lparser/TLAPlusGrammarParser/ExceptInterfaceTerminalContext;)Ljava/lang/Object;" />
+      <node id="5962897251894459602" at="675,108,691,7" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitModule(parser.TLAPlusGrammarParser$ModuleContext)" at="32,0,49,0" concept="7" trace="visitModule#(Lparser/TLAPlusGrammarParser/ModuleContext;)Ljava/lang/Object;" />
+      <node id="9150185381762097432" at="321,42,340,7" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNameArrowExprList(parser.TLAPlusGrammarParser$NameArrowExprListContext)" at="428,0,451,0" concept="7" trace="visitNameArrowExprList#(Lparser/TLAPlusGrammarParser/NameArrowExprListContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitNameColonExprList(parser.TLAPlusGrammarParser$NameColonExprListContext)" at="451,0,474,0" concept="7" trace="visitNameColonExprList#(Lparser/TLAPlusGrammarParser/NameColonExprListContext;)Ljava/lang/Object;" />
+      <node id="3378885719454978802" at="261,74,285,7" concept="6" />
+      <node id="5962897251892383719" at="579,177,603,7" concept="6" />
+      <node id="3378885719458616908" at="145,120,171,7" concept="6" />
+      <node id="9150185381762097255" at="314,92,341,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitSubstitution(parser.TLAPlusGrammarParser$SubstitutionContext)" at="311,0,344,0" concept="7" trace="visitSubstitution#(Lparser/TLAPlusGrammarParser/SubstitutionContext;)Ljava/lang/Object;" />
+      <node id="3378885719458417894" at="129,103,172,5" concept="6" />
+      <node id="3378885719451469690" at="243,170,286,5" concept="6" />
+      <node id="3378885719448479850" at="51,164,98,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOpDecl(parser.TLAPlusGrammarParser$OpDeclContext)" at="241,0,289,0" concept="7" trace="visitOpDecl#(Lparser/TLAPlusGrammarParser/OpDeclContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitOperatorDefinition(parser.TLAPlusGrammarParser$OperatorDefinitionContext)" at="126,0,175,0" concept="7" trace="visitOperatorDefinition#(Lparser/TLAPlusGrammarParser/OperatorDefinitionContext;)Ljava/lang/Object;" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitUnit(parser.TLAPlusGrammarParser$UnitContext)" at="49,0,101,0" concept="7" trace="visitUnit#(Lparser/TLAPlusGrammarParser/UnitContext;)Ljava/lang/Object;" />
+      <node id="3378885719456135985" at="773,12,964,7" concept="6" />
       <node id="3378885719452283699" at="773,10,965,5" concept="0" />
-      <node id="5962897251891192059" at="527,172,721,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="525,0,724,0" concept="6" trace="visitExpression#(Lparser/TLAPlusGrammarParser/ExpressionContext;)Ljava/lang/Object;" />
-      <node id="3378885719452157405" at="762,175,965,5" concept="5" />
-      <node id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="760,0,968,0" concept="6" trace="visitInfixOp#(Lparser/TLAPlusGrammarParser/InfixOpContext;)Ljava/lang/Object;" />
+      <node id="5962897251891192059" at="527,172,721,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitExpression(parser.TLAPlusGrammarParser$ExpressionContext)" at="525,0,724,0" concept="7" trace="visitExpression#(Lparser/TLAPlusGrammarParser/ExpressionContext;)Ljava/lang/Object;" />
+      <node id="3378885719452157405" at="762,175,965,5" concept="6" />
+      <node id="~TLAPlusGrammarBaseVisitor.visitInfixOp(parser.TLAPlusGrammarParser$InfixOpContext)" at="760,0,968,0" concept="7" trace="visitInfixOp#(Lparser/TLAPlusGrammarParser/InfixOpContext;)Ljava/lang/Object;" />
       <scope id="3378885719448119801" at="44,116,45,137" />
       <scope id="3378885719448479852" at="52,44,53,73" />
       <scope id="3378885719448602554" at="54,51,55,73" />
@@ -1420,8 +1418,8 @@
       <scope id="384861153815326419" at="23,180,28,5">
         <var name="i" id="384861153815326446" />
       </scope>
-      <scope id="384861153812449148" at="37,32,42,7" />
-      <scope id="384861153816339245" at="37,32,42,7">
+      <scope id="384861153812449148" at="37,58,42,7" />
+      <scope id="384861153816339245" at="37,58,42,7">
         <var name="i" id="384861153816339248" />
       </scope>
       <scope id="3378885719451222506" at="104,174,109,5">

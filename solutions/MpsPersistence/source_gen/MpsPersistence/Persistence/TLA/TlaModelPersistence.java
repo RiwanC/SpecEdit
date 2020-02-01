@@ -19,15 +19,15 @@ import org.jetbrains.mps.openapi.persistence.StreamDataSource;
 import jetbrains.mps.extapi.model.CustomPersistenceModelWithHeader;
 import org.jetbrains.annotations.TestOnly;
 import jetbrains.mps.extapi.model.SModelSimpleHeader;
-import java.io.InputStreamReader;
-import jetbrains.mps.util.FileUtil;
-import org.jetbrains.mps.openapi.model.SModelReference;
-import java.io.IOException;
 import java.util.ArrayList;
 import jetbrains.mps.extapi.model.SModelData;
 import java.io.InputStream;
+import org.jetbrains.mps.openapi.model.SModelReference;
 import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import jetbrains.mps.util.FileUtil;
 import org.jetbrains.mps.openapi.model.SNode;
+import java.io.IOException;
 import org.jetbrains.mps.openapi.persistence.ModelSaveException;
 import java.util.Iterator;
 import java.util.Collections;
@@ -105,20 +105,19 @@ public class TlaModelPersistence implements ModelFactory {
     @Override
     public SModelSimpleHeader readHeader() throws ModelLoadException {
       try {
-        InputStreamReader reader = new InputStreamReader(mySource.openInputStream());
-        try {
-          String firstLine = FileUtil.readLine(reader, 0);
-          String prefix = "modelRef=";
-          if (firstLine == null || !(firstLine.startsWith(prefix))) {
-            throw new ModelLoadException("Invalid stream format, could not read the model header");
-          }
-          String modelRef = firstLine.substring(prefix.length());
-          final SModelReference mr = PersistenceFacade.getInstance().createModelReference(modelRef);
-          return new SModelSimpleHeader(mr);
-        } finally {
-          FileUtil.closeFileSafe(reader);
+        String getLoc = mySource.getLocation();
+        String substringpath = getLoc.substring(16, getLoc.length() - 1);
+        String finalpath = "";
+        String filename = "";
+        for (String i : substringpath.split("/")) {
+          finalpath = finalpath + i + "%2F";
+          filename = i;
         }
-      } catch (IOException e) {
+        finalpath = finalpath.substring(0, finalpath.length() - 3);
+        filename = filename.substring(0, filename.length() - 4);
+        String modelRef = "path:FileDataSource; Location: IdeaFile[path: " + finalpath + "](" + filename + ")";
+        return new SModelSimpleHeader(PersistenceFacade.getInstance().createModelReference(modelRef));
+      } catch (Exception e) {
         throw new ModelLoadException("" + e.getMessage(), new ArrayList<SModel.Problem>(), e);
       }
     }
@@ -132,12 +131,11 @@ public class TlaModelPersistence implements ModelFactory {
         try {
           in = mySource.openInputStream();
           BufferedReader streamReader = new BufferedReader(new InputStreamReader(in, FileUtil.DEFAULT_CHARSET));
-          streamReader.readLine();
           // skip the header 
           StringBuffer sb = new StringBuffer();
           String str = "";
           while ((str = streamReader.readLine()) != null) {
-            sb.append(str);
+            sb.append(str + " ");
           }
           SNode tlaFile = TlaConverter.pasteGrammarAsNodes(sb.toString());
           jetbrains.mps.smodel.SModel modelData = new jetbrains.mps.smodel.SModel(reference);
@@ -169,17 +167,15 @@ public class TlaModelPersistence implements ModelFactory {
       try {
         OutputStream stream = new BufferedOutputStream(mySource.openOutputStream());
         try {
-          String ref = "modelRef=" + PersistenceFacade.getInstance().asString(header.getModelReference()) + "\n";
           byte[] content = tu.getBytes();
           ByteArrayOutputStream auxByteStream = new ByteArrayOutputStream();
-          auxByteStream.write(ref.getBytes());
           auxByteStream.write(content);
           auxByteStream.writeTo(stream);
           stream.flush();
         } finally {
           FileUtil.closeFileSafe(stream);
         }
-      } catch (IOException e) {
+      } catch (Exception e) {
         throw new ModelSaveException("Could not write the model " + header, new ArrayList<SModel.Problem>(), e);
       }
     }
