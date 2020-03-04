@@ -20,9 +20,11 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
     switch (conceptIndex.index(cncpt)) {
       case 0:
         return new CharacterAt_Constraints();
+      case 1:
+        return new IdentifierNode_Constraints();
       default:
     }
     return new BaseConstraintsDescriptor(concept);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2efc45b4e6202be4L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x2efc45b4e6202be4L), MetaIdFactory.conceptId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL)).seal();
 }

@@ -26,6 +26,7 @@
     <import index="p3ir" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:org.antlr.v4.runtime(ExternalDependencies/)" />
     <import index="6xeh" ref="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8/java:org.antlr.v4.runtime.tree(ExternalDependencies/)" />
     <import index="548q" ref="r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -3250,36 +3251,38 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="lnjiSD0AVr" role="3cqZAp">
-              <node concept="37vLTI" id="lnjiSD0AVs" role="3clFbG">
-                <node concept="2OqwBi" id="lnjiSD0AVt" role="37vLTJ">
-                  <node concept="37vLTw" id="lnjiSD0AVu" role="2Oq$k0">
+            <node concept="3clFbF" id="1dPBRdzHCEn" role="3cqZAp">
+              <node concept="15s5l7" id="1dPBRdzIhOz" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ?no classifier? is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)/1199682774857025230]&quot;;" />
+                <property role="huDt6" value="Error: type ?no classifier? is not a subtype of string" />
+              </node>
+              <node concept="2OqwBi" id="1dPBRdzHFXn" role="3clFbG">
+                <node concept="2OqwBi" id="1dPBRdzHCRV" role="2Oq$k0">
+                  <node concept="37vLTw" id="1dPBRdzHCEl" role="2Oq$k0">
                     <ref role="3cqZAo" node="lnjiSD0AVm" resolve="idNode" />
                   </node>
-                  <node concept="3TrcHB" id="lnjiSD0AVv" role="2OqNvi">
-                    <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                  <node concept="3TrcHB" id="1dPBRdzHEzW" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="lnjiSD0NjK" role="37vLTx">
-                  <node concept="2OqwBi" id="lnjiSD0AVx" role="2Oq$k0">
-                    <node concept="37vLTw" id="lnjiSD0AVy" role="2Oq$k0">
-                      <ref role="3cqZAo" node="55DAcpL2qyg" resolve="ctx" />
-                    </node>
-                    <node concept="liA8E" id="lnjiSD0N7Z" role="2OqNvi">
-                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameListContext.Identifier(int)" resolve="Identifier" />
-                      <node concept="37vLTw" id="2V$dEz$y$lv" role="37wK5m">
-                        <ref role="3cqZAo" node="lnjiSD0AVI" resolve="i" />
+                <node concept="tyxLq" id="1dPBRdzHLLH" role="2OqNvi">
+                  <node concept="2OqwBi" id="1dPBRdzHWS6" role="tz02z">
+                    <node concept="2OqwBi" id="1dPBRdzHOQh" role="2Oq$k0">
+                      <node concept="37vLTw" id="1dPBRdzHN9A" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2qyg" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="1dPBRdzHW5x" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$NameListContext.Identifier(int)" resolve="Identifier" />
+                        <node concept="37vLTw" id="1dPBRdzHWfW" role="37wK5m">
+                          <ref role="3cqZAo" node="lnjiSD0AVI" resolve="i" />
+                        </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="liA8E" id="lnjiSD0OqZ" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    <node concept="liA8E" id="1dPBRdzI8EF" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    </node>
                   </node>
                 </node>
-              </node>
-              <node concept="15s5l7" id="lnjiSD0AVA" role="lGtFl">
-                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
-                <property role="huDt6" value="all typesystem messages" />
               </node>
             </node>
             <node concept="3clFbF" id="lnjiSD0AVB" role="3cqZAp">
@@ -8218,8 +8221,8 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3TrcHB" id="2V$dEz$$13K" role="2OqNvi">
-                            <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                          <node concept="3TrcHB" id="1dPBRdzOmOI" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                           </node>
                         </node>
                       </node>
@@ -9211,8 +9214,8 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3TrcHB" id="7VVZhZWTI7Z" role="2OqNvi">
-                            <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                          <node concept="3TrcHB" id="1dPBRdzObzR" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                           </node>
                         </node>
                       </node>
@@ -16834,29 +16837,31 @@
               </node>
             </node>
             <node concept="3clFbF" id="lnjiSCYUKr" role="3cqZAp">
-              <node concept="37vLTI" id="lnjiSCYVNr" role="3clFbG">
-                <node concept="2OqwBi" id="lnjiSCYUYH" role="37vLTJ">
+              <node concept="2OqwBi" id="1dPBRdzMuRF" role="3clFbG">
+                <node concept="2OqwBi" id="lnjiSCYUYH" role="2Oq$k0">
                   <node concept="37vLTw" id="lnjiSCYUKp" role="2Oq$k0">
                     <ref role="3cqZAo" node="lnjiSCYT0M" resolve="idNode" />
                   </node>
-                  <node concept="3TrcHB" id="lnjiSCYViL" role="2OqNvi">
-                    <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                  <node concept="3TrcHB" id="1dPBRdzMuwj" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="lnjiSD07jo" role="37vLTx">
-                  <node concept="2OqwBi" id="lnjiSD05GV" role="2Oq$k0">
-                    <node concept="37vLTw" id="lnjiSD04yD" role="2Oq$k0">
-                      <ref role="3cqZAo" node="55DAcpL2q_g" resolve="ctx" />
-                    </node>
-                    <node concept="liA8E" id="2V$dEz$f8i7" role="2OqNvi">
-                      <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$IdentifierListContext.Identifier(int)" resolve="Identifier" />
-                      <node concept="37vLTw" id="2V$dEz$f8w9" role="37wK5m">
-                        <ref role="3cqZAo" node="lnjiSCYPEG" resolve="i" />
+                <node concept="tyxLq" id="1dPBRdzMuZ7" role="2OqNvi">
+                  <node concept="2OqwBi" id="1dPBRdzMBQP" role="tz02z">
+                    <node concept="2OqwBi" id="1dPBRdzMzog" role="2Oq$k0">
+                      <node concept="37vLTw" id="1dPBRdzMv9I" role="2Oq$k0">
+                        <ref role="3cqZAo" node="55DAcpL2q_g" resolve="ctx" />
+                      </node>
+                      <node concept="liA8E" id="1dPBRdzMBsG" role="2OqNvi">
+                        <ref role="37wK5l" to="cw0v:~TLAPlusGrammarParser$IdentifierListContext.Identifier(int)" resolve="Identifier" />
+                        <node concept="37vLTw" id="1dPBRdzMBCy" role="37wK5m">
+                          <ref role="3cqZAo" node="lnjiSCYPEG" resolve="i" />
+                        </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="liA8E" id="lnjiSD08pz" role="2OqNvi">
-                    <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    <node concept="liA8E" id="1dPBRdzMFN_" role="2OqNvi">
+                      <ref role="37wK5l" to="6xeh:~ParseTree.getText()" resolve="getText" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -17085,8 +17090,8 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3TrcHB" id="2V$dEz_8v3C" role="2OqNvi">
-                      <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+                    <node concept="3TrcHB" id="1dPBRdzObiS" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
                 </node>

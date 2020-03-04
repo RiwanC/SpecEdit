@@ -192,11 +192,6 @@
     <property role="TrG5h" value="IdentifierNode" />
     <property role="3GE5qa" value="Types.Wrapper" />
     <ref role="1TJDcQ" node="6r55aFu62hp" resolve="OpDecl" />
-    <node concept="1TJgyi" id="4ehuyfSPd_G" role="1TKVEl">
-      <property role="IQ2nx" value="4868806967081359724" />
-      <property role="TrG5h" value="ID" />
-      <ref role="AX2Wp" node="6r55aFu6kz4" resolve="Identifier" />
-    </node>
     <node concept="PrWs8" id="6tbn_b6SrOa" role="PzmwI">
       <ref role="PrY4T" node="6tbn_b6SrO7" resolve="Substitution_LHS" />
     </node>
@@ -2268,6 +2263,24 @@
       <property role="IQ2nx" value="3372285084127941722" />
       <property role="TrG5h" value="com" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dPBRdzDdGE">
+    <property role="EcuMT" value="1402202176937581354" />
+    <property role="3GE5qa" value="Types.Wrapper" />
+    <property role="TrG5h" value="IdentifierNodeReference" />
+    <ref role="1TJDcQ" node="6r55aFu62hp" resolve="OpDecl" />
+    <node concept="1TJgyj" id="1dPBRdzDdGF" role="1TKVEi">
+      <property role="IQ2ns" value="1402202176937581355" />
+      <property role="20kJfa" value="ID" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4ehuyfSPd_F" resolve="IdentifierNode" />
+    </node>
+    <node concept="PrWs8" id="1dPBRdzDdGH" role="PzmwI">
+      <ref role="PrY4T" node="6tbn_b6SrO7" resolve="Substitution_LHS" />
+    </node>
+    <node concept="PrWs8" id="1dPBRdzDdGM" role="PzmwI">
+      <ref role="PrY4T" node="4pT0XE4EGzx" resolve="IdentifierOrTuple" />
     </node>
   </node>
 </model>

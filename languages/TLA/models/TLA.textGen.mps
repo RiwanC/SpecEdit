@@ -9,6 +9,7 @@
     <import index="548q" ref="r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2053,8 +2054,8 @@
           <node concept="l9hG8" id="7htUXfyBZjJ" role="lcghm">
             <node concept="2OqwBi" id="7htUXfyBZvS" role="lb14g">
               <node concept="117lpO" id="7htUXfyBZkB" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7htUXfyBZIe" role="2OqNvi">
-                <ref role="3TsBF5" to="548q:4ehuyfSPd_G" resolve="ID" />
+              <node concept="3TrcHB" id="1dPBRdzDla8" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
@@ -2900,6 +2901,29 @@
           </node>
           <node concept="la8eA" id="4846nzmqUUl" role="lcghm">
             <property role="lacIc" value="*)" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="1dPBRdzEDxE">
+    <property role="3GE5qa" value="Types.Wrapper" />
+    <ref role="WuzLi" to="548q:1dPBRdzDdGE" resolve="IdentifierNodeReference" />
+    <node concept="11bSqf" id="1dPBRdzEDxF" role="11c4hB">
+      <node concept="3clFbS" id="1dPBRdzEDxG" role="2VODD2">
+        <node concept="lc7rE" id="1dPBRdzEDxZ" role="3cqZAp">
+          <node concept="l9hG8" id="1dPBRdzEDyl" role="lcghm">
+            <node concept="2OqwBi" id="1dPBRdzEEeb" role="lb14g">
+              <node concept="2OqwBi" id="1dPBRdzEDIQ" role="2Oq$k0">
+                <node concept="117lpO" id="1dPBRdzEDzd" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1dPBRdzEDXc" role="2OqNvi">
+                  <ref role="3Tt5mk" to="548q:1dPBRdzDdGF" resolve="ID" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="1dPBRdzEEx8" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

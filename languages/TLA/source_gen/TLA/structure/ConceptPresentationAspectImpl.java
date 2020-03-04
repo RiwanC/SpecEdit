@@ -47,6 +47,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_IdentifierList;
   private ConceptPresentation props_IdentifierNode;
   private ConceptPresentation props_IdentifierNodeForChoose;
+  private ConceptPresentation props_IdentifierNodeReference;
   private ConceptPresentation props_IdentifierOrTuple;
   private ConceptPresentation props_IdentifierOrTupleForChoose;
   private ConceptPresentation props_If;
@@ -370,6 +371,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IdentifierNodeForChoose = cpb.create();
         }
         return props_IdentifierNodeForChoose;
+      case LanguageConceptSwitch.IdentifierNodeReference:
+        if (props_IdentifierNodeReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_IdentifierNodeReference = cpb.create();
+        }
+        return props_IdentifierNodeReference;
       case LanguageConceptSwitch.IdentifierOrTuple:
         if (props_IdentifierOrTuple == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

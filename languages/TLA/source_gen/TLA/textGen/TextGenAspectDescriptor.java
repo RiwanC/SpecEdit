@@ -89,6 +89,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new IdentifierNode_TextGen();
       case LanguageConceptSwitch.IdentifierNodeForChoose:
         return new IdentifierNodeForChoose_TextGen();
+      case LanguageConceptSwitch.IdentifierNodeReference:
+        return new IdentifierNodeReference_TextGen();
       case LanguageConceptSwitch.If:
         return new If_TextGen();
       case LanguageConceptSwitch.InfixOpNode:

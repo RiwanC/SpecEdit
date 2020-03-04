@@ -56,6 +56,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptIdentifierList = createDescriptorForIdentifierList();
   /*package*/ final ConceptDescriptor myConceptIdentifierNode = createDescriptorForIdentifierNode();
   /*package*/ final ConceptDescriptor myConceptIdentifierNodeForChoose = createDescriptorForIdentifierNodeForChoose();
+  /*package*/ final ConceptDescriptor myConceptIdentifierNodeReference = createDescriptorForIdentifierNodeReference();
   /*package*/ final ConceptDescriptor myConceptIdentifierOrTuple = createDescriptorForIdentifierOrTuple();
   /*package*/ final ConceptDescriptor myConceptIdentifierOrTupleForChoose = createDescriptorForIdentifierOrTupleForChoose();
   /*package*/ final ConceptDescriptor myConceptIf = createDescriptorForIf();
@@ -142,7 +143,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptABS_LHS, myConceptAntiSlashSlashExpr, myConceptAntiSlashSlashExprList, myConceptArgument, myConceptAssumption, myConceptAxiomNode, myConceptCase, myConceptCaseArm, myConceptCharacterAt, myConceptChooseAndExpressions, myConceptComment, myConceptConstantDeclaration, myConceptDefinition, myConceptExcept, myConceptExceptInterface, myConceptExceptList, myConceptExprAndGeneralInfixOpAndExpr, myConceptExprAndGeneralPostfixOp, myConceptExprAndXAndExpr, myConceptExprTupleAndExpr, myConceptExpression, myConceptExpressionBetweenParentheses, myConceptExpressionTuple, myConceptExtendedModuleName, myConceptFunctionAndRange, myConceptFunctionDefinition, myConceptGeneralIdentifier, myConceptGeneralIdentifierAndArg, myConceptGeneralInfixOp, myConceptGeneralPostfixOp, myConceptGeneralPrefixOp, myConceptGeneralPrefixOpAndExpression, myConceptIDAndInfixOpAndID, myConceptIDAndPostfixOp, myConceptIDOrTupleOrIDList, myConceptIdentifierList, myConceptIdentifierNode, myConceptIdentifierNodeForChoose, myConceptIdentifierOrTuple, myConceptIdentifierOrTupleForChoose, myConceptIf, myConceptInfixOpNode, myConceptInstance, myConceptInstancePrefix, myConceptLet, myConceptLocalFunctionDefinition, myConceptLocalInstance, myConceptLocalModuleDefinition, myConceptLocalOperatorDefinition, myConceptModule, myConceptModuleDefinition, myConceptModuleNameList, myConceptNameArrowExpr, myConceptNameColonExpr, myConceptNonFixLHS, myConceptNumberNode, myConceptOpDecl, myConceptOpDeclList, myConceptOpIdentifierNode, myConceptOperatorDefinition, myConceptOther, myConceptPointAndName, myConceptPostfixOpNode, myConceptPostfixOpUnderscoreNode, myConceptPrefixOpAndID, myConceptPrefixOpNode, myConceptPrefixOpUnderscoreNode, myConceptQuantifierAndIDListAndExpr, myConceptQuantifierBound, myConceptQuantifierBoundAndExpr, myConceptRangeExprAndExpr, myConceptRangeExprImpliesExpr, myConceptRangeExprList, myConceptRangeNameArrowExpr, myConceptRangeNameExpr, myConceptRangeQuantifierBoundAndExpr, myConceptSeparator, myConceptSetExpr, myConceptSetExprAndQuantifierBound, myConceptSetIDorTupleAndExpr, myConceptSingleInstancePrefix, myConceptSlashAntiSlahExpr, myConceptSlashAntiSlashExprList, myConceptSquareAndCaseArm, myConceptStringNode, myConceptSubstitution, myConceptSubstitution_LHS, myConceptTheorem, myConceptTuple, myConceptTupleForChoose, myConceptUnderscoreInfixOpUnderscoreNode, myConceptUnit, myConceptVariableDeclaration, myConceptWForSF, myConceptXandExpr);
+    return Arrays.asList(myConceptABS_LHS, myConceptAntiSlashSlashExpr, myConceptAntiSlashSlashExprList, myConceptArgument, myConceptAssumption, myConceptAxiomNode, myConceptCase, myConceptCaseArm, myConceptCharacterAt, myConceptChooseAndExpressions, myConceptComment, myConceptConstantDeclaration, myConceptDefinition, myConceptExcept, myConceptExceptInterface, myConceptExceptList, myConceptExprAndGeneralInfixOpAndExpr, myConceptExprAndGeneralPostfixOp, myConceptExprAndXAndExpr, myConceptExprTupleAndExpr, myConceptExpression, myConceptExpressionBetweenParentheses, myConceptExpressionTuple, myConceptExtendedModuleName, myConceptFunctionAndRange, myConceptFunctionDefinition, myConceptGeneralIdentifier, myConceptGeneralIdentifierAndArg, myConceptGeneralInfixOp, myConceptGeneralPostfixOp, myConceptGeneralPrefixOp, myConceptGeneralPrefixOpAndExpression, myConceptIDAndInfixOpAndID, myConceptIDAndPostfixOp, myConceptIDOrTupleOrIDList, myConceptIdentifierList, myConceptIdentifierNode, myConceptIdentifierNodeForChoose, myConceptIdentifierNodeReference, myConceptIdentifierOrTuple, myConceptIdentifierOrTupleForChoose, myConceptIf, myConceptInfixOpNode, myConceptInstance, myConceptInstancePrefix, myConceptLet, myConceptLocalFunctionDefinition, myConceptLocalInstance, myConceptLocalModuleDefinition, myConceptLocalOperatorDefinition, myConceptModule, myConceptModuleDefinition, myConceptModuleNameList, myConceptNameArrowExpr, myConceptNameColonExpr, myConceptNonFixLHS, myConceptNumberNode, myConceptOpDecl, myConceptOpDeclList, myConceptOpIdentifierNode, myConceptOperatorDefinition, myConceptOther, myConceptPointAndName, myConceptPostfixOpNode, myConceptPostfixOpUnderscoreNode, myConceptPrefixOpAndID, myConceptPrefixOpNode, myConceptPrefixOpUnderscoreNode, myConceptQuantifierAndIDListAndExpr, myConceptQuantifierBound, myConceptQuantifierBoundAndExpr, myConceptRangeExprAndExpr, myConceptRangeExprImpliesExpr, myConceptRangeExprList, myConceptRangeNameArrowExpr, myConceptRangeNameExpr, myConceptRangeQuantifierBoundAndExpr, myConceptSeparator, myConceptSetExpr, myConceptSetExprAndQuantifierBound, myConceptSetIDorTupleAndExpr, myConceptSingleInstancePrefix, myConceptSlashAntiSlahExpr, myConceptSlashAntiSlashExprList, myConceptSquareAndCaseArm, myConceptStringNode, myConceptSubstitution, myConceptSubstitution_LHS, myConceptTheorem, myConceptTuple, myConceptTupleForChoose, myConceptUnderscoreInfixOpUnderscoreNode, myConceptUnit, myConceptVariableDeclaration, myConceptWForSF, myConceptXandExpr);
   }
 
   @Override
@@ -225,6 +226,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptIdentifierNode;
       case LanguageConceptSwitch.IdentifierNodeForChoose:
         return myConceptIdentifierNodeForChoose;
+      case LanguageConceptSwitch.IdentifierNodeReference:
+        return myConceptIdentifierNodeReference;
       case LanguageConceptSwitch.IdentifierOrTuple:
         return myConceptIdentifierOrTuple;
       case LanguageConceptSwitch.IdentifierOrTupleForChoose:
@@ -706,7 +709,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8e1L);
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/4868806967081359723");
     b.version(2);
-    b.property("ID", 0x43917a23f8d4d96cL).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1948c4L)).origin("4868806967081359724").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIdentifierNodeForChoose() {
@@ -717,6 +719,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("ID", 0x7551f37ec111f706L).type(MetaIdFactory.dataTypeId(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade1948c4L)).origin("8453805701281740550").done();
     b.aggregate("ExprOption", 0x70c5d7f04f50eabdL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(true).ordered(true).multiple(false).origin("8126138529782753981").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForIdentifierNodeReference() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("TLA", "IdentifierNodeReference", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x13759f7363a4db2aL);
+    b.class_(false, false, false);
+    b.super_("TLA.structure.OpDecl", 0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade182459L);
+    b.parent(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd07L);
+    b.parent(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac8e1L);
+    b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/1402202176937581354");
+    b.version(2);
+    b.associate("ID", 0x13759f7363a4db2bL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL).optional(false).origin("1402202176937581355").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIdentifierOrTuple() {

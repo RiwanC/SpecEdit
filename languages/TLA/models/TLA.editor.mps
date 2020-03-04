@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="548q" ref="r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -76,8 +77,13 @@
         <child id="3473224453637651919" name="placeInCell" index="CtIbM" />
       </concept>
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -409,7 +415,7 @@
     <ref role="1XX52x" to="548q:4ehuyfSPd_F" resolve="IdentifierNode" />
     <node concept="3EZMnI" id="4ehuyfSPd_K" role="2wV5jI">
       <node concept="3F0A7n" id="4ehuyfSPd_R" role="3EZMnx">
-        <ref role="1NtTu8" to="548q:4ehuyfSPd_G" resolve="ID" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="l2Vlx" id="4ehuyfSPd_N" role="2iSdaV" />
     </node>
@@ -2993,6 +2999,22 @@
       <node concept="VPxyj" id="1V9YP8VgVbR" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1dPBRdzEDxl">
+    <property role="3GE5qa" value="Types.Wrapper" />
+    <ref role="1XX52x" to="548q:1dPBRdzDdGE" resolve="IdentifierNodeReference" />
+    <node concept="3EZMnI" id="1dPBRdzEDxn" role="2wV5jI">
+      <node concept="1iCGBv" id="1dPBRdzEDxu" role="3EZMnx">
+        <ref role="1NtTu8" to="548q:1dPBRdzDdGF" resolve="ID" />
+        <node concept="1sVBvm" id="1dPBRdzEDxw" role="1sWHZn">
+          <node concept="3F0A7n" id="1dPBRdzEDxB" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1dPBRdzEDxq" role="2iSdaV" />
     </node>
   </node>
 </model>

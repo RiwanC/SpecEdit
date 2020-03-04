@@ -12,7 +12,61 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,29,0" name="TLA.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,31,0" name="TLA.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:7b0b6f88-6e69-43a7-93fb-8f4b9740d71e(TLA.constraints)/1402202176937581368">
+    <file name="IdentifierNode_Constraints.java">
+      <node id="1402202176937581368" at="20,39,21,38" concept="9" />
+      <node id="1402202176937581369" at="25,59,26,40" concept="9" />
+      <node id="1402202176937581369" at="29,38,30,18" concept="5" />
+      <node id="1402202176937581369" at="32,0,33,0" concept="7" trace="validatePropertyBreakingPoint" />
+      <node id="1402202176937581369" at="34,109,35,99" concept="4" />
+      <node id="1402202176937581369" at="36,53,37,75" concept="1" />
+      <node id="1402202176937581369" at="38,7,39,20" concept="5" />
+      <node id="1402202176937600853" at="41,85,42,374" concept="5" />
+      <node id="1402202176937581368" at="46,84,47,119" concept="4" />
+      <node id="1402202176937581369" at="47,119,48,61" concept="1" />
+      <node id="1402202176937581368" at="48,61,49,22" concept="5" />
+      <node id="1402202176937581368" at="53,0,54,0" concept="7" trace="IdentifierNode$pp" />
+      <node id="1402202176937581368" at="57,0,58,0" concept="7" trace="name$tAp1" />
+      <node id="1402202176937581368" at="20,0,23,0" concept="0" trace="IdentifierNode_Constraints#()V" />
+      <node id="1402202176937581369" at="25,0,28,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="1402202176937581369" at="35,99,38,7" concept="2" />
+      <node id="1402202176937581369" at="41,0,44,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="1402202176937581369" at="28,0,32,0" concept="3" trace="hasOwnValidator#()Z" />
+      <node id="1402202176937581368" at="45,0,51,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="1402202176937581369" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="1402202176937581368" at="20,39,21,38" />
+      <scope id="1402202176937581369" at="25,59,26,40" />
+      <scope id="1402202176937581369" at="29,38,30,18" />
+      <scope id="1402202176937581369" at="36,53,37,75" />
+      <scope id="1402202176937581418" at="41,85,42,374" />
+      <scope id="1402202176937581368" at="20,0,23,0" />
+      <scope id="1402202176937581369" at="25,0,28,0">
+        <var name="container" id="1402202176937581369" />
+      </scope>
+      <scope id="1402202176937581369" at="41,0,44,0">
+        <var name="node" id="1402202176937581369" />
+        <var name="propertyValue" id="1402202176937581369" />
+      </scope>
+      <scope id="1402202176937581368" at="46,84,49,22">
+        <var name="properties" id="1402202176937581368" />
+      </scope>
+      <scope id="1402202176937581369" at="28,0,32,0" />
+      <scope id="1402202176937581369" at="34,109,39,20">
+        <var name="result" id="1402202176937581369" />
+      </scope>
+      <scope id="1402202176937581368" at="45,0,51,0" />
+      <scope id="1402202176937581369" at="33,0,41,0">
+        <var name="checkingNodeContext" id="1402202176937581369" />
+        <var name="node" id="1402202176937581369" />
+        <var name="propertyValue" id="1402202176937581369" />
+      </scope>
+      <unit id="1402202176937581368" at="52,0,55,0" name="TLA.constraints.IdentifierNode_Constraints$CONCEPTS" />
+      <unit id="1402202176937581368" at="56,0,59,0" name="TLA.constraints.IdentifierNode_Constraints$PROPS" />
+      <unit id="1402202176937581369" at="24,0,45,0" name="TLA.constraints.IdentifierNode_Constraints$Name_Property" />
+      <unit id="1402202176937581368" at="19,0,60,0" name="TLA.constraints.IdentifierNode_Constraints" />
     </file>
   </root>
   <root nodeRef="r:7b0b6f88-6e69-43a7-93fb-8f4b9740d71e(TLA.constraints)/5932612864439239383">

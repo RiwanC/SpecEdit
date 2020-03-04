@@ -23,7 +23,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     SNode namelist = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL, "TLA.structure.IdentifierList"));
     for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
       SNode idNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
-      SPropertyOperations.assign(idNode, PROPS.ID$ll3w, ctx.Identifier(i).getText());
+      SPropertyOperations.set(idNode, PROPS.name$tAp1, ctx.Identifier(i).getText());
       ListSequence.fromList(SLinkOperations.getChildren(namelist, LINKS.ID$llx0)).addElement(idNode);
     }
     return namelist;
@@ -281,7 +281,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
         SPropertyOperations.setEnum(SLinkOperations.getTarget(((SNode) opNode), LINKS.PrefixOp$_Bcn), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb78L, "UNION");
       } else {
         opNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
-        SPropertyOperations.assign(((SNode) opNode), PROPS.ID$ll3w, ctx.Identifier().getText());
+        SPropertyOperations.assign(((SNode) opNode), PROPS.name$tAp1, ctx.Identifier().getText());
       }
     }
     return opNode;
@@ -336,7 +336,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
         SPropertyOperations.setEnum(((SNode) SLinkOperations.getTarget(sub, LINKS.substitLHS$KYGu)), PROPS.PrefixOp$QUQw, 0x47bf6ca76cb8eb78L, "UNION");
       } else {
         SLinkOperations.setTarget(sub, LINKS.substitLHS$KYGu, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode")));
-        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(sub, LINKS.substitLHS$KYGu)), PROPS.ID$ll3w, ctx.Identifier().getText());
+        SPropertyOperations.assign(((SNode) SLinkOperations.getTarget(sub, LINKS.substitLHS$KYGu)), PROPS.name$tAp1, ctx.Identifier().getText());
       }
     }
     return sub;
@@ -726,7 +726,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
     SNode idList = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d97cL, "TLA.structure.IdentifierList"));
     for (int i = 0; i < (ctx.getChildCount() + 1) / 2; i++) {
       SNode idNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
-      SPropertyOperations.assign(idNode, PROPS.ID$ll3w, ctx.Identifier(i).getText());
+      SPropertyOperations.set(idNode, PROPS.name$tAp1, ctx.Identifier(i).getText());
       ListSequence.fromList(SLinkOperations.getChildren(idList, LINKS.ID$llx0)).addElement(idNode);
     }
     return idList;
@@ -739,7 +739,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
       SLinkOperations.setTarget(((SNode) idortup), LINKS.IDList$9ej0, ((SNode) visitIdentifierList(ctx.identifierList())));
     } else if (ctx.Identifier() != null) {
       idortup = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, "TLA.structure.IdentifierNode"));
-      SPropertyOperations.assign(((SNode) idortup), PROPS.ID$ll3w, ctx.Identifier().getText());
+      SPropertyOperations.assign(((SNode) idortup), PROPS.name$tAp1, ctx.Identifier().getText());
     }
     return idortup;
   }
@@ -981,7 +981,7 @@ public class AntlrUnitVisitor extends TLAPlusGrammarBaseVisitor {
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty ID$ll3w = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x43917a23f8d4d96bL, 0x43917a23f8d4d96cL, "ID");
+    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     /*package*/ static final SProperty ModuleName$iAUB = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade18245bL, 0x66c514aade19a4b0L, "ModuleName");
     /*package*/ static final SProperty ModuleName$Lfj0 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x66c514aade19ce77L, 0x66c514aade19ce78L, "ModuleName");
     /*package*/ static final SProperty sep$Oove = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac9a1L, 0x56403e45dffefac9L, "sep");
