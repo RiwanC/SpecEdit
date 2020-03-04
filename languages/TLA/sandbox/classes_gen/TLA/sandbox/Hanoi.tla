@@ -2,9 +2,9 @@
 EXTENDS Sequences,Integers
 VARIABLE A,B
 --------------------
-CanMove(x,y) ==  /\ Len(x) > 0
+CanMove(A,B) ==  /\ Len(x) > 0
       /\  IF Len(y) > 0 THEN Head(y) > Head(x) ELSE TRUE
-Move(x,y,z) ==  /\ CanMove(x,y)
+Move(A,B,C) ==  /\ CanMove(x,y)
       /\ x '  = Tail(x)
       /\ y '  = <<Head(x)>> \o y
       /\ z '  = z
