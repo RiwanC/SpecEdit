@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="5llr8ag4hf11dtw57m9zc79cdxny1am">
-  <files names="CharacterAt_Constraints.java:ConstraintsAspectDescriptor.java:IdentifierNode_Constraints.java" />
+<product version="3" modelHash="-5xse85lys04e7h1un8n5fm10dv0g7o9">
+  <files names="CharacterAt_Constraints.java:ConstraintsAspectDescriptor.java:IdentifierNodeReference_Constraints.java:IdentifierNode_Constraints.java" />
 </product>
 

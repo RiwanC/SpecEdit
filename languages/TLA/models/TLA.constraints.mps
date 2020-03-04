@@ -38,6 +38,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -193,6 +196,29 @@
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                 <node concept="Xl_RD" id="1dPBRdzDk5l" role="37wK5m">
                   <property role="Xl_RC" value="^(?!((ASSUME)$|(ELSE)$|(LOCAL)$|(UNION)$|(ASSUMPTION)$|(ENABLED)$|(MODULE)$|(VARIABLE)$|(AXIOM)$|(EXCEPT)$|(OTHER)$|(VARIABLES)$|(CASE)$|(EXTENDS)$|(CHOOSE)$|(IF)$|(SUBSET)$|(WITH)$|(CONSTANT)$|(IN)$|(THEN)$|(CONSTANTS)$|(INSTANCE)$|(THEOREM)$|(DOMAIN)$|(LET)$|(UNCHANGED)$))^(?!WF_|SF_)(([a-zA-Z]|[0-9]|_)*[a-zA-Z]([a-zA-Z]|[0-9]|_)*)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1dPBRdzYL54">
+    <property role="3GE5qa" value="Types.Wrapper" />
+    <ref role="1M2myG" to="548q:1dPBRdzDdGE" resolve="IdentifierNodeReference" />
+    <node concept="9S07l" id="1dPBRdzZeft" role="9Vyp8">
+      <node concept="3clFbS" id="1dPBRdzZefu" role="2VODD2">
+        <node concept="3clFbF" id="1dPBRdzZejq" role="3cqZAp">
+          <node concept="3fqX7Q" id="1dPBRdzZeC3" role="3clFbG">
+            <node concept="2OqwBi" id="1dPBRdzZfd$" role="3fr31v">
+              <node concept="2OqwBi" id="1dPBRdzZeC5" role="2Oq$k0">
+                <node concept="nLn13" id="1dPBRdzZeC6" role="2Oq$k0" />
+                <node concept="1mfA1w" id="1dPBRdzZeW3" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="1dPBRdzZfiA" role="2OqNvi">
+                <node concept="chp4Y" id="1dPBRdzZfoC" role="cj9EA">
+                  <ref role="cht4Q" to="548q:2Ky6l76zgv2" resolve="ConstantDeclaration" />
                 </node>
               </node>
             </node>
