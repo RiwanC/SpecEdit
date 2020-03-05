@@ -13,9 +13,9 @@ public class Tuple_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("<<");
+    tgs.append("〈");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDList$9ej0));
-    tgs.append(">>");
+    tgs.append("〉");
   }
 
   private static final class LINKS {

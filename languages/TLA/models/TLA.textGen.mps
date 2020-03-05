@@ -440,7 +440,7 @@
       <node concept="3clFbS" id="7LRFUZpAx$T" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpAx_c" role="3cqZAp">
           <node concept="la8eA" id="49n75jDGIWl" role="lcghm">
-            <property role="lacIc" value=" \\" />
+            <property role="lacIc" value=" " />
           </node>
           <node concept="l9hG8" id="7LRFUZpAx_y" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAy_R" role="lb14g">
@@ -450,8 +450,8 @@
                   <ref role="3TsBF5" to="548q:1xKj9lwZ$Aa" resolve="EorA" />
                 </node>
               </node>
-              <node concept="liA8E" id="7LRFUZpAyJc" role="2OqNvi">
-                <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+              <node concept="liA8E" id="3Yx11nPN3ZJ" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getPresentation()" resolve="getPresentation" />
               </node>
             </node>
           </node>
@@ -490,7 +490,7 @@
       <node concept="3clFbS" id="7LRFUZpAyRy" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpAyRP" role="3cqZAp">
           <node concept="la8eA" id="49n75jDGJdp" role="lcghm">
-            <property role="lacIc" value=" \\" />
+            <property role="lacIc" value=" " />
           </node>
           <node concept="l9hG8" id="7LRFUZpAySb" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAzWn" role="lb14g">
@@ -500,8 +500,8 @@
                   <ref role="3TsBF5" to="548q:1xKj9lwZ$Bq" resolve="EorA" />
                 </node>
               </node>
-              <node concept="liA8E" id="7LRFUZpA$3H" role="2OqNvi">
-                <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+              <node concept="liA8E" id="3Yx11nPMOMM" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getPresentation()" resolve="getPresentation" />
               </node>
             </node>
           </node>
@@ -607,7 +607,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpA_Yh" role="lcghm">
-            <property role="lacIc" value=" \\in " />
+            <property role="lacIc" value=" ∈ " />
           </node>
           <node concept="l9hG8" id="7LRFUZpA_ZQ" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAA9S" role="lb14g">
@@ -726,7 +726,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpACyL" role="lcghm">
-            <property role="lacIc" value=" |-&gt; " />
+            <property role="lacIc" value=" ↦ " />
           </node>
           <node concept="l9hG8" id="7LRFUZpAC$H" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpACCq" role="lb14g">
@@ -761,7 +761,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpADix" role="lcghm">
-            <property role="lacIc" value=" -&gt; " />
+            <property role="lacIc" value=" → " />
           </node>
           <node concept="l9hG8" id="7LRFUZpADkx" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpADoE" role="lb14g">
@@ -793,7 +793,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpADL_" role="lcghm">
-            <property role="lacIc" value=" |-&gt; " />
+            <property role="lacIc" value=" ↦ " />
           </node>
           <node concept="l9hG8" id="7LRFUZpADNz" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpADUW" role="lb14g">
@@ -1013,7 +1013,7 @@
       <node concept="3clFbS" id="7LRFUZpAIPv" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpAIPM" role="3cqZAp">
           <node concept="la8eA" id="7LRFUZpAIQ8" role="lcghm">
-            <property role="lacIc" value="&lt;&lt;" />
+            <property role="lacIc" value="〈" />
           </node>
           <node concept="l9S2W" id="7LRFUZpAIR1" role="lcghm">
             <property role="XA4eZ" value="true" />
@@ -1026,7 +1026,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpAJc1" role="lcghm">
-            <property role="lacIc" value="&gt;&gt;" />
+            <property role="lacIc" value="〉" />
           </node>
         </node>
       </node>
@@ -1039,7 +1039,7 @@
       <node concept="3clFbS" id="7LRFUZpAJeM" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpAJf5" role="3cqZAp">
           <node concept="la8eA" id="7LRFUZpAJfr" role="lcghm">
-            <property role="lacIc" value=" \\x " />
+            <property role="lacIc" value=" x " />
           </node>
           <node concept="l9hG8" id="7LRFUZpAJgM" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAJpy" role="lb14g">
@@ -1137,7 +1137,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpALxI" role="lcghm">
-            <property role="lacIc" value=" -&gt; " />
+            <property role="lacIc" value=" → " />
           </node>
           <node concept="l9hG8" id="7LRFUZpALzG" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpALKG" role="lb14g">
@@ -1158,7 +1158,7 @@
       <node concept="3clFbS" id="7LRFUZpALWr" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpALWI" role="3cqZAp">
           <node concept="la8eA" id="7LRFUZpALX4" role="lcghm">
-            <property role="lacIc" value=" [] " />
+            <property role="lacIc" value=" □ " />
           </node>
           <node concept="l9hG8" id="7LRFUZpALZ8" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAM7S" role="lb14g">
@@ -1239,7 +1239,7 @@
       <node concept="3clFbS" id="7LRFUZpAOgF" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpAOgY" role="3cqZAp">
           <node concept="la8eA" id="7LRFUZpAOhk" role="lcghm">
-            <property role="lacIc" value=" [] OTHER -&gt; " />
+            <property role="lacIc" value=" □ OTHER → " />
           </node>
           <node concept="l9hG8" id="7LRFUZpAOl9" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAOtT" role="lb14g">
@@ -1296,7 +1296,7 @@
       <node concept="3clFbS" id="7LRFUZpAPVB" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpAPVU" role="3cqZAp">
           <node concept="la8eA" id="7LRFUZpAPWg" role="lcghm">
-            <property role="lacIc" value=" /\\ " />
+            <property role="lacIc" value=" ⋀ " />
           </node>
           <node concept="l9hG8" id="7LRFUZpAPXB" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAQ6n" role="lb14g">
@@ -1337,7 +1337,7 @@
       <node concept="3clFbS" id="7LRFUZpARHd" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpARHw" role="3cqZAp">
           <node concept="la8eA" id="7LRFUZpARHQ" role="lcghm">
-            <property role="lacIc" value=" \\/ " />
+            <property role="lacIc" value=" ⋁ " />
           </node>
           <node concept="l9hG8" id="7LRFUZpARIM" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpARRy" role="lb14g">
@@ -1423,7 +1423,7 @@
       <node concept="3clFbS" id="7LRFUZpATNZ" role="2VODD2">
         <node concept="lc7rE" id="7LRFUZpATOi" role="3cqZAp">
           <node concept="la8eA" id="7LRFUZpATOC" role="lcghm">
-            <property role="lacIc" value="&lt;&lt;" />
+            <property role="lacIc" value="〈" />
           </node>
           <node concept="l9hG8" id="7LRFUZpATPx" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAU1H" role="lb14g">
@@ -1434,7 +1434,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpAUh6" role="lcghm">
-            <property role="lacIc" value="&gt;&gt;_" />
+            <property role="lacIc" value="〉_" />
           </node>
           <node concept="l9hG8" id="7LRFUZpAUj6" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpAUn2" role="lb14g">
@@ -2002,7 +2002,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7LRFUZpBga1" role="lcghm">
-            <property role="lacIc" value=" \\in " />
+            <property role="lacIc" value=" ∈ " />
           </node>
           <node concept="l9hG8" id="7LRFUZpBgbZ" role="lcghm">
             <node concept="2OqwBi" id="7LRFUZpBgfG" role="lb14g">
@@ -2031,7 +2031,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7htUXfyBS7U" role="lcghm">
-            <property role="lacIc" value=" &lt;- " />
+            <property role="lacIc" value=" ← " />
           </node>
           <node concept="l9hG8" id="7htUXfyBSam" role="lcghm">
             <node concept="2OqwBi" id="7htUXfyBShE" role="lb14g">
@@ -2256,7 +2256,7 @@
           <node concept="3clFbS" id="7htUXfyC2I6" role="3clFbx">
             <node concept="lc7rE" id="7htUXfyC39b" role="3cqZAp">
               <node concept="la8eA" id="7htUXfyC3s0" role="lcghm">
-                <property role="lacIc" value=" \\in " />
+                <property role="lacIc" value=" ∈ " />
               </node>
               <node concept="l9hG8" id="7htUXfyC3tD" role="lcghm">
                 <node concept="2OqwBi" id="7htUXfyC3Cf" role="lb14g">
@@ -2343,7 +2343,7 @@
       <node concept="3clFbS" id="7htUXfyC4B4" role="2VODD2">
         <node concept="lc7rE" id="7htUXfyC4Bn" role="3cqZAp">
           <node concept="la8eA" id="7htUXfyC4BH" role="lcghm">
-            <property role="lacIc" value="&lt;&lt;" />
+            <property role="lacIc" value="〈" />
           </node>
           <node concept="l9hG8" id="7htUXfyC4CA" role="lcghm">
             <node concept="2OqwBi" id="7htUXfyC4Ly" role="lb14g">
@@ -2354,7 +2354,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7htUXfyC52z" role="lcghm">
-            <property role="lacIc" value="&gt;&gt;" />
+            <property role="lacIc" value="〉" />
           </node>
         </node>
       </node>
@@ -2367,7 +2367,7 @@
       <node concept="3clFbS" id="7htUXfyC5dA" role="2VODD2">
         <node concept="lc7rE" id="7htUXfyC5dT" role="3cqZAp">
           <node concept="la8eA" id="7htUXfyC5ef" role="lcghm">
-            <property role="lacIc" value="&lt;&lt;" />
+            <property role="lacIc" value="〈" />
           </node>
           <node concept="l9hG8" id="7htUXfyC5g4" role="lcghm">
             <node concept="2OqwBi" id="7htUXfyC5oZ" role="lb14g">
@@ -2378,14 +2378,14 @@
             </node>
           </node>
           <node concept="la8eA" id="7htUXfyC5E0" role="lcghm">
-            <property role="lacIc" value="&gt;&gt;" />
+            <property role="lacIc" value="〉" />
           </node>
         </node>
         <node concept="3clFbJ" id="7htUXfyC5FK" role="3cqZAp">
           <node concept="3clFbS" id="7htUXfyC5FM" role="3clFbx">
             <node concept="lc7rE" id="7htUXfyC6d$" role="3cqZAp">
               <node concept="la8eA" id="7htUXfyC6dW" role="lcghm">
-                <property role="lacIc" value=" \\in " />
+                <property role="lacIc" value=" ∈ " />
               </node>
               <node concept="l9hG8" id="7htUXfyC6n6" role="lcghm">
                 <node concept="2OqwBi" id="7htUXfyC6zW" role="lb14g">
@@ -2585,7 +2585,7 @@
             <property role="lacIc" value=" " />
           </node>
           <node concept="la8eA" id="7htUXfyCgwP" role="lcghm">
-            <property role="lacIc" value="==" />
+            <property role="lacIc" value="≜" />
           </node>
           <node concept="la8eA" id="49n75jDKfn$" role="lcghm">
             <property role="lacIc" value=" " />
@@ -2712,7 +2712,7 @@
             <property role="lacIc" value=" " />
           </node>
           <node concept="la8eA" id="7htUXfyCloB" role="lcghm">
-            <property role="lacIc" value="==" />
+            <property role="lacIc" value="≜" />
           </node>
           <node concept="la8eA" id="49n75jDKdn9" role="lcghm">
             <property role="lacIc" value=" " />
@@ -2776,7 +2776,7 @@
             </node>
           </node>
           <node concept="la8eA" id="7htUXfyCmB8" role="lcghm">
-            <property role="lacIc" value="] == " />
+            <property role="lacIc" value="] ≜ " />
           </node>
           <node concept="l9hG8" id="7htUXfyCmGY" role="lcghm">
             <node concept="2OqwBi" id="7htUXfyCmSd" role="lb14g">

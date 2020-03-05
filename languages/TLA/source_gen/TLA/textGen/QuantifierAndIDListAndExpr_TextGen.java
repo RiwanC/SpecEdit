@@ -15,8 +15,8 @@ public class QuantifierAndIDListAndExpr_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(" \\");
-    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.EorA$SB40).getName());
+    tgs.append(" ");
+    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.EorA$SB40).getPresentation());
     tgs.append(" ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDList$SB4Y));
     tgs.append(" : ");

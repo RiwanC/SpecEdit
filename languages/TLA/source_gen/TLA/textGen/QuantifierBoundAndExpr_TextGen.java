@@ -17,8 +17,8 @@ public class QuantifierBoundAndExpr_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(" \\");
-    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.EorA$Sw1$).getName());
+    tgs.append(" ");
+    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.EorA$Sw1$).getPresentation());
     tgs.append(" ");
     {
       Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.QBList$Sw2y);

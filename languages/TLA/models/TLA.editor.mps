@@ -2414,7 +2414,7 @@
     <ref role="1XX52x" to="548q:26CgNS3u7jy" resolve="SquareAndCaseArm" />
     <node concept="3EZMnI" id="26CgNS3u7jB" role="2wV5jI">
       <node concept="3F0ifn" id="1NDl85nTb7D" role="3EZMnx">
-        <property role="3F0ifm" value="[]" />
+        <property role="3F0ifm" value="□" />
       </node>
       <node concept="3F1sOY" id="1NDl85nTb7J" role="3EZMnx">
         <ref role="1NtTu8" to="548q:26CgNS3u7jz" resolve="CaseArm" />
@@ -2543,7 +2543,7 @@
     <ref role="1XX52x" to="548q:26CgNS3u7k0" resolve="Other" />
     <node concept="3EZMnI" id="4Zn6hoYaqAz" role="2wV5jI">
       <node concept="3F0ifn" id="4Zn6hoYaqAE" role="3EZMnx">
-        <property role="3F0ifm" value="[]" />
+        <property role="3F0ifm" value="□" />
       </node>
       <node concept="3F0ifn" id="4Zn6hoYaqAK" role="3EZMnx">
         <property role="3F0ifm" value="OTHER" />

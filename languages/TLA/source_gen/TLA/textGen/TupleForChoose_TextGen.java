@@ -13,11 +13,11 @@ public class TupleForChoose_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("<<");
+    tgs.append("〈");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDList$2JW0));
-    tgs.append(">>");
+    tgs.append("〉");
     if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.ExprOption$dC7d) != null)) {
-      tgs.append(" \\in ");
+      tgs.append(" ∈ ");
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.ExprOption$dC7d));
     }
   }

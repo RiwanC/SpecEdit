@@ -14,7 +14,7 @@ public class Substitution_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.substitLHS$KYGu));
-    tgs.append(" <- ");
+    tgs.append(" ← ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Arg$KZn6));
   }
 

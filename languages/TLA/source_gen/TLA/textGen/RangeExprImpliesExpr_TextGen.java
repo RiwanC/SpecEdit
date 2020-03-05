@@ -15,7 +15,7 @@ public class RangeExprImpliesExpr_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("[");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr1$KIP0));
-    tgs.append(" -> ");
+    tgs.append(" → ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr2$KIPY));
     tgs.append("]");
   }

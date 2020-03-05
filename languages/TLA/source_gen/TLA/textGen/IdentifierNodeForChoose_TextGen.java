@@ -17,7 +17,7 @@ public class IdentifierNodeForChoose_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID$2Job));
     if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.ExprOption$dC4N) != null)) {
-      tgs.append(" \\in ");
+      tgs.append(" ∈ ");
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.ExprOption$dC4N));
     }
   }

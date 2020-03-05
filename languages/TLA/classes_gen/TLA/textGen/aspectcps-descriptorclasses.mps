@@ -742,7 +742,7 @@
             <node concept="liA8E" id="36" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="3a" role="37wK5m">
-                <property role="Xl_RC" value=" \\/ " />
+                <property role="Xl_RC" value=" ⋁ " />
                 <node concept="cd27G" id="3c" role="lGtFl">
                   <node concept="3u3nmq" id="3d" role="cd27D">
                     <property role="3u3nmv" value="8968830352736615286" />
@@ -1719,7 +1719,7 @@
             <node concept="liA8E" id="94" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="98" role="37wK5m">
-                <property role="Xl_RC" value=" -&gt; " />
+                <property role="Xl_RC" value=" → " />
                 <node concept="cd27G" id="9a" role="lGtFl">
                   <node concept="3u3nmq" id="9b" role="cd27D">
                     <property role="3u3nmv" value="8968830352736589934" />
@@ -5906,7 +5906,7 @@
             <node concept="liA8E" id="yN" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="yR" role="37wK5m">
-                <property role="Xl_RC" value="&lt;&lt;" />
+                <property role="Xl_RC" value="〈" />
                 <node concept="cd27G" id="yT" role="lGtFl">
                   <node concept="3u3nmq" id="yU" role="cd27D">
                     <property role="3u3nmv" value="8968830352736623912" />
@@ -6002,7 +6002,7 @@
             <node concept="liA8E" id="zn" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="zr" role="37wK5m">
-                <property role="Xl_RC" value="&gt;&gt;_" />
+                <property role="Xl_RC" value="〉_" />
                 <node concept="cd27G" id="zt" role="lGtFl">
                   <node concept="3u3nmq" id="zu" role="cd27D">
                     <property role="3u3nmv" value="8968830352736625734" />
@@ -6484,7 +6484,7 @@
             <node concept="liA8E" id="Aj" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="An" role="37wK5m">
-                <property role="Xl_RC" value="&lt;&lt;" />
+                <property role="Xl_RC" value="〈" />
                 <node concept="cd27G" id="Ap" role="lGtFl">
                   <node concept="3u3nmq" id="Aq" role="cd27D">
                     <property role="3u3nmv" value="8968830352736578952" />
@@ -6788,7 +6788,7 @@
             <node concept="liA8E" id="Cb" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="Cf" role="37wK5m">
-                <property role="Xl_RC" value="&gt;&gt;" />
+                <property role="Xl_RC" value="〉" />
                 <node concept="cd27G" id="Ch" role="lGtFl">
                   <node concept="3u3nmq" id="Ci" role="cd27D">
                     <property role="3u3nmv" value="8968830352736580353" />
@@ -7983,7 +7983,7 @@
             <node concept="liA8E" id="J$" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="JC" role="37wK5m">
-                <property role="Xl_RC" value="] == " />
+                <property role="Xl_RC" value="] ≜ " />
                 <node concept="cd27G" id="JE" role="lGtFl">
                   <node concept="3u3nmq" id="JF" role="cd27D">
                     <property role="3u3nmv" value="8385117376506587592" />
@@ -13441,7 +13441,7 @@
                 <node concept="liA8E" id="1e_" role="2OqNvi">
                   <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
                   <node concept="Xl_RD" id="1eD" role="37wK5m">
-                    <property role="Xl_RC" value=" \\in " />
+                    <property role="Xl_RC" value=" ∈ " />
                     <node concept="cd27G" id="1eF" role="lGtFl">
                       <node concept="3u3nmq" id="1eG" role="cd27D">
                         <property role="3u3nmv" value="8385117376506509056" />
@@ -18322,7 +18322,7 @@
             <node concept="liA8E" id="1Gz" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="1GB" role="37wK5m">
-                <property role="Xl_RC" value="==" />
+                <property role="Xl_RC" value="≜" />
                 <node concept="cd27G" id="1GD" role="lGtFl">
                   <node concept="3u3nmq" id="1GE" role="cd27D">
                     <property role="3u3nmv" value="8385117376506562613" />
@@ -19922,7 +19922,7 @@
             <node concept="liA8E" id="1Qp" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="1Qt" role="37wK5m">
-                <property role="Xl_RC" value=" |-&gt; " />
+                <property role="Xl_RC" value=" ↦ " />
                 <node concept="cd27G" id="1Qv" role="lGtFl">
                   <node concept="3u3nmq" id="1Qw" role="cd27D">
                     <property role="3u3nmv" value="8968830352736558181" />
@@ -21992,7 +21992,7 @@
             <node concept="liA8E" id="239" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="23d" role="37wK5m">
-                <property role="Xl_RC" value="==" />
+                <property role="Xl_RC" value="≜" />
                 <node concept="cd27G" id="23f" role="lGtFl">
                   <node concept="3u3nmq" id="23g" role="cd27D">
                     <property role="3u3nmv" value="8385117376506582567" />
@@ -22372,7 +22372,7 @@
             <node concept="liA8E" id="25s" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="25w" role="37wK5m">
-                <property role="Xl_RC" value=" [] OTHER -&gt; " />
+                <property role="Xl_RC" value=" □ OTHER → " />
                 <node concept="cd27G" id="25y" role="lGtFl">
                   <node concept="3u3nmq" id="25z" role="cd27D">
                     <property role="3u3nmv" value="8968830352736601172" />
@@ -24506,7 +24506,7 @@
             <node concept="liA8E" id="2iy" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2iA" role="37wK5m">
-                <property role="Xl_RC" value=" \\" />
+                <property role="Xl_RC" value=" " />
                 <node concept="cd27G" id="2iC" role="lGtFl">
                   <node concept="3u3nmq" id="2iD" role="cd27D">
                     <property role="3u3nmv" value="4780320680500720473" />
@@ -24573,10 +24573,10 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2iR" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getPresentation()" resolve="getPresentation" />
                   <node concept="cd27G" id="2j3" role="lGtFl">
                     <node concept="3u3nmq" id="2j4" role="cd27D">
-                      <property role="3u3nmv" value="8968830352736534765" />
+                      <property role="3u3nmv" value="4584950388004441266" />
                     </node>
                   </node>
                 </node>
@@ -24935,7 +24935,7 @@
             <node concept="liA8E" id="2la" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2le" role="37wK5m">
-                <property role="Xl_RC" value=" \\" />
+                <property role="Xl_RC" value=" " />
                 <node concept="cd27G" id="2lg" role="lGtFl">
                   <node concept="3u3nmq" id="2lh" role="cd27D">
                     <property role="3u3nmv" value="4780320680500719381" />
@@ -25002,10 +25002,10 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2lv" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getPresentation()" resolve="getPresentation" />
                   <node concept="cd27G" id="2lF" role="lGtFl">
                     <node concept="3u3nmq" id="2lG" role="cd27D">
-                      <property role="3u3nmv" value="8968830352736529356" />
+                      <property role="3u3nmv" value="4584950388004503535" />
                     </node>
                   </node>
                 </node>
@@ -25630,7 +25630,7 @@
             <node concept="liA8E" id="2pp" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2pt" role="37wK5m">
-                <property role="Xl_RC" value=" \\in " />
+                <property role="Xl_RC" value=" ∈ " />
                 <node concept="cd27G" id="2pv" role="lGtFl">
                   <node concept="3u3nmq" id="2pw" role="cd27D">
                     <property role="3u3nmv" value="8968830352736715393" />
@@ -26266,7 +26266,7 @@
             <node concept="liA8E" id="2ti" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2tm" role="37wK5m">
-                <property role="Xl_RC" value=" -&gt; " />
+                <property role="Xl_RC" value=" → " />
                 <node concept="cd27G" id="2to" role="lGtFl">
                   <node concept="3u3nmq" id="2tp" role="cd27D">
                     <property role="3u3nmv" value="8968830352736556193" />
@@ -28234,7 +28234,7 @@
             <node concept="liA8E" id="2Ds" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2Dw" role="37wK5m">
-                <property role="Xl_RC" value=" |-&gt; " />
+                <property role="Xl_RC" value=" ↦ " />
                 <node concept="cd27G" id="2Dy" role="lGtFl">
                   <node concept="3u3nmq" id="2Dz" role="cd27D">
                     <property role="3u3nmv" value="8968830352736553137" />
@@ -30004,7 +30004,7 @@
             <node concept="liA8E" id="2On" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2Or" role="37wK5m">
-                <property role="Xl_RC" value=" \\in " />
+                <property role="Xl_RC" value=" ∈ " />
                 <node concept="cd27G" id="2Ot" role="lGtFl">
                   <node concept="3u3nmq" id="2Ou" role="cd27D">
                     <property role="3u3nmv" value="8968830352736542609" />
@@ -30980,7 +30980,7 @@
             <node concept="liA8E" id="2Ul" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2Up" role="37wK5m">
-                <property role="Xl_RC" value=" /\\ " />
+                <property role="Xl_RC" value=" ⋀ " />
                 <node concept="cd27G" id="2Ur" role="lGtFl">
                   <node concept="3u3nmq" id="2Us" role="cd27D">
                     <property role="3u3nmv" value="8968830352736608016" />
@@ -31594,7 +31594,7 @@
             <node concept="liA8E" id="2Y6" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="2Ya" role="37wK5m">
-                <property role="Xl_RC" value=" [] " />
+                <property role="Xl_RC" value=" □ " />
                 <node concept="cd27G" id="2Yc" role="lGtFl">
                   <node concept="3u3nmq" id="2Yd" role="cd27D">
                     <property role="3u3nmv" value="8968830352736591684" />
@@ -32134,7 +32134,7 @@
             <node concept="liA8E" id="31o" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="31s" role="37wK5m">
-                <property role="Xl_RC" value=" &lt;- " />
+                <property role="Xl_RC" value=" ← " />
                 <node concept="cd27G" id="31u" role="lGtFl">
                   <node concept="3u3nmq" id="31v" role="cd27D">
                     <property role="3u3nmv" value="8385117376506462714" />
@@ -34371,7 +34371,7 @@
             <node concept="liA8E" id="3fj" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="3fn" role="37wK5m">
-                <property role="Xl_RC" value="&lt;&lt;" />
+                <property role="Xl_RC" value="〈" />
                 <node concept="cd27G" id="3fp" role="lGtFl">
                   <node concept="3u3nmq" id="3fq" role="cd27D">
                     <property role="3u3nmv" value="8385117376506516367" />
@@ -34467,7 +34467,7 @@
             <node concept="liA8E" id="3fR" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="3fV" role="37wK5m">
-                <property role="Xl_RC" value="&gt;&gt;" />
+                <property role="Xl_RC" value="〉" />
                 <node concept="cd27G" id="3fX" role="lGtFl">
                   <node concept="3u3nmq" id="3fY" role="cd27D">
                     <property role="3u3nmv" value="8385117376506518144" />
@@ -34507,7 +34507,7 @@
                 <node concept="liA8E" id="3gb" role="2OqNvi">
                   <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
                   <node concept="Xl_RD" id="3gf" role="37wK5m">
-                    <property role="Xl_RC" value=" \\in " />
+                    <property role="Xl_RC" value=" ∈ " />
                     <node concept="cd27G" id="3gh" role="lGtFl">
                       <node concept="3u3nmq" id="3gi" role="cd27D">
                         <property role="3u3nmv" value="8385117376506520444" />
@@ -34783,7 +34783,7 @@
             <node concept="liA8E" id="3hO" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="3hS" role="37wK5m">
-                <property role="Xl_RC" value="&lt;&lt;" />
+                <property role="Xl_RC" value="〈" />
                 <node concept="cd27G" id="3hU" role="lGtFl">
                   <node concept="3u3nmq" id="3hV" role="cd27D">
                     <property role="3u3nmv" value="8385117376506513901" />
@@ -34879,7 +34879,7 @@
             <node concept="liA8E" id="3io" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="3is" role="37wK5m">
-                <property role="Xl_RC" value="&gt;&gt;" />
+                <property role="Xl_RC" value="〉" />
                 <node concept="cd27G" id="3iu" role="lGtFl">
                   <node concept="3u3nmq" id="3iv" role="cd27D">
                     <property role="3u3nmv" value="8385117376506515619" />
@@ -36225,7 +36225,7 @@
             <node concept="liA8E" id="3qB" role="2OqNvi">
               <ref role="37wK5l" to="kpbf:~TextGenSupport.append(java.lang.CharSequence)" resolve="append" />
               <node concept="Xl_RD" id="3qF" role="37wK5m">
-                <property role="Xl_RC" value=" \\x " />
+                <property role="Xl_RC" value=" x " />
                 <node concept="cd27G" id="3qH" role="lGtFl">
                   <node concept="3u3nmq" id="3qI" role="cd27D">
                     <property role="3u3nmv" value="8968830352736580571" />

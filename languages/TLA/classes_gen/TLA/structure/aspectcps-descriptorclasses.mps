@@ -9876,7 +9876,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="WO" role="37wK5m">
-            <property role="Xl_RC" value="(+)" />
+            <property role="Xl_RC" value="⊕" />
             <node concept="cd27G" id="WU" role="lGtFl">
               <node concept="3u3nmq" id="WV" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -10018,7 +10018,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="XC" role="37wK5m">
-            <property role="Xl_RC" value="(.)" />
+            <property role="Xl_RC" value="⨀" />
             <node concept="cd27G" id="XI" role="lGtFl">
               <node concept="3u3nmq" id="XJ" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -10089,7 +10089,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="Y2" role="37wK5m">
-            <property role="Xl_RC" value="(/)" />
+            <property role="Xl_RC" value="⊘" />
             <node concept="cd27G" id="Y8" role="lGtFl">
               <node concept="3u3nmq" id="Y9" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -10160,7 +10160,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="Ys" role="37wK5m">
-            <property role="Xl_RC" value="(\\X)" />
+            <property role="Xl_RC" value="⨂" />
             <node concept="cd27G" id="Yy" role="lGtFl">
               <node concept="3u3nmq" id="Yz" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -10586,7 +10586,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="10S" role="37wK5m">
-            <property role="Xl_RC" value="-+-&gt;" />
+            <property role="Xl_RC" value="⥅" />
             <node concept="cd27G" id="10Y" role="lGtFl">
               <node concept="3u3nmq" id="10Z" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -12929,7 +12929,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1ei" role="37wK5m">
-            <property role="Xl_RC" value="\\approx" />
+            <property role="Xl_RC" value="≈" />
             <node concept="cd27G" id="1eo" role="lGtFl">
               <node concept="3u3nmq" id="1ep" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13000,7 +13000,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1eG" role="37wK5m">
-            <property role="Xl_RC" value="\\geq" />
+            <property role="Xl_RC" value="≥" />
             <node concept="cd27G" id="1eM" role="lGtFl">
               <node concept="3u3nmq" id="1eN" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13071,7 +13071,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1f6" role="37wK5m">
-            <property role="Xl_RC" value="\\oslash" />
+            <property role="Xl_RC" value="Ø" />
             <node concept="cd27G" id="1fc" role="lGtFl">
               <node concept="3u3nmq" id="1fd" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13142,7 +13142,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1fw" role="37wK5m">
-            <property role="Xl_RC" value="\\sqsupseteq" />
+            <property role="Xl_RC" value="⊒" />
             <node concept="cd27G" id="1fA" role="lGtFl">
               <node concept="3u3nmq" id="1fB" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13213,7 +13213,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1fU" role="37wK5m">
-            <property role="Xl_RC" value="\\asymp" />
+            <property role="Xl_RC" value="≍" />
             <node concept="cd27G" id="1g0" role="lGtFl">
               <node concept="3u3nmq" id="1g1" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13284,7 +13284,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1gk" role="37wK5m">
-            <property role="Xl_RC" value="\\gg" />
+            <property role="Xl_RC" value="≫" />
             <node concept="cd27G" id="1gq" role="lGtFl">
               <node concept="3u3nmq" id="1gr" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13355,7 +13355,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1gI" role="37wK5m">
-            <property role="Xl_RC" value="\\otimes" />
+            <property role="Xl_RC" value="⊗" />
             <node concept="cd27G" id="1gO" role="lGtFl">
               <node concept="3u3nmq" id="1gP" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13426,7 +13426,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1h8" role="37wK5m">
-            <property role="Xl_RC" value="\\star" />
+            <property role="Xl_RC" value="⋆" />
             <node concept="cd27G" id="1he" role="lGtFl">
               <node concept="3u3nmq" id="1hf" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13497,7 +13497,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1hy" role="37wK5m">
-            <property role="Xl_RC" value="\\bigcirc" />
+            <property role="Xl_RC" value="◯" />
             <node concept="cd27G" id="1hC" role="lGtFl">
               <node concept="3u3nmq" id="1hD" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13568,7 +13568,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1hW" role="37wK5m">
-            <property role="Xl_RC" value="\\in" />
+            <property role="Xl_RC" value="∈" />
             <node concept="cd27G" id="1i2" role="lGtFl">
               <node concept="3u3nmq" id="1i3" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13639,7 +13639,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1im" role="37wK5m">
-            <property role="Xl_RC" value="\\prec" />
+            <property role="Xl_RC" value="≺" />
             <node concept="cd27G" id="1is" role="lGtFl">
               <node concept="3u3nmq" id="1it" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13710,7 +13710,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1iK" role="37wK5m">
-            <property role="Xl_RC" value="\\subset" />
+            <property role="Xl_RC" value="⋐" />
             <node concept="cd27G" id="1iQ" role="lGtFl">
               <node concept="3u3nmq" id="1iR" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13781,7 +13781,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1ja" role="37wK5m">
-            <property role="Xl_RC" value="\\bullet" />
+            <property role="Xl_RC" value="∙" />
             <node concept="cd27G" id="1jg" role="lGtFl">
               <node concept="3u3nmq" id="1jh" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13852,7 +13852,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1j$" role="37wK5m">
-            <property role="Xl_RC" value="\\intersect" />
+            <property role="Xl_RC" value="∩" />
             <node concept="cd27G" id="1jE" role="lGtFl">
               <node concept="3u3nmq" id="1jF" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13923,7 +13923,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1jY" role="37wK5m">
-            <property role="Xl_RC" value="\\preceq" />
+            <property role="Xl_RC" value="⪯" />
             <node concept="cd27G" id="1k4" role="lGtFl">
               <node concept="3u3nmq" id="1k5" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -13994,7 +13994,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1ko" role="37wK5m">
-            <property role="Xl_RC" value="\\subseteq" />
+            <property role="Xl_RC" value="⊆" />
             <node concept="cd27G" id="1ku" role="lGtFl">
               <node concept="3u3nmq" id="1kv" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14065,7 +14065,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1kM" role="37wK5m">
-            <property role="Xl_RC" value="\\cap" />
+            <property role="Xl_RC" value="⋂" />
             <node concept="cd27G" id="1kS" role="lGtFl">
               <node concept="3u3nmq" id="1kT" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14136,7 +14136,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1lc" role="37wK5m">
-            <property role="Xl_RC" value="\\land" />
+            <property role="Xl_RC" value="∧" />
             <node concept="cd27G" id="1li" role="lGtFl">
               <node concept="3u3nmq" id="1lj" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14207,7 +14207,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1lA" role="37wK5m">
-            <property role="Xl_RC" value="\\propto" />
+            <property role="Xl_RC" value="∝" />
             <node concept="cd27G" id="1lG" role="lGtFl">
               <node concept="3u3nmq" id="1lH" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14278,7 +14278,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1m0" role="37wK5m">
-            <property role="Xl_RC" value="\\succ" />
+            <property role="Xl_RC" value="≻" />
             <node concept="cd27G" id="1m6" role="lGtFl">
               <node concept="3u3nmq" id="1m7" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14349,7 +14349,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1mq" role="37wK5m">
-            <property role="Xl_RC" value="\\cdot" />
+            <property role="Xl_RC" value="⋅" />
             <node concept="cd27G" id="1mw" role="lGtFl">
               <node concept="3u3nmq" id="1mx" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14420,7 +14420,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1mO" role="37wK5m">
-            <property role="Xl_RC" value="\\leq" />
+            <property role="Xl_RC" value="≤" />
             <node concept="cd27G" id="1mU" role="lGtFl">
               <node concept="3u3nmq" id="1mV" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14491,7 +14491,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1ne" role="37wK5m">
-            <property role="Xl_RC" value="\\sim" />
+            <property role="Xl_RC" value="∼" />
             <node concept="cd27G" id="1nk" role="lGtFl">
               <node concept="3u3nmq" id="1nl" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14562,7 +14562,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1nC" role="37wK5m">
-            <property role="Xl_RC" value="\\succeq" />
+            <property role="Xl_RC" value="⪰" />
             <node concept="cd27G" id="1nI" role="lGtFl">
               <node concept="3u3nmq" id="1nJ" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14633,7 +14633,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1o2" role="37wK5m">
-            <property role="Xl_RC" value="\\ll" />
+            <property role="Xl_RC" value="≪" />
             <node concept="cd27G" id="1o8" role="lGtFl">
               <node concept="3u3nmq" id="1o9" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14704,7 +14704,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1os" role="37wK5m">
-            <property role="Xl_RC" value="\\simeq" />
+            <property role="Xl_RC" value="≃" />
             <node concept="cd27G" id="1oy" role="lGtFl">
               <node concept="3u3nmq" id="1oz" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14775,7 +14775,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1oQ" role="37wK5m">
-            <property role="Xl_RC" value="\\supset" />
+            <property role="Xl_RC" value="⊃" />
             <node concept="cd27G" id="1oW" role="lGtFl">
               <node concept="3u3nmq" id="1oX" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14846,7 +14846,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1pg" role="37wK5m">
-            <property role="Xl_RC" value="\\cong" />
+            <property role="Xl_RC" value="≅" />
             <node concept="cd27G" id="1pm" role="lGtFl">
               <node concept="3u3nmq" id="1pn" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14917,7 +14917,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1pE" role="37wK5m">
-            <property role="Xl_RC" value="\\lor" />
+            <property role="Xl_RC" value="∨" />
             <node concept="cd27G" id="1pK" role="lGtFl">
               <node concept="3u3nmq" id="1pL" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -14988,7 +14988,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1q4" role="37wK5m">
-            <property role="Xl_RC" value="\\sqcap" />
+            <property role="Xl_RC" value="⊓" />
             <node concept="cd27G" id="1qa" role="lGtFl">
               <node concept="3u3nmq" id="1qb" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15059,7 +15059,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1qu" role="37wK5m">
-            <property role="Xl_RC" value="\\supseteq" />
+            <property role="Xl_RC" value="⊇" />
             <node concept="cd27G" id="1q$" role="lGtFl">
               <node concept="3u3nmq" id="1q_" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15130,7 +15130,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1qS" role="37wK5m">
-            <property role="Xl_RC" value="\\cup" />
+            <property role="Xl_RC" value="∪" />
             <node concept="cd27G" id="1qY" role="lGtFl">
               <node concept="3u3nmq" id="1qZ" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15201,7 +15201,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1ri" role="37wK5m">
-            <property role="Xl_RC" value="\\o" />
+            <property role="Xl_RC" value="o" />
             <node concept="cd27G" id="1ro" role="lGtFl">
               <node concept="3u3nmq" id="1rp" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15272,7 +15272,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1rG" role="37wK5m">
-            <property role="Xl_RC" value="\\sqcup" />
+            <property role="Xl_RC" value="⊔" />
             <node concept="cd27G" id="1rM" role="lGtFl">
               <node concept="3u3nmq" id="1rN" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15343,7 +15343,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1s6" role="37wK5m">
-            <property role="Xl_RC" value="\\union" />
+            <property role="Xl_RC" value="⋃" />
             <node concept="cd27G" id="1sc" role="lGtFl">
               <node concept="3u3nmq" id="1sd" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15414,7 +15414,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1sw" role="37wK5m">
-            <property role="Xl_RC" value="\\div" />
+            <property role="Xl_RC" value="÷" />
             <node concept="cd27G" id="1sA" role="lGtFl">
               <node concept="3u3nmq" id="1sB" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15485,7 +15485,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1sU" role="37wK5m">
-            <property role="Xl_RC" value="\\odot" />
+            <property role="Xl_RC" value="⊙" />
             <node concept="cd27G" id="1t0" role="lGtFl">
               <node concept="3u3nmq" id="1t1" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15556,7 +15556,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1tk" role="37wK5m">
-            <property role="Xl_RC" value="\\sqsubset" />
+            <property role="Xl_RC" value="⊏" />
             <node concept="cd27G" id="1tq" role="lGtFl">
               <node concept="3u3nmq" id="1tr" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15627,7 +15627,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1tI" role="37wK5m">
-            <property role="Xl_RC" value="\\uplus" />
+            <property role="Xl_RC" value="⊎" />
             <node concept="cd27G" id="1tO" role="lGtFl">
               <node concept="3u3nmq" id="1tP" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15698,7 +15698,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1u8" role="37wK5m">
-            <property role="Xl_RC" value="\\doteq" />
+            <property role="Xl_RC" value="≐" />
             <node concept="cd27G" id="1ue" role="lGtFl">
               <node concept="3u3nmq" id="1uf" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15769,7 +15769,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1uy" role="37wK5m">
-            <property role="Xl_RC" value="\\ominus" />
+            <property role="Xl_RC" value="⊖" />
             <node concept="cd27G" id="1uC" role="lGtFl">
               <node concept="3u3nmq" id="1uD" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15840,7 +15840,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1uW" role="37wK5m">
-            <property role="Xl_RC" value="\\sqsubseteq" />
+            <property role="Xl_RC" value="⊑" />
             <node concept="cd27G" id="1v2" role="lGtFl">
               <node concept="3u3nmq" id="1v3" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15911,7 +15911,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1vm" role="37wK5m">
-            <property role="Xl_RC" value="\\wr" />
+            <property role="Xl_RC" value="≀" />
             <node concept="cd27G" id="1vs" role="lGtFl">
               <node concept="3u3nmq" id="1vt" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -15982,7 +15982,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1vK" role="37wK5m">
-            <property role="Xl_RC" value="\\equiv" />
+            <property role="Xl_RC" value="≡" />
             <node concept="cd27G" id="1vQ" role="lGtFl">
               <node concept="3u3nmq" id="1vR" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -16053,7 +16053,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1wa" role="37wK5m">
-            <property role="Xl_RC" value="\\oplus" />
+            <property role="Xl_RC" value="⨁" />
             <node concept="cd27G" id="1wg" role="lGtFl">
               <node concept="3u3nmq" id="1wh" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -16124,7 +16124,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="1w$" role="37wK5m">
-            <property role="Xl_RC" value="\\sqsupset" />
+            <property role="Xl_RC" value="⊐" />
             <node concept="cd27G" id="1wE" role="lGtFl">
               <node concept="3u3nmq" id="1wF" role="cd27D">
                 <property role="3u3nmv" value="7724032538758606283" />
@@ -23511,7 +23511,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="2eh" role="37wK5m">
-            <property role="Xl_RC" value="[]" />
+            <property role="Xl_RC" value="□" />
             <node concept="cd27G" id="2en" role="lGtFl">
               <node concept="3u3nmq" id="2eo" role="cd27D">
                 <property role="3u3nmv" value="5169970363584015159" />
@@ -23582,7 +23582,7 @@
             </node>
           </node>
           <node concept="Xl_RD" id="2eF" role="37wK5m">
-            <property role="Xl_RC" value="&lt;&gt;" />
+            <property role="Xl_RC" value="◇" />
             <node concept="cd27G" id="2eL" role="lGtFl">
               <node concept="3u3nmq" id="2eM" role="cd27D">
                 <property role="3u3nmv" value="5169970363584015159" />

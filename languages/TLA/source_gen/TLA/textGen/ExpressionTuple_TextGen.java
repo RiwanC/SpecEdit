@@ -15,7 +15,7 @@ public class ExpressionTuple_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("<<");
+    tgs.append("〈");
     {
       Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.Expr$TU0);
       final SNode lastItem = Sequence.fromIterable(collection).last();
@@ -26,7 +26,7 @@ public class ExpressionTuple_TextGen extends TextGenDescriptorBase {
         }
       }
     }
-    tgs.append(">>");
+    tgs.append("〉");
   }
 
   private static final class LINKS {

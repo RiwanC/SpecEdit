@@ -273,12 +273,12 @@
     <node concept="25R33" id="4uZratGIeH5" role="25R1y">
       <property role="3tVfz5" value="5169970363584015173" />
       <property role="TrG5h" value="Square" />
-      <property role="1L1pqM" value="[]" />
+      <property role="1L1pqM" value="□" />
     </node>
     <node concept="25R33" id="4uZratGIeHb" role="25R1y">
       <property role="3tVfz5" value="5169970363584015179" />
       <property role="TrG5h" value="Diamond" />
-      <property role="1L1pqM" value="&lt;&gt;" />
+      <property role="1L1pqM" value="◇" />
     </node>
     <node concept="25R33" id="4uZratGIeHi" role="25R1y">
       <property role="3tVfz5" value="5169970363584015186" />
@@ -387,28 +387,28 @@
     </node>
     <node concept="25R33" id="6GLhEIqgYS1" role="25R1y">
       <property role="3tVfz5" value="7724032538758606337" />
-      <property role="1L1pqM" value="(+)" />
       <property role="TrG5h" value="AA10" />
+      <property role="1L1pqM" value="⊕" />
     </node>
     <node concept="25R33" id="6GLhEIqgYSc" role="25R1y">
       <property role="3tVfz5" value="7724032538758606348" />
-      <property role="1L1pqM" value="(-)" />
       <property role="TrG5h" value="AA11" />
+      <property role="1L1pqM" value="(-)" />
     </node>
     <node concept="25R33" id="6GLhEIqgYSo" role="25R1y">
       <property role="3tVfz5" value="7724032538758606360" />
-      <property role="1L1pqM" value="(.)" />
       <property role="TrG5h" value="AA12" />
+      <property role="1L1pqM" value="⨀" />
     </node>
     <node concept="25R33" id="6GLhEIqgYTz" role="25R1y">
       <property role="3tVfz5" value="7724032538758606435" />
-      <property role="1L1pqM" value="(/)" />
       <property role="TrG5h" value="AA13" />
+      <property role="1L1pqM" value="⊘" />
     </node>
     <node concept="25R33" id="6GLhEIqgYWf" role="25R1y">
       <property role="3tVfz5" value="7724032538758606607" />
-      <property role="1L1pqM" value="(\\X)" />
       <property role="TrG5h" value="AA14" />
+      <property role="1L1pqM" value="⨂" />
     </node>
     <node concept="25R33" id="6GLhEIqgYTP" role="25R1y">
       <property role="3tVfz5" value="7724032538758606453" />
@@ -437,8 +437,8 @@
     </node>
     <node concept="25R33" id="6GLhEIqgYVu" role="25R1y">
       <property role="3tVfz5" value="7724032538758606558" />
-      <property role="1L1pqM" value="-+-&gt;" />
       <property role="TrG5h" value="AA20" />
+      <property role="1L1pqM" value="⥅" />
     </node>
     <node concept="25R33" id="6GLhEIqgYVQ" role="25R1y">
       <property role="3tVfz5" value="7724032538758606582" />
@@ -447,8 +447,8 @@
     </node>
     <node concept="25R33" id="6GLhEIqgYS_" role="25R1y">
       <property role="3tVfz5" value="7724032538758606373" />
-      <property role="1L1pqM" value="-|" />
       <property role="TrG5h" value="AA22" />
+      <property role="1L1pqM" value="-|" />
     </node>
     <node concept="25R33" id="6GLhEIqgYSN" role="25R1y">
       <property role="3tVfz5" value="7724032538758606387" />
@@ -602,233 +602,233 @@
     </node>
     <node concept="25R33" id="6GLhEIqgZen" role="25R1y">
       <property role="3tVfz5" value="7724032538758607767" />
-      <property role="1L1pqM" value="\\approx" />
       <property role="TrG5h" value="AA54" />
+      <property role="1L1pqM" value="≈" />
     </node>
     <node concept="25R33" id="6GLhEIqgZfe" role="25R1y">
       <property role="3tVfz5" value="7724032538758607822" />
       <property role="TrG5h" value="AA55" />
-      <property role="1L1pqM" value="\\geq" />
+      <property role="1L1pqM" value="≥" />
     </node>
     <node concept="25R33" id="6GLhEIqgZg6" role="25R1y">
       <property role="3tVfz5" value="7724032538758607878" />
       <property role="TrG5h" value="AA56" />
-      <property role="1L1pqM" value="\\oslash" />
+      <property role="1L1pqM" value="Ø" />
     </node>
     <node concept="25R33" id="6GLhEIqgZgZ" role="25R1y">
       <property role="3tVfz5" value="7724032538758607935" />
-      <property role="1L1pqM" value="\\sqsupseteq" />
       <property role="TrG5h" value="AA57" />
+      <property role="1L1pqM" value="⊒" />
     </node>
     <node concept="25R33" id="6GLhEIqgZhT" role="25R1y">
       <property role="3tVfz5" value="7724032538758607993" />
-      <property role="1L1pqM" value="\\asymp" />
       <property role="TrG5h" value="AA58" />
+      <property role="1L1pqM" value="≍" />
     </node>
     <node concept="25R33" id="6GLhEIqgZiO" role="25R1y">
       <property role="3tVfz5" value="7724032538758608052" />
-      <property role="1L1pqM" value="\\gg" />
       <property role="TrG5h" value="AA59" />
+      <property role="1L1pqM" value="≫" />
     </node>
     <node concept="25R33" id="6GLhEIqgZjK" role="25R1y">
       <property role="3tVfz5" value="7724032538758608112" />
       <property role="TrG5h" value="AA60" />
-      <property role="1L1pqM" value="\\otimes" />
+      <property role="1L1pqM" value="⊗" />
     </node>
     <node concept="25R33" id="6GLhEIqgZkH" role="25R1y">
       <property role="3tVfz5" value="7724032538758608173" />
-      <property role="1L1pqM" value="\\star" />
       <property role="TrG5h" value="AA61" />
+      <property role="1L1pqM" value="⋆" />
     </node>
     <node concept="25R33" id="6GLhEIqgZlF" role="25R1y">
       <property role="3tVfz5" value="7724032538758608235" />
-      <property role="1L1pqM" value="\\bigcirc" />
       <property role="TrG5h" value="AA62" />
+      <property role="1L1pqM" value="◯" />
     </node>
     <node concept="25R33" id="6GLhEIqgZmE" role="25R1y">
       <property role="3tVfz5" value="7724032538758608298" />
-      <property role="1L1pqM" value="\\in" />
       <property role="TrG5h" value="AA63" />
+      <property role="1L1pqM" value="∈" />
     </node>
     <node concept="25R33" id="6GLhEIqgZnE" role="25R1y">
       <property role="3tVfz5" value="7724032538758608362" />
-      <property role="1L1pqM" value="\\prec" />
       <property role="TrG5h" value="AA64" />
+      <property role="1L1pqM" value="≺" />
     </node>
     <node concept="25R33" id="6GLhEIqgZoF" role="25R1y">
       <property role="3tVfz5" value="7724032538758608427" />
-      <property role="1L1pqM" value="\\subset" />
       <property role="TrG5h" value="AA65" />
+      <property role="1L1pqM" value="⋐" />
     </node>
     <node concept="25R33" id="6GLhEIqgZpH" role="25R1y">
       <property role="3tVfz5" value="7724032538758608493" />
-      <property role="1L1pqM" value="\\bullet" />
       <property role="TrG5h" value="AA66" />
+      <property role="1L1pqM" value="∙" />
     </node>
     <node concept="25R33" id="6GLhEIqgZqK" role="25R1y">
       <property role="3tVfz5" value="7724032538758608560" />
       <property role="TrG5h" value="AA67" />
-      <property role="1L1pqM" value="\\intersect" />
+      <property role="1L1pqM" value="∩" />
     </node>
     <node concept="25R33" id="6GLhEIqgZrO" role="25R1y">
       <property role="3tVfz5" value="7724032538758608628" />
-      <property role="1L1pqM" value="\\preceq" />
       <property role="TrG5h" value="AA68" />
+      <property role="1L1pqM" value="⪯" />
     </node>
     <node concept="25R33" id="6GLhEIqgZGl" role="25R1y">
       <property role="3tVfz5" value="7724032538758609685" />
-      <property role="1L1pqM" value="\\subseteq" />
       <property role="TrG5h" value="AA69" />
+      <property role="1L1pqM" value="⊆" />
     </node>
     <node concept="25R33" id="6GLhEIqgZHC" role="25R1y">
       <property role="3tVfz5" value="7724032538758609768" />
-      <property role="1L1pqM" value="\\cap" />
       <property role="TrG5h" value="AA70" />
+      <property role="1L1pqM" value="⋂" />
     </node>
     <node concept="25R33" id="6GLhEIqgZsT" role="25R1y">
       <property role="3tVfz5" value="7724032538758608697" />
       <property role="TrG5h" value="AA71" />
-      <property role="1L1pqM" value="\\land" />
+      <property role="1L1pqM" value="∧" />
     </node>
     <node concept="25R33" id="6GLhEIqgZtZ" role="25R1y">
       <property role="3tVfz5" value="7724032538758608767" />
-      <property role="1L1pqM" value="\\propto" />
       <property role="TrG5h" value="AA72" />
+      <property role="1L1pqM" value="∝" />
     </node>
     <node concept="25R33" id="6GLhEIqgZv6" role="25R1y">
       <property role="3tVfz5" value="7724032538758608838" />
-      <property role="1L1pqM" value="\\succ" />
       <property role="TrG5h" value="AA73" />
+      <property role="1L1pqM" value="≻" />
     </node>
     <node concept="25R33" id="6GLhEIqgZwe" role="25R1y">
       <property role="3tVfz5" value="7724032538758608910" />
-      <property role="1L1pqM" value="\\cdot" />
       <property role="TrG5h" value="AA74" />
+      <property role="1L1pqM" value="⋅" />
     </node>
     <node concept="25R33" id="6GLhEIqgZxn" role="25R1y">
       <property role="3tVfz5" value="7724032538758608983" />
       <property role="TrG5h" value="AA75" />
-      <property role="1L1pqM" value="\\leq" />
+      <property role="1L1pqM" value="≤" />
     </node>
     <node concept="25R33" id="6GLhEIqgZIW" role="25R1y">
       <property role="3tVfz5" value="7724032538758609852" />
-      <property role="1L1pqM" value="\\sim" />
       <property role="TrG5h" value="AA76" />
+      <property role="1L1pqM" value="∼" />
     </node>
     <node concept="25R33" id="6GLhEIqgZyx" role="25R1y">
       <property role="3tVfz5" value="7724032538758609057" />
-      <property role="1L1pqM" value="\\succeq" />
       <property role="TrG5h" value="AA77" />
+      <property role="1L1pqM" value="⪰" />
     </node>
     <node concept="25R33" id="6GLhEIqgZ$S" role="25R1y">
       <property role="3tVfz5" value="7724032538758609208" />
-      <property role="1L1pqM" value="\\ll" />
       <property role="TrG5h" value="AA79" />
+      <property role="1L1pqM" value="≪" />
     </node>
     <node concept="25R33" id="6GLhEIqgZA5" role="25R1y">
       <property role="3tVfz5" value="7724032538758609285" />
-      <property role="1L1pqM" value="\\simeq" />
       <property role="TrG5h" value="AA80" />
+      <property role="1L1pqM" value="≃" />
     </node>
     <node concept="25R33" id="6GLhEIqgZBj" role="25R1y">
       <property role="3tVfz5" value="7724032538758609363" />
-      <property role="1L1pqM" value="\\supset" />
       <property role="TrG5h" value="AA81" />
+      <property role="1L1pqM" value="⊃" />
     </node>
     <node concept="25R33" id="6GLhEIqgZCy" role="25R1y">
       <property role="3tVfz5" value="7724032538758609442" />
-      <property role="1L1pqM" value="\\cong" />
       <property role="TrG5h" value="AA82" />
+      <property role="1L1pqM" value="≅" />
     </node>
     <node concept="25R33" id="6GLhEIqgZDM" role="25R1y">
       <property role="3tVfz5" value="7724032538758609522" />
       <property role="TrG5h" value="AA83" />
-      <property role="1L1pqM" value="\\lor" />
+      <property role="1L1pqM" value="∨" />
     </node>
     <node concept="25R33" id="6GLhEIqgZF3" role="25R1y">
       <property role="3tVfz5" value="7724032538758609603" />
-      <property role="1L1pqM" value="\\sqcap" />
       <property role="TrG5h" value="AA84" />
+      <property role="1L1pqM" value="⊓" />
     </node>
     <node concept="25R33" id="6GLhEIqgZKh" role="25R1y">
       <property role="3tVfz5" value="7724032538758609937" />
-      <property role="1L1pqM" value="\\supseteq" />
       <property role="TrG5h" value="AA85" />
+      <property role="1L1pqM" value="⊇" />
     </node>
     <node concept="25R33" id="6GLhEIqgZLB" role="25R1y">
       <property role="3tVfz5" value="7724032538758610023" />
       <property role="TrG5h" value="AA86" />
-      <property role="1L1pqM" value="\\cup" />
+      <property role="1L1pqM" value="∪" />
     </node>
     <node concept="25R33" id="6GLhEIqgZMY" role="25R1y">
       <property role="3tVfz5" value="7724032538758610110" />
       <property role="TrG5h" value="AA87" />
-      <property role="1L1pqM" value="\\o" />
+      <property role="1L1pqM" value="o" />
     </node>
     <node concept="25R33" id="6GLhEIqgZOm" role="25R1y">
       <property role="3tVfz5" value="7724032538758610198" />
-      <property role="1L1pqM" value="\\sqcup" />
       <property role="TrG5h" value="AA88" />
+      <property role="1L1pqM" value="⊔" />
     </node>
     <node concept="25R33" id="6GLhEIqgZPJ" role="25R1y">
       <property role="3tVfz5" value="7724032538758610287" />
-      <property role="1L1pqM" value="\\union" />
       <property role="TrG5h" value="AA89" />
+      <property role="1L1pqM" value="⋃" />
     </node>
     <node concept="25R33" id="6GLhEIqgZR9" role="25R1y">
       <property role="3tVfz5" value="7724032538758610377" />
-      <property role="1L1pqM" value="\\div" />
       <property role="TrG5h" value="AA90" />
+      <property role="1L1pqM" value="÷" />
     </node>
     <node concept="25R33" id="6GLhEIqgZS$" role="25R1y">
       <property role="3tVfz5" value="7724032538758610468" />
       <property role="TrG5h" value="AA91" />
-      <property role="1L1pqM" value="\\odot" />
+      <property role="1L1pqM" value="⊙" />
     </node>
     <node concept="25R33" id="6GLhEIqgZU0" role="25R1y">
       <property role="3tVfz5" value="7724032538758610560" />
-      <property role="1L1pqM" value="\\sqsubset" />
       <property role="TrG5h" value="AA92" />
+      <property role="1L1pqM" value="⊏" />
     </node>
     <node concept="25R33" id="6GLhEIqgZVt" role="25R1y">
       <property role="3tVfz5" value="7724032538758610653" />
-      <property role="1L1pqM" value="\\uplus" />
       <property role="TrG5h" value="AA93" />
+      <property role="1L1pqM" value="⊎" />
     </node>
     <node concept="25R33" id="6GLhEIqgZWV" role="25R1y">
       <property role="3tVfz5" value="7724032538758610747" />
-      <property role="1L1pqM" value="\\doteq" />
       <property role="TrG5h" value="AA94" />
+      <property role="1L1pqM" value="≐" />
     </node>
     <node concept="25R33" id="6GLhEIqgZYq" role="25R1y">
       <property role="3tVfz5" value="7724032538758610842" />
       <property role="TrG5h" value="AA95" />
-      <property role="1L1pqM" value="\\ominus" />
+      <property role="1L1pqM" value="⊖" />
     </node>
     <node concept="25R33" id="6GLhEIqgZZU" role="25R1y">
       <property role="3tVfz5" value="7724032538758610938" />
-      <property role="1L1pqM" value="\\sqsubseteq" />
       <property role="TrG5h" value="AA96" />
+      <property role="1L1pqM" value="⊑" />
     </node>
     <node concept="25R33" id="6GLhEIqh01r" role="25R1y">
       <property role="3tVfz5" value="7724032538758611035" />
-      <property role="1L1pqM" value="\\wr" />
       <property role="TrG5h" value="AA97" />
+      <property role="1L1pqM" value="≀" />
     </node>
     <node concept="25R33" id="6GLhEIqh02X" role="25R1y">
       <property role="3tVfz5" value="7724032538758611133" />
       <property role="TrG5h" value="AA98" />
-      <property role="1L1pqM" value="\\equiv" />
+      <property role="1L1pqM" value="≡" />
     </node>
     <node concept="25R33" id="6GLhEIqh04w" role="25R1y">
       <property role="3tVfz5" value="7724032538758611232" />
       <property role="TrG5h" value="AA99" />
-      <property role="1L1pqM" value="\\oplus" />
+      <property role="1L1pqM" value="⨁" />
     </node>
     <node concept="25R33" id="6GLhEIqh064" role="25R1y">
       <property role="3tVfz5" value="7724032538758611332" />
-      <property role="1L1pqM" value="\\sqsupset" />
       <property role="TrG5h" value="AA100" />
+      <property role="1L1pqM" value="⊐" />
     </node>
   </node>
   <node concept="25R3W" id="6GLhEIqh07D">
