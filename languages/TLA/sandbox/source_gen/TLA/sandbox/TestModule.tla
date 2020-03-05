@@ -1,6 +1,9 @@
 ---- MODULE TestModule ----
 EXTENDS Mod1,Mod2
-VARIABLE A,V,C
+VARIABLE A,B
+A(x) ≜  CASE 1 → B = 3
+ □ 2 → B = 6 □ OTHER → B = 9
+
 CONSTANT  _^* , _^+ (*Ceci est un commentaire*)
 --------------------
 ASSUMPTION  AAAA!FDS
