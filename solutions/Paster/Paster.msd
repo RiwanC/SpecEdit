@@ -20,7 +20,6 @@
     <dependency reexport="false">08f46745-bd0c-4cd9-97ef-4fbe00bad2a8(ExternalDependencies)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:7a6b8f83-d202-4e59-94ec-f562edfca98d:TLA" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
