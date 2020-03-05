@@ -51,6 +51,9 @@
         <child id="2425262332964271063" name="Expr" index="yO33D" />
         <child id="2425262332964271061" name="ExceptList" index="yO33F" />
       </concept>
+      <concept id="2425262332964271360" name="TLA.structure.Other" flags="ng" index="yO3oY">
+        <child id="2425262332964271361" name="Expr" index="yO3oZ" />
+      </concept>
       <concept id="2425262332964271124" name="TLA.structure.ExpressionTuple" flags="ng" index="yO3sE">
         <child id="2425262332964271125" name="Expr" index="yO3sF" />
       </concept>
@@ -58,6 +61,18 @@
         <child id="2425262332964271226" name="Expr3" index="yO3t4" />
         <child id="2425262332964271223" name="Expr2" index="yO3t9" />
         <child id="2425262332964271221" name="Expr1" index="yO3tb" />
+      </concept>
+      <concept id="2425262332964271352" name="TLA.structure.Case" flags="ng" index="yO3v6">
+        <child id="2425262332964271518" name="OptionalOther" index="yO3qw" />
+        <child id="2425262332964271355" name="SquareAndCaseArm" index="yO3v5" />
+        <child id="2425262332964271353" name="CaseArm" index="yO3v7" />
+      </concept>
+      <concept id="2425262332964271330" name="TLA.structure.SquareAndCaseArm" flags="ng" index="yO3vs">
+        <child id="2425262332964271331" name="CaseArm" index="yO3vt" />
+      </concept>
+      <concept id="2425262332964271297" name="TLA.structure.CaseArm" flags="ng" index="yO3vZ">
+        <child id="2425262332964271300" name="Expr2" index="yO3vU" />
+        <child id="2425262332964271298" name="Expr1" index="yO3vW" />
       </concept>
       <concept id="2425262332964329525" name="TLA.structure.SlashAntiSlahExpr" flags="ng" index="yOhGb">
         <child id="2425262332964329526" name="Expr" index="yOhG8" />
@@ -195,10 +210,64 @@
           <property role="TrG5h" value="A" />
         </node>
         <node concept="2Vhqd8" id="1dPBRdzFrcL" role="2Vhqdu">
-          <property role="TrG5h" value="V" />
+          <property role="TrG5h" value="B" />
         </node>
-        <node concept="2Vhqd8" id="1dPBRdzFrcQ" role="2Vhqdu">
-          <property role="TrG5h" value="C" />
+      </node>
+    </node>
+    <node concept="32OWJ_" id="3PgmZBHse1R" role="2SR288">
+      <node concept="3LvGQJ" id="3PgmZBHse3t" role="32OWIq">
+        <property role="3LvGQI" value="A" />
+        <node concept="1KOkhp" id="3PgmZBHse3z" role="3LvHET">
+          <ref role="1KOkho" node="1dPBRdzFrdq" resolve="x" />
+        </node>
+      </node>
+      <node concept="yO3v6" id="3PgmZBHse3A" role="32OWIo">
+        <node concept="yO3vZ" id="3PgmZBHse3C" role="yO3v7">
+          <node concept="38R6Tx" id="3PgmZBHse3Y" role="yO3vW">
+            <property role="38R6Ty" value="1" />
+          </node>
+          <node concept="1Szwm3" id="3PgmZBHse41" role="yO3vU">
+            <node concept="2xEIcL" id="3PgmZBHse4d" role="1Szwmc">
+              <property role="32OWgT" value="B" />
+            </node>
+            <node concept="38R6Tx" id="3PgmZBHse4y" role="1Szwme">
+              <property role="38R6Ty" value="3" />
+            </node>
+            <node concept="2xEIcN" id="3PgmZBHse4v" role="1Szwmb">
+              <property role="32OWJb" value="6GLhEIqgZ10/AA35" />
+            </node>
+          </node>
+        </node>
+        <node concept="yO3vs" id="3PgmZBHse3I" role="yO3v5">
+          <node concept="yO3vZ" id="3PgmZBHse3K" role="yO3vt">
+            <node concept="38R6Tx" id="3PgmZBHse4_" role="yO3vW">
+              <property role="38R6Ty" value="2" />
+            </node>
+            <node concept="1Szwm3" id="3PgmZBHse4C" role="yO3vU">
+              <node concept="2xEIcL" id="3PgmZBHse4O" role="1Szwmc">
+                <property role="32OWgT" value="B" />
+              </node>
+              <node concept="38R6Tx" id="3PgmZBHse4U" role="1Szwme">
+                <property role="38R6Ty" value="6" />
+              </node>
+              <node concept="2xEIcN" id="3PgmZBHse4R" role="1Szwmb">
+                <property role="32OWJb" value="6GLhEIqgZ10/AA35" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="yO3oY" id="3PgmZBHse4X" role="yO3qw">
+          <node concept="1Szwm3" id="3PgmZBHse51" role="yO3oZ">
+            <node concept="2xEIcL" id="3PgmZBHse5d" role="1Szwmc">
+              <property role="32OWgT" value="B" />
+            </node>
+            <node concept="38R6Tx" id="3PgmZBHse5g" role="1Szwme">
+              <property role="38R6Ty" value="9" />
+            </node>
+            <node concept="2xEIcN" id="3PgmZBHse57" role="1Szwmb">
+              <property role="32OWJb" value="6GLhEIqgZ10/AA35" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
