@@ -294,7 +294,7 @@
   </root>
   <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/9113994647408618336">
     <file name="PluginSpecEditPaster.xml">
-      <unit id="9113994647408618336" at="1,0,860,10" name="Paster.plugin.PluginSpecEditPaster" />
+      <unit id="9113994647408618336" at="1,0,871,10" name="Paster.plugin.PluginSpecEditPaster" />
     </file>
   </root>
   <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/~TLAPlusGrammarBaseVisitor">
