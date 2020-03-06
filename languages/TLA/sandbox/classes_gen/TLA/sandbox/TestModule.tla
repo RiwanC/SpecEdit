@@ -1,6 +1,9 @@
 ---- MODULE TestModule ----
 EXTENDS Mod1,Mod2
-VARIABLE A,V,C
+VARIABLE A,B
+A(x) ≜  CASE 1 → B = 3
+ □ 2 → B = 6 □ OTHER → B = 9
+
 CONSTANT  _^* , _^+ (*Ceci est un commentaire*)
 --------------------
 ASSUMPTION  AAAA!FDS
@@ -8,7 +11,7 @@ INSTANCE Inst WITH  ^*  ← Prefix(Argg!Arggg)!IDi
 --------------------
 THEOREM IDIDIDDI!III
 Module2 ≜ 
-INSTANCE RRR
+INSTANCE RRRR
 FonctionTest[C ∈ VAR1!VAR2] ≜ VAR18!VAR85
 LOCAL Op ≜ Test!Testtest
 LOCAL Fonction2[〈D,D〉 ∈ IDRR!IDID] ≜ CHOOSE 〈c,s〉 ∈  ∀ s : 8888 : X!G

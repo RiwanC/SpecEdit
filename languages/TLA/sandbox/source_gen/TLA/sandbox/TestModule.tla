@@ -11,7 +11,7 @@ INSTANCE Inst WITH  ^*  ← Prefix(Argg!Arggg)!IDi
 --------------------
 THEOREM IDIDIDDI!III
 Module2 ≜ 
-INSTANCE RRR
+INSTANCE RRRR
 FonctionTest[C ∈ VAR1!VAR2] ≜ VAR18!VAR85
 LOCAL Op ≜ Test!Testtest
 LOCAL Fonction2[〈D,D〉 ∈ IDRR!IDID] ≜ CHOOSE 〈c,s〉 ∈  ∀ s : 8888 : X!G
