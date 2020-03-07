@@ -6,7 +6,7 @@
   <tstamp>
     <format property="date" pattern="yyyyMMdd" />
   </tstamp>
-  <property name="build.number" value="192.SNAPSHOT" />
+  <property name="build.number" value="1.0" />
   <property name="mps_home" location="" />
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
   <property name="artifacts.mpsMakePlugin" location="${mps_home}/plugins" />
@@ -65,7 +65,7 @@
       <component>
         <version major="1" minor="0" eap="false" />
         <build number="${build.number}" date="${date}" />
-        <logo url="/splash.png" textcolor="FFFFFF" progressColor="FFFFFF" />
+        <logo url="/splash.png" textcolor="FFFFFF" progressColor="000000" />
         <about url="/about.png" foreground="FFFFFF" copyrightForeground="FFFFFF" />
         <icon size32="/MPS32.png" size16="/MPS16.png" />
         <package code="code" />
@@ -75,6 +75,7 @@
         
         
         
+        <support url="https://github.com/RiwanC/SpecEdit" />
         
       </component>
     </echoxml>

@@ -1349,7 +1349,7 @@
       <property role="m$_wk" value="SpecEdit" />
       <node concept="3_J27D" id="7TVqtw3AyHU" role="m$_yQ">
         <node concept="3Mxwew" id="7TVqtw3AyHV" role="3MwsjC">
-          <property role="3MwjfP" value="SpecEdit" />
+          <property role="3MwjfP" value="SpecEditPaster" />
         </node>
       </node>
       <node concept="3_J27D" id="7TVqtw3AyHW" role="m$_w8">
@@ -1368,7 +1368,7 @@
       </node>
       <node concept="3_J27D" id="7TVqtw3AyI0" role="m_cZH">
         <node concept="3Mxwew" id="7TVqtw3AyI1" role="3MwsjC">
-          <property role="3MwjfP" value="SpecEdit" />
+          <property role="3MwjfP" value="SpecEditPaster" />
         </node>
       </node>
     </node>

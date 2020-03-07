@@ -9,7 +9,7 @@ Move(A,B,C) ≜  ⋀ CanMove(x,y)
       ⋀ y '  = 〈Head(x)〉 o y
       ⋀ z '  = z
 --------------------
-Invariant ≜ C # 〈1,2,3〉
+Invariant ≜ C ≠ 〈1,2,3〉
 Init ≜  ⋀ A = 〈1,2,3〉
       ⋀ B = 〈0,0,0〉
       ⋀ C = 〈0,0,0〉

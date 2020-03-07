@@ -26,12 +26,12 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}/plugins" />
-    <mkdir dir="${build.layout}/plugins/SpecEdit" />
-    <mkdir dir="${build.layout}/plugins/SpecEdit/META-INF" />
-    <echoxml file="${build.layout}/plugins/SpecEdit/META-INF/plugin.xml">
+    <mkdir dir="${build.layout}/plugins/SpecEditPaster" />
+    <mkdir dir="${build.layout}/plugins/SpecEditPaster/META-INF" />
+    <echoxml file="${build.layout}/plugins/SpecEditPaster/META-INF/plugin.xml">
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>SpecEdit</id>
-        <name>SpecEdit</name>
+        <name>SpecEditPaster</name>
         <version>1.0</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
@@ -41,8 +41,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.layout}/plugins/SpecEdit/languages" />
-    <mkdir dir="${build.layout}/plugins/SpecEdit/languages/SpecEdit" />
+    <mkdir dir="${build.layout}/plugins/SpecEditPaster/languages" />
+    <mkdir dir="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit" />
     <mkdir dir="${build.tmp}/default/Paster.jar" />
     <mkdir dir="${build.tmp}/default/Paster.jar/META-INF" />
     <echoxml file="${build.tmp}/default/Paster.jar/META-INF/module.xml">
@@ -86,7 +86,7 @@
         <sources jar="Paster-src.jar" descriptor="Paster.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/SpecEdit/languages/SpecEdit/Paster.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit/Paster.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/Paster" />
       <fileset dir="${basedir}/solutions/Paster" includes="icons/**" />
       <fileset dir="${basedir}/solutions/Paster/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -95,7 +95,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-Paster-models">
       <fileset dir="${basedir}/solutions/Paster/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/SpecEdit/languages/SpecEdit/Paster-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit/Paster-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/Paster/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -168,7 +168,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/SpecEdit/languages/SpecEdit/TLA.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit/TLA.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA" />
       <fileset dir="${basedir}/languages/TLA/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/TLA.jar" />
@@ -212,7 +212,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/SpecEdit/languages/SpecEdit/TLA-generator.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit/TLA-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA#01" />
       <fileset dir="${build.tmp}/default/TLA-generator.jar" />
     </jar>
@@ -222,7 +222,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-TLA-models">
       <fileset dir="${basedir}/languages/TLA/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/SpecEdit/languages/SpecEdit/TLA-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit/TLA-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/TLA/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -252,7 +252,7 @@
         <sources jar="ExternalDependencies-src.jar" descriptor="ExternalDependencies.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/SpecEdit/languages/SpecEdit/ExternalDependencies.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit/ExternalDependencies.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/ExternalDependencies" />
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/ExternalDependencies.jar" />
@@ -260,7 +260,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-ExternalDependencies-models">
       <fileset dir="${basedir}/solutions/ExternalDependencies/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/SpecEdit/languages/SpecEdit/ExternalDependencies-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/plugins/SpecEditPaster/languages/SpecEdit/ExternalDependencies-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -270,16 +270,16 @@
       <zipfileset file="${basedir}/solutions/ExternalDependencies/ExternalDependencies.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-ExternalDependencies-models" prefix="module/models" />
     </jar>
-    <copy todir="${build.layout}/plugins/SpecEdit">
+    <copy todir="${build.layout}/plugins/SpecEditPaster">
       <fileset file="${basedir}/libs/antlr2mps-all.jar" />
     </copy>
     <mkdir dir="${build.tmp}/default/SpecEdit.zip" />
-    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEdit" />
-    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEdit/META-INF" />
-    <echoxml file="${build.tmp}/default/SpecEdit.zip/SpecEdit/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEditPaster" />
+    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/META-INF" />
+    <echoxml file="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/META-INF/plugin.xml">
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>SpecEdit</id>
-        <name>SpecEdit</name>
+        <name>SpecEditPaster</name>
         <version>1.0</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
@@ -289,8 +289,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages" />
-    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit" />
+    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages" />
+    <mkdir dir="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit" />
     <mkdir dir="${build.tmp}/default/Paster.jar1" />
     <mkdir dir="${build.tmp}/default/Paster.jar1/META-INF" />
     <echoxml file="${build.tmp}/default/Paster.jar1/META-INF/module.xml">
@@ -334,7 +334,7 @@
         <sources jar="Paster-src.jar" descriptor="Paster.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit/Paster.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit/Paster.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/Paster" />
       <fileset dir="${basedir}/solutions/Paster" includes="icons/**" />
       <fileset dir="${basedir}/solutions/Paster/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -343,7 +343,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-Paster-models1">
       <fileset dir="${basedir}/solutions/Paster/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit/Paster-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit/Paster-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/Paster/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -416,7 +416,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit/TLA.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit/TLA.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA" />
       <fileset dir="${basedir}/languages/TLA/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/TLA.jar1" />
@@ -460,7 +460,7 @@
         <sources jar="TLA-src.jar" descriptor="TLA.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit/TLA-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit/TLA-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/TLA#01" />
       <fileset dir="${build.tmp}/default/TLA-generator.jar1" />
     </jar>
@@ -470,7 +470,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-TLA-models1">
       <fileset dir="${basedir}/languages/TLA/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit/TLA-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit/TLA-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/TLA/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -493,14 +493,14 @@
       <module namespace="ExternalDependencies" type="solution" uuid="08f46745-bd0c-4cd9-97ef-4fbe00bad2a8">
         <dependencies />
         <uses />
-        <library jar="../../../../plugins/SpecEdit/antlr2mps-all.jar" />
+        <library jar="../../../../plugins/SpecEditPaster/antlr2mps-all.jar" />
         <classpath>
           <entry path="." />
         </classpath>
         <sources jar="ExternalDependencies-src.jar" descriptor="ExternalDependencies.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit/ExternalDependencies.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit/ExternalDependencies.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/ExternalDependencies" />
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/ExternalDependencies.jar1" />
@@ -508,7 +508,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-ExternalDependencies-models1">
       <fileset dir="${basedir}/solutions/ExternalDependencies/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEdit/languages/SpecEdit/ExternalDependencies-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/SpecEdit.zip/SpecEditPaster/languages/SpecEdit/ExternalDependencies-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/ExternalDependencies/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />

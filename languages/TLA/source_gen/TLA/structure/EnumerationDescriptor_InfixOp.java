@@ -16,7 +16,7 @@ public class EnumerationDescriptor_InfixOp extends EnumerationDescriptorBase {
   }
 
   private final EnumerationDescriptor.MemberDescriptor myMember_AA1_0 = new EnumerationDescriptor.MemberDescriptor("AA1", "!!", 0x6b3146ab9a43edccL, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758606284");
-  private final EnumerationDescriptor.MemberDescriptor myMember_AA2_0 = new EnumerationDescriptor.MemberDescriptor("AA2", "#", 0x6b3146ab9a43edcdL, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758606285");
+  private final EnumerationDescriptor.MemberDescriptor myMember_AA2_0 = new EnumerationDescriptor.MemberDescriptor("AA2", "≠", 0x6b3146ab9a43edcdL, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758606285");
   private final EnumerationDescriptor.MemberDescriptor myMember_AA3_0 = new EnumerationDescriptor.MemberDescriptor("AA3", "##", 0x6b3146ab9a43edd0L, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758606288");
   private final EnumerationDescriptor.MemberDescriptor myMember_AA4_0 = new EnumerationDescriptor.MemberDescriptor("AA4", "$", 0x6b3146ab9a43edd4L, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758606292");
   private final EnumerationDescriptor.MemberDescriptor myMember_AA5_0 = new EnumerationDescriptor.MemberDescriptor("AA5", "$$", 0x6b3146ab9a43edd9L, "r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/7724032538758606297");

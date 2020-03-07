@@ -187,6 +187,7 @@
         <child id="8795525031433238889" name="textColor" index="HFo83" />
         <child id="1462305029084462472" name="buildDate" index="R$TG_" />
         <child id="772379520210716142" name="welcomeLogo" index="3vi$VU" />
+        <child id="5894421362117323157" name="support" index="3$HL_E" />
         <child id="1084163669516664629" name="copyrightForeground" index="3KTKoD" />
         <child id="1084163669516639223" name="foreground" index="3KTYbF" />
       </concept>
@@ -297,7 +298,12 @@
       </node>
       <node concept="NbPM2" id="6oOBu5XtYYp" role="27hGoL">
         <node concept="3Mxwew" id="6oOBu5XtYYq" role="3MwsjC">
-          <property role="3MwjfP" value="FFFFFF" />
+          <property role="3MwjfP" value="000000" />
+        </node>
+      </node>
+      <node concept="NbPM2" id="1yPd9Dscte1" role="3$HL_E">
+        <node concept="3Mxwew" id="1yPd9Dscte0" role="3MwsjC">
+          <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
         </node>
       </node>
     </node>
@@ -312,7 +318,7 @@
       <node concept="aVJcg" id="6oOBu5XtYXH" role="aVJcv">
         <node concept="NbPM2" id="6oOBu5XtYXI" role="aVJcq">
           <node concept="3Mxwew" id="6oOBu5XtYXJ" role="3MwsjC">
-            <property role="3MwjfP" value="192.SNAPSHOT" />
+            <property role="3MwjfP" value="1.0" />
           </node>
         </node>
       </node>
