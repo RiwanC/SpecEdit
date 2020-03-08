@@ -95,16 +95,6 @@
             <property role="3o6i5n" value="SpecEdit" />
           </node>
         </node>
-        <node concept="2pNNFK" id="7ZoWiKceyyE" role="3o6s8t">
-          <property role="2pNNFO" value="idea-version" />
-          <property role="qg3DV" value="true" />
-          <node concept="2pNUuL" id="7ZoWiKceyzf" role="2pNNFR">
-            <property role="2pNUuO" value="since-build" />
-            <node concept="2pMdtt" id="7ZoWiKceyzC" role="2pMdts">
-              <property role="2pMdty" value="192.1" />
-            </node>
-          </node>
-        </node>
         <node concept="3o6iSG" id="7ZoWiKcey$2" role="3o6s8t" />
         <node concept="2pNNFK" id="7ZoWiKcey$B" role="3o6s8t">
           <property role="2pNNFO" value="depends" />
