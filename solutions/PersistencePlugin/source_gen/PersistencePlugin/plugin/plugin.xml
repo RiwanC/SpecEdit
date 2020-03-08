@@ -6,7 +6,6 @@
       Persistence of MPS models into tla+ files</description>
   <version>1.0</version>
   <vendor>SpecEdit</vendor>
-  <idea-version since-build="192.1" />
   
   <depends>jetbrains.mps.core</depends>
   

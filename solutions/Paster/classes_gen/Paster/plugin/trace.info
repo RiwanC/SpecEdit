@@ -292,11 +292,6 @@
       <unit id="9113994647406988966" at="9,0,31,0" name="Paster.plugin.Paster_ApplicationPlugin" />
     </file>
   </root>
-  <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/9113994647408618336">
-    <file name="PluginSpecEditPaster.xml">
-      <unit id="9113994647408618336" at="1,0,871,10" name="Paster.plugin.PluginSpecEditPaster" />
-    </file>
-  </root>
   <root nodeRef="r:fe7c63f5-56e3-42f8-a5db-7fbec79566e1(Paster.plugin)/~TLAPlusGrammarBaseVisitor">
     <file name="AntlrUnitVisitor.java">
       <node id="384861153815336205" at="22,73,23,180" concept="9" />
