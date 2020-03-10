@@ -7,7 +7,7 @@ SpecEdit
 <img src="icons/splash.png">
 </p>
 
-*SpecEdit* is a multiplatform standalone software which provides:
+The resulting IDE is a multiplatform standalone software which provides:
 
 -	Basic features of an IDE (edition, verification);
 -	A smooth user experience (with programming aids) and graphical input;
