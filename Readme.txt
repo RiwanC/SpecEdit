@@ -1,6 +1,6 @@
 SpecEdit consists in the design of an Integrated Development Environment (IDE) using JetBrains’ software MPS (MetaProgramming System) for the specification language TLA+.
 
-![Logo](https://github.com/RiwanC/SpecEdit/icons/splash.png)
+![Logo](https://github.com/RiwanC/SpecEdit/blob/master/icons/splash.png)
 
 SpecEdit is a multiplatform standalone software which provides :
 -	Basic features of an IDE (edition, verification);
