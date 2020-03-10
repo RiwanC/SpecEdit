@@ -24,7 +24,7 @@ How to build a standalone 'SpecEdit' IDE for your OS ?
 6) Go back to MPS and edit SpecEditDistribution to remove the lines about the generation of an archive for the OSs you don't use (for instance remove the section about macOS and the section about linux if you use windows). Make or rebuild the build directory (via the menu you get access to this option by right-clicking on the build directory on the side pannel).
 7) Right-click on SpecEdit and run it. Right-click on SpecEditDistribution and run it. If an error about dependencies appears, remove the lines about the creation of the solution TLA.sandbox inside the SpecEdit build file (MPS indicates where the error is located).
 8) Go to your project directory in .\build\artifacts\SpecEditDistribution where a *.zip file should have been created (or *.tar.gz for linux users). Unzip it and launch the generated editor (specedit.bat in the folder \bin of the unzipped archive for windows users).
-9) Enjoy your standalone editor !
+9) Enjoy your standalone editor!
 
 PS: if you want to customize the editor, do not hesitate to modify the settings inside the build files in MPS or to replace the images in the generated icons folder.
 
