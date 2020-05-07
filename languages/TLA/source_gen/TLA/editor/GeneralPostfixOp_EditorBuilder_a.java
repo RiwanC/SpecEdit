@@ -21,6 +21,7 @@ import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
+import jetbrains.mps.nodeEditor.cells.EditorCell_ContextAssistantComponent;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
@@ -67,6 +68,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     if (nodeCondition_hn0b4f_a0a()) {
       editorCell.addEditorCell(createCollection_1());
     }
+    editorCell.addEditorCell(createContextAssistant_0());
     editorCell.addEditorCell(createProperty_0());
     return editorCell;
   }
@@ -136,6 +138,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     protected String getNoTargetText() {
       return "<no InstancePrefix>";
     }
+  }
+  private EditorCell createContextAssistant_0() {
+    EditorCell editorCell = new EditorCell_ContextAssistantComponent(getEditorContext(), myNode);
+    editorCell.setCellId("ContextAssistant_hn0b4f_b0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
+    return editorCell;
   }
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
