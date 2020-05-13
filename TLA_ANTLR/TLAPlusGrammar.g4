@@ -10,6 +10,8 @@ VIRGULE : ',';
 MODULE: 'MODULE';
 EXTENDS: 'EXTENDS';
 LOCAL: 'LOCAL';
+ANTISLASHSLASH:'\\/';
+SLASHANTISLASH:'/\\';
 nameList : (Name|Identifier) (VIRGULE (Name|Identifier))* ;
 
 module
@@ -151,11 +153,15 @@ exceptList: (  EXCLAMATIONPOINT exceptInterface EQUAL expression )
 expression  :
             generalIdentifier
 
+         |  (SLASHANTISLASH  expression)?(SLASHANTISLASH  expression)+
+
+         |  (ANTISLASHSLASH  expression)?(ANTISLASHSLASH  expression)+
+
+         |  expression   generalInfixOp   expression
+
          |  generalIdentifier   LEFTBRACKET argument (VIRGULE argument)* RIGHTBRACKET
 
          |  generalPrefixOp   expression
-
-         |  expression   generalInfixOp   expression
 
          |  expression   generalPostfixOp
 
@@ -230,10 +236,6 @@ expression  :
               IN
               expression
 
-     |  (SLASHANTISLASH  expression)+
-
-     |  (ANTISLASHSLASH  expression)+
-
      |  Num
 
      |  String 
@@ -242,8 +244,6 @@ expression  :
 
 
 AT:'@';
-ANTISLASHSLASH:'\\/';
-SLASHANTISLASH:'/\\';
 OTHER:'OTHER';
 SQUARE:'[]';
 EXCEPT:'EXCEPT';
@@ -313,7 +313,7 @@ infixOp  :
          '&'|   '&&'|   '(+)'|  '(-)'|  '(.)'|  '(/)'|  '(\\X)'|
          '*'|   '**'|   '+'|    '++'|   '-'|    '-+->'| '--'|
          '-|'|  '..'|   '...'|  '/'|    '//'|  '/='|   SLASHANTISLASH|
-         '::='| ':='|   ':>'|   '<'|    '<:'|   '<=>'|
+         '::='| ':='|   ':>'|   '<'|    '<:'|   '<=>'| '<='|
          '=<'|  '=>'|   '=|'|   '>'|    '>='|   '?'|    '??'|
          '@@'|  '\\'|    ANTISLASHSLASH| '^'|    '^^'|   '|'|    '|-'|
          '|='|  '||'|   '~>'|   POINT|
