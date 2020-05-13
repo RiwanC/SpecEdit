@@ -369,7 +369,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329566");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e0379585fL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964329567").done();
-    b.alias("\\/");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForAntiSlashSlashExprList() {
@@ -379,6 +378,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329588");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e03795875L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e0379585eL).optional(false).ordered(true).multiple(true).origin("2425262332964329589").done();
+    b.alias("\\/");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForArgument() {
@@ -1148,7 +1148,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329525");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e03795836L).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd5fL).optional(false).ordered(true).multiple(false).origin("2425262332964329526").done();
-    b.alias("/\\");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSlashAntiSlashExprList() {
@@ -1158,6 +1157,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:3f6b7621-97d8-464c-bb3b-fdae13d84a79(TLA.structure)/2425262332964329547");
     b.version(2);
     b.aggregate("Expr", 0x21a8433e0379584cL).target(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x21a8433e03795835L).optional(false).ordered(true).multiple(true).origin("2425262332964329548").done();
+    b.alias("/\\");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSquareAndCaseArm() {

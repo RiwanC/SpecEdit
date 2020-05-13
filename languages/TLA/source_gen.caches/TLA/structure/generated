@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="4c0fnq2vc5tv43w0gdvgpsj9qs654t7">
+<product version="3" modelHash="-92b1x7pbeirwgx398qi1gfkumn0abcg">
   <files names="ConceptPresentationAspectImpl.java:EnumerationDescriptor_Axiom.java:EnumerationDescriptor_InfixOp.java:EnumerationDescriptor_PostfixOp.java:EnumerationDescriptor_PrefixOp.java:EnumerationDescriptor_RegularQuantifier.java:EnumerationDescriptor_WForSFEnum.java:LanguageConceptSwitch.java:StructureAspectDescriptor.java" />
 </product>
 

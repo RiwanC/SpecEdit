@@ -146,6 +146,8 @@ exceptInterfaceTerminal:(POINT   (Name|Identifier)) | (LEFTSQUAREBRACKET   expre
 exceptInterface:( exceptInterfaceTerminal  )+;
 exceptList: (  EXCLAMATIONPOINT exceptInterface EQUAL expression )
             (VIRGULE (  EXCLAMATIONPOINT exceptInterface EQUAL expression ))*;
+
+
 expression  :
             generalIdentifier
 
@@ -237,6 +239,7 @@ expression  :
      |  String 
 
      |  AT;
+
 
 AT:'@';
 ANTISLASHSLASH:'\\/';

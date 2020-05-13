@@ -16,8 +16,17 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.editor.runtime.style.Padding;
+import jetbrains.mps.editor.runtime.style.Measure;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 /*package*/ class ExprAndGeneralInfixOpAndExpr_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -84,6 +93,9 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       if (editorCell.getSRole() == null) {
         editorCell.setSRole(LINKS.Expr1$So6u);
       }
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, _StyleParameter_QueryFunction_dtqz45_a0a0());
+      editorCell.getStyle().putAll(style);
     }
     @Override
     protected EditorCell createEmptyCell() {
@@ -101,6 +113,15 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     }
     protected String getNoTargetText() {
       return "<no Expr1>";
+    }
+    private boolean _StyleParameter_QueryFunction_dtqz45_a0a0() {
+      if (SEnumOperations.isMember(SPropertyOperations.getEnum(SLinkOperations.getTarget(getNode(), LINKS.GInfixOp$Soj4), PROPS.InfixOp$gwW6), 0x6b3146ab9a43f739L)) {
+        return true;
+      }
+      if (SEnumOperations.isMember(SPropertyOperations.getEnum(SLinkOperations.getTarget(getNode(), LINKS.GInfixOp$Soj4), PROPS.InfixOp$gwW6), 0x6b3146ab9a43fa72L)) {
+        return true;
+      }
+      return false;
     }
   }
   private EditorCell createRefNode_1() {
@@ -139,6 +160,10 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       if (editorCell.getSRole() == null) {
         editorCell.setSRole(LINKS.GInfixOp$Soj4);
       }
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.FONT_STYLE, _StyleParameter_QueryFunction_dtqz45_a0b0());
+      style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0, Measure.SPACES));
+      editorCell.getStyle().putAll(style);
     }
     @Override
     protected EditorCell createEmptyCell() {
@@ -156,6 +181,15 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     }
     protected String getNoTargetText() {
       return "<no GInfixOp>";
+    }
+    private int _StyleParameter_QueryFunction_dtqz45_a0b0() {
+      if (SEnumOperations.isMember(SPropertyOperations.getEnum(SLinkOperations.getTarget(getNode(), LINKS.GInfixOp$Soj4), PROPS.InfixOp$gwW6), 0x6b3146ab9a43f739L)) {
+        return 1;
+      }
+      if (SEnumOperations.isMember(SPropertyOperations.getEnum(SLinkOperations.getTarget(getNode(), LINKS.GInfixOp$Soj4), PROPS.InfixOp$gwW6), 0x6b3146ab9a43fa72L)) {
+        return 1;
+      }
+      return 0;
     }
   }
   private EditorCell createRefNode_2() {
@@ -218,5 +252,9 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     /*package*/ static final SContainmentLink Expr1$So6u = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x18704c9560fe4916L, 0x18704c9560fe4919L, "Expr1");
     /*package*/ static final SContainmentLink GInfixOp$Soj4 = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x18704c9560fe4916L, 0x18704c9560fe491eL, "GInfixOp");
     /*package*/ static final SContainmentLink Expr2$SohB = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x18704c9560fe4916L, 0x18704c9560fe491bL, "Expr2");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty InfixOp$gwW6 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x674b5e52c6e1bd61L, 0x467903da84aac811L, "InfixOp");
   }
 }

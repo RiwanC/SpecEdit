@@ -8,7 +8,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -40,33 +41,37 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
   }
 
   private EditorCell createCollection_0() {
-    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Indent());
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
     editorCell.setCellId("Collection_rrfgpz_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
+    editorCell.addEditorCell(createCollection_1());
+    editorCell.addEditorCell(createCollection_2());
+    editorCell.addEditorCell(createCollection_3());
+    return editorCell;
+  }
+  private EditorCell createCollection_1() {
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
+    editorCell.setCellId("Collection_rrfgpz_a0");
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefNode_0());
-    editorCell.addEditorCell(createConstant_1());
-    editorCell.addEditorCell(createRefNode_1());
-    editorCell.addEditorCell(createConstant_2());
-    editorCell.addEditorCell(createRefNode_2());
     return editorCell;
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "IF");
-    editorCell.setCellId("Constant_rrfgpz_a0");
+    editorCell.setCellId("Constant_rrfgpz_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new Expr1SingleRoleHandler_rrfgpz_b0(myNode, LINKS.Expr1$11ow, getEditorContext());
+    SingleRoleCellProvider provider = new Expr1SingleRoleHandler_rrfgpz_b0a(myNode, LINKS.Expr1$11ow, getEditorContext());
     return provider.createCell();
   }
-  private static class Expr1SingleRoleHandler_rrfgpz_b0 extends SingleRoleCellProvider {
+  private static class Expr1SingleRoleHandler_rrfgpz_b0a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public Expr1SingleRoleHandler_rrfgpz_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public Expr1SingleRoleHandler_rrfgpz_b0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -113,21 +118,28 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       return "<no Expr1>";
     }
   }
+  private EditorCell createCollection_2() {
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
+    editorCell.setCellId("Collection_rrfgpz_b0");
+    editorCell.addEditorCell(createConstant_1());
+    editorCell.addEditorCell(createRefNode_1());
+    return editorCell;
+  }
   private EditorCell createConstant_1() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "THEN");
-    editorCell.setCellId("Constant_rrfgpz_c0");
+    editorCell.setCellId("Constant_rrfgpz_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new Expr2SingleRoleHandler_rrfgpz_d0(myNode, LINKS.Expr2$11pu, getEditorContext());
+    SingleRoleCellProvider provider = new Expr2SingleRoleHandler_rrfgpz_b1a(myNode, LINKS.Expr2$11pu, getEditorContext());
     return provider.createCell();
   }
-  private static class Expr2SingleRoleHandler_rrfgpz_d0 extends SingleRoleCellProvider {
+  private static class Expr2SingleRoleHandler_rrfgpz_b1a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public Expr2SingleRoleHandler_rrfgpz_d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public Expr2SingleRoleHandler_rrfgpz_b1a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -174,21 +186,28 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
       return "<no Expr2>";
     }
   }
+  private EditorCell createCollection_3() {
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
+    editorCell.setCellId("Collection_rrfgpz_c0");
+    editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createRefNode_2());
+    return editorCell;
+  }
   private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "ELSE");
-    editorCell.setCellId("Constant_rrfgpz_e0");
+    editorCell.setCellId("Constant_rrfgpz_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNode_2() {
-    SingleRoleCellProvider provider = new Expr3SingleRoleHandler_rrfgpz_f0(myNode, LINKS.Expr3$11qV, getEditorContext());
+    SingleRoleCellProvider provider = new Expr3SingleRoleHandler_rrfgpz_b2a(myNode, LINKS.Expr3$11qV, getEditorContext());
     return provider.createCell();
   }
-  private static class Expr3SingleRoleHandler_rrfgpz_f0 extends SingleRoleCellProvider {
+  private static class Expr3SingleRoleHandler_rrfgpz_b2a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public Expr3SingleRoleHandler_rrfgpz_f0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public Expr3SingleRoleHandler_rrfgpz_b2a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

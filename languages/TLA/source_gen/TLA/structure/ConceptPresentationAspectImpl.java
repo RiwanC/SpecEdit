@@ -120,14 +120,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.AntiSlashSlashExpr:
         if (props_AntiSlashSlashExpr == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("\\/");
+          cpb.rawPresentation("AntiSlashSlashExpr");
           props_AntiSlashSlashExpr = cpb.create();
         }
         return props_AntiSlashSlashExpr;
       case LanguageConceptSwitch.AntiSlashSlashExprList:
         if (props_AntiSlashSlashExprList == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("AntiSlashSlashExprList");
+          cpb.rawPresentation("\\/");
           props_AntiSlashSlashExprList = cpb.create();
         }
         return props_AntiSlashSlashExprList;
@@ -679,14 +679,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.SlashAntiSlahExpr:
         if (props_SlashAntiSlahExpr == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("/\\");
+          cpb.rawPresentation("SlashAntiSlahExpr");
           props_SlashAntiSlahExpr = cpb.create();
         }
         return props_SlashAntiSlahExpr;
       case LanguageConceptSwitch.SlashAntiSlashExprList:
         if (props_SlashAntiSlashExprList == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("SlashAntiSlashExprList");
+          cpb.rawPresentation("/\\");
           props_SlashAntiSlashExprList = cpb.create();
         }
         return props_SlashAntiSlashExprList;
