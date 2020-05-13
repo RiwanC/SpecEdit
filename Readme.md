@@ -12,7 +12,7 @@ https://youtu.be/8JGlZt_DNt8
 The resulting IDE is a multiplatform standalone software which provides:
 
 -	The basic features of an IDE (edition, verification);
--	A smooth user experience (with programming aids) and graphical input;
+-	A custom user experience (with programming aids) and graphical input;
 -	Rendering with mathematical notations;
 -	Although graphical, an underlying plain text support for interoperability (in the form of a paste handler, text generators and a custom persistence model);
 
