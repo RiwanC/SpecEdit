@@ -1,6 +1,8 @@
 SpecEdit [Under development]
 ==
 
+https://youtu.be/8JGlZt_DNt8
+
 *SpecEdit* consists in the design of an Integrated Development Environment (IDE) using JetBrains’ software MPS (MetaProgramming System) for the specification language TLA+.
 
 <p align="center"> 
