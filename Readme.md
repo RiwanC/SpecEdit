@@ -32,7 +32,7 @@ PS: if you want to customize the editor, do not hesitate to modify the settings 
 
 @RC
 
-N.B.: Current version of SpecEdit still needs improvements. 
+N.B.: The current version of SpecEdit still needs improvements. 
 - Comments are not fully supported by the current paster and custom persistence model. This means they have to be stripped from a plaintext file created outside of SpecEdit.
 - Identifier referencing is only partially implemented yet.
 - UX needs further development.
