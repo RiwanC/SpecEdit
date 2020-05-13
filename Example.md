@@ -1,29 +1,37 @@
 Below is a rendering of https://github.com/elastic/elasticsearch-formal-models/blob/master/ZenWithTerms/tla/ZenWithTerms.tla under SpecEdit:
 
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture1.png">
+<img src="ScreenshotsOfTheExample/Capture1.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture2.png">
+<img src="ScreenshotsOfTheExample/Capture2.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture3.png">
+<img src="ScreenshotsOfTheExample/Capture3.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture4.png">
+<img src="ScreenshotsOfTheExample/Capture4.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture5.png">
+<img src="ScreenshotsOfTheExample/Capture5.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture6.png">
+<img src="ScreenshotsOfTheExample/Capture6.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture7.png">
+<img src="ScreenshotsOfTheExample/Capture7.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture8.png">
+<img src="ScreenshotsOfTheExample/Capture8.PNG">
 </p>
+
 <p align="center"> 
-<img src="ScreenshotsOfTheExample/Capture9.png">
+<img src="ScreenshotsOfTheExample/Capture9.PNG">
 </p>
