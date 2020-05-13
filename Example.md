@@ -1,4 +1,7 @@
-Below is a rendering of https://github.com/elastic/elasticsearch-formal-models/blob/master/ZenWithTerms/tla/ZenWithTerms.tla under SpecEdit:
+Example
+===
+
+Below is a rendering of https://github.com/elastic/elasticsearch-formal-models/blob/master/ZenWithTerms/tla/ZenWithTerms.tla within SpecEdit:
 
 <p align="center"> 
 <img src="ScreenshotsOfTheExample/Capture1.PNG">
