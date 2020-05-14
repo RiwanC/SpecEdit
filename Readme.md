@@ -36,3 +36,4 @@ N.B.: The current version of SpecEdit still needs improvements.
 - Comments are not fully supported by the current paster and custom persistence model. This means they have to be stripped from a plaintext file created outside of SpecEdit.
 - Identifier referencing is only partially implemented yet.
 - UX needs sizable further development.
+- An ambiguity between "\/ Expression" / "/\ Expression" & "Expression InfixOp Expression" persists in the ANTLR grammar. \t have to be included in an update of the ANTLR grammar.
