@@ -1,7 +1,7 @@
 Example
 ===
 
-Below is a rendering of https://github.com/elastic/elasticsearch-formal-models/blob/master/ZenWithTerms/tla/ZenWithTerms.tla within SpecEdit:
+Below is a rendering of https://github.com/elastic/elasticsearch-formal-models/blob/master/ZenWithTerms/tla/ZenWithTerms.tla within SpecEdit (with the corresponding LateX rendering from the TLA+ Toolbox [ZenWithTermsLateX.pdf](ScreenshotsOfTheExample/ZenWithTermsLateX.pdf)):
 
 <p align="center"> 
 <img src="ScreenshotsOfTheExample/Capture1.PNG">
