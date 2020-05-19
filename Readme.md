@@ -16,6 +16,8 @@ The resulting IDE is a multiplatform standalone software which provides:
 -	Rendering with mathematical notations;
 -	Although graphical, an underlying plain text support for interoperability (in the form of a paste handler, text generators and a custom persistence model).
 
+An illustration of the rendering of a TLA+ specification in SpecEdit is provided in [example.md](example.md).
+
 How to build a standalone 'SpecEdit' IDE for your OS ?
 
 1) Download the full git repository SpecEdit-master.
