@@ -26,7 +26,7 @@ public class RangeQuantifierBoundAndExpr_TextGen extends TextGenDescriptorBase {
         }
       }
     }
-    tgs.append(" ↦ ");
+    tgs.append(" |-> ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$KHru));
     tgs.append("]");
   }

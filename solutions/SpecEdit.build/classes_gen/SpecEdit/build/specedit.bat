@@ -32,9 +32,9 @@ IF EXIST "%SpecEdit_JDK%" SET JDK=%SpecEdit_JDK%
 IF NOT "%JDK%" == "" GOTO check
 
 SET BITS=64
-SET USER_JDK64_FILE=%USERPROFILE%\.SpecEdit1.0\config\specedit%BITS%.exe.jdk
+SET USER_JDK64_FILE=%USERPROFILE%\.SpecEdit0.1\config\specedit%BITS%.exe.jdk
 SET BITS=
-SET USER_JDK_FILE=%USERPROFILE%\.SpecEdit1.0\config\specedit%BITS%.exe.jdk
+SET USER_JDK_FILE=%USERPROFILE%\.SpecEdit0.1\config\specedit%BITS%.exe.jdk
 IF EXIST "%USER_JDK64_FILE%" (
   SET /P JDK=<%USER_JDK64_FILE%
 ) ELSE (
@@ -94,7 +94,7 @@ IF NOT EXIST "%VM_OPTIONS_FILE%" (
 )
 IF NOT EXIST "%VM_OPTIONS_FILE%" (
   :: user-overridden
-  SET VM_OPTIONS_FILE=%USERPROFILE%\.SpecEdit1.0\config\mps%BITS%.exe.vmoptions
+  SET VM_OPTIONS_FILE=%USERPROFILE%\.SpecEdit0.1\config\mps%BITS%.exe.vmoptions
 )
 IF NOT EXIST "%VM_OPTIONS_FILE%" (
   :: default, standard installation
@@ -113,7 +113,7 @@ SET ACC=
 FOR /F "eol=# usebackq delims=" %%i IN ("%VM_OPTIONS_FILE%") DO CALL "%IDE_BIN_DIR%\append.bat" "%%i"
 IF EXIST "%VM_OPTIONS_FILE%" SET ACC=%ACC% -Djb.vmOptionsFile="%VM_OPTIONS_FILE%"
 
-SET IDEA_PATHS_SELECTOR=SpecEdit1.0
+SET IDEA_PATHS_SELECTOR=SpecEdit0.1
 SET COMMON_JVM_ARGS="-XX:ErrorFile=%USERPROFILE%\java_error_in_IDEA_%%p.log" "-XX:HeapDumpPath=%USERPROFILE%\java_error_in_IDEA.hprof" -Didea.paths.selector=%IDEA_PATHS_SELECTOR% %IDE_PROPERTIES_PROPERTY%
 SET IDE_JVM_ARGS=-Didea.platform.prefix=Idea -Didea.jre.check=true
 SET ALL_JVM_ARGS=%ACC% %COMMON_JVM_ARGS% %IDE_JVM_ARGS%

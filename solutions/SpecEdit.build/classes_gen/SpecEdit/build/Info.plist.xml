@@ -101,7 +101,7 @@
         <string>false</string>
         
         <key>idea.paths.selector</key>
-        <string>SpecEdit1.0</string>
+        <string>SpecEdit0.1</string>
         
         <key>idea.executable</key>
         <string>specedit</string>
@@ -111,7 +111,7 @@
         <key>idea.home.path</key>
         <string>$APP_PACKAGE/Contents</string>
       </dict>
-      <!--Use Contents/bin/specedit.vmoptions or ~/Library/Preferences/SpecEdit1.0/specedit.vmoptions file to modify VMOptions-->
+      <!--Use Contents/bin/specedit.vmoptions or ~/Library/Preferences/SpecEdit0.1/specedit.vmoptions file to modify VMOptions-->
       <key>VMOptions</key>
       <string>-XX:+UseCompressedOops</string>
       <key>WorkingDirectory</key>

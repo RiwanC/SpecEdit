@@ -14,7 +14,7 @@ public class QuantifierBound_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDs$9k$y));
-    tgs.append(" ∈ ");
+    tgs.append(" \\in ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$9k_w));
   }
 

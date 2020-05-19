@@ -13,16 +13,318 @@ public class IDAndInfixOpAndID_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
-    tgs.append(" ");
-    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation());
-    tgs.append(" ");
-    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≠") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("#");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊕") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("(+)");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⨀") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("(.)");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊘") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("(/)");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⨂") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("(\\X)");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⥅") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("-+->");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≤") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("=<");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⇒") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("=>");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≥") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append(">=");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≈") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\approx");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("Ø") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\oslash");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊒") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\sqsupseteq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≍") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\asymp");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≫") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\gg");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊗") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\otimes");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("◯") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\bigcirc");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("∈") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\in");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≺") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\prec");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⋐") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\subset");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("∙") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\bullet");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("∩") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\intersect");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⪯") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\preceq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊆") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\subseteq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⋂") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\cap");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("∧") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("/\\");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("∝") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\propto");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≻") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\succ");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⪰") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\succeq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≪") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\ll");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≃") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\simeq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊃") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\supset");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≅") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\cong");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("∨") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\/");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊓") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\sqcap");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊇") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\supseteq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("∪") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\cup");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("o") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\o");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊔") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\sqcup");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⋃") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\union");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("÷") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\div");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊙") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\odot");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊏") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\sqsubset");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊎") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\uplus");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≐") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\doteq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊖") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\ominus");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊑") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\sqsubseteq");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≀") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\wr");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("≡") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\equiv");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⨁") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\oplus");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation().toString().compareTo("⊐") == 0) {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append("\\sqsupset");
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    } else {
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID1$9c_w));
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$9cO2).getPresentation());
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.ID2$9cAu));
+    }
   }
 
   private static final class PROPS {
     /*package*/ static final SProperty ID1$9c_w = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87bL, "ID1");
-    /*package*/ static final SProperty InfixOp$9cO2 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac884L, "InfixOp");
     /*package*/ static final SProperty ID2$9cAu = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac87dL, "ID2");
+    /*package*/ static final SProperty InfixOp$9cO2 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x467903da84aac87aL, 0x467903da84aac884L, "InfixOp");
   }
 }

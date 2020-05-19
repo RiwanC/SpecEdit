@@ -61,8 +61,8 @@ cd "$OLDPWD"
 # ---------------------------------------------------------------------
 if [ -n "$SpecEdit_JDK" -a -x "$SpecEdit_JDK/bin/java" ]; then
   JDK="$SpecEdit_JDK"
-elif [ -s "$HOME/.SpecEdit1.0/config/specedit.jdk" ]; then
-  JDK=`"$CAT" $HOME/.SpecEdit1.0/config/specedit.jdk`
+elif [ -s "$HOME/.SpecEdit0.1/config/specedit.jdk" ]; then
+  JDK=`"$CAT" $HOME/.SpecEdit0.1/config/specedit.jdk`
   if [ ! -d "$JDK" ]; then
     JDK="$IDE_HOME/$JDK"
   fi
@@ -145,9 +145,9 @@ if [ -n "$IDEA_VM_OPTIONS" -a -r "$IDEA_VM_OPTIONS" ]; then
 elif [ -r "$IDE_HOME.vmoptions" ]; then
   # Toolbox
   VM_OPTIONS_FILE="$IDE_HOME.vmoptions"
-elif [ -r "$HOME/.SpecEdit1.0/config/mps$BITS.vmoptions" ]; then
+elif [ -r "$HOME/.SpecEdit0.1/config/mps$BITS.vmoptions" ]; then
   # user-overridden
-  VM_OPTIONS_FILE="$HOME/.SpecEdit1.0/config/mps$BITS.vmoptions"
+  VM_OPTIONS_FILE="$HOME/.SpecEdit0.1/config/mps$BITS.vmoptions"
 elif [ -r "$IDE_BIN_HOME/specedit$BITS.vmoptions" ]; then
   # default, standard installation
   VM_OPTIONS_FILE="$IDE_BIN_HOME/specedit$BITS.vmoptions"
@@ -169,7 +169,7 @@ if [ "$IS_EAP" = "true" ]; then
   OS_NAME=`echo "$OS_TYPE" | "$TR" '[:upper:]' '[:lower:]'`
   AGENT_LIB="yjpagent-$OS_NAME$BITS"
   if [ -r "$IDE_BIN_HOME/lib$AGENT_LIB.so" ]; then
-    AGENT="-agentlib:$AGENT_LIB=disablealloc,delay=10000,sessionname=SpecEdit1.0"
+    AGENT="-agentlib:$AGENT_LIB=disablealloc,delay=10000,sessionname=SpecEdit0.1"
   fi
 fi
 
@@ -193,7 +193,7 @@ fi
 # ---------------------------------------------------------------------
 IFS="$(printf '\n\t')"
 MAIN_CLASS=jetbrains.mps.Launcher
-IDEA_PATHS_SELECTOR=SpecEdit1.0
+IDEA_PATHS_SELECTOR=SpecEdit0.1
 LD_LIBRARY_PATH="$IDE_BIN_HOME:$LD_LIBRARY_PATH" "$JAVA_BIN" \
   ${AGENT} \
   -classpath "$CLASSPATH" \

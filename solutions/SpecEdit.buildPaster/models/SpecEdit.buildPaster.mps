@@ -112,7 +112,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="UATYiO5Bya">
-    <property role="TrG5h" value="SpecEdit" />
+    <property role="TrG5h" value="SpecEditPaster" />
     <property role="2DA0ip" value="../.." />
     <node concept="10PD9b" id="UATYiO5Byb" role="10PD9s" />
     <node concept="3b7kt6" id="UATYiO5Byc" role="10PD9s" />

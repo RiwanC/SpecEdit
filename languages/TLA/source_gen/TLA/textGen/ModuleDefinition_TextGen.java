@@ -20,7 +20,7 @@ public class ModuleDefinition_TextGen extends TextGenDescriptorBase {
     tgs.newLine();
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.NonFixLHS$uPR7));
     tgs.append(" ");
-    tgs.append("≜");
+    tgs.append("==");
     tgs.append(" ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Instance$yUit));
     if (tgs.needPositions()) {

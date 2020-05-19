@@ -16,7 +16,7 @@ public class NameArrowExpr_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.NameProperty$FGtw));
-    tgs.append(" ↦ ");
+    tgs.append(" |-> ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$FGCD));
   }
 

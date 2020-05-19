@@ -13,11 +13,313 @@ public class UnderscoreInfixOpUnderscoreNode_TextGen extends TextGenDescriptorBa
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(" ");
-    tgs.append("_");
-    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation());
-    tgs.append("_");
-    tgs.append(" ");
+    if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≠") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("#");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊕") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("(+)");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⨀") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("(.)");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊘") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("(/)");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⨂") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("(\\X)");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⥅") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("-+->");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≤") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("=<");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⇒") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("=>");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≥") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append(">=");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≈") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\approx");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("Ø") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\oslash");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊒") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\sqsupseteq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≍") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\asymp");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≫") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\gg");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊗") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\otimes");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("◯") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\bigcirc");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("∈") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\in");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≺") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\prec");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⋐") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\subset");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("∙") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\bullet");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("∩") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\intersect");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⪯") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\preceq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊆") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\subseteq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⋂") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\cap");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("∧") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("/\\");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("∝") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\propto");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≻") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\succ");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⪰") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\succeq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≪") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\ll");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≃") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\simeq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊃") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\supset");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≅") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\cong");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("∨") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\/");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊓") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\sqcap");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊇") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\supseteq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("∪") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\cup");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("o") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\o");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊔") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\sqcup");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⋃") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\union");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("÷") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\div");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊙") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\odot");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊏") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\sqsubset");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊎") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\uplus");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≐") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\doteq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊖") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\ominus");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊑") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\sqsubseteq");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≀") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\wr");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("≡") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\equiv");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⨁") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\oplus");
+      tgs.append("_");
+      tgs.append(" ");
+    } else if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation().toString().compareTo("⊐") == 0) {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append("\\sqsupset");
+      tgs.append("_");
+      tgs.append(" ");
+    } else {
+      tgs.append(" ");
+      tgs.append("_");
+      tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.InfixOp$eE2F).getPresentation());
+      tgs.append("_");
+      tgs.append(" ");
+    }
   }
 
   private static final class PROPS {

@@ -7,28 +7,37 @@ import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public class QuantifierAndIDListAndExpr_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(" ");
-    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.EorA$SB40).getPresentation());
-    tgs.append(" ");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDList$SB4Y));
-    tgs.append(" : ");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$SB5W));
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty EorA$SB40 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x18704c9560fe49d9L, 0x18704c9560fe49daL, "EorA");
+    if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.EorA$SB40).getPresentation().toString().compareTo("∀") == 0) {
+      tgs.append(" ");
+      tgs.append("\\A");
+      tgs.append(" ");
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDList$SB4Y));
+      tgs.append(" : ");
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$SB5W));
+    } else {
+      tgs.append(" ");
+      tgs.append("\\E");
+      tgs.append(" ");
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDList$SB4Y));
+      tgs.append(" : ");
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$SB5W));
+    }
   }
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink IDList$SB4Y = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x18704c9560fe49d9L, 0x18704c9560fe49dcL, "IDList");
     /*package*/ static final SContainmentLink Expr$SB5W = MetaAdapterFactory.getContainmentLink(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x18704c9560fe49d9L, 0x18704c9560fe49deL, "Expr");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty EorA$SB40 = MetaAdapterFactory.getProperty(0x7a6b8f83d2024e59L, 0x94ecf562edfca98dL, 0x18704c9560fe49d9L, 0x18704c9560fe49daL, "EorA");
   }
 }

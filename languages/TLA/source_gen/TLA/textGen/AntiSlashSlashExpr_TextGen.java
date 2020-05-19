@@ -13,7 +13,7 @@ public class AntiSlashSlashExpr_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(" ⋁ ");
+    tgs.append(" \\/ ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$h_40));
   }
 

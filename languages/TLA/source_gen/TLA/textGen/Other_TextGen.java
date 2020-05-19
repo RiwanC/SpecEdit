@@ -13,7 +13,7 @@ public class Other_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(" □ OTHER → ");
+    tgs.append(" [] OTHER -> ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$19R0));
   }
 

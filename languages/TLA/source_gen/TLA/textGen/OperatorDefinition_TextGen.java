@@ -23,7 +23,7 @@ public class OperatorDefinition_TextGen extends TextGenDescriptorBase {
     }
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.LHS$963w));
     tgs.append(" ");
-    tgs.append("≜");
+    tgs.append("==");
     tgs.append(" ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr$96eD));
     if (tgs.needPositions()) {

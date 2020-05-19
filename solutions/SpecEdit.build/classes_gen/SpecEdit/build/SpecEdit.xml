@@ -6,7 +6,7 @@
   <tstamp>
     <format property="date" pattern="yyyyMMdd" />
   </tstamp>
-  <property name="build.number" value="1.0" />
+  <property name="build.number" value="0.1" />
   <property name="mps_home" location="" />
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
   <property name="artifacts.mpsMakePlugin" location="${mps_home}/plugins" />
@@ -63,7 +63,8 @@
     <mkdir dir="${build.tmp}/default/branding.jar/idea" />
     <echoxml file="${build.tmp}/default/branding.jar/idea/IdeaApplicationInfo.xml">
       <component>
-        <version major="1" minor="0" eap="false" />
+        <version major="0" minor="1" eap="true" update-channel="https://github.com/RiwanC/SpecEdit" />
+        <company name="SpecEdit" url="https://github.com/RiwanC/SpecEdit" copyrightStart="SpecEdit" />
         <build number="${build.number}" date="${date}" />
         <logo url="/splash.png" textcolor="FFFFFF" progressColor="000000" />
         <about url="/about.png" foreground="FFFFFF" copyrightForeground="FFFFFF" />
@@ -74,8 +75,12 @@
         <welcome-screen logo-url="/logo.png" />
         
         
+        <plugins url="https://plugins.jetbrains.com" />
+        <update-urls check="https://github.com/RiwanC/SpecEdit" patches="https://github.com/RiwanC/SpecEdit" />
         
+        <documentation url="https://github.com/RiwanC/SpecEdit" />
         <support url="https://github.com/RiwanC/SpecEdit" />
+        <feedback eap-url="https://github.com/RiwanC/SpecEdit" />
         
       </component>
     </echoxml>
@@ -110,7 +115,9 @@
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>SpecEdit</id>
         <name>SpecEdit</name>
+        <description>An IDE for TLA+</description>
         <version>1.0</version>
+        <vendor url="https://github.com/RiwanC/SpecEdit">SpecEdit</vendor>
         <depends>jetbrains.mps.core</depends>
         
         <extensions defaultExtensionNs="com.intellij">

@@ -13,9 +13,9 @@ public class ExprTupleAndExpr_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("〈");
+    tgs.append("<<");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr1$tkCw));
-    tgs.append("〉_");
+    tgs.append(">>_");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr2$tkND));
   }
 

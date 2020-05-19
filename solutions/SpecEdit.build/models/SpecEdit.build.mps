@@ -138,16 +138,22 @@
       <concept id="6818892319992984815" name="jetbrains.mps.build.mps.structure.BuildMps_TipsPackage" flags="ng" index="20sUq0">
         <reference id="7323166234190549907" name="tips" index="21GgXK" />
       </concept>
+      <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
+        <property id="7832771629084799702" name="name" index="2iUeEt" />
+        <property id="7832771629084799701" name="url" index="2iUeEu" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
+        <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -159,6 +165,11 @@
       <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
+      </concept>
+      <concept id="781140262677906392" name="jetbrains.mps.build.mps.structure.BuildMps_BrandingCompany" flags="ng" index="IuM$Q">
+        <child id="781140262677906402" name="url" index="IuM$c" />
+        <child id="781140262677906401" name="name" index="IuM$f" />
+        <child id="2355727383336213970" name="copyrightStar" index="3fQQh0" />
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
@@ -175,6 +186,7 @@
       <concept id="7753544965996377997" name="jetbrains.mps.build.mps.structure.BuildMps_Branding" flags="ng" index="1zClus">
         <property id="3497141547781541445" name="minor" index="2OjLBK" />
         <property id="3497141547781541444" name="major" index="2OjLBL" />
+        <property id="3497141547781541446" name="eap" index="2OjLBN" />
         <child id="6845119683729294884" name="progressColor" index="27hGoL" />
         <child id="922958177840117051" name="script" index="2gvbiD" />
         <child id="6108265972537182997" name="aboutScreen" index="2EqU2s" />
@@ -182,14 +194,24 @@
         <child id="6108265972537229337" name="buildNumber" index="2EteIg" />
         <child id="6108265972537229339" name="icon16" index="2EteIi" />
         <child id="6108265972537229338" name="icon32" index="2EteIj" />
+        <child id="6108265972537335245" name="updateWebsite" index="2Etnp4" />
         <child id="6108265972537372847" name="product" index="2EtHGA" />
         <child id="6108265972537372848" name="fullName" index="2EtHGT" />
         <child id="8795525031433238889" name="textColor" index="HFo83" />
+        <child id="781140262677914381" name="company" index="IuKBz" />
+        <child id="781140262677761833" name="plugins" index="IvIn7" />
+        <child id="8877724874822185910" name="feedbackUrl" index="2Mmf0a" />
         <child id="1462305029084462472" name="buildDate" index="R$TG_" />
         <child id="772379520210716142" name="welcomeLogo" index="3vi$VU" />
         <child id="5894421362117323157" name="support" index="3$HL_E" />
+        <child id="5894421362116952242" name="documentation" index="3$Ir1d" />
         <child id="1084163669516664629" name="copyrightForeground" index="3KTKoD" />
         <child id="1084163669516639223" name="foreground" index="3KTYbF" />
+      </concept>
+      <concept id="7753544965996489991" name="jetbrains.mps.build.mps.structure.BuildMps_BrandingUpdateSite" flags="ng" index="1zDKOm">
+        <child id="6108265972537335225" name="updateUrl" index="2EtnoK" />
+        <child id="6108265972537335224" name="checkUrl" index="2EtnoL" />
+        <child id="8795525031433091059" name="updateChannel" index="HFWMp" />
       </concept>
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
@@ -213,9 +235,10 @@
     <node concept="10PD9b" id="6oOBu5XtYXC" role="10PD9s" />
     <node concept="3b7kt6" id="6oOBu5XtYXD" role="10PD9s" />
     <node concept="1zClus" id="6oOBu5XtYXT" role="3989C9">
-      <property role="2OjLBK" value="0" />
+      <property role="2OjLBK" value="1" />
       <property role="TrG5h" value="MPS" />
-      <property role="2OjLBL" value="1" />
+      <property role="2OjLBL" value="0" />
+      <property role="2OjLBN" value="true" />
       <node concept="55IIr" id="6oOBu5XtYXU" role="3vi$VU">
         <node concept="2Ry0Ak" id="6oOBu5XtYXV" role="iGT6I">
           <property role="2Ry0Am" value="icons" />
@@ -306,6 +329,55 @@
           <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
         </node>
       </node>
+      <node concept="IuM$Q" id="fOE3PXJzps" role="IuKBz">
+        <node concept="3_J27D" id="fOE3PXJzpt" role="IuM$f">
+          <node concept="3Mxwew" id="fOE3PXJzp$" role="3MwsjC">
+            <property role="3MwjfP" value="SpecEdit" />
+          </node>
+        </node>
+        <node concept="3_J27D" id="fOE3PXJzpu" role="IuM$c">
+          <node concept="3Mxwew" id="fOE3PXJzpA" role="3MwsjC">
+            <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
+          </node>
+        </node>
+        <node concept="NbPM2" id="fOE3PXJzpv" role="3fQQh0">
+          <node concept="3Mxwew" id="fOE3PXJzpC" role="3MwsjC">
+            <property role="3MwjfP" value="SpecEdit" />
+          </node>
+        </node>
+      </node>
+      <node concept="NbPM2" id="fOE3PXJzpF" role="IvIn7">
+        <node concept="3Mxwew" id="fOE3PXJTgl" role="3MwsjC">
+          <property role="3MwjfP" value="https://plugins.jetbrains.com" />
+        </node>
+      </node>
+      <node concept="1zDKOm" id="fOE3PXJzpI" role="2Etnp4">
+        <node concept="3_J27D" id="fOE3PXJzpJ" role="2EtnoL">
+          <node concept="3Mxwew" id="fOE3PXJzpO" role="3MwsjC">
+            <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
+          </node>
+        </node>
+        <node concept="3_J27D" id="fOE3PXJzpK" role="2EtnoK">
+          <node concept="3Mxwew" id="fOE3PXJzpQ" role="3MwsjC">
+            <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
+          </node>
+        </node>
+        <node concept="NbPM2" id="fOE3PXJYHH" role="HFWMp">
+          <node concept="3Mxwew" id="fOE3PXJYHK" role="3MwsjC">
+            <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
+          </node>
+        </node>
+      </node>
+      <node concept="NbPM2" id="fOE3PXJzpT" role="3$Ir1d">
+        <node concept="3Mxwew" id="fOE3PXJzpS" role="3MwsjC">
+          <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
+        </node>
+      </node>
+      <node concept="NbPM2" id="fOE3PXJzpX" role="2Mmf0a">
+        <node concept="3Mxwew" id="fOE3PXJzpW" role="3MwsjC">
+          <property role="3MwjfP" value="https://github.com/RiwanC/SpecEdit" />
+        </node>
+      </node>
     </node>
     <node concept="2kB4xC" id="6oOBu5XtYXE" role="1l3spd">
       <property role="TrG5h" value="date" />
@@ -317,8 +389,8 @@
       <property role="TrG5h" value="build.number" />
       <node concept="aVJcg" id="6oOBu5XtYXH" role="aVJcv">
         <node concept="NbPM2" id="6oOBu5XtYXI" role="aVJcq">
-          <node concept="3Mxwew" id="6oOBu5XtYXJ" role="3MwsjC">
-            <property role="3MwjfP" value="1.0" />
+          <node concept="3Mxwew" id="fOE3PXJIlx" role="3MwsjC">
+            <property role="3MwjfP" value="0.1" />
           </node>
         </node>
       </node>
@@ -429,7 +501,7 @@
             </node>
           </node>
           <node concept="1zDrgl" id="6oOBu5XtYZk" role="39821P">
-            <ref role="1zDrgn" node="6oOBu5XtYXT" resolve="SpecEdit 1.0" />
+            <ref role="1zDrgn" node="6oOBu5XtYXT" resolve="SpecEdit 0.1" />
           </node>
         </node>
       </node>
@@ -509,6 +581,15 @@
       <node concept="3_J27D" id="6oOBu5XtYYK" role="m_cZH">
         <node concept="3Mxwew" id="6oOBu5XtYYL" role="3MwsjC">
           <property role="3MwjfP" value="SpecEdit" />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="fOE3PXJzq0" role="2iVFfd">
+        <property role="2iUeEt" value="SpecEdit" />
+        <property role="2iUeEu" value="https://github.com/RiwanC/SpecEdit" />
+      </node>
+      <node concept="3_J27D" id="fOE3PXJYHU" role="3s6cr7">
+        <node concept="3Mxwew" id="fOE3PXJYHW" role="3MwsjC">
+          <property role="3MwjfP" value="An IDE for TLA+" />
         </node>
       </node>
     </node>
@@ -721,10 +802,7 @@
             <property role="3MwjfP" value="SpecEdit" />
           </node>
           <node concept="3Mxwew" id="6oOBu5XtZ1T" role="3MwsjC">
-            <property role="3MwjfP" value="-" />
-          </node>
-          <node concept="3Mxwey" id="6oOBu5XtZ1U" role="3MwsjC">
-            <ref role="3Mxwex" node="6oOBu5XtYXG" resolve="build.number" />
+            <property role="3MwjfP" value="-0.1" />
           </node>
           <node concept="3Mxwew" id="6oOBu5XtZ1V" role="3MwsjC">
             <property role="3MwjfP" value=".win.zip" />
@@ -739,8 +817,8 @@
       <property role="TrG5h" value="version" />
       <node concept="aVJcg" id="6oOBu5XtYZQ" role="aVJcv">
         <node concept="NbPM2" id="6oOBu5XtYZR" role="aVJcq">
-          <node concept="3Mxwew" id="6oOBu5XtYZS" role="3MwsjC">
-            <property role="3MwjfP" value="1.0" />
+          <node concept="3Mxwew" id="fOE3PXJIlG" role="3MwsjC">
+            <property role="3MwjfP" value="0.1" />
           </node>
         </node>
       </node>
@@ -750,7 +828,7 @@
     <property role="26EafI" value="-" />
     <property role="26FY9R" value="jetbrains.mps.Launcher" />
     <property role="TrG5h" value="SpecEditScripts" />
-    <ref role="1_kbm$" node="6oOBu5XtYXT" resolve="SpecEdit 1.0" />
+    <ref role="1_kbm$" node="6oOBu5XtYXT" resolve="SpecEdit 0.1" />
     <node concept="26EafG" id="6oOBu5XtZ3G" role="26Ea7d">
       <property role="26EafJ" value="lib/branding.jar" />
     </node>

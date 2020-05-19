@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/SpecEditDistribution" />
   <property name="build.layout" location="${build.dir}/artifacts/SpecEditDistribution" />
   <property name="mps_home" location="" />
-  <property name="version" value="1.0" />
+  <property name="version" value="0.1" />
   <property name="artifacts.SpecEdit" location="${build.dir}/artifacts/SpecEdit" />
   <property file="${artifacts.SpecEdit}/build.properties" prefix="import.SpecEdit" />
   <property name="SpecEdit.date" value="${import.SpecEdit.SpecEdit.date}" />
@@ -13,30 +13,30 @@
   
   <target name="assemble" depends="fetchDependencies">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip" />
-    <mkdir dir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip/bin" />
-    <copy todir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip/bin">
+    <mkdir dir="${build.tmp}/default/SpecEdit-0.1.win.zip" />
+    <mkdir dir="${build.tmp}/default/SpecEdit-0.1.win.zip/bin" />
+    <copy todir="${build.tmp}/default/SpecEdit-0.1.win.zip/bin">
       <fileset file="${basedir}/solutions/SpecEdit.build/source_gen/SpecEdit/build/specedit.vmoptions" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
       <globmapper from="*" to="specedit.exe.vmoptions" />
     </copy>
-    <copy todir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip/bin">
+    <copy todir="${build.tmp}/default/SpecEdit-0.1.win.zip/bin">
       <fileset file="${basedir}/solutions/SpecEdit.build/source_gen/SpecEdit/build/specedit64.vmoptions" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
       <globmapper from="*" to="specedit64.exe.vmoptions" />
     </copy>
-    <mkdir dir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip_f755" />
-    <copy todir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip_f755">
+    <mkdir dir="${build.tmp}/default/SpecEdit-0.1.win.zip_f755" />
+    <copy todir="${build.tmp}/default/SpecEdit-0.1.win.zip_f755">
       <fileset file="${basedir}/solutions/SpecEdit.build/source_gen/SpecEdit/build/specedit.bat" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
     </copy>
-    <zip destfile="${build.layout}/SpecEdit-${SpecEdit.build.number}.win.zip">
+    <zip destfile="${build.layout}/SpecEdit-0.1.win.zip">
       <fileset dir="${artifacts.SpecEdit}" />
       <zipfileset dir="${mps_home}/bin/win" prefix="bin">
         <exclude name="**/*.exe" />
@@ -46,8 +46,8 @@
         <include name="**/*.exe" />
         <include name="**/append.bat" />
       </zipfileset>
-      <zipfileset dir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip_f755" filemode="755" prefix="bin" />
-      <fileset dir="${build.tmp}/default/SpecEdit-_dl__lbrace_build.number_rbrace_.win.zip" />
+      <zipfileset dir="${build.tmp}/default/SpecEdit-0.1.win.zip_f755" filemode="755" prefix="bin" />
+      <fileset dir="${build.tmp}/default/SpecEdit-0.1.win.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">SpecEditDistribution.version=${version}${line.separator}SpecEdit.date=${SpecEdit.date}${line.separator}SpecEdit.build.number=${SpecEdit.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>

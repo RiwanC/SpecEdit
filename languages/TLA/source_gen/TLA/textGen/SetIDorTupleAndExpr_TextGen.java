@@ -15,7 +15,7 @@ public class SetIDorTupleAndExpr_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("{");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.IDorTuple$Hdow));
-    tgs.append(" ∈ ");
+    tgs.append(" \\in ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr1$Hdpu));
     tgs.append(" : ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Expr2$Hd_6));
