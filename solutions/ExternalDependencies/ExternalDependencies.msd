@@ -4,12 +4,12 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="C:/Users/riwan/Desktop/SpecEdit/SpecEdit/libs" type="java_classes">
+    <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="antlr2mps-all.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="C:/Users/riwan/Desktop/SpecEdit/SpecEdit/libs/antlr2mps-all.jar" />
+    <stubModelEntry path="${module}/libs/antlr2mps-all.jar" />
   </stubModelEntries>
   <sourcePath />
   <languageVersions>

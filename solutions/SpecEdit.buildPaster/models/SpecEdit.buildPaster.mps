@@ -143,10 +143,16 @@
             </node>
             <node concept="28jJK3" id="UATYiOa9Nd" role="39821P">
               <node concept="55IIr" id="UATYiOa9Ne" role="28jJRO">
-                <node concept="2Ry0Ak" id="UATYiOa9Nn" role="iGT6I">
-                  <property role="2Ry0Am" value="libs" />
-                  <node concept="2Ry0Ak" id="UATYiOa9Ns" role="2Ry0An">
-                    <property role="2Ry0Am" value="antlr2mps-all.jar" />
+                <node concept="2Ry0Ak" id="2hvU5jjQgw9" role="iGT6I">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="2hvU5jjQgwj" role="2Ry0An">
+                    <property role="2Ry0Am" value="ExternalDependencies" />
+                    <node concept="2Ry0Ak" id="2hvU5jjQgwo" role="2Ry0An">
+                      <property role="2Ry0Am" value="libs" />
+                      <node concept="2Ry0Ak" id="2hvU5jjQgwt" role="2Ry0An">
+                        <property role="2Ry0Am" value="antlr2mps-all.jar" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -196,13 +202,19 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="UATYiO5ByR" role="3bR37C">
-          <node concept="1BurEX" id="UATYiO5ByS" role="1SiIV1">
-            <node concept="55IIr" id="UATYiO5ByO" role="1BurEY">
-              <node concept="2Ry0Ak" id="UATYiO5ByP" role="iGT6I">
-                <property role="2Ry0Am" value="libs" />
-                <node concept="2Ry0Ak" id="UATYiO5ByQ" role="2Ry0An">
-                  <property role="2Ry0Am" value="antlr2mps-all.jar" />
+        <node concept="1SiIV0" id="2hvU5jjGF7I" role="3bR37C">
+          <node concept="1BurEX" id="2hvU5jjGF7J" role="1SiIV1">
+            <node concept="55IIr" id="2hvU5jjGF7D" role="1BurEY">
+              <node concept="2Ry0Ak" id="2hvU5jjGF7E" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2hvU5jjGF7F" role="2Ry0An">
+                  <property role="2Ry0Am" value="ExternalDependencies" />
+                  <node concept="2Ry0Ak" id="2hvU5jjGF7G" role="2Ry0An">
+                    <property role="2Ry0Am" value="libs" />
+                    <node concept="2Ry0Ak" id="2hvU5jjGF7H" role="2Ry0An">
+                      <property role="2Ry0Am" value="antlr2mps-all.jar" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
